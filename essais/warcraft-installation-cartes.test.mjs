@@ -16,7 +16,7 @@ const merge = (cible, ajout) => {
 globalThis.foundry = { applications: { api: { ApplicationV2: class {}, HandlebarsApplicationMixin: c => c, DialogV2: {} } },
   utils: { mergeObject: (a, b) => merge(a, b) } };
 globalThis.Hooks = { once() {}, on() {} };
-const { carteVivante, rafraichirScene } = await import("../modules/lakour-warcraft/scripts/main.js");
+const { carteVivante, rafraichirScene, visibiliteDuCompendium } = await import("../modules/lakour-warcraft/scripts/main.js");
 const ID = "lakour-warcraft";
 
 const source = {
@@ -51,4 +51,14 @@ test("cartes vivantes : une scène d'une version précédente est rafraîchie un
   journal.length = 0;
   assert.equal(await rafraichirScene(scene, compendium, new Map()), false, "déjà à jour : rien");
   assert.equal(journal.length, 0);
+});
+
+test("journaux du module : un guide importé caché redevient visible comme au compendium, jamais l'inverse", async () => {
+  const maj = [];
+  const journal = defaut => ({ ownership: { default: defaut }, async update(d) { maj.push(d); } });
+  assert.equal(await visibiliteDuCompendium(journal(0), { ownership: { default: 2 } }), true);
+  assert.deepEqual(maj, [{ "ownership.default": 2 }]);
+  assert.equal(await visibiliteDuCompendium(journal(2), { ownership: { default: 0 } }), false, "un journal visible n'est jamais recaché");
+  assert.equal(await visibiliteDuCompendium(journal(2), { ownership: { default: 2 } }), false);
+  assert.equal(maj.length, 1);
 });

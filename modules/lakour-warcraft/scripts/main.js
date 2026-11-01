@@ -2,7 +2,7 @@
 // aventures rangées par dossier (les lieux génériques « lieu-… » restent au compendium, le MJ IA les importe au besoin),
 // plans des cartes pour le placement des jetons, style visuel plat ou relief.
 const ID = "lakour-warcraft";
-const VERSION_CONTENU = "0.4.0";   // 0.4.0 : journaux liés (@UUID, jets), listes de sorts, cartes vivantes (sons, zones, épingles)
+const VERSION_CONTENU = "0.4.1";   // 0.4.0 : journaux liés (@UUID, jets), listes de sorts, cartes vivantes (sons, zones, épingles)
 
 const { ApplicationV2, HandlebarsApplicationMixin, DialogV2 } = foundry.applications.api;
 
@@ -61,6 +61,15 @@ async function rafraichirJournal(existant, source) {
   return true;
 }
 
+// Un journal du module garde la visibilité de son compendium (guide du joueur, aides de jeu : visibles). Sans
+// clearOwnership: false, Foundry l'importerait caché. Un journal du monde trop caché est rendu visible ; jamais l'inverse.
+export async function visibiliteDuCompendium(existant, source) {
+  const voulu = source.ownership?.default ?? 0;
+  if ((existant.ownership?.default ?? 0) >= voulu) return false;
+  await existant.update({ "ownership.default": voulu });
+  return true;
+}
+
 // Sons d'ambiance, zones et épingles des cartes du module, marqués comme tels. Les épingles visent les journaux du monde
 // (journaux : identifiant au compendium -> identifiant dans le monde ; les pages gardent les leurs).
 const COLLECTIONS_VIVANTES = [["AmbientSound", "sounds"], ["Region", "regions"], ["Note", "notes"]];
@@ -98,11 +107,12 @@ export async function installer() {
     if (existant) {
       journauxDuMonde.set(j.id, existant.id);
       if (await rafraichirJournal(existant, j)) rapport.push(`${j.name} (mis à jour)`);
+      if (await visibiliteDuCompendium(existant, j)) rapport.push(`${j.name} (rendu visible des joueurs)`);
       continue;
     }
     // Même identifiant qu'au compendium (s'il est libre) : les épingles des cartes le visent.
     const libre = !game.journal.get(j.id);
-    const donnees = foundry.utils.mergeObject(game.journal.fromCompendium(j, { keepId: libre }), { [`flags.${ID}.version`]: VERSION_CONTENU });
+    const donnees = foundry.utils.mergeObject(game.journal.fromCompendium(j, { keepId: libre, clearOwnership: false }), { [`flags.${ID}.version`]: VERSION_CONTENU });
     const cree = await JournalEntry.implementation.create({ ...donnees, folder: (await dossier("JournalEntry", "La Kour Warcraft")).id }, { keepId: libre });
     journauxDuMonde.set(j.id, cree.id);
     rapport.push(j.name);

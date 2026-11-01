@@ -2,7 +2,7 @@
   "id": "lakour-warcraft",
   "title": "La Kour Warcraft – Azeroth pour D&D 5e",
   "description": "Contenu maison et en français pour jouer dans l'univers de Warcraft avec D&D 5e (règles 2024) : peuples d'Azeroth, historiques, bestiaire, guides du joueur et du MJ, aventure de départ avec cartes jouables. Textes originaux, pour un usage privé à la table. Jetons : icônes de game-icons.net (licence CC BY 3.0), voir CREDITS.md.",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "authors": [{ "name": "Jordan" }],
   "compatibility": { "minimum": "14", "verified": "14.369" },
   "relationships": {
