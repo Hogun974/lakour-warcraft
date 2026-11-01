@@ -1,0 +1,162 @@
+{
+  "_id": "WtnajfAuJUIYAx9E",
+  "_key": "!tables!WtnajfAuJUIYAx9E",
+  "name": "Temps et chemins",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Le temps qu'il fait et l'état de la route pour une journée de voyage. Effets en règles 2024 : à appliquer si la scène s'y prête.</p>",
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "temps-et-chemins"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "0QU8FZyHF6QWtKdT",
+      "_key": "!tables.results!WtnajfAuJUIYAx9E.0QU8FZyHF6QWtKdT",
+      "type": "text",
+      "name": "Beau temps",
+      "description": "<p>Ciel clair, route sèche. Le voyage se passe bien : une rencontre sociale plutôt qu'un danger, si vous en tirez une.</p>",
+      "range": [
+        1,
+        2
+      ],
+      "weight": 2,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "2vuBOgpfNhvxMlmh",
+      "_key": "!tables.results!WtnajfAuJUIYAx9E.2vuBOgpfNhvxMlmh",
+      "type": "text",
+      "name": "Brouillard",
+      "description": "<p>Visibilité réduite à une trentaine de mètres : désavantage aux tests de Sagesse (Perception) basés sur la vue, et s'orienter demande un test de Sagesse (Survie) DD 12.</p>",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "5mDkKTz41bu106Lz",
+      "_key": "!tables.results!WtnajfAuJUIYAx9E.5mDkKTz41bu106Lz",
+      "type": "text",
+      "name": "Pluie battante",
+      "description": "<p>Feux difficiles à allumer, cordes d'arc détrempées : désavantage aux tests de Sagesse (Perception) basés sur l'ouïe ; la journée parcourt un tiers de distance en moins.</p>",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "HZUX2xkxOixyYPTq",
+      "_key": "!tables.results!WtnajfAuJUIYAx9E.HZUX2xkxOixyYPTq",
+      "type": "text",
+      "name": "Chaleur écrasante",
+      "description": "<p>Sans eau en abondance, chaque voyageur fait un jet de sauvegarde de Constitution DD 10 en fin de journée ; un échec donne un niveau d'Épuisement.</p>",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "Ud9Mw3QZsGg2FB8T",
+      "_key": "!tables.results!WtnajfAuJUIYAx9E.Ud9Mw3QZsGg2FB8T",
+      "type": "text",
+      "name": "Froid mordant",
+      "description": "<p>Sans vêtements chauds, jet de sauvegarde de Constitution DD 10 à la tombée de la nuit ; un échec donne un niveau d'Épuisement. Le gel rend les pentes glissantes.</p>",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "B09130lzuaauVnb3",
+      "_key": "!tables.results!WtnajfAuJUIYAx9E.B09130lzuaauVnb3",
+      "type": "text",
+      "name": "Pont effondré",
+      "description": "<p>La rivière en crue a emporté le pont. Trouver un gué (Sagesse (Survie) DD 13), construire un passage, ou perdre une demi-journée à contourner.</p>",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "2NEmfoJekYpr4nCx",
+      "_key": "!tables.results!WtnajfAuJUIYAx9E.2NEmfoJekYpr4nCx",
+      "type": "text",
+      "name": "Route gardée",
+      "description": "<p>Un poste de péage ou de faction barre le chemin. Payer, négocier (Charisme (Persuasion) DD 12), ou chercher un autre passage.</p>",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "047dmbgFcjupQdVI",
+      "_key": "!tables.results!WtnajfAuJUIYAx9E.047dmbgFcjupQdVI",
+      "type": "text",
+      "name": "Orage élémentaire",
+      "description": "<p>La foudre frappe trop souvent au même endroit. Vite, un abri : dehors, chaque heure, jet de sauvegarde de Dextérité DD 12 ou 2d6 dégâts de foudre. Un chaman y verrait des esprits en colère.</p>",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "CNAgIonP1YJRG4yV",
+      "_key": "!tables.results!WtnajfAuJUIYAx9E.CNAgIonP1YJRG4yV",
+      "type": "text",
+      "name": "Ciel de gangrène",
+      "description": "<p>Une lueur verte à l'horizon, une pluie qui sent le soufre. Rien n'arrive aujourd'hui, mais les bêtes sont nerveuses et quelqu'un, quelque part, invoque quelque chose.</p>",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    }
+  ]
+}

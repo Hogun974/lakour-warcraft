@@ -1,0 +1,207 @@
+{
+  "_id": "LkTFIlylwvlzuTtp",
+  "_key": "!tables!LkTFIlylwvlzuTtp",
+  "name": "Visages d'Azeroth",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Un PNJ au pied levé : son allure, sa manie, ce qu'il veut et ce qu'il cache. Changez le peuple au besoin.</p>",
+  "formula": "1d12",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "visages-d-azeroth"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "ROuDfQwv0erZlsVb",
+      "_key": "!tables.results!LkTFIlylwvlzuTtp.ROuDfQwv0erZlsVb",
+      "type": "text",
+      "name": "Odile, passeuse humaine",
+      "description": "<p>Mains calleuses, chapeau de paille trempé. Compte tout à voix haute. Veut racheter la barque de son défunt mari. Cache qu'elle fait passer des réfugiés sans papiers.</p>",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "ayZaHRtvmuybYQZd",
+      "_key": "!tables.results!LkTFIlylwvlzuTtp.ayZaHRtvmuybYQZd",
+      "type": "text",
+      "name": "Brannok, mineur nain",
+      "description": "<p>Barbe roussie, une lampe éteinte à la ceinture. Tape deux fois sur le bois avant de parler. Veut retrouver son frère, perdu sous la montagne. Cache qu'il a scellé la galerie lui-même.</p>",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "7C4jwdwUKkJA5lLu",
+      "_key": "!tables.results!LkTFIlylwvlzuTtp.7C4jwdwUKkJA5lLu",
+      "type": "text",
+      "name": "Gazzle, intermédiaire gobelin",
+      "description": "<p>Monocle fêlé, sourire trop large. Cite des taux d'intérêt comme des proverbes. Veut une signature, n'importe laquelle. Cache qu'il doit de l'argent au mauvais cartel.</p>",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "uNeLJ7jsvYtYZLVt",
+      "_key": "!tables.results!LkTFIlylwvlzuTtp.uNeLJ7jsvYtYZLVt",
+      "type": "text",
+      "name": "Ysera-lune, sentinelle elfe de la nuit",
+      "description": "<p>Arc au dos, regard qui ne cligne jamais. Parle aux arbres avant de parler aux gens. Veut qu'on quitte sa forêt avant la nuit. Cache qu'elle a laissé passer un ennemi, une fois.</p>",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "8QW0qV6BmlLvwROf",
+      "_key": "!tables.results!LkTFIlylwvlzuTtp.8QW0qV6BmlLvwROf",
+      "type": "text",
+      "name": "Kurgash, vétéran orc",
+      "description": "<p>Une défense cassée, cicatrices de chaînes aux poignets. Rit fort et tard. Veut une mort honorable, pas une vieillesse. Cache qu'il fait encore des cauchemars des camps.</p>",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "ApD7iNDk0Gr0tqeH",
+      "_key": "!tables.results!LkTFIlylwvlzuTtp.ApD7iNDk0Gr0tqeH",
+      "type": "text",
+      "name": "Mama Zebu, herboriste troll",
+      "description": "<p>Colliers d'os, pipe éteinte. Répond aux questions par d'autres questions. Veut une plante qui ne pousse que sur une tombe précise. Cache qu'elle parle aux loas d'un mort récent.</p>",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "HDAIwZTcmEaRBE76",
+      "_key": "!tables.results!LkTFIlylwvlzuTtp.HDAIwZTcmEaRBE76",
+      "type": "text",
+      "name": "Ahote, chasseur tauren",
+      "description": "<p>Énorme et silencieux, une plume blanche à la corne. S'excuse auprès de chaque bête qu'il abat. Veut venger un troupeau massacré. Cache qu'il soupçonne un membre de sa propre tribu.</p>",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "aMnzGRTuuD3nNQKM",
+      "_key": "!tables.results!LkTFIlylwvlzuTtp.aMnzGRTuuD3nNQKM",
+      "type": "text",
+      "name": "Silas Grisemine, apothicaire réprouvé",
+      "description": "<p>Mâchoire recousue, gants toujours propres. Note tout dans un carnet. Veut un échantillon « frais ». Cache qu'il cherche un remède, pas une arme.</p>",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "KBVadkUkEnI2xVzy",
+      "_key": "!tables.results!LkTFIlylwvlzuTtp.KBVadkUkEnI2xVzy",
+      "type": "text",
+      "name": "Lady Caelith, émissaire elfe de sang",
+      "description": "<p>Robe impeccable malgré la boue, gemme verte au cou. Ne touche jamais rien sans gants. Veut un artefact pour sa maison. Cache que la gemme lui murmure la nuit.</p>",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "z28ok00l7PAUGZQZ",
+      "_key": "!tables.results!LkTFIlylwvlzuTtp.z28ok00l7PAUGZQZ",
+      "type": "text",
+      "name": "Frère Aldous, prêtre en route",
+      "description": "<p>Robe usée, chaussures neuves. Bénit tout, même la soupe. Veut escorter des orphelins jusqu'à Hurlevent. Cache que l'un d'eux est un worgen qui s'ignore.</p>",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "98PsxGLW9a2tCJmr",
+      "_key": "!tables.results!LkTFIlylwvlzuTtp.98PsxGLW9a2tCJmr",
+      "type": "text",
+      "name": "Tibbi Rouage-Fou, ingénieuse gnome",
+      "description": "<p>Lunettes à six verres, sourcils brûlés. Démonte ce qu'on lui prête. Veut tester un prototype « presque sûr ». Cache que le précédent a rasé une grange.</p>",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "Q6pvAuLIQKdWD9R7",
+      "_key": "!tables.results!LkTFIlylwvlzuTtp.Q6pvAuLIQKdWD9R7",
+      "type": "text",
+      "name": "Shen Pas-de-Brume, brasseur pandaren",
+      "description": "<p>Ventre rond, gourde à la hanche, calme absolu. Offre à boire avant de parler affaires. Veut une recette perdue dans des ruines. Cache qu'il fuit une dette de jeu envers un ogre.</p>",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    }
+  ]
+}

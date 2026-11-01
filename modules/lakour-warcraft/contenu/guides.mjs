@@ -236,7 +236,7 @@ La magie des trolls : loa (esprits-animaux), poupées, malédictions, potions. *
 
 - **Commencez par un lieu concret** : une odeur, un bruit, un détail propre à Warcraft (un murloc qui gargouille, une cloche de zeppelin, un totem de vent qui siffle).
 - **Les grands noms restent loin.** Thrall, Jaina, Sylvanas ou Cairne peuvent envoyer un messager ou passer au loin ; ils ne résolvent pas les problèmes des joueurs.
-- **Tirez dans les tables** (noms, rumeurs, rencontres, complications) quand l'inspiration manque, puis adaptez.
+- **Tirez dans les tables** (noms, rumeurs, rencontres, complications, trouvailles ; visages d'Azeroth pour un PNJ au pied levé ; temps et chemins pour une journée de voyage) quand l'inspiration manque, puis adaptez.
 - **Respectez les règles 2024** : avantage et désavantage plutôt que des modificateurs, DD 10/15/20 pour facile/moyen/difficile, inspiration héroïque pour une belle idée.
 - **Les traits des peuples sont dans les fiches** : quand un tauren charge ou qu'un réprouvé dévore un cadavre, décrivez-le, et faites réagir les témoins.
 
@@ -356,4 +356,39 @@ const trouvailles = table({
   ]
 });
 
-export const TABLES = [noms, rumeurs, rencontres, complications, trouvailles];
+const visages = table({
+  cle: "visages-d-azeroth", nom: "Visages d'Azeroth", formule: "1d12",
+  description: "Un PNJ au pied levé : son allure, sa manie, ce qu'il veut et ce qu'il cache. Changez le peuple au besoin.",
+  resultats: [
+    [1, 1, { titre: "Odile, passeuse humaine", texte: "Mains calleuses, chapeau de paille trempé. Compte tout à voix haute. Veut racheter la barque de son défunt mari. Cache qu'elle fait passer des réfugiés sans papiers." }],
+    [2, 2, { titre: "Brannok, mineur nain", texte: "Barbe roussie, une lampe éteinte à la ceinture. Tape deux fois sur le bois avant de parler. Veut retrouver son frère, perdu sous la montagne. Cache qu'il a scellé la galerie lui-même." }],
+    [3, 3, { titre: "Gazzle, intermédiaire gobelin", texte: "Monocle fêlé, sourire trop large. Cite des taux d'intérêt comme des proverbes. Veut une signature, n'importe laquelle. Cache qu'il doit de l'argent au mauvais cartel." }],
+    [4, 4, { titre: "Ysera-lune, sentinelle elfe de la nuit", texte: "Arc au dos, regard qui ne cligne jamais. Parle aux arbres avant de parler aux gens. Veut qu'on quitte sa forêt avant la nuit. Cache qu'elle a laissé passer un ennemi, une fois." }],
+    [5, 5, { titre: "Kurgash, vétéran orc", texte: "Une défense cassée, cicatrices de chaînes aux poignets. Rit fort et tard. Veut une mort honorable, pas une vieillesse. Cache qu'il fait encore des cauchemars des camps." }],
+    [6, 6, { titre: "Mama Zebu, herboriste troll", texte: "Colliers d'os, pipe éteinte. Répond aux questions par d'autres questions. Veut une plante qui ne pousse que sur une tombe précise. Cache qu'elle parle aux loas d'un mort récent." }],
+    [7, 7, { titre: "Ahote, chasseur tauren", texte: "Énorme et silencieux, une plume blanche à la corne. S'excuse auprès de chaque bête qu'il abat. Veut venger un troupeau massacré. Cache qu'il soupçonne un membre de sa propre tribu." }],
+    [8, 8, { titre: "Silas Grisemine, apothicaire réprouvé", texte: "Mâchoire recousue, gants toujours propres. Note tout dans un carnet. Veut un échantillon « frais ». Cache qu'il cherche un remède, pas une arme." }],
+    [9, 9, { titre: "Lady Caelith, émissaire elfe de sang", texte: "Robe impeccable malgré la boue, gemme verte au cou. Ne touche jamais rien sans gants. Veut un artefact pour sa maison. Cache que la gemme lui murmure la nuit." }],
+    [10, 10, { titre: "Frère Aldous, prêtre en route", texte: "Robe usée, chaussures neuves. Bénit tout, même la soupe. Veut escorter des orphelins jusqu'à Hurlevent. Cache que l'un d'eux est un worgen qui s'ignore." }],
+    [11, 11, { titre: "Tibbi Rouage-Fou, ingénieuse gnome", texte: "Lunettes à six verres, sourcils brûlés. Démonte ce qu'on lui prête. Veut tester un prototype « presque sûr ». Cache que le précédent a rasé une grange." }],
+    [12, 12, { titre: "Shen Pas-de-Brume, brasseur pandaren", texte: "Ventre rond, gourde à la hanche, calme absolu. Offre à boire avant de parler affaires. Veut une recette perdue dans des ruines. Cache qu'il fuit une dette de jeu envers un ogre." }]
+  ]
+});
+
+const chemins = table({
+  cle: "temps-et-chemins", nom: "Temps et chemins", formule: "1d10",
+  description: "Le temps qu'il fait et l'état de la route pour une journée de voyage. Effets en règles 2024 : à appliquer si la scène s'y prête.",
+  resultats: [
+    [1, 2, { titre: "Beau temps", texte: "Ciel clair, route sèche. Le voyage se passe bien : une rencontre sociale plutôt qu'un danger, si vous en tirez une." }],
+    [3, 3, { titre: "Brouillard", texte: "Visibilité réduite à une trentaine de mètres : désavantage aux tests de Sagesse (Perception) basés sur la vue, et s'orienter demande un test de Sagesse (Survie) DD 12." }],
+    [4, 4, { titre: "Pluie battante", texte: "Feux difficiles à allumer, cordes d'arc détrempées : désavantage aux tests de Sagesse (Perception) basés sur l'ouïe ; la journée parcourt un tiers de distance en moins." }],
+    [5, 5, { titre: "Chaleur écrasante", texte: "Sans eau en abondance, chaque voyageur fait un jet de sauvegarde de Constitution DD 10 en fin de journée ; un échec donne un niveau d'Épuisement." }],
+    [6, 6, { titre: "Froid mordant", texte: "Sans vêtements chauds, jet de sauvegarde de Constitution DD 10 à la tombée de la nuit ; un échec donne un niveau d'Épuisement. Le gel rend les pentes glissantes." }],
+    [7, 7, { titre: "Pont effondré", texte: "La rivière en crue a emporté le pont. Trouver un gué (Sagesse (Survie) DD 13), construire un passage, ou perdre une demi-journée à contourner." }],
+    [8, 8, { titre: "Route gardée", texte: "Un poste de péage ou de faction barre le chemin. Payer, négocier (Charisme (Persuasion) DD 12), ou chercher un autre passage." }],
+    [9, 9, { titre: "Orage élémentaire", texte: "La foudre frappe trop souvent au même endroit. Vite, un abri : dehors, chaque heure, jet de sauvegarde de Dextérité DD 12 ou 2d6 dégâts de foudre. Un chaman y verrait des esprits en colère." }],
+    [10, 10, { titre: "Ciel de gangrène", texte: "Une lueur verte à l'horizon, une pluie qui sent le soufre. Rien n'arrive aujourd'hui, mais les bêtes sont nerveuses et quelqu'un, quelque part, invoque quelque chose." }]
+  ]
+});
+
+export const TABLES = [noms, rumeurs, rencontres, complications, trouvailles, visages, chemins];
