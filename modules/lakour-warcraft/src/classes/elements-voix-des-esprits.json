@@ -1,0 +1,64 @@
+{
+  "_id": "n7MrChlMNcFH03ts",
+  "_key": "!items!n7MrChlMNcFH03ts",
+  "name": "Voix des esprits",
+  "type": "feat",
+  "img": "icons/magic/air/air-wave-gust-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous parlez, lisez et écrivez le <strong>primordial</strong>, la langue des esprits élémentaires. Vous maîtrisez en outre <strong>Nature</strong> ou <strong>Survie</strong> (au choix) : les esprits vous montrent où passe l'eau et où gronde la pierre.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "elements-voix-des-esprits",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Domaine des Éléments",
+    "prerequisites": {
+      "level": 3,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "elements-voix-des-esprits",
+      "sousClasse": "domaine-des-elements",
+      "classe": "cleric",
+      "niveau": 3,
+      "automatisation": "complete",
+      "portePar": "sous-classe"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

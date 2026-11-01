@@ -1,0 +1,65 @@
+{
+  "_id": "JRHLNXFfkjERZ8ri",
+  "_key": "!items!JRHLNXFfkjERZ8ri",
+  "name": "Sorts du domaine des Éléments",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-forked-large-blue-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Les esprits vous confient leurs prières. Quand vous atteignez les niveaux de clerc indiqués, les sorts suivants vous sont accordés ; ils sont <strong>toujours préparés</strong> et ne comptent pas dans votre nombre de sorts préparés.</p><ul><li>Niveau 3 : Égide d'orage, Vague tonnante, Totem du flot guérisseur, Bourrasque</li><li>Niveau 5 : Éclair bondissant, Mur de vent</li><li>Niveau 7 : Façonnage de la pierre, Invocation d'élémentaires mineurs</li><li>Niveau 9 : Invocation d'élémentaire, Mur de pierre</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "elements-sorts",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Domaine des Éléments",
+    "prerequisites": {
+      "level": 3,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "elements-sorts",
+      "sousClasse": "domaine-des-elements",
+      "classe": "cleric",
+      "niveau": 3,
+      "automatisation": "complete",
+      "portePar": "sous-classe",
+      "liste": "sorts"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

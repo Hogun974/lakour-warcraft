@@ -134,7 +134,7 @@ export const OBJETS = [
   // ---------- Butin
 
   butin({
-    cle: "eclat-de-cristal-de-mana", nom: "Éclat de cristal de mana", img: icone("commodities/gems/", "gem"), categorie: "gem",
+    cle: "eclat-de-cristal-de-mana", nom: "Éclat de cristal de mana", img: icone("commodities/gems/gem-cluster-blue-white.webp"), categorie: "gem",
     prix: [25, "gp"], poids: 0,
     texte: "Un fragment de cristal violet qui bourdonne doucement. Les elfes de sang en paient le double de sa valeur, sans poser de questions."
   }),

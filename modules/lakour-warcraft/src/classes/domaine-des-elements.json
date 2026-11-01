@@ -1,0 +1,304 @@
+{
+  "_id": "IFg7v73QFhZLoun8",
+  "_key": "!items!IFg7v73QFhZLoun8",
+  "name": "Domaine des Éléments",
+  "type": "subclass",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+  "system": {
+    "description": {
+      "value": "<p>Sur Azeroth, la terre, l'air, le feu et l'eau ont une volonté. Les chamans orcs, taurens, trolls et nains du Marteau-Hardi ne prient pas des dieux lointains : ils négocient avec les esprits des éléments, apaisent leur colère et la dirigent quand le monde est menacé. Les clercs de ce domaine sont les médiateurs de l'Anneau terrestre ; ils parlent pour les esprits, et les esprits répondent par la foudre, la pierre ou la vague.</p><p><em>Sous-classe du Clerc, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Sorts du domaine des Éléments, Voix des esprits, Colère des éléments</li><li><strong>Niveau 6</strong> : Harmonie élémentaire</li><li><strong>Niveau 17</strong> : Avatar des éléments</li></ul><h2>Sorts du domaine des Éléments</h2><ul><li><strong>Niveau 3</strong> : Égide d'orage, Vague tonnante, Totem du flot guérisseur, Bourrasque</li><li><strong>Niveau 5</strong> : Éclair bondissant, Mur de vent</li><li><strong>Niveau 7</strong> : Façonnage de la pierre, Invocation d'élémentaires mineurs</li><li><strong>Niveau 9</strong> : Invocation d'élémentaire, Mur de pierre</li></ul>",
+      "chat": ""
+    },
+    "identifier": "domaine-des-elements",
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "advancement": {
+      "KdphdyWa9M5U3Wdq": {
+        "_id": "KdphdyWa9M5U3Wdq",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.JRHLNXFfkjERZ8ri",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.n7MrChlMNcFH03ts",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.2NkxLxYYXZpeiPjx",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "name": "Capacités : Domaine des Éléments",
+        "hint": "",
+        "flags": {}
+      },
+      "CkdbbpMDiiJhzUa8": {
+        "_id": "CkdbbpMDiiJhzUa8",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.aU212jdMDF1os7zC",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "name": "Capacités : Domaine des Éléments",
+        "hint": "",
+        "flags": {}
+      },
+      "uIhAG1vsSlXdAUnG": {
+        "_id": "uIhAG1vsSlXdAUnG",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.KcBk4ZSAsaUgPeaD",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "name": "Capacités : Domaine des Éléments",
+        "hint": "",
+        "flags": {}
+      },
+      "19D1kmHEhOSLlCCm": {
+        "_id": "19D1kmHEhOSLlCCm",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:exotic:primordial"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:nat",
+                "skills:sur"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 3,
+        "name": "Voix des esprits",
+        "hint": "Primordial, plus Nature ou Survie.",
+        "flags": {}
+      },
+      "M0xSsvXmBI3OUuRc": {
+        "_id": "M0xSsvXmBI3OUuRc",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "dr:fire",
+                "dr:cold",
+                "dr:lightning",
+                "dr:thunder"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 6,
+        "name": "Harmonie élémentaire",
+        "hint": "Résistance au feu, au froid, à la foudre ou au tonnerre.",
+        "flags": {}
+      },
+      "M5VbLa0VSpZGM8qJ": {
+        "_id": "M5VbLa0VSpZGM8qJ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.sorts.Item.t1CcbN07bqkqqhxv",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplThunderwav",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.sorts.Item.kZxX21INTXB6PwAz",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplGustofWind",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "name": "Sorts du domaine des Éléments",
+        "hint": "",
+        "flags": {}
+      },
+      "ylI75Zkpq4AKIwAH": {
+        "_id": "ylI75Zkpq4AKIwAH",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.sorts.Item.W938hulRx71dmQND",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplWindWall00",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "name": "Sorts du domaine des Éléments",
+        "hint": "",
+        "flags": {}
+      },
+      "2CFJ7yH4EQelSyud": {
+        "_id": "2CFJ7yH4EQelSyud",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplStoneShape",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplConjureMin",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "name": "Sorts du domaine des Éléments",
+        "hint": "",
+        "flags": {}
+      },
+      "LYzI5HFjlWjti8ZG": {
+        "_id": "LYzI5HFjlWjti8ZG",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplConjureEle",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplWallofSton",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "name": "Sorts du domaine des Éléments",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "classIdentifier": "cleric",
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "domaine-des-elements",
+      "classe": "cleric"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

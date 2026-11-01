@@ -1,0 +1,65 @@
+{
+  "_id": "IL93d3DJFjCcMU4K",
+  "_key": "!items!IL93d3DJFjCcMU4K",
+  "name": "Sorts du pacte de la Gangrène",
+  "type": "feat",
+  "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Votre patron vous ouvre son grimoire. Quand vous atteignez les niveaux d'occultiste indiqués, ces sorts vous sont accordés ; ils sont <strong>toujours préparés</strong>.</p><ul><li>Niveau 3 : Flétrissure gangrenée, Représailles infernales, Ténèbres, Rayon affaiblissant</li><li>Niveau 5 : Caresse du vampire, Malédiction</li><li>Niveau 7 : Hurlement de terreur, Flétrissement</li><li>Niveau 9 : Contagion, Brume mortelle</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "gangrene-sorts",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Pacte de la Gangrène",
+    "prerequisites": {
+      "level": 3,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "gangrene-sorts",
+      "sousClasse": "pacte-de-la-gangrene",
+      "classe": "warlock",
+      "niveau": 3,
+      "automatisation": "complete",
+      "portePar": "sous-classe",
+      "liste": "sorts"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

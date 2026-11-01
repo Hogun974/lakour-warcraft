@@ -17,13 +17,13 @@ export const DONS_MAISON = {
     activites: [{ type: "utility", nom: "S'interposer", activation: "reaction", condition: "Un allié à 1,5 m est touché", portee: [1.5, "m"], cible: ["1", "ally"], jet: { nom: "Dégâts évités", formule: "1d8 + @prof" } }]
   }),
   piedMarin: don({
-    cle: "don-pied-marin", nom: "Pied marin", img: icone("svg/anchor"),
+    cle: "don-pied-marin", nom: "Pied marin", img: icone("skills/trades/profession-sailing-ship.webp"),
     texte: "Vous avez grandi sur un pont qui roule. Vous gagnez une **vitesse de nage de 9 m**, la maîtrise des **véhicules marins**, et l'avantage aux tests de Force (Athlétisme) et de Dextérité (Acrobaties) pour garder l'équilibre sur un sol mouvant (pont, gréement, glace, radeau).",
     maitrises: { accordees: ["tool:vehicle:water"] },
     effets: [{ nom: "Pied marin", changements: [["system.attributes.movement.swim", 9, "upgrade"]] }]
   }),
   graceLumiere: don({
-    cle: "don-grace-de-la-lumiere", nom: "Grâce de la Lumière", img: icone("magic/holy/prayer-hands-glowing-yellow-green"),
+    cle: "don-grace-de-la-lumiere", nom: "Grâce de la Lumière", img: icone("magic/holy/prayer-hands-glowing-yellow.webp"),
     texte: "La Lumière n'appartient à personne, mais elle vous écoute. Vous connaissez le tour de magie **Lumière** (Sagesse). Par une **action**, vous pouvez toucher une créature : elle récupère **1d6 + votre bonus de maîtrise** points de vie.\n\nNombre d'utilisations de l'imposition des mains : votre **bonus de maîtrise** par repos long.",
     utilisations: BM_PAR_REPOS_LONG,
     sorts: [{ uuid: SORTS_SRD.lumiere, carac: ["wis"] }],
@@ -40,7 +40,7 @@ export const DONS_MAISON = {
     effets: [{ nom: "Coriace", changements: [["system.attributes.hp.bonuses.level", 2]] }]
   }),
   pisteur: don({
-    cle: "don-pisteur-des-plaines", nom: "Pisteur des plaines", img: icone("svg/pawprint"),
+    cle: "don-pisteur-des-plaines", nom: "Pisteur des plaines", img: icone("creatures/abilities/paw-print-orange.webp"),
     texte: "Une herbe couchée, une odeur de musc, un caillou retourné : vous lisez la terre. Vous gagnez la maîtrise de **Nature**, **Perception** ou **Survie** (au choix). Vous avez l'avantage aux tests faits pour suivre une piste, et votre groupe peut voyager à allure rapide sans subir de malus de Perception passive quand vous menez la marche.",
     maitrises: { choix: [{ parmi: ["skills:nat", "skills:prc", "skills:sur"] }] }
   })
@@ -73,7 +73,7 @@ export const HISTORIQUES = [
     })
   }),
   historique({
-    cle: "grunt-d-orgrimmar", nom: "Grunt d'Orgrimmar", img: icone("weapons/axes/axe-battle-heavy-jagged"),
+    cle: "grunt-d-orgrimmar", nom: "Grunt d'Orgrimmar", img: icone("sundries/flags/banner-symbol-axe-red.webp"),
     carac: ["str", "con", "wis"], competences: ["ath", "sur"], outil: "tool:art:smith", don: DONS_SRD.attaquantSauvage,
     langues: LANGUES_HORDE,
     equipement: [[O("hache-d-orgrimmar")], [S.javeline, 4], [S.outilsForgeron], [S.rations, 5], [S.outre]], or: 6,
@@ -83,7 +83,7 @@ export const HISTORIQUES = [
     })
   }),
   historique({
-    cle: "apprenti-de-dalaran", nom: "Apprenti de Dalaran", img: icone("sundries/books/", "book"),
+    cle: "apprenti-de-dalaran", nom: "Apprenti de Dalaran", img: icone("sundries/books/book-purple-glyph.webp"),
     carac: ["int", "wis", "cha"], competences: ["arc", "his"], outil: "tool:art:calligrapher", don: DONS_SRD.initieMagie,
     langues: LANGUES_ALLIANCE,
     equipement: [[S.baton], [S.livre], [S.parchemin, 10], [S.encre], [S.plume], [S.robe], [O("potion-de-mana-mineure")]], or: 8,
@@ -103,7 +103,7 @@ export const HISTORIQUES = [
     })
   }),
   historique({
-    cle: "marin-de-kul-tiras", nom: "Marin de Kul Tiras", img: icone("svg/anchor"),
+    cle: "marin-de-kul-tiras", nom: "Marin de Kul Tiras", img: icone("environment/settlement/ship.webp"),
     carac: ["str", "dex", "wis"], competences: ["ath", "prc"], outil: "tool:navg", don: DONS_MAISON.piedMarin,
     langues: LANGUES_ALLIANCE,
     equipement: [[S.cimeterre], [S.dague], [S.outilsNavigateur], [S.corde], [S.vetementsVoyage]], or: 10,
@@ -113,7 +113,7 @@ export const HISTORIQUES = [
     })
   }),
   historique({
-    cle: "cartel-gobelin", nom: "Cartel gobelin", img: icone("commodities/currency/coin-embossed-crown-gold"),
+    cle: "cartel-gobelin", nom: "Cartel gobelin", img: icone("commodities/currency/coins-plain-stack-gold.webp"),
     carac: ["dex", "int", "cha"], competences: ["dec", "per"], outil: "tool:art:tinker", don: DONS_SRD.doue,
     langues: langues("goblin"),
     equipement: [[S.dague], [S.outilsBricoleur], [S.vetementsFins], [O("lettre-de-change")], [O("bombe-gobeline"), 2]], or: 5,
@@ -133,7 +133,7 @@ export const HISTORIQUES = [
     })
   }),
   historique({
-    cle: "refugie-de-lordaeron", nom: "Réfugié de Lordaeron", img: icone("environment/people/commoner"),
+    cle: "refugie-de-lordaeron", nom: "Réfugié de Lordaeron", img: icone("equipment/back/cape-layered-tattered-brown-grey.webp"),
     carac: ["con", "wis", "cha"], competences: ["ins", "sur"], outil: "tool:art:cook", don: DONS_MAISON.coriace,
     langues: LANGUES_ALLIANCE,
     equipement: [[S.dague], [S.couverture], [S.rations, 5], [S.outre], [S.outilsCuisinier]], or: 12,
@@ -153,7 +153,7 @@ export const HISTORIQUES = [
     })
   }),
   historique({
-    cle: "chasseur-des-mulgore", nom: "Chasseur des Mulgore", img: icone("creatures/mammals/bull-horned-blue"),
+    cle: "chasseur-des-mulgore", nom: "Chasseur des Mulgore", img: icone("environment/people/archer.webp"),
     carac: ["str", "dex", "wis"], competences: ["ani", "nat"], outil: "tool:art:leatherworker", don: DONS_MAISON.pisteur,
     langues: LANGUES_HORDE,
     equipement: [[O("lance-de-sombrelance")], [S.javeline, 4], [S.piege], [S.outilsMaroquinier], [S.couverture]], or: 4,

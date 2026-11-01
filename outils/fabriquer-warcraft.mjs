@@ -8,7 +8,7 @@ import { MODULE, identifiant } from "../modules/lakour-warcraft/contenu/aides.mj
 import { DOCUMENTS } from "../modules/lakour-warcraft/contenu/index.mjs";
 
 const RACINE = `modules/${MODULE}`;
-export const TYPE_PACK = { peuples: "Item", historiques: "Item", objets: "Item", dons: "Item", afflictions: "Item", sorts: "Item", bestiaire: "Actor", tables: "RollTable", journaux: "JournalEntry", scenes: "Scene" };
+export const TYPE_PACK = { peuples: "Item", historiques: "Item", objets: "Item", dons: "Item", afflictions: "Item", sorts: "Item", classes: "Item", bestiaire: "Actor", tables: "RollTable", journaux: "JournalEntry", scenes: "Scene" };
 
 export function fabriquer() {
   const parCle = new Map();

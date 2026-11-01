@@ -1,0 +1,163 @@
+{
+  "_id": "aU212jdMDF1os7zC",
+  "_key": "!items!aU212jdMDF1os7zC",
+  "name": "Harmonie élémentaire",
+  "type": "feat",
+  "img": "icons/magic/earth/barrier-stone-brown-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un esprit a choisi de veiller sur vous. Vous avez la <strong>résistance</strong> à un type de dégâts au choix : <strong>feu</strong>, <strong>froid</strong>, <strong>foudre</strong> ou <strong>tonnerre</strong>.</p><p><strong>Écho de l'esprit.</strong> Une fois par tour, quand un sort de clerc que vous lancez inflige des dégâts de feu, de froid, de foudre ou de tonnerre, vous ajoutez votre <strong>modificateur de Sagesse</strong> à l'un des jets de dégâts de ce sort.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "elements-harmonie",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Domaine des Éléments",
+    "prerequisites": {
+      "level": 6,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {
+      "MxqH0mNdbCSBuTyW": {
+        "_id": "MxqH0mNdbCSBuTyW",
+        "type": "damage",
+        "name": "Écho de l'esprit",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": "Une fois par tour, quand un sort de clerc inflige des dégâts élémentaires",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "damage": {
+          "critical": {
+            "allow": false,
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "custom": {
+                "enabled": true,
+                "formula": "@abilities.wis.mod"
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              },
+              "types": [
+                "fire",
+                "cold",
+                "lightning",
+                "thunder"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "elements-harmonie",
+      "sousClasse": "domaine-des-elements",
+      "classe": "cleric",
+      "niveau": 6,
+      "automatisation": "complete",
+      "portePar": "sous-classe"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

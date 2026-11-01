@@ -2,7 +2,7 @@
 // aventures rangées par dossier (les lieux génériques « lieu-… » restent au compendium, le MJ IA les importe au besoin),
 // plans des cartes pour le placement des jetons, style visuel plat ou relief.
 const ID = "lakour-warcraft";
-const VERSION_CONTENU = "0.4.0";   // 0.4.0 : journaux liés (@UUID, jets), listes de sorts
+const VERSION_CONTENU = "0.4.0";   // 0.4.0 : journaux liés (@UUID, jets), listes de sorts, cartes vivantes (sons, zones, épingles)
 
 const { ApplicationV2, HandlebarsApplicationMixin, DialogV2 } = foundry.applications.api;
 
@@ -61,19 +61,50 @@ async function rafraichirJournal(existant, source) {
   return true;
 }
 
+// Sons d'ambiance, zones et épingles des cartes du module, marqués comme tels. Les épingles visent les journaux du monde
+// (journaux : identifiant au compendium -> identifiant dans le monde ; les pages gardent les leurs).
+const COLLECTIONS_VIVANTES = [["AmbientSound", "sounds"], ["Region", "regions"], ["Note", "notes"]];
+export function carteVivante(donnees, journaux) {
+  const marque = d => foundry.utils.mergeObject(d, { [`flags.${ID}.carte`]: true }, { inplace: false });
+  return {
+    sounds: (donnees.sounds ?? []).map(marque),
+    regions: (donnees.regions ?? []).map(marque),
+    notes: (donnees.notes ?? []).map(n => marque({ ...n, entryId: journaux.get(n.entryId) ?? n.entryId }))
+  };
+}
+
+// Une carte déjà importée d'une version précédente reçoit les sons, zones et épingles du module (ceux d'avant, marqués, sont
+// remplacés) ; ses jetons, murs, brouillard et ce que le MJ y a ajouté restent.
+export async function rafraichirScene(scene, source, journaux) {
+  if (scene.getFlag(ID, "version") === VERSION_CONTENU) return false;
+  const vivante = carteVivante(source.toObject(), journaux);
+  for (const [type, champ] of COLLECTIONS_VIVANTES) {
+    const anciens = scene[champ].filter(d => d.getFlag(ID, "carte")).map(d => d.id);
+    if (anciens.length) await scene.deleteEmbeddedDocuments(type, anciens);
+    if (vivante[champ].length) await scene.createEmbeddedDocuments(type, vivante[champ], { keepId: true });
+  }
+  await scene.setFlag(ID, "version", VERSION_CONTENU);
+  return true;
+}
+
 export async function installer() {
   const rapport = [];
+  const journauxDuMonde = new Map();   // identifiant au compendium -> identifiant dans le monde
 
   // Guides et aventures : le guide du joueur reste visible de tous, ceux du MJ restent cachés (droits du compendium).
   const journaux = await game.packs.get(`${ID}.journaux`).getDocuments();
   for (const j of journaux) {
     const existant = game.journal.find(x => x.getFlag(ID, "cle") === j.getFlag(ID, "cle"));
     if (existant) {
+      journauxDuMonde.set(j.id, existant.id);
       if (await rafraichirJournal(existant, j)) rapport.push(`${j.name} (mis à jour)`);
       continue;
     }
-    const donnees = foundry.utils.mergeObject(game.journal.fromCompendium(j), { [`flags.${ID}.version`]: VERSION_CONTENU });
-    await JournalEntry.implementation.create({ ...donnees, folder: (await dossier("JournalEntry", "La Kour Warcraft")).id });
+    // Même identifiant qu'au compendium (s'il est libre) : les épingles des cartes le visent.
+    const libre = !game.journal.get(j.id);
+    const donnees = foundry.utils.mergeObject(game.journal.fromCompendium(j, { keepId: libre }), { [`flags.${ID}.version`]: VERSION_CONTENU });
+    const cree = await JournalEntry.implementation.create({ ...donnees, folder: (await dossier("JournalEntry", "La Kour Warcraft")).id }, { keepId: libre });
+    journauxDuMonde.set(j.id, cree.id);
     rapport.push(j.name);
   }
 
@@ -81,9 +112,16 @@ export async function installer() {
   const scenes = await game.packs.get(`${ID}.scenes`)?.getDocuments() ?? [];
   for (const s of scenes) {
     const cle = s.getFlag(ID, "cle");
-    if (cle?.startsWith("lieu-") || game.scenes.find(x => x.getFlag(ID, "cle") === cle)) continue;
+    if (cle?.startsWith("lieu-")) continue;
+    const existante = game.scenes.find(x => x.getFlag(ID, "cle") === cle);
+    if (existante) {
+      if (await rafraichirScene(existante, s, journauxDuMonde)) rapport.push(`${s.name} (sons, zones et épingles)`);
+      continue;
+    }
     const donnees = game.scenes.fromCompendium(s);
     donnees.drawings = donnees.drawings?.map(d => ({ ...d, author: game.user.id }));
+    Object.assign(donnees, carteVivante(donnees, journauxDuMonde));
+    foundry.utils.setProperty(donnees, `flags.${ID}.version`, VERSION_CONTENU);
     await Scene.implementation.create({ ...donnees, folder: (await dossier("Scene", s.getFlag(ID, "aventure") ?? "La Kour Warcraft")).id });
     rapport.push(s.name);
   }

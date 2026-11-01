@@ -18,6 +18,7 @@
     { "name": "historiques", "label": "La Kour Warcraft — Historiques et dons", "path": "packs/historiques", "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
     { "name": "objets", "label": "La Kour Warcraft — Objets", "path": "packs/objets", "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
     { "name": "dons", "label": "La Kour Warcraft — Dons et affiliations", "path": "packs/dons", "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "classes", "label": "La Kour Warcraft — Sous-classes", "path": "packs/classes", "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
     { "name": "sorts", "label": "La Kour Warcraft — Sorts", "path": "packs/sorts", "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
     { "name": "afflictions", "label": "La Kour Warcraft — Afflictions", "path": "packs/afflictions", "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" } },
     { "name": "bestiaire", "label": "La Kour Warcraft — Bestiaire", "path": "packs/bestiaire", "type": "Actor", "system": "dnd5e", "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" } },
@@ -26,7 +27,7 @@
     { "name": "scenes", "label": "La Kour Warcraft — Scènes", "path": "packs/scenes", "type": "Scene", "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" } }
   ],
   "packFolders": [
-    { "name": "La Kour Warcraft", "sorting": "m", "color": "#1a3a5a", "packs": ["journaux", "scenes", "peuples", "historiques", "dons", "sorts", "objets", "afflictions", "bestiaire", "tables"] }
+    { "name": "La Kour Warcraft", "sorting": "m", "color": "#1a3a5a", "packs": ["journaux", "scenes", "peuples", "historiques", "classes", "dons", "sorts", "objets", "afflictions", "bestiaire", "tables"] }
   ],
   "flags": { "dnd5e": { "spellLists": [
     "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.Ul1YO018sbW9RRmk",

@@ -1,0 +1,293 @@
+{
+  "_id": "v0TzF6Qru9kic0EJ",
+  "_key": "!items!v0TzF6Qru9kic0EJ",
+  "name": "Cercle du Rêve d'émeraude",
+  "type": "subclass",
+  "img": "icons/magic/nature/dreamcatcher-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Le Rêve d'émeraude est le monde tel qu'il aurait été sans l'empreinte des mortels, veillé par Ysera et le vol vert. Les druides de ce cercle, héritiers de Malfurion et du Cénarion, dorment des siècles dans les tertres de Reflet-de-Lune pour y marcher. Ils en rapportent la rosée qui guérit, les sentiers qui traversent les lieues en un pas, et la vigilance contre le Cauchemar qui ronge le Rêve de l'intérieur.</p><p><em>Sous-classe du Druide, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Sorts du cercle du Rêve d'émeraude, Rosée du Rêve</li><li><strong>Niveau 6</strong> : Pas dans le Rêve</li><li><strong>Niveau 10</strong> : Gardien du Rêve</li><li><strong>Niveau 14</strong> : Le Rêve se referme</li></ul><h2>Sorts du cercle du Rêve d'émeraude</h2><ul><li><strong>Niveau 3</strong> : Sarments du Rêve, Sommeil, Torpeur d'émeraude</li><li><strong>Niveau 5</strong> : Croissance végétale, Communication avec les plantes</li><li><strong>Niveau 7</strong> : Invocation d'êtres sylvestres, Liberté de mouvement</li><li><strong>Niveau 9</strong> : Rêve, Voyage par les arbres</li></ul>",
+      "chat": ""
+    },
+    "identifier": "cercle-du-reve-d-emeraude",
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "advancement": {
+      "uQWfwAOuHlAaiX4p": {
+        "_id": "uQWfwAOuHlAaiX4p",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.AEnyv9nOBGonVXSy",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.S3FQRPcpTBJwkSdT",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "name": "Capacités : Cercle du Rêve d'émeraude",
+        "hint": "",
+        "flags": {}
+      },
+      "kZBFLrVQ8bh4zQFd": {
+        "_id": "kZBFLrVQ8bh4zQFd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.3wFBT9iTEQEGejCo",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "name": "Capacités : Cercle du Rêve d'émeraude",
+        "hint": "",
+        "flags": {}
+      },
+      "0Dvg9c9xV1YgjCJY": {
+        "_id": "0Dvg9c9xV1YgjCJY",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.6j3UV4GhSefkBSpC",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "name": "Capacités : Cercle du Rêve d'émeraude",
+        "hint": "",
+        "flags": {}
+      },
+      "sL7xBNDxrqmJZwOX": {
+        "_id": "sL7xBNDxrqmJZwOX",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.aOYUlG16feCdmmjB",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "name": "Capacités : Cercle du Rêve d'émeraude",
+        "hint": "",
+        "flags": {}
+      },
+      "1zMO3W5JDMENhf1R": {
+        "_id": "1zMO3W5JDMENhf1R",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.sorts.Item.Dv3y9GfUFDRj2t0b",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplSleep00000",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.sorts.Item.DrNgIQgF77bFk3ru",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "name": "Sorts du cercle du Rêve d'émeraude",
+        "hint": "",
+        "flags": {}
+      },
+      "18r5jxdbvDRkXYls": {
+        "_id": "18r5jxdbvDRkXYls",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplPlantGrowt",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplSpeakwithP",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "name": "Sorts du cercle du Rêve d'émeraude",
+        "hint": "",
+        "flags": {}
+      },
+      "qN39I8MgQcU1v4Hm": {
+        "_id": "qN39I8MgQcU1v4Hm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplConjureWoo",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplFreedomofM",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "name": "Sorts du cercle du Rêve d'émeraude",
+        "hint": "",
+        "flags": {}
+      },
+      "YBhR0opGcz8wnqkg": {
+        "_id": "YBhR0opGcz8wnqkg",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplDream00000",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplTreeStride",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "name": "Sorts du cercle du Rêve d'émeraude",
+        "hint": "",
+        "flags": {}
+      },
+      "fmrmVSZK40qj75UY": {
+        "_id": "fmrmVSZK40qj75UY",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "rosee",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "number": 2,
+              "faces": 6,
+              "modifiers": []
+            },
+            "10": {
+              "number": 3,
+              "faces": 6,
+              "modifiers": []
+            },
+            "14": {
+              "number": 4,
+              "faces": 6,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "name": "Dés de la Rosée du Rêve",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "classIdentifier": "druid",
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "cercle-du-reve-d-emeraude",
+      "classe": "druid"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

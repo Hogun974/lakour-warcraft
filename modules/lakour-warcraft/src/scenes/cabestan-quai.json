@@ -1037,8 +1037,426 @@
       "flags": {}
     }
   ],
-  "regions": [],
-  "notes": [],
+  "regions": [
+    {
+      "_id": "EXCmp6ondRWqLAA7",
+      "name": "Taverne de la Clé tordue",
+      "color": "#4f8cc9",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1200,
+          "y": 100,
+          "width": 900,
+          "height": 700,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "GzGFzN68WvMpBwMe",
+          "name": "Taverne de la Clé tordue",
+          "disabled": false,
+          "flags": {},
+          "type": "displayScrollingText",
+          "system": {
+            "events": [
+              "tokenAnimateIn"
+            ],
+            "text": "Chopes qui claquent, dés qui roulent. Gravé au couteau sur le comptoir : « Ici, les épées dorment. »",
+            "color": "#ffffff",
+            "visibility": 2,
+            "once": true
+          },
+          "_key": "!scenes.regions.behaviors!y58dyqMG0VFrRAAI.EXCmp6ondRWqLAA7.GzGFzN68WvMpBwMe"
+        }
+      ],
+      "_key": "!scenes.regions!y58dyqMG0VFrRAAI.EXCmp6ondRWqLAA7",
+      "flags": {}
+    },
+    {
+      "_id": "d6kVDt7ygHxTCIYq",
+      "name": "Bureau de la Trêve",
+      "color": "#4f8cc9",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 100,
+          "y": 800,
+          "width": 600,
+          "height": 400,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "fNzFltiG3jYuTJp0",
+          "name": "Bureau de la Trêve",
+          "disabled": false,
+          "flags": {},
+          "type": "displayScrollingText",
+          "system": {
+            "events": [
+              "tokenAnimateIn"
+            ],
+            "text": "Deux voix se coupent la parole, l'une en commun, l'autre en orc. Aucune ne cède.",
+            "color": "#ffffff",
+            "visibility": 2,
+            "once": true
+          },
+          "_key": "!scenes.regions.behaviors!y58dyqMG0VFrRAAI.d6kVDt7ygHxTCIYq.fNzFltiG3jYuTJp0"
+        }
+      ],
+      "_key": "!scenes.regions!y58dyqMG0VFrRAAI.d6kVDt7ygHxTCIYq",
+      "flags": {}
+    },
+    {
+      "_id": "ozT1NjI2JsI1Iert",
+      "name": "Quai",
+      "color": "#4f8cc9",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 0,
+          "y": 1400,
+          "width": 2800,
+          "height": 300,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "pyz5SH0Im6iRPQDX",
+          "name": "Quai",
+          "disabled": false,
+          "flags": {},
+          "type": "displayScrollingText",
+          "system": {
+            "events": [
+              "tokenAnimateIn"
+            ],
+            "text": "Sel, goudron et poisson grillé. À chaque poteau, la même affiche : PAR ORDRE DU CARTEL.",
+            "color": "#ffffff",
+            "visibility": 2,
+            "once": true
+          },
+          "_key": "!scenes.regions.behaviors!y58dyqMG0VFrRAAI.ozT1NjI2JsI1Iert.pyz5SH0Im6iRPQDX"
+        }
+      ],
+      "_key": "!scenes.regions!y58dyqMG0VFrRAAI.ozT1NjI2JsI1Iert",
+      "flags": {}
+    },
+    {
+      "_id": "aSrRSTSuvnAlNZnQ",
+      "name": "Tonneaux du porteur d'eau",
+      "color": "#e0a030",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 2200,
+          "y": 1000,
+          "width": 500,
+          "height": 300,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "cz0BjJjSJ8bfiNSd",
+          "name": "Tonneaux du porteur d'eau",
+          "disabled": false,
+          "flags": {},
+          "type": "pauseGame",
+          "system": {
+            "once": true
+          },
+          "_key": "!scenes.regions.behaviors!y58dyqMG0VFrRAAI.aSrRSTSuvnAlNZnQ.cz0BjJjSJ8bfiNSd"
+        }
+      ],
+      "_key": "!scenes.regions!y58dyqMG0VFrRAAI.aSrRSTSuvnAlNZnQ",
+      "flags": {}
+    }
+  ],
+  "notes": [
+    {
+      "entryId": "DQAuC2l2FxNLLS5W",
+      "pageId": "d0KM3uaToaEarGf7",
+      "x": 550,
+      "y": 250,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/coins.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Grizzla — le contrat",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "zREiqk7HwVrSsqhS",
+      "_key": "!scenes.notes!y58dyqMG0VFrRAAI.zREiqk7HwVrSsqhS",
+      "flags": {}
+    },
+    {
+      "entryId": "DQAuC2l2FxNLLS5W",
+      "pageId": "d0KM3uaToaEarGf7",
+      "x": 550,
+      "y": 1050,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/tower-flag.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Haldis et Garrok",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "f8avsUv7L0nxsr5f",
+      "_key": "!scenes.notes!y58dyqMG0VFrRAAI.f8avsUv7L0nxsr5f",
+      "flags": {}
+    },
+    {
+      "entryId": "DQAuC2l2FxNLLS5W",
+      "pageId": "d0KM3uaToaEarGf7",
+      "x": 1350,
+      "y": 1150,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/poison.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Docker malade (indice)",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "adwkSolKBENBQbbs",
+      "_key": "!scenes.notes!y58dyqMG0VFrRAAI.adwkSolKBENBQbbs",
+      "flags": {}
+    },
+    {
+      "entryId": "DQAuC2l2FxNLLS5W",
+      "pageId": "d0KM3uaToaEarGf7",
+      "x": 2450,
+      "y": 1250,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/barrel.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Tonneau qui luit — le cultiste",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "HJrZf0wdG7KjPHc4",
+      "_key": "!scenes.notes!y58dyqMG0VFrRAAI.HJrZf0wdG7KjPHc4",
+      "flags": {}
+    },
+    {
+      "entryId": "DQAuC2l2FxNLLS5W",
+      "pageId": "d0KM3uaToaEarGf7",
+      "x": 1950,
+      "y": 1250,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/combat.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Nervis cachés, puis murlocs",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "9jd08HLq8FIbJLF7",
+      "_key": "!scenes.notes!y58dyqMG0VFrRAAI.9jd08HLq8FIbJLF7",
+      "flags": {}
+    },
+    {
+      "entryId": "smYCJHsMjBH3NMR7",
+      "pageId": "JAc4rrFxZoLgd40W",
+      "x": 1350,
+      "y": 1550,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/hanging-sign.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "La Trêve de Cabestan",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "9IXewkFr1dnKZ4Vf",
+      "_key": "!scenes.notes!y58dyqMG0VFrRAAI.9IXewkFr1dnKZ4Vf",
+      "flags": {}
+    }
+  ],
   "tokens": [],
   "tiles": [],
   "ownership": {
@@ -1648,6 +2066,93 @@
             "y": 18,
             "l": 3,
             "h": 1
+          }
+        ],
+        "zones": [
+          {
+            "nom": "Taverne de la Clé tordue",
+            "x": 12,
+            "y": 1,
+            "l": 9,
+            "h": 7,
+            "type": "texte",
+            "texte": "Chopes qui claquent, dés qui roulent. Gravé au couteau sur le comptoir : « Ici, les épées dorment. »"
+          },
+          {
+            "nom": "Bureau de la Trêve",
+            "x": 1,
+            "y": 8,
+            "l": 6,
+            "h": 4,
+            "type": "texte",
+            "texte": "Deux voix se coupent la parole, l'une en commun, l'autre en orc. Aucune ne cède."
+          },
+          {
+            "nom": "Quai",
+            "x": 0,
+            "y": 14,
+            "l": 28,
+            "h": 3,
+            "type": "texte",
+            "texte": "Sel, goudron et poisson grillé. À chaque poteau, la même affiche : PAR ORDRE DU CARTEL."
+          },
+          {
+            "nom": "Tonneaux du porteur d'eau",
+            "x": 22,
+            "y": 10,
+            "l": 5,
+            "h": 3,
+            "type": "pause"
+          }
+        ],
+        "notes": [
+          {
+            "x": 5,
+            "y": 2,
+            "texte": "Grizzla — le contrat",
+            "icone": "icons/svg/coins.svg",
+            "entryId": "DQAuC2l2FxNLLS5W",
+            "pageId": "d0KM3uaToaEarGf7"
+          },
+          {
+            "x": 5,
+            "y": 10,
+            "texte": "Haldis et Garrok",
+            "icone": "icons/svg/tower-flag.svg",
+            "entryId": "DQAuC2l2FxNLLS5W",
+            "pageId": "d0KM3uaToaEarGf7"
+          },
+          {
+            "x": 13,
+            "y": 11,
+            "texte": "Docker malade (indice)",
+            "icone": "icons/svg/poison.svg",
+            "entryId": "DQAuC2l2FxNLLS5W",
+            "pageId": "d0KM3uaToaEarGf7"
+          },
+          {
+            "x": 24,
+            "y": 12,
+            "texte": "Tonneau qui luit — le cultiste",
+            "icone": "icons/svg/barrel.svg",
+            "entryId": "DQAuC2l2FxNLLS5W",
+            "pageId": "d0KM3uaToaEarGf7"
+          },
+          {
+            "x": 19,
+            "y": 12,
+            "texte": "Nervis cachés, puis murlocs",
+            "icone": "icons/svg/combat.svg",
+            "entryId": "DQAuC2l2FxNLLS5W",
+            "pageId": "d0KM3uaToaEarGf7"
+          },
+          {
+            "x": 13,
+            "y": 15,
+            "texte": "La Trêve de Cabestan",
+            "icone": "icons/svg/hanging-sign.svg",
+            "entryId": "smYCJHsMjBH3NMR7",
+            "pageId": "JAc4rrFxZoLgd40W"
           }
         ]
       },

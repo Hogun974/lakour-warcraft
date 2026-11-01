@@ -1,0 +1,318 @@
+{
+  "_id": "4eGRyN9bjzZwxqeq",
+  "_key": "!items!4eGRyN9bjzZwxqeq",
+  "name": "Serment de la Main d'argent",
+  "type": "subclass",
+  "img": "icons/magic/holy/prayer-hands-glowing-yellow-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>La Main d'argent est née dans les cendres de la Deuxième Guerre, quand les premiers paladins de Lordaeron ont juré de protéger les vivants. Elle a vu tomber Uther et s'est relevée contre le Fléau. Ses membres prêtent un serment simple :</p><ul><li><strong>Nul ne tombe seul.</strong> Aucun compagnon n'est abandonné, vivant ou mort.</li><li><strong>La Lumière pour tous.</strong> Le paysan, l'orc repenti et le roi méritent la même protection.</li><li><strong>Les morts reposent.</strong> Ce qui a été relevé contre sa volonté doit retrouver la paix.</li><li><strong>L'humilité.</strong> Le serment ne sert ni une couronne ni un ordre, mais ceux qui souffrent.</li></ul><p><em>Sous-classe du Paladin, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Sorts du serment de la Main d'argent, Frère d'armes de la Main, Châtiment du Fléau</li><li><strong>Niveau 7</strong> : Aura de pureté</li><li><strong>Niveau 15</strong> : Nul ne tombe seul</li><li><strong>Niveau 20</strong> : Champion de la Lumière</li></ul><h2>Sorts du serment de la Main d'argent</h2><ul><li><strong>Niveau 3</strong> : Égide de la Lumière, Protection contre le mal et le bien</li><li><strong>Niveau 5</strong> : Marteau de justice, Restauration partielle</li><li><strong>Niveau 9</strong> : Psaume de la Lumière, Lumière du jour</li><li><strong>Niveau 13</strong> : Protection contre la mort, Bannissement</li><li><strong>Niveau 17</strong> : Dissipation du mal et du bien, Sanctification</li></ul>",
+      "chat": ""
+    },
+    "identifier": "serment-de-la-main-d-argent",
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "advancement": {
+      "G4IKdlrEde7z2tuS": {
+        "_id": "G4IKdlrEde7z2tuS",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.gG1YU65CWRdVJ0vN",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.VA7aFR17gSQfk2X9",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.ZT0lGIUfmxeNkQrd",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "name": "Capacités : Serment de la Main d'argent",
+        "hint": "",
+        "flags": {}
+      },
+      "VyV9ELGV263QDHRg": {
+        "_id": "VyV9ELGV263QDHRg",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.q1zONAw16tNj44eX",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "name": "Capacités : Serment de la Main d'argent",
+        "hint": "",
+        "flags": {}
+      },
+      "EMWUgN2blyJgdz7u": {
+        "_id": "EMWUgN2blyJgdz7u",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.k03ukJMUlym8ADV9",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "name": "Capacités : Serment de la Main d'argent",
+        "hint": "",
+        "flags": {}
+      },
+      "p5S7Qj3CbQvUsVBf": {
+        "_id": "p5S7Qj3CbQvUsVBf",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.EJ7Fil7LsdnPYN0M",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "name": "Capacités : Serment de la Main d'argent",
+        "hint": "",
+        "flags": {}
+      },
+      "lpliQQGDrGYUf0PZ": {
+        "_id": "lpliQQGDrGYUf0PZ",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:med",
+                "skills:rel"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 3,
+        "name": "Frère d'armes de la Main",
+        "hint": "Médecine ou Religion.",
+        "flags": {}
+      },
+      "n5oxXpuYxEBWGBW4": {
+        "_id": "n5oxXpuYxEBWGBW4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.sorts.Item.mlMhGL79co5nT8k1",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "name": "Sorts du serment de la Main d'argent",
+        "hint": "",
+        "flags": {}
+      },
+      "cAIO0CX3pZXKEHtD": {
+        "_id": "cAIO0CX3pZXKEHtD",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.sorts.Item.U1gPpr6PGQbCKA5c",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplLesserRest",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "name": "Sorts du serment de la Main d'argent",
+        "hint": "",
+        "flags": {}
+      },
+      "PKbh5hBMNT3CgSEM": {
+        "_id": "PKbh5hBMNT3CgSEM",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.sorts.Item.BiGOddGx3qG4vgsr",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplDaylight00",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "name": "Sorts du serment de la Main d'argent",
+        "hint": "",
+        "flags": {}
+      },
+      "SSm4I3mECDWinnNK": {
+        "_id": "SSm4I3mECDWinnNK",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplDeathWard0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplBanishment",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "name": "Sorts du serment de la Main d'argent",
+        "hint": "",
+        "flags": {}
+      },
+      "JUln4aijTR8uPO6f": {
+        "_id": "JUln4aijTR8uPO6f",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplDispelEvil",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplHallow0000",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 17,
+        "name": "Sorts du serment de la Main d'argent",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "classIdentifier": "paladin",
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "serment-de-la-main-d-argent",
+      "classe": "paladin"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

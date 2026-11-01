@@ -1226,8 +1226,484 @@
       "flags": {}
     }
   ],
-  "regions": [],
-  "notes": [],
+  "regions": [
+    {
+      "_id": "IRKL6k5K9mXCjGCo",
+      "name": "Bureau de Vizzik",
+      "color": "#4f8cc9",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 100,
+          "y": 100,
+          "width": 700,
+          "height": 500,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "sJ37iyz5aE67jvul",
+          "name": "Bureau de Vizzik",
+          "disabled": false,
+          "flags": {},
+          "type": "displayScrollingText",
+          "system": {
+            "events": [
+              "tokenAnimateIn"
+            ],
+            "text": "Sur la porte, une plaque de cuivre bien astiquée : « Tout se négocie. Sauf mon temps. »",
+            "color": "#ffffff",
+            "visibility": 2,
+            "once": true
+          },
+          "_key": "!scenes.regions.behaviors!HGfPcvSfoHt2jw9y.IRKL6k5K9mXCjGCo.sJ37iyz5aE67jvul"
+        }
+      ],
+      "_key": "!scenes.regions!HGfPcvSfoHt2jw9y.IRKL6k5K9mXCjGCo",
+      "flags": {}
+    },
+    {
+      "_id": "cBbVw1Qm2iMzLEVa",
+      "name": "Halle des machines",
+      "color": "#4f8cc9",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 900,
+          "y": 100,
+          "width": 1200,
+          "height": 800,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "UhhhsobMdXCv8CHZ",
+          "name": "Halle des machines",
+          "disabled": false,
+          "flags": {},
+          "type": "displayScrollingText",
+          "system": {
+            "events": [
+              "tokenAnimateIn"
+            ],
+            "text": "Le sol tremble sous les bottes. Ça sent le cuivre chaud et l'orage.",
+            "color": "#ffffff",
+            "visibility": 2,
+            "once": true
+          },
+          "_key": "!scenes.regions.behaviors!HGfPcvSfoHt2jw9y.cBbVw1Qm2iMzLEVa.UhhhsobMdXCv8CHZ"
+        }
+      ],
+      "_key": "!scenes.regions!HGfPcvSfoHt2jw9y.cBbVw1Qm2iMzLEVa",
+      "flags": {}
+    },
+    {
+      "_id": "LSXBNRkKrS4mFOVS",
+      "name": "Près du moteur",
+      "color": "#e0a030",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1300,
+          "y": 200,
+          "width": 500,
+          "height": 500,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "JMwYvDOd6LWZQ51O",
+          "name": "Près du moteur",
+          "disabled": false,
+          "flags": {},
+          "type": "pauseGame",
+          "system": {
+            "once": true
+          },
+          "_key": "!scenes.regions.behaviors!HGfPcvSfoHt2jw9y.LSXBNRkKrS4mFOVS.JMwYvDOd6LWZQ51O"
+        }
+      ],
+      "_key": "!scenes.regions!HGfPcvSfoHt2jw9y.LSXBNRkKrS4mFOVS",
+      "flags": {}
+    },
+    {
+      "_id": "HGSAaQN2aOGldEzp",
+      "name": "Haut-fourneau",
+      "color": "#4f8cc9",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 2200,
+          "y": 100,
+          "width": 600,
+          "height": 800,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "ILJv1ROr3txJN5DG",
+          "name": "Haut-fourneau",
+          "disabled": false,
+          "flags": {},
+          "type": "displayScrollingText",
+          "system": {
+            "events": [
+              "tokenAnimateIn"
+            ],
+            "text": "Une chaleur à cuire le pain. La fonte file dans sa rigole comme un ruisseau orange.",
+            "color": "#ffffff",
+            "visibility": 2,
+            "once": true
+          },
+          "_key": "!scenes.regions.behaviors!HGfPcvSfoHt2jw9y.HGSAaQN2aOGldEzp.ILJv1ROr3txJN5DG"
+        }
+      ],
+      "_key": "!scenes.regions!HGfPcvSfoHt2jw9y.HGSAaQN2aOGldEzp",
+      "flags": {}
+    }
+  ],
+  "notes": [
+    {
+      "entryId": "qRBAKDn0YR5qJjhc",
+      "pageId": "bzoOX8ZhHXVUDHYR",
+      "x": 450,
+      "y": 350,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/coins.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Vizzik Tirelire — le retourner",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "QpLJ50E8fg8rOwIh",
+      "_key": "!scenes.notes!HGfPcvSfoHt2jw9y.QpLJ50E8fg8rOwIh",
+      "flags": {}
+    },
+    {
+      "entryId": "qRBAKDn0YR5qJjhc",
+      "pageId": "bzoOX8ZhHXVUDHYR",
+      "x": 250,
+      "y": 450,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Étagère de registres (indice)",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "mTYAuVVnlfDabKTE",
+      "_key": "!scenes.notes!HGfPcvSfoHt2jw9y.mTYAuVVnlfDabKTE",
+      "flags": {}
+    },
+    {
+      "entryId": "qRBAKDn0YR5qJjhc",
+      "pageId": "bzoOX8ZhHXVUDHYR",
+      "x": 650,
+      "y": 150,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/chest.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Coffre-fort (indice)",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "5cLkGtdaL2kFVQt1",
+      "_key": "!scenes.notes!HGfPcvSfoHt2jw9y.5cLkGtdaL2kFVQt1",
+      "flags": {}
+    },
+    {
+      "entryId": "qRBAKDn0YR5qJjhc",
+      "pageId": "bzoOX8ZhHXVUDHYR",
+      "x": 1750,
+      "y": 550,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/fire.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Moteur à éclat — la Braise",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "PlLirFUfPlBb6E5x",
+      "_key": "!scenes.notes!HGfPcvSfoHt2jw9y.PlLirFUfPlBb6E5x",
+      "flags": {}
+    },
+    {
+      "entryId": "qRBAKDn0YR5qJjhc",
+      "pageId": "bzoOX8ZhHXVUDHYR",
+      "x": 1350,
+      "y": 1050,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/poison.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Ouvriers malades (indice)",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "CuyQ6WstFwPMYJxi",
+      "_key": "!scenes.notes!HGfPcvSfoHt2jw9y.CuyQ6WstFwPMYJxi",
+      "flags": {}
+    },
+    {
+      "entryId": "qRBAKDn0YR5qJjhc",
+      "pageId": "bzoOX8ZhHXVUDHYR",
+      "x": 550,
+      "y": 1750,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/padlock.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Caisses scellées (indice)",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "Vib6e4At9gMNytvB",
+      "_key": "!scenes.notes!HGfPcvSfoHt2jw9y.Vib6e4At9gMNytvB",
+      "flags": {}
+    },
+    {
+      "entryId": "qRBAKDn0YR5qJjhc",
+      "pageId": "bzoOX8ZhHXVUDHYR",
+      "x": 1550,
+      "y": 1450,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/clockwork.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Déchiqueteur et sifflet",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "QM437P4rDmhhM5jV",
+      "_key": "!scenes.notes!HGfPcvSfoHt2jw9y.QM437P4rDmhhM5jV",
+      "flags": {}
+    },
+    {
+      "entryId": "qRBAKDn0YR5qJjhc",
+      "pageId": "bzoOX8ZhHXVUDHYR",
+      "x": 2350,
+      "y": 1350,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/combat.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Minuit : le courrier du zeppelin",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "0fagZn7mR7kYC3LQ",
+      "_key": "!scenes.notes!HGfPcvSfoHt2jw9y.0fagZn7mR7kYC3LQ",
+      "flags": {}
+    }
+  ],
   "tokens": [],
   "tiles": [],
   "ownership": {
@@ -1589,6 +2065,109 @@
             "y": 18,
             "l": 1,
             "h": 1
+          }
+        ],
+        "zones": [
+          {
+            "nom": "Bureau de Vizzik",
+            "x": 1,
+            "y": 1,
+            "l": 7,
+            "h": 5,
+            "type": "texte",
+            "texte": "Sur la porte, une plaque de cuivre bien astiquée : « Tout se négocie. Sauf mon temps. »"
+          },
+          {
+            "nom": "Halle des machines",
+            "x": 9,
+            "y": 1,
+            "l": 12,
+            "h": 8,
+            "type": "texte",
+            "texte": "Le sol tremble sous les bottes. Ça sent le cuivre chaud et l'orage."
+          },
+          {
+            "nom": "Près du moteur",
+            "x": 13,
+            "y": 2,
+            "l": 5,
+            "h": 5,
+            "type": "pause"
+          },
+          {
+            "nom": "Haut-fourneau",
+            "x": 22,
+            "y": 1,
+            "l": 6,
+            "h": 8,
+            "type": "texte",
+            "texte": "Une chaleur à cuire le pain. La fonte file dans sa rigole comme un ruisseau orange."
+          }
+        ],
+        "notes": [
+          {
+            "x": 4,
+            "y": 3,
+            "texte": "Vizzik Tirelire — le retourner",
+            "icone": "icons/svg/coins.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "bzoOX8ZhHXVUDHYR"
+          },
+          {
+            "x": 2,
+            "y": 4,
+            "texte": "Étagère de registres (indice)",
+            "icone": "icons/svg/book.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "bzoOX8ZhHXVUDHYR"
+          },
+          {
+            "x": 6,
+            "y": 1,
+            "texte": "Coffre-fort (indice)",
+            "icone": "icons/svg/chest.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "bzoOX8ZhHXVUDHYR"
+          },
+          {
+            "x": 17,
+            "y": 5,
+            "texte": "Moteur à éclat — la Braise",
+            "icone": "icons/svg/fire.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "bzoOX8ZhHXVUDHYR"
+          },
+          {
+            "x": 13,
+            "y": 10,
+            "texte": "Ouvriers malades (indice)",
+            "icone": "icons/svg/poison.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "bzoOX8ZhHXVUDHYR"
+          },
+          {
+            "x": 5,
+            "y": 17,
+            "texte": "Caisses scellées (indice)",
+            "icone": "icons/svg/padlock.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "bzoOX8ZhHXVUDHYR"
+          },
+          {
+            "x": 15,
+            "y": 14,
+            "texte": "Déchiqueteur et sifflet",
+            "icone": "icons/svg/clockwork.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "bzoOX8ZhHXVUDHYR"
+          },
+          {
+            "x": 23,
+            "y": 13,
+            "texte": "Minuit : le courrier du zeppelin",
+            "icone": "icons/svg/combat.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "bzoOX8ZhHXVUDHYR"
           }
         ]
       },

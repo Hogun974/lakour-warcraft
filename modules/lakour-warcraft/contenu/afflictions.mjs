@@ -106,7 +106,7 @@ const MALADIES = [
     guerison: `${RESTAURATION_PARTIELLE} Une tisane d'écorce de saule des marais (test d'Intelligence (Médecine) DD 12 avec le matériel d'herboriste) donne l'avantage au prochain jet contre la fièvre.`
   }),
   maladie({
-    cle: "toux-noire", nom: "Toux noire", img: icone("svg/biohazard"), carac: "con", dd: 13,
+    cle: "toux-noire", nom: "Toux noire", img: icone("magic/air/fog-gas-smoke-dense-gray.webp"), carac: "con", dd: 13,
     texte: "La poussière des mines de Rochenoire et des galeries de Forgefer se dépose dans les poumons de ceux qui y travaillent sans masque (jet de sauvegarde de Constitution DD 13 par semaine passée sous terre). Incubation : **une semaine**.",
     stades: [
       { nom: "Souffle court", texte: "Une toux sèche ponctue chaque effort. Désavantage aux tests de Force (**Athlétisme**).", changements: [["system.skills.ath.roll.mode", -1]] },
@@ -124,7 +124,7 @@ const MALADIES = [
     guerison: "**Remèdes.** La maladie est magique : *Restauration partielle* ne fait que repousser l'évolution d'une semaine. Un sort de *Dissipation du mal et du bien*, ou une nuit de veille dans un bosquet consacré par un druide, la guérit."
   }),
   maladie({
-    cle: "mal-de-gnomeregan", nom: "Mal de Gnomeregan", img: icone("svg/hazard"), carac: "con", dd: 13,
+    cle: "mal-de-gnomeregan", nom: "Mal de Gnomeregan", img: icone("magic/acid/dissolve-pool-bubbles.webp"), carac: "con", dd: 13,
     texte: "Les radiations libérées dans Gnomeregan rongent quiconque s'attarde dans ses salles inondées de vase toxique (jet de sauvegarde de Constitution DD 13 par heure passée dans une zone irradiée). Incubation : **1d6 heures**.",
     stades: [
       { nom: "Nausées", texte: "Vomissements et vertiges. Les points de vie maximum diminuent de **1 par niveau**.", changements: [["system.attributes.hp.bonuses.level", "-1"]] },

@@ -3,7 +3,7 @@
   "_key": "!items!COJCgTFX3PIjNTLW",
   "name": "Coureur des Hautes-terres",
   "type": "feat",
-  "img": "icons/skills/movement/figure-running-gray.webp",
+  "img": "icons/skills/movement/feet-winged-boots-brown.webp",
   "system": {
     "description": {
       "value": "<p><em>Prérequis : Niveau 4 ou plus.</em></p><p><strong>Amélioration de caractéristique.</strong> Augmentez votre Dextérité ou Constitution de 1, jusqu'à un maximum de 20.</p><p>Messager d'Arathi ou éclaireur des Hinterlands, vous avez couru sur les crêtes plus souvent que sur les routes. Votre <strong>vitesse augmente de 3 m</strong>, et les <strong>broussailles</strong>, les <strong>éboulis</strong> et les <strong>pentes</strong> ne sont pas un terrain difficile pour vous.</p>",
@@ -75,7 +75,7 @@
       "_id": "NWZ3OoBc1nEFwPfr",
       "_key": "!items.effects!COJCgTFX3PIjNTLW.NWZ3OoBc1nEFwPfr",
       "name": "Coureur des Hautes-terres",
-      "img": "icons/skills/movement/figure-running-gray.webp",
+      "img": "icons/skills/movement/feet-winged-boots-brown.webp",
       "type": "base",
       "system": {
         "changes": [

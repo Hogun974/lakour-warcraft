@@ -325,7 +325,7 @@ export const SORTS = [
   sort({
     cle: "egide-de-lumiere", nom: "Égide de la Lumière", niveau: 1, ecole: "abj", tradition: "lumiere",
     classes: ["cleric", "paladin"], incantation: ["bonus"], duree: [1, "hour"], portee: [9, "m"], cible: ["1", "creature"],
-    img: I("magic/holy/barrier-shield-winged-blue"),
+    img: I("magic/defensive/shield-barrier-deflect-gold.webp"),
     texte: "Vous dessinez dans l'air un signe de protection qui se pose sur une créature à portée comme un voile doré. Elle gagne **2d4 + votre modificateur de caractéristique d'incantation** points de vie temporaires pour 1 heure.\n\nLes prêtres de Hurlevent l'appellent « le manteau de l'Aube » ; on le pose sur les épaules des soldats avant la charge.",
     niveauxSuperieurs: "Les points de vie temporaires augmentent de 2d4 par niveau d'emplacement au-delà du 1er.",
     activites: [{ type: "heal", nom: "Égide", soin: { des: "2d4", bonus: "@mod", type: "temphp", echelle: 2 } }]
@@ -343,7 +343,7 @@ export const SORTS = [
   sort({
     cle: "psaume-de-lumiere", nom: "Psaume de la Lumière", niveau: 3, ecole: "abj", tradition: "lumiere",
     classes: ["cleric", "paladin"], portee: [9, "m"], cible: ["6", "creature"],
-    img: I("magic/holy/prayer-hands-glowing-yellow-white"),
+    img: I("magic/holy/angel-winged-humanoid-blue.webp"),
     texte: "Vous entonnez un psaume que reprennent ceux qui vous entourent. Jusqu'à six créatures de votre choix situées à portée, qui peuvent vous entendre, récupèrent chacune **2d6 + votre modificateur de caractéristique d'incantation** points de vie.\n\nLe psaume ne fait rien aux morts-vivants et aux créatures artificielles. Un Réprouvé qui le reçoit en éprouve une douleur sourde, mais il guérit.",
     niveauxSuperieurs: "Les soins augmentent de 1d6 par niveau d'emplacement au-delà du 3e.",
     activites: [{ type: "heal", nom: "Psaume", soin: { des: "2d6", bonus: "@mod", echelle: 1 } }]
@@ -439,7 +439,7 @@ export const SORTS = [
   sort({
     cle: "fletrissure-gangrenee", nom: "Flétrissure gangrenée", niveau: 1, ecole: "nec", tradition: "gangrene",
     classes: ["warlock", "sorcerer"], concentration: true, duree: [1, "minute"], portee: [27, "m"], cible: ["1", "creature"],
-    img: I("magic/unholy/hand-claw-fog-green"),
+    img: I("magic/unholy/projectile-smoke-tendril-green.webp"),
     effets: [
       { nom: "Flétrissure", duree: 60, texte: "À la fin de chacun de ses tours, la créature subit 1d8 dégâts nécrotiques (activité « Ronger »), puis refait le jet de sauvegarde de Constitution ; le sort prend fin pour elle en cas de réussite." },
       marqueGangrene()

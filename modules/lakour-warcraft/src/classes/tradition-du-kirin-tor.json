@@ -1,0 +1,306 @@
+{
+  "_id": "8xYkVDBXcvAuCt6u",
+  "_key": "!items!8xYkVDBXcvAuCt6u",
+  "name": "Tradition du Kirin Tor",
+  "type": "subclass",
+  "img": "icons/magic/defensive/shield-barrier-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Le Kirin Tor gouverne Dalaran, la cité des mages, depuis les premiers jours d'Arathor. Ses membres en robe violette ont vu leur ville rasée par Arthas, relevée, puis arrachée au sol pour flotter au-dessus de Norfendre et des Îles brisées. Ils en ont tiré une discipline : la magie doit protéger, se déplacer vite et ne jamais céder à la tentation de la gangrène. Un magicien de cette tradition a étudié dans la Citadelle pourpre et porte un anneau du Kirin Tor, que le Conseil peut rappeler à tout moment.</p><p><em>Sous-classe du Magicien, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Archives de Dalaran, Égide du Violet</li><li><strong>Niveau 6</strong> : Érudit de la Citadelle pourpre</li><li><strong>Niveau 10</strong> : Transfert tactique</li><li><strong>Niveau 14</strong> : Maître du Kirin Tor</li></ul><h2>Archives de Dalaran</h2><ul><li><strong>Niveau 3</strong> : Nova de givre</li><li><strong>Niveau 5</strong> : Métamorphose ovine</li><li><strong>Niveau 7</strong> : Blizzard</li><li><strong>Niveau 9</strong> : Portail du Kirin Tor</li><li><strong>Niveau 14</strong> : Contresort</li></ul>",
+      "chat": ""
+    },
+    "identifier": "tradition-du-kirin-tor",
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "advancement": {
+      "8hqeFCw4uXmi1AH6": {
+        "_id": "8hqeFCw4uXmi1AH6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.DjeT54zsD1FYsFAb",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.P3maSrj3gh2via1Q",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "name": "Capacités : Tradition du Kirin Tor",
+        "hint": "",
+        "flags": {}
+      },
+      "G4Di0xIzz0J1pMIH": {
+        "_id": "G4Di0xIzz0J1pMIH",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.cRc2pguynwOymb3d",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "name": "Capacités : Tradition du Kirin Tor",
+        "hint": "",
+        "flags": {}
+      },
+      "HhkQjxXVMBKVHX1W": {
+        "_id": "HhkQjxXVMBKVHX1W",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.tsJqGxh3OxmfbGOX",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "name": "Capacités : Tradition du Kirin Tor",
+        "hint": "",
+        "flags": {}
+      },
+      "InSKBA0fkFDxArf6": {
+        "_id": "InSKBA0fkFDxArf6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.clnGnzomBSoIDYBW",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "name": "Capacités : Tradition du Kirin Tor",
+        "hint": "",
+        "flags": {}
+      },
+      "C7kdXzFGG4ABjomm": {
+        "_id": "C7kdXzFGG4ABjomm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.sorts.Item.assuCxUZyyYH81vE",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 0,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "name": "Archives de Dalaran",
+        "hint": "",
+        "flags": {}
+      },
+      "dTVbY8Q25LEVssDn": {
+        "_id": "dTVbY8Q25LEVssDn",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.sorts.Item.QBnNuldjrEpoOw5H",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 0,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "name": "Archives de Dalaran",
+        "hint": "",
+        "flags": {}
+      },
+      "niSjNd3decifDTBF": {
+        "_id": "niSjNd3decifDTBF",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.sorts.Item.3cbqTP1IQovpBRQ9",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 0,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "name": "Archives de Dalaran",
+        "hint": "",
+        "flags": {}
+      },
+      "UKFm4T6t1f1BYDgB": {
+        "_id": "UKFm4T6t1f1BYDgB",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.sorts.Item.eDR8zGmPXYGoMTwD",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 0,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "name": "Archives de Dalaran",
+        "hint": "",
+        "flags": {}
+      },
+      "VwPH7oRLZfHdNYAP": {
+        "_id": "VwPH7oRLZfHdNYAP",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplCounterspe",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 14,
+        "name": "Maître du Kirin Tor : Contresort",
+        "hint": "",
+        "flags": {}
+      },
+      "dxaf4jnB2aezcE8O": {
+        "_id": "dxaf4jnB2aezcE8O",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "egide",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "number": 2,
+              "faces": 6,
+              "modifiers": []
+            },
+            "6": {
+              "number": 3,
+              "faces": 6,
+              "modifiers": []
+            },
+            "10": {
+              "number": 4,
+              "faces": 6,
+              "modifiers": []
+            },
+            "14": {
+              "number": 5,
+              "faces": 6,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "name": "Dés de l'Égide du Violet",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "classIdentifier": "wizard",
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "tradition-du-kirin-tor",
+      "classe": "wizard"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

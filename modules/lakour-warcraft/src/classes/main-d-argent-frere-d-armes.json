@@ -1,0 +1,64 @@
+{
+  "_id": "VA7aFR17gSQfk2X9",
+  "_key": "!items!VA7aFR17gSQfk2X9",
+  "name": "Frère d'armes de la Main",
+  "type": "feat",
+  "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous avez soigné des réfugiés et enterré des frères d'armes. Vous maîtrisez <strong>Médecine</strong> ou <strong>Religion</strong> (au choix).</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "main-d-argent-frere-d-armes",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Serment de la Main d'argent",
+    "prerequisites": {
+      "level": 3,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "main-d-argent-frere-d-armes",
+      "sousClasse": "serment-de-la-main-d-argent",
+      "classe": "paladin",
+      "niveau": 3,
+      "automatisation": "complete",
+      "portePar": "sous-classe"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "_id": "HQPIcs2gQR9RCmQU",
+  "_key": "!items!HQPIcs2gQR9RCmQU",
+  "name": "Chasseur de démons illidari",
+  "type": "subclass",
+  "img": "icons/magic/unholy/hand-claw-fire-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Les illidari ont donné leurs yeux pour voir ce que la Légion ardente cache, et laissé la gangrène marquer leur chair pour la retourner contre elle. Ces chasseurs ne sont pas les élus d'Illidan : ce sont des rôdeurs qui ont suivi la même voie à leur mesure, traquant les démons dans les forêts de Gangrebois ou sur les falaises d'Outreterre. On les craint, on les évite, et on les appelle quand un seigneur de l'effroi s'installe au village.</p><p><em>Sous-classe du Rôdeur, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Sorts du chasseur illidari, Vue spectrale, Lames gangrenées</li><li><strong>Niveau 7</strong> : Vol plané</li><li><strong>Niveau 11</strong> : Âme du chasseur</li><li><strong>Niveau 15</strong> : Métamorphose</li></ul><h2>Sorts du chasseur illidari</h2><ul><li><strong>Niveau 3</strong> : Protection contre le mal et le bien</li><li><strong>Niveau 5</strong> : Détection de l'invisibilité</li><li><strong>Niveau 9</strong> : Cercle magique</li><li><strong>Niveau 13</strong> : Bannissement</li><li><strong>Niveau 17</strong> : Dissipation du mal et du bien</li></ul>",
+      "chat": ""
+    },
+    "identifier": "chasseur-de-demons-illidari",
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "advancement": {
+      "l3C437A17sDEvXl9": {
+        "_id": "l3C437A17sDEvXl9",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.2hZHASvSr3lhy7eB",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.MCTV1g0jgqEBawrb",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.q8fbOYNwPDHh1UQH",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "name": "Capacités : Chasseur de démons illidari",
+        "hint": "",
+        "flags": {}
+      },
+      "UxvblqBCFp8CO7RE": {
+        "_id": "UxvblqBCFp8CO7RE",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.ETK57Aj0ONxEQbDq",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "name": "Capacités : Chasseur de démons illidari",
+        "hint": "",
+        "flags": {}
+      },
+      "z4xWYgu1NYDEdTsZ": {
+        "_id": "z4xWYgu1NYDEdTsZ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.ufeNlNPBCVes95lo",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "name": "Capacités : Chasseur de démons illidari",
+        "hint": "",
+        "flags": {}
+      },
+      "HU3OfaxPwaDrbXaE": {
+        "_id": "HU3OfaxPwaDrbXaE",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.le6Vq99XBnwv4twH",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "name": "Capacités : Chasseur de démons illidari",
+        "hint": "",
+        "flags": {}
+      },
+      "IBMqFParniZ2bfL6": {
+        "_id": "IBMqFParniZ2bfL6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "name": "Sorts du chasseur illidari",
+        "hint": "",
+        "flags": {}
+      },
+      "Je6xoH6BGmpuktrp": {
+        "_id": "Je6xoH6BGmpuktrp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplSeeInvisib",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "name": "Sorts du chasseur illidari",
+        "hint": "",
+        "flags": {}
+      },
+      "ZepdzQ2R2EX4hYXF": {
+        "_id": "ZepdzQ2R2EX4hYXF",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplMagicCircl",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "name": "Sorts du chasseur illidari",
+        "hint": "",
+        "flags": {}
+      },
+      "Ij9BtHpwHVWPkkI5": {
+        "_id": "Ij9BtHpwHVWPkkI5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplBanishment",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "name": "Sorts du chasseur illidari",
+        "hint": "",
+        "flags": {}
+      },
+      "crFYuAZ1vWgmWgkw": {
+        "_id": "crFYuAZ1vWgmWgkw",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplDispelEvil",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 17,
+        "name": "Sorts du chasseur illidari",
+        "hint": "",
+        "flags": {}
+      },
+      "iQQUYVqLGZlBUQjx": {
+        "_id": "iQQUYVqLGZlBUQjx",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "gangrene",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "number": 1,
+              "faces": 6,
+              "modifiers": []
+            },
+            "11": {
+              "number": 2,
+              "faces": 6,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "name": "Dés des lames gangrenées",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "classIdentifier": "ranger",
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "chasseur-de-demons-illidari",
+      "classe": "ranger"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

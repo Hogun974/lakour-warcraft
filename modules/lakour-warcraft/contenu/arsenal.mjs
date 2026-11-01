@@ -125,13 +125,13 @@ const ARMES = [
     texte: "Un pistolet trapu au canon évasé, assemblé à Baie-du-Butin avec des pièces de trois armes différentes et vendu « en l'état ». Il tire des **balles de fusil**.\n\n**Spécial.** Sur un 1 naturel au jet d'attaque, la poudre fuse par la culasse : vous subissez 1d4 dégâts de feu et l'arme ne peut plus tirer avant d'avoir été nettoyée (une action)."
   }),
   armeArsenal({
-    cle: "arsenal-masse-de-tonnerre", nom: "Masse de tonnerre de Forgefer", img: icone("weapons/hammers/hammer-double-steel-embossed"),
+    cle: "arsenal-masse-de-tonnerre", nom: "Masse de tonnerre de Forgefer", img: icone("weapons/maces/mace-studded-steel.webp"),
     categorie: "martialM", base: "maul", degats: { des: "2d6", types: ["bludgeoning"] },
     proprietes: ["hvy", "two"], maitrise: "topple", prix: [10, "gp"], poids: 10,
     texte: "Une tête de marteau en acier de Forgefer grosse comme une enclume de voyage, sur un manche cerclé de bronze. Les clans des Barbe-de-Bronze racontent qu'un bon coup s'entend jusqu'au lac de Loch Modan."
   }),
   armeArsenal({
-    cle: "arsenal-rapiere-de-lune-d-argent", nom: "Rapière de Lune-d'argent", img: icone("weapons/swords/shortsword-guard-gold-red"),
+    cle: "arsenal-rapiere-de-lune-d-argent", nom: "Rapière de Lune-d'argent", img: icone("weapons/swords/sword-winged-pink.webp"),
     categorie: "martialM", base: "rapier", degats: { des: "1d8", types: ["piercing"] },
     proprietes: ["fin"], maitrise: "vex", prix: [25, "gp"], poids: 2,
     texte: "Une lame fine et souple à la garde ajourée de feuilles d'or, l'arme de cour des magistères et des chevaliers de sang. Chaque touche ouvre la garde de l'adversaire pour le coup suivant."

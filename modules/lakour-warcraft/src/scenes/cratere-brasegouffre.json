@@ -993,13 +993,13 @@
       "flags": {}
     },
     {
-      "name": "forge — Enclume démoniaque",
-      "x": 2500,
-      "y": 350,
+      "name": "feu — Gouffre de lave",
+      "x": 1650,
+      "y": 2150,
       "elevation": 0,
       "levels": [],
       "radius": 4.5,
-      "path": "modules/lakour-mj-ia/assets/sons/forge.wav",
+      "path": "modules/lakour-mj-ia/assets/sons/feu.wav",
       "repeat": true,
       "volume": 0.3,
       "walls": true,
@@ -1009,10 +1009,493 @@
       "_id": "3GiGolO9QoHIwdal",
       "_key": "!scenes.sounds!RlyX3Yz5pMpfyHgY.3GiGolO9QoHIwdal",
       "flags": {}
+    },
+    {
+      "name": "tension — Cercle du rituel",
+      "x": 1650,
+      "y": 1250,
+      "elevation": 0,
+      "levels": [],
+      "radius": 10.5,
+      "path": "modules/lakour-mj-ia/assets/sons/tension.wav",
+      "repeat": true,
+      "volume": 0.3,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "aikkmK1VKWcemtDP",
+      "_key": "!scenes.sounds!RlyX3Yz5pMpfyHgY.aikkmK1VKWcemtDP",
+      "flags": {}
+    },
+    {
+      "name": "vent — Bord du cratère",
+      "x": 1550,
+      "y": 250,
+      "elevation": 0,
+      "levels": [],
+      "radius": 12,
+      "path": "modules/lakour-mj-ia/assets/sons/vent.wav",
+      "repeat": true,
+      "volume": 0.15,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "pzDE9rfSMuh2Hfe5",
+      "_key": "!scenes.sounds!RlyX3Yz5pMpfyHgY.pzDE9rfSMuh2Hfe5",
+      "flags": {}
     }
   ],
-  "regions": [],
-  "notes": [],
+  "regions": [
+    {
+      "_id": "N1J0i8o0YeiMv2a2",
+      "name": "Ruines de la forge",
+      "color": "#4f8cc9",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 2200,
+          "y": 100,
+          "width": 700,
+          "height": 900,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "PpXw0BYjMfrZQqhp",
+          "name": "Ruines de la forge",
+          "disabled": false,
+          "flags": {},
+          "type": "displayScrollingText",
+          "system": {
+            "events": [
+              "tokenAnimateIn"
+            ],
+            "text": "Une enclume grande comme un autel, froide depuis dix mille ans. Ou presque.",
+            "color": "#ffffff",
+            "visibility": 2,
+            "once": true
+          },
+          "_key": "!scenes.regions.behaviors!RlyX3Yz5pMpfyHgY.N1J0i8o0YeiMv2a2.PpXw0BYjMfrZQqhp"
+        }
+      ],
+      "_key": "!scenes.regions!RlyX3Yz5pMpfyHgY.N1J0i8o0YeiMv2a2",
+      "flags": {}
+    },
+    {
+      "_id": "h7D1Ki67K0afbWex",
+      "name": "Fosse aux captifs",
+      "color": "#4f8cc9",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 100,
+          "y": 1500,
+          "width": 700,
+          "height": 700,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "EJzan4zmN9egeYPO",
+          "name": "Fosse aux captifs",
+          "disabled": false,
+          "flags": {},
+          "type": "displayScrollingText",
+          "system": {
+            "events": [
+              "tokenAnimateIn"
+            ],
+            "text": "Des voix en trois langues demandent la même chose : de l'eau.",
+            "color": "#ffffff",
+            "visibility": 2,
+            "once": true
+          },
+          "_key": "!scenes.regions.behaviors!RlyX3Yz5pMpfyHgY.h7D1Ki67K0afbWex.EJzan4zmN9egeYPO"
+        }
+      ],
+      "_key": "!scenes.regions!RlyX3Yz5pMpfyHgY.h7D1Ki67K0afbWex",
+      "flags": {}
+    },
+    {
+      "_id": "baQSg2OOVhXPMNGP",
+      "name": "Cercle du rituel",
+      "color": "#e0a030",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1000,
+          "y": 600,
+          "width": 1200,
+          "height": 1200,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "8norKAZefrLNKmlG",
+          "name": "Cercle du rituel",
+          "disabled": false,
+          "flags": {},
+          "type": "pauseGame",
+          "system": {
+            "once": true
+          },
+          "_key": "!scenes.regions.behaviors!RlyX3Yz5pMpfyHgY.baQSg2OOVhXPMNGP.8norKAZefrLNKmlG"
+        }
+      ],
+      "_key": "!scenes.regions!RlyX3Yz5pMpfyHgY.baQSg2OOVhXPMNGP",
+      "flags": {}
+    },
+    {
+      "_id": "EBDMjXyujBkSxziD",
+      "name": "Puits de la Fournaise",
+      "color": "#4f8cc9",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 2300,
+          "y": 1400,
+          "width": 600,
+          "height": 800,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "cYEw3goybTG5adYe",
+          "name": "Puits de la Fournaise",
+          "disabled": false,
+          "flags": {},
+          "type": "displayScrollingText",
+          "system": {
+            "events": [
+              "tokenAnimateIn"
+            ],
+            "text": "Un battement sourd monte du fond, si lent qu'on le sent dans les dents avant de l'entendre.",
+            "color": "#ffffff",
+            "visibility": 2,
+            "once": true
+          },
+          "_key": "!scenes.regions.behaviors!RlyX3Yz5pMpfyHgY.EBDMjXyujBkSxziD.cYEw3goybTG5adYe"
+        }
+      ],
+      "_key": "!scenes.regions!RlyX3Yz5pMpfyHgY.EBDMjXyujBkSxziD",
+      "flags": {}
+    }
+  ],
+  "notes": [
+    {
+      "entryId": "qRBAKDn0YR5qJjhc",
+      "pageId": "cZXvD6E1KUIYnxJ9",
+      "x": 450,
+      "y": 650,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/combat.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Camp de la Lame ardente",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "kumSQ7aFiZ2Ew6jI",
+      "_key": "!scenes.notes!RlyX3Yz5pMpfyHgY.kumSQ7aFiZ2Ew6jI",
+      "flags": {}
+    },
+    {
+      "entryId": "qRBAKDn0YR5qJjhc",
+      "pageId": "cZXvD6E1KUIYnxJ9",
+      "x": 350,
+      "y": 1750,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/padlock.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Captifs à libérer",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "MetGfl5sLdQeoqtu",
+      "_key": "!scenes.notes!RlyX3Yz5pMpfyHgY.MetGfl5sLdQeoqtu",
+      "flags": {}
+    },
+    {
+      "entryId": "qRBAKDn0YR5qJjhc",
+      "pageId": "cZXvD6E1KUIYnxJ9",
+      "x": 1750,
+      "y": 1350,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/fire.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Autel des Braises — Drogha l'Embrasé",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "So9xBZH8Ps3qrMD3",
+      "_key": "!scenes.notes!RlyX3Yz5pMpfyHgY.So9xBZH8Ps3qrMD3",
+      "flags": {}
+    },
+    {
+      "entryId": "qRBAKDn0YR5qJjhc",
+      "pageId": "cZXvD6E1KUIYnxJ9",
+      "x": 1650,
+      "y": 950,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/portal.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Portail de la Fournaise",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "MWw1wjmdegYC9QDK",
+      "_key": "!scenes.notes!RlyX3Yz5pMpfyHgY.MWw1wjmdegYC9QDK",
+      "flags": {}
+    },
+    {
+      "entryId": "qRBAKDn0YR5qJjhc",
+      "pageId": "cZXvD6E1KUIYnxJ9",
+      "x": 2750,
+      "y": 350,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/eye.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Ezzavel, spectateur",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "ysxk65yxHp3WMypZ",
+      "_key": "!scenes.notes!RlyX3Yz5pMpfyHgY.ysxk65yxHp3WMypZ",
+      "flags": {}
+    },
+    {
+      "entryId": "qRBAKDn0YR5qJjhc",
+      "pageId": "cZXvD6E1KUIYnxJ9",
+      "x": 2550,
+      "y": 1350,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/door-secret-outline.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Fissure secrète vers le puits",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "XqKOtZc95iLe4B9Z",
+      "_key": "!scenes.notes!RlyX3Yz5pMpfyHgY.XqKOtZc95iLe4B9Z",
+      "flags": {}
+    },
+    {
+      "entryId": "qRBAKDn0YR5qJjhc",
+      "pageId": "cZXvD6E1KUIYnxJ9",
+      "x": 2450,
+      "y": 1750,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/hazard.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Cœur de la Fournaise",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "RD9E8cVjPgUT9hoF",
+      "_key": "!scenes.notes!RlyX3Yz5pMpfyHgY.RD9E8cVjPgUT9hoF",
+      "flags": {}
+    }
+  ],
   "tokens": [],
   "tiles": [],
   "ownership": {
@@ -1403,6 +1886,135 @@
             "y": 20,
             "l": 5,
             "h": 2
+          }
+        ],
+        "sons": [
+          {
+            "nom": "Feu de camp",
+            "x": 5,
+            "y": 5,
+            "rayon": 3,
+            "son": "feu",
+            "volume": 0.35
+          },
+          {
+            "nom": "Gouffre de lave",
+            "x": 16,
+            "y": 21,
+            "rayon": 3,
+            "son": "feu",
+            "volume": 0.3
+          },
+          {
+            "nom": "Cercle du rituel",
+            "x": 16,
+            "y": 12,
+            "rayon": 7,
+            "son": "tension",
+            "volume": 0.3
+          },
+          {
+            "nom": "Bord du cratère",
+            "x": 15,
+            "y": 2,
+            "rayon": 8,
+            "son": "vent",
+            "volume": 0.15
+          }
+        ],
+        "zones": [
+          {
+            "nom": "Ruines de la forge",
+            "x": 22,
+            "y": 1,
+            "l": 7,
+            "h": 9,
+            "type": "texte",
+            "texte": "Une enclume grande comme un autel, froide depuis dix mille ans. Ou presque."
+          },
+          {
+            "nom": "Fosse aux captifs",
+            "x": 1,
+            "y": 15,
+            "l": 7,
+            "h": 7,
+            "type": "texte",
+            "texte": "Des voix en trois langues demandent la même chose : de l'eau."
+          },
+          {
+            "nom": "Cercle du rituel",
+            "x": 10,
+            "y": 6,
+            "l": 12,
+            "h": 12,
+            "type": "pause"
+          },
+          {
+            "nom": "Puits de la Fournaise",
+            "x": 23,
+            "y": 14,
+            "l": 6,
+            "h": 8,
+            "type": "texte",
+            "texte": "Un battement sourd monte du fond, si lent qu'on le sent dans les dents avant de l'entendre."
+          }
+        ],
+        "notes": [
+          {
+            "x": 4,
+            "y": 6,
+            "texte": "Camp de la Lame ardente",
+            "icone": "icons/svg/combat.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "cZXvD6E1KUIYnxJ9"
+          },
+          {
+            "x": 3,
+            "y": 17,
+            "texte": "Captifs à libérer",
+            "icone": "icons/svg/padlock.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "cZXvD6E1KUIYnxJ9"
+          },
+          {
+            "x": 17,
+            "y": 13,
+            "texte": "Autel des Braises — Drogha l'Embrasé",
+            "icone": "icons/svg/fire.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "cZXvD6E1KUIYnxJ9"
+          },
+          {
+            "x": 16,
+            "y": 9,
+            "texte": "Portail de la Fournaise",
+            "icone": "icons/svg/portal.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "cZXvD6E1KUIYnxJ9"
+          },
+          {
+            "x": 27,
+            "y": 3,
+            "texte": "Ezzavel, spectateur",
+            "icone": "icons/svg/eye.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "cZXvD6E1KUIYnxJ9"
+          },
+          {
+            "x": 25,
+            "y": 13,
+            "texte": "Fissure secrète vers le puits",
+            "icone": "icons/svg/door-secret-outline.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "cZXvD6E1KUIYnxJ9"
+          },
+          {
+            "x": 24,
+            "y": 17,
+            "texte": "Cœur de la Fournaise",
+            "icone": "icons/svg/hazard.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "cZXvD6E1KUIYnxJ9"
           }
         ]
       },

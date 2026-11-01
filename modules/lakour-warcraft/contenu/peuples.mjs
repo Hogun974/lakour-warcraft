@@ -17,7 +17,7 @@ const HUMAIN = { cle: "humain", nom: "Humain" };
 const humain = [
   t(HUMAIN, "tenacite", "Ténacité humaine", icone("magic/control/buff-strength-muscle-damage-orange"),
     "Les royaumes humains ont survécu aux trolls, aux orcs et au Fléau : ils ne savent pas renoncer. Chaque fois que vous terminez un **repos long**, vous gagnez l'**Inspiration héroïque**."),
-  t(HUMAIN, "touche-a-tout", "Touche-à-tout", icone("sundries/books/", "book"),
+  t(HUMAIN, "touche-a-tout", "Touche-à-tout", icone("skills/trades/academics-book-study-purple.webp"),
     "Fermier devenu milicien, apprenti devenu soldat : vous avez appris un peu de tout. Vous gagnez la maîtrise d'une **compétence** de votre choix.",
     { maitrises: { choix: [{ parmi: ["skills:*"] }], indice: "Une compétence au choix." } }),
   t(HUMAIN, "polyvalence", "Polyvalence", icone("magic/control/buff-luck-fortune-green-gold"),
@@ -52,7 +52,7 @@ const gnome = [
         ]
       }]
     }),
-  t(GNOME, "bricoleur", "Bricoleur de Gnomeregan", icone("commodities/tech/", "cog"),
+  t(GNOME, "bricoleur", "Bricoleur de Gnomeregan", icone("tools/hand/wrench-adjustable-toothed.webp"),
     "Vous avez grandi parmi les engrenages. Vous maîtrisez les **outils de bricoleur** et connaissez le tour de magie **Réparation** (Intelligence). En une heure et avec 10 po de pièces, vous pouvez assembler un petit mécanisme (jouet, briquet, boîte à musique, réveil) qui fonctionne jusqu'à ce que vous en fabriquiez un autre.",
     {
       maitrises: { accordees: ["tool:art:tinker"] },
@@ -143,7 +143,7 @@ const troll = [
   t(TROLL, "faveur-des-loa", "Faveur des loa", icone("commodities/treasure/totem-wood-face-brown"),
     "Les esprits de la jungle répondent à ceux qui leur parlent. Vous connaissez le tour de magie **Thaumaturgie**. À partir du niveau 3, vous pouvez lancer **Lumière** une fois sans emplacement de sort par repos long… sous la forme de feux follets verts autour d'un masque de vaudou. Intelligence, Sagesse ou Charisme est votre caractéristique d'incantation pour ces sorts (choisie quand vous prenez ce peuple).",
     { sorts: [{ uuid: SORTS_SRD.thaumaturgie }] }),
-  t(TROLL, "instinct-de-la-jungle", "Instinct de la jungle", icone("weapons/polearms/spear-hooked-brown"),
+  t(TROLL, "instinct-de-la-jungle", "Instinct de la jungle", icone("magic/nature/stealth-hide-beast-eyes-green.webp"),
     "Les Sombrelance ont survécu aux raptors, aux murlocs et aux trolls rivaux. Vous maîtrisez **Dressage**, **Nature** ou **Survie** (au choix), et le terrain difficile naturel (broussailles, marais, éboulis) ne ralentit pas votre déplacement.",
     { maitrises: { choix: [{ parmi: ["skills:ani", "skills:nat", "skills:sur"] }] } })
 ];
@@ -157,7 +157,7 @@ const tauren = [
       effets: [{ nom: "Renversé par la charge", transfert: false, etats: ["prone"] }],
       activites: [{ type: "save", nom: "Renverser", activation: "", condition: "Après 6 m en ligne droite et une attaque au corps à corps réussie", portee: [1.5, "m"], cible: ["1", "creature"], sauvegarde: { carac: ["str"], dd: "con", reussite: "none" }, effets: [0] }]
     }),
-  t(TAUREN, "carrure", "Carrure des plaines", icone("magic/control/buff-strength-muscle-damage"),
+  t(TAUREN, "carrure", "Carrure des plaines", icone("creatures/abilities/bull-head-horns-glowing.webp"),
     "Vous êtes de taille Moyenne, mais bâti comme un taureau. Vous avez l'avantage aux tests pour mettre fin à l'état **agrippé**, et vous comptez comme une taille de plus pour la charge que vous pouvez porter, pousser, tirer ou soulever.",
     { effets: [{ nom: "Carrure des plaines", changements: [["flags.dnd5e.powerfulBuild", true, "override"]] }] }),
   t(TAUREN, "robustesse", "Robustesse taurène", icone("magic/life/heart-cross-strong-green"),
@@ -234,7 +234,7 @@ const pandaren = [
   t(PANDAREN, "gourmet", "Gourmet", icone("consumables/meat/", "steak"),
     "Un bon repas répare plus qu'un sort. Vous maîtrisez les **ustensiles de cuisinier**. À la fin d'un **repos court** où vous avez cuisiné pour le groupe, vous et jusqu'à cinq alliés qui ont partagé le repas récupérez des points de vie supplémentaires égaux à votre **bonus de maîtrise** chacun.",
     { maitrises: { accordees: ["tool:art:cook"] } }),
-  t(PANDAREN, "paix-interieure", "Paix intérieure", icone("magic/holy/yin-yang-balance-symbol"),
+  t(PANDAREN, "paix-interieure", "Paix intérieure", icone("magic/nature/lotus-glow-pink.webp"),
     "La sérénité de la Pandarie vous accompagne. Vous avez l'avantage aux jets de sauvegarde pour éviter ou terminer l'état **effrayé**, et une nuit troublée ne vous empêche jamais de bénéficier d'un repos long.")
 ];
 
@@ -308,7 +308,7 @@ export const PEUPLES_DOCS = [
     ])
   }),
   peuple({
-    ...TROLL, img: icone("commodities/treasure/totem-wooden-glowing-green"), indiceTaille: "Moyen (2 à 2,30 m, voûté).",
+    ...TROLL, img: icone("commodities/treasure/wood-tiki.webp"), indiceTaille: "Moyen (2 à 2,30 m, voûté).",
     vitesse: 9, vision: 18, traits: troll,
     texte: decrire([
       "**Horde.** La tribu Sombrelance, chassée de ses îles par les murlocs et les humains de Kul Tiras, a juré fidélité à Thrall qui l'a sauvée. Ses guerriers, chasseurs et féticheurs vivent aujourd'hui aux îles de l'Écho, au large de Durotar.",

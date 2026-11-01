@@ -1,0 +1,65 @@
+{
+  "_id": "DjeT54zsD1FYsFAb",
+  "_key": "!items!DjeT54zsD1FYsFAb",
+  "name": "Archives de Dalaran",
+  "type": "feat",
+  "img": "icons/sundries/scrolls/scroll-bound-blue-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>La bibliothèque de la Citadelle pourpre vous est ouverte. Quand vous atteignez les niveaux de magicien indiqués, ces sorts s'ajoutent gratuitement à votre <strong>grimoire</strong> ; vous les préparez comme vos autres sorts de magicien.</p><ul><li>Niveau 3 : Nova de givre</li><li>Niveau 5 : Métamorphose ovine</li><li>Niveau 7 : Blizzard</li><li>Niveau 9 : Portail du Kirin Tor</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "kirin-tor-archives",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Tradition du Kirin Tor",
+    "prerequisites": {
+      "level": 3,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "kirin-tor-archives",
+      "sousClasse": "tradition-du-kirin-tor",
+      "classe": "wizard",
+      "niveau": 3,
+      "automatisation": "complete",
+      "portePar": "sous-classe",
+      "liste": "sorts"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

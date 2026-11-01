@@ -3319,6 +3319,93 @@
     "l": 3,
     "h": 1
    }
+  ],
+  "zones": [
+   {
+    "nom": "Taverne de la Clé tordue",
+    "x": 12,
+    "y": 1,
+    "l": 9,
+    "h": 7,
+    "type": "texte",
+    "texte": "Chopes qui claquent, dés qui roulent. Gravé au couteau sur le comptoir : « Ici, les épées dorment. »"
+   },
+   {
+    "nom": "Bureau de la Trêve",
+    "x": 1,
+    "y": 8,
+    "l": 6,
+    "h": 4,
+    "type": "texte",
+    "texte": "Deux voix se coupent la parole, l'une en commun, l'autre en orc. Aucune ne cède."
+   },
+   {
+    "nom": "Quai",
+    "x": 0,
+    "y": 14,
+    "l": 28,
+    "h": 3,
+    "type": "texte",
+    "texte": "Sel, goudron et poisson grillé. À chaque poteau, la même affiche : PAR ORDRE DU CARTEL."
+   },
+   {
+    "nom": "Tonneaux du porteur d'eau",
+    "x": 22,
+    "y": 10,
+    "l": 5,
+    "h": 3,
+    "type": "pause"
+   }
+  ],
+  "notes": [
+   {
+    "x": 5,
+    "y": 2,
+    "texte": "Grizzla — le contrat",
+    "icone": "icons/svg/coins.svg",
+    "entryId": "DQAuC2l2FxNLLS5W",
+    "pageId": "d0KM3uaToaEarGf7"
+   },
+   {
+    "x": 5,
+    "y": 10,
+    "texte": "Haldis et Garrok",
+    "icone": "icons/svg/tower-flag.svg",
+    "entryId": "DQAuC2l2FxNLLS5W",
+    "pageId": "d0KM3uaToaEarGf7"
+   },
+   {
+    "x": 13,
+    "y": 11,
+    "texte": "Docker malade (indice)",
+    "icone": "icons/svg/poison.svg",
+    "entryId": "DQAuC2l2FxNLLS5W",
+    "pageId": "d0KM3uaToaEarGf7"
+   },
+   {
+    "x": 24,
+    "y": 12,
+    "texte": "Tonneau qui luit — le cultiste",
+    "icone": "icons/svg/barrel.svg",
+    "entryId": "DQAuC2l2FxNLLS5W",
+    "pageId": "d0KM3uaToaEarGf7"
+   },
+   {
+    "x": 19,
+    "y": 12,
+    "texte": "Nervis cachés, puis murlocs",
+    "icone": "icons/svg/combat.svg",
+    "entryId": "DQAuC2l2FxNLLS5W",
+    "pageId": "d0KM3uaToaEarGf7"
+   },
+   {
+    "x": 13,
+    "y": 15,
+    "texte": "La Trêve de Cabestan",
+    "icone": "icons/svg/hanging-sign.svg",
+    "entryId": "smYCJHsMjBH3NMR7",
+    "pageId": "JAc4rrFxZoLgd40W"
+   }
   ]
  },
  "relais-oasis": {
@@ -3733,6 +3820,111 @@
     "l": 2,
     "h": 2
    }
+  ],
+  "sons": [
+   {
+    "nom": "Feu de camp",
+    "x": 16,
+    "y": 5,
+    "rayon": 3,
+    "son": "feu",
+    "volume": 0.35
+   },
+   {
+    "nom": "Savane",
+    "x": 15,
+    "y": 11,
+    "rayon": 12,
+    "son": "nuit",
+    "volume": 0.25
+   },
+   {
+    "nom": "Épineux",
+    "x": 26,
+    "y": 3,
+    "rayon": 5,
+    "son": "vent",
+    "volume": 0.15
+   }
+  ],
+  "zones": [
+   {
+    "nom": "Relais",
+    "x": 2,
+    "y": 2,
+    "l": 8,
+    "h": 6,
+    "type": "texte",
+    "texte": "Gonds arrachés, couchettes renversées. Le vent rabat ici l'odeur du kodo mort."
+   },
+   {
+    "nom": "Écurie",
+    "x": 2,
+    "y": 10,
+    "l": 6,
+    "h": 5,
+    "type": "texte",
+    "texte": "Derrière la mangeoire, un souffle lourd, retenu."
+   },
+   {
+    "nom": "Cachette de Hanuk",
+    "x": 2,
+    "y": 12,
+    "l": 4,
+    "h": 3,
+    "type": "pause"
+   },
+   {
+    "nom": "Oasis",
+    "x": 16,
+    "y": 10,
+    "l": 9,
+    "h": 7,
+    "type": "texte",
+    "texte": "L'eau a la teinte d'une vieille bouteille. Aucune bête n'y boit, pas même les mouches."
+   }
+  ],
+  "notes": [
+   {
+    "x": 6,
+    "y": 11,
+    "texte": "Hanuk Pas-de-Pluie, blessé",
+    "icone": "icons/svg/heal.svg",
+    "entryId": "DQAuC2l2FxNLLS5W",
+    "pageId": "wFkaZlzCp2pElNxH"
+   },
+   {
+    "x": 14,
+    "y": 6,
+    "texte": "Puits du relais (indice)",
+    "icone": "icons/svg/waterfall.svg",
+    "entryId": "DQAuC2l2FxNLLS5W",
+    "pageId": "wFkaZlzCp2pElNxH"
+   },
+   {
+    "x": 24,
+    "y": 6,
+    "texte": "Registre de la caravane (indice)",
+    "icone": "icons/svg/book.svg",
+    "entryId": "DQAuC2l2FxNLLS5W",
+    "pageId": "wFkaZlzCp2pElNxH"
+   },
+   {
+    "x": 15,
+    "y": 18,
+    "texte": "Traces de l'attaque (indice)",
+    "icone": "icons/svg/pawprint.svg",
+    "entryId": "DQAuC2l2FxNLLS5W",
+    "pageId": "wFkaZlzCp2pElNxH"
+   },
+   {
+    "x": 22,
+    "y": 13,
+    "texte": "Minuit : hurans par l'oasis",
+    "icone": "icons/svg/combat.svg",
+    "entryId": "DQAuC2l2FxNLLS5W",
+    "pageId": "wFkaZlzCp2pElNxH"
+   }
   ]
  },
  "kraal-ronceroc": {
@@ -3936,6 +4128,93 @@
     "y": 21,
     "l": 4,
     "h": 2
+   }
+  ],
+  "zones": [
+   {
+    "nom": "Entrée du kraal",
+    "x": 13,
+    "y": 17,
+    "l": 4,
+    "h": 3,
+    "type": "texte",
+    "texte": "Un cor de corne beugle derrière le grand totem. Dans l'enclos, des groins se dressent."
+   },
+   {
+    "nom": "Hutte du géomancien",
+    "x": 6,
+    "y": 5,
+    "l": 6,
+    "h": 5,
+    "type": "texte",
+    "texte": "Des pierres plates gravées de spirales, posées en cercle. L'air y sent la pluie qui ne vient plus."
+   },
+   {
+    "nom": "Mare gangrenée",
+    "x": 18,
+    "y": 14,
+    "l": 3,
+    "h": 2,
+    "type": "texte",
+    "texte": "L'eau verte fume sans chaleur. Le soufre colle à la gorge."
+   },
+   {
+    "nom": "Hutte de la cheffe",
+    "x": 16,
+    "y": 5,
+    "l": 8,
+    "h": 6,
+    "type": "pause"
+   }
+  ],
+  "notes": [
+   {
+    "x": 14,
+    "y": 20,
+    "texte": "Entrée sud : l'assaut",
+    "icone": "icons/svg/combat.svg",
+    "entryId": "DQAuC2l2FxNLLS5W",
+    "pageId": "po0zqbNE92vBKmPm"
+   },
+   {
+    "x": 4,
+    "y": 10,
+    "texte": "Passage secret dans les ronces",
+    "icone": "icons/svg/door-secret-outline.svg",
+    "entryId": "DQAuC2l2FxNLLS5W",
+    "pageId": "po0zqbNE92vBKmPm"
+   },
+   {
+    "x": 10,
+    "y": 6,
+    "texte": "Grommel Défense-Grise",
+    "icone": "icons/svg/cowled.svg",
+    "entryId": "DQAuC2l2FxNLLS5W",
+    "pageId": "po0zqbNE92vBKmPm"
+   },
+   {
+    "x": 21,
+    "y": 9,
+    "texte": "Gorra — duel d'honneur",
+    "icone": "icons/svg/sword.svg",
+    "entryId": "DQAuC2l2FxNLLS5W",
+    "pageId": "po0zqbNE92vBKmPm"
+   },
+   {
+    "x": 19,
+    "y": 13,
+    "texte": "Mare gangrenée — la guérison",
+    "icone": "icons/svg/poison.svg",
+    "entryId": "DQAuC2l2FxNLLS5W",
+    "pageId": "po0zqbNE92vBKmPm"
+   },
+   {
+    "x": 20,
+    "y": 18,
+    "texte": "Tobias Merle et Uzga, captifs",
+    "icone": "icons/svg/padlock.svg",
+    "entryId": "DQAuC2l2FxNLLS5W",
+    "pageId": "po0zqbNE92vBKmPm"
    }
   ]
  },
@@ -4257,6 +4536,93 @@
     "y": 16,
     "l": 1,
     "h": 1
+   }
+  ],
+  "zones": [
+   {
+    "nom": "Entrée de la mine",
+    "x": 0,
+    "y": 9,
+    "l": 6,
+    "h": 5,
+    "type": "texte",
+    "texte": "Le vieux panneau du Cartel grince au vent. Plus bas, des pioches cognent sans jamais s'arrêter."
+   },
+   {
+    "nom": "Baraquement des kobolds",
+    "x": 6,
+    "y": 2,
+    "l": 8,
+    "h": 8,
+    "type": "texte",
+    "texte": "De petites voix reniflent dans le noir. Une chaîne tinte à chaque sanglot."
+   },
+   {
+    "nom": "Galerie basse",
+    "x": 12,
+    "y": 13,
+    "l": 6,
+    "h": 6,
+    "type": "obscurite",
+    "obscurite": 1
+   },
+   {
+    "nom": "Caverne de la Source",
+    "x": 18,
+    "y": 4,
+    "l": 12,
+    "h": 16,
+    "type": "pause"
+   }
+  ],
+  "notes": [
+   {
+    "x": 2,
+    "y": 12,
+    "texte": "Cultistes aux dés — l'alerte",
+    "icone": "icons/svg/d6-grey.svg",
+    "entryId": "DQAuC2l2FxNLLS5W",
+    "pageId": "t7N5ErO1feyylpu6"
+   },
+   {
+    "x": 11,
+    "y": 4,
+    "texte": "Kobolds enchaînés",
+    "icone": "icons/svg/net.svg",
+    "entryId": "DQAuC2l2FxNLLS5W",
+    "pageId": "t7N5ErO1feyylpu6"
+   },
+   {
+    "x": 10,
+    "y": 15,
+    "texte": "Tonneaux de poudre",
+    "icone": "icons/svg/explosion.svg",
+    "entryId": "DQAuC2l2FxNLLS5W",
+    "pageId": "t7N5ErO1feyylpu6"
+   },
+   {
+    "x": 16,
+    "y": 16,
+    "texte": "Passage dérobé vers la caverne",
+    "icone": "icons/svg/door-secret-outline.svg",
+    "entryId": "DQAuC2l2FxNLLS5W",
+    "pageId": "t7N5ErO1feyylpu6"
+   },
+   {
+    "x": 25,
+    "y": 5,
+    "texte": "Drogha — le rituel",
+    "icone": "icons/svg/fire.svg",
+    "entryId": "DQAuC2l2FxNLLS5W",
+    "pageId": "t7N5ErO1feyylpu6"
+   },
+   {
+    "x": 28,
+    "y": 12,
+    "texte": "Éclat gangrené — l'arrêter",
+    "icone": "icons/svg/radiation.svg",
+    "entryId": "DQAuC2l2FxNLLS5W",
+    "pageId": "t7N5ErO1feyylpu6"
    }
   ]
  },
@@ -4610,6 +4976,109 @@
     "y": 18,
     "l": 1,
     "h": 1
+   }
+  ],
+  "zones": [
+   {
+    "nom": "Bureau de Vizzik",
+    "x": 1,
+    "y": 1,
+    "l": 7,
+    "h": 5,
+    "type": "texte",
+    "texte": "Sur la porte, une plaque de cuivre bien astiquée : « Tout se négocie. Sauf mon temps. »"
+   },
+   {
+    "nom": "Halle des machines",
+    "x": 9,
+    "y": 1,
+    "l": 12,
+    "h": 8,
+    "type": "texte",
+    "texte": "Le sol tremble sous les bottes. Ça sent le cuivre chaud et l'orage."
+   },
+   {
+    "nom": "Près du moteur",
+    "x": 13,
+    "y": 2,
+    "l": 5,
+    "h": 5,
+    "type": "pause"
+   },
+   {
+    "nom": "Haut-fourneau",
+    "x": 22,
+    "y": 1,
+    "l": 6,
+    "h": 8,
+    "type": "texte",
+    "texte": "Une chaleur à cuire le pain. La fonte file dans sa rigole comme un ruisseau orange."
+   }
+  ],
+  "notes": [
+   {
+    "x": 4,
+    "y": 3,
+    "texte": "Vizzik Tirelire — le retourner",
+    "icone": "icons/svg/coins.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "bzoOX8ZhHXVUDHYR"
+   },
+   {
+    "x": 2,
+    "y": 4,
+    "texte": "Étagère de registres (indice)",
+    "icone": "icons/svg/book.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "bzoOX8ZhHXVUDHYR"
+   },
+   {
+    "x": 6,
+    "y": 1,
+    "texte": "Coffre-fort (indice)",
+    "icone": "icons/svg/chest.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "bzoOX8ZhHXVUDHYR"
+   },
+   {
+    "x": 17,
+    "y": 5,
+    "texte": "Moteur à éclat — la Braise",
+    "icone": "icons/svg/fire.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "bzoOX8ZhHXVUDHYR"
+   },
+   {
+    "x": 13,
+    "y": 10,
+    "texte": "Ouvriers malades (indice)",
+    "icone": "icons/svg/poison.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "bzoOX8ZhHXVUDHYR"
+   },
+   {
+    "x": 5,
+    "y": 17,
+    "texte": "Caisses scellées (indice)",
+    "icone": "icons/svg/padlock.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "bzoOX8ZhHXVUDHYR"
+   },
+   {
+    "x": 15,
+    "y": 14,
+    "texte": "Déchiqueteur et sifflet",
+    "icone": "icons/svg/clockwork.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "bzoOX8ZhHXVUDHYR"
+   },
+   {
+    "x": 23,
+    "y": 13,
+    "texte": "Minuit : le courrier du zeppelin",
+    "icone": "icons/svg/combat.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "bzoOX8ZhHXVUDHYR"
    }
   ]
  },
@@ -5001,6 +5470,110 @@
     "y": 20,
     "l": 2,
     "h": 1
+   }
+  ],
+  "zones": [
+   {
+    "nom": "Galerie des statues",
+    "x": 14,
+    "y": 4,
+    "l": 8,
+    "h": 5,
+    "type": "texte",
+    "texte": "Des statues sans visage. Sous chacune, une ligne d'écriture elfique que le sel a presque effacée."
+   },
+   {
+    "nom": "Salle du bassin lunaire",
+    "x": 14,
+    "y": 9,
+    "l": 8,
+    "h": 7,
+    "type": "texte",
+    "texte": "Une eau grise et immobile, qui ne renvoie ni vos visages ni vos torches."
+   },
+   {
+    "nom": "Camp des nagas",
+    "x": 6,
+    "y": 12,
+    "l": 8,
+    "h": 10,
+    "type": "texte",
+    "texte": "Un chant glisse sur l'eau, trop pur pour une gorge humaine. Les murlocs, eux, se taisent."
+   },
+   {
+    "nom": "Ombre de la crypte",
+    "x": 14,
+    "y": 16,
+    "l": 14,
+    "h": 6,
+    "type": "obscurite",
+    "obscurite": 1
+   },
+   {
+    "nom": "Crypte des Bien-Nés",
+    "x": 14,
+    "y": 16,
+    "l": 14,
+    "h": 6,
+    "type": "pause"
+   }
+  ],
+  "notes": [
+   {
+    "x": 3,
+    "y": 4,
+    "texte": "Scaphandres de Fort-Rivet (indice)",
+    "icone": "icons/svg/anchor.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "xMnCwTBpeK6YQGsc"
+   },
+   {
+    "x": 20,
+    "y": 6,
+    "texte": "Inscription sous la statue (indice)",
+    "icone": "icons/svg/statue.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "xMnCwTBpeK6YQGsc"
+   },
+   {
+    "x": 24,
+    "y": 10,
+    "texte": "Pupitre de cristal (indice)",
+    "icone": "icons/svg/eye.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "xMnCwTBpeK6YQGsc"
+   },
+   {
+    "x": 18,
+    "y": 14,
+    "texte": "Bassin lunaire — le réveiller",
+    "icone": "icons/svg/aura.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "xMnCwTBpeK6YQGsc"
+   },
+   {
+    "x": 17,
+    "y": 15,
+    "texte": "Passage secret du bassin",
+    "icone": "icons/svg/door-secret-outline.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "xMnCwTBpeK6YQGsc"
+   },
+   {
+    "x": 9,
+    "y": 20,
+    "texte": "Aelyra Ombrefeuille, captive",
+    "icone": "icons/svg/padlock.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "xMnCwTBpeK6YQGsc"
+   },
+   {
+    "x": 23,
+    "y": 18,
+    "texte": "Autel de la Braise — Sss'thera et Ezzavel",
+    "icone": "icons/svg/fire.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "xMnCwTBpeK6YQGsc"
    }
   ]
  },
@@ -5751,6 +6324,135 @@
     "l": 1,
     "h": 1
    }
+  ],
+  "sons": [
+   {
+    "nom": "Brasero d'alarme",
+    "x": 26,
+    "y": 2,
+    "rayon": 3,
+    "son": "feu",
+    "volume": 0.35
+   },
+   {
+    "nom": "Feu de camp",
+    "x": 19,
+    "y": 20,
+    "rayon": 3,
+    "son": "feu",
+    "volume": 0.35
+   },
+   {
+    "nom": "Pavillon du sommet",
+    "x": 15,
+    "y": 4,
+    "rayon": 5,
+    "son": "foule",
+    "volume": 0.15
+   },
+   {
+    "nom": "Gué",
+    "x": 15,
+    "y": 11,
+    "rayon": 12,
+    "son": "nuit",
+    "volume": 0.2
+   }
+  ],
+  "zones": [
+   {
+    "nom": "Pavillon du sommet",
+    "x": 11,
+    "y": 1,
+    "l": 8,
+    "h": 6,
+    "type": "texte",
+    "texte": "Toile dorée, tapis épais. La roue dentée du Cartel est brodée partout où se pose le regard."
+   },
+   {
+    "nom": "Gué",
+    "x": 13,
+    "y": 9,
+    "l": 4,
+    "h": 4,
+    "type": "texte",
+    "texte": "Des pierres plates sous une eau qui pique les chevilles. Sur la borne neuve, la place d'une date."
+   },
+   {
+    "nom": "Vieux moulin",
+    "x": 2,
+    "y": 15,
+    "l": 7,
+    "h": 5,
+    "type": "texte",
+    "texte": "La meule dort depuis des années. Pourtant, quelqu'un a balayé la poussière du plancher."
+   },
+   {
+    "nom": "Trappe du moulin",
+    "x": 7,
+    "y": 16,
+    "l": 1,
+    "h": 1,
+    "type": "pause"
+   }
+  ],
+  "notes": [
+   {
+    "x": 13,
+    "y": 7,
+    "texte": "Sauf-conduit : armes à l'entrée",
+    "icone": "icons/svg/hanging-sign.svg",
+    "entryId": "PdUBrFeqj4M5xADD",
+    "pageId": "dy62wxMb1yFqDpxf"
+   },
+   {
+    "x": 15,
+    "y": 5,
+    "texte": "Table des négociations — la bombe",
+    "icone": "icons/svg/explosion.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "E99xKmfr3LWDKzCV"
+   },
+   {
+    "x": 12,
+    "y": 17,
+    "texte": "Iselle Marchebrume",
+    "icone": "icons/svg/cowled.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "E99xKmfr3LWDKzCV"
+   },
+   {
+    "x": 17,
+    "y": 17,
+    "texte": "Coffre des traités (indice)",
+    "icone": "icons/svg/chest.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "E99xKmfr3LWDKzCV"
+   },
+   {
+    "x": 6,
+    "y": 17,
+    "texte": "Trappe : la cave des cultistes",
+    "icone": "icons/svg/ladder.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "E99xKmfr3LWDKzCV"
+   },
+   {
+    "x": 3,
+    "y": 6,
+    "texte": "Incident : les montures",
+    "icone": "icons/svg/pawprint.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "E99xKmfr3LWDKzCV"
+   },
+   {
+    "x": 26,
+    "y": 18,
+    "texte": "Incident : la flèche dans le totem",
+    "icone": "icons/svg/target.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "E99xKmfr3LWDKzCV"
+   }
   ]
  },
  "cratere-brasegouffre": {
@@ -6132,6 +6834,135 @@
     "y": 20,
     "l": 5,
     "h": 2
+   }
+  ],
+  "sons": [
+   {
+    "nom": "Feu de camp",
+    "x": 5,
+    "y": 5,
+    "rayon": 3,
+    "son": "feu",
+    "volume": 0.35
+   },
+   {
+    "nom": "Gouffre de lave",
+    "x": 16,
+    "y": 21,
+    "rayon": 3,
+    "son": "feu",
+    "volume": 0.3
+   },
+   {
+    "nom": "Cercle du rituel",
+    "x": 16,
+    "y": 12,
+    "rayon": 7,
+    "son": "tension",
+    "volume": 0.3
+   },
+   {
+    "nom": "Bord du cratère",
+    "x": 15,
+    "y": 2,
+    "rayon": 8,
+    "son": "vent",
+    "volume": 0.15
+   }
+  ],
+  "zones": [
+   {
+    "nom": "Ruines de la forge",
+    "x": 22,
+    "y": 1,
+    "l": 7,
+    "h": 9,
+    "type": "texte",
+    "texte": "Une enclume grande comme un autel, froide depuis dix mille ans. Ou presque."
+   },
+   {
+    "nom": "Fosse aux captifs",
+    "x": 1,
+    "y": 15,
+    "l": 7,
+    "h": 7,
+    "type": "texte",
+    "texte": "Des voix en trois langues demandent la même chose : de l'eau."
+   },
+   {
+    "nom": "Cercle du rituel",
+    "x": 10,
+    "y": 6,
+    "l": 12,
+    "h": 12,
+    "type": "pause"
+   },
+   {
+    "nom": "Puits de la Fournaise",
+    "x": 23,
+    "y": 14,
+    "l": 6,
+    "h": 8,
+    "type": "texte",
+    "texte": "Un battement sourd monte du fond, si lent qu'on le sent dans les dents avant de l'entendre."
+   }
+  ],
+  "notes": [
+   {
+    "x": 4,
+    "y": 6,
+    "texte": "Camp de la Lame ardente",
+    "icone": "icons/svg/combat.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "cZXvD6E1KUIYnxJ9"
+   },
+   {
+    "x": 3,
+    "y": 17,
+    "texte": "Captifs à libérer",
+    "icone": "icons/svg/padlock.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "cZXvD6E1KUIYnxJ9"
+   },
+   {
+    "x": 17,
+    "y": 13,
+    "texte": "Autel des Braises — Drogha l'Embrasé",
+    "icone": "icons/svg/fire.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "cZXvD6E1KUIYnxJ9"
+   },
+   {
+    "x": 16,
+    "y": 9,
+    "texte": "Portail de la Fournaise",
+    "icone": "icons/svg/portal.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "cZXvD6E1KUIYnxJ9"
+   },
+   {
+    "x": 27,
+    "y": 3,
+    "texte": "Ezzavel, spectateur",
+    "icone": "icons/svg/eye.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "cZXvD6E1KUIYnxJ9"
+   },
+   {
+    "x": 25,
+    "y": 13,
+    "texte": "Fissure secrète vers le puits",
+    "icone": "icons/svg/door-secret-outline.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "cZXvD6E1KUIYnxJ9"
+   },
+   {
+    "x": 24,
+    "y": 17,
+    "texte": "Cœur de la Fournaise",
+    "icone": "icons/svg/hazard.svg",
+    "entryId": "qRBAKDn0YR5qJjhc",
+    "pageId": "cZXvD6E1KUIYnxJ9"
    }
   ]
  }

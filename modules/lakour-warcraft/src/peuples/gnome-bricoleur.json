@@ -3,7 +3,7 @@
   "_key": "!items!OdZk2QMXSyUucDkr",
   "name": "Bricoleur de Gnomeregan",
   "type": "feat",
-  "img": "icons/commodities/tech/cog-brass.webp",
+  "img": "icons/tools/hand/wrench-adjustable-toothed.webp",
   "system": {
     "description": {
       "value": "<p>Vous avez grandi parmi les engrenages. Vous maîtrisez les <strong>outils de bricoleur</strong> et connaissez le tour de magie <strong>Réparation</strong> (Intelligence). En une heure et avec 10 po de pièces, vous pouvez assembler un petit mécanisme (jouet, briquet, boîte à musique, réveil) qui fonctionne jusqu'à ce que vous en fabriquiez un autre.</p>",

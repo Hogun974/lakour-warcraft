@@ -3,7 +3,7 @@
   "_key": "!items!DSPw83v6on9ICAom",
   "name": "Flétrissure gangrenée",
   "type": "spell",
-  "img": "icons/magic/unholy/hand-claw-fog-green.webp",
+  "img": "icons/magic/unholy/projectile-smoke-tendril-green.webp",
   "system": {
     "description": {
       "value": "<p>Une brume verte s'enroule autour d'une créature à portée et s'insinue dans ses plaies. Elle fait un jet de sauvegarde de Constitution. En cas d'échec, elle subit <strong>2d8</strong> dégâts nécrotiques et la flétrissure s'installe : à la fin de chacun de ses tours, elle subit <strong>1d8</strong> dégâts nécrotiques puis refait le jet de sauvegarde, le sort prenant fin pour elle en cas de réussite. En cas de réussite au premier jet, elle ne subit que la moitié des dégâts initiaux et la flétrissure ne prend pas.</p><p><strong>Prix de la gangrène.</strong> Juste après l'incantation, vous subissez des dégâts nécrotiques égaux au niveau de l'emplacement dépensé ; ces dégâts ne peuvent être réduits d'aucune façon. Vous portez ensuite la <strong>marque de gangrène</strong> pendant 1 heure (désavantage aux tests de Persuasion et de Tromperie). Un lanceur qui accumule les marques attire l'attention des démons : le MJ en tient le compte.</p><p><strong>Aux niveaux supérieurs.</strong> Les dégâts initiaux augmentent de 1d8 par niveau d'emplacement au-delà du 1er (le prix de la gangrène aussi, puisqu'il suit le niveau de l'emplacement).</p><p><strong>Tradition</strong> : Gangrène et ombre. <strong>Listes de sorts</strong> : Occultiste, Ensorceleur.</p>",
@@ -416,7 +416,7 @@
       "_id": "CELCqEeaAvEDAxG8",
       "_key": "!items.effects!DSPw83v6on9ICAom.CELCqEeaAvEDAxG8",
       "name": "Flétrissure",
-      "img": "icons/magic/unholy/hand-claw-fog-green.webp",
+      "img": "icons/magic/unholy/projectile-smoke-tendril-green.webp",
       "type": "base",
       "system": {
         "magical": true,

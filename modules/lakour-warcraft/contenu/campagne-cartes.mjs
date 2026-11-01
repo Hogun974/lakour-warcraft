@@ -3,11 +3,21 @@
 // même plans.json que les autres cartes : tout passe par scene() de cartes.mjs (case de 1,5 m).
 // Les éléments nommés (moteur à éclat, bassin lunaire, table des négociations, autel des Braises…) servent de
 // repères au MJ IA pour placer les jetons.
+// Scènes vivantes : une épingle sur chaque lieu clé, vers sa page du journal de la campagne (ou de l'aide de jeu), et
+// des zones invisibles des joueurs (texte de lore à l'entrée, pause avant un combat majeur, obscurité d'une crypte).
 import { scene } from "./cartes.mjs";
+import { epingle } from "./cles-journaux.mjs";
 import { rangee } from "./lieux-cartes.mjs";
 
 export const TITRE_CAMPAGNE = "Les Braises de la Légion";
 const aventure = TITRE_CAMPAGNE;
+
+// Pages visées par les épingles (« clé du journal#titre de la page »).
+const CHAPITRE_1 = "campagne-braises-legion#Chapitre 1 — La fonderie de Fort-Rivet";
+const CHAPITRE_2 = "campagne-braises-legion#Chapitre 2 — Les ruines d'Eldrassal";
+const CHAPITRE_3 = "campagne-braises-legion#Chapitre 3 — Le sommet de Gué-de-Sel";
+const CHAPITRE_4 = "campagne-braises-legion#Chapitre 4 — La nuit des deux lunes";
+const SAUF_CONDUIT = "sauf-conduit-gue-de-sel#Sauf-conduit";
 
 export const CARTES_CAMPAGNE = [
   scene({ cle: "fonderie-fort-rivet", nom: "Tarides — Fonderie de Fort-Rivet", aventure,
@@ -45,6 +55,25 @@ export const CARTES_CAMPAGNE = [
         { nom: "Caisses de minerai", x: 2, y: 13, l: 3, h: 2 }, { nom: "Caisses scellées", x: 6, y: 16, l: 2, h: 2 }, { nom: "Balance", x: 2, y: 17, l: 1, h: 1 },
         { nom: "Déchiqueteur en réparation", x: 13, y: 14, l: 2, h: 2 }, { nom: "Pièces détachées", x: 17, y: 16, l: 2, h: 2 }, { nom: "Palan", x: 11, y: 17, l: 1, h: 1 },
         { nom: "Zeppelin de livraison", x: 24, y: 14, l: 4, h: 5 }, { nom: "Treuil", x: 22, y: 18, l: 1, h: 1 }
+      ],
+      zones: [
+        { nom: "Bureau de Vizzik", x: 1, y: 1, l: 7, h: 5, type: "texte",
+          texte: "Sur la porte, une plaque de cuivre bien astiquée : « Tout se négocie. Sauf mon temps. »" },
+        { nom: "Halle des machines", x: 9, y: 1, l: 12, h: 8, type: "texte",
+          texte: "Le sol tremble sous les bottes. Ça sent le cuivre chaud et l'orage." },
+        { nom: "Près du moteur", x: 13, y: 2, l: 5, h: 5, type: "pause" },
+        { nom: "Haut-fourneau", x: 22, y: 1, l: 6, h: 8, type: "texte",
+          texte: "Une chaleur à cuire le pain. La fonte file dans sa rigole comme un ruisseau orange." }
+      ],
+      notes: [
+        epingle(CHAPITRE_1, 4, 3, "Vizzik Tirelire — le retourner", "coins"),
+        epingle(CHAPITRE_1, 2, 4, "Étagère de registres (indice)", "book"),
+        epingle(CHAPITRE_1, 6, 1, "Coffre-fort (indice)", "chest"),
+        epingle(CHAPITRE_1, 17, 5, "Moteur à éclat — la Braise", "fire"),
+        epingle(CHAPITRE_1, 13, 10, "Ouvriers malades (indice)", "poison"),
+        epingle(CHAPITRE_1, 5, 17, "Caisses scellées (indice)", "padlock"),
+        epingle(CHAPITRE_1, 15, 14, "Déchiqueteur et sifflet", "clockwork"),
+        epingle(CHAPITRE_1, 23, 13, "Minuit : le courrier du zeppelin", "combat")
       ]
     } }),
 
@@ -82,6 +111,25 @@ export const CARTES_CAMPAGNE = [
         { nom: "Hutte de corail", x: 7, y: 13, l: 3, h: 2 }, { nom: "Cage de corail", x: 7, y: 19, l: 2, h: 2 }, { nom: "Trône de corail", x: 11, y: 19, l: 2, h: 1 },
         { nom: "Sarcophage", x: 16, y: 18, l: 2, h: 1 }, { nom: "Sarcophage", x: 19, y: 18, l: 2, h: 1 },
         { nom: "Autel de la Braise", x: 24, y: 17, l: 2, h: 2 }, { nom: "Puits de fouille", x: 21, y: 20, l: 2, h: 1 }
+      ],
+      zones: [
+        { nom: "Galerie des statues", x: 14, y: 4, l: 8, h: 5, type: "texte",
+          texte: "Des statues sans visage. Sous chacune, une ligne d'écriture elfique que le sel a presque effacée." },
+        { nom: "Salle du bassin lunaire", x: 14, y: 9, l: 8, h: 7, type: "texte",
+          texte: "Une eau grise et immobile, qui ne renvoie ni vos visages ni vos torches." },
+        { nom: "Camp des nagas", x: 6, y: 12, l: 8, h: 10, type: "texte",
+          texte: "Un chant glisse sur l'eau, trop pur pour une gorge humaine. Les murlocs, eux, se taisent." },
+        { nom: "Ombre de la crypte", x: 14, y: 16, l: 14, h: 6, type: "obscurite", obscurite: 1 },
+        { nom: "Crypte des Bien-Nés", x: 14, y: 16, l: 14, h: 6, type: "pause" }
+      ],
+      notes: [
+        epingle(CHAPITRE_2, 3, 4, "Scaphandres de Fort-Rivet (indice)", "anchor"),
+        epingle(CHAPITRE_2, 20, 6, "Inscription sous la statue (indice)", "statue"),
+        epingle(CHAPITRE_2, 24, 10, "Pupitre de cristal (indice)", "eye"),
+        epingle(CHAPITRE_2, 18, 14, "Bassin lunaire — le réveiller", "aura"),
+        epingle(CHAPITRE_2, 17, 15, "Passage secret du bassin", "door-secret-outline"),
+        epingle(CHAPITRE_2, 9, 20, "Aelyra Ombrefeuille, captive", "padlock"),
+        epingle(CHAPITRE_2, 23, 18, "Autel de la Braise — Sss'thera et Ezzavel", "fire")
       ]
     } }),
 
@@ -126,6 +174,31 @@ export const CARTES_CAMPAGNE = [
         { nom: "Écritoire", x: 13, y: 16, l: 2, h: 1 }, { nom: "Coffre des traités", x: 16, y: 17, l: 1, h: 1 },
         { nom: "Râtelier d'armes", x: 22, y: 16, l: 2, h: 1 }, { nom: "Totem de guerre", x: 25, y: 17, l: 1, h: 1 },
         { nom: "Tonneaux", x: 10, y: 20, l: 2, h: 1 }, { nom: "Feu de camp", x: 19, y: 20, l: 1, h: 1 }
+      ],
+      // Une rivière n'a pas de vagues (le son « mer » déduit du sol eau) : les feux, les délégations, le soir qui tombe.
+      sons: [
+        { nom: "Brasero d'alarme", x: 26, y: 2, rayon: 3, son: "feu", volume: 0.35 },
+        { nom: "Feu de camp", x: 19, y: 20, rayon: 3, son: "feu", volume: 0.35 },
+        { nom: "Pavillon du sommet", x: 15, y: 4, rayon: 5, son: "foule", volume: 0.15 },
+        { nom: "Gué", x: 15, y: 11, rayon: 12, son: "nuit", volume: 0.2 }
+      ],
+      zones: [
+        { nom: "Pavillon du sommet", x: 11, y: 1, l: 8, h: 6, type: "texte",
+          texte: "Toile dorée, tapis épais. La roue dentée du Cartel est brodée partout où se pose le regard." },
+        { nom: "Gué", x: 13, y: 9, l: 4, h: 4, type: "texte",
+          texte: "Des pierres plates sous une eau qui pique les chevilles. Sur la borne neuve, la place d'une date." },
+        { nom: "Vieux moulin", x: 2, y: 15, l: 7, h: 5, type: "texte",
+          texte: "La meule dort depuis des années. Pourtant, quelqu'un a balayé la poussière du plancher." },
+        { nom: "Trappe du moulin", x: 7, y: 16, l: 1, h: 1, type: "pause" }
+      ],
+      notes: [
+        epingle(SAUF_CONDUIT, 13, 7, "Sauf-conduit : armes à l'entrée", "hanging-sign"),
+        epingle(CHAPITRE_3, 15, 5, "Table des négociations — la bombe", "explosion"),
+        epingle(CHAPITRE_3, 12, 17, "Iselle Marchebrume", "cowled"),
+        epingle(CHAPITRE_3, 17, 17, "Coffre des traités (indice)", "chest"),
+        epingle(CHAPITRE_3, 6, 17, "Trappe : la cave des cultistes", "ladder"),
+        epingle(CHAPITRE_3, 3, 6, "Incident : les montures", "pawprint"),
+        epingle(CHAPITRE_3, 26, 18, "Incident : la flèche dans le totem", "target")
       ]
     } }),
 
@@ -164,6 +237,32 @@ export const CARTES_CAMPAGNE = [
         { nom: "Cœur de la Fournaise", x: 25, y: 17, l: 2, h: 2 }, { nom: "Chaînes de fer gangrené", x: 24, y: 20, l: 4, h: 1 },
         { nom: "Météorite", x: 2, y: 10, l: 3, h: 3 }, { nom: "Rocher", x: 27, y: 11, l: 2, h: 2 }, { nom: "Rocher", x: 10, y: 20, l: 2, h: 2 },
         { nom: "Gouffre de lave", x: 14, y: 20, l: 5, h: 2 }
+      ],
+      // La forge démoniaque est en ruine (pas de marteaux, contrairement au son déduit de l'enclume) : le camp, la
+      // lave, le vent du cratère, et la menace sourde du cercle.
+      sons: [
+        { nom: "Feu de camp", x: 5, y: 5, rayon: 3, son: "feu", volume: 0.35 },
+        { nom: "Gouffre de lave", x: 16, y: 21, rayon: 3, son: "feu", volume: 0.3 },
+        { nom: "Cercle du rituel", x: 16, y: 12, rayon: 7, son: "tension", volume: 0.3 },
+        { nom: "Bord du cratère", x: 15, y: 2, rayon: 8, son: "vent", volume: 0.15 }
+      ],
+      zones: [
+        { nom: "Ruines de la forge", x: 22, y: 1, l: 7, h: 9, type: "texte",
+          texte: "Une enclume grande comme un autel, froide depuis dix mille ans. Ou presque." },
+        { nom: "Fosse aux captifs", x: 1, y: 15, l: 7, h: 7, type: "texte",
+          texte: "Des voix en trois langues demandent la même chose : de l'eau." },
+        { nom: "Cercle du rituel", x: 10, y: 6, l: 12, h: 12, type: "pause" },
+        { nom: "Puits de la Fournaise", x: 23, y: 14, l: 6, h: 8, type: "texte",
+          texte: "Un battement sourd monte du fond, si lent qu'on le sent dans les dents avant de l'entendre." }
+      ],
+      notes: [
+        epingle(CHAPITRE_4, 4, 6, "Camp de la Lame ardente", "combat"),
+        epingle(CHAPITRE_4, 3, 17, "Captifs à libérer", "padlock"),
+        epingle(CHAPITRE_4, 17, 13, "Autel des Braises — Drogha l'Embrasé", "fire"),
+        epingle(CHAPITRE_4, 16, 9, "Portail de la Fournaise", "portal"),
+        epingle(CHAPITRE_4, 27, 3, "Ezzavel, spectateur", "eye"),
+        epingle(CHAPITRE_4, 25, 13, "Fissure secrète vers le puits", "door-secret-outline"),
+        epingle(CHAPITRE_4, 24, 17, "Cœur de la Fournaise", "hazard")
       ]
     } })
 ];

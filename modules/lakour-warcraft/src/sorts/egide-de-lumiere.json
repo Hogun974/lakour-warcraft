@@ -3,7 +3,7 @@
   "_key": "!items!mlMhGL79co5nT8k1",
   "name": "Égide de la Lumière",
   "type": "spell",
-  "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
+  "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
   "system": {
     "description": {
       "value": "<p>Vous dessinez dans l'air un signe de protection qui se pose sur une créature à portée comme un voile doré. Elle gagne <strong>2d4 + votre modificateur de caractéristique d'incantation</strong> points de vie temporaires pour 1 heure.</p><p>Les prêtres de Hurlevent l'appellent « le manteau de l'Aube » ; on le pose sur les épaules des soldats avant la charge.</p><p><strong>Aux niveaux supérieurs.</strong> Les points de vie temporaires augmentent de 2d4 par niveau d'emplacement au-delà du 1er.</p><p><strong>Tradition</strong> : La Lumière. <strong>Listes de sorts</strong> : Clerc, Paladin.</p>",

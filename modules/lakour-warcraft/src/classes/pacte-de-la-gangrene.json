@@ -1,0 +1,296 @@
+{
+  "_id": "ZyYy9Egkekc2vlTM",
+  "_key": "!items!ZyYy9Egkekc2vlTM",
+  "name": "Pacte de la Gangrène",
+  "type": "subclass",
+  "img": "icons/magic/unholy/beam-impact-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>La gangrène est la magie de la Légion ardente : un feu vert qui dévore la vie pour nourrir la puissance. Les démonistes du Conseil des Ombres, les cultistes du Marteau du Crépuscule et quelques érudits trop curieux de Dalaran ont signé avec un démon, un seigneur de l'effroi ou la gangrène elle-même. Le pacte donne beaucoup, et réclame davantage ; les occultistes qui y survivent apprennent à boire la vie de leurs ennemis avant que la flamme ne boive la leur.</p><p><em>Sous-classe du Occultiste, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Sorts du pacte de la Gangrène, Flammes gangrenées, Siphon de vie</li><li><strong>Niveau 6</strong> : Peau de gangrène</li><li><strong>Niveau 10</strong> : Œil du Néant</li><li><strong>Niveau 14</strong> : Pluie de feu gangrené</li></ul><h2>Sorts du pacte de la Gangrène</h2><ul><li><strong>Niveau 3</strong> : Flétrissure gangrenée, Représailles infernales, Ténèbres, Rayon affaiblissant</li><li><strong>Niveau 5</strong> : Caresse du vampire, Malédiction</li><li><strong>Niveau 7</strong> : Hurlement de terreur, Flétrissement</li><li><strong>Niveau 9</strong> : Contagion, Brume mortelle</li></ul>",
+      "chat": ""
+    },
+    "identifier": "pacte-de-la-gangrene",
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "advancement": {
+      "jjyFzYtSJcpDbRRF": {
+        "_id": "jjyFzYtSJcpDbRRF",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.IL93d3DJFjCcMU4K",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.FZbko3m66HGAYyTj",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.rFL0piptWlfnA3nS",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "name": "Capacités : Pacte de la Gangrène",
+        "hint": "",
+        "flags": {}
+      },
+      "UFwAAeKyEHuAGENM": {
+        "_id": "UFwAAeKyEHuAGENM",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.1kcIu8fFJwfTB4xx",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "name": "Capacités : Pacte de la Gangrène",
+        "hint": "",
+        "flags": {}
+      },
+      "7WFy6lpnKs5b1iL5": {
+        "_id": "7WFy6lpnKs5b1iL5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.pQvPIEuaWSPT4GJf",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "name": "Capacités : Pacte de la Gangrène",
+        "hint": "",
+        "flags": {}
+      },
+      "s1BwSShWDc0axeoc": {
+        "_id": "s1BwSShWDc0axeoc",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.2Xc1h9klaCx37Kkd",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "name": "Capacités : Pacte de la Gangrène",
+        "hint": "",
+        "flags": {}
+      },
+      "BS0cDTgOyGQreY9Q": {
+        "_id": "BS0cDTgOyGQreY9Q",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.sorts.Item.DSPw83v6on9ICAom",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplHellishReb",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplDarkness00",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplRayofEnfee",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "pact",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "name": "Sorts du pacte de la Gangrène",
+        "hint": "",
+        "flags": {}
+      },
+      "3UvMHVrpsj08kVUz": {
+        "_id": "3UvMHVrpsj08kVUz",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplVampiricTo",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplBestowCurs",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "pact",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "name": "Sorts du pacte de la Gangrène",
+        "hint": "",
+        "flags": {}
+      },
+      "UkB0HchyhKX3sjze": {
+        "_id": "UkB0HchyhKX3sjze",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.sorts.Item.ChcnBMoeaaAX1MLV",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplBlight0000",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "pact",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "name": "Sorts du pacte de la Gangrène",
+        "hint": "",
+        "flags": {}
+      },
+      "b2KfKkXEelwwEtQp": {
+        "_id": "b2KfKkXEelwwEtQp",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplContagion0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplCloudkill0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "pact",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "name": "Sorts du pacte de la Gangrène",
+        "hint": "",
+        "flags": {}
+      },
+      "I0Z7KSvEi0inHUUj": {
+        "_id": "I0Z7KSvEi0inHUUj",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "flammes",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "number": 1,
+              "faces": 6,
+              "modifiers": []
+            },
+            "10": {
+              "number": 2,
+              "faces": 6,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "name": "Dés des flammes gangrenées",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "classIdentifier": "warlock",
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "pacte-de-la-gangrene",
+      "classe": "warlock"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

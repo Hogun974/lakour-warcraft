@@ -1,0 +1,111 @@
+{
+  "_id": "pQvPIEuaWSPT4GJf",
+  "_key": "!items!pQvPIEuaWSPT4GJf",
+  "name": "Œil du Néant",
+  "type": "feat",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-large-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous avez contemplé le Néant distordu sans détourner les yeux. Votre <strong>vision dans le noir</strong> porte à <strong>36 m</strong>, et vous ne pouvez pas être <strong>effrayé</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "gangrene-oeil-du-neant",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Pacte de la Gangrène",
+    "prerequisites": {
+      "level": 10,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "x6TE8qYuD16o94PM",
+      "_key": "!items.effects!pQvPIEuaWSPT4GJf.x6TE8qYuD16o94PM",
+      "name": "Œil du Néant",
+      "img": "icons/magic/perception/eye-ringed-glow-angry-large-red.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.senses.ranges.darkvision",
+            "type": "upgrade",
+            "value": 36,
+            "phase": "initial",
+            "priority": null
+          },
+          {
+            "key": "system.traits.ci.value",
+            "type": "add",
+            "value": "frightened",
+            "phase": "initial",
+            "priority": null
+          }
+        ]
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "gangrene-oeil-du-neant",
+      "sousClasse": "pacte-de-la-gangrene",
+      "classe": "warlock",
+      "niveau": 10,
+      "automatisation": "complete"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

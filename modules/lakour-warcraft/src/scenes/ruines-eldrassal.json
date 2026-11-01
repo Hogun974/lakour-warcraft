@@ -928,8 +928,512 @@
       "flags": {}
     }
   ],
-  "regions": [],
-  "notes": [],
+  "regions": [
+    {
+      "_id": "WUprUTi72FaU5ds2",
+      "name": "Galerie des statues",
+      "color": "#4f8cc9",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1400,
+          "y": 400,
+          "width": 800,
+          "height": 500,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "X9V1kARPu56fdoRr",
+          "name": "Galerie des statues",
+          "disabled": false,
+          "flags": {},
+          "type": "displayScrollingText",
+          "system": {
+            "events": [
+              "tokenAnimateIn"
+            ],
+            "text": "Des statues sans visage. Sous chacune, une ligne d'écriture elfique que le sel a presque effacée.",
+            "color": "#ffffff",
+            "visibility": 2,
+            "once": true
+          },
+          "_key": "!scenes.regions.behaviors!G8Kf58ByEaYPKJug.WUprUTi72FaU5ds2.X9V1kARPu56fdoRr"
+        }
+      ],
+      "_key": "!scenes.regions!G8Kf58ByEaYPKJug.WUprUTi72FaU5ds2",
+      "flags": {}
+    },
+    {
+      "_id": "4EudXtAQjCf3kHre",
+      "name": "Salle du bassin lunaire",
+      "color": "#4f8cc9",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1400,
+          "y": 900,
+          "width": 800,
+          "height": 700,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "KrS9sBx74aJi7fjE",
+          "name": "Salle du bassin lunaire",
+          "disabled": false,
+          "flags": {},
+          "type": "displayScrollingText",
+          "system": {
+            "events": [
+              "tokenAnimateIn"
+            ],
+            "text": "Une eau grise et immobile, qui ne renvoie ni vos visages ni vos torches.",
+            "color": "#ffffff",
+            "visibility": 2,
+            "once": true
+          },
+          "_key": "!scenes.regions.behaviors!G8Kf58ByEaYPKJug.4EudXtAQjCf3kHre.KrS9sBx74aJi7fjE"
+        }
+      ],
+      "_key": "!scenes.regions!G8Kf58ByEaYPKJug.4EudXtAQjCf3kHre",
+      "flags": {}
+    },
+    {
+      "_id": "VlvkKFeh7L8CFeei",
+      "name": "Camp des nagas",
+      "color": "#4f8cc9",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 600,
+          "y": 1200,
+          "width": 800,
+          "height": 1000,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "1dJwLYKafefDDHfF",
+          "name": "Camp des nagas",
+          "disabled": false,
+          "flags": {},
+          "type": "displayScrollingText",
+          "system": {
+            "events": [
+              "tokenAnimateIn"
+            ],
+            "text": "Un chant glisse sur l'eau, trop pur pour une gorge humaine. Les murlocs, eux, se taisent.",
+            "color": "#ffffff",
+            "visibility": 2,
+            "once": true
+          },
+          "_key": "!scenes.regions.behaviors!G8Kf58ByEaYPKJug.VlvkKFeh7L8CFeei.1dJwLYKafefDDHfF"
+        }
+      ],
+      "_key": "!scenes.regions!G8Kf58ByEaYPKJug.VlvkKFeh7L8CFeei",
+      "flags": {}
+    },
+    {
+      "_id": "2rNMtaXzT7ihT6vQ",
+      "name": "Ombre de la crypte",
+      "color": "#303050",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1400,
+          "y": 1600,
+          "width": 1400,
+          "height": 600,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "KM2i1SZNxi8r2HMF",
+          "name": "Ombre de la crypte",
+          "disabled": false,
+          "flags": {},
+          "type": "adjustDarknessLevel",
+          "system": {
+            "mode": 0,
+            "modifier": 1
+          },
+          "_key": "!scenes.regions.behaviors!G8Kf58ByEaYPKJug.2rNMtaXzT7ihT6vQ.KM2i1SZNxi8r2HMF"
+        }
+      ],
+      "_key": "!scenes.regions!G8Kf58ByEaYPKJug.2rNMtaXzT7ihT6vQ",
+      "flags": {}
+    },
+    {
+      "_id": "GgmFaT5wG6hIaxCD",
+      "name": "Crypte des Bien-Nés",
+      "color": "#e0a030",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1400,
+          "y": 1600,
+          "width": 1400,
+          "height": 600,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "2wZLVFDwQ0KGeU9R",
+          "name": "Crypte des Bien-Nés",
+          "disabled": false,
+          "flags": {},
+          "type": "pauseGame",
+          "system": {
+            "once": true
+          },
+          "_key": "!scenes.regions.behaviors!G8Kf58ByEaYPKJug.GgmFaT5wG6hIaxCD.2wZLVFDwQ0KGeU9R"
+        }
+      ],
+      "_key": "!scenes.regions!G8Kf58ByEaYPKJug.GgmFaT5wG6hIaxCD",
+      "flags": {}
+    }
+  ],
+  "notes": [
+    {
+      "entryId": "qRBAKDn0YR5qJjhc",
+      "pageId": "xMnCwTBpeK6YQGsc",
+      "x": 350,
+      "y": 450,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/anchor.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Scaphandres de Fort-Rivet (indice)",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "HFuJy8UYyu3EKrYW",
+      "_key": "!scenes.notes!G8Kf58ByEaYPKJug.HFuJy8UYyu3EKrYW",
+      "flags": {}
+    },
+    {
+      "entryId": "qRBAKDn0YR5qJjhc",
+      "pageId": "xMnCwTBpeK6YQGsc",
+      "x": 2050,
+      "y": 650,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/statue.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Inscription sous la statue (indice)",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "fnKHIJKELKKOWq9I",
+      "_key": "!scenes.notes!G8Kf58ByEaYPKJug.fnKHIJKELKKOWq9I",
+      "flags": {}
+    },
+    {
+      "entryId": "qRBAKDn0YR5qJjhc",
+      "pageId": "xMnCwTBpeK6YQGsc",
+      "x": 2450,
+      "y": 1050,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/eye.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Pupitre de cristal (indice)",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "DFnCpxLRlGQN4CqC",
+      "_key": "!scenes.notes!G8Kf58ByEaYPKJug.DFnCpxLRlGQN4CqC",
+      "flags": {}
+    },
+    {
+      "entryId": "qRBAKDn0YR5qJjhc",
+      "pageId": "xMnCwTBpeK6YQGsc",
+      "x": 1850,
+      "y": 1450,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/aura.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Bassin lunaire — le réveiller",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "EkzgyVHjFUrgoNP2",
+      "_key": "!scenes.notes!G8Kf58ByEaYPKJug.EkzgyVHjFUrgoNP2",
+      "flags": {}
+    },
+    {
+      "entryId": "qRBAKDn0YR5qJjhc",
+      "pageId": "xMnCwTBpeK6YQGsc",
+      "x": 1750,
+      "y": 1550,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/door-secret-outline.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Passage secret du bassin",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "6c8utF9mKfcFo1Sz",
+      "_key": "!scenes.notes!G8Kf58ByEaYPKJug.6c8utF9mKfcFo1Sz",
+      "flags": {}
+    },
+    {
+      "entryId": "qRBAKDn0YR5qJjhc",
+      "pageId": "xMnCwTBpeK6YQGsc",
+      "x": 950,
+      "y": 2050,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/padlock.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Aelyra Ombrefeuille, captive",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "aEf8euso3OafB5ha",
+      "_key": "!scenes.notes!G8Kf58ByEaYPKJug.aEf8euso3OafB5ha",
+      "flags": {}
+    },
+    {
+      "entryId": "qRBAKDn0YR5qJjhc",
+      "pageId": "xMnCwTBpeK6YQGsc",
+      "x": 2350,
+      "y": 1850,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/fire.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Autel de la Braise — Sss'thera et Ezzavel",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "VYlZWn9Nhdfit99q",
+      "_key": "!scenes.notes!G8Kf58ByEaYPKJug.VYlZWn9Nhdfit99q",
+      "flags": {}
+    }
+  ],
   "tokens": [],
   "tiles": [],
   "ownership": {
@@ -1329,6 +1833,110 @@
             "y": 20,
             "l": 2,
             "h": 1
+          }
+        ],
+        "zones": [
+          {
+            "nom": "Galerie des statues",
+            "x": 14,
+            "y": 4,
+            "l": 8,
+            "h": 5,
+            "type": "texte",
+            "texte": "Des statues sans visage. Sous chacune, une ligne d'écriture elfique que le sel a presque effacée."
+          },
+          {
+            "nom": "Salle du bassin lunaire",
+            "x": 14,
+            "y": 9,
+            "l": 8,
+            "h": 7,
+            "type": "texte",
+            "texte": "Une eau grise et immobile, qui ne renvoie ni vos visages ni vos torches."
+          },
+          {
+            "nom": "Camp des nagas",
+            "x": 6,
+            "y": 12,
+            "l": 8,
+            "h": 10,
+            "type": "texte",
+            "texte": "Un chant glisse sur l'eau, trop pur pour une gorge humaine. Les murlocs, eux, se taisent."
+          },
+          {
+            "nom": "Ombre de la crypte",
+            "x": 14,
+            "y": 16,
+            "l": 14,
+            "h": 6,
+            "type": "obscurite",
+            "obscurite": 1
+          },
+          {
+            "nom": "Crypte des Bien-Nés",
+            "x": 14,
+            "y": 16,
+            "l": 14,
+            "h": 6,
+            "type": "pause"
+          }
+        ],
+        "notes": [
+          {
+            "x": 3,
+            "y": 4,
+            "texte": "Scaphandres de Fort-Rivet (indice)",
+            "icone": "icons/svg/anchor.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "xMnCwTBpeK6YQGsc"
+          },
+          {
+            "x": 20,
+            "y": 6,
+            "texte": "Inscription sous la statue (indice)",
+            "icone": "icons/svg/statue.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "xMnCwTBpeK6YQGsc"
+          },
+          {
+            "x": 24,
+            "y": 10,
+            "texte": "Pupitre de cristal (indice)",
+            "icone": "icons/svg/eye.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "xMnCwTBpeK6YQGsc"
+          },
+          {
+            "x": 18,
+            "y": 14,
+            "texte": "Bassin lunaire — le réveiller",
+            "icone": "icons/svg/aura.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "xMnCwTBpeK6YQGsc"
+          },
+          {
+            "x": 17,
+            "y": 15,
+            "texte": "Passage secret du bassin",
+            "icone": "icons/svg/door-secret-outline.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "xMnCwTBpeK6YQGsc"
+          },
+          {
+            "x": 9,
+            "y": 20,
+            "texte": "Aelyra Ombrefeuille, captive",
+            "icone": "icons/svg/padlock.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "xMnCwTBpeK6YQGsc"
+          },
+          {
+            "x": 23,
+            "y": 18,
+            "texte": "Autel de la Braise — Sss'thera et Ezzavel",
+            "icone": "icons/svg/fire.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "xMnCwTBpeK6YQGsc"
           }
         ]
       },

@@ -280,7 +280,7 @@ const DONS_GENERAUX = [
     activites: [{ type: "utility", nom: "Rempart de Lumière", activation: "reaction", condition: "Une créature à 9 m subit des dégâts", portee: [9, "m"], cible: ["1", "creature"], jet: { nom: "Dégâts évités", formule: "1d10 + @prof" } }]
   }),
   general({
-    cle: "coureur-des-hautes-terres", nom: "Coureur des Hautes-terres", img: icone("skills/movement/figure-running-gray"), carac: ["dex", "con"],
+    cle: "coureur-des-hautes-terres", nom: "Coureur des Hautes-terres", img: icone("skills/movement/feet-winged-boots-brown.webp"), carac: ["dex", "con"],
     texte: "Messager d'Arathi ou éclaireur des Hinterlands, vous avez couru sur les crêtes plus souvent que sur les routes. Votre **vitesse augmente de 3 m**, et les **broussailles**, les **éboulis** et les **pentes** ne sont pas un terrain difficile pour vous.",
     effets: [{
       nom: "Coureur des Hautes-terres", changements: [
@@ -331,7 +331,7 @@ const STYLES = [
     effets: [{ nom: "Brise-rangs", changements: [["system.rolls.damage.mwak.bonus", "1"]] }]
   }),
   style({
-    cle: "sentinelle-de-la-muraille", nom: "Sentinelle de la Muraille", img: icone("magic/perception/eye-ringed-green"),
+    cle: "sentinelle-de-la-muraille", nom: "Sentinelle de la Muraille", img: icone("environment/settlement/watchtower-stone.webp"),
     texte: "Des nuits de garde sur la Muraille de Thandol ont aiguisé vos réflexes. Vous gagnez **+2** à l'**initiative** et **+2** à votre **Sagesse (Perception) passive**.",
     effets: [{ nom: "Sentinelle de la Muraille", changements: [["system.attributes.init.roll.bonus", "2"], ["system.skills.prc.bonuses.passive", "2"]] }]
   }),

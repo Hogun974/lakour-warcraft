@@ -10,11 +10,13 @@ import { DONS } from "./dons.mjs";
 import { AFFLICTIONS } from "./afflictions.mjs";
 import { SORTS, LISTES_SORTS } from "./sorts.mjs";
 import { AFFILIATIONS } from "./affiliations.mjs";
+import { SOUS_CLASSES, CAPACITES_SOUS_CLASSES } from "./sous-classes.mjs";
 
 // Tout le contenu du module, dans l'ordre des compendiums.
 export const DOCUMENTS = [
   ...PEUPLES, ...HISTORIQUES, ...OBJETS, ...ARSENAL,
   ...DONS, ...AFFILIATIONS, ...AFFLICTIONS, ...SORTS,
+  ...SOUS_CLASSES, ...CAPACITES_SOUS_CLASSES,
   ...GUIDES, ...TABLES, ...LISTES_SORTS,
   ...BESTIAIRE,
   ...AVENTURE_DOCUMENTS,

@@ -1,0 +1,65 @@
+{
+  "_id": "AEnyv9nOBGonVXSy",
+  "_key": "!items!AEnyv9nOBGonVXSy",
+  "name": "Sorts du cercle du Rêve d'émeraude",
+  "type": "feat",
+  "img": "icons/magic/control/sleep-bubble-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Le Rêve vous murmure ses secrets. Quand vous atteignez les niveaux de druide indiqués, ces sorts vous sont accordés ; ils sont <strong>toujours préparés</strong>.</p><ul><li>Niveau 3 : Sarments du Rêve, Sommeil, Torpeur d'émeraude</li><li>Niveau 5 : Croissance végétale, Communication avec les plantes</li><li>Niveau 7 : Invocation d'êtres sylvestres, Liberté de mouvement</li><li>Niveau 9 : Rêve, Voyage par les arbres</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "reve-sorts",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Cercle du Rêve d'émeraude",
+    "prerequisites": {
+      "level": 3,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "reve-sorts",
+      "sousClasse": "cercle-du-reve-d-emeraude",
+      "classe": "druid",
+      "niveau": 3,
+      "automatisation": "complete",
+      "portePar": "sous-classe",
+      "liste": "sorts"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

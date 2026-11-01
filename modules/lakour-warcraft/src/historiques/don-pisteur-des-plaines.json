@@ -3,7 +3,7 @@
   "_key": "!items!hXpluqna51mS1sM0",
   "name": "Pisteur des plaines",
   "type": "feat",
-  "img": "icons/svg/pawprint.svg",
+  "img": "icons/creatures/abilities/paw-print-orange.webp",
   "system": {
     "description": {
       "value": "<p>Une herbe couchée, une odeur de musc, un caillou retourné : vous lisez la terre. Vous gagnez la maîtrise de <strong>Nature</strong>, <strong>Perception</strong> ou <strong>Survie</strong> (au choix). Vous avez l'avantage aux tests faits pour suivre une piste, et votre groupe peut voyager à allure rapide sans subir de malus de Perception passive quand vous menez la marche.</p>",

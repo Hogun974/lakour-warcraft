@@ -3,7 +3,7 @@
   "_key": "!items!zMZbZydzcl0hQp6W",
   "name": "Affiliation : Sentinelles",
   "type": "feat",
-  "img": "icons/creatures/birds/raptor-owl-flying-moon.webp",
+  "img": "icons/magic/nature/symbol-moon-stars-white.webp",
   "system": {
     "description": {
       "value": "<p>L'armée des elfes de la nuit, presque entièrement composée de femmes, garde les forêts de Kalimdor depuis dix mille ans. Ses éclaireuses montent des sabres-de-nuit et parlent par cris de chouette. Elles acceptent quelques étrangers, à l'essai, pour le temps qu'il faudra.</p><p><strong>Devoir.</strong> Défendre l'Orneval et les forêts de Kalimdor contre les bûcherons, les démons et les satyres. Ne jamais révéler les sentiers des Sentinelles. Rendre compte à votre capitaine.</p><p><strong>Faveur par rang.</strong></p><ul><li><strong>Rang 1 — Éclaireur.</strong> Accès aux postes de garde de l'Orneval ; les chouettes des Sentinelles portent vos messages.</li><li><strong>Rang 2 — Sentinelle.</strong> Un sabre-de-nuit vous est confié, et vous connaissez les sentiers cachés : vos voyages en forêt prennent deux fois moins de temps.</li><li><strong>Rang 3 — Capitaine.</strong> Vous commandez un poste de garde et une escouade de cinq Sentinelles, et la générale lit vos rapports.</li></ul><p><strong>Avantage.</strong> <em>Œil de la Sentinelle</em> : vous ajoutez <strong>1d4</strong> à vos tests de Sagesse (Perception).</p><p><strong>Réputation.</strong> Les orcs qui coupent du bois en Orneval ont des comptes à régler avec quiconque porte l'insigne. Les hauts-elfes et les elfes de sang vous rappellent l'Exil, à mots couverts.</p><p><strong>Monter en rang.</strong> Le MJ accorde le rang suivant après une mission d'importance accomplie pour l'ordre, ou au bout de quelques aventures de service loyal ; il le note dans le don (rang 1 à 3). Manquer gravement au devoir fait perdre un rang, ou l'affiliation entière.</p>",
@@ -48,7 +48,7 @@
       "_id": "qnU5y2b9GEDm6gy2",
       "_key": "!items.effects!zMZbZydzcl0hQp6W.qnU5y2b9GEDm6gy2",
       "name": "Œil de la Sentinelle",
-      "img": "icons/creatures/birds/raptor-owl-flying-moon.webp",
+      "img": "icons/magic/nature/symbol-moon-stars-white.webp",
       "type": "base",
       "system": {
         "magical": false,

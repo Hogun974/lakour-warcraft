@@ -3,7 +3,7 @@
   "_key": "!items!kpbjMxMAuEJOTHI2",
   "name": "Troll",
   "type": "race",
-  "img": "icons/commodities/treasure/totem-wooden-glowing-green.webp",
+  "img": "icons/commodities/treasure/wood-tiki.webp",
   "system": {
     "description": {
       "value": "<p><strong>Horde.</strong> La tribu Sombrelance, chassée de ses îles par les murlocs et les humains de Kul Tiras, a juré fidélité à Thrall qui l'a sauvée. Ses guerriers, chasseurs et féticheurs vivent aujourd'hui aux îles de l'Écho, au large de Durotar.</p><p>Les Sombrelance honorent les loa, les esprits-animaux de leur peuple, et se méfient des autres tribus trolles, restées hostiles à tout le monde.</p><p><strong>Traits.</strong> Régénération, Faveur des loa, Instinct de la jungle. Taille Moyenne, vitesse 9 m, vision dans le noir 18 m.</p>",

@@ -84,7 +84,7 @@ export const AFFILIATIONS_ORDRES = [
     reputation: "Le Kirin Tor surveille les siens : un sort interdit, une Métamorphose lancée sur un dignitaire ou un artefact vendu se savent en une semaine. Les Réprouvés et nombre d'orcs n'ont pas oublié que Dalaran a dressé les camps d'internement."
   }, { effets: [{ nom: "Formation de la Violette", changements: [["system.skills.arc.roll.mode", 1]], texte: "Avantage aux tests d'Intelligence (Arcanes)." }] }),
 
-  affiliation("cartel-gentepression", "Affiliation : Cartel Gentepression", "Cartel Gentepression", "neutre", icone("commodities/currency/coins-plain-pouch-gold"), {
+  affiliation("cartel-gentepression", "Affiliation : Cartel Gentepression", "Cartel Gentepression", "neutre", icone("containers/bags/coinpouch-gold-red.webp"), {
     presentation: "Le Cartel Gentepression tient les ports neutres de Kalimdor et des Mers du Sud : Cabestan, Gadgetzan, Baie-du-Butin. Ses gobelins vendent à tout le monde et ne combattent que pour leurs contrats. Y entrer, c'est signer un contrat ; en sortir, c'est payer.",
     devoir: "Respecter la trêve des ports du Cartel : aucun combat dans leurs murs, quels que soient vos ennemis. Verser au Cartel un dixième de ce que vous gagnez dans ses ports. Tenir parole sur tout contrat signé.",
     rangs: [
@@ -99,7 +99,7 @@ export const AFFILIATIONS_ORDRES = [
     activites: [{ type: "utility", nom: "Ardoise du Cartel", activation: ["special"], condition: "Dans un port ou un comptoir du Cartel", jet: { nom: "Crédit accordé (po)", formule: "25 * @prof" } }]
   }),
 
-  affiliation("cercle-cenarien", "Affiliation : Cercle cénarien", "Cercle cénarien", "neutre", icone("magic/nature/leaf-oak-wreath-glow-green"), {
+  affiliation("cercle-cenarien", "Affiliation : Cercle cénarien", "Cercle cénarien", "neutre", icone("magic/nature/leaf-flower-wreath-glow-green-blue.webp"), {
     presentation: "Fondé par les druides elfes de la nuit au nom du demi-dieu Cénarius, le Cercle cénarien accueille aujourd'hui des druides taurens et quelques chamans. Il veille sur les bosquets sacrés et sur la frontière fragile entre Azeroth et le Rêve d'émeraude, depuis le refuge de Reflet-de-Lune.",
     devoir: "Protéger les bosquets sacrés et les créatures du Rêve. Signaler toute corruption de la nature (gangrène, peste, satyres). Ne jamais abattre un arbre vivant sans le rite de demande.",
     rangs: [
@@ -115,7 +115,7 @@ export const AFFILIATIONS_ORDRES = [
       portee: [9, "m"], cible: ["6", "ally"], soin: { des: "1d6", bonus: "@prof" } }]
   }),
 
-  affiliation("main-d-argent", "Affiliation : Chevaliers de la Main d'argent", "Ordre de la Main d'argent", "alliance", icone("magic/holy/barrier-shield-winged-cross"), {
+  affiliation("main-d-argent", "Affiliation : Chevaliers de la Main d'argent", "Ordre de la Main d'argent", "alliance", icone("equipment/hand/gauntlet-plate-steel-gold.webp"), {
     presentation: "Le premier ordre de paladins de Lordaeron a été dissous par son roi, et son fondateur est mort de la main d'Arthas. Pourtant ses chevaliers survivent : dans les abbayes, sur les routes des réfugiés, au service de ceux qui n'ont plus personne. Ils portent encore l'insigne, et ils attendent qu'on les rappelle.",
     devoir: "Protéger les innocents, quelle que soit leur faction. Combattre le Fléau. Ne jamais frapper un ennemi qui se rend. Obéir aux anciens de l'ordre quand ils appellent.",
     rangs: [
@@ -130,7 +130,7 @@ export const AFFILIATIONS_ORDRES = [
     activites: [{ type: "utility", nom: "Serment partagé", activation: ["reaction"], condition: "Un allié à 9 m ou moins rate un jet de sauvegarde", portee: [9, "m"], cible: ["1", "ally"] }]
   }),
 
-  affiliation("aube-d-argent", "Affiliation : Aube d'argent", "Aube d'argent", "neutre", icone("magic/light/beam-rays-yellow-blue"), {
+  affiliation("aube-d-argent", "Affiliation : Aube d'argent", "Aube d'argent", "neutre", icone("magic/time/day-night-sunset-sunrise.webp"), {
     presentation: "Née des cendres de la Troisième Guerre, l'Aube d'argent n'a qu'un ennemi : le Fléau. Paladins sans ordre, prêtres, chasseurs, et même quelques orcs et Réprouvés y servent côte à côte, ce qui scandalise à peu près tout le monde. Ses bastions tiennent les Maleterres de l'Ouest et de l'Est.",
     devoir: "Combattre le Fléau partout, sans regarder la faction de qui se bat à vos côtés. Rapporter les foyers de peste. Remettre à l'Aube les pierres du Fléau prises sur les morts-vivants.",
     rangs: [
@@ -158,7 +158,7 @@ export const AFFILIATIONS_ORDRES = [
     reputation: "L'Alliance voit en vous un tueur de la Horde ; les orcs nostalgiques du sang démoniaque, eux, vous méprisent comme le chien de Thrall. Les Kor'kron ont une réputation de brutes : on vous craint plus qu'on ne vous aime."
   }, { effets: [{ nom: "Vigilance kor'kron", changements: [["system.attributes.init.roll.bonus", "1d4"]], texte: "+1d4 aux jets d'initiative." }] }),
 
-  affiliation("sentinelles", "Affiliation : Sentinelles", "Sentinelles", "alliance", icone("creatures/birds/raptor-owl-flying-moon"), {
+  affiliation("sentinelles", "Affiliation : Sentinelles", "Sentinelles", "alliance", icone("magic/nature/symbol-moon-stars-white.webp"), {
     presentation: "L'armée des elfes de la nuit, presque entièrement composée de femmes, garde les forêts de Kalimdor depuis dix mille ans. Ses éclaireuses montent des sabres-de-nuit et parlent par cris de chouette. Elles acceptent quelques étrangers, à l'essai, pour le temps qu'il faudra.",
     devoir: "Défendre l'Orneval et les forêts de Kalimdor contre les bûcherons, les démons et les satyres. Ne jamais révéler les sentiers des Sentinelles. Rendre compte à votre capitaine.",
     rangs: [
@@ -203,7 +203,7 @@ export const ATOUTS_HANDICAPS = [
     "Quelqu'un paie pour vous voir mort, ou ramené vivant : un baron gobelin, un capitaine écarlate, un chef de clan. La prime vaut **100 po par niveau** de personnage. Dans chaque ville d'une certaine taille, le MJ tire un d6 : sur 1, un chasseur de primes vous a trouvé.\n\nLa prime tombe si vous payez le commanditaire, s'il meurt, ou si vous prouvez votre innocence — ce qui fait souvent une bonne aventure."),
   handicap("dette-envers-le-cartel", "Dette envers le Cartel", "neutre", icone("commodities/currency/coins-assorted-mix-copper"),
     "Vous devez **300 po** à un comptoir du Cartel Gentepression, intérêts compris. À chaque aventure sans remboursement, la dette grossit d'un dixième et les méthodes de recouvrement se durcissent : d'abord des lettres polies, puis des collecteurs, puis des ogres.\n\nUn gobelin accepte parfois un service à la place de l'or. C'est rarement une bonne affaire."),
-  handicap("souillure-de-gangrene", "Souillure de la gangrène", "neutre", icone("magic/unholy/hand-claw-fire-green"),
+  handicap("souillure-de-gangrene", "Souillure de la gangrène", "neutre", icone("magic/unholy/orb-collecting-energy-green.webp"),
     "Vous avez touché la gangrène de trop près : un rituel, un artefact, un sang qui n'était pas le vôtre. Vos yeux virent au vert quand vous êtes en colère, et les démons sentent votre présence à un kilomètre.\n\nLes paladins, les prêtres et les druides devinent la souillure au premier regard (test de Sagesse (Perspicacité) DD 10). Une fois par aventure, le MJ peut vous faire entendre une voix qui propose de l'aide — à un prix.")
 ];
 

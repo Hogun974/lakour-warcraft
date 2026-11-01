@@ -3,7 +3,7 @@
   "_key": "!items!P9AeBA5Jyt8hSRFj",
   "name": "Pied marin",
   "type": "feat",
-  "img": "icons/svg/anchor.svg",
+  "img": "icons/skills/trades/profession-sailing-ship.webp",
   "system": {
     "description": {
       "value": "<p>Vous avez grandi sur un pont qui roule. Vous gagnez une <strong>vitesse de nage de 9 m</strong>, la maîtrise des <strong>véhicules marins</strong>, et l'avantage aux tests de Force (Athlétisme) et de Dextérité (Acrobaties) pour garder l'équilibre sur un sol mouvant (pont, gréement, glace, radeau).</p>",
@@ -65,7 +65,7 @@
       "_id": "tYZyGohgWPGfPCBA",
       "_key": "!items.effects!P9AeBA5Jyt8hSRFj.tYZyGohgWPGfPCBA",
       "name": "Pied marin",
-      "img": "icons/svg/anchor.svg",
+      "img": "icons/skills/trades/profession-sailing-ship.webp",
       "type": "base",
       "system": {
         "changes": [

@@ -3,7 +3,7 @@
   "_key": "!items!dKrzUqxdFP4zIyQ5",
   "name": "Sentinelle de la Muraille",
   "type": "feat",
-  "img": "icons/magic/perception/eye-ringed-green.webp",
+  "img": "icons/environment/settlement/watchtower-stone.webp",
   "system": {
     "description": {
       "value": "<p><em>Prérequis : Capacité Style de combat.</em></p><p>Des nuits de garde sur la Muraille de Thandol ont aiguisé vos réflexes. Vous gagnez <strong>+2</strong> à l'<strong>initiative</strong> et <strong>+2</strong> à votre <strong>Sagesse (Perception) passive</strong>.</p>",
@@ -45,7 +45,7 @@
       "_id": "gmDZmx72AOWwE3lN",
       "_key": "!items.effects!dKrzUqxdFP4zIyQ5.gmDZmx72AOWwE3lN",
       "name": "Sentinelle de la Muraille",
-      "img": "icons/magic/perception/eye-ringed-green.webp",
+      "img": "icons/environment/settlement/watchtower-stone.webp",
       "type": "base",
       "system": {
         "changes": [

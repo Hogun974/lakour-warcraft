@@ -3,7 +3,7 @@
   "_key": "!items!LYbXTCrVqkcbgXeK",
   "name": "Cartel gobelin",
   "type": "background",
-  "img": "icons/commodities/currency/coin-embossed-crown-gold.webp",
+  "img": "icons/commodities/currency/coins-plain-stack-gold.webp",
   "system": {
     "description": {
       "value": "<p>Vous avez travaillé pour le cartel Gentepression à Baie-du-Butin ou à Cabestan : comptable, démarcheur, ingénieur ou collecteur de dettes. Un contrat vous lie encore, et quelqu'un, quelque part, attend sa commission.</p><ul><li><strong>Caractéristiques :</strong> Dextérité, Intelligence, Charisme</li><li><strong>Compétences :</strong> Tromperie, Persuasion</li><li><strong>Outil :</strong> outils de bricoleur</li><li><strong>Don d'origine :</strong> Doué (SRD)</li><li><strong>Langues :</strong> gobelin, plus deux au choix</li><li><strong>Équipement :</strong> dague, outils de bricoleur, vêtements fins, lettre de change, 2 bombes gobelines, 5 po, <em>ou</em> 50 po</li></ul>",

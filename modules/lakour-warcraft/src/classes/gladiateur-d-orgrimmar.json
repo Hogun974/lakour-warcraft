@@ -1,0 +1,175 @@
+{
+  "_id": "LWQxpxM9xnIVQs9q",
+  "_key": "!items!LWQxpxM9xnIVQs9q",
+  "name": "Gladiateur d'Orgrimmar",
+  "type": "subclass",
+  "img": "icons/skills/social/intimidation-impressing.webp",
+  "system": {
+    "description": {
+      "value": "<p>Dans l'Anneau du Valeur d'Orgrimmar, on ne se bat pas seulement pour vaincre, mais pour être vu. Les gladiateurs, orcs, trolls, ogres ou anciens esclaves des camps d'internement, ont appris que la foule est une arme : son rugissement les tient debout, son silence les tue. Hors de l'arène, ils gardent ce goût du spectacle et cette endurance qui étonnent jusqu'aux Kor'kron.</p><p><em>Sous-classe du Guerrier, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Faveur de la foule, Salut à la foule</li><li><strong>Niveau 7</strong> : Endurci par le sable</li><li><strong>Niveau 10</strong> : Coup de grâce</li><li><strong>Niveau 15</strong> : Clameur de l'arène</li><li><strong>Niveau 18</strong> : Légende d'Orgrimmar</li></ul>",
+      "chat": ""
+    },
+    "identifier": "gladiateur-d-orgrimmar",
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "advancement": {
+      "rw0V7XKIU5sAxrjX": {
+        "_id": "rw0V7XKIU5sAxrjX",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.ZV7qwhSMXvWtd70U",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.WDmN8y1bg0Ax8ZC5",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "name": "Capacités : Gladiateur d'Orgrimmar",
+        "hint": "",
+        "flags": {}
+      },
+      "VcQd4k9YpbGeqfKN": {
+        "_id": "VcQd4k9YpbGeqfKN",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.WVrVvEOsNfELyFPr",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "name": "Capacités : Gladiateur d'Orgrimmar",
+        "hint": "",
+        "flags": {}
+      },
+      "tNc0kUwLkD8iHd4S": {
+        "_id": "tNc0kUwLkD8iHd4S",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.pkIWTdbl8HyiLNe2",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "name": "Capacités : Gladiateur d'Orgrimmar",
+        "hint": "",
+        "flags": {}
+      },
+      "oOwNXCXwr7gZcpK2": {
+        "_id": "oOwNXCXwr7gZcpK2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.zXm0Lu68o9tfrvpI",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "name": "Capacités : Gladiateur d'Orgrimmar",
+        "hint": "",
+        "flags": {}
+      },
+      "VHMPdOvLXvl0cXxu": {
+        "_id": "VHMPdOvLXvl0cXxu",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.C0CC4eceL9Y2Csi9",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "name": "Capacités : Gladiateur d'Orgrimmar",
+        "hint": "",
+        "flags": {}
+      },
+      "KPU9RS1Nzds0ofiR": {
+        "_id": "KPU9RS1Nzds0ofiR",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "coup-de-grace",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "10": {
+              "number": 2,
+              "faces": 8,
+              "modifiers": []
+            },
+            "15": {
+              "number": 3,
+              "faces": 8,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "name": "Dés du coup de grâce",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "classIdentifier": "fighter",
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "gladiateur-d-orgrimmar",
+      "classe": "fighter"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

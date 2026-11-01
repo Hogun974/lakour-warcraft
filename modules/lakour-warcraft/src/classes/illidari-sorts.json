@@ -1,0 +1,65 @@
+{
+  "_id": "2hZHASvSr3lhy7eB",
+  "_key": "!items!2hZHASvSr3lhy7eB",
+  "name": "Sorts du chasseur illidari",
+  "type": "feat",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Votre traque vous a appris quelques protections. Quand vous atteignez les niveaux de rôdeur indiqués, ces sorts vous sont accordés ; ils sont <strong>toujours préparés</strong>.</p><ul><li>Niveau 3 : Protection contre le mal et le bien</li><li>Niveau 5 : Détection de l'invisibilité</li><li>Niveau 9 : Cercle magique</li><li>Niveau 13 : Bannissement</li><li>Niveau 17 : Dissipation du mal et du bien</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "illidari-sorts",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Chasseur de démons illidari",
+    "prerequisites": {
+      "level": 3,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "illidari-sorts",
+      "sousClasse": "chasseur-de-demons-illidari",
+      "classe": "ranger",
+      "niveau": 3,
+      "automatisation": "complete",
+      "portePar": "sous-classe",
+      "liste": "sorts"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

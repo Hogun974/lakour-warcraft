@@ -3,7 +3,7 @@
   "_key": "!items!BiGOddGx3qG4vgsr",
   "name": "Psaume de la Lumière",
   "type": "spell",
-  "img": "icons/magic/holy/prayer-hands-glowing-yellow-white.webp",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
   "system": {
     "description": {
       "value": "<p>Vous entonnez un psaume que reprennent ceux qui vous entourent. Jusqu'à six créatures de votre choix situées à portée, qui peuvent vous entendre, récupèrent chacune <strong>2d6 + votre modificateur de caractéristique d'incantation</strong> points de vie.</p><p>Le psaume ne fait rien aux morts-vivants et aux créatures artificielles. Un Réprouvé qui le reçoit en éprouve une douleur sourde, mais il guérit.</p><p><strong>Aux niveaux supérieurs.</strong> Les soins augmentent de 1d6 par niveau d'emplacement au-delà du 3e.</p><p><strong>Tradition</strong> : La Lumière. <strong>Listes de sorts</strong> : Clerc, Paladin.</p>",

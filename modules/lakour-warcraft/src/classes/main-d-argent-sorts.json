@@ -1,0 +1,65 @@
+{
+  "_id": "gG1YU65CWRdVJ0vN",
+  "_key": "!items!gG1YU65CWRdVJ0vN",
+  "name": "Sorts du serment de la Main d'argent",
+  "type": "feat",
+  "img": "icons/magic/holy/chalice-glowing-gold-water.webp",
+  "system": {
+    "description": {
+      "value": "<p>Votre serment vous ouvre ces prières. Quand vous atteignez les niveaux de paladin indiqués, ces sorts vous sont accordés ; ils sont <strong>toujours préparés</strong>.</p><ul><li>Niveau 3 : Égide de la Lumière, Protection contre le mal et le bien</li><li>Niveau 5 : Marteau de justice, Restauration partielle</li><li>Niveau 9 : Psaume de la Lumière, Lumière du jour</li><li>Niveau 13 : Protection contre la mort, Bannissement</li><li>Niveau 17 : Dissipation du mal et du bien, Sanctification</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "main-d-argent-sorts",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Serment de la Main d'argent",
+    "prerequisites": {
+      "level": 3,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "main-d-argent-sorts",
+      "sousClasse": "serment-de-la-main-d-argent",
+      "classe": "paladin",
+      "niveau": 3,
+      "automatisation": "complete",
+      "portePar": "sous-classe",
+      "liste": "sorts"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

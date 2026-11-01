@@ -1,0 +1,111 @@
+{
+  "_id": "jDhaJ9S5XVVJVURx",
+  "_key": "!items!jDhaJ9S5XVVJVURx",
+  "name": "Maître du déguisement",
+  "type": "feat",
+  "img": "icons/commodities/treasure/mask-wood-tan.webp",
+  "system": {
+    "description": {
+      "value": "<p>En <strong>1 minute</strong> et sans matériel, vous changez d'allure au point de passer pour une autre personne de votre taille. Vous avez l'<strong>avantage</strong> aux tests de Charisme (<strong>Tromperie</strong>) et de Sagesse (<strong>Intuition</strong>).</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "si-7-maitre-du-deguisement",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Espion du SI:7",
+    "prerequisites": {
+      "level": 9,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "RPYLe4jdi4ESJj5b",
+      "_key": "!items.effects!jDhaJ9S5XVVJVURx.RPYLe4jdi4ESJj5b",
+      "name": "Maître du déguisement",
+      "img": "icons/commodities/treasure/mask-wood-tan.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.skills.dec.roll.mode",
+            "type": "add",
+            "value": 1,
+            "phase": "initial",
+            "priority": null
+          },
+          {
+            "key": "system.skills.ins.roll.mode",
+            "type": "add",
+            "value": 1,
+            "phase": "initial",
+            "priority": null
+          }
+        ]
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "si-7-maitre-du-deguisement",
+      "sousClasse": "espion-du-si-7",
+      "classe": "rogue",
+      "niveau": 9,
+      "automatisation": "partielle"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

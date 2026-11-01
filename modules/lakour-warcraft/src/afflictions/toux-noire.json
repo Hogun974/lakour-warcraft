@@ -3,7 +3,7 @@
   "_key": "!items!j37a9EVZTlTjREWa",
   "name": "Toux noire",
   "type": "feat",
-  "img": "icons/svg/biohazard.svg",
+  "img": "icons/magic/air/fog-gas-smoke-dense-gray.webp",
   "system": {
     "description": {
       "value": "<p>La poussière des mines de Rochenoire et des galeries de Forgefer se dépose dans les poumons de ceux qui y travaillent sans masque (jet de sauvegarde de Constitution DD 13 par semaine passée sous terre). Incubation : <strong>une semaine</strong>.</p><p><strong>Évolution.</strong> À la fin de chaque <strong>repos long</strong>, la créature malade fait un jet de sauvegarde de <strong>Constitution DD 13</strong>. Après <strong>trois échecs</strong> (cumulés), la maladie passe au stade suivant : le MJ active l'effet de ce stade sur la fiche (les effets des stades précédents restent actifs). Après <strong>trois réussites</strong> (cumulées), la créature guérit et l'objet est retiré.</p><ul><li><strong>Stade 1 — Souffle court.</strong> Une toux sèche ponctue chaque effort. Désavantage aux tests de Force (<strong>Athlétisme</strong>).</li><li><strong>Stade 2 — Poumons de cendre.</strong> Le malade crache noir. Toutes ses vitesses diminuent de <strong>1,5 m</strong>, et il a le désavantage aux jets de sauvegarde de <strong>Constitution</strong>.</li></ul><p><strong>Remèdes.</strong> Un sort de <em>Restauration partielle</em> (ou toute magie qui met fin à une maladie) guérit la créature. Un mois au grand air sans descendre sous terre compte comme trois réussites.</p>",
@@ -129,7 +129,7 @@
       "_id": "YD5uIbVG9iLyPFiY",
       "_key": "!items.effects!j37a9EVZTlTjREWa.YD5uIbVG9iLyPFiY",
       "name": "Toux noire — stade 1 : Souffle court",
-      "img": "icons/svg/biohazard.svg",
+      "img": "icons/magic/air/fog-gas-smoke-dense-gray.webp",
       "type": "base",
       "system": {
         "changes": [
@@ -171,7 +171,7 @@
       "_id": "v6fmexCrdhbRFAnw",
       "_key": "!items.effects!j37a9EVZTlTjREWa.v6fmexCrdhbRFAnw",
       "name": "Toux noire — stade 2 : Poumons de cendre",
-      "img": "icons/svg/biohazard.svg",
+      "img": "icons/magic/air/fog-gas-smoke-dense-gray.webp",
       "type": "base",
       "system": {
         "changes": [

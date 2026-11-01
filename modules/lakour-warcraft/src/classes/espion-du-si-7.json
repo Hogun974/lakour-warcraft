@@ -1,0 +1,181 @@
+{
+  "_id": "sg0I1tNoMF0kwLyh",
+  "_key": "!items!sg0I1tNoMF0kwLyh",
+  "name": "Espion du SI:7",
+  "type": "subclass",
+  "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Le SI:7 est le service de renseignement de Hurlevent, fondé sous le roi Llane et longtemps dirigé par Mathias Shaw. Ses agents ne portent pas d'uniforme : ce sont des domestiques, des marchands, des ivrognes de la Vieille ville. Ils empoisonnent leurs lames d'extraits des marais du Bois de la Pénombre, changent de visage en une minute et disparaissent avant qu'on ait compris qu'ils étaient là.</p><p><em>Sous-classe du Roublard, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Formation du SI:7, Lames enduites</li><li><strong>Niveau 9</strong> : Maître du déguisement</li><li><strong>Niveau 13</strong> : Évasion d'agent</li><li><strong>Niveau 17</strong> : Dossier complet</li></ul>",
+      "chat": ""
+    },
+    "identifier": "espion-du-si-7",
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "advancement": {
+      "goK1thnf0YGvJJa6": {
+        "_id": "goK1thnf0YGvJJa6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.H19cwBD8nGNqAElm",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.M8dfALs0i4h3ePMq",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "name": "Capacités : Espion du SI:7",
+        "hint": "",
+        "flags": {}
+      },
+      "nrzof565VoIND5Gy": {
+        "_id": "nrzof565VoIND5Gy",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.jDhaJ9S5XVVJVURx",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "name": "Capacités : Espion du SI:7",
+        "hint": "",
+        "flags": {}
+      },
+      "mOxeuWI7jSYsRNFE": {
+        "_id": "mOxeuWI7jSYsRNFE",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.XATkWLhtCbsG2qp9",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 13,
+        "name": "Capacités : Espion du SI:7",
+        "hint": "",
+        "flags": {}
+      },
+      "uJFDH9BdiUgNr2Wn": {
+        "_id": "uJFDH9BdiUgNr2Wn",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.aB0H3k3XmEWVdRxl",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "name": "Capacités : Espion du SI:7",
+        "hint": "",
+        "flags": {}
+      },
+      "jluv8xUyjxq8MWyT": {
+        "_id": "jluv8xUyjxq8MWyT",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "tool:disg",
+            "tool:forg"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 3,
+        "name": "Formation du SI:7",
+        "hint": "Trousse de déguisement et trousse de contrefaçon.",
+        "flags": {}
+      },
+      "1AL0bZyVsoKyuFgy": {
+        "_id": "1AL0bZyVsoKyuFgy",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "poison",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "number": 1,
+              "faces": 6,
+              "modifiers": []
+            },
+            "9": {
+              "number": 2,
+              "faces": 6,
+              "modifiers": []
+            },
+            "17": {
+              "number": 3,
+              "faces": 6,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "name": "Dés du poison du SI:7",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "classIdentifier": "rogue",
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "espion-du-si-7",
+      "classe": "rogue"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -329,7 +329,7 @@ const MUTATIONS_SOURCES = [
   ["affiliations.mjs", "const ou = `dons:affiliation-${d.cle}`;", "const ou = `dons:${d.cle}`;", "préfixe des clés"],
   ["affiliations.mjs", "{ transfert: true, magique: false }", "{ transfert: false, magique: false }", "effets passifs transférés"],
   ["affiliations.mjs", "`**Devoir.** ${devoir}`,", "devoir,", "section Devoir"],
-  ["affiliations.mjs", "\"neutre\", icone(\"commodities/currency/coins-plain-pouch-gold\")", "\"gobelin\", icone(\"commodities/currency/coins-plain-pouch-gold\")", "faction connue"]
+  ["affiliations.mjs", "\"neutre\", icone(\"containers/bags/coinpouch-gold-red.webp\")", "\"gobelin\", icone(\"containers/bags/coinpouch-gold-red.webp\")", "faction connue"]
 ];
 
 async function chargerMutant(fichier, avant, apres) {

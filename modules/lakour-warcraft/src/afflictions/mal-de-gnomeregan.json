@@ -3,7 +3,7 @@
   "_key": "!items!8EN3LuxJ1EEJqcLv",
   "name": "Mal de Gnomeregan",
   "type": "feat",
-  "img": "icons/svg/hazard.svg",
+  "img": "icons/magic/acid/dissolve-pool-bubbles.webp",
   "system": {
     "description": {
       "value": "<p>Les radiations libérées dans Gnomeregan rongent quiconque s'attarde dans ses salles inondées de vase toxique (jet de sauvegarde de Constitution DD 13 par heure passée dans une zone irradiée). Incubation : <strong>1d6 heures</strong>.</p><p><strong>Évolution.</strong> À la fin de chaque <strong>repos long</strong>, la créature malade fait un jet de sauvegarde de <strong>Constitution DD 13</strong>. Après <strong>trois échecs</strong> (cumulés), la maladie passe au stade suivant : le MJ active l'effet de ce stade sur la fiche (les effets des stades précédents restent actifs). Après <strong>trois réussites</strong> (cumulées), la créature guérit et l'objet est retiré.</p><ul><li><strong>Stade 1 — Nausées.</strong> Vomissements et vertiges. Les points de vie maximum diminuent de <strong>1 par niveau</strong>.</li><li><strong>Stade 2 — Cheveux qui tombent.</strong> Les mains tremblent, la peau pèle. Désavantage aux tests et aux jets de sauvegarde de <strong>Dextérité</strong>.</li></ul><p><strong>Remèdes.</strong> Un sort de <em>Restauration partielle</em> (ou toute magie qui met fin à une maladie) guérit la créature. Les ingénieurs gnomes d'Ironforge vendent un sirop « décontaminant » (25 po) qui donne l'avantage au prochain jet.</p>",
@@ -129,7 +129,7 @@
       "_id": "v3AnGtfSz9mJlNDp",
       "_key": "!items.effects!8EN3LuxJ1EEJqcLv.v3AnGtfSz9mJlNDp",
       "name": "Mal de Gnomeregan — stade 1 : Nausées",
-      "img": "icons/svg/hazard.svg",
+      "img": "icons/magic/acid/dissolve-pool-bubbles.webp",
       "type": "base",
       "system": {
         "changes": [
@@ -171,7 +171,7 @@
       "_id": "SMHuEm6m3HnCC9hA",
       "_key": "!items.effects!8EN3LuxJ1EEJqcLv.SMHuEm6m3HnCC9hA",
       "name": "Mal de Gnomeregan — stade 2 : Cheveux qui tombent",
-      "img": "icons/svg/hazard.svg",
+      "img": "icons/magic/acid/dissolve-pool-bubbles.webp",
       "type": "base",
       "system": {
         "changes": [
