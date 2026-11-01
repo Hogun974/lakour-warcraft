@@ -1,0 +1,198 @@
+{
+  "_id": "LYbXTCrVqkcbgXeK",
+  "_key": "!items!LYbXTCrVqkcbgXeK",
+  "name": "Cartel gobelin",
+  "type": "background",
+  "img": "icons/commodities/currency/coin-embossed-crown-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous avez travaillé pour le cartel Gentepression à Baie-du-Butin ou à Cabestan : comptable, démarcheur, ingénieur ou collecteur de dettes. Un contrat vous lie encore, et quelqu'un, quelque part, attend sa commission.</p><ul><li><strong>Caractéristiques :</strong> Dextérité, Intelligence, Charisme</li><li><strong>Compétences :</strong> Tromperie, Persuasion</li><li><strong>Outil :</strong> outils de bricoleur</li><li><strong>Don d'origine :</strong> Doué (SRD)</li><li><strong>Langues :</strong> gobelin, plus deux au choix</li><li><strong>Équipement :</strong> dague, outils de bricoleur, vêtements fins, lettre de change, 2 bombes gobelines, 5 po, <em>ou</em> 50 po</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "cartel-gobelin",
+    "advancement": {
+      "VoWWyPkEbRPGOkNz": {
+        "_id": "VoWWyPkEbRPGOkNz",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "con",
+            "wis"
+          ],
+          "points": 3,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Amélioration de caractéristiques de l'historique",
+        "hint": "Augmentez l'une des trois caractéristiques de 2 et une autre de 1, ou les trois de 1, sans dépasser 20.",
+        "flags": {}
+      },
+      "bVHImeD00GW18qEf": {
+        "_id": "bVHImeD00GW18qEf",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:dec",
+            "skills:per",
+            "tool:art:tinker"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Maîtrises de l'historique",
+        "hint": "",
+        "flags": {}
+      },
+      "cvhVAyNbv65xN3eY": {
+        "_id": "cvhVAyNbv65xN3eY",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.feats24.Item.phbftSkilled0000",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Don d'origine",
+        "hint": "",
+        "flags": {}
+      },
+      "tv9ihdLB7zNGn2ik": {
+        "_id": "tv9ihdLB7zNGn2ik",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:goblin"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Langues",
+        "hint": "Le commun de votre faction, plus deux langues au choix (voir le guide du joueur).",
+        "flags": {}
+      }
+    },
+    "startingEquipment": [
+      {
+        "_id": "nsRIDBIyYjCToDJW",
+        "type": "AND",
+        "group": "",
+        "sort": 100000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "bD9j7qsOchwmwJ02",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbwepDagger0000",
+        "count": null,
+        "group": "nsRIDBIyYjCToDJW",
+        "sort": 200000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "GiUMdFIQnNvOlaA4",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbtulTinkersToo",
+        "count": null,
+        "group": "nsRIDBIyYjCToDJW",
+        "sort": 300000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "3RuyIcAY5LrcEE30",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagClothesFine",
+        "count": null,
+        "group": "nsRIDBIyYjCToDJW",
+        "sort": 400000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "L2Bx4epRzftt2JgH",
+        "type": "linked",
+        "key": "Compendium.lakour-warcraft.objets.Item.01FqMSTuhh4RI7sF",
+        "count": null,
+        "group": "nsRIDBIyYjCToDJW",
+        "sort": 500000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "v1ViKExOCsLPbQft",
+        "type": "linked",
+        "key": "Compendium.lakour-warcraft.objets.Item.J5njSJUKfoAdTJw5",
+        "count": 2,
+        "group": "nsRIDBIyYjCToDJW",
+        "sort": 600000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "6pmGvvC3xC2IDQLm",
+        "type": "currency",
+        "key": "gp",
+        "count": 5,
+        "group": "nsRIDBIyYjCToDJW",
+        "sort": 9900000,
+        "requiresProficiency": false
+      }
+    ],
+    "wealth": "50"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "cartel-gobelin"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

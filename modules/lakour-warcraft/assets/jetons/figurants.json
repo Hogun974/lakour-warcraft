@@ -1,0 +1,62 @@
+{
+  "paysan": {
+    "libelle": "Paysan",
+    "jeton": "paysan"
+  },
+  "garde-alliance": {
+    "libelle": "Garde de l'Alliance",
+    "jeton": "garde-hurlevent"
+  },
+  "grunt": {
+    "libelle": "Grunt de la Horde",
+    "jeton": "grunt-orgrimmar"
+  },
+  "marchand": {
+    "libelle": "Marchand",
+    "jeton": "marchand"
+  },
+  "pelerin": {
+    "libelle": "Pèlerin",
+    "jeton": "figurant-pelerin"
+  },
+  "mineur": {
+    "libelle": "Mineur",
+    "jeton": "figurant-mineur"
+  },
+  "marin": {
+    "libelle": "Marin",
+    "jeton": "figurant-marin"
+  },
+  "enfant": {
+    "libelle": "Enfant",
+    "jeton": "figurant-enfant"
+  },
+  "pretre": {
+    "libelle": "Prêtre de la Lumière",
+    "jeton": "pretre-lumiere"
+  },
+  "bandit": {
+    "libelle": "Bandit",
+    "jeton": "bandit-defias"
+  },
+  "kobold": {
+    "libelle": "Kobold",
+    "jeton": "kobold-mineur"
+  },
+  "murloc": {
+    "libelle": "Murloc",
+    "jeton": "murloc"
+  },
+  "gobelin": {
+    "libelle": "Gobelin",
+    "jeton": "figurant-gobelin"
+  },
+  "cultiste": {
+    "libelle": "Cultiste",
+    "jeton": "figurant-cultiste"
+  },
+  "mort-vivant": {
+    "libelle": "Mort-vivant",
+    "jeton": "squelette"
+  }
+}

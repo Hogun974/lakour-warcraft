@@ -1,0 +1,148 @@
+{
+  "_id": "mwrMDnozzKJrOIMo",
+  "_key": "!items!mwrMDnozzKJrOIMo",
+  "name": "Rempart du rang",
+  "type": "feat",
+  "img": "icons/skills/melee/shield-block-gray-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>On vous a appris à tenir la ligne, coude contre coude. Quand une créature que vous voyez touche un allié situé à 1,5 m de vous, vous pouvez utiliser votre <strong>réaction</strong> pour vous interposer : les dégâts qu'il subit sont réduits de <strong>1d8 + votre bonus de maîtrise</strong>. Vous devez porter un bouclier ou une arme de corps à corps.</p><p>Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "don-rempart-du-rang",
+    "type": {
+      "value": "feat",
+      "subtype": "origin"
+    },
+    "requirements": "",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {
+      "euruzKYN97fBBgzI": {
+        "_id": "euruzKYN97fBBgzI",
+        "type": "utility",
+        "name": "S'interposer",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "condition": "Un allié à 1,5 m est touché",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "1.5",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "1",
+            "type": "ally",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": true,
+          "name": "Dégâts évités",
+          "formula": "1d8 + @prof"
+        }
+      }
+    },
+    "uses": {
+      "max": "@prof",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "don-rempart-du-rang"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

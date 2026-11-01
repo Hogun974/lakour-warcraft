@@ -1,0 +1,59 @@
+{
+  "_id": "QHYEHm5r5vx4ZQBk",
+  "_key": "!items!QHYEHm5r5vx4ZQBk",
+  "name": "Sens aiguisés",
+  "type": "feat",
+  "img": "icons/creatures/eyes/human-single-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Dix mille ans de veille ont affiné vos sens. Vous maîtrisez <strong>Intuition</strong>, <strong>Perception</strong> ou <strong>Survie</strong> (au choix).</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "elfe-de-la-nuit-sens-aiguises",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Elfe de la nuit",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "elfe-de-la-nuit-sens-aiguises"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

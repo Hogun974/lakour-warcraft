@@ -1,0 +1,928 @@
+{
+  "_id": "3C89JBzkzHg0uRZm",
+  "_key": "!scenes!3C89JBzkzHg0uRZm",
+  "name": "Lieu — Ruines elfiques",
+  "navName": "Lieu — Ruines elfiques",
+  "navigation": true,
+  "active": false,
+  "width": 2800,
+  "height": 2200,
+  "padding": 0,
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "distance": 1.5,
+    "units": "m"
+  },
+  "tokenVision": true,
+  "environment": {
+    "darknessLevel": 0.5,
+    "globalLight": {
+      "enabled": false
+    }
+  },
+  "levels": [
+    {
+      "_id": "defaultLevel0000",
+      "name": "Niveau principal",
+      "elevation": {
+        "bottom": 0,
+        "top": null
+      },
+      "background": {
+        "color": "#18181b",
+        "src": "modules/lakour-warcraft/assets/cartes/lieu-ruines-elfiques.svg"
+      },
+      "_key": "!scenes.levels!3C89JBzkzHg0uRZm.defaultLevel0000",
+      "flags": {}
+    }
+  ],
+  "initialLevel": "defaultLevel0000",
+  "walls": [
+    {
+      "c": [
+        0,
+        0,
+        2800,
+        0
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "6g1ogFlwn4UoAPcE",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.6g1ogFlwn4UoAPcE",
+      "flags": {}
+    },
+    {
+      "c": [
+        600,
+        400,
+        900,
+        400
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "CGCujszJlIqkmzxJ",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.CGCujszJlIqkmzxJ",
+      "flags": {}
+    },
+    {
+      "c": [
+        1300,
+        400,
+        2200,
+        400
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "d2PyJ0it5wMDcdL3",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.d2PyJ0it5wMDcdL3",
+      "flags": {}
+    },
+    {
+      "c": [
+        1000,
+        700,
+        1400,
+        700
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "d4q59xq7HiTkuJiW",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.d4q59xq7HiTkuJiW",
+      "flags": {}
+    },
+    {
+      "c": [
+        1500,
+        700,
+        1800,
+        700
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "SFT3dg1pFR80usXR",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.SFT3dg1pFR80usXR",
+      "flags": {}
+    },
+    {
+      "c": [
+        1800,
+        800,
+        2100,
+        800
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "WW57427HJphwanVJ",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.WW57427HJphwanVJ",
+      "flags": {}
+    },
+    {
+      "c": [
+        1800,
+        1200,
+        2100,
+        1200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "2a2jGY6a9eVUVrfT",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.2a2jGY6a9eVUVrfT",
+      "flags": {}
+    },
+    {
+      "c": [
+        1000,
+        1400,
+        1300,
+        1400
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "ne5XoJFljDjOEQFQ",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.ne5XoJFljDjOEQFQ",
+      "flags": {}
+    },
+    {
+      "c": [
+        1500,
+        1400,
+        1800,
+        1400
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "8DpcpxuPq8QbjiAM",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.8DpcpxuPq8QbjiAM",
+      "flags": {}
+    },
+    {
+      "c": [
+        600,
+        1800,
+        1200,
+        1800
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "qcMbH9qiRZYq1YzQ",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.qcMbH9qiRZYq1YzQ",
+      "flags": {}
+    },
+    {
+      "c": [
+        1600,
+        1800,
+        2200,
+        1800
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "FxeXDwkSFneMwaK1",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.FxeXDwkSFneMwaK1",
+      "flags": {}
+    },
+    {
+      "c": [
+        0,
+        2200,
+        2800,
+        2200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "RZv3WBcdLOATkiEy",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.RZv3WBcdLOATkiEy",
+      "flags": {}
+    },
+    {
+      "c": [
+        0,
+        0,
+        0,
+        2200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "LWOjj4IEAB22UKAM",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.LWOjj4IEAB22UKAM",
+      "flags": {}
+    },
+    {
+      "c": [
+        600,
+        400,
+        600,
+        900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "D7lS5a1BHqySjmJc",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.D7lS5a1BHqySjmJc",
+      "flags": {}
+    },
+    {
+      "c": [
+        600,
+        1200,
+        600,
+        1800
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "HPvgJDMzSOZ0EaVR",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.HPvgJDMzSOZ0EaVR",
+      "flags": {}
+    },
+    {
+      "c": [
+        1000,
+        700,
+        1000,
+        1400
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "sFvGgYwEK0liLLIo",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.sFvGgYwEK0liLLIo",
+      "flags": {}
+    },
+    {
+      "c": [
+        1800,
+        700,
+        1800,
+        1000
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "tPo9osgwjMGQzuz3",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.tPo9osgwjMGQzuz3",
+      "flags": {}
+    },
+    {
+      "c": [
+        1800,
+        1100,
+        1800,
+        1400
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "CAQYGHpeC3FiCoUU",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.CAQYGHpeC3FiCoUU",
+      "flags": {}
+    },
+    {
+      "c": [
+        2100,
+        800,
+        2100,
+        1200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "JSvXNiBnmkx5Wd0i",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.JSvXNiBnmkx5Wd0i",
+      "flags": {}
+    },
+    {
+      "c": [
+        2200,
+        400,
+        2200,
+        1300
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "MlXDe9cIoHRqwpeq",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.MlXDe9cIoHRqwpeq",
+      "flags": {}
+    },
+    {
+      "c": [
+        2200,
+        1500,
+        2200,
+        1800
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "6wDIXjFNBBNLCBMT",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.6wDIXjFNBBNLCBMT",
+      "flags": {}
+    },
+    {
+      "c": [
+        2800,
+        0,
+        2800,
+        2200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "edOmiqETLze414zm",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.edOmiqETLze414zm",
+      "flags": {}
+    },
+    {
+      "c": [
+        1400,
+        700,
+        1500,
+        700
+      ],
+      "move": 20,
+      "sight": 0,
+      "light": 0,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "COg4jEyN34YHR3Hp",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.COg4jEyN34YHR3Hp",
+      "flags": {}
+    },
+    {
+      "c": [
+        1800,
+        1000,
+        1800,
+        1100
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 2,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "9oJBtBEr4jeDuscP",
+      "_key": "!scenes.walls!3C89JBzkzHg0uRZm.9oJBtBEr4jeDuscP",
+      "flags": {}
+    }
+  ],
+  "drawings": [
+    {
+      "x": 0,
+      "y": 0,
+      "shape": {
+        "type": "r",
+        "width": 2800,
+        "height": 2200
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Bosquet",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1000,
+      "_id": "wxy1jj1jZZaYWJuD",
+      "_key": "!scenes.drawings!3C89JBzkzHg0uRZm.wxy1jj1jZZaYWJuD",
+      "flags": {},
+      "author": "E9RXbhSzIHCxzc3v"
+    },
+    {
+      "x": 600,
+      "y": 400,
+      "shape": {
+        "type": "r",
+        "width": 1600,
+        "height": 1400
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Parvis",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1001,
+      "_id": "Sd0503k2ApQ4CWOC",
+      "_key": "!scenes.drawings!3C89JBzkzHg0uRZm.Sd0503k2ApQ4CWOC",
+      "flags": {},
+      "author": "E9RXbhSzIHCxzc3v"
+    },
+    {
+      "x": 1000,
+      "y": 700,
+      "shape": {
+        "type": "r",
+        "width": 800,
+        "height": 700
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Sanctuaire de la Lune",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1002,
+      "_id": "5Jvw4XlTJmw0VYSM",
+      "_key": "!scenes.drawings!3C89JBzkzHg0uRZm.5Jvw4XlTJmw0VYSM",
+      "flags": {},
+      "author": "E9RXbhSzIHCxzc3v"
+    },
+    {
+      "x": 1800,
+      "y": 800,
+      "shape": {
+        "type": "r",
+        "width": 300,
+        "height": 400
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Cache des prêtresses",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1003,
+      "_id": "V59H99apyT9kbWCF",
+      "_key": "!scenes.drawings!3C89JBzkzHg0uRZm.V59H99apyT9kbWCF",
+      "flags": {},
+      "author": "E9RXbhSzIHCxzc3v"
+    }
+  ],
+  "lights": [
+    {
+      "x": 1350,
+      "y": 1050,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 4.5,
+        "bright": 2.5,
+        "color": "#a0c8ff",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5
+      },
+      "_id": "EUDkDm43mmNJlBEX",
+      "_key": "!scenes.lights!3C89JBzkzHg0uRZm.EUDkDm43mmNJlBEX",
+      "flags": {}
+    },
+    {
+      "x": 1950,
+      "y": 950,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 1.5,
+        "bright": 1,
+        "color": "#c0a0ff",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5
+      },
+      "_id": "DqxtTGwsYRtRkFQ4",
+      "_key": "!scenes.lights!3C89JBzkzHg0uRZm.DqxtTGwsYRtRkFQ4",
+      "flags": {}
+    }
+  ],
+  "tokens": [],
+  "notes": [],
+  "sounds": [],
+  "regions": [],
+  "tiles": [],
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "lieu-ruines-elfiques",
+      "description": "Les vestiges d'un temple elfe de la nuit envahi par la végétation (Orneval, Sombrivage, Féralas) : bosquet, parvis aux colonnes brisées, sanctuaire de la Lune avec sa fontaine et une cache derrière une porte secrète. Pour une relique ancienne, des satyres ou des nagas, un esprit à apaiser, une rencontre avec des druides ou une exploration d'avant l'Exil.",
+      "plan": {
+        "largeur": 28,
+        "hauteur": 22,
+        "lumiere": "penombre",
+        "pieces": [
+          {
+            "nom": "Bosquet",
+            "x": 0,
+            "y": 0,
+            "l": 28,
+            "h": 22,
+            "sol": "herbe"
+          },
+          {
+            "nom": "Parvis",
+            "x": 6,
+            "y": 4,
+            "l": 16,
+            "h": 14,
+            "sol": "pierre"
+          },
+          {
+            "nom": "Sanctuaire de la Lune",
+            "x": 10,
+            "y": 7,
+            "l": 8,
+            "h": 7,
+            "sol": "sanctuaire"
+          },
+          {
+            "nom": "Cache des prêtresses",
+            "x": 18,
+            "y": 8,
+            "l": 3,
+            "h": 4,
+            "sol": "pierre"
+          }
+        ],
+        "ouvertures": [
+          {
+            "x": 9,
+            "y": 4,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 10,
+            "y": 4,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 11,
+            "y": 4,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 12,
+            "y": 4,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 12,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 13,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 14,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 15,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 6,
+            "y": 9,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 6,
+            "y": 10,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 6,
+            "y": 11,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 21,
+            "y": 13,
+            "cote": "est",
+            "type": "passage"
+          },
+          {
+            "x": 21,
+            "y": 14,
+            "cote": "est",
+            "type": "passage"
+          },
+          {
+            "x": 13,
+            "y": 13,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 14,
+            "y": 13,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 17,
+            "y": 10,
+            "cote": "est",
+            "type": "secrete"
+          },
+          {
+            "x": 14,
+            "y": 7,
+            "cote": "nord",
+            "type": "fenetre"
+          }
+        ],
+        "lumieres": [
+          {
+            "x": 13,
+            "y": 10,
+            "rayon": 3,
+            "couleur": "#a0c8ff"
+          },
+          {
+            "x": 19,
+            "y": 9,
+            "rayon": 1,
+            "couleur": "#c0a0ff"
+          }
+        ],
+        "elements": [
+          {
+            "nom": "Fontaine de lune",
+            "x": 13,
+            "y": 9,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Statue de prêtresse",
+            "x": 11,
+            "y": 8,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Statue de prêtresse",
+            "x": 16,
+            "y": 8,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Autel lunaire",
+            "x": 13,
+            "y": 12,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Coffre ancien",
+            "x": 19,
+            "y": 10,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Colonne brisée",
+            "x": 8,
+            "y": 6,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Colonne brisée",
+            "x": 19,
+            "y": 5,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Colonne brisée",
+            "x": 8,
+            "y": 15,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Colonne brisée",
+            "x": 19,
+            "y": 15,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Arbre",
+            "x": 1,
+            "y": 2,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Arbre",
+            "x": 24,
+            "y": 1,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Arbre",
+            "x": 2,
+            "y": 18,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Arbre",
+            "x": 24,
+            "y": 18,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Racines",
+            "x": 7,
+            "y": 11,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Bloc effondré",
+            "x": 16,
+            "y": 15,
+            "l": 2,
+            "h": 1
+          }
+        ]
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

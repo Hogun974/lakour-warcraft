@@ -1,0 +1,16 @@
+{
+  "LAKOURWOW": {
+    "Titre": "La Kour Warcraft",
+    "Proposer": "Installer le contenu La Kour Warcraft dans ce monde ? Les guides (joueur et MJ) et les cartes de l'aventure de départ seront importés ; peuples, historiques, objets et bestiaire restent dans les compendiums.",
+    "Installe": "La Kour Warcraft installé : {liste}.",
+    "RienDeNeuf": "tout était déjà en place",
+    "StyleApplique": "{n} carte(s) ou jeton(s) basculé(s) dans le nouveau style.",
+    "Ouvrir": "Installer",
+    "Aide": "Importe dans ce monde les guides et les cartes des aventures du module, et met à jour leurs plans.",
+    "Explication": "Les guides (joueur et MJ) et les cartes des aventures sont importés dans le monde ; peuples, historiques, objets, bestiaire et lieux génériques restent dans les compendiums. Rien n'est effacé ; un document déjà importé n'est pas dupliqué.",
+    "Installer": "Installer le contenu dans ce monde",
+    "DejaInstalle": "Contenu installé",
+    "PasInstalle": "Contenu pas encore installé dans ce monde.",
+    "MauvaisSysteme": "Ce monde n'utilise pas D&D 5e : rien à installer."
+  }
+}

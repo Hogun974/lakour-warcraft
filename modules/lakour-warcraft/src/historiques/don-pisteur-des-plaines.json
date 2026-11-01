@@ -1,0 +1,86 @@
+{
+  "_id": "hXpluqna51mS1sM0",
+  "_key": "!items!hXpluqna51mS1sM0",
+  "name": "Pisteur des plaines",
+  "type": "feat",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "description": {
+      "value": "<p>Une herbe couchée, une odeur de musc, un caillou retourné : vous lisez la terre. Vous gagnez la maîtrise de <strong>Nature</strong>, <strong>Perception</strong> ou <strong>Survie</strong> (au choix). Vous avez l'avantage aux tests faits pour suivre une piste, et votre groupe peut voyager à allure rapide sans subir de malus de Perception passive quand vous menez la marche.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "don-pisteur-des-plaines",
+    "type": {
+      "value": "feat",
+      "subtype": "origin"
+    },
+    "requirements": "",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {
+      "LtNIoosAvoRWxGOb": {
+        "_id": "LtNIoosAvoRWxGOb",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:nat",
+                "skills:prc",
+                "skills:sur"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Pisteur des plaines",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "don-pisteur-des-plaines"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

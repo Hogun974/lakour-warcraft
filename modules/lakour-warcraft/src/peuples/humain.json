@@ -1,0 +1,191 @@
+{
+  "_id": "PYUC4hTjwIALe3cq",
+  "_key": "!items!PYUC4hTjwIALe3cq",
+  "name": "Humain",
+  "type": "race",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Alliance.</strong> Hurlevent rebâtie, Kul Tiras et les restes de Lordaeron : les humains sont le cœur de l'Alliance, nombreux, obstinés, divisés en royaumes qui se méfient les uns des autres autant que de la Horde.</p><p>Les humains sont ceux qui ont le plus perdu pendant la Troisième Guerre et ceux qui reconstruisent le plus vite. Paysans devenus soldats, prêtres de la Lumière, mages de Dalaran, marins kultirassiens : on trouve des humains partout et dans tous les métiers.</p><p><strong>Traits.</strong> Ténacité humaine, Touche-à-tout, Polyvalence (un don d'origine au choix). Taille Moyenne, vitesse 9 m, pas de vision dans le noir.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "humain",
+    "advancement": {
+      "1mQHKnosKRJ6GCJK": {
+        "_id": "1mQHKnosKRJ6GCJK",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "med",
+            "sm"
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "hint": "Moyen (1,50 à 1,90 m) ou Petit pour un enfant ou un adolescent.",
+        "flags": {}
+      },
+      "BWlH4JDAUkzR48bH": {
+        "_id": "BWlH4JDAUkzR48bH",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.peuples.Item.tT1pPhiCwzGE5wYh",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.peuples.Item.nnnUHOnqAVGWABBc",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.peuples.Item.mU42De1Vr73uMRl9",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Traits : Humain",
+        "hint": "",
+        "flags": {}
+      },
+      "iDJ1OQIPF15G0fDp": {
+        "_id": "iDJ1OQIPF15G0fDp",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Touche-à-tout",
+        "hint": "Une compétence au choix.",
+        "flags": {}
+      },
+      "st5U2bsfZ5IcqAyr": {
+        "_id": "st5U2bsfZ5IcqAyr",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "allowDrops": true,
+          "type": "feat",
+          "pool": [
+            {
+              "uuid": "Compendium.dnd5e.feats24.Item.phbftAlert000000"
+            },
+            {
+              "uuid": "Compendium.dnd5e.feats24.Item.phbftMagicInitia"
+            },
+            {
+              "uuid": "Compendium.dnd5e.feats24.Item.phbftSavageAttac"
+            },
+            {
+              "uuid": "Compendium.dnd5e.feats24.Item.phbftSkilled0000"
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.historiques.Item.mwrMDnozzKJrOIMo"
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.historiques.Item.P9AeBA5Jyt8hSRFj"
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.historiques.Item.ZKKBLWZXZXcKNxFF"
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.historiques.Item.YDwuEjLACxQU0UZk"
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.historiques.Item.gdH6pHCvE5J5VYme"
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.historiques.Item.hXpluqna51mS1sM0"
+            }
+          ],
+          "spell": null,
+          "restriction": {
+            "type": "feat",
+            "subtype": "origin",
+            "list": []
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "level": 0,
+        "title": "Don d'origine au choix",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "movement": {
+      "walk": "9",
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "units": "m",
+      "hover": false,
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "units": "m",
+      "special": "",
+      "ranges": {
+        "darkvision": null,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null
+      }
+    },
+    "type": {
+      "value": "humanoid",
+      "custom": "",
+      "subtype": "Humain"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "humain"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

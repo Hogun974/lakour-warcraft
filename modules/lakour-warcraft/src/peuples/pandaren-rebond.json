@@ -1,0 +1,59 @@
+{
+  "_id": "IBL7bvjVFoaGSTIh",
+  "_key": "!items!IBL7bvjVFoaGSTIh",
+  "name": "Rebond",
+  "type": "feat",
+  "img": "icons/skills/movement/ball-spinning-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous roulez plus que vous ne tombez. Vous subissez <strong>moitié moins de dégâts de chute</strong>, et vous ne tombez pas à terre à cause d'une chute de moins de 6 m.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "pandaren-rebond",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Pandaren",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "pandaren-rebond"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

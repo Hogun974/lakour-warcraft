@@ -1,0 +1,59 @@
+{
+  "_id": "XahUz2BHEIG6EeFv",
+  "_key": "!items!XahUz2BHEIG6EeFv",
+  "name": "Instinct de la jungle",
+  "type": "feat",
+  "img": "icons/weapons/polearms/spear-hooked-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>Les Sombrelance ont survécu aux raptors, aux murlocs et aux trolls rivaux. Vous maîtrisez <strong>Dressage</strong>, <strong>Nature</strong> ou <strong>Survie</strong> (au choix), et le terrain difficile naturel (broussailles, marais, éboulis) ne ralentit pas votre déplacement.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "troll-instinct-de-la-jungle",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Troll",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "troll-instinct-de-la-jungle"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

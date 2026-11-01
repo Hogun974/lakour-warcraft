@@ -1,0 +1,198 @@
+{
+  "_id": "93zFkG32WmhLFP2d",
+  "_key": "!items!93zFkG32WmhLFP2d",
+  "name": "Initié de la Lumière",
+  "type": "background",
+  "img": "icons/magic/holy/chalice-glowing-gold-water.webp",
+  "system": {
+    "description": {
+      "value": "<p>Novice d'une abbaye, acolyte de la cathédrale de Hurlevent ou survivant de la Main d'argent, vous croyez que la Lumière vit en chaque cœur. Vous avez soigné des pestiférés et enterré des amis.</p><ul><li><strong>Caractéristiques :</strong> Intelligence, Sagesse, Charisme</li><li><strong>Compétences :</strong> Intuition, Religion</li><li><strong>Outil :</strong> matériel d'herboriste</li><li><strong>Don d'origine :</strong> Grâce de la Lumière</li><li><strong>Langues :</strong> commun, plus deux au choix</li><li><strong>Équipement :</strong> masse, symbole sacré, trousse de soins, robe, potion de soins, 7 po, <em>ou</em> 50 po</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "initie-de-la-lumiere",
+    "advancement": {
+      "nlTtZ7oLFekMLxtz": {
+        "_id": "nlTtZ7oLFekMLxtz",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con"
+          ],
+          "points": 3,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Amélioration de caractéristiques de l'historique",
+        "hint": "Augmentez l'une des trois caractéristiques de 2 et une autre de 1, ou les trois de 1, sans dépasser 20.",
+        "flags": {}
+      },
+      "GXM56JJdfJwNdhdJ": {
+        "_id": "GXM56JJdfJwNdhdJ",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:ins",
+            "skills:rel",
+            "tool:herb"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Maîtrises de l'historique",
+        "hint": "",
+        "flags": {}
+      },
+      "W2IA2BdxvgfPgRDG": {
+        "_id": "W2IA2BdxvgfPgRDG",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.historiques.Item.ZKKBLWZXZXcKNxFF",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Don d'origine",
+        "hint": "",
+        "flags": {}
+      },
+      "eQYZVRprFo85i7Dn": {
+        "_id": "eQYZVRprFo85i7Dn",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:common"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Langues",
+        "hint": "Le commun de votre faction, plus deux langues au choix (voir le guide du joueur).",
+        "flags": {}
+      }
+    },
+    "startingEquipment": [
+      {
+        "_id": "QmMUbDlYVA6bSdbs",
+        "type": "AND",
+        "group": "",
+        "sort": 100000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "8DzzSYjdgb5diZIv",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbwepMace000000",
+        "count": null,
+        "group": "QmMUbDlYVA6bSdbs",
+        "sort": 200000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "6yimyz8fvDDMNSDX",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagHolySymbolV",
+        "count": null,
+        "group": "QmMUbDlYVA6bSdbs",
+        "sort": 300000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "BBgI7Lv3taR1ud0c",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagHealersKit0",
+        "count": null,
+        "group": "QmMUbDlYVA6bSdbs",
+        "sort": 400000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "zKlA1dirCHETzSFq",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagRobe0000000",
+        "count": null,
+        "group": "QmMUbDlYVA6bSdbs",
+        "sort": 500000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "4cpFfyFHiUeGjPf4",
+        "type": "linked",
+        "key": "Compendium.lakour-warcraft.objets.Item.D2jD8VN39EjXu6ZT",
+        "count": null,
+        "group": "QmMUbDlYVA6bSdbs",
+        "sort": 600000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "OB7erDq4yt9gWMR2",
+        "type": "currency",
+        "key": "gp",
+        "count": 7,
+        "group": "QmMUbDlYVA6bSdbs",
+        "sort": 9900000,
+        "requiresProficiency": false
+      }
+    ],
+    "wealth": "50"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "initie-de-la-lumiere"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

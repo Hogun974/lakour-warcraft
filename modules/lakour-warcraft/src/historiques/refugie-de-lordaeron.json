@@ -1,0 +1,198 @@
+{
+  "_id": "Sa4xMvBt3uulgX56",
+  "_key": "!items!Sa4xMvBt3uulgX56",
+  "name": "Réfugié de Lordaeron",
+  "type": "background",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "description": {
+      "value": "<p>Le royaume de Lordaeron est tombé en un an : grain empoisonné, morts qui se relèvent, prince devenu bourreau. Vous avez fui vers le sud avec ce que vous portiez. Vous ne faites plus confiance aux bannières, seulement aux gens.</p><ul><li><strong>Caractéristiques :</strong> Constitution, Sagesse, Charisme</li><li><strong>Compétences :</strong> Intuition, Survie</li><li><strong>Outil :</strong> ustensiles de cuisinier</li><li><strong>Don d'origine :</strong> Coriace</li><li><strong>Langues :</strong> commun, plus deux au choix</li><li><strong>Équipement :</strong> dague, couverture, 5 rations, outre, ustensiles de cuisinier, 12 po, <em>ou</em> 50 po</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "refugie-de-lordaeron",
+    "advancement": {
+      "nSzmBlxCM0Ngtiyy": {
+        "_id": "nSzmBlxCM0Ngtiyy",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "int"
+          ],
+          "points": 3,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Amélioration de caractéristiques de l'historique",
+        "hint": "Augmentez l'une des trois caractéristiques de 2 et une autre de 1, ou les trois de 1, sans dépasser 20.",
+        "flags": {}
+      },
+      "EV5dXPMD1nyYEDhE": {
+        "_id": "EV5dXPMD1nyYEDhE",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:ins",
+            "skills:sur",
+            "tool:art:cook"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Maîtrises de l'historique",
+        "hint": "",
+        "flags": {}
+      },
+      "DhAtJ2LsnlXyYBA6": {
+        "_id": "DhAtJ2LsnlXyYBA6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.historiques.Item.gdH6pHCvE5J5VYme",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Don d'origine",
+        "hint": "",
+        "flags": {}
+      },
+      "vMBsm10BVT5BLSpZ": {
+        "_id": "vMBsm10BVT5BLSpZ",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:common"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Langues",
+        "hint": "Le commun de votre faction, plus deux langues au choix (voir le guide du joueur).",
+        "flags": {}
+      }
+    },
+    "startingEquipment": [
+      {
+        "_id": "uhhf5DoFr5KXYQiD",
+        "type": "AND",
+        "group": "",
+        "sort": 100000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "G7EKj3wqHa5spHlk",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbwepDagger0000",
+        "count": null,
+        "group": "uhhf5DoFr5KXYQiD",
+        "sort": 200000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "rXuaFDnMuXNIFie9",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagBlanket0000",
+        "count": null,
+        "group": "uhhf5DoFr5KXYQiD",
+        "sort": 300000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "7s3YaEIjHfXtVmOo",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagRations0000",
+        "count": 5,
+        "group": "uhhf5DoFr5KXYQiD",
+        "sort": 400000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "KMJArhvvsWxpFgzK",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagWaterskin00",
+        "count": null,
+        "group": "uhhf5DoFr5KXYQiD",
+        "sort": 500000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "XzMxmKG5gBJyV7KH",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbtulCooksUtens",
+        "count": null,
+        "group": "uhhf5DoFr5KXYQiD",
+        "sort": 600000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "9PaopQGiPmgDz75R",
+        "type": "currency",
+        "key": "gp",
+        "count": 12,
+        "group": "uhhf5DoFr5KXYQiD",
+        "sort": 9900000,
+        "requiresProficiency": false
+      }
+    ],
+    "wealth": "50"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "refugie-de-lordaeron"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

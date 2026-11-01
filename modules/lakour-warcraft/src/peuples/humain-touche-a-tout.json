@@ -1,0 +1,59 @@
+{
+  "_id": "nnnUHOnqAVGWABBc",
+  "_key": "!items!nnnUHOnqAVGWABBc",
+  "name": "Touche-à-tout",
+  "type": "feat",
+  "img": "icons/sundries/books/book-backed-blue-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>Fermier devenu milicien, apprenti devenu soldat : vous avez appris un peu de tout. Vous gagnez la maîtrise d'une <strong>compétence</strong> de votre choix.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "humain-touche-a-tout",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Humain",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "humain-touche-a-tout"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

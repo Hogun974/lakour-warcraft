@@ -1,0 +1,198 @@
+{
+  "_id": "YuxLTqx90fu6lDla",
+  "_key": "!items!YuxLTqx90fu6lDla",
+  "name": "Grunt d'Orgrimmar",
+  "type": "background",
+  "img": "icons/weapons/axes/axe-battle-heavy-jagged.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous avez creusé les remparts d'Orgrimmar, chassé les centaures de Durotar et monté la garde aux Tarides. Grunt de la nouvelle Horde, vous vous battez pour prouver que les orcs ont retrouvé leur honneur.</p><ul><li><strong>Caractéristiques :</strong> Force, Constitution, Sagesse</li><li><strong>Compétences :</strong> Athlétisme, Survie</li><li><strong>Outil :</strong> outils de forgeron</li><li><strong>Don d'origine :</strong> Attaquant sauvage (SRD)</li><li><strong>Langues :</strong> orc, plus deux au choix</li><li><strong>Équipement :</strong> hache d'Orgrimmar, 4 javelines, outils de forgeron, 5 rations, outre, 6 po, <em>ou</em> 50 po</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "grunt-d-orgrimmar",
+    "advancement": {
+      "bHY4xGYMQukRBQT2": {
+        "_id": "bHY4xGYMQukRBQT2",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "dex",
+            "int",
+            "cha"
+          ],
+          "points": 3,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Amélioration de caractéristiques de l'historique",
+        "hint": "Augmentez l'une des trois caractéristiques de 2 et une autre de 1, ou les trois de 1, sans dépasser 20.",
+        "flags": {}
+      },
+      "4HFK0fNMCYaKi3yJ": {
+        "_id": "4HFK0fNMCYaKi3yJ",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:ath",
+            "skills:sur",
+            "tool:art:smith"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Maîtrises de l'historique",
+        "hint": "",
+        "flags": {}
+      },
+      "1PucrnATkkF6ycx1": {
+        "_id": "1PucrnATkkF6ycx1",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.feats24.Item.phbftSavageAttac",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Don d'origine",
+        "hint": "",
+        "flags": {}
+      },
+      "7slBr1ZzNADGqf49": {
+        "_id": "7slBr1ZzNADGqf49",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:orc"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Langues",
+        "hint": "Le commun de votre faction, plus deux langues au choix (voir le guide du joueur).",
+        "flags": {}
+      }
+    },
+    "startingEquipment": [
+      {
+        "_id": "rUQn4TQ3zFVChMEm",
+        "type": "AND",
+        "group": "",
+        "sort": 100000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "MBLsQOx86mZ0RxK6",
+        "type": "linked",
+        "key": "Compendium.lakour-warcraft.objets.Item.t7SVoj0O72IicoSq",
+        "count": null,
+        "group": "rUQn4TQ3zFVChMEm",
+        "sort": 200000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "KsX51vpdrwiDyiNB",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbwepJavelin000",
+        "count": 4,
+        "group": "rUQn4TQ3zFVChMEm",
+        "sort": 300000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "nSiH3cyJzycR5qJY",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbtulSmithsTool",
+        "count": null,
+        "group": "rUQn4TQ3zFVChMEm",
+        "sort": 400000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "cUXWBvGbxGYEbbAe",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagRations0000",
+        "count": 5,
+        "group": "rUQn4TQ3zFVChMEm",
+        "sort": 500000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "WJHUqbiq4Sqjxun2",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagWaterskin00",
+        "count": null,
+        "group": "rUQn4TQ3zFVChMEm",
+        "sort": 600000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "Zg7I8HJDwSQyE17E",
+        "type": "currency",
+        "key": "gp",
+        "count": 6,
+        "group": "rUQn4TQ3zFVChMEm",
+        "sort": 9900000,
+        "requiresProficiency": false
+      }
+    ],
+    "wealth": "50"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "grunt-d-orgrimmar"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

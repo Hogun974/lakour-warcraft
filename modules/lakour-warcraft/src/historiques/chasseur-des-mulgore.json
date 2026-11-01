@@ -1,0 +1,198 @@
+{
+  "_id": "9bcwoVO1MkN23WUB",
+  "_key": "!items!9bcwoVO1MkN23WUB",
+  "name": "Chasseur des Mulgore",
+  "type": "background",
+  "img": "icons/creatures/mammals/bull-horned-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Dans les plaines dorées des Mulgore, on ne prend à la terre que ce dont on a besoin, et on remercie l'animal. Vous avez chassé le kodo et le trotteur des plaines, et repoussé les gnolls et les centaures qui menacent les campements.</p><ul><li><strong>Caractéristiques :</strong> Force, Dextérité, Sagesse</li><li><strong>Compétences :</strong> Dressage, Nature</li><li><strong>Outil :</strong> outils de maroquinier</li><li><strong>Don d'origine :</strong> Pisteur des plaines</li><li><strong>Langues :</strong> orc, plus deux au choix (le taur-ahe s'écrit avec la langue « géant »)</li><li><strong>Équipement :</strong> lance des Sombrelance, 4 javelines, piège à mâchoires, outils de maroquinier, couverture, 4 po, <em>ou</em> 50 po</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "chasseur-des-mulgore",
+    "advancement": {
+      "LPvZW0gz5X0Vbp6z": {
+        "_id": "LPvZW0gz5X0Vbp6z",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "con",
+            "int",
+            "cha"
+          ],
+          "points": 3,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Amélioration de caractéristiques de l'historique",
+        "hint": "Augmentez l'une des trois caractéristiques de 2 et une autre de 1, ou les trois de 1, sans dépasser 20.",
+        "flags": {}
+      },
+      "ZMDoNYdca3ZjuV4y": {
+        "_id": "ZMDoNYdca3ZjuV4y",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:ani",
+            "skills:nat",
+            "tool:art:leatherworker"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Maîtrises de l'historique",
+        "hint": "",
+        "flags": {}
+      },
+      "yBvKyTz8KhsSZ8cA": {
+        "_id": "yBvKyTz8KhsSZ8cA",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.historiques.Item.hXpluqna51mS1sM0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Don d'origine",
+        "hint": "",
+        "flags": {}
+      },
+      "75EHwc1tlMz5TAn3": {
+        "_id": "75EHwc1tlMz5TAn3",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:orc"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Langues",
+        "hint": "Le commun de votre faction, plus deux langues au choix (voir le guide du joueur).",
+        "flags": {}
+      }
+    },
+    "startingEquipment": [
+      {
+        "_id": "o2yPL2Az3KkY83Ih",
+        "type": "AND",
+        "group": "",
+        "sort": 100000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "mOGIQISAssRrfXLs",
+        "type": "linked",
+        "key": "Compendium.lakour-warcraft.objets.Item.GpOKpzQQfosEO3J8",
+        "count": null,
+        "group": "o2yPL2Az3KkY83Ih",
+        "sort": 200000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "cPSGcJ9M5OXZ8TLA",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbwepJavelin000",
+        "count": 4,
+        "group": "o2yPL2Az3KkY83Ih",
+        "sort": 300000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "DrUBFHYrGKivv8cC",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagHuntingTrap",
+        "count": null,
+        "group": "o2yPL2Az3KkY83Ih",
+        "sort": 400000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "nCyvCZuXyQDmOCCd",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbtulLeatherwor",
+        "count": null,
+        "group": "o2yPL2Az3KkY83Ih",
+        "sort": 500000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "dOSynjQnPNYOPqb4",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagBlanket0000",
+        "count": null,
+        "group": "o2yPL2Az3KkY83Ih",
+        "sort": 600000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "DqOE5bQzHFUCH0CA",
+        "type": "currency",
+        "key": "gp",
+        "count": 4,
+        "group": "o2yPL2Az3KkY83Ih",
+        "sort": 9900000,
+        "requiresProficiency": false
+      }
+    ],
+    "wealth": "50"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "chasseur-des-mulgore"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

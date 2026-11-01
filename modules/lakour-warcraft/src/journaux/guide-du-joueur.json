@@ -1,0 +1,118 @@
+{
+  "_id": "1DaPTxoCT8z9x8Di",
+  "_key": "!journal!1DaPTxoCT8z9x8Di",
+  "name": "Guide du joueur — Azeroth",
+  "folder": null,
+  "sort": 0,
+  "categories": [],
+  "ownership": {
+    "default": 2
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "guide-du-joueur"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "pages": [
+    {
+      "_id": "41dqAPVwcyE2z7Dx",
+      "_key": "!journal.pages!1DaPTxoCT8z9x8Di.41dqAPVwcyE2z7Dx",
+      "name": "Bienvenue en Azeroth",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Où et quand nous jouons</h2><p>Nous jouons dans les <strong>mois qui suivent la Troisième Guerre</strong>. Archimonde est tombé au pied du Mont Hyjal, Nordrassil a brûlé, et les vainqueurs comptent leurs morts. C'est un monde <strong>en ruines et en chantier</strong> : deux factions sont en train de naître sous nos yeux.</p><ul><li><strong>La Horde</strong> de Thrall s'installe en Kalimdor : les orcs fondent Orgrimmar dans les terres rouges de Durotar, les trolls Sombrelance se réfugient aux îles de l'Écho, les taurens de Cairne Sabot-de-Sang bâtissent Les Pitons-du-Tonnerre en Mulgore.</li><li><strong>L'Alliance</strong> se recompose : Hurlevent est rebâtie et sans roi véritable, Forgefer tient la montagne, Jaina Portvaillant fonde Theramore sur la côte du marécage d'Âprefange avec les rescapés de Lordaeron, et les elfes de la nuit sortent à peine de leurs forêts.</li><li>Au nord, <strong>Lordaeron est un cimetière</strong>. Le Fléau du Roi-liche le tient encore en partie ; les Réprouvés de Sylvanas viennent d'en arracher la capitale ; la Croisade écarlate brûle tout ce qui lui semble impur.</li></ul><p>Thrall et Jaina ont combattu côte à côte à Hyjal. Entre Durotar et Theramore règne une <strong>paix fragile</strong> que beaucoup, des deux côtés, aimeraient voir échouer. C'est le cœur de notre campagne : un monde où l'on peut encore choisir si l'ennemi d'hier sera l'allié de demain.</p><h2>Ce que nous assumons</h2><p>Certains peuples jouables n'arrivent « officiellement » sur le devant de la scène que plus tard (draeneï, elfes de sang dans la Horde, worgens, gobelins de la Horde, pandarens). Nous les gardons, en <strong>avance sur leur temps</strong> :</p><ul><li>les <strong>draeneï</strong> sont un petit groupe d'exilés arrivés avant les autres ;</li><li>les <strong>elfes de sang</strong> existent déjà (Quel'Thalas a été ravagé, ils ont pris ce nom) ; quelques-uns cherchent l'appui de la Horde faute d'aide de l'Alliance ;</li><li>les <strong>worgens</strong> sont des maudits qui ont fui Gilnéas derrière son mur ;</li><li>les <strong>gobelins</strong> travaillent pour les cartels et louent leurs services à la Horde ;</li><li>les <strong>pandarens</strong> sont des vagabonds, comme le brasseur qui a voyagé avec Rexxar.</li></ul><p>Leur personnage est <strong>rare</strong> : on le regarde, on le questionne, parfois on le craint. C'est un ressort de jeu, pas un problème.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "aX6NBCrQDXWKRdJ8",
+      "_key": "!journal.pages!1DaPTxoCT8z9x8Di.aX6NBCrQDXWKRdJ8",
+      "name": "Les factions",
+      "type": "text",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>La Horde</h2><p>Une alliance de peuples rejetés, née de la libération des orcs. Elle valorise <strong>l'honneur, la force et la solidarité du clan</strong>. Ses chefs : <strong>Thrall</strong>, chef de guerre et chaman ; <strong>Cairne Sabot-de-Sang</strong>, sage des taurens ; <strong>Vol'jin</strong>, chef des Sombrelance. Les Réprouvés de Sylvanas n'y sont qu'une alliance de raison, regardée de travers.</p><p>La Horde n'est pas « les méchants ». Elle a des fanatiques, des nostalgiques du sang démoniaque et des rancœurs anciennes ; elle a aussi des chamans, des chasseurs et des guerriers qui veulent seulement une terre à eux.</p><h2>L'Alliance</h2><p>Les royaumes humains, les nains et les gnomes, liés depuis la Deuxième Guerre, rejoints peu à peu par les elfes de la nuit. Elle valorise <strong>l'ordre, la foi en la Lumière et les traditions</strong>. À cette époque, elle est <strong>affaiblie et divisée</strong> : Lordaeron n'existe plus, Hurlevent est gouvernée par une régence et des nobles qui se disputent l'or de la reconstruction, Gilnéas s'est emmurée, Kul Tiras pleure son amiral.</p><p>L'Alliance n'est pas « les gentils ». Elle a des héros, mais aussi les camps d'internement où les orcs ont pourri des années, des nobles avides et des croisés fanatiques.</p><h2>Les autres</h2><ul><li><strong>Le Cercle cénarien</strong> : druides elfes de la nuit et taurens, neutres, protecteurs de la nature.</li><li><strong>Le Kirin Tor</strong> : les mages de Dalaran, qui rebâtissent leur cité en secret.</li><li><strong>Les cartels gobelins</strong> : Gentepression tient les ports neutres (Baie-du-Butin, Gadgetzan, Cabestan) et vend à tout le monde.</li><li><strong>La Croisade écarlate</strong> : des survivants de Lordaeron devenus des fanatiques qui brûlent les morts… et les vivants suspects.</li><li><strong>Le Fléau</strong> : l'armée de morts-vivants du Roi-liche. L'ennemi de tous.</li><li><strong>La Légion ardente</strong> : les démons, vaincus à Hyjal mais pas détruits. Leurs cultes survivent dans l'ombre.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ROxoByLP6I8pEA1E",
+      "_key": "!journal.pages!1DaPTxoCT8z9x8Di.ROxoByLP6I8pEA1E",
+      "name": "Les peuples",
+      "type": "text",
+      "sort": 300,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Chaque peuple est un objet du compendium <strong>Peuples</strong> : glissez-le sur votre fiche, ses traits arrivent avec lui.</p><h2>Alliance</h2><ul><li><strong>Humain</strong> — tenaces et polyvalents ; un don d'origine en plus. Moyen, 9 m.</li><li><strong>Nain</strong> — Forgefer ; résistant au poison, robuste, sent la pierre vibrer. Vision dans le noir 36 m.</li><li><strong>Gnome</strong> — Petit, esprit retors, bricoleur de Gnomeregan. Vision dans le noir 18 m.</li><li><strong>Elfe de la nuit</strong> — rapide (10,5 m), se fond dans l'ombre, ne dort pas. Vision dans le noir 18 m.</li><li><strong>Draeneï</strong> — exilé guidé par les naaru ; soigne une fois par jour, résiste aux ténèbres.</li><li><strong>Worgen</strong> — maudit de Gilnéas ; forme sauvage, griffes, flair.</li></ul><h2>Horde</h2><ul><li><strong>Orc</strong> — fureur sanguinaire, se relève à 1 PV, volonté de fer.</li><li><strong>Troll</strong> — se régénère, parle aux loa, à l'aise dans la jungle.</li><li><strong>Tauren</strong> — charge qui renverse, carrure massive, très robuste. Pas de vision dans le noir.</li><li><strong>Réprouvé</strong> — mort-vivant libre : ne respire pas, ne mange pas (sauf…), brise les charmes.</li><li><strong>Elfe de sang</strong> — torrent arcanique, magie innée, regard exercé.</li><li><strong>Gobelin</strong> — Petit, file à l'anglaise, négocie tout, saute à la fusée.</li></ul><h2>Sans faction</h2><ul><li><strong>Pandaren</strong> — paume tremblante, rebond, gourmet, paix intérieure. Pas de vision dans le noir.</li></ul><h2>Langues</h2><p>Votre <strong>historique</strong> donne vos langues : la langue de votre faction (commun pour l'Alliance, orc pour la Horde), plus deux au choix. Correspondances avec la fiche dnd5e :</p><ul><li><strong>Commun</strong> → commun ; <strong>Orc</strong> → orc ; <strong>Nain</strong> → nain ; <strong>Gnome</strong> → gnome ; <strong>Gobelin</strong> → gobelin.</li><li><strong>Darnassien</strong> (elfes de la nuit) et <strong>thalassien</strong> (elfes de sang) → elfique : deux dialectes proches, qui se comprennent avec effort.</li><li><strong>Taur-ahe</strong> (taurens) → géant.</li><li><strong>Zandali</strong> (trolls), <strong>draeneï</strong>, <strong>bas-parler</strong> (Réprouvés) et <strong>pandaren</strong> : notez-les dans le champ libre des langues.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "iAgo393wdFmkimxe",
+      "_key": "!journal.pages!1DaPTxoCT8z9x8Di.iAgo393wdFmkimxe",
+      "name": "Les grandes régions",
+      "type": "text",
+      "sort": 400,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Les Royaumes de l'Est</h2><ul><li><strong>Lordaeron</strong> (nord) : l'ancien royaume le plus puissant des humains, aujourd'hui Maleterres de l'Ouest et de l'Est, peuplées de morts. Les Réprouvés tiennent la capitale en ruines, la Croisade écarlate ses monastères.</li><li><strong>Quel'Thalas</strong> : les bois des Chants éternels et la cité de Lune-d'argent, saccagés par le Fléau. Les elfes de sang s'y accrochent.</li><li><strong>Gilnéas</strong> : une péninsule fermée par un immense mur. On ne sait plus ce qui s'y passe.</li><li><strong>Khaz Modan</strong> : Dun Morogh et ses neiges, Forgefer creusée dans la montagne, le Loch Modan et ses barrages.</li><li><strong>Hurlevent</strong> et la <strong>forêt d'Elwynn</strong> : la capitale blanche rebâtie, ses fermes, ses mines… et les bandits des Marches de l'Ouest.</li><li><strong>Le Sud</strong> : le Marais des Chagrins, les montagnes des Carmines, la jungle de Strangleronce et ses trolls hostiles.</li></ul><h2>Kalimdor</h2><ul><li><strong>Durotar</strong> : terre rouge, sèche et rude, que les orcs ont faite leur. Orgrimmar s'y construit.</li><li><strong>Les Tarides</strong> : une savane immense, des caravanes, des centaures, des harpies et des quilboars.</li><li><strong>Mulgore</strong> : des plaines dorées et des pitons où vivent les taurens.</li><li><strong>Frêneval</strong> : la forêt des elfes de la nuit, où les bûcherons orcs commencent à couper du bois. Les ennuis sont certains.</li><li><strong>Le Mont Hyjal</strong> : le champ de bataille sacré, encore fumant.</li><li><strong>Le marécage d'Âprefange</strong> : la cité-forteresse humaine de Theramore, sur une île.</li><li><strong>Tanaris</strong> et <strong>Gadgetzan</strong> : le désert, ses pirates, ses ruines trolles et le comptoir gobelin.</li></ul><h2>Les mers et au-delà</h2><ul><li><strong>Kul Tiras</strong> : un archipel de marins et de chantiers navals, à l'ouest des Royaumes de l'Est.</li><li><strong>Les îles de l'Écho</strong> : refuge des trolls Sombrelance, au large de Durotar.</li><li><strong>Le Norfendre</strong> : le continent glacé du Roi-liche, au nord. On n'y va pas. Pas encore.</li><li><strong>La Pandarie</strong> : cachée dans les brumes, que seuls quelques pandarens ont quittée.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "EZi8ABGmVSi2DhLs",
+      "_key": "!journal.pages!1DaPTxoCT8z9x8Di.EZi8ABGmVSi2DhLs",
+      "name": "Quelle classe 5e pour quel archétype",
+      "type": "text",
+      "sort": 500,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Les classes de D&amp;D 5e couvrent les héros de Warcraft. <strong>(SRD)</strong> signale une sous-classe présente dans le compendium dnd5e ; les autres viennent du Manuel des joueurs, si votre table l'utilise.</p><ul><li><strong>Guerrier</strong> → Guerrier (Champion (SRD), Maître de guerre) ; pour la rage orque, Barbare (Voie du Berserker (SRD)).</li><li><strong>Paladin de la Main d'argent</strong> → Paladin (Serment de dévotion (SRD)).</li><li><strong>Prêtre de la Lumière</strong> → Clerc (domaine de la Vie (SRD)) ; prêtre de l'ombre réprouvé : domaine de la Tromperie ou Occultiste.</li><li><strong>Mage du Kirin Tor</strong> → Magicien (Évocateur (SRD)) ; magistère elfe de sang affamé de magie : Ensorceleur.</li><li><strong>Démoniste</strong> → Occultiste (patron Fiélon (SRD)) : votre puissance vient d'un démon. Mal vu partout.</li><li><strong>Chaman</strong> → Druide (Cercle de la Terre (SRD)) ou Clerc (domaine de la Tempête) : vous parlez aux esprits des éléments, sans dieu.</li><li><strong>Druide cénarien</strong> → Druide (Cercle de la Terre (SRD) ou Cercle de la Lune pour les formes animales).</li><li><strong>Chasseur</strong> → Rôdeur (Chasseur (SRD) ou Maître des bêtes, pour le familier animal).</li><li><strong>Voleur, espion de SI:7</strong> → Roublard (Voleur (SRD) ou Assassin).</li><li><strong>Féticheur troll</strong> → Druide, Occultiste (patron Fée ou Grand Ancien réinterprété en loa) ou Clerc.</li><li><strong>Moine pandaren</strong> → Moine (Voie de la Main ouverte (SRD)).</li><li><strong>Ingénieur gnome ou gobelin</strong> → Roublard ou Guerrier avec les outils de bricoleur, Magicien qui « explique » sa magie par des machines, ou Artificier si votre table l'utilise.</li><li><strong>Barde</strong> → Barde (Collège du Savoir (SRD)) : conteur tauren, ménestrel de Hurlevent, crieur gobelin.</li><li><strong>Chevalier de la mort</strong> → Paladin (Serment de Vengeance), <strong>réinterprété</strong> : vos sorts sont du givre et de la nécromancie au lieu de la Lumière, et votre serment vous lie à la vengeance contre le Roi-liche qui vous a fait. À cette époque, c'est un concept exceptionnel : parlez-en au MJ.</li></ul><h2>Création rapide</h2><ul><li>Choisissez une <strong>classe</strong>, puis un <strong>historique</strong> du compendium (vos caractéristiques, compétences, outil, don d'origine et langues), puis un <strong>peuple</strong> (ses traits).</li><li>Monnaie : <strong>pièces d'or (po)</strong>, <strong>d'argent (pa)</strong> et <strong>de cuivre (pc)</strong>. 1 po = 10 pa = 100 pc.</li><li>Chaque personnage commence avec une <strong>pierre de foyer</strong> liée à l'auberge de départ, si le MJ l'accepte.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ]
+}

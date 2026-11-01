@@ -1,0 +1,134 @@
+{
+  "_id": "whyeKsnnJIDf5V8m",
+  "_key": "!items!whyeKsnnJIDf5V8m",
+  "name": "Gobelin",
+  "type": "race",
+  "img": "icons/commodities/currency/coin-embossed-ruby-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Horde ou cartels.</strong> Les gobelins vendent à tout le monde. Le cartel Gentepression tient Baie-du-Butin, Gadgetzan et Cabestan, ports neutres où Horde et Alliance commercent sous la menace des videurs.</p><p>Un gobelin de cette époque est un marchand, un ingénieur ou un mercenaire qui travaille pour la Horde parce qu'elle paie, et qui le rappelle volontiers.</p><p><strong>Traits.</strong> Filer à l'anglaise, Pacte du cartel, Saut de fusée. Taille Petite, vitesse 9 m, vision dans le noir 18 m.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "gobelin",
+    "advancement": {
+      "P4WmBv1hSUGXVnOs": {
+        "_id": "P4WmBv1hSUGXVnOs",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "sm"
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "hint": "Petit (environ 1 m).",
+        "flags": {}
+      },
+      "rTd4ZWLU6f03BMbz": {
+        "_id": "rTd4ZWLU6f03BMbz",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.peuples.Item.bnGvP1CESISHmMXh",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.peuples.Item.CwrqmUeFKOhV1YLv",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.peuples.Item.a7CcnORwEvBqR6Ji",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Traits : Gobelin",
+        "hint": "",
+        "flags": {}
+      },
+      "mkYGaM5iXgFMZaPc": {
+        "_id": "mkYGaM5iXgFMZaPc",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "tool:art:tinker"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:per",
+                "skills:dec",
+                "skills:inv"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Pacte du cartel",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "movement": {
+      "walk": "9",
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "units": "m",
+      "hover": false,
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "units": "m",
+      "special": "",
+      "ranges": {
+        "darkvision": 18,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null
+      }
+    },
+    "type": {
+      "value": "humanoid",
+      "custom": "",
+      "subtype": "Gobelin"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "gobelin"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

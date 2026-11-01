@@ -1,0 +1,216 @@
+{
+  "_id": "P7zc00fIVs2UYgTR",
+  "_key": "!items!P7zc00fIVs2UYgTR",
+  "name": "Apprenti de Dalaran",
+  "type": "background",
+  "img": "icons/sundries/books/book-backed-blue-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>Dalaran a été rasée par Archimonde, et le Kirin Tor rebâtit sa cité dans le secret. Vous étiez apprenti quand les tours sont tombées : vous avez sauvé un grimoire, quelques sorts et une dette envers vos maîtres dispersés.</p><ul><li><strong>Caractéristiques :</strong> Intelligence, Sagesse, Charisme</li><li><strong>Compétences :</strong> Arcanes, Histoire</li><li><strong>Outil :</strong> matériel de calligraphe</li><li><strong>Don d'origine :</strong> Initié à la magie (SRD, magicien conseillé)</li><li><strong>Langues :</strong> commun, plus deux au choix</li><li><strong>Équipement :</strong> bâton, livre, 10 feuilles de parchemin, encre, plume, robe, potion de mana mineure, 8 po, <em>ou</em> 50 po</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "apprenti-de-dalaran",
+    "advancement": {
+      "5HWtXktO47NIa4wn": {
+        "_id": "5HWtXktO47NIa4wn",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con"
+          ],
+          "points": 3,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Amélioration de caractéristiques de l'historique",
+        "hint": "Augmentez l'une des trois caractéristiques de 2 et une autre de 1, ou les trois de 1, sans dépasser 20.",
+        "flags": {}
+      },
+      "IPslcClReajPOx9f": {
+        "_id": "IPslcClReajPOx9f",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:arc",
+            "skills:his",
+            "tool:art:calligrapher"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Maîtrises de l'historique",
+        "hint": "",
+        "flags": {}
+      },
+      "VHr9g8o7lpIPpJVx": {
+        "_id": "VHr9g8o7lpIPpJVx",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.feats24.Item.phbftMagicInitia",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Don d'origine",
+        "hint": "",
+        "flags": {}
+      },
+      "6aFMLu8nSHVKfKIZ": {
+        "_id": "6aFMLu8nSHVKfKIZ",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:common"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Langues",
+        "hint": "Le commun de votre faction, plus deux langues au choix (voir le guide du joueur).",
+        "flags": {}
+      }
+    },
+    "startingEquipment": [
+      {
+        "_id": "OzlCU2FBI1bmUgHK",
+        "type": "AND",
+        "group": "",
+        "sort": 100000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "9oMiVtnbDsnoSXz1",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbwepQuartersta",
+        "count": null,
+        "group": "OzlCU2FBI1bmUgHK",
+        "sort": 200000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "ainjxPsPauc5qNm9",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagBook0000000",
+        "count": null,
+        "group": "OzlCU2FBI1bmUgHK",
+        "sort": 300000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "8nm2AXTVXbO6DMZZ",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagParchment00",
+        "count": 10,
+        "group": "OzlCU2FBI1bmUgHK",
+        "sort": 400000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "jKpKgqAGRFFCI8QX",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagInk00000000",
+        "count": null,
+        "group": "OzlCU2FBI1bmUgHK",
+        "sort": 500000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "B25NzbzBAdx20hPa",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagInkPen00000",
+        "count": null,
+        "group": "OzlCU2FBI1bmUgHK",
+        "sort": 600000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "e9GR672Z695nuRnw",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagRobe0000000",
+        "count": null,
+        "group": "OzlCU2FBI1bmUgHK",
+        "sort": 700000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "ucGie6CPC0fCL5KC",
+        "type": "linked",
+        "key": "Compendium.lakour-warcraft.objets.Item.TtyEZzHdraWaFyZJ",
+        "count": null,
+        "group": "OzlCU2FBI1bmUgHK",
+        "sort": 800000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "qgayt82Pqar36Lnb",
+        "type": "currency",
+        "key": "gp",
+        "count": 8,
+        "group": "OzlCU2FBI1bmUgHK",
+        "sort": 9900000,
+        "requiresProficiency": false
+      }
+    ],
+    "wealth": "50"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "apprenti-de-dalaran"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

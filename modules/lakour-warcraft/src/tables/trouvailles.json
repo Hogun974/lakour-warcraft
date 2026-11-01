@@ -1,0 +1,138 @@
+{
+  "_id": "nOWHgqtfYdyKFHcI",
+  "_key": "!tables!nOWHgqtfYdyKFHcI",
+  "name": "Trouvailles de voyage",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Ce qu'on trouve dans un sac abandonné, un coffre de caravane ou la poche d'un bandit.</p>",
+  "formula": "1d8",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "trouvailles"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "LuXi19sk3DynaJsf",
+      "_key": "!tables.results!nOWHgqtfYdyKFHcI.LuXi19sk3DynaJsf",
+      "type": "document",
+      "name": "Potion de soins",
+      "description": "",
+      "range": [
+        1,
+        2
+      ],
+      "weight": 2,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.D2jD8VN39EjXu6ZT"
+    },
+    {
+      "_id": "e4hhy4jrapYtUv2h",
+      "_key": "!tables.results!nOWHgqtfYdyKFHcI.e4hhy4jrapYtUv2h",
+      "type": "document",
+      "name": "Bandage de lin",
+      "description": "",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.ir70JZS8pByBzcgW"
+    },
+    {
+      "_id": "pGmxc086iXAlAWvA",
+      "_key": "!tables.results!nOWHgqtfYdyKFHcI.pGmxc086iXAlAWvA",
+      "type": "document",
+      "name": "Éclat de cristal de mana",
+      "description": "",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.PjSkJfImDBbSnc3A"
+    },
+    {
+      "_id": "arC9Br9sU7sA5p1X",
+      "_key": "!tables.results!nOWHgqtfYdyKFHcI.arC9Br9sU7sA5p1X",
+      "type": "document",
+      "name": "Bombe gobeline",
+      "description": "",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.J5njSJUKfoAdTJw5"
+    },
+    {
+      "_id": "xai3mVaupbmtD14X",
+      "_key": "!tables.results!nOWHgqtfYdyKFHcI.xai3mVaupbmtD14X",
+      "type": "document",
+      "name": "Lettre de change du cartel Gentepression",
+      "description": "",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.01FqMSTuhh4RI7sF"
+    },
+    {
+      "_id": "nKVHNk7x081d0p7g",
+      "_key": "!tables.results!nOWHgqtfYdyKFHcI.nKVHNk7x081d0p7g",
+      "type": "document",
+      "name": "Élixir de la mangouste",
+      "description": "",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.DnuAjolIuMjbG2Y6"
+    },
+    {
+      "_id": "4C1t6uXbuAb75T2w",
+      "_key": "!tables.results!nOWHgqtfYdyKFHcI.4C1t6uXbuAb75T2w",
+      "type": "text",
+      "name": "Une pierre de foyer",
+      "description": "<p>Une pierre de foyer liée à une auberge lointaine. À qui appartenait-elle, et qui l'attend là-bas ?</p>",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    }
+  ]
+}

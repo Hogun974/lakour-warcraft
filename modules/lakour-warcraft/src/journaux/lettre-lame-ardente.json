@@ -1,0 +1,42 @@
+{
+  "_id": "9I1f7dn8m4F0tLeV",
+  "_key": "!journal!9I1f7dn8m4F0tLeV",
+  "name": "Aide de jeu — Lettre de la Lame ardente",
+  "folder": null,
+  "sort": 0,
+  "categories": [],
+  "ownership": {
+    "default": 2
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "lettre-lame-ardente"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "pages": [
+    {
+      "_id": "S4ruWNoTlqFFvzio",
+      "_key": "!journal.pages!9I1f7dn8m4F0tLeV.S4ruWNoTlqFFvzio",
+      "name": "Lettre de la Lame ardente",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><em>Un feuillet de vélin roussi aux bords, plié en quatre. L'écriture est fine et penchée, l'encre sent le soufre. Une lame enflammée est dessinée en guise de signature.</em></p><p>Frère de cendre,</p><p>La première braise chante enfin sous Rouge-Veine. Les trois autres attendent qu'on les réveille.</p><p>L'une brûle déjà à <strong>Fort-Rivet</strong>, dans le ventre des machines d'un petit marchand qui ne sait pas ce qu'il achète. Laisse-le faire : il la chauffe pour nous.</p><p>L'autre dort sous la <strong>cité noyée</strong>, là où la lune ne se lève plus. Les gens de l'eau creusent pour nous sans le savoir. Le rieur s'en occupe.</p><p>La troisième, je la garde. Elle ne s'éveillera qu'en buvant le sang des deux bannières, versé au même instant, au même endroit. Les imbéciles nous offriront bientôt cet endroit.</p><p>Quand les deux lunes se lèveront ensemble, nous poserons les quatre clés sur l'autel, et la Fournaise se souviendra de son nom.</p><p><em>— D.</em></p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ]
+}

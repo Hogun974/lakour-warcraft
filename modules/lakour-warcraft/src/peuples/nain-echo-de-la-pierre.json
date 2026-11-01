@@ -1,0 +1,195 @@
+{
+  "_id": "5GWvb7ve8z33Td2B",
+  "_key": "!items!5GWvb7ve8z33Td2B",
+  "name": "Écho de la pierre",
+  "type": "feat",
+  "img": "icons/magic/earth/projectile-moonrock-asteroid.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous sentez la roche vibrer comme un forgeron entend son enclume. Par une <strong>action bonus</strong>, vous gagnez la <strong>perception des vibrations</strong> sur 18 m pendant 10 minutes, tant que vous touchez la pierre ou le sol. Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "nain-echo-de-la-pierre",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Nain",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {
+      "7nBQlJ6yhTB5xRer": {
+        "_id": "7nBQlJ6yhTB5xRer",
+        "type": "utility",
+        "name": "Écouter la pierre",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "2K7i1QoA9vTNV3hV",
+            "level": {}
+          }
+        ],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    },
+    "uses": {
+      "max": "@prof",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "2K7i1QoA9vTNV3hV",
+      "_key": "!items.effects!5GWvb7ve8z33Td2B.2K7i1QoA9vTNV3hV",
+      "name": "Écho de la pierre",
+      "img": "icons/magic/earth/projectile-moonrock-asteroid.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.senses.tremorsense",
+            "value": 18,
+            "priority": null,
+            "type": "upgrade",
+            "phase": "initial",
+            "_id": "fEF6T0q2FkMYcNo6"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": 600,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "nain-echo-de-la-pierre"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "_id": "v0FdA1YhAesuwFBr",
+  "_key": "!items!v0FdA1YhAesuwFBr",
+  "name": "Regard de Quel'Thalas",
+  "type": "feat",
+  "img": "icons/magic/perception/eye-ringed-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous savez reconnaître la vraie beauté, et le mensonge qui s'en drape. Vous maîtrisez <strong>Arcanes</strong>, <strong>Intuition</strong> ou <strong>Perception</strong> (au choix).</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "elfe-de-sang-regard-de-quel-thalas",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Elfe de sang",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "elfe-de-sang-regard-de-quel-thalas"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "_id": "kIGHvAOOAAWJsDEK",
+  "_key": "!items!kIGHvAOOAAWJsDEK",
+  "name": "Marin de Kul Tiras",
+  "type": "background",
+  "img": "icons/svg/anchor.svg",
+  "system": {
+    "description": {
+      "value": "<p>La flotte de l'amiral Portvaillant a suivi Jaina jusqu'à Theramore, et elle y a sombré en partie. Matelot, gabier ou contrebandier de Boralus, vous avez survécu aux tempêtes de la Grande Mer et aux rumeurs de la Horde.</p><ul><li><strong>Caractéristiques :</strong> Force, Dextérité, Sagesse</li><li><strong>Compétences :</strong> Athlétisme, Perception</li><li><strong>Outil :</strong> instruments de navigateur</li><li><strong>Don d'origine :</strong> Pied marin</li><li><strong>Langues :</strong> commun, plus deux au choix</li><li><strong>Équipement :</strong> cimeterre, dague, instruments de navigateur, corde, vêtements de voyage, 10 po, <em>ou</em> 50 po</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "marin-de-kul-tiras",
+    "advancement": {
+      "Td6FBufNoYcen9u0": {
+        "_id": "Td6FBufNoYcen9u0",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "con",
+            "int",
+            "cha"
+          ],
+          "points": 3,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Amélioration de caractéristiques de l'historique",
+        "hint": "Augmentez l'une des trois caractéristiques de 2 et une autre de 1, ou les trois de 1, sans dépasser 20.",
+        "flags": {}
+      },
+      "IsqkIShJz3EljeUq": {
+        "_id": "IsqkIShJz3EljeUq",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:ath",
+            "skills:prc",
+            "tool:navg"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Maîtrises de l'historique",
+        "hint": "",
+        "flags": {}
+      },
+      "EH0J69oAE9w9xsO1": {
+        "_id": "EH0J69oAE9w9xsO1",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.historiques.Item.P9AeBA5Jyt8hSRFj",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Don d'origine",
+        "hint": "",
+        "flags": {}
+      },
+      "IZD4HNrIE7gsIccR": {
+        "_id": "IZD4HNrIE7gsIccR",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:common"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Langues",
+        "hint": "Le commun de votre faction, plus deux langues au choix (voir le guide du joueur).",
+        "flags": {}
+      }
+    },
+    "startingEquipment": [
+      {
+        "_id": "6C4JLgOf2JP87HDF",
+        "type": "AND",
+        "group": "",
+        "sort": 100000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "XjGFcWe81nFbZMuU",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbwepScimitar00",
+        "count": null,
+        "group": "6C4JLgOf2JP87HDF",
+        "sort": 200000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "Eu4DxGIFfns5wee3",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbwepDagger0000",
+        "count": null,
+        "group": "6C4JLgOf2JP87HDF",
+        "sort": 300000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "aaz2W5nwi37gHYFx",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbtulNavigators",
+        "count": null,
+        "group": "6C4JLgOf2JP87HDF",
+        "sort": 400000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "ATx14n0pvCSIOFZ4",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagRope0000000",
+        "count": null,
+        "group": "6C4JLgOf2JP87HDF",
+        "sort": 500000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "D7gcaicUEhBYyX9s",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagClothesTrav",
+        "count": null,
+        "group": "6C4JLgOf2JP87HDF",
+        "sort": 600000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "bwRLuNuuyvhAl6WZ",
+        "type": "currency",
+        "key": "gp",
+        "count": 10,
+        "group": "6C4JLgOf2JP87HDF",
+        "sort": 9900000,
+        "requiresProficiency": false
+      }
+    ],
+    "wealth": "50"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "marin-de-kul-tiras"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

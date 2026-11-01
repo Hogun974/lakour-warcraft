@@ -1,0 +1,120 @@
+{
+  "_id": "YDwuEjLACxQU0UZk",
+  "_key": "!items!YDwuEjLACxQU0UZk",
+  "name": "Lien sylvestre",
+  "type": "feat",
+  "img": "icons/magic/nature/leaf-hand-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Les Anciens de la forêt vous ont appris à écouter avant de parler. Vous connaissez le tour de magie <strong>Druidisme</strong>, et vous pouvez lancer <strong>Communication avec les animaux</strong> une fois sans emplacement de sort par repos long. Sagesse est votre caractéristique d'incantation pour ces sorts.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "don-lien-sylvestre",
+    "type": {
+      "value": "feat",
+      "subtype": "origin"
+    },
+    "requirements": "",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {
+      "UEKNLkyDltJcFtrn": {
+        "_id": "UEKNLkyDltJcFtrn",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplDruidcraft",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "wis"
+            ],
+            "method": "",
+            "prepared": 0,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "Lien sylvestre",
+        "hint": "",
+        "flags": {}
+      },
+      "u2QoshdLyjGIRcvm": {
+        "_id": "u2QoshdLyjGIRcvm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplSpeakwithA",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "wis"
+            ],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "Lien sylvestre",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "don-lien-sylvestre"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

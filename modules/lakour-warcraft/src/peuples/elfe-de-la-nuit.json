@@ -1,0 +1,132 @@
+{
+  "_id": "RhVKWFOfbOGZRzJQ",
+  "_key": "!items!RhVKWFOfbOGZRzJQ",
+  "name": "Elfe de la nuit",
+  "type": "race",
+  "img": "icons/creatures/birds/raptor-owl-flying-moon.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Alliance (récente).</strong> Les kaldorei ont veillé dix mille ans sur les forêts de Kalimdor. La Troisième Guerre les a forcés à sortir de leur isolement : le Mont Hyjal a brûlé, Nordrassil a été sacrifié pour vaincre Archimonde, et leur immortalité s'est envolée avec lui.</p><p>Sentinelles de Tyrande, druides de Malfurion : un peuple ancien qui découvre la mortalité et des voisins bruyants.</p><p><strong>Traits.</strong> Fondu dans l'ombre, Sens aiguisés, Rêve vigilant. Taille Moyenne, vitesse 10,5 m, vision dans le noir 18 m.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "elfe-de-la-nuit",
+    "advancement": {
+      "OPi8Cq7avd2YF1DO": {
+        "_id": "OPi8Cq7avd2YF1DO",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "hint": "Moyen (2 à 2,30 m).",
+        "flags": {}
+      },
+      "ZIsD8I7kZ5GSXagK": {
+        "_id": "ZIsD8I7kZ5GSXagK",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.peuples.Item.uOzpGwVCxD6XTBOC",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.peuples.Item.QHYEHm5r5vx4ZQBk",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.peuples.Item.O6LxljC7itHJYfw0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Traits : Elfe de la nuit",
+        "hint": "",
+        "flags": {}
+      },
+      "yxzUwgDvVmbRxJfL": {
+        "_id": "yxzUwgDvVmbRxJfL",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:ins",
+                "skills:prc",
+                "skills:sur"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Sens aiguisés",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "movement": {
+      "walk": "10.5",
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "units": "m",
+      "hover": false,
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "units": "m",
+      "special": "",
+      "ranges": {
+        "darkvision": 18,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null
+      }
+    },
+    "type": {
+      "value": "humanoid",
+      "custom": "",
+      "subtype": "Elfe de la nuit"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "elfe-de-la-nuit"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

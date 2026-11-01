@@ -1,0 +1,59 @@
+{
+  "_id": "OdZk2QMXSyUucDkr",
+  "_key": "!items!OdZk2QMXSyUucDkr",
+  "name": "Bricoleur de Gnomeregan",
+  "type": "feat",
+  "img": "icons/commodities/tech/cog-brass.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous avez grandi parmi les engrenages. Vous maîtrisez les <strong>outils de bricoleur</strong> et connaissez le tour de magie <strong>Réparation</strong> (Intelligence). En une heure et avec 10 po de pièces, vous pouvez assembler un petit mécanisme (jouet, briquet, boîte à musique, réveil) qui fonctionne jusqu'à ce que vous en fabriquiez un autre.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "gnome-bricoleur",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Gnome",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "gnome-bricoleur"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

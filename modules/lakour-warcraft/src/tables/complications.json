@@ -1,0 +1,177 @@
+{
+  "_id": "iOGQpbmnvaq9MXpC",
+  "_key": "!tables!iOGQpbmnvaq9MXpC",
+  "name": "Complications",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Quand tout se passe trop bien. Une seule à la fois.</p>",
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "complications"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "EOPf1KBjprlUYuFU",
+      "_key": "!tables.results!iOGQpbmnvaq9MXpC.EOPf1KBjprlUYuFU",
+      "type": "text",
+      "name": "",
+      "description": "<p>Un témoin reconnaît un personnage, ou croit le reconnaître, et crie un nom.</p>",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "EfFdT2UoNoirBjdx",
+      "_key": "!tables.results!iOGQpbmnvaq9MXpC.EfFdT2UoNoirBjdx",
+      "type": "text",
+      "name": "",
+      "description": "<p>La pierre de foyer de quelqu'un est volée, ou liée à la mauvaise auberge.</p>",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "wsd0MMPBhyiSzSlL",
+      "_key": "!tables.results!iOGQpbmnvaq9MXpC.wsd0MMPBhyiSzSlL",
+      "type": "text",
+      "name": "",
+      "description": "<p>Un allié de l'autre faction est arrêté par des gardes zélés. Il faut le sortir de là, légalement ou non.</p>",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "IOAAEL2rvvgPHnw0",
+      "_key": "!tables.results!iOGQpbmnvaq9MXpC.IOAAEL2rvvgPHnw0",
+      "type": "text",
+      "name": "",
+      "description": "<p>L'équipement gnome ou gobelin du groupe fait des étincelles, puis de la fumée, puis…</p>",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "7rKDXr4aEHb7U4gw",
+      "_key": "!tables.results!iOGQpbmnvaq9MXpC.7rKDXr4aEHb7U4gw",
+      "type": "text",
+      "name": "",
+      "description": "<p>Le contrat qu'on vient de signer comporte une clause en très petits caractères.</p>",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "lyKwGZFhVrnc6fgY",
+      "_key": "!tables.results!iOGQpbmnvaq9MXpC.lyKwGZFhVrnc6fgY",
+      "type": "text",
+      "name": "",
+      "description": "<p>La météo tourne : tempête de sable, brume du marécage ou neige de Dun Morogh.</p>",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "DxPquRKo7Ct6GkCk",
+      "_key": "!tables.results!iOGQpbmnvaq9MXpC.DxPquRKo7Ct6GkCk",
+      "type": "text",
+      "name": "",
+      "description": "<p>Un ennemi vaincu revient, avec des amis et une bonne raison.</p>",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "v2LtGmt9aNZ3PZPf",
+      "_key": "!tables.results!iOGQpbmnvaq9MXpC.v2LtGmt9aNZ3PZPf",
+      "type": "text",
+      "name": "",
+      "description": "<p>Une rumeur sur le groupe le précède dans la prochaine ville, très exagérée.</p>",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "EWdKc0NSF1frov28",
+      "_key": "!tables.results!iOGQpbmnvaq9MXpC.EWdKc0NSF1frov28",
+      "type": "text",
+      "name": "",
+      "description": "<p>Un PNJ ami demande un service urgent, qui tombe très mal.</p>",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "sO3rACtqul5vanjZ",
+      "_key": "!tables.results!iOGQpbmnvaq9MXpC.sO3rACtqul5vanjZ",
+      "type": "text",
+      "name": "",
+      "description": "<p>Un signe de la Légion (gangrène, cultiste, démon mineur) apparaît là où on ne l'attendait pas.</p>",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    }
+  ]
+}

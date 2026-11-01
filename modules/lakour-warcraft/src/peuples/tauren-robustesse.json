@@ -1,0 +1,101 @@
+{
+  "_id": "iemqNdebyADVEhAL",
+  "_key": "!items!iemqNdebyADVEhAL",
+  "name": "Robustesse taurène",
+  "type": "feat",
+  "img": "icons/magic/life/heart-cross-strong-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vos points de vie maximum augmentent de 1, puis de 1 à chaque niveau gagné.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "tauren-robustesse",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Tauren",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "KlhuYFPj9ZBm3jHA",
+      "_key": "!items.effects!iemqNdebyADVEhAL.KlhuYFPj9ZBm3jHA",
+      "name": "Robustesse taurène",
+      "img": "icons/magic/life/heart-cross-strong-green.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.hp.bonuses.level",
+            "value": 1,
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "5icS6t6T6h8buWHC"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "tauren-robustesse"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

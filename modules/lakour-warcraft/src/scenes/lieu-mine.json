@@ -1,0 +1,1000 @@
+{
+  "_id": "MlGXuczX7HtSy7D4",
+  "_key": "!scenes!MlGXuczX7HtSy7D4",
+  "name": "Lieu — Mine",
+  "navName": "Lieu — Mine",
+  "navigation": true,
+  "active": false,
+  "width": 2800,
+  "height": 2000,
+  "padding": 0,
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "distance": 1.5,
+    "units": "m"
+  },
+  "tokenVision": true,
+  "environment": {
+    "darknessLevel": 0.85,
+    "globalLight": {
+      "enabled": false
+    }
+  },
+  "levels": [
+    {
+      "_id": "defaultLevel0000",
+      "name": "Niveau principal",
+      "elevation": {
+        "bottom": 0,
+        "top": null
+      },
+      "background": {
+        "color": "#18181b",
+        "src": "modules/lakour-warcraft/assets/cartes/lieu-mine.svg"
+      },
+      "_key": "!scenes.levels!MlGXuczX7HtSy7D4.defaultLevel0000",
+      "flags": {}
+    }
+  ],
+  "initialLevel": "defaultLevel0000",
+  "walls": [
+    {
+      "c": [
+        800,
+        0,
+        1600,
+        0
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "4ctI2GHsCfaHiJVK",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.4ctI2GHsCfaHiJVK",
+      "flags": {}
+    },
+    {
+      "c": [
+        1600,
+        100,
+        2200,
+        100
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "ysekIz7jqJ3zoMSl",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.ysekIz7jqJ3zoMSl",
+      "flags": {}
+    },
+    {
+      "c": [
+        2200,
+        500,
+        2800,
+        500
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "T3n678kTQyBJQ4kf",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.T3n678kTQyBJQ4kf",
+      "flags": {}
+    },
+    {
+      "c": [
+        0,
+        600,
+        600,
+        600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "DY9HZ6ydhMh5PF8S",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.DY9HZ6ydhMh5PF8S",
+      "flags": {}
+    },
+    {
+      "c": [
+        600,
+        800,
+        1100,
+        800
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "UwTXDnXv7yDlccuu",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.UwTXDnXv7yDlccuu",
+      "flags": {}
+    },
+    {
+      "c": [
+        1300,
+        800,
+        1800,
+        800
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "HE2rUEjo9BBzscv0",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.HE2rUEjo9BBzscv0",
+      "flags": {}
+    },
+    {
+      "c": [
+        1900,
+        800,
+        2200,
+        800
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "YC7xrg97bKWZD2XI",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.YC7xrg97bKWZD2XI",
+      "flags": {}
+    },
+    {
+      "c": [
+        600,
+        1100,
+        1200,
+        1100
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "SzZNJE7AqHm7LjUS",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.SzZNJE7AqHm7LjUS",
+      "flags": {}
+    },
+    {
+      "c": [
+        1300,
+        1100,
+        2200,
+        1100
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "bFRH3IKdh9Jg3ihN",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.bFRH3IKdh9Jg3ihN",
+      "flags": {}
+    },
+    {
+      "c": [
+        0,
+        1400,
+        600,
+        1400
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "Tl00wLFXc1MbrcQy",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.Tl00wLFXc1MbrcQy",
+      "flags": {}
+    },
+    {
+      "c": [
+        2200,
+        1400,
+        2800,
+        1400
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "QWx27RYn6KhZRLBL",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.QWx27RYn6KhZRLBL",
+      "flags": {}
+    },
+    {
+      "c": [
+        800,
+        1900,
+        1800,
+        1900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "w2Y4CDwi9c0fj6Rx",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.w2Y4CDwi9c0fj6Rx",
+      "flags": {}
+    },
+    {
+      "c": [
+        0,
+        600,
+        0,
+        900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "12mHmOK0mMkSSUmN",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.12mHmOK0mMkSSUmN",
+      "flags": {}
+    },
+    {
+      "c": [
+        0,
+        1100,
+        0,
+        1400
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "NccU9D1qz9BuHr4o",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.NccU9D1qz9BuHr4o",
+      "flags": {}
+    },
+    {
+      "c": [
+        600,
+        600,
+        600,
+        800
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "EE9SCakHiFGbI4p4",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.EE9SCakHiFGbI4p4",
+      "flags": {}
+    },
+    {
+      "c": [
+        600,
+        1100,
+        600,
+        1400
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "ZsVd06LNaqzWsX8x",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.ZsVd06LNaqzWsX8x",
+      "flags": {}
+    },
+    {
+      "c": [
+        800,
+        0,
+        800,
+        800
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "9DNkl3CZyZ0GTcEX",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.9DNkl3CZyZ0GTcEX",
+      "flags": {}
+    },
+    {
+      "c": [
+        800,
+        1100,
+        800,
+        1900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "tD8MM6IRX2QLBNiH",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.tD8MM6IRX2QLBNiH",
+      "flags": {}
+    },
+    {
+      "c": [
+        1600,
+        0,
+        1600,
+        800
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "fzOR4FeFjbe9YQI9",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.fzOR4FeFjbe9YQI9",
+      "flags": {}
+    },
+    {
+      "c": [
+        1800,
+        1100,
+        1800,
+        1900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "cGHreZJ9kIWnrmHp",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.cGHreZJ9kIWnrmHp",
+      "flags": {}
+    },
+    {
+      "c": [
+        2200,
+        100,
+        2200,
+        800
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "hzCCUkEXHsek2UPW",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.hzCCUkEXHsek2UPW",
+      "flags": {}
+    },
+    {
+      "c": [
+        2200,
+        1100,
+        2200,
+        1400
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "gUyAmvKQwz5XIdui",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.gUyAmvKQwz5XIdui",
+      "flags": {}
+    },
+    {
+      "c": [
+        2800,
+        500,
+        2800,
+        1400
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "qFqXosc5VDQu6eJd",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.qFqXosc5VDQu6eJd",
+      "flags": {}
+    },
+    {
+      "c": [
+        1800,
+        800,
+        1900,
+        800
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 1,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "22toc6IzbdBk7PCC",
+      "_key": "!scenes.walls!MlGXuczX7HtSy7D4.22toc6IzbdBk7PCC",
+      "flags": {}
+    }
+  ],
+  "drawings": [
+    {
+      "x": 0,
+      "y": 600,
+      "shape": {
+        "type": "r",
+        "width": 600,
+        "height": 800
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Carreau de la mine",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1000,
+      "_id": "dXTpdg4eHzAOV2LU",
+      "_key": "!scenes.drawings!MlGXuczX7HtSy7D4.dXTpdg4eHzAOV2LU",
+      "flags": {},
+      "author": "E9RXbhSzIHCxzc3v"
+    },
+    {
+      "x": 600,
+      "y": 800,
+      "shape": {
+        "type": "r",
+        "width": 1600,
+        "height": 300
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Galerie principale",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1001,
+      "_id": "mUan0CwddyS5311R",
+      "_key": "!scenes.drawings!MlGXuczX7HtSy7D4.mUan0CwddyS5311R",
+      "flags": {},
+      "author": "E9RXbhSzIHCxzc3v"
+    },
+    {
+      "x": 800,
+      "y": 0,
+      "shape": {
+        "type": "r",
+        "width": 800,
+        "height": 800
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Front de taille",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1002,
+      "_id": "KGjHCoTxo13tqstK",
+      "_key": "!scenes.drawings!MlGXuczX7HtSy7D4.KGjHCoTxo13tqstK",
+      "flags": {},
+      "author": "E9RXbhSzIHCxzc3v"
+    },
+    {
+      "x": 1600,
+      "y": 100,
+      "shape": {
+        "type": "r",
+        "width": 600,
+        "height": 700
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Réserve d'outils",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1003,
+      "_id": "ojrK9OplVixxR69y",
+      "_key": "!scenes.drawings!MlGXuczX7HtSy7D4.ojrK9OplVixxR69y",
+      "flags": {},
+      "author": "E9RXbhSzIHCxzc3v"
+    },
+    {
+      "x": 2200,
+      "y": 500,
+      "shape": {
+        "type": "r",
+        "width": 600,
+        "height": 900
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Puits de descente",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1004,
+      "_id": "NgSgpjO0fYU07H2d",
+      "_key": "!scenes.drawings!MlGXuczX7HtSy7D4.NgSgpjO0fYU07H2d",
+      "flags": {},
+      "author": "E9RXbhSzIHCxzc3v"
+    },
+    {
+      "x": 800,
+      "y": 1100,
+      "shape": {
+        "type": "r",
+        "width": 1000,
+        "height": 800
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Galerie effondrée",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1005,
+      "_id": "CPNH7LZSjD6yuyX9",
+      "_key": "!scenes.drawings!MlGXuczX7HtSy7D4.CPNH7LZSjD6yuyX9",
+      "flags": {},
+      "author": "E9RXbhSzIHCxzc3v"
+    }
+  ],
+  "lights": [
+    {
+      "x": 250,
+      "y": 950,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 4.5,
+        "bright": 2.5,
+        "color": "#ffb060",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5
+      },
+      "_id": "Mkw1VlOpzI99MqJO",
+      "_key": "!scenes.lights!MlGXuczX7HtSy7D4.Mkw1VlOpzI99MqJO",
+      "flags": {}
+    },
+    {
+      "x": 1350,
+      "y": 950,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 3,
+        "bright": 1.5,
+        "color": "#ffaa44",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5
+      },
+      "_id": "ZuMuFeHaZPTlkFEy",
+      "_key": "!scenes.lights!MlGXuczX7HtSy7D4.ZuMuFeHaZPTlkFEy",
+      "flags": {}
+    },
+    {
+      "x": 1150,
+      "y": 350,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 3,
+        "bright": 1.5,
+        "color": "#ffaa44",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5
+      },
+      "_id": "0ZTSSmBWkMlv4XHG",
+      "_key": "!scenes.lights!MlGXuczX7HtSy7D4.0ZTSSmBWkMlv4XHG",
+      "flags": {}
+    },
+    {
+      "x": 2450,
+      "y": 950,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 1.5,
+        "bright": 1,
+        "color": "#ffaa44",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5
+      },
+      "_id": "B3YSXpS5YXA35l4O",
+      "_key": "!scenes.lights!MlGXuczX7HtSy7D4.B3YSXpS5YXA35l4O",
+      "flags": {}
+    }
+  ],
+  "tokens": [],
+  "notes": [],
+  "sounds": [],
+  "regions": [],
+  "tiles": [],
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "lieu-mine",
+      "description": "Une mine de cuivre ou de fer, active ou abandonnée : carreau à l'entrée, galerie principale, front de taille, réserve d'outils, puits de descente et galerie effondrée. Pour des kobolds à déloger, des mineurs disparus, une contrebande, un trésor enfoui, un éboulement ou un repaire de bandits défias.",
+      "plan": {
+        "largeur": 28,
+        "hauteur": 20,
+        "lumiere": "nuit",
+        "pieces": [
+          {
+            "nom": "Carreau de la mine",
+            "x": 0,
+            "y": 6,
+            "l": 6,
+            "h": 8,
+            "sol": "terre"
+          },
+          {
+            "nom": "Galerie principale",
+            "x": 6,
+            "y": 8,
+            "l": 16,
+            "h": 3,
+            "sol": "terre"
+          },
+          {
+            "nom": "Front de taille",
+            "x": 8,
+            "y": 0,
+            "l": 8,
+            "h": 8,
+            "sol": "pierre"
+          },
+          {
+            "nom": "Réserve d'outils",
+            "x": 16,
+            "y": 1,
+            "l": 6,
+            "h": 7,
+            "sol": "bois"
+          },
+          {
+            "nom": "Puits de descente",
+            "x": 22,
+            "y": 5,
+            "l": 6,
+            "h": 9,
+            "sol": "pierre"
+          },
+          {
+            "nom": "Galerie effondrée",
+            "x": 8,
+            "y": 11,
+            "l": 10,
+            "h": 8,
+            "sol": "terre"
+          }
+        ],
+        "ouvertures": [
+          {
+            "x": 0,
+            "y": 9,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 0,
+            "y": 10,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 5,
+            "y": 8,
+            "cote": "est",
+            "type": "passage"
+          },
+          {
+            "x": 5,
+            "y": 9,
+            "cote": "est",
+            "type": "passage"
+          },
+          {
+            "x": 5,
+            "y": 10,
+            "cote": "est",
+            "type": "passage"
+          },
+          {
+            "x": 11,
+            "y": 7,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 12,
+            "y": 7,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 18,
+            "y": 8,
+            "cote": "nord",
+            "type": "porte"
+          },
+          {
+            "x": 21,
+            "y": 8,
+            "cote": "est",
+            "type": "passage"
+          },
+          {
+            "x": 21,
+            "y": 9,
+            "cote": "est",
+            "type": "passage"
+          },
+          {
+            "x": 21,
+            "y": 10,
+            "cote": "est",
+            "type": "passage"
+          },
+          {
+            "x": 12,
+            "y": 11,
+            "cote": "nord",
+            "type": "passage"
+          }
+        ],
+        "lumieres": [
+          {
+            "x": 2,
+            "y": 9,
+            "rayon": 3,
+            "couleur": "#ffb060"
+          },
+          {
+            "x": 13,
+            "y": 9,
+            "rayon": 2,
+            "couleur": "#ffaa44"
+          },
+          {
+            "x": 11,
+            "y": 3,
+            "rayon": 2,
+            "couleur": "#ffaa44"
+          },
+          {
+            "x": 24,
+            "y": 9,
+            "rayon": 1,
+            "couleur": "#ffaa44"
+          }
+        ],
+        "elements": [
+          {
+            "nom": "Établi",
+            "x": 1,
+            "y": 7,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Tas de minerai",
+            "x": 2,
+            "y": 12,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Wagonnet",
+            "x": 8,
+            "y": 9,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Étai",
+            "x": 15,
+            "y": 8,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Filon de cuivre",
+            "x": 9,
+            "y": 1,
+            "l": 4,
+            "h": 1
+          },
+          {
+            "nom": "Pilier de roche",
+            "x": 13,
+            "y": 4,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Caisses",
+            "x": 17,
+            "y": 2,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Tonneaux de poudre",
+            "x": 20,
+            "y": 6,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Treuil",
+            "x": 24,
+            "y": 7,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Puits",
+            "x": 24,
+            "y": 11,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Éboulis",
+            "x": 10,
+            "y": 14,
+            "l": 3,
+            "h": 2
+          },
+          {
+            "nom": "Éboulis",
+            "x": 14,
+            "y": 16,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Squelette de mineur",
+            "x": 9,
+            "y": 17,
+            "l": 1,
+            "h": 1
+          }
+        ]
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

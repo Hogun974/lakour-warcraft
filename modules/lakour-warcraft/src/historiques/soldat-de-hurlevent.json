@@ -1,0 +1,198 @@
+{
+  "_id": "t3q2IK3XNCPbGOWg",
+  "_key": "!items!t3q2IK3XNCPbGOWg",
+  "name": "Soldat de Hurlevent",
+  "type": "background",
+  "img": "icons/environment/people/infantry-armored.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous avez porté le lion d'or de Hurlevent sur votre tabard : garde de la cité reconstruite, milicien de Comté-de-l'Or ou vétéran des Marches de l'Ouest. Vous connaissez les rangs, les corvées et les ordres criés sous la pluie.</p><ul><li><strong>Caractéristiques :</strong> Force, Dextérité, Constitution</li><li><strong>Compétences :</strong> Athlétisme, Intimidation</li><li><strong>Outil :</strong> un jeu de dés</li><li><strong>Don d'origine :</strong> Rempart du rang</li><li><strong>Langues :</strong> commun, plus deux au choix</li><li><strong>Équipement :</strong> épée de la Garde de Hurlevent, bouclier, trousse de soins, vêtements de voyage, 5 rations, 9 po, <em>ou</em> 50 po</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "soldat-de-hurlevent",
+    "advancement": {
+      "33CNFW5XVA6hRZ1E": {
+        "_id": "33CNFW5XVA6hRZ1E",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 3,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Amélioration de caractéristiques de l'historique",
+        "hint": "Augmentez l'une des trois caractéristiques de 2 et une autre de 1, ou les trois de 1, sans dépasser 20.",
+        "flags": {}
+      },
+      "qA6PpYb9uVYmve5b": {
+        "_id": "qA6PpYb9uVYmve5b",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:ath",
+            "skills:itm",
+            "tool:game:dice"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Maîtrises de l'historique",
+        "hint": "",
+        "flags": {}
+      },
+      "OAbvzZz5rDWsYsW3": {
+        "_id": "OAbvzZz5rDWsYsW3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.historiques.Item.mwrMDnozzKJrOIMo",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Don d'origine",
+        "hint": "",
+        "flags": {}
+      },
+      "wwB63fDxi9je3hbG": {
+        "_id": "wwB63fDxi9je3hbG",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:common"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Langues",
+        "hint": "Le commun de votre faction, plus deux langues au choix (voir le guide du joueur).",
+        "flags": {}
+      }
+    },
+    "startingEquipment": [
+      {
+        "_id": "PWVAKlEBQ9fR60JZ",
+        "type": "AND",
+        "group": "",
+        "sort": 100000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "m6ZVkEHx8F4SqB4f",
+        "type": "linked",
+        "key": "Compendium.lakour-warcraft.objets.Item.Vh8xj1loPd6h7UBw",
+        "count": null,
+        "group": "PWVAKlEBQ9fR60JZ",
+        "sort": 200000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "loiHGS8IYWDyE2Ha",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbarmShield0000",
+        "count": null,
+        "group": "PWVAKlEBQ9fR60JZ",
+        "sort": 300000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "bMbyR6EA3pHJdBPu",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagHealersKit0",
+        "count": null,
+        "group": "PWVAKlEBQ9fR60JZ",
+        "sort": 400000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "mLo2503eAXNPjsTK",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagClothesTrav",
+        "count": null,
+        "group": "PWVAKlEBQ9fR60JZ",
+        "sort": 500000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "qu9KQLjAEi0lHHMv",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagRations0000",
+        "count": 5,
+        "group": "PWVAKlEBQ9fR60JZ",
+        "sort": 600000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "Ekb57hylUBA2q6B8",
+        "type": "currency",
+        "key": "gp",
+        "count": 9,
+        "group": "PWVAKlEBQ9fR60JZ",
+        "sort": 9900000,
+        "requiresProficiency": false
+      }
+    ],
+    "wealth": "50"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "soldat-de-hurlevent"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "_id": "CwrqmUeFKOhV1YLv",
+  "_key": "!items!CwrqmUeFKOhV1YLv",
+  "name": "Pacte du cartel",
+  "type": "feat",
+  "img": "icons/commodities/currency/coin-embossed-crown-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>Tout se négocie, surtout ce qui ne devrait pas. Vous maîtrisez <strong>Persuasion</strong>, <strong>Tromperie</strong> ou <strong>Investigation</strong> (au choix), ainsi que les <strong>outils de bricoleur</strong>. Quand vous concluez un marché, vous savez d'instinct si l'autre partie compte le respecter.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "gobelin-pacte-du-cartel",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Gobelin",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "gobelin-pacte-du-cartel"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "P9AeBA5Jyt8hSRFj",
+  "_key": "!items!P9AeBA5Jyt8hSRFj",
+  "name": "Pied marin",
+  "type": "feat",
+  "img": "icons/svg/anchor.svg",
+  "system": {
+    "description": {
+      "value": "<p>Vous avez grandi sur un pont qui roule. Vous gagnez une <strong>vitesse de nage de 9 m</strong>, la maîtrise des <strong>véhicules marins</strong>, et l'avantage aux tests de Force (Athlétisme) et de Dextérité (Acrobaties) pour garder l'équilibre sur un sol mouvant (pont, gréement, glace, radeau).</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "don-pied-marin",
+    "type": {
+      "value": "feat",
+      "subtype": "origin"
+    },
+    "requirements": "",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {
+      "idgFuNazfeOkwjGe": {
+        "_id": "idgFuNazfeOkwjGe",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "tool:vehicle:water"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Pied marin",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "tYZyGohgWPGfPCBA",
+      "_key": "!items.effects!P9AeBA5Jyt8hSRFj.tYZyGohgWPGfPCBA",
+      "name": "Pied marin",
+      "img": "icons/svg/anchor.svg",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.movement.swim",
+            "value": 9,
+            "priority": null,
+            "type": "upgrade",
+            "phase": "initial",
+            "_id": "VFwKVCXy5w6nqKsA"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "don-pied-marin"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

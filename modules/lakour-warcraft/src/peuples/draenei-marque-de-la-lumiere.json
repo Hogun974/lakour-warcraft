@@ -1,0 +1,59 @@
+{
+  "_id": "omGP8OFxGPHOtwtA",
+  "_key": "!items!omGP8OFxGPHOtwtA",
+  "name": "Marque de la Lumière",
+  "type": "feat",
+  "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Ceux qui ont fui la Légion ardente pendant vingt-cinq mille ans portent en eux de quoi repousser les ténèbres. Vous avez la <strong>résistance aux dégâts nécrotiques</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "draenei-marque-de-la-lumiere",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Draeneï",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "draenei-marque-de-la-lumiere"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

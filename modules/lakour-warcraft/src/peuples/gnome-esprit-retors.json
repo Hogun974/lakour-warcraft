@@ -1,0 +1,117 @@
+{
+  "_id": "3Ycrv2wEhz5DrXjB",
+  "_key": "!items!3Ycrv2wEhz5DrXjB",
+  "name": "Esprit retors",
+  "type": "feat",
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un esprit qui calcule trois choses à la fois est difficile à tromper. Vous avez l'avantage aux jets de sauvegarde d'<strong>Intelligence</strong>, de <strong>Sagesse</strong> et de <strong>Charisme</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "gnome-esprit-retors",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Gnome",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "nPfBsvTzBj0rbO4N",
+      "_key": "!items.effects!3Ycrv2wEhz5DrXjB.nPfBsvTzBj0rbO4N",
+      "name": "Esprit retors",
+      "img": "icons/magic/perception/third-eye-blue-red.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.abilities.int.save.roll.mode",
+            "value": 1,
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "JkLe5jgOPCmH5BxH"
+          },
+          {
+            "key": "system.abilities.wis.save.roll.mode",
+            "value": 1,
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "moO1AQp9jZfsnRzl"
+          },
+          {
+            "key": "system.abilities.cha.save.roll.mode",
+            "value": 1,
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "985D8H7To40pZSV1"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "gnome-esprit-retors"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

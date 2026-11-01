@@ -1,0 +1,59 @@
+{
+  "_id": "z14VS2tTqGfhg6TE",
+  "_key": "!items!z14VS2tTqGfhg6TE",
+  "name": "Flair du chasseur",
+  "type": "feat",
+  "img": "icons/creatures/mammals/wolf-howl-moon-gray.webp",
+  "system": {
+    "description": {
+      "value": "<p>Votre nez vous dit qui est passé ici et quand. Vous maîtrisez <strong>Perception</strong> ou <strong>Survie</strong> (au choix), et vous avez l'avantage aux tests qui reposent sur l'odorat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "worgen-flair",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Worgen",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "worgen-flair"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

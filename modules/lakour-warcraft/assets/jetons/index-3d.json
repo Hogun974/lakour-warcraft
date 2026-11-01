@@ -1,0 +1,15 @@
+{
+  "humain": "modules/lakour-warcraft/assets/jetons/joueurs/3d/humain.svg",
+  "nain": "modules/lakour-warcraft/assets/jetons/joueurs/3d/nain.svg",
+  "gnome": "modules/lakour-warcraft/assets/jetons/joueurs/3d/gnome.svg",
+  "elfe-de-la-nuit": "modules/lakour-warcraft/assets/jetons/joueurs/3d/elfe-de-la-nuit.svg",
+  "draenei": "modules/lakour-warcraft/assets/jetons/joueurs/3d/draenei.svg",
+  "worgen": "modules/lakour-warcraft/assets/jetons/joueurs/3d/worgen.svg",
+  "orc": "modules/lakour-warcraft/assets/jetons/joueurs/3d/orc.svg",
+  "troll": "modules/lakour-warcraft/assets/jetons/joueurs/3d/troll.svg",
+  "tauren": "modules/lakour-warcraft/assets/jetons/joueurs/3d/tauren.svg",
+  "reprouve": "modules/lakour-warcraft/assets/jetons/joueurs/3d/reprouve.svg",
+  "elfe-de-sang": "modules/lakour-warcraft/assets/jetons/joueurs/3d/elfe-de-sang.svg",
+  "gobelin": "modules/lakour-warcraft/assets/jetons/joueurs/3d/gobelin.svg",
+  "pandaren": "modules/lakour-warcraft/assets/jetons/joueurs/3d/pandaren.svg"
+}

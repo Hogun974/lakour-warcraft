@@ -1,0 +1,207 @@
+{
+  "_id": "O1ZlanNamo70PwFt",
+  "_key": "!tables!O1ZlanNamo70PwFt",
+  "name": "Rumeurs de taverne",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Ce qu'on entend au comptoir. Vrai, faux ou à moitié vrai : au MJ de décider.</p>",
+  "formula": "1d12",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "rumeurs-de-taverne"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "3Z4nq5xtsGalTzgP",
+      "_key": "!tables.results!O1ZlanNamo70PwFt.3Z4nq5xtsGalTzgP",
+      "type": "text",
+      "name": "",
+      "description": "<p>Des bûcherons orcs ont été retrouvés pendus aux arbres de Frêneval. Les Sentinelles nient, Orgrimmar gronde.</p>",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "x3O47MDTP17hOdqf",
+      "_key": "!tables.results!O1ZlanNamo70PwFt.x3O47MDTP17hOdqf",
+      "type": "text",
+      "name": "",
+      "description": "<p>Un fermier d'Elwynn jure avoir vu un murloc porter une couronne. Les autres murlocs s'inclinaient.</p>",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "4N3lRp0bU9Y6vTfX",
+      "_key": "!tables.results!O1ZlanNamo70PwFt.4N3lRp0bU9Y6vTfX",
+      "type": "text",
+      "name": "",
+      "description": "<p>Le Kirin Tor paie bien qui rapporte des livres sauvés des ruines de Dalaran. Et il ne demande pas d'où ils viennent.</p>",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "FORDYAXPUK41bD0R",
+      "_key": "!tables.results!O1ZlanNamo70PwFt.FORDYAXPUK41bD0R",
+      "type": "text",
+      "name": "",
+      "description": "<p>Une caravane gobeline a disparu dans les Tarides avec une cargaison « qui ne doit surtout pas être ouverte ».</p>",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "Vxm6snJ2Ilh3EfJp",
+      "_key": "!tables.results!O1ZlanNamo70PwFt.Vxm6snJ2Ilh3EfJp",
+      "type": "text",
+      "name": "",
+      "description": "<p>La Croisade écarlate brûle des villages entiers au nord de la Maleterre. Elle dit que la peste se cache dans le grain.</p>",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "ozsmOWq6YG4KT4Ij",
+      "_key": "!tables.results!O1ZlanNamo70PwFt.ozsmOWq6YG4KT4Ij",
+      "type": "text",
+      "name": "",
+      "description": "<p>Un vieux grunt affirme que des orcs refusent toujours de quitter les camps d'internement, et que des gardiens les y aident.</p>",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "U6NOsRhfDoxODnHg",
+      "_key": "!tables.results!O1ZlanNamo70PwFt.U6NOsRhfDoxODnHg",
+      "type": "text",
+      "name": "",
+      "description": "<p>On aurait vu un loup qui marche debout près du mur de Gilnéas. Il parlait comme un noble.</p>",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "pxZuwNz71wcTcPQ4",
+      "_key": "!tables.results!O1ZlanNamo70PwFt.pxZuwNz71wcTcPQ4",
+      "type": "text",
+      "name": "",
+      "description": "<p>Les nains de Forgefer ont trouvé sous Uldaman une porte que personne n'arrive à ouvrir. Ils cherchent des gens qui rentrent par les petits trous.</p>",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "y4RSR1hJq3uUU0Xv",
+      "_key": "!tables.results!O1ZlanNamo70PwFt.y4RSR1hJq3uUU0Xv",
+      "type": "text",
+      "name": "",
+      "description": "<p>Les apothicaires de la Fossoyeuse achètent des cadavres frais. Bon prix.</p>",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "P3ayJwHbMEAYtqvv",
+      "_key": "!tables.results!O1ZlanNamo70PwFt.P3ayJwHbMEAYtqvv",
+      "type": "text",
+      "name": "",
+      "description": "<p>Un brasseur pandaren voyagerait avec une bière qui « fait voir les esprits ». Les taurens le cherchent, les nains aussi.</p>",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "8aFw3EKIWrFBfIje",
+      "_key": "!tables.results!O1ZlanNamo70PwFt.8aFw3EKIWrFBfIje",
+      "type": "text",
+      "name": "",
+      "description": "<p>Theramore manque de bois ; Jaina en achèterait aux orcs. Des nobles de Hurlevent parlent de trahison.</p>",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "CxuHsIud35NQwJSv",
+      "_key": "!tables.results!O1ZlanNamo70PwFt.CxuHsIud35NQwJSv",
+      "type": "text",
+      "name": "",
+      "description": "<p>Des feux verts brillent la nuit sur les pentes du Hyjal. Les démons seraient revenus… ou quelqu'un les appelle.</p>",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    }
+  ]
+}

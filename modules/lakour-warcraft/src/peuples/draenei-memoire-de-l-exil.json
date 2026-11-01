@@ -1,0 +1,59 @@
+{
+  "_id": "6fEjlA8VpLOXfdyR",
+  "_key": "!items!6fEjlA8VpLOXfdyR",
+  "name": "Mémoire de l'exil",
+  "type": "feat",
+  "img": "icons/commodities/gems/gem-amber-insect-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Votre peuple a traversé mille mondes et en a gardé les leçons. Vous maîtrisez <strong>Arcanes</strong>, <strong>Histoire</strong> ou <strong>Religion</strong> (au choix).</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "draenei-memoire-de-l-exil",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Draeneï",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "draenei-memoire-de-l-exil"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

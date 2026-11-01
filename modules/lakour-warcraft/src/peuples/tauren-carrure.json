@@ -1,0 +1,101 @@
+{
+  "_id": "NRoJbuswaEjEEqKp",
+  "_key": "!items!NRoJbuswaEjEEqKp",
+  "name": "Carrure des plaines",
+  "type": "feat",
+  "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous êtes de taille Moyenne, mais bâti comme un taureau. Vous avez l'avantage aux tests pour mettre fin à l'état <strong>agrippé</strong>, et vous comptez comme une taille de plus pour la charge que vous pouvez porter, pousser, tirer ou soulever.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "tauren-carrure",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Tauren",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "aJ2YnxZGXBmcpdYV",
+      "_key": "!items.effects!NRoJbuswaEjEEqKp.aJ2YnxZGXBmcpdYV",
+      "name": "Carrure des plaines",
+      "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "flags.dnd5e.powerfulBuild",
+            "value": true,
+            "priority": null,
+            "type": "override",
+            "phase": "initial",
+            "_id": "GfNgZd4h2PDMmIsA"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "tauren-carrure"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

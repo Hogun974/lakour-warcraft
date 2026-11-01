@@ -1,0 +1,58 @@
+{
+  "_id": "01FqMSTuhh4RI7sF",
+  "_key": "!items!01FqMSTuhh4RI7sF",
+  "name": "Lettre de change du cartel Gentepression",
+  "type": "loot",
+  "img": "icons/sundries/documents/document-letter-formal-tan.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un papier scellé à la cire verte, payable à vue dans n'importe quel comptoir gobelin (Baie-du-Butin, Gadgetzan, Cabestan), moins une commission « raisonnable » de 10 %.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "lettre-de-change",
+    "price": {
+      "value": 10,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "treasure",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "lettre-de-change"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

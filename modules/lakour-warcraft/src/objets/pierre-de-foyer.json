@@ -1,0 +1,178 @@
+{
+  "_id": "muBjluVk48ymr1AH",
+  "_key": "!items!muBjluVk48ymr1AH",
+  "name": "Pierre de foyer",
+  "type": "equipment",
+  "img": "icons/commodities/stone/boulder-black.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une pierre lisse et bleutée, gravée d'une rune d'aubergiste. On la <strong>lie</strong> à une auberge en la confiant une nuit à l'aubergiste (gratuit ou presque : l'aubergiste y gagne un client fidèle).</p><p>Par une <strong>action</strong> maintenue pendant <strong>10 minutes</strong> de concentration, vous êtes ramené, avec ce que vous portez, devant le foyer de l'auberge liée, où qu'elle soit sur le même continent. Si vous subissez des dégâts pendant ce temps, l'effet échoue et la pierre ne peut plus servir avant la prochaine aube. Elle se recharge à l'aube.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "pierre-de-foyer",
+    "price": {
+      "value": 100,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": null,
+    "proficient": null,
+    "activities": {
+      "VLFVE2jH7fMmv5xD": {
+        "_id": "VLFVE2jH7fMmv5xD",
+        "type": "utility",
+        "name": "Rentrer à l'auberge",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "minute",
+          "value": 10,
+          "condition": "10 minutes sans subir de dégâts",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "pierre-de-foyer"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

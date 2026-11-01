@@ -1,0 +1,59 @@
+{
+  "_id": "9tFsavzHI9j3AS2g",
+  "_key": "!items!9tFsavzHI9j3AS2g",
+  "name": "Sang de la montagne",
+  "type": "feat",
+  "img": "icons/magic/life/heart-cross-strong-flame-purple-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Les nains de Forgefer boivent ce qui ferait tomber un ogre. Vous avez la <strong>résistance aux dégâts de poison</strong>, et l'avantage aux jets de sauvegarde pour éviter ou terminer l'état <strong>empoisonné</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "nain-sang-de-la-montagne",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Nain",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "nain-sang-de-la-montagne"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

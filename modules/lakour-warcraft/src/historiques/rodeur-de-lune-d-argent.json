@@ -1,0 +1,198 @@
+{
+  "_id": "IfeaehegnOGiFeOV",
+  "_key": "!items!IfeaehegnOGiFeOV",
+  "name": "Rôdeur de Lune-d'argent",
+  "type": "background",
+  "img": "icons/weapons/bows/longbow-gold-pink.webp",
+  "system": {
+    "description": {
+      "value": "<p>Les Pérégrins de Quel'Thalas gardaient les bois des Chants éternels. Le Fléau est passé, et vos frères d'armes sont morts ou partis. Vous traquez désormais les goules dans les bois brûlés autour de Lune-d'argent.</p><ul><li><strong>Caractéristiques :</strong> Dextérité, Constitution, Sagesse</li><li><strong>Compétences :</strong> Discrétion, Survie</li><li><strong>Outil :</strong> outils de sculpteur sur bois</li><li><strong>Don d'origine :</strong> Vigilant (SRD)</li><li><strong>Langues :</strong> thalassien (elfique), plus deux au choix</li><li><strong>Équipement :</strong> arc long, carquois, 20 flèches, armure de cuir, outils de sculpteur, 3 po, <em>ou</em> 50 po</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "rodeur-de-lune-d-argent",
+    "advancement": {
+      "0qwm2YM46LXJe7Td": {
+        "_id": "0qwm2YM46LXJe7Td",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "int",
+            "cha"
+          ],
+          "points": 3,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Amélioration de caractéristiques de l'historique",
+        "hint": "Augmentez l'une des trois caractéristiques de 2 et une autre de 1, ou les trois de 1, sans dépasser 20.",
+        "flags": {}
+      },
+      "CKVFkcnPlP48JxTT": {
+        "_id": "CKVFkcnPlP48JxTT",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:ste",
+            "skills:sur",
+            "tool:art:woodcarver"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Maîtrises de l'historique",
+        "hint": "",
+        "flags": {}
+      },
+      "lB6oI0F7poXlFCGM": {
+        "_id": "lB6oI0F7poXlFCGM",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.feats24.Item.phbftAlert000000",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Don d'origine",
+        "hint": "",
+        "flags": {}
+      },
+      "0NUro2XgoGL6k0b4": {
+        "_id": "0NUro2XgoGL6k0b4",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:elvish"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Langues",
+        "hint": "Le commun de votre faction, plus deux langues au choix (voir le guide du joueur).",
+        "flags": {}
+      }
+    },
+    "startingEquipment": [
+      {
+        "_id": "eyZhNTSuy9l0WexC",
+        "type": "AND",
+        "group": "",
+        "sort": 100000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "zE8KOcj0KIuAyQdt",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbwepLongbow000",
+        "count": null,
+        "group": "eyZhNTSuy9l0WexC",
+        "sort": 200000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "Z6LeHUd4aqCKQ5hB",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagQuiver00000",
+        "count": null,
+        "group": "eyZhNTSuy9l0WexC",
+        "sort": 300000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "bnRQMtCpWCmfdUvR",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbamoArrows0000",
+        "count": 20,
+        "group": "eyZhNTSuy9l0WexC",
+        "sort": 400000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "Q0worrqS2KD0aw6v",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbarmLeatherArm",
+        "count": null,
+        "group": "eyZhNTSuy9l0WexC",
+        "sort": 500000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "7duexCCrrqSKxFN6",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbtulWoodcarver",
+        "count": null,
+        "group": "eyZhNTSuy9l0WexC",
+        "sort": 600000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "LzwMWExWI5khedJ8",
+        "type": "currency",
+        "key": "gp",
+        "count": 3,
+        "group": "eyZhNTSuy9l0WexC",
+        "sort": 9900000,
+        "requiresProficiency": false
+      }
+    ],
+    "wealth": "50"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "rodeur-de-lune-d-argent"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

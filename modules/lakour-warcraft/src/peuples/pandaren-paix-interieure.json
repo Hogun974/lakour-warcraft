@@ -1,0 +1,59 @@
+{
+  "_id": "mj9Kan8gl8wpRja3",
+  "_key": "!items!mj9Kan8gl8wpRja3",
+  "name": "Paix intérieure",
+  "type": "feat",
+  "img": "icons/magic/holy/yin-yang-balance-symbol.webp",
+  "system": {
+    "description": {
+      "value": "<p>La sérénité de la Pandarie vous accompagne. Vous avez l'avantage aux jets de sauvegarde pour éviter ou terminer l'état <strong>effrayé</strong>, et une nuit troublée ne vous empêche jamais de bénéficier d'un repos long.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "pandaren-paix-interieure",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Pandaren",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "pandaren-paix-interieure"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

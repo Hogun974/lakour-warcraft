@@ -1,0 +1,207 @@
+{
+  "_id": "ucNQfx3RE78yE0T6",
+  "_key": "!tables!ucNQfx3RE78yE0T6",
+  "name": "Rencontres sur la route",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Une rencontre par demi-journée de voyage en terrain sauvage, si le MJ le souhaite. Adaptez le nombre au groupe.</p>",
+  "formula": "1d12",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "rencontres-sur-la-route"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "qzNp3b53sIo6eWuX",
+      "_key": "!tables.results!ucNQfx3RE78yE0T6.qzNp3b53sIo6eWuX",
+      "type": "text",
+      "name": "",
+      "description": "<p>Une famille de réfugiés de Lordaeron, un chariot cassé, un enfant malade. Ils ont peur de vous.</p>",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "wojyXqbE95iBibiV",
+      "_key": "!tables.results!ucNQfx3RE78yE0T6.wojyXqbE95iBibiV",
+      "type": "text",
+      "name": "",
+      "description": "<p>Une patrouille de l'autre faction, aussi surprise que vous. Personne ne veut commencer.</p>",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "cFz2hEiZ0VQHY5dC",
+      "_key": "!tables.results!ucNQfx3RE78yE0T6.cFz2hEiZ0VQHY5dC",
+      "type": "text",
+      "name": "",
+      "description": "<p>Trois murlocs qui gardent un tas de poissons pourris comme un trésor. Il y a peut-être vraiment quelque chose dessous.</p>",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "BzghMbGKqSnvUXNe",
+      "_key": "!tables.results!ucNQfx3RE78yE0T6.BzghMbGKqSnvUXNe",
+      "type": "text",
+      "name": "",
+      "description": "<p>Un gnome dans un appareil volant en panne, accroché à un arbre. Il propose un « partenariat ».</p>",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "ltvpZ1HsuagjEro1",
+      "_key": "!tables.results!ucNQfx3RE78yE0T6.ltvpZ1HsuagjEro1",
+      "type": "text",
+      "name": "",
+      "description": "<p>Une meute de loups affamés, menée par une louve énorme aux yeux trop intelligents.</p>",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "SfxIKBngRJGkHFUR",
+      "_key": "!tables.results!ucNQfx3RE78yE0T6.SfxIKBngRJGkHFUR",
+      "type": "text",
+      "name": "",
+      "description": "<p>Des quilboars ou des gnolls qui rançonnent le passage. Négociables, avec de la viande.</p>",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "eDRyPgnODV3xTdUo",
+      "_key": "!tables.results!ucNQfx3RE78yE0T6.eDRyPgnODV3xTdUo",
+      "type": "text",
+      "name": "",
+      "description": "<p>Un marchand gobelin et ses deux gardes ogres. Il vend tout, très cher, et achète tout, très peu cher.</p>",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "mMUuEtMFb516EP7K",
+      "_key": "!tables.results!ucNQfx3RE78yE0T6.mMUuEtMFb516EP7K",
+      "type": "text",
+      "name": "",
+      "description": "<p>Une poignée de goules qui fouillent une ferme abandonnée. Le Fléau n'est pas loin.</p>",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "GwL0kE5GTSpQG1qF",
+      "_key": "!tables.results!ucNQfx3RE78yE0T6.GwL0kE5GTSpQG1qF",
+      "type": "text",
+      "name": "",
+      "description": "<p>Un druide cénarien qui exige de savoir pourquoi vous traversez sa forêt.</p>",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "UbhSWCwEQyYR76NA",
+      "_key": "!tables.results!ucNQfx3RE78yE0T6.UbhSWCwEQyYR76NA",
+      "type": "text",
+      "name": "",
+      "description": "<p>Un orage élémentaire : la foudre frappe trois fois au même endroit. Un chaman dirait que les esprits sont en colère.</p>",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "kAzfjs4RGxOatqJr",
+      "_key": "!tables.results!ucNQfx3RE78yE0T6.kAzfjs4RGxOatqJr",
+      "type": "text",
+      "name": "",
+      "description": "<p>Un croisé écarlate blessé, seul. Il demande de l'aide et vous juge déjà.</p>",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "irwEPt3DBA9zZCGU",
+      "_key": "!tables.results!ucNQfx3RE78yE0T6.irwEPt3DBA9zZCGU",
+      "type": "text",
+      "name": "",
+      "description": "<p>Un cultiste en fuite qui serre un livre relié de peau verte. Ses poursuivants arrivent.</p>",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    }
+  ]
+}

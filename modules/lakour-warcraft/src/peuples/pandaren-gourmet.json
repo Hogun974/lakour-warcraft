@@ -1,0 +1,59 @@
+{
+  "_id": "Y1HQtw7xYPCFRjZF",
+  "_key": "!items!Y1HQtw7xYPCFRjZF",
+  "name": "Gourmet",
+  "type": "feat",
+  "img": "icons/consumables/meat/round-steak-fat-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un bon repas répare plus qu'un sort. Vous maîtrisez les <strong>ustensiles de cuisinier</strong>. À la fin d'un <strong>repos court</strong> où vous avez cuisiné pour le groupe, vous et jusqu'à cinq alliés qui ont partagé le repas récupérez des points de vie supplémentaires égaux à votre <strong>bonus de maîtrise</strong> chacun.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "pandaren-gourmet",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Pandaren",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "pandaren-gourmet"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

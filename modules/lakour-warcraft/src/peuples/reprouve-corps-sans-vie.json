@@ -1,0 +1,59 @@
+{
+  "_id": "lYNQZEtYGRplBaiK",
+  "_key": "!items!lYNQZEtYGRplBaiK",
+  "name": "Corps sans vie",
+  "type": "feat",
+  "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
+  "system": {
+    "description": {
+      "value": "<p>Libéré du Roi-liche mais pas de la mort, vous n'avez <strong>pas besoin de respirer, de manger, de boire ni de dormir</strong>. Vous avez la <strong>résistance aux dégâts de poison</strong> et l'avantage aux jets de sauvegarde contre les maladies. Les soins magiques fonctionnent normalement sur vous.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "reprouve-corps-sans-vie",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Réprouvé",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "reprouve-corps-sans-vie"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "_id": "VYJOG5qwWO6TsCmg",
+  "_key": "!tables!VYJOG5qwWO6TsCmg",
+  "name": "Noms d'Azeroth par peuple",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Tirez le peuple, ou choisissez-le, puis prenez un prénom et un nom dans la ligne.</p>",
+  "formula": "1d13",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "noms-par-peuple"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "C2ccOw2YZBFFeGII",
+      "_key": "!tables.results!VYJOG5qwWO6TsCmg.C2ccOw2YZBFFeGII",
+      "type": "text",
+      "name": "Humain",
+      "description": "<p>Aldric, Maëlle, Corwin, Isolde, Gareth, Brune. Noms : Fauchebois, Pierreval, Hautepierre, Moissonneur.</p>",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "PcyRXdO63ObsweN7",
+      "_key": "!tables.results!VYJOG5qwWO6TsCmg.PcyRXdO63ObsweN7",
+      "type": "text",
+      "name": "Nain",
+      "description": "<p>Borin, Hilda, Dunmar, Grimna, Thorgar, Kelda. Noms : Barbe-de-Cuivre, Brasse-Fer, Martelfort, Roc-Profond.</p>",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "QUGCVE2T0yQpeBJn",
+      "_key": "!tables.results!VYJOG5qwWO6TsCmg.QUGCVE2T0yQpeBJn",
+      "type": "text",
+      "name": "Gnome",
+      "description": "<p>Fizzle, Nibbin, Tinkla, Gizmo, Pippa, Sprocket. Noms : Rouage-Fou, Clé-Torse, Pétard, Écrou-d'Argent.</p>",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "VFvEMxNcLKltkqVu",
+      "_key": "!tables.results!VYJOG5qwWO6TsCmg.VFvEMxNcLKltkqVu",
+      "type": "text",
+      "name": "Elfe de la nuit",
+      "description": "<p>Aelyn, Thalindra, Ilyrion, Shaelis, Vaeran, Myrelle. Noms : Chant-de-Lune, Feuille-d'Ombre, Brise-Étoile, Veilleur-du-Bois.</p>",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "a976958KOaedF0CW",
+      "_key": "!tables.results!VYJOG5qwWO6TsCmg.a976958KOaedF0CW",
+      "type": "text",
+      "name": "Draeneï",
+      "description": "<p>Iruun, Malaara, Torvos, Eshia, Kaavon, Noraal. Noms : (pas de nom de famille ; on cite le maître ou le vaisseau d'origine).</p>",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "5AuTyrceF0sQcIuo",
+      "_key": "!tables.results!VYJOG5qwWO6TsCmg.5AuTyrceF0sQcIuo",
+      "type": "text",
+      "name": "Worgen",
+      "description": "<p>Edmund, Rowena, Silas, Agatha, Percival, Lenore. Noms : Blackwald, Hollowmere, Thornbury, Greywick.</p>",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "CWa0QAdjOaF3GxzT",
+      "_key": "!tables.results!VYJOG5qwWO6TsCmg.CWa0QAdjOaF3GxzT",
+      "type": "text",
+      "name": "Orc",
+      "description": "<p>Grokk, Durza, Ragash, Mok'ra, Thogar, Kazgra. Clans : Loup-de-Givre, Chanteguerre, Rochenoire, Lame-Ardente.</p>",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "tWeo0k8ASzpWC6fX",
+      "_key": "!tables.results!VYJOG5qwWO6TsCmg.tWeo0k8ASzpWC6fX",
+      "type": "text",
+      "name": "Troll",
+      "description": "<p>Zul'jen, Mazuna, Rokhan, Tah'zi, Jun'ka, Vashi. Surnoms : Œil-de-Raptor, Rit-Fort, Lance-Rapide.</p>",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "8Ddo7AiCC2hiehyA",
+      "_key": "!tables.results!VYJOG5qwWO6TsCmg.8Ddo7AiCC2hiehyA",
+      "type": "text",
+      "name": "Tauren",
+      "description": "<p>Haruk, Muna, Tahko, Ahanu, Kerra, Orunta. Noms : Pas-de-Pluie, Corne-Sauvage, Grand-Sabot, Vent-des-Plaines.</p>",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "gr7FsC8DiElAVgTu",
+      "_key": "!tables.results!VYJOG5qwWO6TsCmg.gr7FsC8DiElAVgTu",
+      "type": "text",
+      "name": "Réprouvé",
+      "description": "<p>Mortimer, Ophelia, Gideon, Cordelia, Ambrose, Vesper. Nom : celui d'avant, ou un surnom choisi (le Pâle, Sans-Souffle).</p>",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "x74ZdBFxwTs5U9yU",
+      "_key": "!tables.results!VYJOG5qwWO6TsCmg.x74ZdBFxwTs5U9yU",
+      "type": "text",
+      "name": "Elfe de sang",
+      "description": "<p>Caeleth, Saelora, Lorthiel, Vaelith, Dariel, Ithelia. Maisons : Soleil-d'Aube, Brasier-d'Or, Plume-Rouge, Lame-Écarlate.</p>",
+      "range": [
+        11,
+        11
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "EUlMkzsp9maIYSJS",
+      "_key": "!tables.results!VYJOG5qwWO6TsCmg.EUlMkzsp9maIYSJS",
+      "type": "text",
+      "name": "Gobelin",
+      "description": "<p>Grizzik, Noggle, Zappa, Krix, Fizzbit, Vexi. Surnoms : Poche-Pleine, Grand-Profit, Deux-Doigts, l'Allumette.</p>",
+      "range": [
+        12,
+        12
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "oRTWsL99mQPaB6Au",
+      "_key": "!tables.results!VYJOG5qwWO6TsCmg.oRTWsL99mQPaB6Au",
+      "type": "text",
+      "name": "Pandaren",
+      "description": "<p>Li Bao, Mei Tan, Shun, Lun Wei, Pao, Ying. Noms de famille : Feuille-de-Thé, Ventre-Rond, Pas-de-Brume, Chope-Pleine.</p>",
+      "range": [
+        13,
+        13
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    }
+  ]
+}

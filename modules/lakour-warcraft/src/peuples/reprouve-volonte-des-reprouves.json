@@ -1,0 +1,148 @@
+{
+  "_id": "YEdIfKTwUfwve3fA",
+  "_key": "!items!YEdIfKTwUfwve3fA",
+  "name": "Volonté des Réprouvés",
+  "type": "feat",
+  "img": "icons/magic/unholy/hand-light-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Personne ne possédera plus jamais votre esprit. Au début de votre tour, si vous êtes <strong>charmé</strong> ou <strong>effrayé</strong>, vous pouvez mettre fin à cet état (aucune action requise). Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "reprouve-volonte-des-reprouves",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Réprouvé",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {
+      "REKBBjbGBXHYbuXp": {
+        "_id": "REKBBjbGBXHYbuXp",
+        "type": "utility",
+        "name": "Briser l'emprise",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": "Au début de votre tour, si vous êtes charmé ou effrayé",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    },
+    "uses": {
+      "max": "@prof",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "reprouve-volonte-des-reprouves"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

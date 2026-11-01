@@ -1,0 +1,125 @@
+{
+  "_id": "hkNmbzAxYloHokbI",
+  "_key": "!items!hkNmbzAxYloHokbI",
+  "name": "Nain",
+  "type": "race",
+  "img": "icons/weapons/hammers/hammer-double-steel-embossed.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Alliance.</strong> Les nains de Forgefer tiennent Dun Morogh et Khaz Modan depuis leur capitale creusée dans la montagne. Mineurs, forgerons, artilleurs et archéologues, ils sont les plus anciens alliés des humains.</p><p>Ils cherchent dans les ruines des Titans la vérité sur leurs origines de pierre, et se battent à coups de marteau, de fusil et de bière brune.</p><p><strong>Traits.</strong> Sang de la montagne, Robustesse naine, Écho de la pierre. Taille Moyenne, vitesse 9 m, vision dans le noir 36 m.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "nain",
+    "advancement": {
+      "Y0JOrNZKzoyOkmfB": {
+        "_id": "Y0JOrNZKzoyOkmfB",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "hint": "Moyen (1,20 à 1,50 m, mais aussi lourd qu'un humain).",
+        "flags": {}
+      },
+      "u0shQgNRv9WxBfeC": {
+        "_id": "u0shQgNRv9WxBfeC",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.peuples.Item.9tFsavzHI9j3AS2g",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.peuples.Item.71P9BgVWVk7tX7LH",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.peuples.Item.5GWvb7ve8z33Td2B",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Traits : Nain",
+        "hint": "",
+        "flags": {}
+      },
+      "RfUJmPm0fwJ36qSr": {
+        "_id": "RfUJmPm0fwJ36qSr",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "dr:poison"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Sang de la montagne",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "movement": {
+      "walk": "9",
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "units": "m",
+      "hover": false,
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "units": "m",
+      "special": "",
+      "ranges": {
+        "darkvision": 36,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null
+      }
+    },
+    "type": {
+      "value": "humanoid",
+      "custom": "",
+      "subtype": "Nain"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "nain"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "_id": "gdH6pHCvE5J5VYme",
+  "_key": "!items!gdH6pHCvE5J5VYme",
+  "name": "Coriace",
+  "type": "feat",
+  "img": "icons/magic/life/heart-cross-strong-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous avez survécu au Fléau, à la faim et à l'hiver sur les routes. Vos points de vie maximum augmentent de <strong>2 par niveau</strong> de personnage (2 maintenant, puis 2 à chaque niveau gagné).</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "don-coriace",
+    "type": {
+      "value": "feat",
+      "subtype": "origin"
+    },
+    "requirements": "",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "CCiX5Ni5SdcuUvNe",
+      "_key": "!items.effects!gdH6pHCvE5J5VYme.CCiX5Ni5SdcuUvNe",
+      "name": "Coriace",
+      "img": "icons/magic/life/heart-cross-strong-blue.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.hp.bonuses.level",
+            "value": 2,
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "xazQpYLL1J5WPiQo"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "don-coriace"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

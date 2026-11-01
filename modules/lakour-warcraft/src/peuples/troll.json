@@ -1,0 +1,164 @@
+{
+  "_id": "kpbjMxMAuEJOTHI2",
+  "_key": "!items!kpbjMxMAuEJOTHI2",
+  "name": "Troll",
+  "type": "race",
+  "img": "icons/commodities/treasure/totem-wooden-glowing-green.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Horde.</strong> La tribu Sombrelance, chassée de ses îles par les murlocs et les humains de Kul Tiras, a juré fidélité à Thrall qui l'a sauvée. Ses guerriers, chasseurs et féticheurs vivent aujourd'hui aux îles de l'Écho, au large de Durotar.</p><p>Les Sombrelance honorent les loa, les esprits-animaux de leur peuple, et se méfient des autres tribus trolles, restées hostiles à tout le monde.</p><p><strong>Traits.</strong> Régénération, Faveur des loa, Instinct de la jungle. Taille Moyenne, vitesse 9 m, vision dans le noir 18 m.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "troll",
+    "advancement": {
+      "7HCPVUC6XmWQOXzX": {
+        "_id": "7HCPVUC6XmWQOXzX",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "hint": "Moyen (2 à 2,30 m, voûté).",
+        "flags": {}
+      },
+      "mXCnjPLbr16Vehnc": {
+        "_id": "mXCnjPLbr16Vehnc",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.peuples.Item.3kW6vJPrisl7Z2sQ",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.peuples.Item.fdQXgWSC1uenb0W8",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.peuples.Item.XahUz2BHEIG6EeFv",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Traits : Troll",
+        "hint": "",
+        "flags": {}
+      },
+      "6gRxeO47nAhAU3j2": {
+        "_id": "6gRxeO47nAhAU3j2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplThaumaturg",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "method": "",
+            "prepared": 0,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "Faveur des loa",
+        "hint": "",
+        "flags": {}
+      },
+      "RKipuIiRDgwSvMT4": {
+        "_id": "RKipuIiRDgwSvMT4",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:ani",
+                "skills:nat",
+                "skills:sur"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Instinct de la jungle",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "movement": {
+      "walk": "9",
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "units": "m",
+      "hover": false,
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "units": "m",
+      "special": "",
+      "ranges": {
+        "darkvision": 18,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null
+      }
+    },
+    "type": {
+      "value": "humanoid",
+      "custom": "",
+      "subtype": "Troll"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "troll"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

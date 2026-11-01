@@ -1,0 +1,59 @@
+{
+  "_id": "320fYkWoRNWQMLPn",
+  "_key": "!items!320fYkWoRNWQMLPn",
+  "name": "Affinité arcanique",
+  "type": "feat",
+  "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Quel'Thalas a vécu au rythme du Puits de soleil. Vous connaissez le tour de magie <strong>Prestidigitation</strong>. À partir du niveau 3, vous pouvez lancer <strong>Détection de la magie</strong> une fois sans emplacement de sort par repos long. Intelligence, Sagesse ou Charisme est votre caractéristique d'incantation pour ces sorts.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "elfe-de-sang-affinite-arcanique",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Elfe de sang",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "elfe-de-sang-affinite-arcanique"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "_id": "iGJBEZuZXzuUKws5",
+  "_key": "!items!iGJBEZuZXzuUKws5",
+  "name": "Enfant de la Terre-Mère",
+  "type": "feat",
+  "img": "icons/magic/nature/leaf-glow-triple-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous avez appris les herbes et les bêtes des Mulgore. Vous maîtrisez <strong>Nature</strong> ou <strong>Survie</strong> (au choix), ainsi que le <strong>matériel d'herboriste</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "tauren-enfant-de-la-terre-mere",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Tauren",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "tauren-enfant-de-la-terre-mere"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

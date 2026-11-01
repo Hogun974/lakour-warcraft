@@ -1,0 +1,1097 @@
+{
+  "_id": "g5R6ceiFmzXYjr3m",
+  "_key": "!scenes!g5R6ceiFmzXYjr3m",
+  "name": "Lieu — Campement orc",
+  "navName": "Lieu — Campement orc",
+  "navigation": true,
+  "active": false,
+  "width": 2800,
+  "height": 2200,
+  "padding": 0,
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "distance": 1.5,
+    "units": "m"
+  },
+  "tokenVision": true,
+  "environment": {
+    "darknessLevel": 0.5,
+    "globalLight": {
+      "enabled": false
+    }
+  },
+  "levels": [
+    {
+      "_id": "defaultLevel0000",
+      "name": "Niveau principal",
+      "elevation": {
+        "bottom": 0,
+        "top": null
+      },
+      "background": {
+        "color": "#18181b",
+        "src": "modules/lakour-warcraft/assets/cartes/lieu-campement-orc.svg"
+      },
+      "_key": "!scenes.levels!g5R6ceiFmzXYjr3m.defaultLevel0000",
+      "flags": {}
+    }
+  ],
+  "initialLevel": "defaultLevel0000",
+  "walls": [
+    {
+      "c": [
+        0,
+        0,
+        2800,
+        0
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "q2jBZmOTTR3Ds4kR",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.q2jBZmOTTR3Ds4kR",
+      "flags": {}
+    },
+    {
+      "c": [
+        1000,
+        200,
+        1800,
+        200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "klCOjeBwnM2W2tHn",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.klCOjeBwnM2W2tHn",
+      "flags": {}
+    },
+    {
+      "c": [
+        200,
+        400,
+        800,
+        400
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "bmX6FmfmF2f9QzGb",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.bmX6FmfmF2f9QzGb",
+      "flags": {}
+    },
+    {
+      "c": [
+        2000,
+        400,
+        2600,
+        400
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "qacqvipodf4sUKeo",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.qacqvipodf4sUKeo",
+      "flags": {}
+    },
+    {
+      "c": [
+        1000,
+        800,
+        1300,
+        800
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "fWybdYLwczcVZN9l",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.fWybdYLwczcVZN9l",
+      "flags": {}
+    },
+    {
+      "c": [
+        1500,
+        800,
+        1800,
+        800
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "PP4drVvRcNP5vxDl",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.PP4drVvRcNP5vxDl",
+      "flags": {}
+    },
+    {
+      "c": [
+        200,
+        900,
+        800,
+        900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "49nVvkzihg5hQK0h",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.49nVvkzihg5hQK0h",
+      "flags": {}
+    },
+    {
+      "c": [
+        2000,
+        900,
+        2600,
+        900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "G5NI3YB0a6nojoqt",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.G5NI3YB0a6nojoqt",
+      "flags": {}
+    },
+    {
+      "c": [
+        200,
+        1400,
+        900,
+        1400
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "JSJBJngo4Ryt2Fis",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.JSJBJngo4Ryt2Fis",
+      "flags": {}
+    },
+    {
+      "c": [
+        2000,
+        1400,
+        2600,
+        1400
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "JVIJqLg5B0LM6RFW",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.JVIJqLg5B0LM6RFW",
+      "flags": {}
+    },
+    {
+      "c": [
+        2000,
+        1900,
+        2600,
+        1900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "Wy1XaGWsF5O8pB2E",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.Wy1XaGWsF5O8pB2E",
+      "flags": {}
+    },
+    {
+      "c": [
+        200,
+        2000,
+        900,
+        2000
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "2jgGUIL60nV4ChZM",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.2jgGUIL60nV4ChZM",
+      "flags": {}
+    },
+    {
+      "c": [
+        0,
+        2200,
+        2800,
+        2200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "B5Ay1LLszfxa5RHc",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.B5Ay1LLszfxa5RHc",
+      "flags": {}
+    },
+    {
+      "c": [
+        0,
+        0,
+        0,
+        2200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "nxi5eQFXwYWXCnR4",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.nxi5eQFXwYWXCnR4",
+      "flags": {}
+    },
+    {
+      "c": [
+        200,
+        400,
+        200,
+        900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "wCHvZmC1gG54YBSM",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.wCHvZmC1gG54YBSM",
+      "flags": {}
+    },
+    {
+      "c": [
+        200,
+        1400,
+        200,
+        2000
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "br8qDYOGTDs85XGT",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.br8qDYOGTDs85XGT",
+      "flags": {}
+    },
+    {
+      "c": [
+        800,
+        400,
+        800,
+        600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "gOU87Tx18uP7QEI0",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.gOU87Tx18uP7QEI0",
+      "flags": {}
+    },
+    {
+      "c": [
+        800,
+        700,
+        800,
+        900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "BtmYTG1d21Hdron7",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.BtmYTG1d21Hdron7",
+      "flags": {}
+    },
+    {
+      "c": [
+        900,
+        1400,
+        900,
+        1600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "AjO63F3N9SF5AFYD",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.AjO63F3N9SF5AFYD",
+      "flags": {}
+    },
+    {
+      "c": [
+        900,
+        1700,
+        900,
+        2000
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "sPkKS3mMwTMYfxzd",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.sPkKS3mMwTMYfxzd",
+      "flags": {}
+    },
+    {
+      "c": [
+        1000,
+        200,
+        1000,
+        800
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "rAQ8B6KRghF6OTyO",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.rAQ8B6KRghF6OTyO",
+      "flags": {}
+    },
+    {
+      "c": [
+        1800,
+        200,
+        1800,
+        800
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "UuM9UfuwOVXik1HD",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.UuM9UfuwOVXik1HD",
+      "flags": {}
+    },
+    {
+      "c": [
+        2000,
+        400,
+        2000,
+        600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "cibQ3W9Mck2kL0Za",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.cibQ3W9Mck2kL0Za",
+      "flags": {}
+    },
+    {
+      "c": [
+        2000,
+        700,
+        2000,
+        900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "3NgL9RQzvQa3XE2G",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.3NgL9RQzvQa3XE2G",
+      "flags": {}
+    },
+    {
+      "c": [
+        2000,
+        1400,
+        2000,
+        1500
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "n96rBEbJBR5EC2kt",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.n96rBEbJBR5EC2kt",
+      "flags": {}
+    },
+    {
+      "c": [
+        2000,
+        1800,
+        2000,
+        1900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "Z279PKBLFBTmOLBF",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.Z279PKBLFBTmOLBF",
+      "flags": {}
+    },
+    {
+      "c": [
+        2600,
+        400,
+        2600,
+        900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "vLHJmjiLG4HKJU5o",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.vLHJmjiLG4HKJU5o",
+      "flags": {}
+    },
+    {
+      "c": [
+        2600,
+        1400,
+        2600,
+        1900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "5srYj6RyJHOZBEFv",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.5srYj6RyJHOZBEFv",
+      "flags": {}
+    },
+    {
+      "c": [
+        2800,
+        0,
+        2800,
+        2200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "p5UWq1ALVNTiFfju",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.p5UWq1ALVNTiFfju",
+      "flags": {}
+    },
+    {
+      "c": [
+        900,
+        1600,
+        900,
+        1700
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 1,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "0GNZ9iiCtIZ97Fn5",
+      "_key": "!scenes.walls!g5R6ceiFmzXYjr3m.0GNZ9iiCtIZ97Fn5",
+      "flags": {}
+    }
+  ],
+  "drawings": [
+    {
+      "x": 0,
+      "y": 0,
+      "shape": {
+        "type": "r",
+        "width": 2800,
+        "height": 2200
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Camp",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1000,
+      "_id": "IrZNcvAXg5gZ8Xs3",
+      "_key": "!scenes.drawings!g5R6ceiFmzXYjr3m.IrZNcvAXg5gZ8Xs3",
+      "flags": {},
+      "author": "E9RXbhSzIHCxzc3v"
+    },
+    {
+      "x": 1000,
+      "y": 200,
+      "shape": {
+        "type": "r",
+        "width": 800,
+        "height": 600
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Tente du chef",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1001,
+      "_id": "CGgDdOjHJ3VQpVZG",
+      "_key": "!scenes.drawings!g5R6ceiFmzXYjr3m.CGgDdOjHJ3VQpVZG",
+      "flags": {},
+      "author": "E9RXbhSzIHCxzc3v"
+    },
+    {
+      "x": 200,
+      "y": 400,
+      "shape": {
+        "type": "r",
+        "width": 600,
+        "height": 500
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Tente des grunts",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1002,
+      "_id": "2BxBl4SKpIg4ZfF3",
+      "_key": "!scenes.drawings!g5R6ceiFmzXYjr3m.2BxBl4SKpIg4ZfF3",
+      "flags": {},
+      "author": "E9RXbhSzIHCxzc3v"
+    },
+    {
+      "x": 2000,
+      "y": 400,
+      "shape": {
+        "type": "r",
+        "width": 600,
+        "height": 500
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Tente du chaman",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1003,
+      "_id": "oVW9NpEz9vJ1hxn0",
+      "_key": "!scenes.drawings!g5R6ceiFmzXYjr3m.oVW9NpEz9vJ1hxn0",
+      "flags": {},
+      "author": "E9RXbhSzIHCxzc3v"
+    },
+    {
+      "x": 200,
+      "y": 1400,
+      "shape": {
+        "type": "r",
+        "width": 700,
+        "height": 600
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Enclos des loups",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1004,
+      "_id": "EF6Vk0UCPErH75Uf",
+      "_key": "!scenes.drawings!g5R6ceiFmzXYjr3m.EF6Vk0UCPErH75Uf",
+      "flags": {},
+      "author": "E9RXbhSzIHCxzc3v"
+    },
+    {
+      "x": 2000,
+      "y": 1400,
+      "shape": {
+        "type": "r",
+        "width": 600,
+        "height": 500
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Forge de campagne",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1005,
+      "_id": "oMjysByzrFjxyN40",
+      "_key": "!scenes.drawings!g5R6ceiFmzXYjr3m.oMjysByzrFjxyN40",
+      "flags": {},
+      "author": "E9RXbhSzIHCxzc3v"
+    }
+  ],
+  "lights": [
+    {
+      "x": 1350,
+      "y": 1250,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 7.5,
+        "bright": 4,
+        "color": "#ff8a30",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5
+      },
+      "_id": "NwJZrdqOvamn9fQr",
+      "_key": "!scenes.lights!g5R6ceiFmzXYjr3m.NwJZrdqOvamn9fQr",
+      "flags": {}
+    },
+    {
+      "x": 1350,
+      "y": 450,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 3,
+        "bright": 1.5,
+        "color": "#ffaa55",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5
+      },
+      "_id": "uEHwKqfyirdHJ2Pb",
+      "_key": "!scenes.lights!g5R6ceiFmzXYjr3m.uEHwKqfyirdHJ2Pb",
+      "flags": {}
+    },
+    {
+      "x": 2250,
+      "y": 650,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 3,
+        "bright": 1.5,
+        "color": "#66ccff",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5
+      },
+      "_id": "UoSyYhoZjdnoGmEU",
+      "_key": "!scenes.lights!g5R6ceiFmzXYjr3m.UoSyYhoZjdnoGmEU",
+      "flags": {}
+    },
+    {
+      "x": 2350,
+      "y": 1650,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 3,
+        "bright": 1.5,
+        "color": "#ff6a20",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5
+      },
+      "_id": "ByG6ODZ9gHDksXX3",
+      "_key": "!scenes.lights!g5R6ceiFmzXYjr3m.ByG6ODZ9gHDksXX3",
+      "flags": {}
+    }
+  ],
+  "tokens": [],
+  "notes": [],
+  "sounds": [],
+  "regions": [],
+  "tiles": [],
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "lieu-campement-orc",
+      "description": "Un avant-poste de la Horde en pleine nature (Tarides, Durotar, Orneval) : tente du chef, tente des grunts, tente du chaman, enclos des loups, forge de campagne et grand feu central. Pour une audience auprès d'un chef orc, un défi d'honneur, une mission confiée par la Horde, une attaque de centaures ou une infiltration côté Alliance.",
+      "plan": {
+        "largeur": 28,
+        "hauteur": 22,
+        "lumiere": "penombre",
+        "pieces": [
+          {
+            "nom": "Camp",
+            "x": 0,
+            "y": 0,
+            "l": 28,
+            "h": 22,
+            "sol": "terre"
+          },
+          {
+            "nom": "Tente du chef",
+            "x": 10,
+            "y": 2,
+            "l": 8,
+            "h": 6,
+            "sol": "bois"
+          },
+          {
+            "nom": "Tente des grunts",
+            "x": 2,
+            "y": 4,
+            "l": 6,
+            "h": 5,
+            "sol": "terre"
+          },
+          {
+            "nom": "Tente du chaman",
+            "x": 20,
+            "y": 4,
+            "l": 6,
+            "h": 5,
+            "sol": "cendre"
+          },
+          {
+            "nom": "Enclos des loups",
+            "x": 2,
+            "y": 14,
+            "l": 7,
+            "h": 6,
+            "sol": "terre"
+          },
+          {
+            "nom": "Forge de campagne",
+            "x": 20,
+            "y": 14,
+            "l": 6,
+            "h": 5,
+            "sol": "pierre"
+          }
+        ],
+        "ouvertures": [
+          {
+            "x": 13,
+            "y": 7,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 14,
+            "y": 7,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 7,
+            "y": 6,
+            "cote": "est",
+            "type": "passage"
+          },
+          {
+            "x": 20,
+            "y": 6,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 8,
+            "y": 16,
+            "cote": "est",
+            "type": "porte"
+          },
+          {
+            "x": 20,
+            "y": 15,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 20,
+            "y": 16,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 20,
+            "y": 17,
+            "cote": "ouest",
+            "type": "passage"
+          }
+        ],
+        "lumieres": [
+          {
+            "x": 13,
+            "y": 12,
+            "rayon": 5,
+            "couleur": "#ff8a30"
+          },
+          {
+            "x": 13,
+            "y": 4,
+            "rayon": 2,
+            "couleur": "#ffaa55"
+          },
+          {
+            "x": 22,
+            "y": 6,
+            "rayon": 2,
+            "couleur": "#66ccff"
+          },
+          {
+            "x": 23,
+            "y": 16,
+            "rayon": 2,
+            "couleur": "#ff6a20"
+          }
+        ],
+        "elements": [
+          {
+            "nom": "Feu de camp",
+            "x": 13,
+            "y": 12,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Trône du chef",
+            "x": 13,
+            "y": 3,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Table de guerre",
+            "x": 11,
+            "y": 5,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Paillasses",
+            "x": 3,
+            "y": 5,
+            "l": 2,
+            "h": 3
+          },
+          {
+            "nom": "Totem",
+            "x": 23,
+            "y": 5,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Chaudron",
+            "x": 21,
+            "y": 7,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Mangeoire",
+            "x": 3,
+            "y": 18,
+            "l": 3,
+            "h": 1
+          },
+          {
+            "nom": "Enclume",
+            "x": 23,
+            "y": 16,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Râtelier d'armes",
+            "x": 10,
+            "y": 15,
+            "l": 3,
+            "h": 1
+          },
+          {
+            "nom": "Tambour de guerre",
+            "x": 17,
+            "y": 11,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Bannière de la Horde",
+            "x": 9,
+            "y": 9,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Palissade",
+            "x": 0,
+            "y": 0,
+            "l": 9,
+            "h": 1
+          },
+          {
+            "nom": "Palissade",
+            "x": 19,
+            "y": 0,
+            "l": 9,
+            "h": 1
+          },
+          {
+            "nom": "Caisses",
+            "x": 16,
+            "y": 19,
+            "l": 2,
+            "h": 2
+          }
+        ]
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

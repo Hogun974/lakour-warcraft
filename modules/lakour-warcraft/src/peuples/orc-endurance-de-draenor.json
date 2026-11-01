@@ -1,0 +1,159 @@
+{
+  "_id": "chdwEzCa2Hrw5mdB",
+  "_key": "!items!chdwEzCa2Hrw5mdB",
+  "name": "Endurance de Draenor",
+  "type": "feat",
+  "img": "icons/magic/life/cross-area-circle-green-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>Les orcs se relèvent quand d'autres restent à terre. Quand vous tombez à 0 point de vie sans être tué sur le coup, vous pouvez revenir à <strong>1 point de vie</strong> à la place. Une utilisation par repos long.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "orc-endurance-de-draenor",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Orc",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {
+      "DcRYUPkWUExIR4Tv": {
+        "_id": "DcRYUPkWUExIR4Tv",
+        "type": "heal",
+        "name": "Refuser la chute",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": "Quand vous tombez à 0 point de vie sans être tué",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "healing": {
+          "number": null,
+          "denomination": null,
+          "bonus": "1",
+          "custom": {
+            "enabled": false,
+            "formula": ""
+          },
+          "scaling": {
+            "mode": "",
+            "number": null,
+            "formula": ""
+          },
+          "types": [
+            "healing"
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "orc-endurance-de-draenor"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

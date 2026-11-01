@@ -1,0 +1,196 @@
+{
+  "_id": "62NR9Fa6dOnIeYlG",
+  "_key": "!items!62NR9Fa6dOnIeYlG",
+  "name": "Gardien cénarien",
+  "type": "background",
+  "img": "icons/magic/nature/leaf-oak-wreath-glow-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Le Cercle cénarien accueille elfes de la nuit, taurens et quiconque protège l'équilibre de la nature, au-dessus des querelles de faction. Vous avez veillé sur un bosquet de Reflet-de-Lune, du Frêneval ou des Mulgore.</p><ul><li><strong>Caractéristiques :</strong> Constitution, Intelligence, Sagesse</li><li><strong>Compétences :</strong> Dressage, Nature</li><li><strong>Outil :</strong> matériel d'herboriste</li><li><strong>Don d'origine :</strong> Lien sylvestre</li><li><strong>Langues :</strong> trois au choix (le darnassien ou l'orc selon votre peuple)</li><li><strong>Équipement :</strong> bâton, focaliseur druidique, matériel d'herboriste, couverture, 5 rations, 9 po, <em>ou</em> 50 po</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "gardien-cenarien",
+    "advancement": {
+      "Bj5VS5mrCe2fhIIe": {
+        "_id": "Bj5VS5mrCe2fhIIe",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "cha"
+          ],
+          "points": 3,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Amélioration de caractéristiques de l'historique",
+        "hint": "Augmentez l'une des trois caractéristiques de 2 et une autre de 1, ou les trois de 1, sans dépasser 20.",
+        "flags": {}
+      },
+      "Qb4WWZccH2yes443": {
+        "_id": "Qb4WWZccH2yes443",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:ani",
+            "skills:nat",
+            "tool:herb"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Maîtrises de l'historique",
+        "hint": "",
+        "flags": {}
+      },
+      "OV1fgLNBwdXCaJCv": {
+        "_id": "OV1fgLNBwdXCaJCv",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.historiques.Item.YDwuEjLACxQU0UZk",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Don d'origine",
+        "hint": "",
+        "flags": {}
+      },
+      "Y6v85DftFMGelneH": {
+        "_id": "Y6v85DftFMGelneH",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 3,
+              "pool": [
+                "languages:standard:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Langues",
+        "hint": "Le commun de votre faction, plus deux langues au choix (voir le guide du joueur).",
+        "flags": {}
+      }
+    },
+    "startingEquipment": [
+      {
+        "_id": "AB9fMtKzN8G5ngmQ",
+        "type": "AND",
+        "group": "",
+        "sort": 100000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "yjPKXXAxc6wl52Ht",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbwepQuartersta",
+        "count": null,
+        "group": "AB9fMtKzN8G5ngmQ",
+        "sort": 200000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "xbKFlsftz1596rNJ",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagDruidicFocu",
+        "count": null,
+        "group": "AB9fMtKzN8G5ngmQ",
+        "sort": 300000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "3dEJ8fjvCO0kz16c",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbtulHerbalismK",
+        "count": null,
+        "group": "AB9fMtKzN8G5ngmQ",
+        "sort": 400000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "S4Suh1cwLAr8lHCa",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagBlanket0000",
+        "count": null,
+        "group": "AB9fMtKzN8G5ngmQ",
+        "sort": 500000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "kpX7FoChD5zEfTpL",
+        "type": "linked",
+        "key": "Compendium.dnd5e.equipment24.Item.phbagRations0000",
+        "count": 5,
+        "group": "AB9fMtKzN8G5ngmQ",
+        "sort": 600000,
+        "requiresProficiency": false
+      },
+      {
+        "_id": "pg5EBYE5bKUGO4Zl",
+        "type": "currency",
+        "key": "gp",
+        "count": 9,
+        "group": "AB9fMtKzN8G5ngmQ",
+        "sort": 9900000,
+        "requiresProficiency": false
+      }
+    ],
+    "wealth": "50"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "gardien-cenarien"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

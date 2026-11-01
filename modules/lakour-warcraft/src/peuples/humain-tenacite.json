@@ -1,0 +1,59 @@
+{
+  "_id": "tT1pPhiCwzGE5wYh",
+  "_key": "!items!tT1pPhiCwzGE5wYh",
+  "name": "Ténacité humaine",
+  "type": "feat",
+  "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Les royaumes humains ont survécu aux trolls, aux orcs et au Fléau : ils ne savent pas renoncer. Chaque fois que vous terminez un <strong>repos long</strong>, vous gagnez l'<strong>Inspiration héroïque</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "humain-tenacite",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Humain",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "humain-tenacite"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

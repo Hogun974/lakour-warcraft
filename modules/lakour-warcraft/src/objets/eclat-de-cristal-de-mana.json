@@ -1,0 +1,58 @@
+{
+  "_id": "PjSkJfImDBbSnc3A",
+  "_key": "!items!PjSkJfImDBbSnc3A",
+  "name": "Éclat de cristal de mana",
+  "type": "loot",
+  "img": "icons/commodities/gems/gem-amber-insect-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un fragment de cristal violet qui bourdonne doucement. Les elfes de sang en paient le double de sa valeur, sans poser de questions.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "eclat-de-cristal-de-mana",
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "gem",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "eclat-de-cristal-de-mana"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

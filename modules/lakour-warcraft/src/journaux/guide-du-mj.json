@@ -1,0 +1,137 @@
+{
+  "_id": "AhhKFRv0rzMyRAt8",
+  "_key": "!journal!AhhKFRv0rzMyRAt8",
+  "name": "Guide du MJ — Azeroth",
+  "folder": null,
+  "sort": 0,
+  "categories": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "guide-du-mj"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "pages": [
+    {
+      "_id": "jf7Fr9gYdMHHntDn",
+      "_key": "!journal.pages!AhhKFRv0rzMyRAt8.jf7Fr9gYdMHHntDn",
+      "name": "Chronologie",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Repères en années avant ou après <strong>l'ouverture de la Porte des Ténèbres</strong> (le premier passage des orcs). Le présent de la campagne est <strong>l'an 21</strong>.</p><ul><li><strong>Il y a 10 000 ans</strong> : la Guerre des Anciens. Les elfes de la nuit repoussent la Légion ardente ; le Puits d'éternité explose et brise le continent (la Grande Fracture). La Pandarie s'isole.</li><li><strong>Il y a quelques millénaires</strong> : les hauts-elfes exilés fondent Quel'Thalas ; les humains bâtissent Arathor, puis les sept royaumes.</li><li><strong>An -2 à 0</strong> : sur Draenor, le démon Kil'jaeden corrompt les orcs ; ils massacrent les draeneï.</li><li><strong>An 0 – Première Guerre</strong> : la Porte des Ténèbres s'ouvre ; la Horde rase Hurlevent.</li><li><strong>An 5 à 7 – Deuxième Guerre</strong> : l'Alliance de Lordaeron écrase la Horde. Les orcs vaincus sont parqués dans des <strong>camps d'internement</strong> et sombrent dans la léthargie.</li><li><strong>An 10 à 18</strong> : Thrall, esclave élevé par un noble humain, s'évade, découvre le chamanisme et libère les camps.</li><li><strong>An 19 à 20 – Troisième Guerre</strong> : la peste et le Fléau ravagent Lordaeron ; le prince Arthas tue son père et devient chevalier de la mort ; Dalaran tombe ; Quel'Thalas est dévasté. Thrall mène la Horde en Kalimdor, s'allie aux taurens ; Jaina y conduit les rescapés humains. Ensemble, avec les elfes de la nuit, ils vainquent Archimonde au <strong>Mont Hyjal</strong>.</li><li><strong>An 21 – Maintenant</strong> : Orgrimmar et Theramore sont fondées. Sylvanas libère les Réprouvés et prend Lordaeron. Arthas est parti vers le Norfendre. La paix entre Thrall et Jaina tient… à peine.</li></ul><p><strong>Ne faites pas avancer l'histoire officielle à la place des joueurs.</strong> Les grands noms existent, ils agissent loin, et les joueurs vivent l'histoire d'en bas.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "nYitE9EwLmO9oMhF",
+      "_key": "!journal.pages!AhhKFRv0rzMyRAt8.nYitE9EwLmO9oMhF",
+      "name": "Ton et thèmes",
+      "type": "text",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<ul><li><strong>Héroïque, mais pas naïf.</strong> Les personnages peuvent changer les choses autour d'eux ; les factions, elles, sont lentes, rancunières et pleines de contradictions.</li><li><strong>Après la guerre.</strong> Des réfugiés sur les routes, des villages vidés, des soldats qui ne savent rien faire d'autre, des orphelins, des profiteurs. La reconstruction est un sujet aussi riche que les batailles.</li><li><strong>L'autre camp a un visage.</strong> Un grunt et un fantassin de Hurlevent ont tous deux perdu des frères. Montrez-le.</li><li><strong>Une touche d'humour.</strong> Gnomes, gobelins, murlocs et ivrognes nains apportent la légèreté propre à Warcraft. Ne tournez pas tout en farce : un gag par scène suffit.</li><li><strong>La magie a un prix.</strong> La gangrène corrompt, l'arcane rend dépendant, la nécromancie souille. Même la Lumière peut nourrir le fanatisme.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xfGlXUwOHMG6usZl",
+      "_key": "!journal.pages!AhhKFRv0rzMyRAt8.xfGlXUwOHMG6usZl",
+      "name": "La magie d'Azeroth",
+      "type": "text",
+      "sort": 300,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>La Lumière</h2><p>Une force de foi et de volonté, sans dieu unique. Prêtres et paladins la canalisent : soins, protection, feu sacré. <strong>En jeu</strong> : clercs et paladins, dégâts radiants. Les morts-vivants la craignent… mais un Réprouvé prêtre peut encore la toucher, au prix de la douleur.</p><h2>L'arcane</h2><p>La magie des mages : brute, puissante, <strong>addictive</strong>. Elle attire les démons. Les elfes de sang, privés du Puits de soleil, souffrent d'une faim arcanique. <strong>En jeu</strong> : magiciens, ensorceleurs ; dégâts de force, de feu, de froid.</p><h2>La gangrène (fel)</h2><p>La magie verte et chaotique de la Légion ardente. Elle donne la puissance en échange de l'âme : peaux qui verdissent, yeux qui brûlent, folie. C'est elle qui a corrompu les orcs. <strong>En jeu</strong> : occultistes du Fiélon, cultistes, démons ; dégâts de feu (verts) ou nécrotiques. Un démoniste est <strong>toléré</strong> au mieux, jamais aimé.</p><h2>Le chamanisme</h2><p>Le dialogue avec les esprits des éléments (terre, air, feu, eau) et des ancêtres. On <strong>demande</strong>, on ne commande pas : un chaman irrespectueux est abandonné par les éléments. <strong>En jeu</strong> : druides du Cercle de la Terre, clercs de la Tempête ; foudre, tonnerre, soins.</p><h2>Le druidisme</h2><p>L'harmonie avec la nature et le Rêve d'émeraude, enseignée par le demi-dieu Cénarius. Formes animales, croissance, guérison. <strong>En jeu</strong> : druides, rôdeurs.</p><h2>L'ombre et la mort</h2><p>La nécromancie du Fléau et du culte des Damnés, la magie d'ombre des prêtres réprouvés. <strong>En jeu</strong> : dégâts nécrotiques, morts-vivants. Les vivants la haïssent.</p><h2>Le vaudou</h2><p>La magie des trolls : loa (esprits-animaux), poupées, malédictions, potions. <strong>En jeu</strong> : druides, occultistes, clercs réinterprétés.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "GYBVZ0O4Ue7sCM5A",
+      "_key": "!journal.pages!AhhKFRv0rzMyRAt8.GYBVZ0O4Ue7sCM5A",
+      "name": "Monnaie et économie",
+      "type": "text",
+      "sort": 400,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<ul><li><strong>Pièces d'or (po), d'argent (pa), de cuivre (pc)</strong> : 1 po = 10 pa = 100 pc. Les pièces de platine et d'électrum de dnd5e n'existent pas ; convertissez-les en or.</li><li>Chaque royaume frappe sa monnaie, mais l'or est l'or : tout le monde l'accepte, surtout les gobelins.</li><li><strong>Prix de repère</strong> : une nuit à l'auberge 5 pa, un repas chaud 3 pa, une chope de bière naine 4 pc, un cheval 75 po, un loup de monte ou un bélier 75 po (et pas vendu à l'autre faction), un passage en zeppelin gobelin 5 po.</li><li><strong>La pierre de foyer</strong> se lie à une auberge (l'aubergiste le fait volontiers). Elle se recharge à l'aube. Elle échoue si l'on subit des dégâts pendant les 10 minutes du rappel, et ne fonctionne pas sur un autre continent : elle sert à rentrer, pas à fuir un combat.</li><li><strong>Commerce entre factions</strong> : interdit dans les capitales, toléré dans les ports gobelins, pratiqué partout en douce.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "KPaVpc3xXYqmiEzQ",
+      "_key": "!journal.pages!AhhKFRv0rzMyRAt8.KPaVpc3xXYqmiEzQ",
+      "name": "Langues",
+      "type": "text",
+      "sort": 500,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Correspondance avec les clés de langue de dnd5e (utilisées par les historiques du module) :</p><ul><li><strong>Commun</strong> (Alliance) → commun ; <strong>Orc</strong> (langue commune de la Horde) → orc.</li><li><strong>Nain</strong> → nain ; <strong>Gnome</strong> → gnome ; <strong>Gobelin</strong> → gobelin.</li><li><strong>Darnassien</strong> et <strong>thalassien</strong> → elfique (dialectes).</li><li><strong>Taur-ahe</strong> → géant.</li><li><strong>Zandali</strong> (trolls), <strong>draeneï</strong>, <strong>bas-parler</strong> (argot des Réprouvés), <strong>pandaren</strong> : langues libres, à noter à la main.</li><li><strong>Démoniaque</strong> (eredun) → infernal ; <strong>langue des Titans</strong> → céleste ; <strong>kalimag</strong> (élémentaires) → primordial.</li></ul><p><strong>Règle de table</strong> : un membre de la Horde et un membre de l'Alliance ne se comprennent pas sans langue commune. Ne l'oubliez pas : les malentendus font d'excellentes scènes. Un groupe mixte a presque toujours un interprète.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ugfgqWqsv5r4uKxy",
+      "_key": "!journal.pages!AhhKFRv0rzMyRAt8.ugfgqWqsv5r4uKxy",
+      "name": "Conseils pour le MJ (et le MJ IA)",
+      "type": "text",
+      "sort": 600,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Présenter la Horde et l'Alliance</h2><ul><li><strong>Jamais de camp du mal.</strong> Chaque faction a ses héros, ses brutes et ses gens ordinaires. Quand un PNJ parle de l'autre camp, donnez-lui une raison personnelle (un frère mort, une ferme brûlée, une dette d'honneur).</li><li><strong>Un groupe mixte est possible</strong> à cette époque : la paix de Thrall et Jaina, un contrat du Cercle cénarien, du Kirin Tor ou d'un cartel gobelin, un ennemi commun (le Fléau, un culte démoniaque). Donnez une <strong>raison de rester ensemble</strong> dès la première scène.</li><li><strong>Les tensions sont du jeu, pas une punition</strong> : un garde qui refuse l'entrée, une auberge qui ne sert pas les orcs, un réfugié qui crache par terre. Une scène, puis on avance.</li></ul><h2>Improviser</h2><ul><li><strong>Commencez par un lieu concret</strong> : une odeur, un bruit, un détail propre à Warcraft (un murloc qui gargouille, une cloche de zeppelin, un totem de vent qui siffle).</li><li><strong>Les grands noms restent loin.</strong> Thrall, Jaina, Sylvanas ou Cairne peuvent envoyer un messager ou passer au loin ; ils ne résolvent pas les problèmes des joueurs.</li><li><strong>Tirez dans les tables</strong> (noms, rumeurs, rencontres, complications) quand l'inspiration manque, puis adaptez.</li><li><strong>Respectez les règles 2024</strong> : avantage et désavantage plutôt que des modificateurs, DD 10/15/20 pour facile/moyen/difficile, inspiration héroïque pour une belle idée.</li><li><strong>Les traits des peuples sont dans les fiches</strong> : quand un tauren charge ou qu'un réprouvé dévore un cadavre, décrivez-le, et faites réagir les témoins.</li></ul><h2>PNJ typiques</h2><ul><li><strong>Aubergiste</strong> : connaît tout le monde, lie les pierres de foyer, vend la bière locale. Humaine ronde et pressée à Hurlevent, orc borgne à Orgrimmar, gobelin qui facture la chaise.</li><li><strong>Grunt de garde</strong> : fier, méfiant, respecte la force et la franchise. « Lok'tar ! »</li><li><strong>Soldat de la Garde de Hurlevent</strong> : fatigué, sous-payé, honnête si on le respecte.</li><li><strong>Paysan réfugié de Lordaeron</strong> : a tout perdu, a peur des morts, hait les orcs par habitude.</li><li><strong>Croisé écarlate</strong> : poli, glacial, prêt à brûler n'importe qui « par précaution ».</li><li><strong>Ingénieur gnome</strong> : parle vite, promet beaucoup, livre en retard, l'appareil fume.</li><li><strong>Marchand gobelin</strong> : sourire en or, contrat en petits caractères, commission sur tout.</li><li><strong>Druide cénarien</strong> : neutre, lent à se décider, implacable contre ceux qui abîment la forêt.</li><li><strong>Apothicaire réprouvé</strong> : courtois, curieux de vos organes, travaille sur « un remède ».</li><li><strong>Féticheur troll</strong> : rit beaucoup, parle aux loa, connaît un raccourci par la jungle.</li><li><strong>Cultiste du Marteau du crépuscule ou des Damnés</strong> : voisin ordinaire le jour, fanatique la nuit.</li></ul><h2>Ce que le MJ IA doit éviter</h2><ul><li>Inventer des événements officiels futurs (la mort d'un grand personnage, une guerre majeure) sans l'accord de la table.</li><li>Faire d'un peuple entier un bloc uniforme.</li><li>Oublier les langues et les tensions de faction dans un groupe mixte.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ]
+}

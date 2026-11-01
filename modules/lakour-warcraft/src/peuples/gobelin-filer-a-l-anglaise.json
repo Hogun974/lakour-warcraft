@@ -1,0 +1,59 @@
+{
+  "_id": "bnGvP1CESISHmMXh",
+  "_key": "!items!bnGvP1CESISHmMXh",
+  "name": "Filer à l'anglaise",
+  "type": "feat",
+  "img": "icons/skills/movement/figure-running-gray.webp",
+  "system": {
+    "description": {
+      "value": "<p>Quand ça tourne mal, un gobelin est déjà ailleurs. Vous pouvez effectuer l'action <strong>Se désengager</strong> ou <strong>Se cacher</strong> par une <strong>action bonus</strong>, à chacun de vos tours.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "gobelin-filer-a-l-anglaise",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Gobelin",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "gobelin-filer-a-l-anglaise"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

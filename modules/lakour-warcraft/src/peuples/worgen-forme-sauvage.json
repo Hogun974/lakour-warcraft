@@ -1,0 +1,214 @@
+{
+  "_id": "1mP9e6j3sTuquJBA",
+  "_key": "!items!1mP9e6j3sTuquJBA",
+  "name": "Forme sauvage",
+  "type": "feat",
+  "img": "icons/creatures/abilities/wolf-howl-moon-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>La malédiction de Gilnéas sommeille sous votre peau. Par une <strong>action bonus</strong>, vous prenez votre forme de loup pendant 1 minute : vous gagnez des points de vie temporaires égaux à votre <strong>bonus de maîtrise</strong>, votre vitesse augmente de 3 m, et vous avez l'avantage aux tests de <strong>Force</strong>. Vous reprenez forme humaine par une action bonus, ou si vous tombez inconscient. Une utilisation par repos long.</p><p>Vous pouvez porter vos armes et votre armure sous les deux formes.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "worgen-forme-sauvage",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Worgen",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {
+      "JZpJOCJTYVSCorCN": {
+        "_id": "JZpJOCJTYVSCorCN",
+        "type": "heal",
+        "name": "Libérer le loup",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "Ij4zINSyH0tR9bBt",
+            "level": {}
+          }
+        ],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "healing": {
+          "number": null,
+          "denomination": null,
+          "bonus": "@prof",
+          "custom": {
+            "enabled": false,
+            "formula": ""
+          },
+          "scaling": {
+            "mode": "",
+            "number": null,
+            "formula": ""
+          },
+          "types": [
+            "temphp"
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "Ij4zINSyH0tR9bBt",
+      "_key": "!items.effects!1mP9e6j3sTuquJBA.Ij4zINSyH0tR9bBt",
+      "name": "Forme sauvage",
+      "img": "icons/creatures/abilities/wolf-howl-moon-white.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.movement.walk",
+            "value": 3,
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "C84tSKAylL4f06b1"
+          },
+          {
+            "key": "system.abilities.str.check.roll.mode",
+            "value": 1,
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "dVuyPfvjhbfngz4Z"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": 60,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "worgen-forme-sauvage"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,881 @@
+{
+  "_id": "luDaXY4uh7ekndDq",
+  "_key": "!scenes!luDaXY4uh7ekndDq",
+  "name": "Lieu — Clairière en forêt",
+  "navName": "Lieu — Clairière en forêt",
+  "navigation": true,
+  "active": false,
+  "width": 2800,
+  "height": 2200,
+  "padding": 0,
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "distance": 1.5,
+    "units": "m"
+  },
+  "tokenVision": true,
+  "environment": {
+    "darknessLevel": 0,
+    "globalLight": {
+      "enabled": true
+    }
+  },
+  "levels": [
+    {
+      "_id": "defaultLevel0000",
+      "name": "Niveau principal",
+      "elevation": {
+        "bottom": 0,
+        "top": null
+      },
+      "background": {
+        "color": "#18181b",
+        "src": "modules/lakour-warcraft/assets/cartes/lieu-foret.svg"
+      },
+      "_key": "!scenes.levels!luDaXY4uh7ekndDq.defaultLevel0000",
+      "flags": {}
+    }
+  ],
+  "initialLevel": "defaultLevel0000",
+  "walls": [
+    {
+      "c": [
+        0,
+        0,
+        2800,
+        0
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "goLcXPd3H1PCkBLb",
+      "_key": "!scenes.walls!luDaXY4uh7ekndDq.goLcXPd3H1PCkBLb",
+      "flags": {}
+    },
+    {
+      "c": [
+        200,
+        200,
+        700,
+        200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "Slod6zOBa7z57NCO",
+      "_key": "!scenes.walls!luDaXY4uh7ekndDq.Slod6zOBa7z57NCO",
+      "flags": {}
+    },
+    {
+      "c": [
+        200,
+        600,
+        400,
+        600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "uBF4CyoVCwUnCqhi",
+      "_key": "!scenes.walls!luDaXY4uh7ekndDq.uBF4CyoVCwUnCqhi",
+      "flags": {}
+    },
+    {
+      "c": [
+        500,
+        600,
+        700,
+        600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "GKV1IVf6Hau5xcqE",
+      "_key": "!scenes.walls!luDaXY4uh7ekndDq.GKV1IVf6Hau5xcqE",
+      "flags": {}
+    },
+    {
+      "c": [
+        0,
+        2200,
+        2800,
+        2200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "lyCGIbKsiqYuT8R9",
+      "_key": "!scenes.walls!luDaXY4uh7ekndDq.lyCGIbKsiqYuT8R9",
+      "flags": {}
+    },
+    {
+      "c": [
+        0,
+        0,
+        0,
+        2200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "ffOFuAPNv7WSrKyl",
+      "_key": "!scenes.walls!luDaXY4uh7ekndDq.ffOFuAPNv7WSrKyl",
+      "flags": {}
+    },
+    {
+      "c": [
+        200,
+        200,
+        200,
+        600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "qGY0taeMaFvkqHQ6",
+      "_key": "!scenes.walls!luDaXY4uh7ekndDq.qGY0taeMaFvkqHQ6",
+      "flags": {}
+    },
+    {
+      "c": [
+        700,
+        200,
+        700,
+        300
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "1YXfQS9oGFKtZTPT",
+      "_key": "!scenes.walls!luDaXY4uh7ekndDq.1YXfQS9oGFKtZTPT",
+      "flags": {}
+    },
+    {
+      "c": [
+        700,
+        400,
+        700,
+        600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "9AQSD2BNcx1x9POP",
+      "_key": "!scenes.walls!luDaXY4uh7ekndDq.9AQSD2BNcx1x9POP",
+      "flags": {}
+    },
+    {
+      "c": [
+        2800,
+        0,
+        2800,
+        2200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "Ze0zyEv3i9OIEjj8",
+      "_key": "!scenes.walls!luDaXY4uh7ekndDq.Ze0zyEv3i9OIEjj8",
+      "flags": {}
+    },
+    {
+      "c": [
+        400,
+        600,
+        500,
+        600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 1,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "v8IBMX9c8JSkW5ST",
+      "_key": "!scenes.walls!luDaXY4uh7ekndDq.v8IBMX9c8JSkW5ST",
+      "flags": {}
+    },
+    {
+      "c": [
+        700,
+        300,
+        700,
+        400
+      ],
+      "move": 20,
+      "sight": 0,
+      "light": 0,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "w5gVsXRWGi0F0h8C",
+      "_key": "!scenes.walls!luDaXY4uh7ekndDq.w5gVsXRWGi0F0h8C",
+      "flags": {}
+    }
+  ],
+  "drawings": [
+    {
+      "x": 0,
+      "y": 0,
+      "shape": {
+        "type": "r",
+        "width": 2800,
+        "height": 2200
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Sous-bois",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1000,
+      "_id": "j4jZU1ZXGO1iGZ5X",
+      "_key": "!scenes.drawings!luDaXY4uh7ekndDq.j4jZU1ZXGO1iGZ5X",
+      "flags": {},
+      "author": "E9RXbhSzIHCxzc3v"
+    },
+    {
+      "x": 200,
+      "y": 200,
+      "shape": {
+        "type": "r",
+        "width": 500,
+        "height": 400
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Cabane du trappeur",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1001,
+      "_id": "NaF2TmINNkFQjiMP",
+      "_key": "!scenes.drawings!luDaXY4uh7ekndDq.NaF2TmINNkFQjiMP",
+      "flags": {},
+      "author": "E9RXbhSzIHCxzc3v"
+    },
+    {
+      "x": 0,
+      "y": 1600,
+      "shape": {
+        "type": "r",
+        "width": 2800,
+        "height": 200
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Ruisseau",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1002,
+      "_id": "PVtdvOa0VwOcM7E0",
+      "_key": "!scenes.drawings!luDaXY4uh7ekndDq.PVtdvOa0VwOcM7E0",
+      "flags": {},
+      "author": "E9RXbhSzIHCxzc3v"
+    }
+  ],
+  "lights": [
+    {
+      "x": 1550,
+      "y": 1150,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 4.5,
+        "bright": 2.5,
+        "color": "#ffaa55",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5
+      },
+      "_id": "H8NUUYlRbbV9JMe4",
+      "_key": "!scenes.lights!luDaXY4uh7ekndDq.H8NUUYlRbbV9JMe4",
+      "flags": {}
+    }
+  ],
+  "tokens": [],
+  "notes": [],
+  "sounds": [],
+  "regions": [],
+  "tiles": [],
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "lieu-foret",
+      "description": "Une clairière au cœur d'une forêt (Elwynn, Orneval, Bois de la Pénombre) : grand chêne, cercle de pierres, cabane de trappeur et ruisseau franchi par un pont de rondins. Pour un bivouac, une embuscade de loups ou de bandits, un rendez-vous secret, un rituel druidique ou un satyre qui corrompt les bois.",
+      "plan": {
+        "largeur": 28,
+        "hauteur": 22,
+        "lumiere": "jour",
+        "pieces": [
+          {
+            "nom": "Sous-bois",
+            "x": 0,
+            "y": 0,
+            "l": 28,
+            "h": 22,
+            "sol": "herbe"
+          },
+          {
+            "nom": "Cabane du trappeur",
+            "x": 2,
+            "y": 2,
+            "l": 5,
+            "h": 4,
+            "sol": "bois"
+          },
+          {
+            "nom": "Ruisseau",
+            "x": 0,
+            "y": 16,
+            "l": 28,
+            "h": 2,
+            "sol": "eau"
+          }
+        ],
+        "ouvertures": [
+          {
+            "x": 4,
+            "y": 5,
+            "cote": "sud",
+            "type": "porte"
+          },
+          {
+            "x": 6,
+            "y": 3,
+            "cote": "est",
+            "type": "fenetre"
+          },
+          {
+            "x": 0,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 1,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 2,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 3,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 4,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 5,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 6,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 7,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 8,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 9,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 10,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 11,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 12,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 13,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 14,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 15,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 16,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 17,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 18,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 19,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 20,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 21,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 22,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 23,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 24,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 25,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 26,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 27,
+            "y": 16,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 0,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 1,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 2,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 3,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 4,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 5,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 6,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 7,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 8,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 9,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 10,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 11,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 12,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 13,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 14,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 15,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 16,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 17,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 18,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 19,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 20,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 21,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 22,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 23,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 24,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 25,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 26,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 27,
+            "y": 17,
+            "cote": "sud",
+            "type": "passage"
+          }
+        ],
+        "lumieres": [
+          {
+            "x": 15,
+            "y": 11,
+            "rayon": 3,
+            "couleur": "#ffaa55"
+          }
+        ],
+        "elements": [
+          {
+            "nom": "Grand chêne",
+            "x": 12,
+            "y": 6,
+            "l": 3,
+            "h": 3
+          },
+          {
+            "nom": "Feu de camp",
+            "x": 15,
+            "y": 11,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Cercle de pierres",
+            "x": 20,
+            "y": 3,
+            "l": 3,
+            "h": 3
+          },
+          {
+            "nom": "Pont de rondins",
+            "x": 19,
+            "y": 16,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Lit de camp",
+            "x": 3,
+            "y": 3,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Arbre",
+            "x": 0,
+            "y": 9,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Arbre",
+            "x": 8,
+            "y": 1,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Arbre",
+            "x": 25,
+            "y": 8,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Arbre",
+            "x": 4,
+            "y": 12,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Arbre",
+            "x": 23,
+            "y": 19,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Arbre",
+            "x": 5,
+            "y": 19,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Souche",
+            "x": 18,
+            "y": 12,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Rocher",
+            "x": 9,
+            "y": 13,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Buissons",
+            "x": 24,
+            "y": 13,
+            "l": 3,
+            "h": 1
+          }
+        ]
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

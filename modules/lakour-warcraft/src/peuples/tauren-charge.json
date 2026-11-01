@@ -1,0 +1,196 @@
+{
+  "_id": "W6sOOzXabhJNbmQZ",
+  "_key": "!items!W6sOOzXabhJNbmQZ",
+  "name": "Charge",
+  "type": "feat",
+  "img": "icons/creatures/mammals/ox-buffalo-horned-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une tonne de muscles lancée au galop ne s'arrête pas facilement. Si vous vous déplacez d'au moins 6 m en ligne droite vers une créature et la touchez avec une attaque au corps à corps dans le même tour, elle doit réussir un jet de sauvegarde de <strong>Force</strong> (DD 8 + votre modificateur de Constitution + votre bonus de maîtrise) ou tomber <strong>à terre</strong>. La cible doit être de taille Grande ou inférieure. Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "tauren-charge",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Tauren",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {
+      "gJL31gj2exojqDV0": {
+        "_id": "gJL31gj2exojqDV0",
+        "type": "save",
+        "name": "Renverser",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": "Après 6 m en ligne droite et une attaque au corps à corps réussie",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "agoGjnUDJX473uYV",
+            "onSave": false,
+            "level": {}
+          }
+        ],
+        "range": {
+          "value": "1.5",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "con",
+            "formula": ""
+          }
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": []
+        }
+      }
+    },
+    "uses": {
+      "max": "@prof",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "agoGjnUDJX473uYV",
+      "_key": "!items.effects!W6sOOzXabhJNbmQZ.agoGjnUDJX473uYV",
+      "name": "Renversé par la charge",
+      "img": "icons/creatures/mammals/ox-buffalo-horned-green.webp",
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "prone"
+      ],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "tauren-charge"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

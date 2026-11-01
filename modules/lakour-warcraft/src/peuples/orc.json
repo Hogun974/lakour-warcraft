@@ -1,0 +1,106 @@
+{
+  "_id": "rmn90qGCsz2MR07d",
+  "_key": "!items!rmn90qGCsz2MR07d",
+  "name": "Orc",
+  "type": "race",
+  "img": "icons/commodities/bones/skull-tusked-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Horde.</strong> Libérés des camps d'internement par Thrall, les orcs ont traversé la mer jusqu'à Kalimdor et fondé Orgrimmar dans les terres rouges de Durotar. Ils ont renoncé à la magie démoniaque qui les avait corrompus et renouent avec le chamanisme de leurs ancêtres.</p><p>Fiers, directs, attachés à l'honneur du clan, ils doivent prouver au monde, et à eux-mêmes, qu'ils ne sont plus les monstres de la Première Guerre.</p><p><strong>Traits.</strong> Fureur sanguinaire, Endurance de Draenor, Volonté de fer. Taille Moyenne, vitesse 9 m, vision dans le noir 18 m.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "orc",
+    "advancement": {
+      "Ejqyk6Gn2Mpvg6GQ": {
+        "_id": "Ejqyk6Gn2Mpvg6GQ",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "hint": "Moyen (1,80 à 2 m).",
+        "flags": {}
+      },
+      "kHDZqeFWGlq2wBeY": {
+        "_id": "kHDZqeFWGlq2wBeY",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.peuples.Item.9A8cKpaIB6tjUuk3",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.peuples.Item.chdwEzCa2Hrw5mdB",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.peuples.Item.CmS7mchBPE9SQNHa",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Traits : Orc",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "movement": {
+      "walk": "9",
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "units": "m",
+      "hover": false,
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "units": "m",
+      "special": "",
+      "ranges": {
+        "darkvision": 18,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null
+      }
+    },
+    "type": {
+      "value": "humanoid",
+      "custom": "",
+      "subtype": "Orc"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "orc"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

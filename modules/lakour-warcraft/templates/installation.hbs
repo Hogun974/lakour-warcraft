@@ -1,0 +1,11 @@
+<section class="lakourwow-installation">
+  {{#if systemeOk}}
+  <p>{{localize "LAKOURWOW.Explication"}}</p>
+  <p>
+    {{#if installe}}<strong>{{localize "LAKOURWOW.DejaInstalle"}}</strong> ({{installe}}){{else}}<em>{{localize "LAKOURWOW.PasInstalle"}}</em>{{/if}}
+  </p>
+  <button type="button" data-action="installer"><i class="fa-solid fa-download"></i> {{localize "LAKOURWOW.Installer"}}</button>
+  {{else}}
+  <p>{{localize "LAKOURWOW.MauvaisSysteme"}}</p>
+  {{/if}}
+</section>

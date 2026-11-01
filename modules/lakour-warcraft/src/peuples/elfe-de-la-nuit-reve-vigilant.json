@@ -1,0 +1,59 @@
+{
+  "_id": "O6LxljC7itHJYfw0",
+  "_key": "!items!O6LxljC7itHJYfw0",
+  "name": "Rêve vigilant",
+  "type": "feat",
+  "img": "icons/magic/nature/moon-crescent.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous ne dormez pas comme les mortels : vous méditez au bord du Rêve d'émeraude, conscient de ce qui vous entoure. Un <strong>repos long</strong> ne vous demande que 4 heures de cette transe, et aucune magie ne peut vous endormir.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "elfe-de-la-nuit-reve-vigilant",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "Elfe de la nuit",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "elfe-de-la-nuit-reve-vigilant"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "_id": "cFcpGlfSJp2v7YNR",
+  "_key": "!items!cFcpGlfSJp2v7YNR",
+  "name": "Réprouvé",
+  "type": "race",
+  "img": "icons/magic/death/undead-zombie-grave-green.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Horde (alliance de raison).</strong> Des morts-vivants du Fléau ont retrouvé leur libre arbitre quand l'emprise du Roi-liche a faibli. Menés par la Dame noire Sylvanas Coursevent, ils ont pris les ruines de Lordaeron et creusent leur Fossoyeuse sous la capitale.</p><p>Rejetés par les vivants qu'ils ont été, ils ne sont dans la Horde que par intérêt. On parle bas de leurs apothicaires.</p><p><strong>Traits.</strong> Corps sans vie, Volonté des Réprouvés, Cannibalisme. Taille Moyenne, vitesse 9 m, vision dans le noir 18 m. Type : humanoïde (mort-vivant, pour le récit ; les sorts le traitent comme un humanoïde).</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "reprouve",
+    "advancement": {
+      "7DSUUOJLDVHnWkFV": {
+        "_id": "7DSUUOJLDVHnWkFV",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "hint": "Moyen (taille humaine, un peu tassé).",
+        "flags": {}
+      },
+      "lb6ORs70a6Io8Chu": {
+        "_id": "lb6ORs70a6Io8Chu",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.peuples.Item.lYNQZEtYGRplBaiK",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.peuples.Item.YEdIfKTwUfwve3fA",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.peuples.Item.BY6rZFIvVSktiRo0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "Traits : Réprouvé",
+        "hint": "",
+        "flags": {}
+      },
+      "5q9s0OVwO22FbkPz": {
+        "_id": "5q9s0OVwO22FbkPz",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "dr:poison"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Corps sans vie",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "movement": {
+      "walk": "9",
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "units": "m",
+      "hover": false,
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "units": "m",
+      "special": "",
+      "ranges": {
+        "darkvision": 18,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null
+      }
+    },
+    "type": {
+      "value": "humanoid",
+      "custom": "",
+      "subtype": "Réprouvé"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "reprouve"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}
