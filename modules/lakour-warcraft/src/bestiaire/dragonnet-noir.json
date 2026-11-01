@@ -135,7 +135,7 @@
     {
       "name": "Attaques multiples",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/creatures/claws/claw-talons-glowing-orange.webp",
       "system": {
         "description": {
           "value": "<p>Le dragonnet fait deux attaques de Griffes.</p>",
@@ -252,7 +252,7 @@
     {
       "name": "Griffes",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/creatures/claws/claw-scaled-red.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +4, allonge 1,5 m. <em>Touché :</em> 7 (1d10 + 2) dégâts tranchants, plus 3 (1d6) dégâts de feu.</p>",
@@ -464,7 +464,7 @@
     {
       "name": "Souffle de braise (recharge 5–6)",
       "type": "feat",
-      "img": "icons/svg/fire-shield.svg",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
       "system": {
         "description": {
           "value": "<p><em>Jet de sauvegarde de Dextérité :</em> DD 11, chaque créature dans un cône de 4,5 m. <em>Échec :</em> 21 (6d6) dégâts de feu. <em>Réussite :</em> moitié des dégâts.</p>",
@@ -640,6 +640,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#e8661c",
+        "background": "#2a0d05"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

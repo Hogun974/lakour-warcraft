@@ -121,7 +121,7 @@
     {
       "name": "Attaques multiples",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
       "system": {
         "description": {
           "value": "<p>La goule fait deux attaques, de Morsure ou de Griffes, dans n'importe quelle combinaison.</p>",
@@ -238,7 +238,7 @@
     {
       "name": "Morsure",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/creatures/abilities/mouth-teeth-human.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +4, allonge 1,5 m. <em>Touché :</em> 5 (1d6 + 2) dégâts perforants, plus 3 (1d6) dégâts nécrotiques.</p>",
@@ -450,7 +450,7 @@
     {
       "name": "Griffes",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/creatures/claws/claw-curved-poison-purple.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +4, allonge 1,5 m. <em>Touché :</em> 4 (1d4 + 2) dégâts tranchants.</p><p><em>Jet de sauvegarde de Constitution :</em> DD 10, la cible, si ce n'est pas un mort-vivant. <em>Échec :</em> La cible est paralysée jusqu'à la fin de son prochain tour.</p>",
@@ -744,6 +744,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#7fd3ef",
+        "background": "#0b2530"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

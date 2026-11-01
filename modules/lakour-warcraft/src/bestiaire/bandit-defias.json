@@ -115,7 +115,7 @@
     {
       "name": "Sabre court",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/swords/scimitar-guard-red.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +3, allonge 1,5 m. <em>Touché :</em> 4 (1d6 + 1) dégâts tranchants.</p>",
@@ -310,7 +310,7 @@
     {
       "name": "Arbalète légère",
       "type": "weapon",
-      "img": "icons/svg/target.svg",
+      "img": "icons/weapons/crossbows/crossbow-simple-red.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque à distance :</em> +3, portée 24/96 m. <em>Touché :</em> 5 (1d8 + 1) dégâts perforants.</p>",
@@ -523,6 +523,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#6d6d6d",
+        "background": "#161616"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

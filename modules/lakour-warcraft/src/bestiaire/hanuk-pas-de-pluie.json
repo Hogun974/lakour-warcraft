@@ -563,6 +563,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#b3261e",
+        "background": "#350b08"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

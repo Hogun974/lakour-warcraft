@@ -133,7 +133,7 @@
     {
       "name": "Amphibie",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/water/orb-water-bubbles-teal.webp",
       "system": {
         "description": {
           "value": "<p>La naga respire aussi bien à l'air libre que sous l'eau.</p>",
@@ -177,7 +177,7 @@
     {
       "name": "Attaques multiples",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/creatures/reptiles/serpent-horned-green.webp",
       "system": {
         "description": {
           "value": "<p>La naga fait deux attaques : une de Trident de corail et une de Queue fouettante, ou deux Éclairs de givre.</p>",
@@ -294,7 +294,7 @@
     {
       "name": "Trident de corail",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/polearms/trident-ornate-red.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m ou portée 6/18 m. <em>Touché :</em> 7 (1d8 + 3) dégâts perforants.</p>",
@@ -489,7 +489,7 @@
     {
       "name": "Queue fouettante",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/creatures/abilities/tail-swipe-green.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 3 m. <em>Touché :</em> 6 (1d6 + 3) dégâts contondants. Si la cible est de taille M ou inférieure, elle tombe à terre.</p>",
@@ -684,7 +684,7 @@
     {
       "name": "Éclair de givre",
       "type": "weapon",
-      "img": "icons/svg/frozen.svg",
+      "img": "icons/magic/water/projectile-ice-shard.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque magique à distance :</em> +3, portée 18 m. <em>Touché :</em> 9 (2d8) dégâts de froid.</p>",
@@ -897,6 +897,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#14917a",
+        "background": "#04241f"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

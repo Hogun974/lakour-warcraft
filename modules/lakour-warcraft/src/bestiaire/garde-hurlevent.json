@@ -124,7 +124,7 @@
     {
       "name": "Lance",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/polearms/spear-flared-blue.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +3, allonge 1,5 m ou portée 6/18 m. <em>Touché :</em> 4 (1d6 + 1) dégâts perforants.</p>",
@@ -319,7 +319,7 @@
     {
       "name": "Sonner l'alarme (1/jour)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/tools/instruments/horn-flared-wood.webp",
       "system": {
         "description": {
           "value": "<p><em>Action bonus.</em> Le garde souffle dans son cor : tous les gardes à 150 m ou moins l'entendent et accourent.</p>",
@@ -470,6 +470,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#2d5fc4",
+        "background": "#0c1c3e"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

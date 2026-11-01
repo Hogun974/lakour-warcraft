@@ -133,7 +133,7 @@
     {
       "name": "Pattes d'araignée",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/creatures/invertebrates/spider-mandibles-brown.webp",
       "system": {
         "description": {
           "value": "<p>L'araignée escalade les surfaces difficiles, plafonds compris, sans test de caractéristique.</p>",
@@ -177,7 +177,7 @@
     {
       "name": "Toilière",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/creatures/webs/web-spider-white-green.webp",
       "system": {
         "description": {
           "value": "<p>L'araignée ignore les entraves dues aux toiles et sent la position de toute créature qui touche sa toile.</p>",
@@ -221,7 +221,7 @@
     {
       "name": "Morsure",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/creatures/abilities/fang-tooth-poison-green.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 7 (1d8 + 3) dégâts perforants, plus 7 (2d6) dégâts de poison.</p>",
@@ -433,7 +433,7 @@
     {
       "name": "Toile (recharge 5–6)",
       "type": "feat",
-      "img": "icons/svg/explosion.svg",
+      "img": "icons/magic/control/encase-creature-spider-hold.webp",
       "system": {
         "description": {
           "value": "<p><em>Jet de sauvegarde de Dextérité :</em> DD 13, une créature visible à 18 m ou moins. <em>Échec :</em> La cible est entravée par la toile. Une créature à portée peut l'en libérer par une action et un test de Force (Athlétisme) DD 13 ; la toile a CA 10 et 5 PV.</p>",
@@ -592,6 +592,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#8b5a2b",
+        "background": "#2b1a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

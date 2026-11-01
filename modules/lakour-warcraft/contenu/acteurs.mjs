@@ -6,7 +6,7 @@
 // avec des activités dnd5e « attack », « save » ou « utility » de la même forme que celles du SRD 5.2.
 // Le bonus d'attaque annoncé est vérifié : il doit valoir modificateur de caractéristique + bonus de maîtrise du FP.
 import { MODULE, STATS, html, icone, identifiant } from "./aides.mjs";
-import { cheminJeton } from "./jetons.mjs";
+import { anneauJeton, cheminJeton } from "./jetons.mjs";
 
 // ---------------------------------------------------------------- Vocabulaire (français -> dnd5e)
 
@@ -343,7 +343,8 @@ export function pnj(d) {
     items: [], effects: [],
     prototypeToken: {
       name: d.nom, actorLink: false, disposition, displayName: 20, displayBars: 20, width: cases, height: cases,
-      texture: { src: image, fit: "contain", scaleX: 1, scaleY: 1 }, bar1: { attribute: "attributes.hp" }, bar2: { attribute: null }
+      texture: { src: image, fit: "contain", scaleX: 1, scaleY: 1 }, bar1: { attribute: "attributes.hp" }, bar2: { attribute: null },
+      ring: anneauJeton(d.cle)   // anneau dynamique, couleur de la faction (contenu/jetons.mjs)
     },
     folder: null, sort: 0, ownership: { default: 0 },
     flags: { [MODULE]: { cle: d.cle, role, mj: d.mj, ...(d.armure ? { armure: d.armure } : {}) } },

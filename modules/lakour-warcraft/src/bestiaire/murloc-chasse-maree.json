@@ -127,7 +127,7 @@
     {
       "name": "Amphibie",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/water/wave-water-blue.webp",
       "system": {
         "description": {
           "value": "<p>Le chasse-marée respire aussi bien à l'air libre que sous l'eau.</p>",
@@ -171,7 +171,7 @@
     {
       "name": "Frénésie de la marée",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/skills/wounds/blood-drip-droplet-red.webp",
       "system": {
         "description": {
           "value": "<p>Le chasse-marée a l'avantage aux jets d'attaque contre une créature qui n'a pas tous ses points de vie.</p>",
@@ -215,7 +215,7 @@
     {
       "name": "Attaques multiples",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/spear-tips-three-green.webp",
       "system": {
         "description": {
           "value": "<p>Le chasse-marée fait deux attaques de Trident barbelé.</p>",
@@ -332,7 +332,7 @@
     {
       "name": "Trident barbelé",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/polearms/trident-curved-steel.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +3, allonge 1,5 m ou portée 6/18 m. <em>Touché :</em> 5 (1d8 + 1) dégâts perforants.</p>",
@@ -527,7 +527,7 @@
     {
       "name": "Ressac (recharge 5–6)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/water/water-jet-wave-blue.webp",
       "system": {
         "description": {
           "value": "<p><em>Action bonus.</em> Le chasse-marée frappe l'eau de son trident. Chaque murloc allié à 9 m ou moins peut utiliser sa réaction pour se déplacer de la moitié de sa vitesse sans provoquer d'attaque d'opportunité.</p>",
@@ -678,6 +678,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#8b5a2b",
+        "background": "#2b1a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

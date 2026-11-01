@@ -135,7 +135,7 @@
     {
       "name": "Attaques multiples",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/strike-axe-blood-red.webp",
       "system": {
         "description": {
           "value": "<p>Le gangregarde fait deux attaques de Hache gangrenée.</p>",
@@ -252,7 +252,7 @@
     {
       "name": "Hache gangrenée",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/axes/axe-battle-green.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +6, allonge 1,5 m. <em>Touché :</em> 15 (2d10 + 4) dégâts tranchants.</p>",
@@ -447,7 +447,7 @@
     {
       "name": "Hache lancée",
       "type": "weapon",
-      "img": "icons/svg/target.svg",
+      "img": "icons/weapons/thrown/throwing-axe-steel.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque à distance :</em> +6, portée 6/18 m. <em>Touché :</em> 9 (1d10 + 4) dégâts tranchants.</p>",
@@ -642,7 +642,7 @@
     {
       "name": "Cri de la Légion (recharge 5–6)",
       "type": "feat",
-      "img": "icons/svg/explosion.svg",
+      "img": "icons/creatures/unholy/demon-fire-horned-winged-roar.webp",
       "system": {
         "description": {
           "value": "<p><em>Action bonus.</em> Le gangregarde rugit un ordre en eredun.</p><p><em>Jet de sauvegarde de Sagesse :</em> DD 13, chaque créature dans un rayon de 9 m. <em>Échec :</em> La cible est effrayée jusqu'à la fin du prochain tour du gangregarde.</p>",
@@ -800,6 +800,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#4cd137",
+        "background": "#0e2a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

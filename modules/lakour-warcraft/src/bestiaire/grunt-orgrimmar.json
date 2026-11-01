@@ -132,7 +132,7 @@
     {
       "name": "Pour la Horde !",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/sundries/flags/banner-symbol-axe-red.webp",
       "system": {
         "description": {
           "value": "<p>Tant qu'il a perdu au moins la moitié de ses points de vie, le grunt a l'avantage à ses jets d'attaque.</p>",
@@ -176,7 +176,7 @@
     {
       "name": "Hache de guerre",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/axes/axe-double-simple-red.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 7 (1d8 + 3) dégâts tranchants.</p>",
@@ -371,7 +371,7 @@
     {
       "name": "Javeline",
       "type": "weapon",
-      "img": "icons/svg/target.svg",
+      "img": "icons/weapons/polearms/javelin-simple.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque à distance :</em> +5, portée 9/36 m. <em>Touché :</em> 6 (1d6 + 3) dégâts perforants.</p>",
@@ -584,6 +584,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#b3261e",
+        "background": "#350b08"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

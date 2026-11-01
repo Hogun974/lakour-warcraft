@@ -1,14 +1,16 @@
 // Fabrique les compendiums du module lakour-warcraft à partir des définitions de modules/lakour-warcraft/contenu/ :
 // 1. rassemble les documents, 2. résout les références croisées, 3. copie les objets dans les acteurs,
-// 4. écrit les sources JSON (src/), 5. compile en LevelDB (packs/).
+// 4. emballe chaque aventure en un document Adventure (contenu/aventures-paquets.mjs), 5. écrit les sources JSON (src/),
+// 6. compile en LevelDB (packs/).
 // Usage : npm run fabriquer-warcraft        (option --sans-compiler pour vérifier seulement)
 import { compilePack } from "@foundryvtt/foundryvtt-cli";
 import { mkdirSync, rmSync, writeFileSync } from "node:fs";
 import { MODULE, identifiant } from "../modules/lakour-warcraft/contenu/aides.mjs";
 import { DOCUMENTS } from "../modules/lakour-warcraft/contenu/index.mjs";
+import { paquetsAventures } from "../modules/lakour-warcraft/contenu/aventures-paquets.mjs";
 
 const RACINE = `modules/${MODULE}`;
-export const TYPE_PACK = { peuples: "Item", historiques: "Item", objets: "Item", dons: "Item", afflictions: "Item", sorts: "Item", classes: "Item", bestiaire: "Actor", tables: "RollTable", journaux: "JournalEntry", scenes: "Scene" };
+export const TYPE_PACK = { peuples: "Item", historiques: "Item", objets: "Item", dons: "Item", afflictions: "Item", sorts: "Item", classes: "Item", bestiaire: "Actor", tables: "RollTable", journaux: "JournalEntry", scenes: "Scene", aventures: "Adventure" };
 
 export function fabriquer() {
   const parCle = new Map();
@@ -64,7 +66,9 @@ export function fabriquer() {
 
 // Lancé directement (npm run fabriquer-warcraft) ; importé par les essais, on ne fait que fabriquer().
 if (process.argv[1] && import.meta.url === `file:///${process.argv[1].replace(/\\/g, "/")}`) {
+  // Les aventures emballées sont fabriquées à part : fabriquer() reste la liste des documents des autres compendiums.
   const docs = fabriquer();
+  docs.push(...paquetsAventures(docs));
   const parPack = Object.groupBy(docs, d => d.pack);
   for (const [pack, liste] of Object.entries(parPack)) {
     const dossier = `${RACINE}/src/${pack}`;

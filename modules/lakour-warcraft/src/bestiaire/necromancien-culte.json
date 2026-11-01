@@ -140,7 +140,7 @@
     {
       "name": "Incantation",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/sundries/books/book-black-grey.webp",
       "system": {
         "description": {
           "value": "<p>Le nécromancien lance ses sorts avec l'Intelligence (DD 12 au jet de sauvegarde). À volonté : <em>contact glacial</em>, <em>main de mage</em>. 1/jour chacun : <em>simulacre de vie</em>, <em>immobilisation de personne</em>, <em>fléau</em>.</p>",
@@ -184,7 +184,7 @@
     {
       "name": "Faucille rituelle",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/sickles/sickle-hooked-purple.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +4, allonge 1,5 m. <em>Touché :</em> 4 (1d4 + 2) dégâts tranchants, plus 3 (1d6) dégâts nécrotiques.</p>",
@@ -396,7 +396,7 @@
     {
       "name": "Trait d'ombre",
       "type": "weapon",
-      "img": "icons/svg/skull.svg",
+      "img": "icons/magic/death/projectile-skull-fire-purple.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque magique à distance :</em> +4, portée 36 m. <em>Touché :</em> 9 (2d8) dégâts nécrotiques.</p>",
@@ -591,7 +591,7 @@
     {
       "name": "Relever les morts (1/jour)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
       "system": {
         "description": {
           "value": "<p>Le nécromancien désigne jusqu'à deux cadavres humanoïdes à 9 m ou moins : ils se relèvent au début de son prochain tour comme des squelettes du Fléau (ou des goules, s'ils sont frais) sous son contrôle.</p>",
@@ -742,6 +742,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#7fd3ef",
+        "background": "#0b2530"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

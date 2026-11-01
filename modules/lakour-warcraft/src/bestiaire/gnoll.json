@@ -115,7 +115,7 @@
     {
       "name": "Morsure",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +4, allonge 1,5 m. <em>Touché :</em> 5 (1d6 + 2) dégâts perforants.</p>",
@@ -310,7 +310,7 @@
     {
       "name": "Arc en os",
       "type": "weapon",
-      "img": "icons/svg/target.svg",
+      "img": "icons/weapons/bows/longbow-recurve-skull-brown.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque à distance :</em> +3, portée 45/180 m. <em>Touché :</em> 6 (1d10 + 1) dégâts perforants.</p>",
@@ -505,7 +505,7 @@
     {
       "name": "Curée",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/creatures/abilities/fang-tooth-blood-red.webp",
       "system": {
         "description": {
           "value": "<p><em>Action bonus.</em> Quand le gnoll fait tomber une créature à 0 point de vie avec une attaque au corps à corps, il peut se déplacer de la moitié de sa vitesse et faire une attaque de Morsure.</p>",
@@ -640,6 +640,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#8b5a2b",
+        "background": "#2b1a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

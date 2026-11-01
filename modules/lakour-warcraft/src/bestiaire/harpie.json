@@ -116,7 +116,7 @@
     {
       "name": "Serres",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/creatures/claws/claw-talons-yellow-red.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +3, allonge 1,5 m. <em>Touché :</em> 6 (2d4 + 1) dégâts tranchants.</p>",
@@ -311,7 +311,7 @@
     {
       "name": "Chant ensorcelant",
       "type": "feat",
-      "img": "icons/svg/explosion.svg",
+      "img": "icons/skills/trades/music-singing-voice-blue.webp",
       "system": {
         "description": {
           "value": "<p>La harpie entonne un chant qui dure tant qu'elle se concentre. Seuls les humanoïdes et les géants y sont sensibles.</p><p><em>Jet de sauvegarde de Sagesse :</em> DD 11, chaque créature dans un rayon de 90 m. <em>Échec :</em> La cible est charmée tant que dure le chant : elle est neutralisée et marche vers la harpie par le chemin le plus court. Elle refait le jet à la fin de chacun de ses tours, et chaque fois qu'elle subit des dégâts. <em>Réussite :</em> la cible est immunisée contre ce chant pendant 24 heures.</p>",
@@ -453,6 +453,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#8b5a2b",
+        "background": "#2b1a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

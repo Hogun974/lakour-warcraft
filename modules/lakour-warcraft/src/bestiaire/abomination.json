@@ -120,7 +120,7 @@
     {
       "name": "Ténacité des morts",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/death/undead-zombie-grave-green.webp",
       "system": {
         "description": {
           "value": "<p>Si des dégâts font tomber l'abomination à 0 point de vie, il fait un jet de sauvegarde de Constitution (DD 5 + dégâts subis), sauf s'il s'agit de dégâts radiants ou d'un coup critique. En cas de réussite, il reste debout avec 1 point de vie.</p>",
@@ -164,7 +164,7 @@
     {
       "name": "Puanteur de charnier",
       "type": "feat",
-      "img": "icons/svg/explosion.svg",
+      "img": "icons/creatures/magical/spirit-poison-smoke-green.webp",
       "system": {
         "description": {
           "value": "<p>Toute créature qui commence son tour à 1,5 m ou moins de l'abomination fait ce jet.</p><p><em>Jet de sauvegarde de Constitution :</em> DD 12, chaque créature dans un rayon de 1,5 m. <em>Échec :</em> La créature est empoisonnée jusqu'au début de son prochain tour.</p>",
@@ -288,7 +288,7 @@
     {
       "name": "Couperet",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/axes/cleaver-red.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +6, allonge 1,5 m. <em>Touché :</em> 13 (2d8 + 4) dégâts tranchants.</p>",
@@ -483,7 +483,7 @@
     {
       "name": "Croc à chaîne",
       "type": "weapon",
-      "img": "icons/svg/target.svg",
+      "img": "icons/weapons/sickles/sickle-kusarigama-chain.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque à distance :</em> +6, portée 9 m. <em>Touché :</em> 8 (1d8 + 4) dégâts perforants. Si la cible est de taille G ou inférieure, l'abomination la tire de 6 m vers elle et l'agrippe (DD 14 pour s'échapper).</p>",
@@ -696,6 +696,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#7fd3ef",
+        "background": "#0b2530"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

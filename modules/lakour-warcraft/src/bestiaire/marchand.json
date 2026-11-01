@@ -140,7 +140,7 @@
     {
       "name": "Œil du négociant",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/skills/social/trading-justice-scale-gold.webp",
       "system": {
         "description": {
           "value": "<p>Le marchand a l'avantage aux tests d'Intuition pour juger une offre et aux tests d'Investigation pour estimer la valeur d'un objet.</p>",
@@ -184,7 +184,7 @@
     {
       "name": "Dague",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/daggers/dagger-jeweled-blue.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +3, allonge 1,5 m ou portée 6/18 m. <em>Touché :</em> 3 (1d4 + 1) dégâts perforants.</p>",
@@ -379,7 +379,7 @@
     {
       "name": "Gardes ! (1/jour)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/environment/people/infantry-armored.webp",
       "system": {
         "description": {
           "value": "<p><em>Réaction.</em> Le marchand appelle ses gardes du corps, qui arrivent au début du round suivant s'ils sont à portée de voix.</p>",
@@ -530,6 +530,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#d8cfb8",
+        "background": "#2a2722"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

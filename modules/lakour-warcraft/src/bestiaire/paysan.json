@@ -115,7 +115,7 @@
     {
       "name": "Savoir-faire",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/skills/trades/farming-wheat-circle-yellow.webp",
       "system": {
         "description": {
           "value": "<p>Le paysan maîtrise une compétence liée à son métier (Dressage, Nature, Survie…) et a l'avantage à ses tests de cette compétence.</p>",
@@ -159,7 +159,7 @@
     {
       "name": "Fourche",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/polearms/trident-fork-white.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +2, allonge 1,5 m. <em>Touché :</em> 2 (1d4) dégâts perforants.</p>",
@@ -372,6 +372,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#d8cfb8",
+        "background": "#2a2722"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

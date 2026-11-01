@@ -132,7 +132,7 @@
     {
       "name": "Attaques multiples",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/weapons-crossed-swords-black-gray.webp",
       "system": {
         "description": {
           "value": "<p>Le chef fait deux attaques, de Rapière ou de Pistolet, dans n'importe quelle combinaison.</p>",
@@ -249,7 +249,7 @@
     {
       "name": "Rapière",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/swords/sword-guard-red.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 7 (1d8 + 3) dégâts perforants.</p>",
@@ -444,7 +444,7 @@
     {
       "name": "Pistolet à silex",
       "type": "weapon",
-      "img": "icons/svg/target.svg",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque à distance :</em> +5, portée 9/27 m. <em>Touché :</em> 8 (1d10 + 3) dégâts perforants.</p>",
@@ -639,7 +639,7 @@
     {
       "name": "Parade",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/swords-parry-block-blue.webp",
       "system": {
         "description": {
           "value": "<p><em>Réaction.</em> Quand une attaque au corps à corps le touche alors qu'il tient sa rapière, le chef ajoute 2 à sa CA contre cette attaque, ce qui peut la faire échouer.</p>",
@@ -756,7 +756,7 @@
     {
       "name": "Bombe fumigène (1/jour)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/commodities/tech/smoke-bomb-red-yellow.webp",
       "system": {
         "description": {
           "value": "<p><em>Action bonus.</em> Le chef brise une fiole au sol : une fumée épaisse rend la zone dans un rayon de 3 m autour de lui fortement obscurcie jusqu'à la fin de son prochain tour. Il peut ensuite se déplacer de la moitié de sa vitesse.</p>",
@@ -907,6 +907,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#6d6d6d",
+        "background": "#161616"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

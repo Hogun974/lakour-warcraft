@@ -132,7 +132,7 @@
     {
       "name": "Incantation",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/sundries/books/book-embossed-jewel-gold-purple.webp",
       "system": {
         "description": {
           "value": "<p>Le mage lance ses sorts avec l'Intelligence (DD 13). À volonté : <em>main de mage</em>, <em>prestidigitation</em>. 1/jour chacun : <em>armure du mage</em>, <em>bouclier</em>, <em>pas brumeux</em>, <em>détection de la magie</em>.</p>",
@@ -176,7 +176,7 @@
     {
       "name": "Attaques multiples",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/water/projectile-icecicles-salvo.webp",
       "system": {
         "description": {
           "value": "<p>Le mage fait deux attaques d'Éclair de givre.</p>",
@@ -293,7 +293,7 @@
     {
       "name": "Éclair de givre",
       "type": "weapon",
-      "img": "icons/svg/frozen.svg",
+      "img": "icons/magic/water/projectile-ice-faceted-blue.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque magique à distance :</em> +5, portée 36 m. <em>Touché :</em> 9 (2d8) dégâts de froid.</p>",
@@ -488,7 +488,7 @@
     {
       "name": "Bâton",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/staves/staff-blue-jewel.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +1, allonge 1,5 m. <em>Touché :</em> 2 (1d6 − 1) dégâts contondants.</p>",
@@ -683,7 +683,7 @@
     {
       "name": "Nova de givre (recharge 5–6)",
       "type": "feat",
-      "img": "icons/svg/frozen.svg",
+      "img": "icons/magic/water/snowflake-ice-blue.webp",
       "system": {
         "description": {
           "value": "<p><em>Jet de sauvegarde de Dextérité :</em> DD 13, chaque créature dans un rayon de 3 m. <em>Échec :</em> 7 (2d6) dégâts de froid. La cible est entravée par le givre jusqu'à la fin de son prochain tour. <em>Réussite :</em> moitié des dégâts.</p>",
@@ -859,6 +859,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#9b59d0",
+        "background": "#22113d"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

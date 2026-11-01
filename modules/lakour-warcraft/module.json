@@ -24,11 +24,13 @@
     { "name": "bestiaire", "label": "La Kour Warcraft — Bestiaire", "path": "packs/bestiaire", "type": "Actor", "system": "dnd5e", "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" } },
     { "name": "tables", "label": "La Kour Warcraft — Tables", "path": "packs/tables", "type": "RollTable", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
     { "name": "journaux", "label": "La Kour Warcraft — Guides et aventures", "path": "packs/journaux", "type": "JournalEntry", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "scenes", "label": "La Kour Warcraft — Scènes", "path": "packs/scenes", "type": "Scene", "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" } }
+    { "name": "scenes", "label": "La Kour Warcraft — Scènes", "path": "packs/scenes", "type": "Scene", "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" } },
+    { "name": "aventures", "label": "La Kour Warcraft — Aventures prêtes à jouer", "path": "packs/aventures", "type": "Adventure", "system": "dnd5e", "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" } }
   ],
   "packFolders": [
-    { "name": "La Kour Warcraft", "sorting": "m", "color": "#1a3a5a", "packs": ["journaux", "scenes", "peuples", "historiques", "classes", "dons", "sorts", "objets", "afflictions", "bestiaire", "tables"] }
+    { "name": "La Kour Warcraft", "sorting": "m", "color": "#1a3a5a", "packs": ["aventures", "journaux", "scenes", "peuples", "historiques", "classes", "dons", "sorts", "objets", "afflictions", "bestiaire", "tables"] }
   ],
+  "quickstart": { "adventures": { "dnd5e": { "uuid": "Compendium.lakour-warcraft.aventures.Adventure.CQ8SkhIEW5h94mbU" } } },
   "flags": { "dnd5e": { "spellLists": [
     "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.Ul1YO018sbW9RRmk",
     "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.IetUXLFHrT4bVEGt",

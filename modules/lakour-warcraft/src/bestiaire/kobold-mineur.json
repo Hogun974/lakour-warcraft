@@ -115,7 +115,7 @@
     {
       "name": "Tactique de meute",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/creatures/mammals/rodent-rat-green.webp",
       "system": {
         "description": {
           "value": "<p>Le kobold a l'avantage à ses jets d'attaque contre une créature si au moins un de ses alliés non neutralisé se trouve à 1,5 m ou moins de cette créature.</p>",
@@ -159,7 +159,7 @@
     {
       "name": "Pas la bougie !",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/sundries/lights/candle-lit-yellow.webp",
       "system": {
         "description": {
           "value": "<p>Si quelqu'un arrache ou souffle la bougie fixée sur son casque, le kobold est effrayé par cette créature jusqu'à la fin de son prochain tour, puis l'attaque en priorité jusqu'à ce qu'il récupère sa lumière.</p>",
@@ -203,7 +203,7 @@
     {
       "name": "Sensibilité au soleil",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/air/weather-sunlight-sky.webp",
       "system": {
         "description": {
           "value": "<p>En plein soleil, le kobold a le désavantage à ses jets d'attaque et à ses tests de caractéristique.</p>",
@@ -247,7 +247,7 @@
     {
       "name": "Pioche de mineur",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/tools/hand/pickaxe-worn-steel-grey.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +4, allonge 1,5 m. <em>Touché :</em> 4 (1d4 + 2) dégâts perforants.</p>",
@@ -442,7 +442,7 @@
     {
       "name": "Caillou",
       "type": "weapon",
-      "img": "icons/svg/target.svg",
+      "img": "icons/weapons/thrown/throwing-stone.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque à distance :</em> +4, portée 6/18 m. <em>Touché :</em> 4 (1d4 + 2) dégâts contondants.</p>",
@@ -655,6 +655,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#8b5a2b",
+        "background": "#2b1a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

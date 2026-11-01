@@ -132,7 +132,7 @@
     {
       "name": "Tactique de meute",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/creatures/abilities/wolf-heads-swirl-purple.webp",
       "system": {
         "description": {
           "value": "<p>Le loup a l'avantage à ses jets d'attaque contre une créature si au moins un de ses alliés non neutralisé se trouve à 1,5 m ou moins de cette créature.</p>",
@@ -176,7 +176,7 @@
     {
       "name": "Morsure",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +4, allonge 1,5 m. <em>Touché :</em> 5 (1d6 + 2) dégâts perforants. Si la cible est de taille M ou inférieure, elle tombe à terre.</p>",
@@ -389,6 +389,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#8b5a2b",
+        "background": "#2b1a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

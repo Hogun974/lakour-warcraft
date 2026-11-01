@@ -132,7 +132,7 @@
     {
       "name": "Incantation",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
       "system": {
         "description": {
           "value": "<p>Le prêtre lance ses sorts avec la Sagesse (DD 12). À volonté : <em>lumière</em>, <em>thaumaturgie</em>. 1/jour chacun : <em>bénédiction</em>, <em>mot de guérison</em>, <em>sanctuaire</em>.</p>",
@@ -176,7 +176,7 @@
     {
       "name": "Masse",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/maces/mace-flanged-steel.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +4, allonge 1,5 m. <em>Touché :</em> 5 (1d6 + 2) dégâts contondants, plus 2 (1d4) dégâts radiants.</p>",
@@ -388,7 +388,7 @@
     {
       "name": "Châtiment de Lumière",
       "type": "weapon",
-      "img": "icons/svg/sun.svg",
+      "img": "icons/magic/light/beam-rays-yellow.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque magique à distance :</em> +4, portée 18 m. <em>Touché :</em> 7 (2d6) dégâts radiants.</p>",
@@ -601,6 +601,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#2d5fc4",
+        "background": "#0c1c3e"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

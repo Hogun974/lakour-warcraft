@@ -115,7 +115,7 @@
     {
       "name": "Tactique de meute",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/control/control-influence-rally-purple.webp",
       "system": {
         "description": {
           "value": "<p>Le huran a l'avantage à ses jets d'attaque contre une créature si au moins un de ses alliés non neutralisé se trouve à 1,5 m ou moins de cette créature.</p>",
@@ -159,7 +159,7 @@
     {
       "name": "Peau d'épines",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/nature/vines-thorned-green.webp",
       "system": {
         "description": {
           "value": "<p>Une créature qui agrippe le huran, ou le touche à mains nues, subit 2 (1d4) dégâts perforants.</p>",
@@ -203,7 +203,7 @@
     {
       "name": "Massue à épines",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/clubs/club-barbed-brown.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +4, allonge 1,5 m. <em>Touché :</em> 5 (1d6 + 2) dégâts contondants.</p>",
@@ -398,7 +398,7 @@
     {
       "name": "Javeline",
       "type": "weapon",
-      "img": "icons/svg/target.svg",
+      "img": "icons/weapons/polearms/javelin-hooked.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque à distance :</em> +4, portée 9/36 m. <em>Touché :</em> 5 (1d6 + 2) dégâts perforants.</p>",
@@ -611,6 +611,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#8b5a2b",
+        "background": "#2b1a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

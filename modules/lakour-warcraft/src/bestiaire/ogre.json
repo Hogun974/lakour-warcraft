@@ -115,7 +115,7 @@
     {
       "name": "Gourdin massif",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/clubs/club-heavy-barbed-brown.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +6, allonge 1,5 m. <em>Touché :</em> 13 (2d8 + 4) dégâts contondants.</p>",
@@ -310,7 +310,7 @@
     {
       "name": "Rocher",
       "type": "weapon",
-      "img": "icons/svg/target.svg",
+      "img": "icons/weapons/thrown/throwing-rock.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque à distance :</em> +6, portée 9/36 m. <em>Touché :</em> 11 (2d6 + 4) dégâts contondants.</p>",
@@ -523,6 +523,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#8b5a2b",
+        "background": "#2b1a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

@@ -115,7 +115,7 @@
     {
       "name": "Fureur du blessé",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/control/buff-strength-muscle-damage-red.webp",
       "system": {
         "description": {
           "value": "<p>Tant qu'il a perdu au moins la moitié de ses points de vie, le sanglier a l'avantage à ses jets d'attaque.</p>",
@@ -159,7 +159,7 @@
     {
       "name": "Défenses",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/commodities/bones/horn-curved-worn-brown.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +3, allonge 1,5 m. <em>Touché :</em> 4 (1d6 + 1) dégâts perforants. Si le sanglier s'est déplacé d'au moins 6 m en ligne droite vers la cible juste avant de la toucher, elle subit 3 (1d6) dégâts perforants de plus.</p>",
@@ -372,6 +372,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#8b5a2b",
+        "background": "#2b1a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

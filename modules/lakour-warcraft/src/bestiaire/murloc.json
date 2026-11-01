@@ -125,7 +125,7 @@
     {
       "name": "Amphibie",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/water/bubbles-air-water-blue.webp",
       "system": {
         "description": {
           "value": "<p>Le murloc respire aussi bien à l'air libre que sous l'eau.</p>",
@@ -169,7 +169,7 @@
     {
       "name": "Tactique de meute",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/creatures/fish/fish-pirahna-tan.webp",
       "system": {
         "description": {
           "value": "<p>Le murloc a l'avantage à ses jets d'attaque contre une créature si au moins un de ses alliés non neutralisé se trouve à 1,5 m ou moins de cette créature.</p>",
@@ -213,7 +213,7 @@
     {
       "name": "Lance de pêche",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/polearms/spear-barbed-silver.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +3, allonge 1,5 m ou portée 6/18 m. <em>Touché :</em> 4 (1d6 + 1) dégâts perforants.</p>",
@@ -408,7 +408,7 @@
     {
       "name": "Cri gargouillant (1/jour)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
       "system": {
         "description": {
           "value": "<p><em>Action bonus.</em> Le murloc pousse un cri aigu qui porte loin sur l'eau. Tous les murlocs à 30 m ou moins l'entendent et accourent ; ceux qui le peuvent se déplacent aussitôt de la moitié de leur vitesse vers lui.</p>",
@@ -559,6 +559,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#8b5a2b",
+        "background": "#2b1a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

@@ -132,7 +132,7 @@
     {
       "name": "Attaques multiples",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
       "system": {
         "description": {
           "value": "<p>Le centaure fait deux attaques, de Lance de guerre ou d'Arc long, dans n'importe quelle combinaison.</p>",
@@ -249,7 +249,7 @@
     {
       "name": "Lance de guerre",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/polearms/spear-flared-bronze-teal.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +6, allonge 3 m. <em>Touché :</em> 9 (1d10 + 4) dégâts perforants.</p>",
@@ -444,7 +444,7 @@
     {
       "name": "Arc long",
       "type": "weapon",
-      "img": "icons/svg/target.svg",
+      "img": "icons/weapons/bows/longbow-recurve-leather-brown.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque à distance :</em> +4, portée 45/180 m. <em>Touché :</em> 6 (1d8 + 2) dégâts perforants.</p>",
@@ -639,7 +639,7 @@
     {
       "name": "Charge piétinante (recharge 5–6)",
       "type": "feat",
-      "img": "icons/svg/explosion.svg",
+      "img": "icons/environment/people/charge.webp",
       "system": {
         "description": {
           "value": "<p><em>Jet de sauvegarde de Force :</em> DD 14, chaque créature dont le centaure traverse l'espace en se déplaçant de toute sa vitesse, sans provoquer d'attaque d'opportunité. <em>Échec :</em> 7 (1d6 + 4) dégâts contondants. La cible tombe à terre. <em>Réussite :</em> moitié des dégâts.</p>",
@@ -815,6 +815,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#8b5a2b",
+        "background": "#2b1a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

@@ -148,7 +148,7 @@
     {
       "name": "Régénération trollesque",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/nature/root-vine-caduceus-healing.webp",
       "system": {
         "description": {
           "value": "<p>Le troll récupère 3 points de vie au début de chacun de ses tours s'il lui reste au moins 1 point de vie et s'il n'a pas subi de dégâts de feu ou d'acide depuis son tour précédent.</p>",
@@ -192,7 +192,7 @@
     {
       "name": "Attaques multiples",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/ranged/daggers-thrown-salvo-orange.webp",
       "system": {
         "description": {
           "value": "<p>Le troll fait deux attaques, de Hache de lancer ou de Javeline, dans n'importe quelle combinaison.</p>",
@@ -309,7 +309,7 @@
     {
       "name": "Hache de lancer",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/thrown/throwing-axe.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +4, allonge 1,5 m ou portée 6/18 m. <em>Touché :</em> 5 (1d6 + 2) dégâts tranchants.</p>",
@@ -504,7 +504,7 @@
     {
       "name": "Javeline",
       "type": "weapon",
-      "img": "icons/svg/target.svg",
+      "img": "icons/weapons/polearms/javelin-flared.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque à distance :</em> +4, portée 9/36 m. <em>Touché :</em> 5 (1d6 + 2) dégâts perforants.</p>",
@@ -717,6 +717,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#8b5a2b",
+        "background": "#2b1a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

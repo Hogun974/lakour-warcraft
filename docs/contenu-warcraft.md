@@ -23,6 +23,7 @@ leur uuid dnd5e**, jamais recopiés.
 | `journaux` (JournalEntry) | guide du joueur (visible), guide du MJ (caché), aventure et campagne (cachées), aides de jeu (visibles) | `guides.mjs`, `aventure.mjs`, `campagne.mjs` |
 | `tables` (RollTable) | noms, rumeurs, rencontres, complications, trouvailles | `guides.mjs` |
 | `scenes` (Scene) | 4 cartes de l'aventure, 4 de la campagne, 8 lieux génériques (`lieu-…`) | `aventure-cartes.mjs`, `campagne-cartes.mjs`, `lieux-cartes.mjs` |
+| `aventures` (Adventure) | l'aventure et la campagne, chacune en un paquet importable en un clic | `aventures-paquets.mjs` |
 
 Tout est rassemblé dans `contenu/index.mjs` (`DOCUMENTS`, dans l'ordre des compendiums).
 
@@ -39,6 +40,28 @@ Tout est rassemblé dans `contenu/index.mjs` (`DOCUMENTS`, dans l'ordre des comp
 Chaque carte d'aventure porte `flags["lakour-warcraft"].aventure` (titre de l'aventure ou de la campagne) :
 `scripts/main.js` range les scènes importées dans un dossier par titre. Les lieux `lieu-…` n'en ont pas et restent au
 compendium.
+
+### Installer une aventure : deux voies
+
+- **Bouton « Installer »** (réglages du module, ou proposition au premier lancement) : `scripts/main.js` importe tous
+  les guides, aventures et cartes dans un monde existant, et met à jour ce qu'une version précédente avait installé.
+- **Import natif d'Adventure** : le compendium `aventures` (type `Adventure`, lié à `dnd5e`) contient un paquet par
+  aventure, *Les Puits de cendre* et *Les Braises de la Légion* (`contenu/aventures-paquets.mjs`). Chacun embarque les
+  journaux, les cartes (pas les lieux `lieu-…`), les PNJ, et les acteurs, objets et tables cités par ses journaux, rangés
+  dans un dossier au nom de l'aventure. Les copies gardent les identifiants des autres compendiums (Foundry importe
+  avec `keepId`) : les épingles des cartes visent les journaux importés. Dans les copies, un lien vers un document
+  embarqué vise sa copie dans le monde (`@UUID[Actor.<id>]`) ; les autres restent vers le compendium. Journaux et
+  scènes portent la version de l'installateur, qui ne les écrase donc pas ensuite. Réimporter une aventure, ou importer
+  la campagne après l'aventure (PNJ communs), déclenche l'avertissement d'écrasement de Foundry.
+- **Démarrage rapide** (Foundry 14) : `module.json` déclare
+  `"quickstart": { "adventures": { "dnd5e": { "uuid": "Compendium.lakour-warcraft.aventures.Adventure.<id>" } } }`
+  (forme du schéma `BaseModule` de 14.369 : un objet `{ uuid }`, pas une chaîne). À la création d'un monde dnd5e,
+  Foundry propose *Les Puits de cendre* ; la campagne s'importe ensuite depuis le compendium.
+
+Une Adventure est stockée en un seul enregistrement LevelDB (`!adventures!<id>`) avec ses documents embarqués en
+entier : la CLI ne l'éclate pas en sous-clés, les `_key` des copies sont donc retirées. Essais :
+`essais/warcraft-aventures.test.mjs` (validation stricte par les schémas de Foundry avec `FOUNDRY_V14=<dossier
+contenant common/>`).
 
 ## Clés de dnd5e utilisées (CONFIG.DND5E)
 

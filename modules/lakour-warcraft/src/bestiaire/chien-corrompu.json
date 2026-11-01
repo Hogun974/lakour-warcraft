@@ -126,7 +126,7 @@
     {
       "name": "Tactique de meute",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/nature/wolf-paw-glow-green.webp",
       "system": {
         "description": {
           "value": "<p>Le chien a l'avantage à ses jets d'attaque contre une créature si au moins un de ses alliés non neutralisé se trouve à 1,5 m ou moins de cette créature.</p>",
@@ -170,7 +170,7 @@
     {
       "name": "Résistance à la magie",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-green.webp",
       "system": {
         "description": {
           "value": "<p>Le chien a l'avantage aux jets de sauvegarde contre les sorts et autres effets magiques.</p>",
@@ -214,7 +214,7 @@
     {
       "name": "Flair des arcanes",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/perception/eye-ringed-green.webp",
       "system": {
         "description": {
           "value": "<p>Le chien sent la magie à 36 m : il connaît la position de toute créature qui a lancé un sort ou porte un objet magique actif dans cette zone.</p>",
@@ -258,7 +258,7 @@
     {
       "name": "Attaques multiples",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
       "system": {
         "description": {
           "value": "<p>Le chien fait deux attaques de Morsure.</p>",
@@ -375,7 +375,7 @@
     {
       "name": "Morsure",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/creatures/abilities/mouth-teeth-fire-orange.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 7 (1d8 + 3) dégâts perforants, plus 3 (1d6) dégâts de feu.</p>",
@@ -587,7 +587,7 @@
     {
       "name": "Dévorer la magie (recharge 5–6)",
       "type": "feat",
-      "img": "icons/svg/terror.svg",
+      "img": "icons/magic/unholy/orb-collecting-energy-green.webp",
       "system": {
         "description": {
           "value": "<p><em>Jet de sauvegarde de Constitution :</em> DD 12, une créature visible à 9 m ou moins. <em>Échec :</em> 10 (3d6) dégâts psychiques. Si la cible peut lancer des sorts, elle perd aussi son emplacement de sort disponible du plus bas niveau. <em>Réussite :</em> moitié des dégâts.</p>",
@@ -764,6 +764,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#4cd137",
+        "background": "#0e2a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,

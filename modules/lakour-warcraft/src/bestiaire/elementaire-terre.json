@@ -126,7 +126,7 @@
     {
       "name": "Glisser dans la roche",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/environment/wilderness/terrain-rocky-ground.webp",
       "system": {
         "description": {
           "value": "<p>L'élémentaire traverse la terre et la pierre non travaillées sans les déranger ni laisser de tunnel.</p>",
@@ -170,7 +170,7 @@
     {
       "name": "Bélier vivant",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/earth/barrier-stone-explosion-debris.webp",
       "system": {
         "description": {
           "value": "<p>L'élémentaire inflige des dégâts doublés aux objets et aux constructions.</p>",
@@ -214,7 +214,7 @@
     {
       "name": "Attaques multiples",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/earth/projectiles-stone-salvo-gray.webp",
       "system": {
         "description": {
           "value": "<p>L'élémentaire fait deux attaques, de Poing de roche ou de Jet de roche, dans n'importe quelle combinaison.</p>",
@@ -331,7 +331,7 @@
     {
       "name": "Poing de roche",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/magic/earth/strike-fist-stone-gray.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +8, allonge 3 m. <em>Touché :</em> 14 (2d8 + 5) dégâts contondants.</p>",
@@ -526,7 +526,7 @@
     {
       "name": "Jet de roche",
       "type": "weapon",
-      "img": "icons/svg/target.svg",
+      "img": "icons/magic/earth/projectile-boulder-debris.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque à distance :</em> +8, portée 18 m. <em>Touché :</em> 12 (2d6 + 5) dégâts contondants. Si la cible est de taille G ou inférieure, elle tombe à terre.</p>",
@@ -739,6 +739,18 @@
     },
     "bar2": {
       "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#8b5a2b",
+        "background": "#2b1a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
     }
   },
   "folder": null,
