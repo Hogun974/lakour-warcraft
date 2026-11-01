@@ -1,0 +1,255 @@
+{
+  "_id": "U1gPpr6PGQbCKA5c",
+  "_key": "!items!U1gPpr6PGQbCKA5c",
+  "name": "Marteau de justice",
+  "type": "spell",
+  "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Votre coup s'accompagne d'un marteau de Lumière qui s'abat sur la cible. Elle subit <strong>3d6</strong> dégâts radiants supplémentaires et fait un jet de sauvegarde de Constitution : en cas d'échec, elle a l'état <strong>Neutralisé</strong> jusqu'au début de votre prochain tour ; en cas de réussite, elle ne subit que la moitié des dégâts radiants.</p><p><strong>Aux niveaux supérieurs.</strong> Les dégâts radiants augmentent de 1d6 par niveau d'emplacement au-delà du 2e.</p><p><strong>Tradition</strong> : La Lumière. <strong>Listes de sorts</strong> : Paladin.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "marteau-de-justice",
+    "activities": {
+      "BvGjY0ciMXdxTZsg": {
+        "_id": "BvGjY0ciMXdxTZsg",
+        "type": "save",
+        "name": "Marteau",
+        "img": "",
+        "sort": 100000,
+        "flags": {},
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "condition": "Juste après avoir touché une créature avec une arme de corps à corps ou une attaque à mains nues",
+          "override": false
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "round",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "vaFpOG9LD47Xuojb",
+            "onSave": false,
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m"
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "bonus": "",
+          "visible": true,
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": 3,
+              "denomination": 6,
+              "bonus": "",
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "modifiers": [],
+              "scaling": {
+                "mode": "whole",
+                "number": 1,
+                "formula": ""
+              },
+              "types": [
+                "radiant"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "ability": "",
+    "activation": {
+      "type": "bonus",
+      "value": null,
+      "condition": "Juste après avoir touché une créature avec une arme de corps à corps ou une attaque à mains nues"
+    },
+    "duration": {
+      "value": "1",
+      "units": "round",
+      "expiry": null,
+      "special": ""
+    },
+    "level": 2,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "method": "spell",
+    "prepared": 0,
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "range": {
+      "value": "",
+      "units": "self",
+      "special": ""
+    },
+    "school": "evo",
+    "sourceItem": "",
+    "target": {
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "stationary": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": "m"
+      },
+      "affects": {
+        "count": "1",
+        "type": "creature",
+        "choice": false,
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "vaFpOG9LD47Xuojb",
+      "_key": "!items.effects!U1gPpr6PGQbCKA5c.vaFpOG9LD47Xuojb",
+      "name": "Sonné",
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "type": "base",
+      "system": {
+        "magical": true,
+        "changes": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": 6,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
+      },
+      "description": "<p>La cible est neutralisée jusqu'au début de votre prochain tour.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "incapacitated"
+      ],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "marteau-de-justice",
+      "tradition": "lumiere",
+      "classes": [
+        "paladin"
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

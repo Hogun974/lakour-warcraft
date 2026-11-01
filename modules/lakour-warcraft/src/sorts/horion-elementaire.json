@@ -1,0 +1,218 @@
+{
+  "_id": "541C5nPD4exuvGXZ",
+  "_key": "!items!541C5nPD4exuvGXZ",
+  "name": "Horion élémentaire",
+  "type": "spell",
+  "img": "icons/magic/lightning/bolt-strike-blue-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous demandez à un esprit élémentaire de frapper pour vous : un éclat de givre, une gerbe de flammes ou une décharge de foudre jaillit de votre paume vers une cible à portée. Faites une attaque de sort à distance ; en cas de réussite, la cible subit <strong>1d8</strong> dégâts de froid, de feu ou de foudre (choisissez à l'incantation, selon l'esprit qui répond).</p><p>Un esprit qu'on appelle pour rien finit par ne plus répondre : le MJ peut faire bouder l'élément d'un chaman qui lance ce tour par pur caprice.</p><p><strong>Aux niveaux supérieurs.</strong> Les dégâts augmentent de 1d8 aux niveaux 5 (2d8), 11 (3d8) et 17 (4d8).</p><p><strong>Tradition</strong> : Chamanisme. <strong>Listes de sorts</strong> : Druide, Clerc, Ensorceleur.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "horion-elementaire",
+    "activities": {
+      "Lqbgeb4BwiAZT8UH": {
+        "_id": "Lqbgeb4BwiAZT8UH",
+        "type": "attack",
+        "name": "",
+        "img": "",
+        "sort": 100000,
+        "flags": {},
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "18",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m"
+          },
+          "affects": {
+            "count": "1",
+            "type": "creatureOrObject",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "",
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "ranged",
+            "classification": "spell"
+          }
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "number": 1,
+              "denomination": 8,
+              "bonus": "",
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "modifiers": [],
+              "scaling": {
+                "mode": "whole",
+                "number": 1,
+                "formula": ""
+              },
+              "types": [
+                "cold",
+                "fire",
+                "lightning"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "ability": "",
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "inst",
+      "expiry": null,
+      "special": ""
+    },
+    "level": 0,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "method": "spell",
+    "prepared": 0,
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "range": {
+      "value": "18",
+      "units": "m",
+      "special": ""
+    },
+    "school": "evo",
+    "sourceItem": "",
+    "target": {
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "stationary": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": "m"
+      },
+      "affects": {
+        "count": "1",
+        "type": "creatureOrObject",
+        "choice": false,
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "horion-elementaire",
+      "tradition": "chamanisme",
+      "classes": [
+        "druid",
+        "cleric",
+        "sorcerer"
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

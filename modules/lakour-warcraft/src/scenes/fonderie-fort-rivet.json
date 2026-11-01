@@ -1188,10 +1188,47 @@
       "flags": {}
     }
   ],
-  "tokens": [],
-  "notes": [],
-  "sounds": [],
+  "sounds": [
+    {
+      "name": "forge — Moteur à éclat",
+      "x": 1550,
+      "y": 450,
+      "elevation": 0,
+      "levels": [],
+      "radius": 6,
+      "path": "modules/lakour-mj-ia/assets/sons/forge.wav",
+      "repeat": true,
+      "volume": 0.3,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "QF9NTaHxHYbuulyu",
+      "_key": "!scenes.sounds!HGfPcvSfoHt2jw9y.QF9NTaHxHYbuulyu",
+      "flags": {}
+    },
+    {
+      "name": "forge — Creuset",
+      "x": 2550,
+      "y": 450,
+      "elevation": 0,
+      "levels": [],
+      "radius": 6,
+      "path": "modules/lakour-mj-ia/assets/sons/forge.wav",
+      "repeat": true,
+      "volume": 0.3,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "aVjqZApA419oFITs",
+      "_key": "!scenes.sounds!HGfPcvSfoHt2jw9y.aVjqZApA419oFITs",
+      "flags": {}
+    }
+  ],
   "regions": [],
+  "notes": [],
+  "tokens": [],
   "tiles": [],
   "ownership": {
     "default": 0

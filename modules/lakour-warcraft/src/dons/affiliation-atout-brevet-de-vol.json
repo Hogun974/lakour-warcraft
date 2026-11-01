@@ -1,0 +1,64 @@
+{
+  "_id": "UnadYfYiQMqKLstC",
+  "_key": "!items!UnadYfYiQMqKLstC",
+  "name": "Brevet de vol",
+  "type": "feat",
+  "img": "icons/magic/control/buff-flight-wings-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Les maîtres de vol de votre faction (griffons de l'Alliance, coursiers des vents de la Horde, hippogriffes des elfes de la nuit) vous connaissent et vous font voler gratuitement entre deux relais déjà visités. Un trajet d'une semaine à pied se fait en une journée.</p><p>Le brevet ne vaut rien chez l'autre faction, et un maître de vol qui apprend que vous avez trahi les siens le déchire devant vous.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "affiliation-atout-brevet-de-vol",
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "enchant": {
+      "max": "",
+      "period": ""
+    },
+    "prerequisites": {
+      "items": [],
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Atout de faction"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "affiliation-atout-brevet-de-vol",
+      "categorie": "atout",
+      "faction": "neutre"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

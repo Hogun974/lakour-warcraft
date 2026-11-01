@@ -1,0 +1,238 @@
+{
+  "_id": "BIOYq4YKtLSKwBGU",
+  "_key": "!items!BIOYq4YKtLSKwBGU",
+  "name": "Bras mécanique gnome",
+  "type": "equipment",
+  "img": "icons/commodities/tech/claw-mechanical.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un bras de laiton, de pistons et de ressorts qui se fixe sur le moignon par un harnais de cuir. Il faut un <strong>lien</strong> (une heure de réglages) pour qu'il obéisse aux nerfs.</p><p>Tant qu'il est réglé, vous avez l'avantage aux tests de <strong>Force (Athlétisme)</strong>. Par une action, il peut frapper d'un <strong>poing-piston</strong> (attaque au corps à corps avec la Force, <strong>1d8</strong> dégâts contondants).</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "arsenal-bras-mecanique-gnome",
+    "price": {
+      "value": 600,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 8,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": null,
+    "proficient": null,
+    "activities": {
+      "5zxZIx2MCbRRHiOa": {
+        "_id": "5zxZIx2MCbRRHiOa",
+        "type": "attack",
+        "name": "Poing-piston",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "1.5",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "attack": {
+          "ability": "str",
+          "bonus": "",
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "weapon"
+          }
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": false,
+          "parts": [
+            {
+              "number": 1,
+              "denomination": 8,
+              "bonus": "",
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              },
+              "types": [
+                "bludgeoning"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "j2mfVoHDi49R50Kp",
+      "_key": "!items.effects!BIOYq4YKtLSKwBGU.j2mfVoHDi49R50Kp",
+      "name": "Bras mécanique gnome",
+      "img": "icons/commodities/tech/claw-mechanical.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.skills.ath.roll.mode",
+            "value": 1,
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "elitAjaBRNde0BXr"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "arsenal-bras-mecanique-gnome",
+      "arsenal": "prothese"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

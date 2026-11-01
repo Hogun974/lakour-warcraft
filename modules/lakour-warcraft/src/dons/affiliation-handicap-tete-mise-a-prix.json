@@ -1,0 +1,64 @@
+{
+  "_id": "51569uJKfHXrQfZZ",
+  "_key": "!items!51569uJKfHXrQfZZ",
+  "name": "Tête mise à prix",
+  "type": "feat",
+  "img": "icons/skills/social/diplomacy-writing-letter.webp",
+  "system": {
+    "description": {
+      "value": "<p>Quelqu'un paie pour vous voir mort, ou ramené vivant : un baron gobelin, un capitaine écarlate, un chef de clan. La prime vaut <strong>100 po par niveau</strong> de personnage. Dans chaque ville d'une certaine taille, le MJ tire un d6 : sur 1, un chasseur de primes vous a trouvé.</p><p>La prime tombe si vous payez le commanditaire, s'il meurt, ou si vous prouvez votre innocence — ce qui fait souvent une bonne aventure.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "affiliation-handicap-tete-mise-a-prix",
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "enchant": {
+      "max": "",
+      "period": ""
+    },
+    "prerequisites": {
+      "items": [],
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Handicap de faction"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "affiliation-handicap-tete-mise-a-prix",
+      "categorie": "handicap",
+      "faction": "neutre"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

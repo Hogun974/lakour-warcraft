@@ -1,0 +1,90 @@
+{
+  "_id": "hW9V4wonb2lamZTL",
+  "_key": "!items!hW9V4wonb2lamZTL",
+  "name": "Flèches incendiaires de Quel'Thalas",
+  "type": "consumable",
+  "img": "icons/weapons/ammunition/arrow-broadhead-glowing-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Dix flèches dont la pointe est enveloppée d'étoupe enduite d'huile de mana. Elles s'enflamment à l'encoche et infligent <strong>1d4 dégâts de feu</strong> en plus des dégâts de l'arme.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "arsenal-fleches-incendiaires",
+    "price": {
+      "value": 20,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "quantity": 10,
+    "rarity": "",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": false
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 4,
+        "bonus": "",
+        "types": [
+          "fire"
+        ],
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        }
+      },
+      "replace": false
+    },
+    "type": {
+      "value": "ammo",
+      "subtype": "arrow"
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "activities": {}
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "arsenal-fleches-incendiaires",
+      "arsenal": "munition"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

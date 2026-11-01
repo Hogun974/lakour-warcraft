@@ -1,0 +1,138 @@
+{
+  "_id": "b5mbNGAfK8pUV4CW",
+  "_key": "!items!b5mbNGAfK8pUV4CW",
+  "name": "Œil-lunette gobelin",
+  "type": "equipment",
+  "img": "icons/equipment/head/goggles-brass-glass.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une lentille cerclée de cuivre, vissée sur l'orbite et munie d'une molette de mise au point. Il faut un <strong>lien</strong> pour l'accorder au regard. Tant qu'il est accordé, vous gagnez un bonus de <strong>+2</strong> aux tests de <strong>Sagesse (Perception)</strong> et vous voyez dans le noir jusqu'à <strong>18 m</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "arsenal-oeil-lunette-gobelin",
+    "price": {
+      "value": 450,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.2,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": null,
+    "proficient": null,
+    "activities": {}
+  },
+  "effects": [
+    {
+      "_id": "xD0SGep4LjJWhbtH",
+      "_key": "!items.effects!b5mbNGAfK8pUV4CW.xD0SGep4LjJWhbtH",
+      "name": "Œil-lunette gobelin",
+      "img": "icons/equipment/head/goggles-brass-glass.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.skills.prc.roll.bonus",
+            "value": "2",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "LyfKgWy2APKHfIKq"
+          },
+          {
+            "key": "system.attributes.senses.ranges.darkvision",
+            "value": 18,
+            "priority": null,
+            "type": "upgrade",
+            "phase": "initial",
+            "_id": "mDBR5CN99uR394hz"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "arsenal-oeil-lunette-gobelin",
+      "arsenal": "prothese"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

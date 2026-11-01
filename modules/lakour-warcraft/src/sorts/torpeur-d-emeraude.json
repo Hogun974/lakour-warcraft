@@ -1,0 +1,239 @@
+{
+  "_id": "DrNgIQgF77bFk3ru",
+  "_key": "!items!DrNgIQgF77bFk3ru",
+  "name": "Torpeur d'émeraude",
+  "type": "spell",
+  "img": "icons/magic/nature/dreamcatcher-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous ouvrez pour un instant la porte du Rêve d'émeraude dans l'esprit d'une créature à portée. Elle fait un jet de sauvegarde de Sagesse ; en cas d'échec, elle sombre dans un sommeil paisible (état <strong>Inconscient</strong>) pour la durée du sort.</p><p>Elle se réveille si elle subit des dégâts ou si quelqu'un utilise une action pour la secouer, et elle refait le jet de sauvegarde à la fin de chacun de ses tours. Les morts-vivants, les créatures artificielles et les elfes que le Rêve a déjà tourmentés (au jugement du MJ) réussissent automatiquement.</p><p><strong>Aux niveaux supérieurs.</strong> Vous pouvez viser une créature supplémentaire par niveau d'emplacement au-delà du 2e.</p><p><strong>Tradition</strong> : Druidisme. <strong>Listes de sorts</strong> : Druide, Barde.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "torpeur-d-emeraude",
+    "activities": {
+      "q0rhjdTMhRXDi3Ba": {
+        "_id": "q0rhjdTMhRXDi3Ba",
+        "type": "save",
+        "name": "Torpeur",
+        "img": "",
+        "sort": 100000,
+        "flags": {},
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute",
+          "expiry": null,
+          "special": "",
+          "concentration": true,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "vmP01m3z3uMInaKq",
+            "onSave": false,
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "range": {
+          "value": "18",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m"
+          },
+          "affects": {
+            "count": "@item.level - 1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "bonus": "",
+          "visible": true,
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": []
+        }
+      }
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "ability": "",
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute",
+      "expiry": null,
+      "special": ""
+    },
+    "level": 2,
+    "materials": {
+      "value": "un pétale de fleur cueilli dans un bois sacré",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "method": "spell",
+    "prepared": 0,
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "value": "18",
+      "units": "m",
+      "special": ""
+    },
+    "school": "enc",
+    "sourceItem": "",
+    "target": {
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "stationary": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": "m"
+      },
+      "affects": {
+        "count": "@item.level - 1",
+        "type": "creature",
+        "choice": false,
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "vmP01m3z3uMInaKq",
+      "_key": "!items.effects!DrNgIQgF77bFk3ru.vmP01m3z3uMInaKq",
+      "name": "Endormi dans le Rêve",
+      "img": "icons/magic/nature/dreamcatcher-green.webp",
+      "type": "base",
+      "system": {
+        "magical": true,
+        "changes": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": 60,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
+      },
+      "description": "<p>La créature dort jusqu'à la fin du sort. Elle se réveille si elle subit des dégâts ou si une autre créature utilise une action pour la secouer. Elle refait le jet de sauvegarde de Sagesse à la fin de chacun de ses tours et se réveille en cas de réussite.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "unconscious"
+      ],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "torpeur-d-emeraude",
+      "tradition": "druidisme",
+      "classes": [
+        "druid",
+        "bard"
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

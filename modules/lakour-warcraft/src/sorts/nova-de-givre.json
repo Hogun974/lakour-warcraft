@@ -1,0 +1,263 @@
+{
+  "_id": "assuCxUZyyYH81vE",
+  "_key": "!items!assuCxUZyyYH81vE",
+  "name": "Nova de givre",
+  "type": "spell",
+  "img": "icons/magic/water/barrier-ice-wall-explosion.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une onde de froid jaillit de vous et fige le sol. Chaque créature de votre choix située à 3 m ou moins de vous fait un jet de sauvegarde de Constitution. En cas d'échec, elle subit <strong>2d8</strong> dégâts de froid et sa vitesse tombe à 0 jusqu'à la fin de son prochain tour ; en cas de réussite, elle subit la moitié des dégâts et peut bouger.</p><p>C'est le premier sort de combat qu'apprennent les apprentis de Dalaran : il sert surtout à fuir.</p><p><strong>Aux niveaux supérieurs.</strong> Les dégâts augmentent de 1d8 par niveau d'emplacement au-delà du 2e.</p><p><strong>Tradition</strong> : Arcanes. <strong>Listes de sorts</strong> : Magicien, Ensorceleur.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "nova-de-givre",
+    "activities": {
+      "VbPlOz1IHKFIkOZc": {
+        "_id": "VbPlOz1IHKFIkOZc",
+        "type": "save",
+        "name": "Nova",
+        "img": "",
+        "sort": 100000,
+        "flags": {},
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "MTBB4H71dXMUsPto",
+            "onSave": false,
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "radius",
+            "size": "3",
+            "width": "",
+            "height": "",
+            "units": "m"
+          },
+          "affects": {
+            "count": "",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "bonus": "",
+          "visible": true,
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": 2,
+              "denomination": 8,
+              "bonus": "",
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "modifiers": [],
+              "scaling": {
+                "mode": "whole",
+                "number": 1,
+                "formula": ""
+              },
+              "types": [
+                "cold"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "ability": "",
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "inst",
+      "expiry": null,
+      "special": ""
+    },
+    "level": 2,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "method": "spell",
+    "prepared": 0,
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "range": {
+      "value": "",
+      "units": "self",
+      "special": ""
+    },
+    "school": "evo",
+    "sourceItem": "",
+    "target": {
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "stationary": false,
+        "type": "radius",
+        "size": "3",
+        "width": "",
+        "height": "",
+        "units": "m"
+      },
+      "affects": {
+        "count": "",
+        "type": "creature",
+        "choice": false,
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "MTBB4H71dXMUsPto",
+      "_key": "!items.effects!assuCxUZyyYH81vE.MTBB4H71dXMUsPto",
+      "name": "Pris dans la glace",
+      "img": "icons/magic/water/barrier-ice-wall-explosion.webp",
+      "type": "base",
+      "system": {
+        "magical": true,
+        "changes": [
+          {
+            "key": "system.attributes.movement.multiplier",
+            "value": 0,
+            "priority": null,
+            "type": "override",
+            "phase": "initial",
+            "_id": "vZQCGGJ74Puv3BFj"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": 6,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
+      },
+      "description": "<p>La vitesse de la créature est de 0 jusqu'à la fin de son prochain tour.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "nova-de-givre",
+      "tradition": "arcanes",
+      "classes": [
+        "wizard",
+        "sorcerer"
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

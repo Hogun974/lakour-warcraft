@@ -1,0 +1,290 @@
+{
+  "_id": "8drPFyT9o5AQyuQd",
+  "_key": "!items!8drPFyT9o5AQyuQd",
+  "name": "Sève de jouvence",
+  "type": "spell",
+  "img": "icons/magic/nature/leaf-drip-light-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous posez la main sur une créature et une sève lumineuse court sous sa peau. Elle récupère aussitôt <strong>1d4 + votre modificateur de caractéristique d'incantation</strong> points de vie, puis <strong>1d4</strong> points de vie au début de chacun de ses trois tours suivants (activité « Repousse », sans dépenser d'emplacement).</p><p>Le sort n'a aucun effet sur les morts-vivants et les créatures artificielles.</p><p><strong>Aux niveaux supérieurs.</strong> Les soins immédiats et ceux de chaque repousse augmentent de 1d4 par niveau d'emplacement au-delà du 1er.</p><p><strong>Tradition</strong> : Druidisme. <strong>Listes de sorts</strong> : Druide, Rôdeur.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "seve-de-jouvence",
+    "activities": {
+      "IlQoSBvXU7ily8AI": {
+        "_id": "IlQoSBvXU7ily8AI",
+        "type": "heal",
+        "name": "Floraison",
+        "img": "",
+        "sort": 100000,
+        "flags": {},
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "3",
+          "units": "round",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "touch",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m"
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "healing": {
+          "number": 1,
+          "denomination": 4,
+          "bonus": "@mod",
+          "custom": {
+            "enabled": false,
+            "formula": ""
+          },
+          "modifiers": [],
+          "scaling": {
+            "mode": "whole",
+            "number": 1,
+            "formula": ""
+          },
+          "types": [
+            "healing"
+          ]
+        }
+      },
+      "t0sprZT8xn8YrETw": {
+        "_id": "t0sprZT8xn8YrETw",
+        "type": "heal",
+        "name": "Repousse",
+        "img": "",
+        "sort": 200000,
+        "flags": {},
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "Début de chacun des trois tours suivants de la cible",
+          "override": true
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "3",
+          "units": "round",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "touch",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m"
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "healing": {
+          "number": 1,
+          "denomination": 4,
+          "bonus": "",
+          "custom": {
+            "enabled": false,
+            "formula": ""
+          },
+          "modifiers": [],
+          "scaling": {
+            "mode": "whole",
+            "number": 1,
+            "formula": ""
+          },
+          "types": [
+            "healing"
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "ability": "",
+    "activation": {
+      "type": "bonus",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "3",
+      "units": "round",
+      "expiry": null,
+      "special": ""
+    },
+    "level": 1,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "method": "spell",
+    "prepared": 0,
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "range": {
+      "value": "",
+      "units": "touch",
+      "special": ""
+    },
+    "school": "abj",
+    "sourceItem": "",
+    "target": {
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "stationary": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": "m"
+      },
+      "affects": {
+        "count": "1",
+        "type": "creature",
+        "choice": false,
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "seve-de-jouvence",
+      "tradition": "druidisme",
+      "classes": [
+        "druid",
+        "ranger"
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "_id": "kmLDG33vQUMjNLfF",
+  "_key": "!items!kmLDG33vQUMjNLfF",
+  "name": "Affiliation : Garde kor'kron",
+  "type": "feat",
+  "img": "icons/creatures/abilities/wolf-howl-moon-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Les Kor'kron sont la garde d'élite du chef de guerre. Ils veillent sur Orgrimmar, escortent les émissaires et règlent en silence les affaires que la Horde préfère ne pas voir. On n'y entre que sur recommandation d'un vétéran, et on n'en sort guère.</p><p><strong>Devoir.</strong> Servir le chef de guerre et protéger les dirigeants de la Horde. Garder secret ce que vous voyez et entendez au fort de Grommash. Exécuter un ordre avant de le discuter.</p><p><strong>Faveur par rang.</strong></p><ul><li><strong>Rang 1 — Recrue de la garde.</strong> Logement à la caserne d'Orgrimmar ; les grunts vous saluent et les marchands de la ville vous font crédit.</li><li><strong>Rang 2 — Garde kor'kron.</strong> Armure aux couleurs de la garde, loup de guerre fourni ; vous pouvez arrêter n'importe qui dans Orgrimmar.</li><li><strong>Rang 3 — Capitaine kor'kron.</strong> Vous commandez une escouade de quatre gardes et vous avez accès au chef de guerre pour les affaires de sécurité.</li></ul><p><strong>Avantage.</strong> <em>Vigilance kor'kron</em> : vous ajoutez <strong>1d4</strong> à vos jets d'initiative.</p><p><strong>Réputation.</strong> L'Alliance voit en vous un tueur de la Horde ; les orcs nostalgiques du sang démoniaque, eux, vous méprisent comme le chien de Thrall. Les Kor'kron ont une réputation de brutes : on vous craint plus qu'on ne vous aime.</p><p><strong>Monter en rang.</strong> Le MJ accorde le rang suivant après une mission d'importance accomplie pour l'ordre, ou au bout de quelques aventures de service loyal ; il le note dans le don (rang 1 à 3). Manquer gravement au devoir fait perdre un rang, ou l'affiliation entière.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "affiliation-kor-kron",
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "enchant": {
+      "max": "",
+      "period": ""
+    },
+    "prerequisites": {
+      "items": [],
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Affiliation — Kor'kron"
+  },
+  "effects": [
+    {
+      "_id": "Y7h92RDkvp6QGjOX",
+      "_key": "!items.effects!kmLDG33vQUMjNLfF.Y7h92RDkvp6QGjOX",
+      "name": "Vigilance kor'kron",
+      "img": "icons/creatures/abilities/wolf-howl-moon-purple.webp",
+      "type": "base",
+      "system": {
+        "magical": false,
+        "changes": [
+          {
+            "key": "system.attributes.init.roll.bonus",
+            "value": "1d4",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "sEEPy3D0Fq3QWvaA"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>+1d4 aux jets d'initiative.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "affiliation-kor-kron",
+      "categorie": "affiliation",
+      "faction": "horde",
+      "organisation": "Kor'kron",
+      "rang": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

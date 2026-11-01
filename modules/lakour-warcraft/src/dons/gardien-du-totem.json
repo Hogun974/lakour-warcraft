@@ -1,0 +1,60 @@
+{
+  "_id": "Bli9Kv4poc53Y8FV",
+  "_key": "!items!Bli9Kv4poc53Y8FV",
+  "name": "Gardien du totem",
+  "type": "feat",
+  "img": "icons/skills/melee/shield-block-bash-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Prérequis : Capacité Style de combat.</em></p><p>Les braves taurens protègent les anciens et les enfants autour du totem. Quand une créature que vous voyez attaque une cible autre que vous située à 1,5 m de vous, vous pouvez utiliser votre <strong>réaction</strong> pour imposer le <strong>désavantage</strong> à ce jet d'attaque. Vous devez tenir un bouclier ou une arme de corps à corps.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "gardien-du-totem",
+    "type": {
+      "value": "feat",
+      "subtype": "fightingStyle"
+    },
+    "requirements": "Capacité Style de combat",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "gardien-du-totem",
+      "automatisation": "texte"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "_id": "QBnNuldjrEpoOw5H",
+  "_key": "!items!QBnNuldjrEpoOw5H",
+  "name": "Métamorphose ovine",
+  "type": "spell",
+  "img": "icons/creatures/mammals/livestock-sheep-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>La spécialité honteuse et indispensable des mages du Kirin Tor. Une créature que vous voyez à portée fait un jet de sauvegarde de Sagesse ; en cas d'échec, elle devient un mouton pour la durée du sort.</p><p>Sous cette forme, elle est de taille Petite, a une CA de 10 et une vitesse de 9 m ; elle ne peut ni parler, ni lancer de sorts, ni utiliser d'objets, et ses seules attaques sont des coups de tête (1d6 dégâts contondants). Elle conserve ses points de vie, son Intelligence et ses souvenirs. <strong>Le sort prend fin dès qu'elle subit des dégâts.</strong> Les métamorphes et les créatures de plus de 9 dés de vie (ou de FP supérieur à 6) réussissent automatiquement.</p><p><strong>Tradition</strong> : Arcanes. <strong>Listes de sorts</strong> : Magicien, Ensorceleur.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "metamorphose-ovine",
+    "activities": {
+      "LfosHgeghvD5NlHA": {
+        "_id": "LfosHgeghvD5NlHA",
+        "type": "save",
+        "name": "Métamorphose",
+        "img": "",
+        "sort": 100000,
+        "flags": {},
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute",
+          "expiry": null,
+          "special": "",
+          "concentration": true,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "rEIp1cC1G0Pb0GCm",
+            "onSave": false,
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "range": {
+          "value": "18",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m"
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "bonus": "",
+          "visible": true,
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": []
+        }
+      }
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "ability": "",
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute",
+      "expiry": null,
+      "special": ""
+    },
+    "level": 3,
+    "materials": {
+      "value": "une touffe de laine",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "method": "spell",
+    "prepared": 0,
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "value": "18",
+      "units": "m",
+      "special": ""
+    },
+    "school": "trs",
+    "sourceItem": "",
+    "target": {
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "stationary": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": "m"
+      },
+      "affects": {
+        "count": "1",
+        "type": "creature",
+        "choice": false,
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "rEIp1cC1G0Pb0GCm",
+      "_key": "!items.effects!QBnNuldjrEpoOw5H.rEIp1cC1G0Pb0GCm",
+      "name": "Changé en mouton",
+      "img": "icons/creatures/mammals/livestock-sheep-green.webp",
+      "type": "base",
+      "system": {
+        "magical": true,
+        "changes": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": 60,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
+      },
+      "description": "<p>La créature est un mouton : Petite, CA 10, vitesse 9 m, 1d6 contondant en coup de tête, aucune action de sort ni de parole. Elle garde ses propres points de vie. Le sort prend fin si elle subit des dégâts.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "metamorphose-ovine",
+      "tradition": "arcanes",
+      "classes": [
+        "wizard",
+        "sorcerer"
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

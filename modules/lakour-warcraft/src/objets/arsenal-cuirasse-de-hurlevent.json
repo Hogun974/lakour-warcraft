@@ -1,0 +1,88 @@
+{
+  "_id": "bErSKybgmEufEOWE",
+  "_key": "!items!bErSKybgmEufEOWE",
+  "name": "Cuirasse de la Garde de Hurlevent",
+  "type": "equipment",
+  "img": "icons/equipment/chest/breastplate-cuirass-steel-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un plastron d'acier bleui frappé du lion d'or, porté sur une cotte légère. Assez souple pour les rondes du quartier des Mages, assez solide pour les escarmouches de la Marche de l'Ouest.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "arsenal-cuirasse-de-hurlevent",
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 20,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": 14,
+      "magicalBonus": null,
+      "dex": 2
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "medium",
+      "baseItem": "breastplate"
+    },
+    "properties": [],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": null,
+    "proficient": null,
+    "activities": {}
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "arsenal-cuirasse-de-hurlevent",
+      "arsenal": "armure"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

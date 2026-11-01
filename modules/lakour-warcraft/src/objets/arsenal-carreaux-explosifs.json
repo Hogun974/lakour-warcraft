@@ -1,0 +1,90 @@
+{
+  "_id": "pzYC56LFlcvQoajl",
+  "_key": "!items!pzYC56LFlcvQoajl",
+  "name": "Carreaux explosifs gobelins",
+  "type": "consumable",
+  "img": "icons/weapons/ammunition/explosive-charge-timer.webp",
+  "system": {
+    "description": {
+      "value": "<p>Cinq carreaux dont la pointe est une capsule de poudre gobeline. Un carreau qui touche explose et inflige <strong>1d6 dégâts de feu</strong> en plus des dégâts de l'arme. Un carreau qui manque explose quand même, quelque part.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "arsenal-carreaux-explosifs",
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 1.5,
+      "units": "lb"
+    },
+    "quantity": 5,
+    "rarity": "",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": false
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "bonus": "",
+        "types": [
+          "fire"
+        ],
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        }
+      },
+      "replace": false
+    },
+    "type": {
+      "value": "ammo",
+      "subtype": "crossbowBolt"
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "activities": {}
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "arsenal-carreaux-explosifs",
+      "arsenal": "munition"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

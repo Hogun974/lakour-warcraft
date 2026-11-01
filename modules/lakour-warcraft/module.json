@@ -2,7 +2,7 @@
   "id": "lakour-warcraft",
   "title": "La Kour Warcraft – Azeroth pour D&D 5e",
   "description": "Contenu maison et en français pour jouer dans l'univers de Warcraft avec D&D 5e (règles 2024) : peuples d'Azeroth, historiques, bestiaire, guides du joueur et du MJ, aventure de départ avec cartes jouables. Textes originaux, pour un usage privé à la table. Jetons : icônes de game-icons.net (licence CC BY 3.0), voir CREDITS.md.",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "authors": [{ "name": "Jordan" }],
   "compatibility": { "minimum": "14", "verified": "14.369" },
   "relationships": {
@@ -17,12 +17,25 @@
     { "name": "peuples", "label": "La Kour Warcraft — Peuples", "path": "packs/peuples", "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
     { "name": "historiques", "label": "La Kour Warcraft — Historiques et dons", "path": "packs/historiques", "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
     { "name": "objets", "label": "La Kour Warcraft — Objets", "path": "packs/objets", "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "dons", "label": "La Kour Warcraft — Dons et affiliations", "path": "packs/dons", "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "sorts", "label": "La Kour Warcraft — Sorts", "path": "packs/sorts", "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "afflictions", "label": "La Kour Warcraft — Afflictions", "path": "packs/afflictions", "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" } },
     { "name": "bestiaire", "label": "La Kour Warcraft — Bestiaire", "path": "packs/bestiaire", "type": "Actor", "system": "dnd5e", "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" } },
     { "name": "tables", "label": "La Kour Warcraft — Tables", "path": "packs/tables", "type": "RollTable", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
     { "name": "journaux", "label": "La Kour Warcraft — Guides et aventures", "path": "packs/journaux", "type": "JournalEntry", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
     { "name": "scenes", "label": "La Kour Warcraft — Scènes", "path": "packs/scenes", "type": "Scene", "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" } }
   ],
   "packFolders": [
-    { "name": "La Kour Warcraft", "sorting": "m", "color": "#1a3a5a", "packs": ["journaux", "scenes", "peuples", "historiques", "objets", "bestiaire", "tables"] }
-  ]
+    { "name": "La Kour Warcraft", "sorting": "m", "color": "#1a3a5a", "packs": ["journaux", "scenes", "peuples", "historiques", "dons", "sorts", "objets", "afflictions", "bestiaire", "tables"] }
+  ],
+  "flags": { "dnd5e": { "spellLists": [
+    "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.Ul1YO018sbW9RRmk",
+    "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.IetUXLFHrT4bVEGt",
+    "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.2D8DaGKZZf35xLKW",
+    "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.pBJQcuht8v3wBTvi",
+    "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.nlYdLBAwZplXXqC1",
+    "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.Vhj5w5yBsOxkj6sA",
+    "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.TReruCQ6tfVqkRoL",
+    "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.eERlD3NAuouxgyEf"
+  ] } }
 }

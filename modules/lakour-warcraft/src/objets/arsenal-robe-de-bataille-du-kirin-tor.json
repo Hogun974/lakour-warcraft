@@ -1,0 +1,90 @@
+{
+  "_id": "dC7nC8QHPLvBCVvK",
+  "_key": "!items!dC7nC8QHPLvBCVvK",
+  "name": "Robe de bataille du Kirin Tor",
+  "type": "equipment",
+  "img": "icons/equipment/chest/robe-layered-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une robe violette matelassée, doublée de feutre sous les broderies d'argent. Les apprentis de Dalaran la portent en mission : elle n'arrête pas grand-chose, mais elle bruisse à chaque pas.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "arsenal-robe-de-bataille-du-kirin-tor",
+    "price": {
+      "value": 15,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 8,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": 11,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "light",
+      "baseItem": "padded"
+    },
+    "properties": [
+      "stealthDisadvantage"
+    ],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": null,
+    "proficient": null,
+    "activities": {}
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "arsenal-robe-de-bataille-du-kirin-tor",
+      "arsenal": "armure"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

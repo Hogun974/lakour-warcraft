@@ -1,0 +1,90 @@
+{
+  "_id": "GFemXxIIrYb1J69e",
+  "_key": "!items!GFemXxIIrYb1J69e",
+  "name": "Flèches à pointe de thorium",
+  "type": "consumable",
+  "img": "icons/weapons/ammunition/arrowhead-glowing-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Dix flèches à pointe de thorium, ce métal bleuté qu'on extrait des failles de Gangrebois et du Cratère d'Un'Goro. Elles sont <strong>+1</strong> au jet d'attaque et aux dégâts.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "arsenal-fleches-de-thorium",
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "quantity": 10,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": false
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "types": [],
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        }
+      },
+      "replace": false
+    },
+    "type": {
+      "value": "ammo",
+      "subtype": "arrow"
+    },
+    "magicalBonus": 1,
+    "properties": [
+      "mgc"
+    ],
+    "activities": {}
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "arsenal-fleches-de-thorium",
+      "arsenal": "munition"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

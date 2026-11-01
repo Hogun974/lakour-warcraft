@@ -1,0 +1,333 @@
+{
+  "_id": "iAeSEjvoP39qrJrH",
+  "_key": "!items!iAeSEjvoP39qrJrH",
+  "name": "Chair corrompue",
+  "type": "feat",
+  "img": "icons/magic/unholy/beam-impact-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Des cornes naissantes, des ongles noircis, une chaleur qui ne vous quitte plus. En plus des effets précédents, vous gagnez la <strong>vision dans le noir</strong> sur <strong>18 m</strong>, vous êtes <strong>vulnérable aux dégâts radiants</strong>, et vos points de vie maximum diminuent de <strong>1 par niveau</strong>.</p><p><strong>Puiser dans la gangrène.</strong> Par une <strong>action bonus</strong>, vous gagnez <strong>2d6 + votre bonus de maîtrise</strong> points de vie temporaires. Nombre d'utilisations : deux par repos long.</p><p><strong>Résister à l'appel.</strong> Chaque fois que vous puisez dans la gangrène, ou que le MJ vous expose au gangrefeu (rituel démoniaque, cristal gangrené, sang de démon bu), faites un jet de sauvegarde de <strong>Sagesse</strong> contre le DD du palier. En cas d'échec, le MJ note un pas de corruption ; au troisième pas, vous passez au palier suivant.</p><p><strong>Purification.</strong> Un rituel des naaru, l'eau d'un puits sacré ou une <em>Restauration supérieure</em> lancée par un prêtre ou un paladin d'au moins le niveau 9 vous fait redescendre d'un palier (une fois par mois).</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "corruption-palier-3",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Corruption gangrenée — palier 3",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {
+      "trYS2UMpzXcIe2OS": {
+        "_id": "trYS2UMpzXcIe2OS",
+        "type": "save",
+        "name": "Résister à l'appel",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "16"
+          }
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": []
+        }
+      },
+      "F2DMRcQ7SA2Ex7jv": {
+        "_id": "F2DMRcQ7SA2Ex7jv",
+        "type": "heal",
+        "name": "Puiser dans la gangrène",
+        "img": null,
+        "sort": 100000,
+        "flags": {},
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "healing": {
+          "number": 2,
+          "denomination": 6,
+          "bonus": "@prof",
+          "custom": {
+            "enabled": false,
+            "formula": ""
+          },
+          "scaling": {
+            "mode": "",
+            "number": null,
+            "formula": ""
+          },
+          "types": [
+            "temphp"
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "2",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "YSQfGrb3JFCHtfZ3",
+      "_key": "!items.effects!iAeSEjvoP39qrJrH.YSQfGrb3JFCHtfZ3",
+      "name": "Chair corrompue",
+      "img": "icons/magic/unholy/beam-impact-green.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.skills.itm.roll.mode",
+            "type": "add",
+            "value": 1,
+            "phase": "initial",
+            "priority": null
+          },
+          {
+            "key": "system.skills.ins.roll.mode",
+            "type": "add",
+            "value": -1,
+            "phase": "initial",
+            "priority": null
+          },
+          {
+            "key": "system.traits.dr.value",
+            "type": "add",
+            "value": "fire",
+            "phase": "initial",
+            "priority": null
+          },
+          {
+            "key": "system.abilities.wis.save.roll.mode",
+            "type": "add",
+            "value": -1,
+            "phase": "initial",
+            "priority": null
+          },
+          {
+            "key": "system.traits.dv.value",
+            "type": "add",
+            "value": "radiant",
+            "phase": "initial",
+            "priority": null
+          },
+          {
+            "key": "system.attributes.senses.ranges.darkvision",
+            "type": "upgrade",
+            "value": 18,
+            "phase": "initial",
+            "priority": null
+          },
+          {
+            "key": "system.attributes.hp.bonuses.level",
+            "type": "add",
+            "value": "-1",
+            "phase": "initial",
+            "priority": null
+          }
+        ]
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 2,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "corruption-palier-3",
+      "affliction": {
+        "categorie": "corruption",
+        "palier": 3,
+        "sauvegarde": {
+          "carac": "wis",
+          "dd": 16
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

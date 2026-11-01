@@ -1,0 +1,175 @@
+{
+  "_id": "RnVwVIF5H7keFmPT",
+  "_key": "!items!RnVwVIF5H7keFmPT",
+  "name": "Affiliation : Cercle cénarien",
+  "type": "feat",
+  "img": "icons/magic/nature/leaf-oak-wreath-glow-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Fondé par les druides elfes de la nuit au nom du demi-dieu Cénarius, le Cercle cénarien accueille aujourd'hui des druides taurens et quelques chamans. Il veille sur les bosquets sacrés et sur la frontière fragile entre Azeroth et le Rêve d'émeraude, depuis le refuge de Reflet-de-Lune.</p><p><strong>Devoir.</strong> Protéger les bosquets sacrés et les créatures du Rêve. Signaler toute corruption de la nature (gangrène, peste, satyres). Ne jamais abattre un arbre vivant sans le rite de demande.</p><p><strong>Faveur par rang.</strong></p><ul><li><strong>Rang 1 — Gardien des bois.</strong> Abri et soins dans les refuges cénariens ; les dryades et les esprits sylvestres vous laissent passer.</li><li><strong>Rang 2 — Druide-éclaireur.</strong> Une chouette messagère du Cercle vous trouve où que vous soyez. Si vous lancez des sorts, <em>Sève de jouvence</em> et <em>Sarments du Rêve</em> comptent comme des sorts de votre liste.</li><li><strong>Rang 3 — Voix du Cercle.</strong> Un archidruide écoute vos requêtes ; une fois par campagne, un Ancien de la forêt se déplace pour vous.</li></ul><p><strong>Avantage.</strong> <em>Veillée sous les Anciens</em> : une fois par repos long, à la fin d'un repos court pris en pleine nature, jusqu'à six créatures de votre choix qui se sont reposées avec vous récupèrent chacune <strong>1d6 + votre bonus de maîtrise</strong> points de vie.</p><p><strong>Réputation.</strong> Les bûcherons de la Horde en Orneval et les mineurs de toutes les factions voient en vous un empêcheur de travailler. Certains druides vous jugent trop jeune pour parler au nom du Cercle.</p><p><strong>Monter en rang.</strong> Le MJ accorde le rang suivant après une mission d'importance accomplie pour l'ordre, ou au bout de quelques aventures de service loyal ; il le note dans le don (rang 1 à 3). Manquer gravement au devoir fait perdre un rang, ou l'affiliation entière.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "affiliation-cercle-cenarien",
+    "activities": {
+      "ISvCNrPYkQGi9Bpn": {
+        "_id": "ISvCNrPYkQGi9Bpn",
+        "type": "heal",
+        "name": "Veillée sous les Anciens",
+        "img": "",
+        "sort": 100000,
+        "flags": {},
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "À la fin d'un repos court pris en pleine nature",
+          "override": false
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "9",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m"
+          },
+          "affects": {
+            "count": "6",
+            "type": "ally",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "healing": {
+          "number": 1,
+          "denomination": 6,
+          "bonus": "@prof",
+          "custom": {
+            "enabled": false,
+            "formula": ""
+          },
+          "modifiers": [],
+          "scaling": {
+            "mode": "",
+            "number": null,
+            "formula": ""
+          },
+          "types": [
+            "healing"
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll",
+          "formula": ""
+        }
+      ]
+    },
+    "advancement": {},
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "enchant": {
+      "max": "",
+      "period": ""
+    },
+    "prerequisites": {
+      "items": [],
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Affiliation — Cercle cénarien"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "affiliation-cercle-cenarien",
+      "categorie": "affiliation",
+      "faction": "neutre",
+      "organisation": "Cercle cénarien",
+      "rang": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

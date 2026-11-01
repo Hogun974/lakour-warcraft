@@ -6,12 +6,9 @@ import { action, attaque, attaquesMultiples, pnj, sauvegarde, trait } from "./ac
 import { journal } from "./aides.mjs";
 import { CARTES, TITRE_AVENTURE } from "./aventure-cartes.mjs";
 import { CARTES_LIEUX } from "./lieux-cartes.mjs";
-
-const NOMS_CARTES = Object.fromEntries(CARTES.map(c => [c.flags["lakour-warcraft"].cle, c.name]));
-const carte = cle => {
-  if (!NOMS_CARTES[cle]) throw new Error(`Aventure : carte inconnue ${cle}`);
-  return NOMS_CARTES[cle];
-};
+import { BESTIAIRE } from "./bestiaire.mjs";
+import { OBJETS } from "./objets-azeroth.mjs";
+import { TABLES, degats, jet, jetSauvegarde, liens, reference } from "./guides.mjs";
 
 // ---------------------------------------------------------------- PNJ nommés
 
@@ -95,144 +92,6 @@ export const PNJ_AVENTURE = [
     mj: "Messager de la Légion auprès de Drogha. Il a livré l'Éclat et la recette de l'eau verte, et il s'amuse. Il sème la discorde (Air de discorde sur les groupes mixtes Horde-Alliance, en raillant leurs vieilles haines), puis fuit à 15 PV en jurant de revenir. Il peut servir d'ennemi récurrent dans une suite." })
 ];
 
-// ---------------------------------------------------------------- Journal du MJ (caché)
-
-const JOURNAL_MJ = journal({ cle: "aventure-puits-de-cendre", nom: `Aventure — ${TITRE_AVENTURE}`, visible: false, pages: [
-  { titre: "Synopsis (MJ)", texte: `
-**${TITRE_AVENTURE}** est une aventure d'enquête et d'action pour 3 à 5 personnages de **niveau 1**, qui atteignent le **niveau 3** à la fin (passage au niveau 2 après la scène 2, au niveau 3 après la scène 3). Comptez deux ou trois séances.
-
-**Cadre.** Les Tarides du Nord, savane brûlée entre Durotar et la côte. Au bord de la mer, **Cabestan**, port gobelin du **Cartel Gentepression**, est neutre : la **Trêve de Cabestan** y interdit tout combat entre la Horde et l'Alliance. Le groupe peut donc être de l'Alliance, de la Horde ou mélangé.
-
-**Ce qui se passe.** Depuis un mois, les puits et les oasis des Tarides se gâtent : l'eau a un goût de cendre et luit faiblement en vert la nuit. Ceux qui en boivent ont de la fièvre et des colères soudaines. Les hurans du kraal de **Ronceroc** attaquent les caravanes avec une rage inhabituelle. Au Carrefour, on accuse l'Alliance d'empoisonner l'eau ; dans les avant-postes de l'Alliance, on accuse la Horde. La guerre menace.
-
-**La vérité.** **Drogha Cendrelame**, orc renégat de la **Lame ardente** (un culte qui vénère la Légion ardente), et le satyre **Ezzavel le Rieur** ont trouvé dans la mine abandonnée de **Rouge-Veine** un **Éclat gangrené**, fragment de cristal démoniaque oublié depuis des millénaires. Plongé dans la source souterraine qui alimente la nappe des Tarides, il répand la gangrène dans tous les puits de la région. Drogha veut une guerre entre factions, et une armée de hurans corrompus au service de la Légion. Ezzavel a acheté la cheffe huran **Gorra Fiel-d'Épine** avec de l'eau « bénie » contre des prisonniers, qui creusent la mine aux côtés de kobolds enchaînés.
-
-**Déroulement et cartes** (compendium *La Kour Warcraft — Scènes*)
-- Scène 1 — Le contrat du Cartel : carte *${carte("cabestan-quai")}*
-- Scène 2 — Le relais pillé : carte *${carte("relais-oasis")}*
-- Scène 3 — Le kraal de Ronceroc : carte *${carte("kraal-ronceroc")}*
-- Scène 4 — La mine de Rouge-Veine : carte *${carte("mine-rouge-veine")}*
-
-Les PNJ nommés et les créatures sont dans le compendium *La Kour Warcraft — Bestiaire*.` },
-
-  { titre: "Scène 1 — Le contrat du Cartel", texte: `
-**Carte :** *${carte("cabestan-quai")}*. Fin d'après-midi, les lanternes s'allument.
-
-**À lire :** *Cabestan sent l'huile chaude, le sel et le poisson grillé. Sur le quai, des gobelins hurlent des prix dans trois langues pendant qu'une grue grince au-dessus d'un navire marchand. Un orc et un humain en armes se croisent sans se regarder : ici, la Trêve tient, parce que le Cartel le veut. Devant le Comptoir, une gobeline aux lunettes de cuivre vous fait signe d'entrer, sans lever les yeux de son livre de comptes.*
-
-**Le contrat.** **Grizzla Tordeboulon** remet au groupe le **contrat du Cartel** (aide de jeu) : trouver ce qui empoisonne l'eau des Tarides et l'arrêter. 50 pièces d'or chacun, 100 de plus pour le groupe si la cause est détruite. Elle fournit une gourde d'eau gâtée, un kodo de bât et la route de la dernière caravane, disparue près du **Relais de l'Oasis** avec son guide, **Hanuk Pas-de-Pluie**.
-
-**Le Bureau de la Trêve.** Le lieutenant **Corwen Haldis** (Alliance, profil de Garde de Hurlevent) et le grunt **Garrok Brise-Dent** (Horde, profil de Grunt d'Orgrimmar) s'y disputent autour de la Table des négociations. Chacun accuse l'autre camp, chacun est sincère (Intuition DD 12). Chacun demande discrètement aux personnages de sa faction de lui rapporter la preuve que *son* camp est innocent : bonne accroche pour les groupes mixtes.
-
-**Indices**
-- Gourde d'eau gâtée : **Investigation DD 12**, une fine cendre noire au fond ; **Arcanes DD 13**, l'odeur et la lueur de la gangrène, la magie des démons.
-- Un docker malade près du Puits du Cartel : **Médecine DD 12**, fièvre de gangrène (insomnie, colère) ; il a bu à l'oasis du relais il y a dix jours.
-- Les **Tonneaux d'eau** livrés devant l'Entrepôt du Cartel : **Perception DD 13**, l'un d'eux luit faiblement ; un porteur d'eau en verse le contenu dans les autres.
-
-**Rencontre : les tonneaux.** Le porteur est un **cultiste de la Lame ardente** (profil de Bandit défias), accompagné de trois **nervis** (Bandits défias) cachés derrière le Chariot et les Caisses du quai. Démasqué, il attaque ; les nervis fuient s'il tombe. Si le combat dure plus de 3 rounds, **deux murlocs** attirés par l'eau souillée répandue dans le port grimpent sur le Quai. Les gardes du port arrivent au bout de 5 rounds : la Trêve est respectée tant que personne n'a tiré sur un membre de l'autre faction.
-
-**Interrogatoire.** Le cultiste porte une lame enflammée tatouée sur l'avant-bras (**Histoire ou Religion DD 12** : la Lame ardente). Intimidé ou soigné (**Persuasion DD 13**), il lâche : « La source boit le feu. Rouge-Veine chante, et bientôt tout le monde boira. » Sur lui : une carte avec le Relais de l'Oasis entouré, et 8 pièces d'or.` },
-
-  { titre: "Scène 2 — Le relais pillé", texte: `
-**Carte :** *${carte("relais-oasis")}*. Une journée de piste vers l'est. Arrivée au crépuscule.
-
-**À lire :** *Le relais n'a plus de porte. Un chariot renversé barre la piste, à côté d'un kodo mort que les vautours ont déjà trouvé. Les caisses de la caravane sont éventrées, et les tonneaux d'eau propre ont disparu. Au-delà, l'oasis devrait être un miroir bleu sous les palmiers ; ce soir, son eau a la couleur d'une vieille bouteille, et quelque chose y brille faiblement.*
-
-**Hanuk.** Le guide tauren est caché dans l'Écurie, blessé (12 PV sur 34). **Perception DD 10** pour l'entendre respirer. Il raconte : des hurans aux yeux verts ont attaqué à l'aube, emporté l'eau propre et deux conducteurs ; derrière eux, quelqu'un « riait comme une chèvre ». Soigné ou remercié, il rejoint le groupe (allié).
-
-**Indices**
-- Le **Puits** du relais : **Nature ou Survie DD 12**, le niveau de l'eau est normal, mais la cendre remonte du fond ; **Arcanes DD 13**, la corruption vient de la nappe, qui descend des collines rouges à l'est.
-- Les traces : **Survie DD 11**, les hurans sont repartis vers le sud-est (le kraal de Ronceroc, une demi-journée) ; **Survie DD 15**, des empreintes de sabots fendus, bipèdes, brûlées dans l'herbe, partent vers l'est (la mine).
-- Dans les Caisses éventrées : un registre de la caravane (marchandises de la Horde *et* de l'Alliance, preuve que personne n'a attaqué « l'autre camp »).
-
-**Rencontre : l'attaque de nuit.** Vers minuit, **trois guerriers hurans** et **un sanglier corrompu** (Sanglier des plaines qui ne fuit jamais, yeux verts) arrivent par l'Oasis pour prendre le reste de l'eau. Ils visent les tonneaux, puis quiconque les défend. Un huran capturé ne parle qu'huran (ou orc, mal) : « La cheffe donne l'eau qui rend fort. »
-
-**Purifier le puits (facultatif).** Un rite de la Lumière ou de la nature (**Religion ou Nature DD 14**, une heure, de l'eau bénite ou une offrande) rend le puits buvable pour une semaine : la caravane suivante passera.
-
-**Fin de scène :** les personnages passent au **niveau 2**.` },
-
-  { titre: "Scène 3 — Le kraal de Ronceroc", texte: `
-**Carte :** *${carte("kraal-ronceroc")}*. Une demi-journée au sud-est, dans un vallon couvert de ronces géantes.
-
-**À lire :** *Les ronces montent plus haut qu'un kodo, tressées en murailles vivantes, hérissées d'épines longues comme des dagues. Par l'unique entrée, on aperçoit un grand totem, des huttes de terre et, près du feu, une mare dont l'eau verte fume doucement. Un cor sonne ; des groins se lèvent.*
-
-**Approches**
-- **Assaut** par l'entrée sud : dangereux (Gorra, quatre guerriers hurans, deux sangliers).
-- **Discrétion** : un passage secret dans les ronces, à l'ouest (**Perception DD 14** pour le trouver, ou Hanuk le connaît), mène derrière la Hutte du géomancien. Tests de **Discrétion DD 12** pour traverser le kraal la nuit.
-- **Parlementer** avec **Grommel Défense-Grise** dans sa hutte, près de l'Autel de pierre (**Persuasion DD 13**, avantage si Hanuk est là ou si des hurans ont été épargnés).
-
-**Ce que sait Grommel.** La cheffe Gorra a accepté l'eau du « rieur » quand la sécheresse tuait les sangliers. En échange, le kraal livre des prisonniers à la mine de Rouge-Veine. L'eau donne de la force et prend la raison. Il connaît la **galerie basse** de la mine, qui contourne la galerie principale et débouche dans la caverne par un passage dérobé.
-
-**Gorra Fiel-d'Épine.** Sur son Trône d'os, dans la Hutte de la cheffe. Elle accepte un **duel d'honneur** si on le lui propose devant les siens (Grommel peut l'arranger) : un champion contre elle, jusqu'à ce que l'un tombe. Vaincue mais vivante, elle libère les prisonniers et laisse partir le groupe. Tuée, le kraal se disperse, et la piste de la mine reste ouverte, mais les hurans haïront le groupe.
-
-**La Cage des prisonniers.** Deux conducteurs de la caravane : **Tobias Merle**, un humain de Theramore, et **Uzga**, une orque du Carrefour. Ils ont vu les mêmes cultistes emporter des hurans enchaînés vers l'est, et chacun témoigne que l'autre camp n'y est pour rien. Les ramener vivants à Cabestan vaut une preuve pour le Bureau de la Trêve.
-
-**Soigner la gangrène.** **Médecine DD 13** et trois jours de repos sans boire l'eau verte guérissent un huran ; détruire l'Éclat les guérit tous en une semaine.
-
-**Fin de scène :** les personnages passent au **niveau 3**.` },
-
-  { titre: "Scène 4 — La mine de Rouge-Veine", texte: `
-**Carte :** *${carte("mine-rouge-veine")}*. Les collines rouges à l'est, une journée du kraal. Obscurité totale hors des lumières de la carte.
-
-**À lire :** *Le vieux panneau du Cartel pend encore au-dessus de l'entrée, rongé par le vent : « Rouge-Veine — défense d'entrer sans casque ». De la galerie monte une odeur de soufre et de pierre chaude, et une lueur verte palpite au fond, au rythme d'un cœur. Quelque part, des pioches frappent la roche, et des petites voix pleurnichent.*
-
-**Entrée de la mine.** Deux **cultistes** (Bandits défias) jouent aux dés près du Tas de minerai ; s'ils sonnent l'alerte, Drogha est prêt dans la caverne (pas de surprise possible).
-
-**Baraquement des kobolds.** Huit **kobolds mineurs** enchaînés (les Chaînes près des Couchettes), épuisés, gardés par un cultiste. Libérés (**Persuasion DD 12**, ou en leur offrant des bougies !), ils ne se battent pas mais montrent la porte dérobée de la galerie basse et volent la clé de la Réserve de poudre.
-
-**Réserve de poudre** (porte verrouillée : clé du garde, ou **outils de voleur DD 13**). Les **Tonneaux de poudre** : un tonneau allumé explose au bout d'un round (sphère de 3 m, **sauvegarde de Dextérité DD 12**, 3d6 dégâts de feu, moitié en cas de réussite). Deux tonneaux au pied du Puits de la source noire font s'effondrer la caverne : à n'utiliser qu'en sortant !
-
-**Galerie basse.** L'Étayage effondré cache le passage secret vers la caverne (**Perception DD 15** sans l'aide des kobolds ou de Grommel). Elle permet d'arriver derrière Drogha.
-
-**La Caverne de la Source.** **Drogha Cendrelame** devant l'Autel de la Lame ardente, **Ezzavel le Rieur** près de l'**Éclat gangrené**, planté dans le Puits de la source noire, et **deux cultistes** près des Braseros.
-
-**À lire :** *L'eau noire du puits bouillonne sans chaleur. Planté en son centre, un cristal vert gros comme un poing de troll pulse lentement, et chaque battement fait trembler les flammes des braseros. Un orc au crâne tatoué lève les bras et chante en eredun ; à côté de lui, une silhouette à pattes de bouc éclate de rire en vous voyant.*
-
-**Le rituel** (un palier tous les 3 rounds, compté dès que le groupe entre dans la caverne) :
-1. L'eau monte : le sol à 3 m du puits devient un terrain difficile.
-2. L'eau crache des vapeurs vertes : chaque créature qui finit son tour à 3 m du puits fait une **sauvegarde de Constitution DD 12** ou subit 2d6 dégâts de poison.
-3. Un **chien corrompu** jaillit du puits et attaque. Si on laisse le rituel continuer encore 10 rounds, un **gangregarde** suit : il faut fuir.
-
-**Arrêter le rituel :** détruire l'Éclat (CA 15, 20 PV, immunisé contre le poison et les dégâts psychiques, dégâts radiants doublés) ; ou l'arracher du puits (action, **Athlétisme DD 15**, 3d6 dégâts de feu à qui le saisit, réussite ou non) ; ou faire taire Drogha (inconscient, bâillonné ou mort : le rituel s'arrête au palier atteint).
-
-**Drogha et Ezzavel** fuient s'ils perdent l'Éclat ou tombent sous 15 PV : Ezzavel en riant, Drogha en maudissant le groupe. Les poursuivre est possible jusqu'à l'Entrée de la mine.
-
-**Équilibre :** Drogha, Ezzavel et deux cultistes forment un combat difficile pour quatre personnages de niveau 3. Avec trois personnages, retirez un cultiste et commencez le rituel au palier 1 ; avec cinq, ajoutez deux guerriers hurans si Gorra est toujours l'alliée du culte.` },
-
-  { titre: "Dénouements et récompenses", texte: `
-**L'Éclat est détruit.** En une semaine, l'eau redevient claire, les hurans guérissent et les caravanes reprennent. Grizzla paie la prime complète. Au Bureau de la Trêve, Corwen Haldis et Garrok Brise-Dent rédigent ensemble un rapport qui blanchit leurs deux camps : chaque personnage gagne une **faveur** de sa faction (une lettre de recommandation, un équipement, un passage gratuit).
-
-**L'Éclat est emporté par Drogha.** L'eau se purifie lentement (un mois), mais la Lame ardente prépare quelque chose de pire ailleurs dans les Tarides. Grizzla ne paie que la moitié de la prime.
-
-**La caverne s'effondre.** L'Éclat est enfoui sous des tonnes de roche : la corruption cesse en un mois. Le Cartel retient 50 pièces d'or « pour le tunnel ».
-
-**Récompenses**
-- Contrat de Grizzla : 50 po par personnage, plus 100 po pour le groupe.
-- Sur Drogha : une **lettre de la Lame ardente** (accroche de suite : « le feu remonte jusqu'à Orgrimmar »), deux **potions de soins**, 35 po et sa lame cérémonielle.
-- Kobolds libérés : ils indiquent un filon de cuivre intact ; le Cartel accorde au groupe un dixième de son exploitation (10 po par mois tant que la mine tourne).
-- Gorra épargnée, puis guérie : le kraal de Ronceroc laisse passer le groupe sans péage ; Grommel peut enseigner un rituel de purification de l'eau.
-- Prisonniers ramenés vivants : 25 po chacun, et la gratitude de Theramore ou du Carrefour.
-
-**La suite :** la lettre de Drogha, Ezzavel en fuite et les autres éclats tombés du ciel il y a dix mille ans mènent à la campagne *Les Braises de la Légion* (niveaux 3 à 6, journal « Campagne — Les Braises de la Légion »). Le MJ IA peut aussi prendre le relais en s'appuyant sur les cartes de lieux du compendium.` },
-
-  { titre: "PNJ et forces en présence", texte: `
-**PNJ nommés** (fiches dans le bestiaire)
-- **Grizzla Tordeboulon** — intendante du Cartel, commanditaire. Neutre, pressée, honnête à sa manière.
-- **Hanuk Pas-de-Pluie** — guide tauren, survivant du relais. Allié loyal.
-- **Grommel Défense-Grise** — géomancien huran dissident. Neutre, se méfie de tous.
-- **Gorra Fiel-d'Épine** — cheffe huran corrompue. Hostile, mais peut être sauvée.
-- **Drogha Cendrelame** — prophète orc de la Lame ardente. Le grand méchant.
-- **Ezzavel le Rieur** — satyre de la Légion. Ennemi récurrent.
-
-**PNJ sans fiche**
-- **Lieutenant Corwen Haldis** (Alliance) : profil de *Garde de Hurlevent*, avec 20 PV. Raide, fatigué, loyal à Theramore.
-- **Garrok Brise-Dent** (Horde) : profil de *Grunt d'Orgrimmar*. Bourru, colérique, attaché à l'honneur.
-- **Tobias Merle** et **Uzga**, conducteurs de caravane : profil de *Paysan*.
-- Les **cultistes de la Lame ardente** : profil de *Bandit défias* (remplacer le foulard par un tatouage de lame enflammée).
-
-**Créatures du bestiaire utilisées :** Bandit défias, Murloc, Guerrier huran, Sanglier des plaines, Kobold mineur, Chien corrompu, Gangregarde.` }
-] });
-
 // ---------------------------------------------------------------- Aide de jeu (visible)
 
 const AIDE_DE_JEU = journal({ cle: "contrat-du-cartel", nom: "Aide de jeu — Contrat du Cartel Gentepression", visible: true, pages: [
@@ -260,6 +119,153 @@ Les porteurs du présent contrat sont chargés par le Cartel de trouver la cause
 - Qui tire le premier paie les dégâts, les soins, et l'amende.
 - Les gardes du port ont toujours raison.
 - Les affaires sont les affaires.` }
+] });
+
+// ---------------------------------------------------------------- Journal du MJ (caché)
+
+// Liens @UUID vers les fiches, objets, tables, cartes et aides de jeu ; une cible inconnue fait échouer la construction.
+const lien = liens(PNJ_AVENTURE, BESTIAIRE, OBJETS, TABLES, CARTES, CARTES_LIEUX, [AIDE_DE_JEU]);
+const fiche = (cle, nom) => lien(`bestiaire:${cle}`, nom);
+const carte = cle => lien(`scenes:${cle}`);
+
+const JOURNAL_MJ = journal({ cle: "aventure-puits-de-cendre", nom: `Aventure — ${TITRE_AVENTURE}`, visible: false, pages: [
+  { titre: "Synopsis (MJ)", texte: `
+**${TITRE_AVENTURE}** est une aventure d'enquête et d'action pour 3 à 5 personnages de **niveau 1**, qui atteignent le **niveau 3** à la fin (passage au niveau 2 après la scène 2, au niveau 3 après la scène 3). Comptez deux ou trois séances.
+
+**Cadre.** Les Tarides du Nord, savane brûlée entre Durotar et la côte. Au bord de la mer, **Cabestan**, port gobelin du **Cartel Gentepression**, est neutre : la **Trêve de Cabestan** y interdit tout combat entre la Horde et l'Alliance. Le groupe peut donc être de l'Alliance, de la Horde ou mélangé.
+
+**Ce qui se passe.** Depuis un mois, les puits et les oasis des Tarides se gâtent : l'eau a un goût de cendre et luit faiblement en vert la nuit. Ceux qui en boivent ont de la fièvre et des colères soudaines. Les hurans du kraal de **Ronceroc** attaquent les caravanes avec une rage inhabituelle. Au Carrefour, on accuse l'Alliance d'empoisonner l'eau ; dans les avant-postes de l'Alliance, on accuse la Horde. La guerre menace.
+
+**La vérité.** **${fiche("drogha-cendrelame", "Drogha Cendrelame")}**, orc renégat de la **Lame ardente** (un culte qui vénère la Légion ardente), et le satyre **${fiche("ezzavel", "Ezzavel le Rieur")}** ont trouvé dans la mine abandonnée de **Rouge-Veine** un **Éclat gangrené**, fragment de cristal démoniaque oublié depuis des millénaires. Plongé dans la source souterraine qui alimente la nappe des Tarides, il répand la gangrène dans tous les puits de la région. Drogha veut une guerre entre factions, et une armée de hurans corrompus au service de la Légion. Ezzavel a acheté la cheffe huran **${fiche("gorra-fiel-d-epine", "Gorra Fiel-d'Épine")}** avec de l'eau « bénie » contre des prisonniers, qui creusent la mine aux côtés de ${fiche("kobold-mineur", "kobolds")} enchaînés.
+
+**Déroulement et cartes** (compendium *La Kour Warcraft — Scènes*)
+- Scène 1 — Le contrat du Cartel : carte *${carte("cabestan-quai")}*
+- Scène 2 — Le relais pillé : carte *${carte("relais-oasis")}*
+- Scène 3 — Le kraal de Ronceroc : carte *${carte("kraal-ronceroc")}*
+- Scène 4 — La mine de Rouge-Veine : carte *${carte("mine-rouge-veine")}*
+
+Les PNJ nommés et les créatures sont dans le compendium *La Kour Warcraft — Bestiaire* (liens dans chaque scène et dans « PNJ et forces en présence »).
+
+**Aide de jeu** (visible des joueurs) : ${lien("journaux:contrat-du-cartel")}, en deux pages à montrer l'une après l'autre.` },
+
+  { titre: "Scène 1 — Le contrat du Cartel", texte: `
+**Carte :** *${carte("cabestan-quai")}*. Fin d'après-midi, les lanternes s'allument.
+
+**À lire :** *Cabestan sent l'huile chaude, le sel et le poisson grillé. Sur le quai, des gobelins hurlent des prix dans trois langues pendant qu'une grue grince au-dessus d'un navire marchand. Un orc et un humain en armes se croisent sans se regarder : ici, la Trêve tient, parce que le Cartel le veut. Devant le Comptoir, une gobeline aux lunettes de cuivre vous fait signe d'entrer, sans lever les yeux de son livre de comptes.*
+
+**Le contrat.** **${fiche("grizzla-tordeboulon", "Grizzla Tordeboulon")}** remet au groupe le **${lien("journaux:contrat-du-cartel#Contrat du Cartel", "contrat du Cartel")}** (aide de jeu, page « Contrat du Cartel ») : trouver ce qui empoisonne l'eau des Tarides et l'arrêter. 50 pièces d'or chacun, 100 de plus pour le groupe si la cause est détruite. Elle fournit une gourde d'eau gâtée, un kodo de bât et la route de la dernière caravane, disparue près du **Relais de l'Oasis** avec son guide, **${fiche("hanuk-pas-de-pluie", "Hanuk Pas-de-Pluie")}**.
+
+**La Trêve.** Dès l'arrivée sur le quai, montrez aux joueurs l'affiche ${lien("journaux:contrat-du-cartel#La Trêve de Cabestan", "La Trêve de Cabestan")} (seconde page de l'aide de jeu) : elle est clouée sur chaque quai.
+
+**Le Bureau de la Trêve.** Le lieutenant **Corwen Haldis** (Alliance, profil de ${fiche("garde-hurlevent", "Garde de Hurlevent")}) et le grunt **Garrok Brise-Dent** (Horde, profil de ${fiche("grunt-orgrimmar", "Grunt d'Orgrimmar")}) s'y disputent autour de la Table des négociations. Chacun accuse l'autre camp, chacun est sincère (${jet("Intuition", 12)}). Chacun demande discrètement aux personnages de sa faction de lui rapporter la preuve que *son* camp est innocent : bonne accroche pour les groupes mixtes.
+
+**Indices**
+- Gourde d'eau gâtée : **${jet("Investigation", 12)}**, une fine cendre noire au fond ; **${jet("Arcanes", 13)}**, l'odeur et la lueur de la gangrène, la magie des démons.
+- Un docker malade près du Puits du Cartel : **${jet("Médecine", 12)}**, fièvre de gangrène (insomnie, colère) ; il a bu à l'oasis du relais il y a dix jours.
+- Les **Tonneaux d'eau** livrés devant l'Entrepôt du Cartel : **${jet("Perception", 13)}**, l'un d'eux luit faiblement ; un porteur d'eau en verse le contenu dans les autres.
+
+**Rencontre : les tonneaux.** Le porteur est un **cultiste de la Lame ardente** (profil de ${fiche("bandit-defias", "Bandit défias")}), accompagné de trois **nervis** (${fiche("bandit-defias", "Bandits défias")}) cachés derrière le Chariot et les Caisses du quai. Démasqué, il attaque ; les nervis fuient s'il tombe. Si le combat dure plus de 3 rounds, **deux ${fiche("murloc", "murlocs")}** attirés par l'eau souillée répandue dans le port grimpent sur le Quai. Les gardes du port arrivent au bout de 5 rounds : la Trêve est respectée tant que personne n'a tiré sur un membre de l'autre faction.
+
+**Interrogatoire.** Le cultiste porte une lame enflammée tatouée sur l'avant-bras (**${jet("Histoire ou Religion", 12)}** : la Lame ardente). Intimidé ou soigné (**${jet("Persuasion", 13)}**), il lâche : « La source boit le feu. Rouge-Veine chante, et bientôt tout le monde boira. » Sur lui : une carte avec le Relais de l'Oasis entouré, et 8 pièces d'or.` },
+
+  { titre: "Scène 2 — Le relais pillé", texte: `
+**Carte :** *${carte("relais-oasis")}*. Une journée de piste vers l'est (temps et état de la route : ${lien("tables:temps-et-chemins")}). Arrivée au crépuscule.
+
+**À lire :** *Le relais n'a plus de porte. Un chariot renversé barre la piste, à côté d'un kodo mort que les vautours ont déjà trouvé. Les caisses de la caravane sont éventrées, et les tonneaux d'eau propre ont disparu. Au-delà, l'oasis devrait être un miroir bleu sous les palmiers ; ce soir, son eau a la couleur d'une vieille bouteille, et quelque chose y brille faiblement.*
+
+**${fiche("hanuk-pas-de-pluie", "Hanuk")}.** Le guide tauren est caché dans l'Écurie, blessé (12 PV sur 34). **${jet("Perception", 10)}** pour l'entendre respirer. Il raconte : des hurans aux yeux verts ont attaqué à l'aube, emporté l'eau propre et deux conducteurs ; derrière eux, quelqu'un « riait comme une chèvre ». Soigné ou remercié, il rejoint le groupe (allié).
+
+**Indices**
+- Le **Puits** du relais : **${jet("Nature ou Survie", 12)}**, le niveau de l'eau est normal, mais la cendre remonte du fond ; **${jet("Arcanes", 13)}**, la corruption vient de la nappe, qui descend des collines rouges à l'est.
+- Les traces : **${jet("Survie", 11)}**, les hurans sont repartis vers le sud-est (le kraal de Ronceroc, une demi-journée) ; **${jet("Survie", 15)}**, des empreintes de sabots fendus, bipèdes, brûlées dans l'herbe, partent vers l'est (la mine).
+- Dans les Caisses éventrées : un registre de la caravane (marchandises de la Horde *et* de l'Alliance, preuve que personne n'a attaqué « l'autre camp »).
+
+**Rencontre : l'attaque de nuit.** Vers minuit, **trois ${fiche("huran-guerrier", "guerriers hurans")}** et **un sanglier corrompu** (${fiche("sanglier", "Sanglier des plaines")} qui ne fuit jamais, yeux verts) arrivent par l'Oasis pour prendre le reste de l'eau. Ils visent les tonneaux, puis quiconque les défend. Un huran capturé ne parle qu'huran (ou orc, mal) : « La cheffe donne l'eau qui rend fort. »
+
+**Purifier le puits (facultatif).** Un rite de la Lumière ou de la nature (**${jet("Religion ou Nature", 14)}**, une heure, de l'eau bénite ou une offrande) rend le puits buvable pour une semaine : la caravane suivante passera.
+
+**Fin de scène :** les personnages passent au **niveau 2**.` },
+
+  { titre: "Scène 3 — Le kraal de Ronceroc", texte: `
+**Carte :** *${carte("kraal-ronceroc")}*. Une demi-journée au sud-est, dans un vallon couvert de ronces géantes.
+
+**À lire :** *Les ronces montent plus haut qu'un kodo, tressées en murailles vivantes, hérissées d'épines longues comme des dagues. Par l'unique entrée, on aperçoit un grand totem, des huttes de terre et, près du feu, une mare dont l'eau verte fume doucement. Un cor sonne ; des groins se lèvent.*
+
+**Approches**
+- **Assaut** par l'entrée sud : dangereux (${fiche("gorra-fiel-d-epine", "Gorra")}, quatre ${fiche("huran-guerrier", "guerriers hurans")}, deux ${fiche("sanglier", "sangliers")}).
+- **Discrétion** : un passage secret dans les ronces, à l'ouest (**${jet("Perception", 14)}** pour le trouver, ou Hanuk le connaît), mène derrière la Hutte du géomancien. Tests de **${jet("Discrétion", 12)}** pour traverser le kraal la nuit.
+- **Parlementer** avec **${fiche("grommel-defense-grise", "Grommel Défense-Grise")}** dans sa hutte, près de l'Autel de pierre (**${jet("Persuasion", 13)}**, avantage si Hanuk est là ou si des hurans ont été épargnés).
+
+**Ce que sait Grommel.** La cheffe Gorra a accepté l'eau du « rieur » quand la sécheresse tuait les sangliers. En échange, le kraal livre des prisonniers à la mine de Rouge-Veine. L'eau donne de la force et prend la raison. Il connaît la **galerie basse** de la mine, qui contourne la galerie principale et débouche dans la caverne par un passage dérobé.
+
+**${fiche("gorra-fiel-d-epine", "Gorra Fiel-d'Épine")}.** Sur son Trône d'os, dans la Hutte de la cheffe. Elle accepte un **duel d'honneur** si on le lui propose devant les siens (Grommel peut l'arranger) : un champion contre elle, jusqu'à ce que l'un tombe. Vaincue mais vivante, elle libère les prisonniers et laisse partir le groupe. Tuée, le kraal se disperse, et la piste de la mine reste ouverte, mais les hurans haïront le groupe.
+
+**La Cage des prisonniers.** Deux conducteurs de la caravane (profil de ${fiche("paysan", "Paysan")}) : **Tobias Merle**, un humain de Theramore, et **Uzga**, une orque du Carrefour. Ils ont vu les mêmes cultistes emporter des hurans enchaînés vers l'est, et chacun témoigne que l'autre camp n'y est pour rien. Les ramener vivants à Cabestan vaut une preuve pour le Bureau de la Trêve.
+
+**Soigner la gangrène.** **${jet("Médecine", 13)}** et trois jours de repos sans boire l'eau verte guérissent un huran ; détruire l'Éclat les guérit tous en une semaine.
+
+**Fin de scène :** les personnages passent au **niveau 3**.` },
+
+  { titre: "Scène 4 — La mine de Rouge-Veine", texte: `
+**Carte :** *${carte("mine-rouge-veine")}*. Les collines rouges à l'est, une journée du kraal. Obscurité totale hors des lumières de la carte.
+
+**À lire :** *Le vieux panneau du Cartel pend encore au-dessus de l'entrée, rongé par le vent : « Rouge-Veine — défense d'entrer sans casque ». De la galerie monte une odeur de soufre et de pierre chaude, et une lueur verte palpite au fond, au rythme d'un cœur. Quelque part, des pioches frappent la roche, et des petites voix pleurnichent.*
+
+**Entrée de la mine.** Deux **cultistes** (${fiche("bandit-defias", "Bandits défias")}) jouent aux dés près du Tas de minerai ; s'ils sonnent l'alerte, Drogha est prêt dans la caverne (pas de surprise possible).
+
+**Baraquement des kobolds.** Huit **${fiche("kobold-mineur", "kobolds mineurs")}** enchaînés (les Chaînes près des Couchettes), épuisés, gardés par un cultiste. Libérés (**${jet("Persuasion", 12)}**, ou en leur offrant des bougies !), ils ne se battent pas mais montrent la porte dérobée de la galerie basse et volent la clé de la Réserve de poudre.
+
+**Réserve de poudre** (porte verrouillée : clé du garde, ou **${jet("outils de voleur", 13)}**). Les **Tonneaux de poudre** : un tonneau allumé explose au bout d'un round (sphère de 3 m, **${jetSauvegarde("Dextérité", 12)}**, ${degats("3d6", "feu")}, moitié en cas de réussite). Deux tonneaux au pied du Puits de la source noire font s'effondrer la caverne : à n'utiliser qu'en sortant !
+
+**Galerie basse.** L'Étayage effondré cache le passage secret vers la caverne (**${jet("Perception", 15)}** sans l'aide des kobolds ou de Grommel). Elle permet d'arriver derrière Drogha.
+
+**La Caverne de la Source.** **${fiche("drogha-cendrelame", "Drogha Cendrelame")}** devant l'Autel de la Lame ardente, **${fiche("ezzavel", "Ezzavel le Rieur")}** près de l'**Éclat gangrené**, planté dans le Puits de la source noire, et **deux cultistes** (${fiche("bandit-defias", "Bandits défias")}) près des Braseros.
+
+**À lire :** *L'eau noire du puits bouillonne sans chaleur. Planté en son centre, un cristal vert gros comme un poing de troll pulse lentement, et chaque battement fait trembler les flammes des braseros. Un orc au crâne tatoué lève les bras et chante en eredun ; à côté de lui, une silhouette à pattes de bouc éclate de rire en vous voyant.*
+
+**Le rituel** (un palier tous les 3 rounds, compté dès que le groupe entre dans la caverne) :
+1. L'eau monte : le sol à 3 m du puits devient un ${reference("terrain difficile")}.
+2. L'eau crache des vapeurs vertes : chaque créature qui finit son tour à 3 m du puits fait une **${jetSauvegarde("Constitution", 12)}** ou subit ${degats("2d6", "poison")}.
+3. Un **${fiche("chien-corrompu", "chien corrompu")}** jaillit du puits et attaque. Si on laisse le rituel continuer encore 10 rounds, un **${fiche("gangregarde", "gangregarde")}** suit : il faut fuir.
+
+**Arrêter le rituel :** détruire l'Éclat (CA 15, 20 PV, immunisé contre le poison et les dégâts psychiques, dégâts radiants doublés) ; ou l'arracher du puits (action, **${jet("Athlétisme", 15)}**, ${degats("3d6", "feu")} à qui le saisit, réussite ou non) ; ou faire taire Drogha (${reference("inconscient")}, bâillonné ou mort : le rituel s'arrête au palier atteint).
+
+**Drogha et Ezzavel** fuient s'ils perdent l'Éclat ou tombent sous 15 PV : Ezzavel en riant, Drogha en maudissant le groupe. Les poursuivre est possible jusqu'à l'Entrée de la mine.
+
+**Équilibre :** Drogha, Ezzavel et deux cultistes forment un combat difficile pour quatre personnages de niveau 3. Avec trois personnages, retirez un cultiste et commencez le rituel au palier 1 ; avec cinq, ajoutez deux ${fiche("huran-guerrier", "guerriers hurans")} si Gorra est toujours l'alliée du culte.` },
+
+  { titre: "Dénouements et récompenses", texte: `
+**L'Éclat est détruit.** En une semaine, l'eau redevient claire, les hurans guérissent et les caravanes reprennent. ${fiche("grizzla-tordeboulon", "Grizzla")} paie la prime complète. Au Bureau de la Trêve, Corwen Haldis et Garrok Brise-Dent rédigent ensemble un rapport qui blanchit leurs deux camps : chaque personnage gagne une **faveur** de sa faction (une lettre de recommandation, un équipement, un passage gratuit).
+
+**L'Éclat est emporté par Drogha.** L'eau se purifie lentement (un mois), mais la Lame ardente prépare quelque chose de pire ailleurs dans les Tarides. Grizzla ne paie que la moitié de la prime.
+
+**La caverne s'effondre.** L'Éclat est enfoui sous des tonnes de roche : la corruption cesse en un mois. Le Cartel retient 50 pièces d'or « pour le tunnel ».
+
+**Récompenses**
+- Contrat de Grizzla : 50 po par personnage, plus 100 po pour le groupe.
+- Sur Drogha : une **lettre de la Lame ardente** (accroche de suite : « le feu remonte jusqu'à Orgrimmar »), deux **${lien("objets:potion-de-soins", "potions de soins")}**, 35 po et sa lame cérémonielle.
+- Kobolds libérés : ils indiquent un filon de cuivre intact ; le Cartel accorde au groupe un dixième de son exploitation (10 po par mois tant que la mine tourne).
+- Gorra épargnée, puis guérie : le kraal de Ronceroc laisse passer le groupe sans péage ; ${fiche("grommel-defense-grise", "Grommel")} peut enseigner un rituel de purification de l'eau.
+- Prisonniers ramenés vivants : 25 po chacun, et la gratitude de Theramore ou du Carrefour.
+
+**La suite :** la lettre de Drogha, Ezzavel en fuite et les autres éclats tombés du ciel il y a dix mille ans mènent à la campagne *Les Braises de la Légion* (niveaux 3 à 6, journal « Campagne — Les Braises de la Légion »). Le MJ IA peut aussi prendre le relais en s'appuyant sur les cartes de lieux du compendium (${CARTES_LIEUX.map(c => lien(c.__cle)).join(", ")}) et sur les tables ${lien("tables:rencontres-sur-la-route")} et ${lien("tables:rumeurs-de-taverne")}.` },
+
+  { titre: "PNJ et forces en présence", texte: `
+**PNJ nommés** (fiches dans le bestiaire)
+- **${fiche("grizzla-tordeboulon", "Grizzla Tordeboulon")}** — intendante du Cartel, commanditaire. Neutre, pressée, honnête à sa manière.
+- **${fiche("hanuk-pas-de-pluie", "Hanuk Pas-de-Pluie")}** — guide tauren, survivant du relais. Allié loyal.
+- **${fiche("grommel-defense-grise", "Grommel Défense-Grise")}** — géomancien huran dissident. Neutre, se méfie de tous.
+- **${fiche("gorra-fiel-d-epine", "Gorra Fiel-d'Épine")}** — cheffe huran corrompue. Hostile, mais peut être sauvée.
+- **${fiche("drogha-cendrelame", "Drogha Cendrelame")}** — prophète orc de la Lame ardente. Le grand méchant.
+- **${fiche("ezzavel", "Ezzavel le Rieur")}** — satyre de la Légion. Ennemi récurrent.
+
+**PNJ sans fiche**
+- **Lieutenant Corwen Haldis** (Alliance) : profil de *${fiche("garde-hurlevent", "Garde de Hurlevent")}*, avec 20 PV. Raide, fatigué, loyal à Theramore.
+- **Garrok Brise-Dent** (Horde) : profil de *${fiche("grunt-orgrimmar", "Grunt d'Orgrimmar")}*. Bourru, colérique, attaché à l'honneur.
+- **Tobias Merle** et **Uzga**, conducteurs de caravane : profil de *${fiche("paysan", "Paysan")}*.
+- Les **cultistes de la Lame ardente** : profil de *${fiche("bandit-defias", "Bandit défias")}* (remplacer le foulard par un tatouage de lame enflammée).
+
+**Créatures du bestiaire utilisées :** ${["bandit-defias", "murloc", "huran-guerrier", "sanglier", "kobold-mineur", "chien-corrompu", "gangregarde"].map(c => fiche(c)).join(", ")}.` }
 ] });
 
 export const AVENTURE_DOCUMENTS = [...PNJ_AVENTURE, JOURNAL_MJ, AIDE_DE_JEU, ...CARTES, ...CARTES_LIEUX];

@@ -1,0 +1,88 @@
+{
+  "_id": "acOoYyOa8zrqWyED",
+  "_key": "!items!acOoYyOa8zrqWyED",
+  "name": "Balles de plomb de Forgefer",
+  "type": "consumable",
+  "img": "icons/weapons/ammunition/shot-round-lead.webp",
+  "system": {
+    "description": {
+      "value": "<p>Dix balles de plomb coulées dans les moules de la guilde des fusiliers, avec leur charge de poudre noire dans des cornets de papier huilé.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "arsenal-balles-de-forgefer",
+    "price": {
+      "value": 3,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "quantity": 10,
+    "rarity": "",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": false
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "types": [],
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        }
+      },
+      "replace": false
+    },
+    "type": {
+      "value": "ammo",
+      "subtype": "firearmBullet"
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "activities": {}
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "arsenal-balles-de-forgefer",
+      "arsenal": "munition"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

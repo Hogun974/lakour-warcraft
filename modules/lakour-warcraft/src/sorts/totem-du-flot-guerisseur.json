@@ -1,0 +1,280 @@
+{
+  "_id": "kZxX21INTXB6PwAz",
+  "_key": "!items!kZxX21INTXB6PwAz",
+  "name": "Totem du flot guérisseur",
+  "type": "spell",
+  "img": "icons/commodities/treasure/totem-wooden-glowing-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous plantez dans un espace inoccupé à portée un totem sculpté où vient loger un esprit de l'eau. Le totem est un objet de taille Petite (CA 13, 10 points de vie) ; s'il est détruit, le sort prend fin.</p><p>Quand vous lancez le sort, puis par une <strong>action bonus</strong> à chacun de vos tours suivants, une créature de votre choix située à 3 m ou moins du totem récupère <strong>1d6 + votre modificateur de caractéristique d'incantation</strong> points de vie. Les morts-vivants et les créatures artificielles n'en tirent aucun bénéfice.</p><p><strong>Aux niveaux supérieurs.</strong> Les soins augmentent de 1d6 par niveau d'emplacement au-delà du 2e.</p><p><strong>Tradition</strong> : Chamanisme. <strong>Listes de sorts</strong> : Druide, Clerc.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "totem-du-flot-guerisseur",
+    "activities": {
+      "CtAYE3iT16JokVGM": {
+        "_id": "CtAYE3iT16JokVGM",
+        "type": "utility",
+        "name": "Planter le totem",
+        "img": "",
+        "sort": 100000,
+        "flags": {},
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute",
+          "expiry": null,
+          "special": "",
+          "concentration": true,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "9",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "radius",
+            "size": "3",
+            "width": "",
+            "height": "",
+            "units": "m"
+          },
+          "affects": {
+            "count": "",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": true
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      },
+      "0wFoAhFT7PXdXAfG": {
+        "_id": "0wFoAhFT7PXdXAfG",
+        "type": "heal",
+        "name": "Flot guérisseur",
+        "img": "",
+        "sort": 200000,
+        "flags": {},
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "condition": "",
+          "override": true
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute",
+          "expiry": null,
+          "special": "",
+          "concentration": true,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "3",
+          "units": "m",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m"
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": true
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "healing": {
+          "number": 1,
+          "denomination": 6,
+          "bonus": "@mod",
+          "custom": {
+            "enabled": false,
+            "formula": ""
+          },
+          "modifiers": [],
+          "scaling": {
+            "mode": "whole",
+            "number": 1,
+            "formula": ""
+          },
+          "types": [
+            "healing"
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "ability": "",
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute",
+      "expiry": null,
+      "special": ""
+    },
+    "level": 2,
+    "materials": {
+      "value": "un galet poli par une rivière",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "method": "spell",
+    "prepared": 0,
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "value": "9",
+      "units": "m",
+      "special": ""
+    },
+    "school": "abj",
+    "sourceItem": "",
+    "target": {
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "stationary": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": "m"
+      },
+      "affects": {
+        "count": "",
+        "type": "space",
+        "choice": false,
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "totem-du-flot-guerisseur",
+      "tradition": "chamanisme",
+      "classes": [
+        "druid",
+        "cleric"
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

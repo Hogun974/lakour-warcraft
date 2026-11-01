@@ -1,0 +1,519 @@
+{
+  "_id": "DSPw83v6on9ICAom",
+  "_key": "!items!DSPw83v6on9ICAom",
+  "name": "Flétrissure gangrenée",
+  "type": "spell",
+  "img": "icons/magic/unholy/hand-claw-fog-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une brume verte s'enroule autour d'une créature à portée et s'insinue dans ses plaies. Elle fait un jet de sauvegarde de Constitution. En cas d'échec, elle subit <strong>2d8</strong> dégâts nécrotiques et la flétrissure s'installe : à la fin de chacun de ses tours, elle subit <strong>1d8</strong> dégâts nécrotiques puis refait le jet de sauvegarde, le sort prenant fin pour elle en cas de réussite. En cas de réussite au premier jet, elle ne subit que la moitié des dégâts initiaux et la flétrissure ne prend pas.</p><p><strong>Prix de la gangrène.</strong> Juste après l'incantation, vous subissez des dégâts nécrotiques égaux au niveau de l'emplacement dépensé ; ces dégâts ne peuvent être réduits d'aucune façon. Vous portez ensuite la <strong>marque de gangrène</strong> pendant 1 heure (désavantage aux tests de Persuasion et de Tromperie). Un lanceur qui accumule les marques attire l'attention des démons : le MJ en tient le compte.</p><p><strong>Aux niveaux supérieurs.</strong> Les dégâts initiaux augmentent de 1d8 par niveau d'emplacement au-delà du 1er (le prix de la gangrène aussi, puisqu'il suit le niveau de l'emplacement).</p><p><strong>Tradition</strong> : Gangrène et ombre. <strong>Listes de sorts</strong> : Occultiste, Ensorceleur.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "fletrissure-gangrenee",
+    "activities": {
+      "dCn4dsHZcN8Hhafp": {
+        "_id": "dCn4dsHZcN8Hhafp",
+        "type": "save",
+        "name": "Flétrissure",
+        "img": "",
+        "sort": 100000,
+        "flags": {},
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute",
+          "expiry": null,
+          "special": "",
+          "concentration": true,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "CELCqEeaAvEDAxG8",
+            "onSave": false,
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "range": {
+          "value": "27",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m"
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "bonus": "",
+          "visible": true,
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": 2,
+              "denomination": 8,
+              "bonus": "",
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "modifiers": [],
+              "scaling": {
+                "mode": "whole",
+                "number": 1,
+                "formula": ""
+              },
+              "types": [
+                "necrotic"
+              ]
+            }
+          ]
+        }
+      },
+      "Vzog8Lrp05hXQXPG": {
+        "_id": "Vzog8Lrp05hXQXPG",
+        "type": "damage",
+        "name": "Ronger",
+        "img": "",
+        "sort": 200000,
+        "flags": {},
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "Fin de chacun des tours de la cible",
+          "override": true
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute",
+          "expiry": null,
+          "special": "",
+          "concentration": true,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "27",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m"
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "damage": {
+          "critical": {
+            "allow": false,
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": 1,
+              "denomination": 8,
+              "bonus": "",
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "modifiers": [],
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              },
+              "types": [
+                "necrotic"
+              ]
+            }
+          ]
+        }
+      },
+      "vOF0ct17n4AiNhiK": {
+        "_id": "vOF0ct17n4AiNhiK",
+        "type": "damage",
+        "name": "Prix de la gangrène",
+        "img": "",
+        "sort": 300000,
+        "flags": {},
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "Juste après l'incantation",
+          "override": true
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [
+          {
+            "_id": "NbLAUsEAJ908MzKZ",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m"
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": true
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "damage": {
+          "critical": {
+            "allow": false,
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "custom": {
+                "enabled": true,
+                "formula": "@item.level"
+              },
+              "modifiers": [],
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              },
+              "types": [
+                "necrotic"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "ability": "",
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute",
+      "expiry": null,
+      "special": ""
+    },
+    "level": 1,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "method": "spell",
+    "prepared": 0,
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "range": {
+      "value": "27",
+      "units": "m",
+      "special": ""
+    },
+    "school": "nec",
+    "sourceItem": "",
+    "target": {
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "stationary": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": "m"
+      },
+      "affects": {
+        "count": "1",
+        "type": "creature",
+        "choice": false,
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "CELCqEeaAvEDAxG8",
+      "_key": "!items.effects!DSPw83v6on9ICAom.CELCqEeaAvEDAxG8",
+      "name": "Flétrissure",
+      "img": "icons/magic/unholy/hand-claw-fog-green.webp",
+      "type": "base",
+      "system": {
+        "magical": true,
+        "changes": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": 60,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
+      },
+      "description": "<p>À la fin de chacun de ses tours, la créature subit 1d8 dégâts nécrotiques (activité « Ronger »), puis refait le jet de sauvegarde de Constitution ; le sort prend fin pour elle en cas de réussite.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    },
+    {
+      "_id": "NbLAUsEAJ908MzKZ",
+      "_key": "!items.effects!DSPw83v6on9ICAom.NbLAUsEAJ908MzKZ",
+      "name": "Marque de gangrène",
+      "img": "icons/magic/unholy/hand-claw-fog-green.webp",
+      "type": "base",
+      "system": {
+        "magical": true,
+        "changes": [
+          {
+            "key": "system.skills.per.roll.mode",
+            "value": -1,
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "GBdpE6SzAk51QSAo"
+          },
+          {
+            "key": "system.skills.dec.roll.mode",
+            "value": -1,
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "QKeZZBa6aeCiyqwP"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": 3600,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
+      },
+      "description": "<p>Vos yeux brûlent d'un éclat vert et votre peau sent le soufre. Pendant 1 heure, vous avez le désavantage aux tests de Charisme (Persuasion et Tromperie), et toute créature qui connaît la gangrène sait ce que vous venez de faire.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "fletrissure-gangrenee",
+      "tradition": "gangrene",
+      "classes": [
+        "warlock",
+        "sorcerer"
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

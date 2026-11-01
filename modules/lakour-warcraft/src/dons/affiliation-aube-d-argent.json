@@ -1,0 +1,183 @@
+{
+  "_id": "BczIP7lEKoKDvag9",
+  "_key": "!items!BczIP7lEKoKDvag9",
+  "name": "Affiliation : Aube d'argent",
+  "type": "feat",
+  "img": "icons/magic/light/beam-rays-yellow-blue-large.webp",
+  "system": {
+    "description": {
+      "value": "<p>Née des cendres de la Troisième Guerre, l'Aube d'argent n'a qu'un ennemi : le Fléau. Paladins sans ordre, prêtres, chasseurs, et même quelques orcs et Réprouvés y servent côte à côte, ce qui scandalise à peu près tout le monde. Ses bastions tiennent les Maleterres de l'Ouest et de l'Est.</p><p><strong>Devoir.</strong> Combattre le Fléau partout, sans regarder la faction de qui se bat à vos côtés. Rapporter les foyers de peste. Remettre à l'Aube les pierres du Fléau prises sur les morts-vivants.</p><p><strong>Faveur par rang.</strong></p><ul><li><strong>Rang 1 — Initié.</strong> Soins et ravitaillement dans les bastions de l'Aube ; on échange vos pierres du Fléau contre des fioles d'eau bénite.</li><li><strong>Rang 2 — Gardien.</strong> Potions de soins au prix coûtant ; un prêtre de l'Aube lève gratuitement une maladie ou une malédiction par aventure.</li><li><strong>Rang 3 — Champion.</strong> Vous commandez une patrouille de l'Aube (quatre gardes) le temps d'une mission, et vos rapports remontent jusqu'aux chefs des deux factions.</li></ul><p><strong>Avantage.</strong> <em>Frappe de l'Aube</em> : une fois par repos long, quand vous touchez un mort-vivant avec une attaque, il subit <strong>2d6</strong> dégâts radiants supplémentaires.</p><p><strong>Réputation.</strong> Les deux factions vous soupçonnent de pactiser avec l'autre. Les Réprouvés de Sylvanas sont des morts-vivants : l'Aube les tolère, eux vous tolèrent, et personne n'est dupe.</p><p><strong>Monter en rang.</strong> Le MJ accorde le rang suivant après une mission d'importance accomplie pour l'ordre, ou au bout de quelques aventures de service loyal ; il le note dans le don (rang 1 à 3). Manquer gravement au devoir fait perdre un rang, ou l'affiliation entière.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "affiliation-aube-d-argent",
+    "activities": {
+      "RZnPL489AUhsh6pf": {
+        "_id": "RZnPL489AUhsh6pf",
+        "type": "damage",
+        "name": "Frappe de l'Aube",
+        "img": "",
+        "sort": 100000,
+        "flags": {},
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "Vous touchez un mort-vivant avec une attaque",
+          "override": false
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "1.5",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m"
+          },
+          "affects": {
+            "count": "1",
+            "type": "enemy",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "damage": {
+          "critical": {
+            "allow": false,
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": 2,
+              "denomination": 6,
+              "bonus": "",
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "modifiers": [],
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              },
+              "types": [
+                "radiant"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll",
+          "formula": ""
+        }
+      ]
+    },
+    "advancement": {},
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "enchant": {
+      "max": "",
+      "period": ""
+    },
+    "prerequisites": {
+      "items": [],
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Affiliation — Aube d'argent"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "affiliation-aube-d-argent",
+      "categorie": "affiliation",
+      "faction": "neutre",
+      "organisation": "Aube d'argent",
+      "rang": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

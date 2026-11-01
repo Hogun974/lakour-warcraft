@@ -728,10 +728,29 @@
       "flags": {}
     }
   ],
-  "tokens": [],
-  "notes": [],
-  "sounds": [],
+  "sounds": [
+    {
+      "name": "grotte — Galerie principale",
+      "x": 1400,
+      "y": 950,
+      "elevation": 0,
+      "levels": [],
+      "radius": 13.5,
+      "path": "modules/lakour-mj-ia/assets/sons/grotte.wav",
+      "repeat": true,
+      "volume": 0.25,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "XrfRSCKNHPnokKbv",
+      "_key": "!scenes.sounds!MlGXuczX7HtSy7D4.XrfRSCKNHPnokKbv",
+      "flags": {}
+    }
+  ],
   "regions": [],
+  "notes": [],
+  "tokens": [],
   "tiles": [],
   "ownership": {
     "default": 0

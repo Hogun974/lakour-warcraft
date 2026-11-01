@@ -1,0 +1,278 @@
+{
+  "_id": "iOAyDgeKrYc0QqtC",
+  "_key": "!items!iOAyDgeKrYc0QqtC",
+  "name": "Éclat de gangrène",
+  "type": "equipment",
+  "img": "icons/weapons/wands/wand-carved-stone-shard.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un éclat de cristal vert, tiède, arraché à une pierre de la Légion ardente. Il murmure dès qu'on le touche. Tant que vous y êtes <strong>lié</strong>, le <strong>DD de sauvegarde de vos sorts</strong> et vos <strong>attaques de sort</strong> gagnent <strong>+1</strong>.</p><p>Une fois par repos long, par une <strong>action</strong>, vous pouvez libérer sa flamme sur une créature à 18 m ou moins : elle fait un jet de sauvegarde de <strong>Dextérité DD 13</strong> et subit <strong>3d6</strong> dégâts de feu en cas d'échec, moitié moins en cas de réussite.</p><p><strong>Malédiction.</strong> Une fois lié, vous ne pouvez pas rompre le lien de vous-même ; il faut une délivrance de malédiction. Tant que le lien dure, vous êtes <strong>vulnérable aux dégâts radiants</strong> et vous avez le <strong>désavantage aux jets de sauvegarde de Sagesse</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "arsenal-eclat-de-gangrene",
+    "price": {
+      "value": 600,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": null,
+    "proficient": null,
+    "activities": {
+      "YtLd6rINZhQGzREK": {
+        "_id": "YtLd6rINZhQGzREK",
+        "type": "save",
+        "name": "Flamme gangrenée",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "18",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "13"
+          }
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": 3,
+              "denomination": 6,
+              "bonus": "",
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              },
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "mPDGfOmdI1MzRUZR",
+      "_key": "!items.effects!iOAyDgeKrYc0QqtC.mPDGfOmdI1MzRUZR",
+      "name": "Éclat de gangrène",
+      "img": "icons/weapons/wands/wand-carved-stone-shard.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.bonuses.spell.dc",
+            "value": 1,
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "eQ71MA4fopHPnF9D"
+          },
+          {
+            "key": "system.rolls.attack.msak.bonus",
+            "value": "1",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "I3vtlzYF6RqEU32q"
+          },
+          {
+            "key": "system.rolls.attack.rsak.bonus",
+            "value": "1",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "ULNqxSBc2hCUXBET"
+          },
+          {
+            "key": "system.traits.dv.value",
+            "value": "radiant",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "9PuEbyED91pkb3aO"
+          },
+          {
+            "key": "system.abilities.wis.save.roll.mode",
+            "value": -1,
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "KGwkdeBXjr3389jP"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "arsenal-eclat-de-gangrene",
+      "arsenal": "magique"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

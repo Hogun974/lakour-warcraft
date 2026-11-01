@@ -1,0 +1,130 @@
+{
+  "_id": "xG6WomutlBUZe1wp",
+  "_key": "!items!xG6WomutlBUZe1wp",
+  "name": "Masque filtrant gnome",
+  "type": "equipment",
+  "img": "icons/equipment/head/goggles-mask-cloth-wrapped.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un masque de toile caoutchoutée, des lunettes et deux cartouches de charbon actif, conçu par les survivants de Gnomeregan pour retourner dans la cité irradiée. Tant que vous le portez, vous avez la <strong>résistance aux dégâts de poison</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "arsenal-masque-filtrant-gnome",
+    "price": {
+      "value": 300,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 1.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": null,
+    "proficient": null,
+    "activities": {}
+  },
+  "effects": [
+    {
+      "_id": "H8fWFfBRq8Inc4RR",
+      "_key": "!items.effects!xG6WomutlBUZe1wp.H8fWFfBRq8Inc4RR",
+      "name": "Masque filtrant gnome",
+      "img": "icons/equipment/head/goggles-mask-cloth-wrapped.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.traits.dr.value",
+            "value": "poison",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "lKgcLxe0qxfYZoog"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "arsenal-masque-filtrant-gnome",
+      "arsenal": "prothese"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

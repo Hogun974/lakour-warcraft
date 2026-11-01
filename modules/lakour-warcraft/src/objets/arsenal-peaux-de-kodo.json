@@ -1,0 +1,88 @@
+{
+  "_id": "book8vnvNwtLaA3r",
+  "_key": "!items!book8vnvNwtLaA3r",
+  "name": "Peaux de kodo tannées",
+  "type": "equipment",
+  "img": "icons/equipment/chest/breastplate-leather-brown-belted.webp",
+  "system": {
+    "description": {
+      "value": "<p>Plusieurs épaisseurs de cuir de kodo cousues au tendon, telles que les portent les éclaireurs des Tarides. Lourdes, chaudes, et presque impossibles à percer d'une flèche tirée de loin.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "arsenal-peaux-de-kodo",
+    "price": {
+      "value": 10,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 12,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": 12,
+      "magicalBonus": null,
+      "dex": 2
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "medium",
+      "baseItem": "hide"
+    },
+    "properties": [],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": null,
+    "proficient": null,
+    "activities": {}
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "arsenal-peaux-de-kodo",
+      "arsenal": "armure"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "_id": "PLzQlgKPpkq77FdK",
+  "_key": "!items!PLzQlgKPpkq77FdK",
+  "name": "Régulateur cardiaque gnome",
+  "type": "equipment",
+  "img": "icons/commodities/tech/coil-tesla-large.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une bobine de cuivre et une pile arcanique logées sous le sternum, qui tapotent le cœur quand il hésite. Il faut un <strong>lien</strong> pour qu'elle suive son rythme. Vous avez l'avantage aux <strong>jets de sauvegarde contre la mort</strong>.</p><p>Une fois par repos long, quand vous tombez à 0 point de vie sans être tué, la bobine décharge : vous récupérez <strong>2d4 + 2</strong> points de vie.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "arsenal-regulateur-cardiaque-gnome",
+    "price": {
+      "value": 2000,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": null,
+    "proficient": null,
+    "activities": {
+      "TYz0LaOBt8HTQNKy": {
+        "_id": "TYz0LaOBt8HTQNKy",
+        "type": "heal",
+        "name": "Décharge de relance",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "Vous tombez à 0 point de vie sans être tué",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "healing": {
+          "number": 2,
+          "denomination": 4,
+          "bonus": "2",
+          "custom": {
+            "enabled": false,
+            "formula": ""
+          },
+          "scaling": {
+            "mode": "",
+            "number": null,
+            "formula": ""
+          },
+          "types": [
+            "healing"
+          ]
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "m1dxF57V9iCBurVk",
+      "_key": "!items.effects!PLzQlgKPpkq77FdK.m1dxF57V9iCBurVk",
+      "name": "Régulateur cardiaque",
+      "img": "icons/commodities/tech/coil-tesla-large.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.death.roll.mode",
+            "value": 1,
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "BbGMCAxy2RH8CB32"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "arsenal-regulateur-cardiaque-gnome",
+      "arsenal": "prothese"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -999,10 +999,47 @@
       "flags": {}
     }
   ],
-  "tokens": [],
-  "notes": [],
-  "sounds": [],
+  "sounds": [
+    {
+      "name": "foule — Taverne de la Clé tordue",
+      "x": 1650,
+      "y": 450,
+      "elevation": 0,
+      "levels": [],
+      "radius": 9,
+      "path": "modules/lakour-mj-ia/assets/sons/foule.wav",
+      "repeat": true,
+      "volume": 0.2,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "OOZZTzPU56sxqa5g",
+      "_key": "!scenes.sounds!y58dyqMG0VFrRAAI.OOZZTzPU56sxqa5g",
+      "flags": {}
+    },
+    {
+      "name": "mer — Port",
+      "x": 1400,
+      "y": 1850,
+      "elevation": 0,
+      "levels": [],
+      "radius": 22.5,
+      "path": "modules/lakour-mj-ia/assets/sons/mer.wav",
+      "repeat": true,
+      "volume": 0.3,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "ZxaEV952ulIgmRUJ",
+      "_key": "!scenes.sounds!y58dyqMG0VFrRAAI.ZxaEV952ulIgmRUJ",
+      "flags": {}
+    }
+  ],
   "regions": [],
+  "notes": [],
+  "tokens": [],
   "tiles": [],
   "ownership": {
     "default": 0

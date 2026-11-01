@@ -1,0 +1,213 @@
+{
+  "_id": "3cbqTP1IQovpBRQ9",
+  "_key": "!items!3cbqTP1IQovpBRQ9",
+  "name": "Blizzard",
+  "type": "spell",
+  "img": "icons/magic/air/wind-weather-snow-gusts.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une tempête de neige et de grêle s'abat dans un cylindre de 6 m de rayon et 9 m de haut centré sur un point à portée. La zone est <strong>fortement obscurcie</strong> et constitue un <strong>terrain difficile</strong>.</p><p>Quand une créature entre dans la zone pour la première fois lors d'un tour ou y commence son tour, elle fait un jet de sauvegarde de Constitution ; elle subit <strong>4d6</strong> dégâts de froid en cas d'échec, la moitié en cas de réussite. Une créature ne subit ces dégâts qu'une fois par tour. Les flammes nues s'éteignent dans la zone.</p><p><strong>Aux niveaux supérieurs.</strong> Les dégâts augmentent de 1d6 par niveau d'emplacement au-delà du 4e.</p><p><strong>Tradition</strong> : Arcanes. <strong>Listes de sorts</strong> : Magicien, Ensorceleur, Druide.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "blizzard",
+    "activities": {
+      "Jz2XMDKAH3HDLuls": {
+        "_id": "Jz2XMDKAH3HDLuls",
+        "type": "save",
+        "name": "Morsure du blizzard",
+        "img": "",
+        "sort": 100000,
+        "flags": {},
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute",
+          "expiry": null,
+          "special": "",
+          "concentration": true,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "45",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "cylinder",
+            "size": "6",
+            "width": "",
+            "height": "9",
+            "units": "m"
+          },
+          "affects": {
+            "count": "",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "bonus": "",
+          "visible": true,
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": 4,
+              "denomination": 6,
+              "bonus": "",
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "modifiers": [],
+              "scaling": {
+                "mode": "whole",
+                "number": 1,
+                "formula": ""
+              },
+              "types": [
+                "cold"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "ability": "",
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute",
+      "expiry": null,
+      "special": ""
+    },
+    "level": 4,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "method": "spell",
+    "prepared": 0,
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "range": {
+      "value": "45",
+      "units": "m",
+      "special": ""
+    },
+    "school": "con",
+    "sourceItem": "",
+    "target": {
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "stationary": false,
+        "type": "cylinder",
+        "size": "6",
+        "width": "",
+        "height": "9",
+        "units": "m"
+      },
+      "affects": {
+        "count": "",
+        "type": "creature",
+        "choice": false,
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "blizzard",
+      "tradition": "arcanes",
+      "classes": [
+        "wizard",
+        "sorcerer",
+        "druid"
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

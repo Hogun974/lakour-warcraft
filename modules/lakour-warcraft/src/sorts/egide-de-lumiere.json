@@ -1,0 +1,195 @@
+{
+  "_id": "mlMhGL79co5nT8k1",
+  "_key": "!items!mlMhGL79co5nT8k1",
+  "name": "Égide de la Lumière",
+  "type": "spell",
+  "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous dessinez dans l'air un signe de protection qui se pose sur une créature à portée comme un voile doré. Elle gagne <strong>2d4 + votre modificateur de caractéristique d'incantation</strong> points de vie temporaires pour 1 heure.</p><p>Les prêtres de Hurlevent l'appellent « le manteau de l'Aube » ; on le pose sur les épaules des soldats avant la charge.</p><p><strong>Aux niveaux supérieurs.</strong> Les points de vie temporaires augmentent de 2d4 par niveau d'emplacement au-delà du 1er.</p><p><strong>Tradition</strong> : La Lumière. <strong>Listes de sorts</strong> : Clerc, Paladin.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "egide-de-lumiere",
+    "activities": {
+      "BNVWMlPgnnTK3cej": {
+        "_id": "BNVWMlPgnnTK3cej",
+        "type": "heal",
+        "name": "Égide",
+        "img": "",
+        "sort": 100000,
+        "flags": {},
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "9",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m"
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "healing": {
+          "number": 2,
+          "denomination": 4,
+          "bonus": "@mod",
+          "custom": {
+            "enabled": false,
+            "formula": ""
+          },
+          "modifiers": [],
+          "scaling": {
+            "mode": "whole",
+            "number": 2,
+            "formula": ""
+          },
+          "types": [
+            "temphp"
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "ability": "",
+    "activation": {
+      "type": "bonus",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour",
+      "expiry": null,
+      "special": ""
+    },
+    "level": 1,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "method": "spell",
+    "prepared": 0,
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "range": {
+      "value": "9",
+      "units": "m",
+      "special": ""
+    },
+    "school": "abj",
+    "sourceItem": "",
+    "target": {
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "stationary": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": "m"
+      },
+      "affects": {
+        "count": "1",
+        "type": "creature",
+        "choice": false,
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "egide-de-lumiere",
+      "tradition": "lumiere",
+      "classes": [
+        "cleric",
+        "paladin"
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

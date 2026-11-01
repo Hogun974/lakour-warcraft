@@ -1,0 +1,109 @@
+{
+  "_id": "lAIgVju2NPNoukwN",
+  "_key": "!items!lAIgVju2NPNoukwN",
+  "name": "Affiliation : Kirin Tor",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-magenta.webp",
+  "system": {
+    "description": {
+      "value": "<p>Les mages de Dalaran ont perdu leur cité volante sous les coups du Fléau et de la Légion, mais pas leur orgueil. Dispersés entre Theramore, Hurlevent et des tours cachées, ils recrutent quiconque sait tenir une langue et un grimoire — y compris, en théorie, dans la Horde.</p><p><strong>Devoir.</strong> Remettre au Kirin Tor tout artefact magique d'importance et signaler toute trace de gangrène ou de nécromancie. Ne jamais enseigner l'arcane sans autorisation. Ne jamais lever la main contre un mage de l'ordre.</p><p><strong>Faveur par rang.</strong></p><ul><li><strong>Rang 1 — Apprenti de la Violette.</strong> Accès aux bibliothèques de secours de Theramore et à la chambre d'un mage ami dans chaque grande ville ; copier un sort de magicien vous coûte moitié moins cher.</li><li><strong>Rang 2 — Magus.</strong> On vous confie une pierre de portail : une fois par aventure, un mage vous ramène par portail. Si vous êtes magicien, <em>Portail du Kirin Tor</em> s'ajoute à votre grimoire quand vous pouvez le lancer.</li><li><strong>Rang 3 — Membre de l'Assemblée.</strong> Vous siégez, sans voix, aux réunions de l'Assemblée. Une fois par campagne, un archimage intervient en personne pour une requête d'importance.</li></ul><p><strong>Avantage.</strong> <em>Formation de la Violette</em> : vous avez l'avantage aux tests d'Intelligence (Arcanes).</p><p><strong>Réputation.</strong> Le Kirin Tor surveille les siens : un sort interdit, une Métamorphose lancée sur un dignitaire ou un artefact vendu se savent en une semaine. Les Réprouvés et nombre d'orcs n'ont pas oublié que Dalaran a dressé les camps d'internement.</p><p><strong>Monter en rang.</strong> Le MJ accorde le rang suivant après une mission d'importance accomplie pour l'ordre, ou au bout de quelques aventures de service loyal ; il le note dans le don (rang 1 à 3). Manquer gravement au devoir fait perdre un rang, ou l'affiliation entière.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "affiliation-kirin-tor",
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "enchant": {
+      "max": "",
+      "period": ""
+    },
+    "prerequisites": {
+      "items": [],
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Affiliation — Kirin Tor"
+  },
+  "effects": [
+    {
+      "_id": "dXgt8jY7NUt9Dslk",
+      "_key": "!items.effects!lAIgVju2NPNoukwN.dXgt8jY7NUt9Dslk",
+      "name": "Formation de la Violette",
+      "img": "icons/magic/symbols/runes-star-magenta.webp",
+      "type": "base",
+      "system": {
+        "magical": false,
+        "changes": [
+          {
+            "key": "system.skills.arc.roll.mode",
+            "value": 1,
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "IXDcG5oNweUdyEGQ"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Avantage aux tests d'Intelligence (Arcanes).</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "affiliation-kirin-tor",
+      "categorie": "affiliation",
+      "faction": "neutre",
+      "organisation": "Kirin Tor",
+      "rang": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "_id": "H64r0GYfxNEZdzuN",
+  "_key": "!items!H64r0GYfxNEZdzuN",
+  "name": "Jambe de bois ferrée de Forgefer",
+  "type": "equipment",
+  "img": "icons/weapons/clubs/club-banded-steel.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une jambe de chêne cerclée de fer, terminée par un embout à crampons que l'on visse ou dévisse selon le terrain. Un nain qui en porte une ne ralentit ni sur la neige ni sur la glace de Dun Morogh : vous <strong>ignorez le terrain difficile dû à la neige et à la glace</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "arsenal-jambe-de-bois-ferree",
+    "price": {
+      "value": 50,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 6,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "properties": [],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": null,
+    "proficient": null,
+    "activities": {}
+  },
+  "effects": [
+    {
+      "_id": "CfTKcxHNXm31TWMX",
+      "_key": "!items.effects!H64r0GYfxNEZdzuN.CfTKcxHNXm31TWMX",
+      "name": "Jambe de bois ferrée",
+      "img": "icons/weapons/clubs/club-banded-steel.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.movement.ignoredDifficultTerrain",
+            "value": "snow",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "GmeCGp2yHLjjENF2"
+          },
+          {
+            "key": "system.attributes.movement.ignoredDifficultTerrain",
+            "value": "ice",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "znh8ZqecBL4DKz3p"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "arsenal-jambe-de-bois-ferree",
+      "arsenal": "prothese"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

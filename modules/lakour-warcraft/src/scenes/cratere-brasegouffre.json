@@ -973,10 +973,47 @@
       "flags": {}
     }
   ],
-  "tokens": [],
-  "notes": [],
-  "sounds": [],
+  "sounds": [
+    {
+      "name": "feu — Feu de camp",
+      "x": 550,
+      "y": 550,
+      "elevation": 0,
+      "levels": [],
+      "radius": 4.5,
+      "path": "modules/lakour-mj-ia/assets/sons/feu.wav",
+      "repeat": true,
+      "volume": 0.35,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "9xVSSYdEpXWTluw3",
+      "_key": "!scenes.sounds!RlyX3Yz5pMpfyHgY.9xVSSYdEpXWTluw3",
+      "flags": {}
+    },
+    {
+      "name": "forge — Enclume démoniaque",
+      "x": 2500,
+      "y": 350,
+      "elevation": 0,
+      "levels": [],
+      "radius": 4.5,
+      "path": "modules/lakour-mj-ia/assets/sons/forge.wav",
+      "repeat": true,
+      "volume": 0.3,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "3GiGolO9QoHIwdal",
+      "_key": "!scenes.sounds!RlyX3Yz5pMpfyHgY.3GiGolO9QoHIwdal",
+      "flags": {}
+    }
+  ],
   "regions": [],
+  "notes": [],
+  "tokens": [],
   "tiles": [],
   "ownership": {
     "default": 0

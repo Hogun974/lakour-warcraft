@@ -729,10 +729,47 @@
       "flags": {}
     }
   ],
-  "tokens": [],
-  "notes": [],
-  "sounds": [],
+  "sounds": [
+    {
+      "name": "grotte — Ossuaire",
+      "x": 200,
+      "y": 1100,
+      "elevation": 0,
+      "levels": [],
+      "radius": 7.5,
+      "path": "modules/lakour-mj-ia/assets/sons/grotte.wav",
+      "repeat": true,
+      "volume": 0.25,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "I1G2XEjk0rX7hzVQ",
+      "_key": "!scenes.sounds!8uyCl9mZZjTYg4EZ.I1G2XEjk0rX7hzVQ",
+      "flags": {}
+    },
+    {
+      "name": "grotte — Caveau scellé",
+      "x": 2200,
+      "y": 1100,
+      "elevation": 0,
+      "levels": [],
+      "radius": 7.5,
+      "path": "modules/lakour-mj-ia/assets/sons/grotte.wav",
+      "repeat": true,
+      "volume": 0.25,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "G9YqS154IIPlPz34",
+      "_key": "!scenes.sounds!8uyCl9mZZjTYg4EZ.G9YqS154IIPlPz34",
+      "flags": {}
+    }
+  ],
   "regions": [],
+  "notes": [],
+  "tokens": [],
   "tiles": [],
   "ownership": {
     "default": 0

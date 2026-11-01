@@ -1,0 +1,90 @@
+{
+  "_id": "yj0hmd84QMgTIbHl",
+  "_key": "!items!yj0hmd84QMgTIbHl",
+  "name": "Harnois de la Lumière",
+  "type": "equipment",
+  "img": "icons/equipment/chest/breastplate-layered-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un harnois complet aux épaulières dorées, forgé pour les paladins de l'Aube d'argent. Des prières sont gravées à l'intérieur du plastron, là où seul celui qui le porte peut les lire.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "arsenal-harnois-de-la-lumiere",
+    "price": {
+      "value": 1500,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 65,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": 18,
+      "magicalBonus": null,
+      "dex": 0
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "heavy",
+      "baseItem": "plate"
+    },
+    "properties": [
+      "stealthDisadvantage"
+    ],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": 15,
+    "proficient": null,
+    "activities": {}
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "arsenal-harnois-de-la-lumiere",
+      "arsenal": "armure"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

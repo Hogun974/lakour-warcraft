@@ -1,0 +1,229 @@
+{
+  "_id": "aLrTUFNbeEkOCpl3",
+  "_key": "!items!aLrTUFNbeEkOCpl3",
+  "name": "Lien avec un loa",
+  "type": "feat",
+  "img": "icons/magic/perception/mask-stone-eyes-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un esprit ancien de la jungle a posé les yeux sur vous : Bwonsamdi, Hir'eek, Shirvallah ou un loa plus obscur. Vous maîtrisez <strong>Médecine</strong>, <strong>Nature</strong> ou <strong>Religion</strong> (au choix).</p><p><strong>Invoquer le loa.</strong> Par une <strong>action bonus</strong>, vous appelez votre loa pendant <strong>1 minute</strong> : vous avez l'avantage aux jets de sauvegarde de <strong>Sagesse</strong> et de <strong>Charisme</strong>. Une utilisation par <strong>repos long</strong>. Le loa attend une offrande en retour, et le MJ sait s'en souvenir.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "lien-avec-un-loa",
+    "type": {
+      "value": "feat",
+      "subtype": "origin"
+    },
+    "requirements": "",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {
+      "zEUnQABPvTLlEqGX": {
+        "_id": "zEUnQABPvTLlEqGX",
+        "type": "utility",
+        "name": "Invoquer le loa",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "AiuKrgnvJMcYCsnc",
+            "level": {}
+          }
+        ],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "advancement": {
+      "otDCZ3c31G31WtTA": {
+        "_id": "otDCZ3c31G31WtTA",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:med",
+                "skills:nat",
+                "skills:rel"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Lien avec un loa",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "AiuKrgnvJMcYCsnc",
+      "_key": "!items.effects!aLrTUFNbeEkOCpl3.AiuKrgnvJMcYCsnc",
+      "name": "Regard du loa",
+      "img": "icons/magic/perception/mask-stone-eyes-orange.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.abilities.wis.save.roll.mode",
+            "type": "add",
+            "value": 1,
+            "phase": "initial",
+            "priority": null
+          },
+          {
+            "key": "system.abilities.cha.save.roll.mode",
+            "type": "add",
+            "value": 1,
+            "phase": "initial",
+            "priority": null
+          }
+        ]
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": 1,
+        "units": "minutes",
+        "expiry": "turnStart",
+        "expired": false
+      },
+      "description": "<p>Avantage aux jets de sauvegarde de Sagesse et de Charisme.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "lien-avec-un-loa",
+      "automatisation": "complete"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "_id": "8hS4NOZHHCXYpcCn",
+  "_key": "!items!8hS4NOZHHCXYpcCn",
+  "name": "Affiliation : Ligue des explorateurs",
+  "type": "feat",
+  "img": "icons/commodities/currency/coin-inset-compass-silver.webp",
+  "system": {
+    "description": {
+      "value": "<p>Fondée par les nains de Forgefer pour percer le mystère de leurs origines titanesques, la Ligue des explorateurs envoie archéologues, cartographes et têtes brûlées dans toutes les ruines du monde. Elle accepte n'importe qui, pourvu qu'il rapporte des notes lisibles.</p><p><strong>Devoir.</strong> Rapporter au Hall des explorateurs de Forgefer vos cartes, découvertes et artefacts. Ne jamais vendre une relique titanesque. Tenir à jour votre carnet de terrain.</p><p><strong>Faveur par rang.</strong></p><ul><li><strong>Rang 1 — Membre correspondant.</strong> Accès aux archives du Hall des explorateurs ; on vous prête une longue-vue et une pelle de qualité.</li><li><strong>Rang 2 — Explorateur.</strong> Matériel d'expédition prêté (tente, cordes, lanternes, outils), et un guide nain pour une aventure en ruines.</li><li><strong>Rang 3 — Explorateur émérite.</strong> La Ligue finance une expédition de votre choix (jusqu'à 500 po), et votre nom figure dans le registre du Hall.</li></ul><p><strong>Avantage.</strong> <em>Carnet de la Ligue</em> : une fois par repos long, après avoir vu le résultat d'un de vos tests d'Intelligence (Histoire ou Investigation), ou d'un test pour désamorcer un piège dans des ruines, vous ajoutez <strong>1d6</strong> au résultat.</p><p><strong>Réputation.</strong> Les pilleurs de tombes et les marchands du Cartel voient en vous un concurrent. Les troggs, les gardiens titanesques et les ruines elles-mêmes ne font aucune différence entre un savant et un voleur.</p><p><strong>Monter en rang.</strong> Le MJ accorde le rang suivant après une mission d'importance accomplie pour l'ordre, ou au bout de quelques aventures de service loyal ; il le note dans le don (rang 1 à 3). Manquer gravement au devoir fait perdre un rang, ou l'affiliation entière.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "affiliation-ligue-des-explorateurs",
+    "activities": {
+      "8TFvLSLv2RSvzJbc": {
+        "_id": "8TFvLSLv2RSvzJbc",
+        "type": "utility",
+        "name": "Carnet de la Ligue",
+        "img": "",
+        "sort": 100000,
+        "flags": {},
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "Après un test d'Histoire, d'Investigation ou de désamorçage en ruines",
+          "override": false
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m"
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": true,
+          "name": "Bonus du carnet",
+          "formula": "1d6"
+        }
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll",
+          "formula": ""
+        }
+      ]
+    },
+    "advancement": {},
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "enchant": {
+      "max": "",
+      "period": ""
+    },
+    "prerequisites": {
+      "items": [],
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Affiliation — Ligue des explorateurs"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "affiliation-ligue-des-explorateurs",
+      "categorie": "affiliation",
+      "faction": "alliance",
+      "organisation": "Ligue des explorateurs",
+      "rang": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

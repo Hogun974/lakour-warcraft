@@ -1,0 +1,236 @@
+{
+  "_id": "tFtE3WPg8azEZl4I",
+  "_key": "!items!tFtE3WPg8azEZl4I",
+  "name": "Écho des Aspects",
+  "type": "feat",
+  "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Prérequis : Niveau 4 ou plus.</em></p><p><strong>Amélioration de caractéristique.</strong> Augmentez votre Constitution ou Charisme de 1, jusqu'à un maximum de 20.</p><p>Un vol draconique a déposé une étincelle en vous : la flamme d'Alexstrasza, la glace d'un dragon bleu, l'orage des protodragons. Vous avez la <strong>résistance</strong> à un type de dégâts au choix : <strong>acide</strong>, <strong>feu</strong>, <strong>foudre</strong>, <strong>froid</strong> ou <strong>poison</strong>.</p><p><strong>Souffle de l'Aspect.</strong> Par une <strong>action</strong>, vous soufflez un cône de 4,5 m : chaque créature dedans fait un jet de sauvegarde de <strong>Dextérité</strong> (DD 8 + votre modificateur de Constitution + votre bonus de maîtrise) et subit <strong>3d8</strong> dégâts du type choisi en cas d'échec, la moitié en cas de réussite. Une utilisation par <strong>repos court</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "echo-des-aspects",
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    },
+    "requirements": "Niveau 4 ou plus",
+    "prerequisites": {
+      "level": 4,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {
+      "oHjBvkYoBe6mhjYi": {
+        "_id": "oHjBvkYoBe6mhjYi",
+        "type": "save",
+        "name": "Souffler",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "cone",
+            "size": "4.5",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "con",
+            "formula": ""
+          }
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": 3,
+              "denomination": 8,
+              "bonus": "",
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              },
+              "types": [
+                "acid",
+                "fire",
+                "lightning",
+                "cold",
+                "poison"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "advancement": {
+      "4d4Wq09qr6RtejYF": {
+        "_id": "4d4Wq09qr6RtejYF",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "dr:acid",
+                "dr:fire",
+                "dr:lightning",
+                "dr:cold",
+                "dr:poison"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Écho des Aspects",
+        "hint": "",
+        "flags": {}
+      },
+      "MkYCP6fROGEw4EYm": {
+        "_id": "MkYCP6fROGEw4EYm",
+        "type": "AbilityScoreImprovement",
+        "level": 0,
+        "flags": {},
+        "value": {},
+        "configuration": {
+          "cap": 1,
+          "points": 1,
+          "max": null,
+          "recommendation": null,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "int",
+            "wis"
+          ]
+        },
+        "title": "Amélioration de caractéristique",
+        "hint": "+1 à une caractéristique parmi celles proposées (20 au plus)."
+      }
+    },
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "echo-des-aspects",
+      "automatisation": "complete"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

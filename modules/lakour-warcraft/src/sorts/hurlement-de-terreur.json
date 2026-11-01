@@ -1,0 +1,400 @@
+{
+  "_id": "ChcnBMoeaaAX1MLV",
+  "_key": "!items!ChcnBMoeaaAX1MLV",
+  "name": "Hurlement de terreur",
+  "type": "spell",
+  "img": "icons/magic/control/fear-fright-shadow-monster-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous poussez un cri qui n'est pas le vôtre : la voix du démon qui vous a donné ce pouvoir. Chaque ennemi situé à 9 m ou moins de vous et qui peut vous entendre fait un jet de sauvegarde de Sagesse ; en cas d'échec, il a l'état <strong>Effrayé</strong> pour la durée du sort et doit, à son tour, utiliser son mouvement pour s'éloigner de vous.</p><p>À la fin de chacun de ses tours où il ne peut pas vous voir, un ennemi effrayé refait le jet de sauvegarde et se reprend en cas de réussite.</p><p><strong>Prix de la gangrène.</strong> Juste après l'incantation, vous subissez des dégâts nécrotiques égaux au niveau de l'emplacement dépensé ; ces dégâts ne peuvent être réduits d'aucune façon. Vous portez ensuite la <strong>marque de gangrène</strong> pendant 1 heure (désavantage aux tests de Persuasion et de Tromperie). Un lanceur qui accumule les marques attire l'attention des démons : le MJ en tient le compte.</p><p><strong>Tradition</strong> : Gangrène et ombre. <strong>Listes de sorts</strong> : Occultiste, Ensorceleur, Barde.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "hurlement-de-terreur",
+    "activities": {
+      "TCugk9XuBBfyg2s9": {
+        "_id": "TCugk9XuBBfyg2s9",
+        "type": "save",
+        "name": "Hurlement",
+        "img": "",
+        "sort": 100000,
+        "flags": {},
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute",
+          "expiry": null,
+          "special": "",
+          "concentration": true,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "SIsfk6HG7QxpMhhU",
+            "onSave": false,
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "radius",
+            "size": "9",
+            "width": "",
+            "height": "",
+            "units": "m"
+          },
+          "affects": {
+            "count": "",
+            "type": "enemy",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "bonus": "",
+          "visible": true,
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": []
+        }
+      },
+      "yw90vblG4ykPmM0j": {
+        "_id": "yw90vblG4ykPmM0j",
+        "type": "damage",
+        "name": "Prix de la gangrène",
+        "img": "",
+        "sort": 200000,
+        "flags": {},
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "Juste après l'incantation",
+          "override": true
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [
+          {
+            "_id": "F7wCWDDxGT2IK9ui",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": true
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m"
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": true
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "damage": {
+          "critical": {
+            "allow": false,
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "custom": {
+                "enabled": true,
+                "formula": "@item.level"
+              },
+              "modifiers": [],
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              },
+              "types": [
+                "necrotic"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "ability": "",
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute",
+      "expiry": null,
+      "special": ""
+    },
+    "level": 4,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "method": "spell",
+    "prepared": 0,
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "range": {
+      "value": "",
+      "units": "self",
+      "special": ""
+    },
+    "school": "enc",
+    "sourceItem": "",
+    "target": {
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "stationary": false,
+        "type": "radius",
+        "size": "9",
+        "width": "",
+        "height": "",
+        "units": "m"
+      },
+      "affects": {
+        "count": "",
+        "type": "enemy",
+        "choice": false,
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "SIsfk6HG7QxpMhhU",
+      "_key": "!items.effects!ChcnBMoeaaAX1MLV.SIsfk6HG7QxpMhhU",
+      "name": "Terrorisé",
+      "img": "icons/magic/control/fear-fright-shadow-monster-green.webp",
+      "type": "base",
+      "system": {
+        "magical": true,
+        "changes": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": 60,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
+      },
+      "description": "<p>La créature est effrayée par vous. À son tour, elle doit utiliser son mouvement pour s'éloigner de vous par le chemin le plus sûr. À la fin de chacun de ses tours où elle ne vous voit pas, elle refait le jet de sauvegarde de Sagesse et se reprend en cas de réussite.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "frightened"
+      ],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    },
+    {
+      "_id": "F7wCWDDxGT2IK9ui",
+      "_key": "!items.effects!ChcnBMoeaaAX1MLV.F7wCWDDxGT2IK9ui",
+      "name": "Marque de gangrène",
+      "img": "icons/magic/unholy/hand-claw-fog-green.webp",
+      "type": "base",
+      "system": {
+        "magical": true,
+        "changes": [
+          {
+            "key": "system.skills.per.roll.mode",
+            "value": -1,
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "UQuiGI3CtHmOBiv5"
+          },
+          {
+            "key": "system.skills.dec.roll.mode",
+            "value": -1,
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "qrGhcokBEU1DaP5Z"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": 3600,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
+      },
+      "description": "<p>Vos yeux brûlent d'un éclat vert et votre peau sent le soufre. Pendant 1 heure, vous avez le désavantage aux tests de Charisme (Persuasion et Tromperie), et toute créature qui connaît la gangrène sait ce que vous venez de faire.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "hurlement-de-terreur",
+      "tradition": "gangrene",
+      "classes": [
+        "warlock",
+        "sorcerer",
+        "bard"
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

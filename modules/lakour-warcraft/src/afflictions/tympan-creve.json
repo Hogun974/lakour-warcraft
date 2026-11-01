@@ -1,0 +1,110 @@
+{
+  "_id": "I5OioeRuPnj3iAOK",
+  "_key": "!items!I5OioeRuPnj3iAOK",
+  "name": "Tympan crevé",
+  "type": "feat",
+  "img": "icons/commodities/biological/ear-grey-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une explosion gobeline ou un cri de banshee vous a laissé à moitié sourd. Vous subissez un malus de <strong>−3</strong> à votre Sagesse (Perception) passive et de <strong>−1</strong> à l'<strong>initiative</strong>. Vous avez le <strong>désavantage</strong> aux tests de Sagesse (Perception) fondés sur l'ouïe (le MJ l'applique).</p><p><strong>Guérison.</strong> Un sort de <em>Restauration supérieure</em> ou de <em>Régénération</em>, ou les soins d'un maître guérisseur (prêtre de haut rang, druide du Cercle cénarien, chaman de la Terre-Mère), fait disparaître cette blessure.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "tympan-creve",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Blessure persistante",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "NDzpGiTSFHU8wctG",
+      "_key": "!items.effects!I5OioeRuPnj3iAOK.NDzpGiTSFHU8wctG",
+      "name": "Tympan crevé",
+      "img": "icons/commodities/biological/ear-grey-brown.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.skills.prc.bonuses.passive",
+            "type": "add",
+            "value": "-3",
+            "phase": "initial",
+            "priority": null
+          },
+          {
+            "key": "system.attributes.init.roll.bonus",
+            "type": "add",
+            "value": "-1",
+            "phase": "initial",
+            "priority": null
+          }
+        ]
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 2,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "tympan-creve",
+      "affliction": {
+        "categorie": "blessure"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

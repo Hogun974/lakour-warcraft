@@ -146,7 +146,8 @@ test("les dons du module sont des dons d'origine, et les historiques en utilisen
 // ---------------------------------------------------------------- Objets
 
 test("entre 15 et 20 objets, dont la pierre de foyer, des potions, des armes, des armures et des objets peu communs", () => {
-  const objets = tous.filter(d => d.__pack === "objets");
+  // L'arsenal (contenu/arsenal.mjs, essais/warcraft-arsenal.test.mjs) partage le compendium : il est compté à part.
+  const objets = tous.filter(d => d.__pack === "objets" && !d.flags?.["lakour-warcraft"]?.arsenal);
   assert.ok(objets.length >= 15 && objets.length <= 20, `${objets.length} objets`);
   assert.ok(objets.some(o => o.flags[MODULE].cle === "pierre-de-foyer"));
   for (const type of ["weapon", "equipment", "consumable", "loot"]) assert.ok(objets.some(o => o.type === type), `aucun ${type}`);
@@ -185,7 +186,8 @@ test("les tables couvrent toute leur formule, sans trou ni chevauchement, et leu
 });
 
 test("toutes les références du module sont résolues et pointent vers un document existant", () => {
-  const uuids = new Set(docs.map(({ pack, doc }) => uuidDe(pack, doc)));
+  // Cibles : tous les compendiums (les journaux du MJ lient aussi le bestiaire et les scènes).
+  const uuids = new Set(fabriquer().map(({ pack, doc }) => uuidDe(pack, doc)));
   const texte = JSON.stringify(docs.map(d => d.doc));
   assert.ok(!texte.includes("__ref") && !texte.includes("__cle"), "référence ou clé interne non résolue");
   const cites = texte.match(/Compendium\.lakour-warcraft\.[a-z]+\.[A-Za-z]+\.[A-Za-z0-9]{16}/g) ?? [];

@@ -1,0 +1,184 @@
+{
+  "_id": "eDR8zGmPXYGoMTwD",
+  "_key": "!items!eDR8zGmPXYGoMTwD",
+  "name": "Portail du Kirin Tor",
+  "type": "spell",
+  "img": "icons/environment/wilderness/portal.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous tracez un cercle de runes violettes sur le sol et l'accordez à une <strong>pierre de portail</strong> que vous avez déjà touchée : les mages du Kirin Tor en ont laissé dans les ruines de Dalaran, à Theramore, à Hurlevent et dans quelques tours oubliées. Un portail de 3 m de diamètre s'ouvre à portée et reste ouvert pour la durée du sort.</p><p>Toute créature qui entre dans le portail arrive instantanément à 1,5 m de la pierre choisie, ou dans l'espace libre le plus proche. Le portail fonctionne dans les deux sens. Un mage qui l'ouvre sans l'accord du Kirin Tor vers une de ses pierres sera retrouvé, tôt ou tard.</p><p><strong>Tradition</strong> : Arcanes. <strong>Listes de sorts</strong> : Magicien, Ensorceleur.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "portail-de-dalaran",
+    "activities": {
+      "z2PgMQiVLBGnR3JG": {
+        "_id": "z2PgMQiVLBGnR3JG",
+        "type": "utility",
+        "name": "Ouvrir le portail",
+        "img": "",
+        "sort": 100000,
+        "flags": {},
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "3",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m"
+          },
+          "affects": {
+            "count": "",
+            "type": "space",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "ability": "",
+    "activation": {
+      "type": "minute",
+      "value": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute",
+      "expiry": null,
+      "special": ""
+    },
+    "level": 5,
+    "materials": {
+      "value": "de la poudre d'arcanite valant au moins 100 po, que le sort consume",
+      "consumed": true,
+      "cost": 100,
+      "supply": 0
+    },
+    "method": "spell",
+    "prepared": 0,
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "range": {
+      "value": "3",
+      "units": "m",
+      "special": ""
+    },
+    "school": "con",
+    "sourceItem": "",
+    "target": {
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "stationary": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": "m"
+      },
+      "affects": {
+        "count": "",
+        "type": "space",
+        "choice": false,
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "portail-de-dalaran",
+      "tradition": "arcanes",
+      "classes": [
+        "wizard",
+        "sorcerer"
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

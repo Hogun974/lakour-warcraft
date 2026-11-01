@@ -1,0 +1,90 @@
+{
+  "_id": "5Ts9VNSfpAw1Mj61",
+  "_key": "!items!5Ts9VNSfpAw1Mj61",
+  "name": "Balles d'argent de Gilnéas",
+  "type": "consumable",
+  "img": "icons/weapons/ammunition/shot-round-silver.webp",
+  "system": {
+    "description": {
+      "value": "<p>Dix balles coulées dans un alliage d'argent, gravées d'une croix par les chasseurs de Gilnéas. Elles sont <strong>argentées</strong> : elles passent les défenses des worgens et des créatures que seul l'argent blesse.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "arsenal-balles-d-argent-de-gilneas",
+    "price": {
+      "value": 103,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "quantity": 10,
+    "rarity": "",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": false
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "types": [],
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        }
+      },
+      "replace": false
+    },
+    "type": {
+      "value": "ammo",
+      "subtype": "firearmBullet"
+    },
+    "magicalBonus": null,
+    "properties": [
+      "sil"
+    ],
+    "activities": {}
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "arsenal-balles-d-argent-de-gilneas",
+      "arsenal": "munition"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

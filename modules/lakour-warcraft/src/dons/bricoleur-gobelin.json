@@ -1,0 +1,194 @@
+{
+  "_id": "0NkZ7jBQC9DNFqIJ",
+  "_key": "!items!0NkZ7jBQC9DNFqIJ",
+  "name": "Bricoleur gobelin",
+  "type": "feat",
+  "img": "icons/skills/ranged/bomb-grenade-thrown-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Ça marche une fois sur deux, et l'autre fois, ça fait encore plus de bruit. Vous maîtrisez les <strong>outils de bricoleur</strong>.</p><p><strong>Gadget instable.</strong> Par une <strong>action</strong>, vous lancez un engin bricolé en un point situé à 9 m au plus. Chaque créature dans un rayon de 1,5 m autour de ce point fait un jet de sauvegarde de <strong>Dextérité</strong> (DD 8 + votre modificateur d'Intelligence + votre bonus de maîtrise) : elle subit <strong>2d6 dégâts de feu</strong> en cas d'échec, la moitié en cas de réussite. Une utilisation par <strong>repos court</strong> ; assembler l'engin suppose d'avoir vos outils.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "bricoleur-gobelin",
+    "type": {
+      "value": "feat",
+      "subtype": "origin"
+    },
+    "requirements": "",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {
+      "XwPLEd6taiKe4CIO": {
+        "_id": "XwPLEd6taiKe4CIO",
+        "type": "save",
+        "name": "Lancer le gadget",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "9",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "radius",
+            "size": "1.5",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "int",
+            "formula": ""
+          }
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": 2,
+              "denomination": 6,
+              "bonus": "",
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              },
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "advancement": {
+      "G5hSHuYxSB3gHTAW": {
+        "_id": "G5hSHuYxSB3gHTAW",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "tool:art:tinker"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Bricoleur gobelin",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "bricoleur-gobelin",
+      "automatisation": "complete"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

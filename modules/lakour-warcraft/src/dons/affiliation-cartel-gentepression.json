@@ -1,0 +1,163 @@
+{
+  "_id": "d1vEUPoN0KEak1qU",
+  "_key": "!items!d1vEUPoN0KEak1qU",
+  "name": "Affiliation : Cartel Gentepression",
+  "type": "feat",
+  "img": "icons/commodities/currency/coins-plain-pouch-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>Le Cartel Gentepression tient les ports neutres de Kalimdor et des Mers du Sud : Cabestan, Gadgetzan, Baie-du-Butin. Ses gobelins vendent à tout le monde et ne combattent que pour leurs contrats. Y entrer, c'est signer un contrat ; en sortir, c'est payer.</p><p><strong>Devoir.</strong> Respecter la trêve des ports du Cartel : aucun combat dans leurs murs, quels que soient vos ennemis. Verser au Cartel un dixième de ce que vous gagnez dans ses ports. Tenir parole sur tout contrat signé.</p><p><strong>Faveur par rang.</strong></p><ul><li><strong>Rang 1 — Associé.</strong> Lit, entrepôt et écurie à prix d'ami dans les ports du Cartel ; un marchand vous prévient des arrivages intéressants.</li><li><strong>Rang 2 — Partenaire.</strong> Passage gratuit sur les navires et zeppelins du Cartel ; on vous rachète le butin à 60 % de sa valeur au lieu de la moitié.</li><li><strong>Rang 3 — Actionnaire.</strong> Une part dans une affaire : 50 po par mois de rente, et un baron du Cartel vous doit une faveur.</li></ul><p><strong>Avantage.</strong> <em>Ardoise du Cartel</em> : une fois par repos long, dans un port ou un comptoir du Cartel, vous obtenez à crédit un objet ou un service d'une valeur maximale de <strong>25 po × votre bonus de maîtrise</strong>, à rembourser dans le mois avec un dixième d'intérêt.</p><p><strong>Réputation.</strong> Le Cartel Baille-Fonds, rival de Gentepression, et les pirates des Mers du Sud vous connaissent. Une dette impayée devient une prime, et une prime finit toujours par trouver preneur.</p><p><strong>Monter en rang.</strong> Le MJ accorde le rang suivant après une mission d'importance accomplie pour l'ordre, ou au bout de quelques aventures de service loyal ; il le note dans le don (rang 1 à 3). Manquer gravement au devoir fait perdre un rang, ou l'affiliation entière.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "affiliation-cartel-gentepression",
+    "activities": {
+      "3GOfh4SiKl3iKbhM": {
+        "_id": "3GOfh4SiKl3iKbhM",
+        "type": "utility",
+        "name": "Ardoise du Cartel",
+        "img": "",
+        "sort": 100000,
+        "flags": {},
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": "Dans un port ou un comptoir du Cartel",
+          "override": false
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m"
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": true,
+          "name": "Crédit accordé (po)",
+          "formula": "25 * @prof"
+        }
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll",
+          "formula": ""
+        }
+      ]
+    },
+    "advancement": {},
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "enchant": {
+      "max": "",
+      "period": ""
+    },
+    "prerequisites": {
+      "items": [],
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Affiliation — Cartel Gentepression"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "affiliation-cartel-gentepression",
+      "categorie": "affiliation",
+      "faction": "neutre",
+      "organisation": "Cartel Gentepression",
+      "rang": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

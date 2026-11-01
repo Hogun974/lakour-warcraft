@@ -1,0 +1,133 @@
+{
+  "_id": "RdwWfEMB5uRz4qEK",
+  "_key": "!items!RdwWfEMB5uRz4qEK",
+  "name": "Œil de la Légion vaincue",
+  "type": "feat",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-large-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Prérequis : Niveau 19 ou plus.</em></p><p><strong>Amélioration de caractéristique.</strong> Augmentez votre Force, Dextérité, Constitution, Intelligence, Sagesse ou Charisme de 1, jusqu'à un maximum de 30.</p><p>Vous avez regardé un seigneur de l'effroi dans les yeux, et il a cligné le premier. Vous gagnez la <strong>vision aveugle</strong> sur <strong>9 m</strong>, et vous ne pouvez pas être <strong>aveuglé</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "oeil-de-la-legion-vaincue",
+    "type": {
+      "value": "feat",
+      "subtype": "epicBoon"
+    },
+    "requirements": "Niveau 19 ou plus",
+    "prerequisites": {
+      "level": 19,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {
+      "AKrfMKugT3fb13kw": {
+        "_id": "AKrfMKugT3fb13kw",
+        "type": "AbilityScoreImprovement",
+        "level": 0,
+        "flags": {},
+        "value": {},
+        "configuration": {
+          "cap": 1,
+          "points": 1,
+          "max": 30,
+          "recommendation": null,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": []
+        },
+        "title": "Amélioration de caractéristique",
+        "hint": "+1 à une caractéristique parmi celles proposées (30 au plus)."
+      }
+    },
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "7xSChXHKocnWid2C",
+      "_key": "!items.effects!RdwWfEMB5uRz4qEK.7xSChXHKocnWid2C",
+      "name": "Œil de la Légion vaincue",
+      "img": "icons/magic/perception/eye-ringed-glow-angry-large-teal.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.senses.ranges.blindsight",
+            "type": "upgrade",
+            "value": 9,
+            "phase": "initial",
+            "priority": null
+          },
+          {
+            "key": "system.traits.ci.value",
+            "type": "add",
+            "value": "blinded",
+            "phase": "initial",
+            "priority": null
+          }
+        ]
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "oeil-de-la-legion-vaincue",
+      "automatisation": "complete"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

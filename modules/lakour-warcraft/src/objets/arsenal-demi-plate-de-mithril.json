@@ -1,0 +1,90 @@
+{
+  "_id": "1J6UNnF5tADPanFe",
+  "_key": "!items!1J6UNnF5tADPanFe",
+  "name": "Demi-plate en mithril de Khaz Modan",
+  "type": "equipment",
+  "img": "icons/equipment/chest/breastplate-layered-steel-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p>Des plaques de mithril aussi légères que du cuir, que les forgerons nains ne vendent qu'à leurs amis. Contrairement à une demi-plate ordinaire, elle <strong>n'impose pas de désavantage</strong> aux tests de Dextérité (Discrétion).</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "arsenal-demi-plate-de-mithril",
+    "price": {
+      "value": 800,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 20,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": 15,
+      "magicalBonus": null,
+      "dex": 2
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "medium",
+      "baseItem": "halfplate"
+    },
+    "properties": [
+      "mgc"
+    ],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": null,
+    "proficient": null,
+    "activities": {}
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "arsenal-demi-plate-de-mithril",
+      "arsenal": "armure"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

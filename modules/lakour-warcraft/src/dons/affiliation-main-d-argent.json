@@ -1,0 +1,163 @@
+{
+  "_id": "W1l56Bc8SUy9Vtpq",
+  "_key": "!items!W1l56Bc8SUy9Vtpq",
+  "name": "Affiliation : Chevaliers de la Main d'argent",
+  "type": "feat",
+  "img": "icons/magic/holy/barrier-shield-winged-cross.webp",
+  "system": {
+    "description": {
+      "value": "<p>Le premier ordre de paladins de Lordaeron a été dissous par son roi, et son fondateur est mort de la main d'Arthas. Pourtant ses chevaliers survivent : dans les abbayes, sur les routes des réfugiés, au service de ceux qui n'ont plus personne. Ils portent encore l'insigne, et ils attendent qu'on les rappelle.</p><p><strong>Devoir.</strong> Protéger les innocents, quelle que soit leur faction. Combattre le Fléau. Ne jamais frapper un ennemi qui se rend. Obéir aux anciens de l'ordre quand ils appellent.</p><p><strong>Faveur par rang.</strong></p><ul><li><strong>Rang 1 — Écuyer.</strong> Hospitalité des chapelles et des abbayes de l'Alliance ; un ancien chevalier vous forme et vous conseille.</li><li><strong>Rang 2 — Chevalier.</strong> Vous portez l'insigne de la Main ; les miliciens et les gardes de l'Alliance vous écoutent, et un destrier de l'ordre vous est prêté.</li><li><strong>Rang 3 — Seigneur paladin.</strong> Deux écuyers vous suivent (PNJ de niveau 1) et vous avez voix dans les conseils de guerre de l'Alliance.</li></ul><p><strong>Avantage.</strong> <em>Serment partagé</em> : une fois par repos long, quand un allié que vous voyez à 9 m ou moins rate un jet de sauvegarde, vous pouvez utiliser votre <strong>réaction</strong> pour lui faire relancer le dé ; il doit garder le nouveau résultat.</p><p><strong>Réputation.</strong> Depuis Stratholme, certains accusent l'ordre d'avoir formé Arthas. La Croisade écarlate vous juge tiède, et les Réprouvés reconnaissent l'insigne de loin.</p><p><strong>Monter en rang.</strong> Le MJ accorde le rang suivant après une mission d'importance accomplie pour l'ordre, ou au bout de quelques aventures de service loyal ; il le note dans le don (rang 1 à 3). Manquer gravement au devoir fait perdre un rang, ou l'affiliation entière.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "affiliation-main-d-argent",
+    "activities": {
+      "C50zsdgplR6ruVSM": {
+        "_id": "C50zsdgplR6ruVSM",
+        "type": "utility",
+        "name": "Serment partagé",
+        "img": "",
+        "sort": 100000,
+        "flags": {},
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "condition": "Un allié à 9 m ou moins rate un jet de sauvegarde",
+          "override": false
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "9",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m"
+          },
+          "affects": {
+            "count": "1",
+            "type": "ally",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll",
+          "formula": ""
+        }
+      ]
+    },
+    "advancement": {},
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "enchant": {
+      "max": "",
+      "period": ""
+    },
+    "prerequisites": {
+      "items": [],
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Affiliation — Ordre de la Main d'argent"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "affiliation-main-d-argent",
+      "categorie": "affiliation",
+      "faction": "alliance",
+      "organisation": "Ordre de la Main d'argent",
+      "rang": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

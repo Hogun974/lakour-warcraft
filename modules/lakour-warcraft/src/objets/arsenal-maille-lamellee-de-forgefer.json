@@ -1,0 +1,90 @@
+{
+  "_id": "tKhjhOuHjsm8l7c9",
+  "_key": "!items!tKhjhOuHjsm8l7c9",
+  "name": "Maille lamellée de Forgefer",
+  "type": "equipment",
+  "img": "icons/equipment/chest/breastplate-banded-steel-studded.webp",
+  "system": {
+    "description": {
+      "value": "<p>Des bandes d'acier rivetées sur une cotte de mailles serrée, taillées à la mesure d'un nain puis rallongées pour les autres peuples moyennant supplément. Chaque lame porte le poinçon de la forge royale.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "arsenal-maille-lamellee-de-forgefer",
+    "price": {
+      "value": 200,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 60,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": 17,
+      "magicalBonus": null,
+      "dex": 0
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "heavy",
+      "baseItem": "splint"
+    },
+    "properties": [
+      "stealthDisadvantage"
+    ],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": 15,
+    "proficient": null,
+    "activities": {}
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "arsenal-maille-lamellee-de-forgefer",
+      "arsenal": "armure"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

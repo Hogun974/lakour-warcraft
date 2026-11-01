@@ -1,0 +1,140 @@
+{
+  "_id": "0gPjWrmgPDQfnMHl",
+  "_key": "!items!0gPjWrmgPDQfnMHl",
+  "name": "Brassards du gladiateur d'Orgrimmar",
+  "type": "equipment",
+  "img": "icons/equipment/wrist/bracer-armored-steel-worn.webp",
+  "system": {
+    "description": {
+      "value": "<p>Des brassards cabossés, gagnés dans l'arène de la Vallée de l'Honneur et jamais redressés. Tant que vous y êtes <strong>lié</strong>, vous gagnez <strong>+1 à la classe d'armure</strong> et <strong>+1 aux jets d'initiative</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "arsenal-brassards-du-gladiateur",
+    "price": {
+      "value": 600,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": null,
+    "proficient": null,
+    "activities": {}
+  },
+  "effects": [
+    {
+      "_id": "OzQvD08Cdd8F2w6W",
+      "_key": "!items.effects!0gPjWrmgPDQfnMHl.OzQvD08Cdd8F2w6W",
+      "name": "Brassards du gladiateur",
+      "img": "icons/equipment/wrist/bracer-armored-steel-worn.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.ac.bonus",
+            "value": "1",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "e7oBUqoITLozZ9Ra"
+          },
+          {
+            "key": "system.attributes.init.roll.bonus",
+            "value": "1",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "bhtJ6Hj2CfrzzIhY"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "arsenal-brassards-du-gladiateur",
+      "arsenal": "magique"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

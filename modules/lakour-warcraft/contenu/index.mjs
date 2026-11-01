@@ -5,11 +5,17 @@ import { GUIDES, TABLES } from "./guides.mjs";
 import { BESTIAIRE } from "./bestiaire.mjs";
 import { AVENTURE_DOCUMENTS } from "./aventure.mjs";
 import { CAMPAGNE_DOCUMENTS } from "./campagne.mjs";
+import { ARSENAL } from "./arsenal.mjs";
+import { DONS } from "./dons.mjs";
+import { AFFLICTIONS } from "./afflictions.mjs";
+import { SORTS, LISTES_SORTS } from "./sorts.mjs";
+import { AFFILIATIONS } from "./affiliations.mjs";
 
 // Tout le contenu du module, dans l'ordre des compendiums.
 export const DOCUMENTS = [
-  ...PEUPLES, ...HISTORIQUES, ...OBJETS,
-  ...GUIDES, ...TABLES,
+  ...PEUPLES, ...HISTORIQUES, ...OBJETS, ...ARSENAL,
+  ...DONS, ...AFFILIATIONS, ...AFFLICTIONS, ...SORTS,
+  ...GUIDES, ...TABLES, ...LISTES_SORTS,
   ...BESTIAIRE,
   ...AVENTURE_DOCUMENTS,
   ...CAMPAGNE_DOCUMENTS

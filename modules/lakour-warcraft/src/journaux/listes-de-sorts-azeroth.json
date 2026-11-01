@@ -1,0 +1,306 @@
+{
+  "_id": "aC3vbtKhaCRMA8kC",
+  "_key": "!journal!aC3vbtKhaCRMA8kC",
+  "name": "Listes de sorts d'Azeroth",
+  "folder": null,
+  "sort": 0,
+  "categories": [],
+  "ownership": {
+    "default": 2
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "listes-de-sorts-azeroth"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "pages": [
+    {
+      "_id": "Ul1YO018sbW9RRmk",
+      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.Ul1YO018sbW9RRmk",
+      "name": "Barde — sorts d'Azeroth",
+      "type": "spells",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Sorts d'Azeroth ajoutés à la liste du barde par le module La Kour Warcraft. Une fois cette liste déclarée par le module, dnd5e les range avec les sorts du SRD dans le navigateur de compendium (filtre « Liste de sorts ») et sur la fiche de la classe.</p><ul><li><strong>Torpeur d'émeraude</strong> (niveau 2) : Druidisme</li><li><strong>Hurlement de terreur</strong> (niveau 4) : Gangrène et ombre</li></ul>",
+        "format": 1
+      },
+      "system": {
+        "type": "class",
+        "identifier": "bard",
+        "grouping": "level",
+        "description": {
+          "value": "<p>Sorts d'Azeroth ajoutés à la liste du barde par le module La Kour Warcraft. Une fois cette liste déclarée par le module, dnd5e les range avec les sorts du SRD dans le navigateur de compendium (filtre « Liste de sorts ») et sur la fiche de la classe.</p><ul><li><strong>Torpeur d'émeraude</strong> (niveau 2) : Druidisme</li><li><strong>Hurlement de terreur</strong> (niveau 4) : Gangrène et ombre</li></ul>"
+        },
+        "spells": [
+          "Compendium.lakour-warcraft.sorts.Item.DrNgIQgF77bFk3ru",
+          "Compendium.lakour-warcraft.sorts.Item.ChcnBMoeaaAX1MLV"
+        ],
+        "unlinkedSpells": []
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "IetUXLFHrT4bVEGt",
+      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.IetUXLFHrT4bVEGt",
+      "name": "Clerc — sorts d'Azeroth",
+      "type": "spells",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Sorts d'Azeroth ajoutés à la liste du clerc par le module La Kour Warcraft. Une fois cette liste déclarée par le module, dnd5e les range avec les sorts du SRD dans le navigateur de compendium (filtre « Liste de sorts ») et sur la fiche de la classe.</p><ul><li><strong>Horion élémentaire</strong> (tour de magie) : Chamanisme</li><li><strong>Étincelle de la Lumière</strong> (tour de magie) : La Lumière</li><li><strong>Égide d'orage</strong> (niveau 1) : Chamanisme</li><li><strong>Égide de la Lumière</strong> (niveau 1) : La Lumière</li><li><strong>Totem du flot guérisseur</strong> (niveau 2) : Chamanisme</li><li><strong>Éclair bondissant</strong> (niveau 3) : Chamanisme</li><li><strong>Psaume de la Lumière</strong> (niveau 3) : La Lumière</li><li><strong>Chute d'étoiles d'Élune</strong> (niveau 5) : La Lumière</li></ul>",
+        "format": 1
+      },
+      "system": {
+        "type": "class",
+        "identifier": "cleric",
+        "grouping": "level",
+        "description": {
+          "value": "<p>Sorts d'Azeroth ajoutés à la liste du clerc par le module La Kour Warcraft. Une fois cette liste déclarée par le module, dnd5e les range avec les sorts du SRD dans le navigateur de compendium (filtre « Liste de sorts ») et sur la fiche de la classe.</p><ul><li><strong>Horion élémentaire</strong> (tour de magie) : Chamanisme</li><li><strong>Étincelle de la Lumière</strong> (tour de magie) : La Lumière</li><li><strong>Égide d'orage</strong> (niveau 1) : Chamanisme</li><li><strong>Égide de la Lumière</strong> (niveau 1) : La Lumière</li><li><strong>Totem du flot guérisseur</strong> (niveau 2) : Chamanisme</li><li><strong>Éclair bondissant</strong> (niveau 3) : Chamanisme</li><li><strong>Psaume de la Lumière</strong> (niveau 3) : La Lumière</li><li><strong>Chute d'étoiles d'Élune</strong> (niveau 5) : La Lumière</li></ul>"
+        },
+        "spells": [
+          "Compendium.lakour-warcraft.sorts.Item.541C5nPD4exuvGXZ",
+          "Compendium.lakour-warcraft.sorts.Item.8p5BBlta0DGltvDC",
+          "Compendium.lakour-warcraft.sorts.Item.t1CcbN07bqkqqhxv",
+          "Compendium.lakour-warcraft.sorts.Item.mlMhGL79co5nT8k1",
+          "Compendium.lakour-warcraft.sorts.Item.kZxX21INTXB6PwAz",
+          "Compendium.lakour-warcraft.sorts.Item.W938hulRx71dmQND",
+          "Compendium.lakour-warcraft.sorts.Item.BiGOddGx3qG4vgsr",
+          "Compendium.lakour-warcraft.sorts.Item.j940tC4ldD8vwLln"
+        ],
+        "unlinkedSpells": []
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "2D8DaGKZZf35xLKW",
+      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.2D8DaGKZZf35xLKW",
+      "name": "Druide — sorts d'Azeroth",
+      "type": "spells",
+      "sort": 300,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Sorts d'Azeroth ajoutés à la liste du druide par le module La Kour Warcraft. Une fois cette liste déclarée par le module, dnd5e les range avec les sorts du SRD dans le navigateur de compendium (filtre « Liste de sorts ») et sur la fiche de la classe.</p><ul><li><strong>Horion élémentaire</strong> (tour de magie) : Chamanisme</li><li><strong>Égide d'orage</strong> (niveau 1) : Chamanisme</li><li><strong>Sarments du Rêve</strong> (niveau 1) : Druidisme</li><li><strong>Sève de jouvence</strong> (niveau 1) : Druidisme</li><li><strong>Totem du flot guérisseur</strong> (niveau 2) : Chamanisme</li><li><strong>Torpeur d'émeraude</strong> (niveau 2) : Druidisme</li><li><strong>Éclair bondissant</strong> (niveau 3) : Chamanisme</li><li><strong>Blizzard</strong> (niveau 4) : Arcanes</li><li><strong>Chute d'étoiles d'Élune</strong> (niveau 5) : La Lumière</li></ul>",
+        "format": 1
+      },
+      "system": {
+        "type": "class",
+        "identifier": "druid",
+        "grouping": "level",
+        "description": {
+          "value": "<p>Sorts d'Azeroth ajoutés à la liste du druide par le module La Kour Warcraft. Une fois cette liste déclarée par le module, dnd5e les range avec les sorts du SRD dans le navigateur de compendium (filtre « Liste de sorts ») et sur la fiche de la classe.</p><ul><li><strong>Horion élémentaire</strong> (tour de magie) : Chamanisme</li><li><strong>Égide d'orage</strong> (niveau 1) : Chamanisme</li><li><strong>Sarments du Rêve</strong> (niveau 1) : Druidisme</li><li><strong>Sève de jouvence</strong> (niveau 1) : Druidisme</li><li><strong>Totem du flot guérisseur</strong> (niveau 2) : Chamanisme</li><li><strong>Torpeur d'émeraude</strong> (niveau 2) : Druidisme</li><li><strong>Éclair bondissant</strong> (niveau 3) : Chamanisme</li><li><strong>Blizzard</strong> (niveau 4) : Arcanes</li><li><strong>Chute d'étoiles d'Élune</strong> (niveau 5) : La Lumière</li></ul>"
+        },
+        "spells": [
+          "Compendium.lakour-warcraft.sorts.Item.541C5nPD4exuvGXZ",
+          "Compendium.lakour-warcraft.sorts.Item.t1CcbN07bqkqqhxv",
+          "Compendium.lakour-warcraft.sorts.Item.Dv3y9GfUFDRj2t0b",
+          "Compendium.lakour-warcraft.sorts.Item.8drPFyT9o5AQyuQd",
+          "Compendium.lakour-warcraft.sorts.Item.kZxX21INTXB6PwAz",
+          "Compendium.lakour-warcraft.sorts.Item.DrNgIQgF77bFk3ru",
+          "Compendium.lakour-warcraft.sorts.Item.W938hulRx71dmQND",
+          "Compendium.lakour-warcraft.sorts.Item.3cbqTP1IQovpBRQ9",
+          "Compendium.lakour-warcraft.sorts.Item.j940tC4ldD8vwLln"
+        ],
+        "unlinkedSpells": []
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "pBJQcuht8v3wBTvi",
+      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.pBJQcuht8v3wBTvi",
+      "name": "Paladin — sorts d'Azeroth",
+      "type": "spells",
+      "sort": 400,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Sorts d'Azeroth ajoutés à la liste du paladin par le module La Kour Warcraft. Une fois cette liste déclarée par le module, dnd5e les range avec les sorts du SRD dans le navigateur de compendium (filtre « Liste de sorts ») et sur la fiche de la classe.</p><ul><li><strong>Égide de la Lumière</strong> (niveau 1) : La Lumière</li><li><strong>Marteau de justice</strong> (niveau 2) : La Lumière</li><li><strong>Psaume de la Lumière</strong> (niveau 3) : La Lumière</li></ul>",
+        "format": 1
+      },
+      "system": {
+        "type": "class",
+        "identifier": "paladin",
+        "grouping": "level",
+        "description": {
+          "value": "<p>Sorts d'Azeroth ajoutés à la liste du paladin par le module La Kour Warcraft. Une fois cette liste déclarée par le module, dnd5e les range avec les sorts du SRD dans le navigateur de compendium (filtre « Liste de sorts ») et sur la fiche de la classe.</p><ul><li><strong>Égide de la Lumière</strong> (niveau 1) : La Lumière</li><li><strong>Marteau de justice</strong> (niveau 2) : La Lumière</li><li><strong>Psaume de la Lumière</strong> (niveau 3) : La Lumière</li></ul>"
+        },
+        "spells": [
+          "Compendium.lakour-warcraft.sorts.Item.mlMhGL79co5nT8k1",
+          "Compendium.lakour-warcraft.sorts.Item.U1gPpr6PGQbCKA5c",
+          "Compendium.lakour-warcraft.sorts.Item.BiGOddGx3qG4vgsr"
+        ],
+        "unlinkedSpells": []
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "nlYdLBAwZplXXqC1",
+      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.nlYdLBAwZplXXqC1",
+      "name": "Rôdeur — sorts d'Azeroth",
+      "type": "spells",
+      "sort": 500,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Sorts d'Azeroth ajoutés à la liste du rôdeur par le module La Kour Warcraft. Une fois cette liste déclarée par le module, dnd5e les range avec les sorts du SRD dans le navigateur de compendium (filtre « Liste de sorts ») et sur la fiche de la classe.</p><ul><li><strong>Sarments du Rêve</strong> (niveau 1) : Druidisme</li><li><strong>Sève de jouvence</strong> (niveau 1) : Druidisme</li></ul>",
+        "format": 1
+      },
+      "system": {
+        "type": "class",
+        "identifier": "ranger",
+        "grouping": "level",
+        "description": {
+          "value": "<p>Sorts d'Azeroth ajoutés à la liste du rôdeur par le module La Kour Warcraft. Une fois cette liste déclarée par le module, dnd5e les range avec les sorts du SRD dans le navigateur de compendium (filtre « Liste de sorts ») et sur la fiche de la classe.</p><ul><li><strong>Sarments du Rêve</strong> (niveau 1) : Druidisme</li><li><strong>Sève de jouvence</strong> (niveau 1) : Druidisme</li></ul>"
+        },
+        "spells": [
+          "Compendium.lakour-warcraft.sorts.Item.Dv3y9GfUFDRj2t0b",
+          "Compendium.lakour-warcraft.sorts.Item.8drPFyT9o5AQyuQd"
+        ],
+        "unlinkedSpells": []
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Vhj5w5yBsOxkj6sA",
+      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.Vhj5w5yBsOxkj6sA",
+      "name": "Ensorceleur — sorts d'Azeroth",
+      "type": "spells",
+      "sort": 600,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Sorts d'Azeroth ajoutés à la liste du ensorceleur par le module La Kour Warcraft. Une fois cette liste déclarée par le module, dnd5e les range avec les sorts du SRD dans le navigateur de compendium (filtre « Liste de sorts ») et sur la fiche de la classe.</p><ul><li><strong>Horion élémentaire</strong> (tour de magie) : Chamanisme</li><li><strong>Trait de l'ombre</strong> (tour de magie) : Gangrène et ombre</li><li><strong>Égide d'orage</strong> (niveau 1) : Chamanisme</li><li><strong>Flétrissure gangrenée</strong> (niveau 1) : Gangrène et ombre</li><li><strong>Nova de givre</strong> (niveau 2) : Arcanes</li><li><strong>Éclair bondissant</strong> (niveau 3) : Chamanisme</li><li><strong>Métamorphose ovine</strong> (niveau 3) : Arcanes</li><li><strong>Blizzard</strong> (niveau 4) : Arcanes</li><li><strong>Hurlement de terreur</strong> (niveau 4) : Gangrène et ombre</li><li><strong>Portail du Kirin Tor</strong> (niveau 5) : Arcanes</li></ul>",
+        "format": 1
+      },
+      "system": {
+        "type": "class",
+        "identifier": "sorcerer",
+        "grouping": "level",
+        "description": {
+          "value": "<p>Sorts d'Azeroth ajoutés à la liste du ensorceleur par le module La Kour Warcraft. Une fois cette liste déclarée par le module, dnd5e les range avec les sorts du SRD dans le navigateur de compendium (filtre « Liste de sorts ») et sur la fiche de la classe.</p><ul><li><strong>Horion élémentaire</strong> (tour de magie) : Chamanisme</li><li><strong>Trait de l'ombre</strong> (tour de magie) : Gangrène et ombre</li><li><strong>Égide d'orage</strong> (niveau 1) : Chamanisme</li><li><strong>Flétrissure gangrenée</strong> (niveau 1) : Gangrène et ombre</li><li><strong>Nova de givre</strong> (niveau 2) : Arcanes</li><li><strong>Éclair bondissant</strong> (niveau 3) : Chamanisme</li><li><strong>Métamorphose ovine</strong> (niveau 3) : Arcanes</li><li><strong>Blizzard</strong> (niveau 4) : Arcanes</li><li><strong>Hurlement de terreur</strong> (niveau 4) : Gangrène et ombre</li><li><strong>Portail du Kirin Tor</strong> (niveau 5) : Arcanes</li></ul>"
+        },
+        "spells": [
+          "Compendium.lakour-warcraft.sorts.Item.541C5nPD4exuvGXZ",
+          "Compendium.lakour-warcraft.sorts.Item.Q8P5FfsS0EfExL5F",
+          "Compendium.lakour-warcraft.sorts.Item.t1CcbN07bqkqqhxv",
+          "Compendium.lakour-warcraft.sorts.Item.DSPw83v6on9ICAom",
+          "Compendium.lakour-warcraft.sorts.Item.assuCxUZyyYH81vE",
+          "Compendium.lakour-warcraft.sorts.Item.W938hulRx71dmQND",
+          "Compendium.lakour-warcraft.sorts.Item.QBnNuldjrEpoOw5H",
+          "Compendium.lakour-warcraft.sorts.Item.3cbqTP1IQovpBRQ9",
+          "Compendium.lakour-warcraft.sorts.Item.ChcnBMoeaaAX1MLV",
+          "Compendium.lakour-warcraft.sorts.Item.eDR8zGmPXYGoMTwD"
+        ],
+        "unlinkedSpells": []
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "TReruCQ6tfVqkRoL",
+      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.TReruCQ6tfVqkRoL",
+      "name": "Occultiste — sorts d'Azeroth",
+      "type": "spells",
+      "sort": 700,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Sorts d'Azeroth ajoutés à la liste du occultiste par le module La Kour Warcraft. Une fois cette liste déclarée par le module, dnd5e les range avec les sorts du SRD dans le navigateur de compendium (filtre « Liste de sorts ») et sur la fiche de la classe.</p><ul><li><strong>Trait de l'ombre</strong> (tour de magie) : Gangrène et ombre</li><li><strong>Flétrissure gangrenée</strong> (niveau 1) : Gangrène et ombre</li><li><strong>Hurlement de terreur</strong> (niveau 4) : Gangrène et ombre</li></ul>",
+        "format": 1
+      },
+      "system": {
+        "type": "class",
+        "identifier": "warlock",
+        "grouping": "level",
+        "description": {
+          "value": "<p>Sorts d'Azeroth ajoutés à la liste du occultiste par le module La Kour Warcraft. Une fois cette liste déclarée par le module, dnd5e les range avec les sorts du SRD dans le navigateur de compendium (filtre « Liste de sorts ») et sur la fiche de la classe.</p><ul><li><strong>Trait de l'ombre</strong> (tour de magie) : Gangrène et ombre</li><li><strong>Flétrissure gangrenée</strong> (niveau 1) : Gangrène et ombre</li><li><strong>Hurlement de terreur</strong> (niveau 4) : Gangrène et ombre</li></ul>"
+        },
+        "spells": [
+          "Compendium.lakour-warcraft.sorts.Item.Q8P5FfsS0EfExL5F",
+          "Compendium.lakour-warcraft.sorts.Item.DSPw83v6on9ICAom",
+          "Compendium.lakour-warcraft.sorts.Item.ChcnBMoeaaAX1MLV"
+        ],
+        "unlinkedSpells": []
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "eERlD3NAuouxgyEf",
+      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.eERlD3NAuouxgyEf",
+      "name": "Magicien — sorts d'Azeroth",
+      "type": "spells",
+      "sort": 800,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Sorts d'Azeroth ajoutés à la liste du magicien par le module La Kour Warcraft. Une fois cette liste déclarée par le module, dnd5e les range avec les sorts du SRD dans le navigateur de compendium (filtre « Liste de sorts ») et sur la fiche de la classe.</p><ul><li><strong>Trait de l'ombre</strong> (tour de magie) : Gangrène et ombre</li><li><strong>Nova de givre</strong> (niveau 2) : Arcanes</li><li><strong>Éclair bondissant</strong> (niveau 3) : Chamanisme</li><li><strong>Métamorphose ovine</strong> (niveau 3) : Arcanes</li><li><strong>Blizzard</strong> (niveau 4) : Arcanes</li><li><strong>Portail du Kirin Tor</strong> (niveau 5) : Arcanes</li></ul>",
+        "format": 1
+      },
+      "system": {
+        "type": "class",
+        "identifier": "wizard",
+        "grouping": "level",
+        "description": {
+          "value": "<p>Sorts d'Azeroth ajoutés à la liste du magicien par le module La Kour Warcraft. Une fois cette liste déclarée par le module, dnd5e les range avec les sorts du SRD dans le navigateur de compendium (filtre « Liste de sorts ») et sur la fiche de la classe.</p><ul><li><strong>Trait de l'ombre</strong> (tour de magie) : Gangrène et ombre</li><li><strong>Nova de givre</strong> (niveau 2) : Arcanes</li><li><strong>Éclair bondissant</strong> (niveau 3) : Chamanisme</li><li><strong>Métamorphose ovine</strong> (niveau 3) : Arcanes</li><li><strong>Blizzard</strong> (niveau 4) : Arcanes</li><li><strong>Portail du Kirin Tor</strong> (niveau 5) : Arcanes</li></ul>"
+        },
+        "spells": [
+          "Compendium.lakour-warcraft.sorts.Item.Q8P5FfsS0EfExL5F",
+          "Compendium.lakour-warcraft.sorts.Item.assuCxUZyyYH81vE",
+          "Compendium.lakour-warcraft.sorts.Item.W938hulRx71dmQND",
+          "Compendium.lakour-warcraft.sorts.Item.QBnNuldjrEpoOw5H",
+          "Compendium.lakour-warcraft.sorts.Item.3cbqTP1IQovpBRQ9",
+          "Compendium.lakour-warcraft.sorts.Item.eDR8zGmPXYGoMTwD"
+        ],
+        "unlinkedSpells": []
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ]
+}

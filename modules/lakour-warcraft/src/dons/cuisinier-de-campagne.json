@@ -1,0 +1,180 @@
+{
+  "_id": "HSnCjJHfwI4k0TsP",
+  "_key": "!items!HSnCjJHfwI4k0TsP",
+  "name": "Cuisinier de campagne",
+  "type": "feat",
+  "img": "icons/consumables/food/bowl-stew-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un ragoût de sanglier des Carmines vaut mieux qu'un sermon. Vous maîtrisez les <strong>ustensiles de cuisinier</strong>.</p><p><strong>Ragoût réconfortant.</strong> À la fin d'un <strong>repos court</strong> où vous avez cuisiné, chaque créature de votre choix qui a partagé le repas récupère <strong>1d8 + votre bonus de maîtrise</strong> points de vie. Une utilisation par <strong>repos long</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "cuisinier-de-campagne",
+    "type": {
+      "value": "feat",
+      "subtype": "origin"
+    },
+    "requirements": "",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {
+      "A1PQ9gO3WjjPx0BE": {
+        "_id": "A1PQ9gO3WjjPx0BE",
+        "type": "heal",
+        "name": "Servir le ragoût",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "shortRest",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "9",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "ally",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "healing": {
+          "number": 1,
+          "denomination": 8,
+          "bonus": "@prof",
+          "custom": {
+            "enabled": false,
+            "formula": ""
+          },
+          "scaling": {
+            "mode": "",
+            "number": null,
+            "formula": ""
+          },
+          "types": [
+            "healing"
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "advancement": {
+      "LfBIyNHGEyqyK8r1": {
+        "_id": "LfBIyNHGEyqyK8r1",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "tool:art:cook"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "Cuisinier de campagne",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "cuisinier-de-campagne",
+      "automatisation": "complete"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "_id": "pjTxkUM2Nc174XKE",
+  "_key": "!items!pjTxkUM2Nc174XKE",
+  "name": "Garde de la Lumière",
+  "type": "feat",
+  "img": "icons/magic/holy/barrier-shield-winged-cross.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Prérequis : Niveau 4 ou plus, capacité Incantation ou Magie de pacte.</em></p><p><strong>Amélioration de caractéristique.</strong> Augmentez votre Sagesse ou Charisme de 1, jusqu'à un maximum de 20.</p><p>Vous avez prêté serment devant la Main d'argent, la cathédrale de Hurlevent ou les Aldor : la Lumière vous traverse et protège ceux qui se tiennent près de vous. Vous avez la <strong>résistance aux dégâts nécrotiques</strong>.</p><p><strong>Rempart de Lumière.</strong> Quand une créature que vous voyez à 9 m au plus subit des dégâts, vous pouvez utiliser votre <strong>réaction</strong> pour réduire ces dégâts de <strong>1d10 + votre bonus de maîtrise</strong>. Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "garde-de-la-lumiere",
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    },
+    "requirements": "Niveau 4 ou plus, capacité Incantation ou Magie de pacte",
+    "prerequisites": {
+      "level": 4,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {
+      "5eWqOAAFN2HUuZjI": {
+        "_id": "5eWqOAAFN2HUuZjI",
+        "type": "utility",
+        "name": "Rempart de Lumière",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "condition": "Une créature à 9 m subit des dégâts",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "9",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": true,
+          "name": "Dégâts évités",
+          "formula": "1d10 + @prof"
+        }
+      }
+    },
+    "uses": {
+      "max": "@prof",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "advancement": {
+      "XDGkgkMpXHDmDDE7": {
+        "_id": "XDGkgkMpXHDmDDE7",
+        "type": "AbilityScoreImprovement",
+        "level": 0,
+        "flags": {},
+        "value": {},
+        "configuration": {
+          "cap": 1,
+          "points": 1,
+          "max": null,
+          "recommendation": null,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "int"
+          ]
+        },
+        "title": "Amélioration de caractéristique",
+        "hint": "+1 à une caractéristique parmi celles proposées (20 au plus)."
+      }
+    },
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "OjjrJ1MPWJs8HG2r",
+      "_key": "!items.effects!pjTxkUM2Nc174XKE.OjjrJ1MPWJs8HG2r",
+      "name": "Garde de la Lumière",
+      "img": "icons/magic/holy/barrier-shield-winged-cross.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.traits.dr.value",
+            "type": "add",
+            "value": "necrotic",
+            "phase": "initial",
+            "priority": null
+          }
+        ]
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "garde-de-la-lumiere",
+      "automatisation": "complete"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

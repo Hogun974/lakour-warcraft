@@ -2,7 +2,7 @@
 // aventures rangées par dossier (les lieux génériques « lieu-… » restent au compendium, le MJ IA les importe au besoin),
 // plans des cartes pour le placement des jetons, style visuel plat ou relief.
 const ID = "lakour-warcraft";
-const VERSION_CONTENU = "0.3.0";
+const VERSION_CONTENU = "0.4.0";   // 0.4.0 : journaux liés (@UUID, jets), listes de sorts
 
 const { ApplicationV2, HandlebarsApplicationMixin, DialogV2 } = foundry.applications.api;
 
@@ -51,14 +51,29 @@ async function dossier(type, nom) {
     ?? Folder.implementation.create({ name: nom, type, color: "#1a3a5a", flags: { [ID]: { dossier: nom } } });
 }
 
+// Un guide ou une aventure déjà installé d'une version précédente reprend les pages du compendium (liens, jets, aides de
+// jeu découpées) ; son nom, son dossier et ses droits restent. Les retouches faites à la main dans ses pages sont perdues.
+async function rafraichirJournal(existant, source) {
+  if (existant.getFlag(ID, "version") === VERSION_CONTENU) return false;
+  await existant.deleteEmbeddedDocuments("JournalEntryPage", existant.pages.map(p => p.id));
+  await existant.createEmbeddedDocuments("JournalEntryPage", source.pages.map(p => p.toObject()), { keepId: true });
+  await existant.setFlag(ID, "version", VERSION_CONTENU);
+  return true;
+}
+
 export async function installer() {
   const rapport = [];
 
   // Guides et aventures : le guide du joueur reste visible de tous, ceux du MJ restent cachés (droits du compendium).
   const journaux = await game.packs.get(`${ID}.journaux`).getDocuments();
   for (const j of journaux) {
-    if (game.journal.find(x => x.getFlag(ID, "cle") === j.getFlag(ID, "cle"))) continue;
-    await JournalEntry.implementation.create({ ...game.journal.fromCompendium(j), folder: (await dossier("JournalEntry", "La Kour Warcraft")).id });
+    const existant = game.journal.find(x => x.getFlag(ID, "cle") === j.getFlag(ID, "cle"));
+    if (existant) {
+      if (await rafraichirJournal(existant, j)) rapport.push(`${j.name} (mis à jour)`);
+      continue;
+    }
+    const donnees = foundry.utils.mergeObject(game.journal.fromCompendium(j), { [`flags.${ID}.version`]: VERSION_CONTENU });
+    await JournalEntry.implementation.create({ ...donnees, folder: (await dossier("JournalEntry", "La Kour Warcraft")).id });
     rapport.push(j.name);
   }
 

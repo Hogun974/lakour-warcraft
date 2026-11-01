@@ -1,0 +1,64 @@
+{
+  "_id": "tUZwMNktrEswHDTi",
+  "_key": "!items!tUZwMNktrEswHDTi",
+  "name": "Dette envers le Cartel",
+  "type": "feat",
+  "img": "icons/commodities/currency/coins-assorted-mix-copper-silver-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous devez <strong>300 po</strong> à un comptoir du Cartel Gentepression, intérêts compris. À chaque aventure sans remboursement, la dette grossit d'un dixième et les méthodes de recouvrement se durcissent : d'abord des lettres polies, puis des collecteurs, puis des ogres.</p><p>Un gobelin accepte parfois un service à la place de l'or. C'est rarement une bonne affaire.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "affiliation-handicap-dette-envers-le-cartel",
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "enchant": {
+      "max": "",
+      "period": ""
+    },
+    "prerequisites": {
+      "items": [],
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Handicap de faction"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "affiliation-handicap-dette-envers-le-cartel",
+      "categorie": "handicap",
+      "faction": "neutre"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

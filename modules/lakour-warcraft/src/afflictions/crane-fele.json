@@ -1,0 +1,110 @@
+{
+  "_id": "hbFz5WhHlmIOD88L",
+  "_key": "!items!hbFz5WhHlmIOD88L",
+  "name": "Crâne fêlé",
+  "type": "feat",
+  "img": "icons/skills/wounds/anatomy-organ-brain-pink-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Depuis ce coup à la tête, les maux de crâne ne vous quittent plus. Vous avez le <strong>désavantage</strong> aux tests d'<strong>Intelligence</strong>, et un malus de <strong>−2</strong> aux jets de sauvegarde pour maintenir votre <strong>concentration</strong>.</p><p><strong>Guérison.</strong> Un sort de <em>Restauration supérieure</em> ou de <em>Régénération</em>, ou les soins d'un maître guérisseur (prêtre de haut rang, druide du Cercle cénarien, chaman de la Terre-Mère), fait disparaître cette blessure.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "crane-fele",
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Blessure persistante",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "ytS17SXDqs4r1JdF",
+      "_key": "!items.effects!hbFz5WhHlmIOD88L.ytS17SXDqs4r1JdF",
+      "name": "Crâne fêlé",
+      "img": "icons/skills/wounds/anatomy-organ-brain-pink-red.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.abilities.int.check.roll.mode",
+            "type": "add",
+            "value": -1,
+            "phase": "initial",
+            "priority": null
+          },
+          {
+            "key": "system.attributes.concentration.roll.bonus",
+            "type": "add",
+            "value": "-2",
+            "phase": "initial",
+            "priority": null
+          }
+        ]
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 2,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "crane-fele",
+      "affliction": {
+        "categorie": "blessure"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

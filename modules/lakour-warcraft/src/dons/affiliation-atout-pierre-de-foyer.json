@@ -1,0 +1,161 @@
+{
+  "_id": "UJg2jlHcJzVlj4H4",
+  "_key": "!items!UJg2jlHcJzVlj4H4",
+  "name": "Pierre de foyer",
+  "type": "feat",
+  "img": "icons/commodities/stone/engraved-symbol-water-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une pierre lisse gravée d'une rune, accordée à une auberge où l'on vous connaît. Une fois par repos long, vous pouvez la tenir et vous concentrer pendant <strong>10 minutes</strong> : à la fin, vous êtes transporté avec ce que vous portez dans la salle commune de cette auberge. Subir des dégâts pendant les 10 minutes interrompt le transfert sans dépenser l'utilisation.</p><p>Changer d'auberge demande une nuit sur place et la bénédiction de l'aubergiste (souvent payante).</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "affiliation-atout-pierre-de-foyer",
+    "activities": {
+      "VqU7TYAuM4p2t7QZ": {
+        "_id": "VqU7TYAuM4p2t7QZ",
+        "type": "utility",
+        "name": "Rentrer à l'auberge",
+        "img": "",
+        "sort": 100000,
+        "flags": {},
+        "activation": {
+          "type": "minute",
+          "value": 10,
+          "condition": "",
+          "override": false
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "expiry": null,
+          "special": "",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "stationary": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m"
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "visibility": {
+          "identifier": "",
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll",
+          "formula": ""
+        }
+      ]
+    },
+    "advancement": {},
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "enchant": {
+      "max": "",
+      "period": ""
+    },
+    "prerequisites": {
+      "items": [],
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Atout de faction"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "affiliation-atout-pierre-de-foyer",
+      "categorie": "atout",
+      "faction": "neutre"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

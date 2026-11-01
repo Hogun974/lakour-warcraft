@@ -1,0 +1,60 @@
+{
+  "_id": "VqCEMJvfN2hvOocE",
+  "_key": "!items!VqCEMJvfN2hvOocE",
+  "name": "Marchandeur du Cartel",
+  "type": "feat",
+  "img": "icons/commodities/currency/coins-plain-pouch-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>Baie-du-Butin vous a appris que tout se négocie, surtout ce qui ne se vend pas. Quand vous achetez ou vendez dans une ville où un cartel gobelin a un comptoir, vous obtenez <strong>10 %</strong> de mieux que le prix courant. Une fois par jour, en une heure passée au marché, vous apprenez une rumeur commerciale vraie (une cargaison attendue, une pénurie, un acheteur discret) : le MJ vous la donne.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "marchandeur-du-cartel",
+    "type": {
+      "value": "feat",
+      "subtype": "origin"
+    },
+    "requirements": "",
+    "prerequisites": {
+      "level": null,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "marchandeur-du-cartel",
+      "automatisation": "texte"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

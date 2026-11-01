@@ -813,10 +813,47 @@
       "flags": {}
     }
   ],
-  "tokens": [],
-  "notes": [],
-  "sounds": [],
+  "sounds": [
+    {
+      "name": "foule — Taverne du port",
+      "x": 2500,
+      "y": 400,
+      "elevation": 0,
+      "levels": [],
+      "radius": 7.5,
+      "path": "modules/lakour-mj-ia/assets/sons/foule.wav",
+      "repeat": true,
+      "volume": 0.2,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "T3cUe8oFaLzxghJt",
+      "_key": "!scenes.sounds!l7wbvfPi6CvNekal.T3cUe8oFaLzxghJt",
+      "flags": {}
+    },
+    {
+      "name": "mer — Bassin",
+      "x": 1500,
+      "y": 1700,
+      "elevation": 0,
+      "levels": [],
+      "radius": 22.5,
+      "path": "modules/lakour-mj-ia/assets/sons/mer.wav",
+      "repeat": true,
+      "volume": 0.3,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "CKZMw8b8dDGfykDx",
+      "_key": "!scenes.sounds!l7wbvfPi6CvNekal.CKZMw8b8dDGfykDx",
+      "flags": {}
+    }
+  ],
   "regions": [],
+  "notes": [],
+  "tokens": [],
   "tiles": [],
   "ownership": {
     "default": 0

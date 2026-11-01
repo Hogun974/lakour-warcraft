@@ -1,0 +1,109 @@
+{
+  "_id": "zMZbZydzcl0hQp6W",
+  "_key": "!items!zMZbZydzcl0hQp6W",
+  "name": "Affiliation : Sentinelles",
+  "type": "feat",
+  "img": "icons/creatures/birds/raptor-owl-flying-moon.webp",
+  "system": {
+    "description": {
+      "value": "<p>L'armée des elfes de la nuit, presque entièrement composée de femmes, garde les forêts de Kalimdor depuis dix mille ans. Ses éclaireuses montent des sabres-de-nuit et parlent par cris de chouette. Elles acceptent quelques étrangers, à l'essai, pour le temps qu'il faudra.</p><p><strong>Devoir.</strong> Défendre l'Orneval et les forêts de Kalimdor contre les bûcherons, les démons et les satyres. Ne jamais révéler les sentiers des Sentinelles. Rendre compte à votre capitaine.</p><p><strong>Faveur par rang.</strong></p><ul><li><strong>Rang 1 — Éclaireur.</strong> Accès aux postes de garde de l'Orneval ; les chouettes des Sentinelles portent vos messages.</li><li><strong>Rang 2 — Sentinelle.</strong> Un sabre-de-nuit vous est confié, et vous connaissez les sentiers cachés : vos voyages en forêt prennent deux fois moins de temps.</li><li><strong>Rang 3 — Capitaine.</strong> Vous commandez un poste de garde et une escouade de cinq Sentinelles, et la générale lit vos rapports.</li></ul><p><strong>Avantage.</strong> <em>Œil de la Sentinelle</em> : vous ajoutez <strong>1d4</strong> à vos tests de Sagesse (Perception).</p><p><strong>Réputation.</strong> Les orcs qui coupent du bois en Orneval ont des comptes à régler avec quiconque porte l'insigne. Les hauts-elfes et les elfes de sang vous rappellent l'Exil, à mots couverts.</p><p><strong>Monter en rang.</strong> Le MJ accorde le rang suivant après une mission d'importance accomplie pour l'ordre, ou au bout de quelques aventures de service loyal ; il le note dans le don (rang 1 à 3). Manquer gravement au devoir fait perdre un rang, ou l'affiliation entière.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "affiliation-sentinelles",
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "enchant": {
+      "max": "",
+      "period": ""
+    },
+    "prerequisites": {
+      "items": [],
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Affiliation — Sentinelles"
+  },
+  "effects": [
+    {
+      "_id": "qnU5y2b9GEDm6gy2",
+      "_key": "!items.effects!zMZbZydzcl0hQp6W.qnU5y2b9GEDm6gy2",
+      "name": "Œil de la Sentinelle",
+      "img": "icons/creatures/birds/raptor-owl-flying-moon.webp",
+      "type": "base",
+      "system": {
+        "magical": false,
+        "changes": [
+          {
+            "key": "system.skills.prc.roll.bonus",
+            "value": "1d4",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "X0nRZhou2fEemKks"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>+1d4 aux tests de Sagesse (Perception).</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "affiliation-sentinelles",
+      "categorie": "affiliation",
+      "faction": "alliance",
+      "organisation": "Sentinelles",
+      "rang": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}
