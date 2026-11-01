@@ -53,10 +53,13 @@ async function dossier(type, nom) {
 
 // Un guide ou une aventure déjà installé d'une version précédente reprend les pages du compendium (liens, jets, aides de
 // jeu découpées) ; son nom, son dossier et ses droits restent. Les retouches faites à la main dans ses pages sont perdues.
-async function rafraichirJournal(existant, source) {
+export async function rafraichirJournal(existant, source) {
   if (existant.getFlag(ID, "version") === VERSION_CONTENU) return false;
-  await existant.deleteEmbeddedDocuments("JournalEntryPage", existant.pages.map(p => p.id));
-  await existant.createEmbeddedDocuments("JournalEntryPage", source.pages.map(p => p.toObject()), { keepId: true });
+  // Les pages que le MJ IA a ajoutées ou réécrites (modifier_scenario) restent telles quelles, avec leur historique.
+  const gardees = new Set(existant.pages.filter(p => p.getFlag("lakour-mj-ia", "ajoutee") || p.getFlag("lakour-mj-ia", "historique")?.length).map(p => p.id));
+  const remplacees = existant.pages.filter(p => !gardees.has(p.id)).map(p => p.id);
+  if (remplacees.length) await existant.deleteEmbeddedDocuments("JournalEntryPage", remplacees);
+  await existant.createEmbeddedDocuments("JournalEntryPage", source.pages.filter(p => !gardees.has(p.id)).map(p => p.toObject()), { keepId: true });
   await existant.setFlag(ID, "version", VERSION_CONTENU);
   return true;
 }
@@ -86,9 +89,12 @@ export function carteVivante(donnees, journaux) {
 // remplacés) ; ses jetons, murs, brouillard et ce que le MJ y a ajouté restent.
 export async function rafraichirScene(scene, source, journaux) {
   if (scene.getFlag(ID, "version") === VERSION_CONTENU) return false;
-  const vivante = carteVivante(source.toObject(), journaux);
+  const donnees = source.toObject();
+  const vivante = carteVivante(donnees, journaux);
   for (const [type, champ] of COLLECTIONS_VIVANTES) {
-    const anciens = scene[champ].filter(d => d.getFlag(ID, "carte")).map(d => d.id);
+    // Ceux du module : marqués, ou portant un identifiant du compendium (importés avant la marque).
+    const duModule = new Set((donnees[champ] ?? []).map(d => d._id));
+    const anciens = scene[champ].filter(d => d.getFlag(ID, "carte") || duModule.has(d.id)).map(d => d.id);
     if (anciens.length) await scene.deleteEmbeddedDocuments(type, anciens);
     if (vivante[champ].length) await scene.createEmbeddedDocuments(type, vivante[champ], { keepId: true });
   }
@@ -96,7 +102,20 @@ export async function rafraichirScene(scene, source, journaux) {
   return true;
 }
 
-export async function installer() {
+// Une seule installation à la fois (bouton cliqué deux fois, ou pendant la proposition du « ready ») ; une erreur est montrée
+// au MJ au lieu de laisser l'installation à moitié faite sans rien dire.
+let installationEnCours = null;
+export function installer() {
+  installationEnCours ??= installerContenu()
+    .catch(erreur => {
+      console.error(`${ID} | installation`, erreur);
+      globalThis.ui?.notifications?.error(`La Kour Warcraft : installation interrompue (${erreur.message}). Le détail est dans la console (F12).`, { permanent: true });
+    })
+    .finally(() => { installationEnCours = null; });
+  return installationEnCours;
+}
+
+async function installerContenu() {
   const rapport = [];
   const journauxDuMonde = new Map();   // identifiant au compendium -> identifiant dans le monde
 

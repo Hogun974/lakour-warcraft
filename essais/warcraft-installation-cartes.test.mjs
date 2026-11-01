@@ -16,7 +16,7 @@ const merge = (cible, ajout) => {
 globalThis.foundry = { applications: { api: { ApplicationV2: class {}, HandlebarsApplicationMixin: c => c, DialogV2: {} } },
   utils: { mergeObject: (a, b) => merge(a, b) } };
 globalThis.Hooks = { once() {}, on() {} };
-const { carteVivante, rafraichirScene, visibiliteDuCompendium } = await import("../modules/lakour-warcraft/scripts/main.js");
+const { carteVivante, rafraichirScene, visibiliteDuCompendium, rafraichirJournal } = await import("../modules/lakour-warcraft/scripts/main.js");
 const ID = "lakour-warcraft";
 
 const source = {
@@ -61,4 +61,18 @@ test("journaux du module : un guide importé caché redevient visible comme au c
   assert.equal(await visibiliteDuCompendium(journal(2), { ownership: { default: 0 } }), false, "un journal visible n'est jamais recaché");
   assert.equal(await visibiliteDuCompendium(journal(2), { ownership: { default: 2 } }), false);
   assert.equal(maj.length, 1);
+});
+
+test("journaux du module : la mise à jour garde les pages écrites par le MJ IA (ajoutées ou réécrites)", async () => {
+  const page = (id, flags = {}) => ({ id, getFlag: (m, k) => flags[m]?.[k], toObject: () => ({ _id: id }) });
+  const ops = [];
+  const existant = {
+    flags: {}, pages: [page("p1"), page("p2", { "lakour-mj-ia": { historique: [{ contenu: "v1" }] } }), page("ajout", { "lakour-mj-ia": { ajoutee: { quand: 1 } } })],
+    getFlag(m, k) { return this.flags[m]?.[k]; }, async setFlag(m, k, v) { (this.flags[m] ??= {})[k] = v; },
+    async deleteEmbeddedDocuments(t, ids) { ops.push(["suppr", ids]); },
+    async createEmbeddedDocuments(t, docs) { ops.push(["cree", docs.map(d => d._id)]); }
+  };
+  const source = { pages: [page("p1"), page("p2"), page("p3")] };
+  assert.equal(await rafraichirJournal(existant, source), true);
+  assert.deepEqual(ops, [["suppr", ["p1"]], ["cree", ["p1", "p3"]]], "p2 réécrite et la page ajoutée restent");
 });
