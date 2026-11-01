@@ -2,7 +2,8 @@
 // aventures rangées par dossier (les lieux génériques « lieu-… » restent au compendium, le MJ IA les importe au besoin),
 // plans des cartes pour le placement des jetons, style visuel plat ou relief.
 const ID = "lakour-warcraft";
-const VERSION_CONTENU = "0.4.1";   // 0.4.0 : journaux liés (@UUID, jets), listes de sorts, cartes vivantes (sons, zones, épingles)
+const VERSION_CONTENU = "0.4.2";   // 0.4.0 : journaux liés (@UUID, jets), listes de sorts, cartes vivantes (sons, zones, épingles) ;
+                                   // 0.4.2 : one-shot « Une nuit aux Deux Lanternes » (journaux, cartes et dossier proposés aux mondes déjà installés)
 
 const { ApplicationV2, HandlebarsApplicationMixin, DialogV2 } = foundry.applications.api;
 

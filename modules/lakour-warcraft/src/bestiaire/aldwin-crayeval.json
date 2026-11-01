@@ -1,0 +1,987 @@
+{
+  "_id": "9pgWTVP7FvGOGb8e",
+  "_key": "!actors!9pgWTVP7FvGOGb8e",
+  "name": "Aldwin Crayeval, le bon docteur",
+  "type": "npc",
+  "img": "modules/lakour-warcraft/assets/jetons/aldwin-crayeval.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 9,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 12,
+        "proficient": 0
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0
+      },
+      "int": {
+        "value": 17,
+        "proficient": 1
+      },
+      "wis": {
+        "value": 13,
+        "proficient": 1
+      },
+      "cha": {
+        "value": 12,
+        "proficient": 0
+      }
+    },
+    "skills": {
+      "med": {
+        "value": 2,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 1,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 12,
+        "calc": "natural"
+      },
+      "hp": {
+        "value": 58,
+        "max": 58,
+        "temp": null,
+        "tempmax": null,
+        "formula": "9d8 + 18"
+      },
+      "movement": {
+        "units": "m",
+        "hover": false,
+        "ignoredDifficultTerrain": [],
+        "walk": "9"
+      },
+      "senses": {
+        "ranges": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null
+        },
+        "units": "m",
+        "special": ""
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Un homme mince d'une cinquantaine d'années, rasé de près, lunettes rondes et manteau de médecin bien brossé. Il a une trousse de cuir pour chaque maladie et un mot gentil pour chaque malade.</p><h3>Note du MJ</h3><p>Nécromancien du Culte des Damnés. À Lordaeron, sous le nom de maître Varn, il vendait aux villages du grain qui portait la peste. Il a suivi les réfugiés en Kalimdor sur ordre du Cercle, se fait passer pour un médecin de Theramore et soigne gratuitement la fièvre des marais pour qu'on lui ouvre toutes les portes. Il paie ses chambres aux Deux Lanternes en farine de peste, a rouvert le boyau des contrebandiers pour y installer son laboratoire, et veut relever le cimetière des Rescapés à l'heure morte. Il n'aime pas se battre : il garde un mort-vivant près de lui, frappe de loin et fuit en barque à 15 PV. Capturé, il marchande sa vie contre les noms des autres « frères ».</p>",
+        "public": "<p>Un homme mince d'une cinquantaine d'années, rasé de près, lunettes rondes et manteau de médecin bien brossé. Il a une trousse de cuir pour chaque maladie et un mot gentil pour chaque malade.</p>"
+      },
+      "alignment": "Neutre mauvais",
+      "type": {
+        "value": "humanoid",
+        "subtype": "humain",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 3
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "commun, thalassien, quelques mots d'orc",
+        "communication": {}
+      }
+    },
+    "source": {
+      "book": "La Kour Warcraft",
+      "page": "",
+      "custom": "",
+      "license": "CC-BY-4.0",
+      "rules": "2024",
+      "revision": 1
+    }
+  },
+  "items": [
+    {
+      "name": "Bon docteur",
+      "type": "feat",
+      "img": "icons/tools/medical/medkit-white-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>Tant qu'il n'a attaqué personne, Aldwin a l'avantage aux tests de Charisme (Tromperie) et (Persuasion), et percer son jeu par un test de Sagesse (Intuition) demande un DD de 15.</p>",
+          "chat": ""
+        },
+        "identifier": "bon-docteur",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "cM2HhfC1RvAibp0C",
+      "_key": "!actors.items!9pgWTVP7FvGOGb8e.cM2HhfC1RvAibp0C"
+    },
+    {
+      "name": "Incantation",
+      "type": "feat",
+      "img": "icons/sundries/books/book-symbol-skull-grey.webp",
+      "system": {
+        "description": {
+          "value": "<p>Aldwin lance ses sorts avec l'Intelligence (DD 13). À volonté : <em>contact glacial</em>, <em>main de mage</em>. 1/jour chacun : <em>simulacre de vie</em>, <em>immobilisation de personne</em>, <em>animation des morts</em>.</p>",
+          "chat": ""
+        },
+        "identifier": "incantation",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 200,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "SpBQW2VnulY2APfi",
+      "_key": "!actors.items!9pgWTVP7FvGOGb8e.SpBQW2VnulY2APfi"
+    },
+    {
+      "name": "Scalpel",
+      "type": "weapon",
+      "img": "icons/tools/hand/knife-paring.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Attaque au corps à corps :</em> +3, allonge 1,5 m. <em>Touché :</em> 3 (1d4 + 1) dégâts perforants, plus 3 (1d6) dégâts de poison.</p>",
+          "chat": ""
+        },
+        "identifier": "scalpel",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "identified": true,
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": 1,
+              "formula": ""
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": 1.5,
+          "units": "m"
+        },
+        "activities": {
+          "RQfO2EgczMULb0Dm": {
+            "_id": "RQfO2EgczMULb0Dm",
+            "type": "attack",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "attack": {
+              "ability": "dex",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 4,
+                  "bonus": "1",
+                  "types": [
+                    "piercing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                },
+                {
+                  "number": 1,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "poison"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {
+        "lakour-warcraft": {
+          "toucher": 3
+        }
+      },
+      "sort": 300,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "bVyHBKkh4fMNgKZo",
+      "_key": "!actors.items!9pgWTVP7FvGOGb8e.bVyHBKkh4fMNgKZo"
+    },
+    {
+      "name": "Rayon de peste",
+      "type": "weapon",
+      "img": "icons/magic/unholy/projectile-smoke-tendril-green.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Attaque magique à distance :</em> +5, portée 36 m. <em>Touché :</em> 9 (2d8) dégâts nécrotiques.</p>",
+          "chat": ""
+        },
+        "identifier": "rayon-de-peste",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "identified": true,
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 8,
+            "bonus": "-3",
+            "types": [
+              "necrotic"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": 1,
+              "formula": ""
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": 36,
+          "long": null,
+          "reach": null,
+          "units": "m"
+        },
+        "activities": {
+          "y4y51CohC5XgihBD": {
+            "_id": "y4y51CohC5XgihBD",
+            "type": "attack",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "attack": {
+              "ability": "int",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "spell"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "necrotic"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {
+        "lakour-warcraft": {
+          "toucher": 5
+        }
+      },
+      "sort": 400,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "pmFC3v5LHPc5hb7w",
+      "_key": "!actors.items!9pgWTVP7FvGOGb8e.pmFC3v5LHPc5hb7w"
+    },
+    {
+      "name": "Fiole de mouches (recharge 5–6)",
+      "type": "feat",
+      "img": "icons/skills/wounds/illness-disease-glowing-green.webp",
+      "system": {
+        "description": {
+          "value": "<p>Aldwin brise une fiole sur un point qu'il voit à 18 m ou moins : une nuée de mouches grises en jaillit.</p><p><em>Jet de sauvegarde de Constitution :</em> DD 13, chaque créature dans une sphère de 3 m. <em>Échec :</em> 10 (3d6) dégâts de poison. La créature est empoisonnée jusqu'à la fin de son prochain tour. <em>Réussite :</em> moitié des dégâts.</p>",
+          "chat": ""
+        },
+        "identifier": "fiole-de-mouches",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "2SxVmh3G6fQ4pcFF": {
+            "_id": "2SxVmh3G6fQ4pcFF",
+            "type": "save",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "sphere",
+                "size": "3",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "poison"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            },
+            "save": {
+              "ability": [
+                "con"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "13"
+              }
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 500,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "kRue0M1pOgH4J6DY",
+      "_key": "!actors.items!9pgWTVP7FvGOGb8e.kRue0M1pOgH4J6DY"
+    },
+    {
+      "name": "Chair servile (2/jour)",
+      "type": "feat",
+      "img": "icons/magic/control/control-influence-puppet.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Réaction.</em> Quand Aldwin subit des dégâts alors qu'un mort-vivant qui lui obéit se trouve à 1,5 m ou moins de lui, ce mort-vivant les subit à sa place.</p>",
+          "chat": ""
+        },
+        "identifier": "chair-servile",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "2",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "day",
+              "type": "recoverAll",
+              "formula": ""
+            }
+          ]
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "BeYhlMuxRExJBD6k": {
+            "_id": "BeYhlMuxRExJBD6k",
+            "type": "utility",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "reaction",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 600,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "yclq7NEEfRFaaAuw",
+      "_key": "!actors.items!9pgWTVP7FvGOGb8e.yclq7NEEfRFaaAuw"
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Aldwin Crayeval, le bon docteur",
+    "actorLink": false,
+    "disposition": 0,
+    "displayName": 20,
+    "displayBars": 20,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/lakour-warcraft/assets/jetons/aldwin-crayeval.svg",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#2d5fc4",
+        "background": "#0c1c3e"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "aldwin-crayeval",
+      "role": "chef",
+      "mj": "Nécromancien du Culte des Damnés. À Lordaeron, sous le nom de maître Varn, il vendait aux villages du grain qui portait la peste. Il a suivi les réfugiés en Kalimdor sur ordre du Cercle, se fait passer pour un médecin de Theramore et soigne gratuitement la fièvre des marais pour qu'on lui ouvre toutes les portes. Il paie ses chambres aux Deux Lanternes en farine de peste, a rouvert le boyau des contrebandiers pour y installer son laboratoire, et veut relever le cimetière des Rescapés à l'heure morte. Il n'aime pas se battre : il garde un mort-vivant près de lui, frappe de loin et fuit en barque à 15 PV. Capturé, il marchande sa vie contre les noms des autres « frères ».",
+      "armure": "manteau de cuir huilé"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

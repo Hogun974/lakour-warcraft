@@ -1,6 +1,6 @@
 # lakour-warcraft — La Kour Warcraft
 
-Azeroth pour **D&D 5e** (règles 2024) : module `lakour-warcraft` (peuples, historiques, objets, bestiaire, guides, aventure et campagne avec cartes jouables). Module de fan, textes originaux, usage privé.
+Azeroth pour **D&D 5e** (règles 2024) : module `lakour-warcraft` (peuples, historiques, objets, bestiaire, guides, aventure, campagne et one-shot avec cartes jouables). Module de fan, textes originaux, usage privé.
 
 Le moteur commun (module MJ IA, validateur Foundry, aides des jetons, contrat des modules de contenu) est le dépôt
 `lakour-mj-ia`, monté ici en **sous-module** à `modules/lakour-mj-ia`. Historique antérieur : archive

@@ -1,0 +1,760 @@
+{
+  "_id": "xpXJZqrmt0As4avD",
+  "_key": "!actors!xpXJZqrmt0As4avD",
+  "name": "Hilde Brunval, hôtesse des Deux Lanternes",
+  "type": "npc",
+  "img": "modules/lakour-warcraft/assets/jetons/hilde-brunval.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 14,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 12,
+        "proficient": 0
+      },
+      "con": {
+        "value": 13,
+        "proficient": 0
+      },
+      "int": {
+        "value": 11,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 14,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 13,
+        "proficient": 0
+      }
+    },
+    "skills": {
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 13,
+        "calc": "natural"
+      },
+      "hp": {
+        "value": 33,
+        "max": 33,
+        "temp": null,
+        "tempmax": null,
+        "formula": "6d8 + 6"
+      },
+      "movement": {
+        "units": "m",
+        "hover": false,
+        "ignoredDifficultTerrain": [],
+        "walk": "9"
+      },
+      "senses": {
+        "ranges": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null
+        },
+        "units": "m",
+        "special": ""
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Une femme solide aux cheveux gris coupés court, un tablier par-dessus un vieux pourpoint de la milice de Lordaeron. Elle parle peu, compte vite et ne lève jamais la voix deux fois.</p><h3>Note du MJ</h3><p>Ancienne sergente de la milice de Lordaeron, gardienne d'un camp d'internement après la Deuxième Guerre. Une nuit, elle a ouvert la porte à un prisonnier au lieu de donner l'alerte : Durgan. Réfugiée en Kalimdor avec les rescapés, elle a perdu son mari Joren au premier hiver, enterré sur l'îlot des Rescapés. Elle croit que le docteur Crayeval est un saint. Elle reste au relais pour garder Fenna et les voyageurs ; si Joren se relève à l'acte 3 devant elle, elle ne peut pas le frapper.</p>",
+        "public": "<p>Une femme solide aux cheveux gris coupés court, un tablier par-dessus un vieux pourpoint de la milice de Lordaeron. Elle parle peu, compte vite et ne lève jamais la voix deux fois.</p>"
+      },
+      "alignment": "Neutre bon",
+      "type": {
+        "value": "humanoid",
+        "subtype": "humain",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 1
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "commun, orc",
+        "communication": {}
+      }
+    },
+    "source": {
+      "book": "La Kour Warcraft",
+      "page": "",
+      "custom": "",
+      "license": "CC-BY-4.0",
+      "rules": "2024",
+      "revision": 1
+    }
+  },
+  "items": [
+    {
+      "name": "Maîtresse de maison",
+      "type": "feat",
+      "img": "icons/sundries/lights/lantern-iron-lit-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>Dans le relais des Deux Lanternes, Hilde a l'avantage aux tests de Sagesse (Perception) et (Intuition) : elle connaît chaque latte qui grince et chaque client qui ment.</p>",
+          "chat": ""
+        },
+        "identifier": "maitresse-de-maison",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "stHT1DQPMoa8xcqi",
+      "_key": "!actors.items!xpXJZqrmt0As4avD.stHT1DQPMoa8xcqi"
+    },
+    {
+      "name": "Hachoir",
+      "type": "weapon",
+      "img": "icons/tools/cooking/knife-cleaver-steel-grey.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Attaque au corps à corps :</em> +4, allonge 1,5 m. <em>Touché :</em> 5 (1d6 + 2) dégâts tranchants.</p>",
+          "chat": ""
+        },
+        "identifier": "hachoir",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "identified": true,
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "bonus": "",
+            "types": [
+              "slashing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": 1,
+              "formula": ""
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": 1.5,
+          "units": "m"
+        },
+        "activities": {
+          "VofH1YvuWnStpJoY": {
+            "_id": "VofH1YvuWnStpJoY",
+            "type": "attack",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 6,
+                  "bonus": "2",
+                  "types": [
+                    "slashing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {
+        "lakour-warcraft": {
+          "toucher": 4
+        }
+      },
+      "sort": 200,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "sSHJBBAaMaU5erH4",
+      "_key": "!actors.items!xpXJZqrmt0As4avD.sSHJBBAaMaU5erH4"
+    },
+    {
+      "name": "Arbalète légère",
+      "type": "weapon",
+      "img": "icons/weapons/crossbows/crossbow-simple-brown.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Attaque à distance :</em> +3, portée 24/96 m. <em>Touché :</em> 5 (1d8 + 1) dégâts perforants.</p>",
+          "chat": ""
+        },
+        "identifier": "arbalete-legere",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "simpleR",
+          "baseItem": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "identified": true,
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": 1,
+              "formula": ""
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": 24,
+          "long": 96,
+          "reach": null,
+          "units": "m"
+        },
+        "activities": {
+          "7mYN3uAKGZdfaBy2": {
+            "_id": "7mYN3uAKGZdfaBy2",
+            "type": "attack",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "attack": {
+              "ability": "dex",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 8,
+                  "bonus": "1",
+                  "types": [
+                    "piercing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {
+        "lakour-warcraft": {
+          "toucher": 3
+        }
+      },
+      "sort": 300,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "8D4bHrWG4FeUAi2K",
+      "_key": "!actors.items!xpXJZqrmt0As4avD.8D4bHrWG4FeUAi2K"
+    },
+    {
+      "name": "Voix de sergente (1/jour)",
+      "type": "feat",
+      "img": "icons/magic/sonic/explosion-shock-sound-wave.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Action bonus.</em> Hilde aboie un ordre comme au temps de la milice : chaque allié à 9 m ou moins qui l'entend peut utiliser sa réaction pour se déplacer de la moitié de sa vitesse sans provoquer d'attaque d'opportunité.</p>",
+          "chat": ""
+        },
+        "identifier": "voix-de-sergente",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "day",
+              "type": "recoverAll",
+              "formula": ""
+            }
+          ]
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "DHhBHMLnlqWg2DX5": {
+            "_id": "DHhBHMLnlqWg2DX5",
+            "type": "utility",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "bonus",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 400,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "zn0AhKpuaNHMLlAe",
+      "_key": "!actors.items!xpXJZqrmt0As4avD.zn0AhKpuaNHMLlAe"
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Hilde Brunval, hôtesse des Deux Lanternes",
+    "actorLink": false,
+    "disposition": 1,
+    "displayName": 20,
+    "displayBars": 20,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/lakour-warcraft/assets/jetons/hilde-brunval.svg",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#2d5fc4",
+        "background": "#0c1c3e"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "hilde-brunval",
+      "role": "elite",
+      "mj": "Ancienne sergente de la milice de Lordaeron, gardienne d'un camp d'internement après la Deuxième Guerre. Une nuit, elle a ouvert la porte à un prisonnier au lieu de donner l'alerte : Durgan. Réfugiée en Kalimdor avec les rescapés, elle a perdu son mari Joren au premier hiver, enterré sur l'îlot des Rescapés. Elle croit que le docteur Crayeval est un saint. Elle reste au relais pour garder Fenna et les voyageurs ; si Joren se relève à l'acte 3 devant elle, elle ne peut pas le frapper.",
+      "armure": "cuir clouté sous le tablier"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -20,6 +20,7 @@ import { fabriquer, TYPE_PACK } from "../outils/fabriquer-warcraft.mjs";
 import { paquetsAventures, VERSION_CONTENU } from "../modules/lakour-warcraft/contenu/aventures-paquets.mjs";
 import { AVENTURE_DOCUMENTS } from "../modules/lakour-warcraft/contenu/aventure.mjs";
 import { CAMPAGNE_DOCUMENTS } from "../modules/lakour-warcraft/contenu/campagne.mjs";
+import { ONE_SHOT_DOCUMENTS } from "../modules/lakour-warcraft/contenu/one-shot.mjs";
 import { CARTES_LIEUX } from "../modules/lakour-warcraft/contenu/lieux-cartes.mjs";
 
 const M = "lakour-warcraft";
@@ -51,7 +52,8 @@ function attendu(definitions) {
   }
   return cles;
 }
-const ATTENDU = { "aventures:puits-de-cendre": attendu(AVENTURE_DOCUMENTS), "aventures:braises-de-la-legion": attendu(CAMPAGNE_DOCUMENTS) };
+const ATTENDU = { "aventures:puits-de-cendre": attendu(AVENTURE_DOCUMENTS), "aventures:braises-de-la-legion": attendu(CAMPAGNE_DOCUMENTS),
+  "aventures:nuit-aux-deux-lanternes": attendu(ONE_SHOT_DOCUMENTS) };
 
 // Tous les « _id » d'un document, à toute profondeur (pages, épingles, zones, comportements, objets d'acteur…).
 function identifiants(v, acc = new Set()) {
@@ -65,7 +67,7 @@ const contientCle = v => (Array.isArray(v) ? v.some(contientCle) : v && typeof v
 
 function verifier({ aventures, manifeste }) {
   const erreurs = [];
-  if (aventures.length !== 2) erreurs.push(`${aventures.length} aventures au lieu de 2`);
+  if (aventures.length !== 3) erreurs.push(`${aventures.length} aventures au lieu de 3`);
 
   for (const { pack, cle, doc: a } of aventures) {
     const ou = `« ${a.name} »`;
@@ -160,17 +162,20 @@ function verifier({ aventures, manifeste }) {
 
 // ---------------------------------------------------------------- Essais
 
-test("aventures : les deux paquets et le manifeste passent le vérificateur", () => {
+test("aventures : les trois paquets et le manifeste passent le vérificateur", () => {
   assert.deepEqual(verifier({ aventures, manifeste }), []);
 });
 
 test("aventures : contenu attendu de chaque paquet", () => {
-  const [puits, braises] = aventures.map(a => a.doc);
+  const [puits, braises, nuit] = aventures.map(a => a.doc);
   assert.equal(puits.name, "Les Puits de cendre");
   assert.equal(braises.name, "Les Braises de la Légion");
+  assert.equal(nuit.name, "Une nuit aux Deux Lanternes");
+  assert.deepEqual([nuit.scenes.length, nuit.journal.length], [3, 3], "one-shot : 3 cartes, journal du MJ et deux aides de jeu");
+  assert.ok(nuit.tables.some(t => t.flags[M].cle === "bruits-de-la-nuit"), "one-shot : sa table propre");
   assert.deepEqual([puits.scenes.length, puits.journal.length], [4, 2], "4 cartes, journal du MJ et aide de jeu");
   assert.deepEqual([braises.scenes.length, braises.journal.length], [4, 3], "4 cartes, journal du MJ et deux aides de jeu");
-  for (const a of [puits, braises]) {
+  for (const a of [puits, braises, nuit]) {
     assert.ok(a.actors.length >= 10, `${a.name} : PNJ et créatures`);
     assert.ok(a.tables.length >= 1, `${a.name} : tables citées`);
     assert.ok(!a.scenes.some(s => s.flags[M].cle.startsWith("lieu-")), `${a.name} : pas de lieu générique`);

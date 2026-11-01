@@ -1,4 +1,4 @@
-// Icônes peintes des capacités des PNJ d'aventure et de campagne (contenu/aventure.mjs, contenu/campagne.mjs) :
+// Icônes peintes des capacités des PNJ d'aventure, de campagne et du one-shot (contenu/aventure.mjs, campagne.mjs, one-shot.mjs) :
 // clé du PNJ -> nom de la capacité (sans suffixe de recharge ni d'usages) -> icône du cœur de Foundry 14. Lues par pnj()
 // (contenu/acteurs.mjs) quand la capacité ne donne pas son propre img ; une capacité absente du PNJ y lève une erreur.
 // Chaque icône est différente des autres et de celles du bestiaire (essais/warcraft-icones-pnj.test.mjs) ; icone()
@@ -125,6 +125,33 @@ const TABLE = {
     "Griffes": "creatures/claws/claw-hooked-curved",
     "Trait de feu": "magic/fire/projectile-fireball-orange",
     "Invisibilité": "magic/perception/silhouette-stealth-shadow"
+  },
+  // ---------- One-shot : une nuit aux Deux Lanternes
+  "hilde-brunval": {
+    "Maîtresse de maison": "sundries/lights/lantern-iron-lit-yellow",
+    "Hachoir": "tools/cooking/knife-cleaver-steel-grey",
+    "Arbalète légère": "weapons/crossbows/crossbow-simple-brown",
+    "Voix de sergente": "magic/sonic/explosion-shock-sound-wave"
+  },
+  "durgan-brise-fers": {
+    "Plus jamais de chaînes": "magic/control/debuff-chains-shackle-movement-red",
+    "Attaques multiples": "magic/control/buff-strength-muscle-damage",
+    "Hache de bûcheron": "weapons/axes/axe-broad-worn",
+    "Chaîne brisée": "commodities/metal/chain-steel"
+  },
+  "vesper-lacombe": {
+    "Volonté des Réprouvés": "magic/death/hand-withered-gray",
+    "Rancune": "magic/death/skull-humanoid-white-red",
+    "Couteau de boulangère": "tools/cooking/knife-chef-steel-brown",
+    "Arbalète de poing": "weapons/crossbows/crossbow-simple-black"
+  },
+  "aldwin-crayeval": {
+    "Bon docteur": "tools/medical/medkit-white-red",
+    "Incantation": "sundries/books/book-symbol-skull-grey",
+    "Scalpel": "tools/hand/knife-paring",
+    "Rayon de peste": "magic/unholy/projectile-smoke-tendril-green",
+    "Fiole de mouches": "skills/wounds/illness-disease-glowing-green",
+    "Chair servile": "magic/control/control-influence-puppet"
   }
 };
 

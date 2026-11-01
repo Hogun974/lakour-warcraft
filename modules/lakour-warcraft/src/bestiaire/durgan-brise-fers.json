@@ -1,0 +1,736 @@
+{
+  "_id": "MlpeJBkfpAHEFRZI",
+  "_key": "!actors!MlpeJBkfpAHEFRZI",
+  "name": "Durgan Brise-Fers, hôte des Deux Lanternes",
+  "type": "npc",
+  "img": "modules/lakour-warcraft/assets/jetons/durgan-brise-fers.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 17,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 11,
+        "proficient": 0
+      },
+      "con": {
+        "value": 16,
+        "proficient": 0
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 12,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 9,
+        "proficient": 0
+      }
+    },
+    "skills": {
+      "ath": {
+        "value": 1,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 14,
+        "calc": "natural"
+      },
+      "hp": {
+        "value": 45,
+        "max": 45,
+        "temp": null,
+        "tempmax": null,
+        "formula": "6d8 + 18"
+      },
+      "movement": {
+        "units": "m",
+        "hover": false,
+        "ignoredDifficultTerrain": [],
+        "walk": "9"
+      },
+      "senses": {
+        "ranges": {
+          "darkvision": 18,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null
+        },
+        "units": "m",
+        "special": ""
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Un orc massif à la peau vert-gris, des cicatrices de fers aux deux poignets. Il porte autour de la taille, en guise de ceinture, la chaîne qu'on lui a ôtée. Il cuisine bien et parle encore mieux aux chevaux qu'aux gens.</p><h3>Note du MJ</h3><p>Ancien prisonnier du camp que gardait Hilde ; elle l'a laissé partir, il ne l'a jamais oublié. Ils ont rebâti ensemble l'entrepôt de l'ancien camp de réfugiés pour en faire le relais. Il a muré lui-même le boyau des contrebandiers sous la cave il y a deux ans, et prend sa réouverture comme une insulte personnelle. Il descend avec le groupe à l'acte 2 et le suit jusqu'à l'îlot. Il méprise les cultistes de tout poil : la Horde a déjà payé pour avoir écouté des démons.</p>",
+        "public": "<p>Un orc massif à la peau vert-gris, des cicatrices de fers aux deux poignets. Il porte autour de la taille, en guise de ceinture, la chaîne qu'on lui a ôtée. Il cuisine bien et parle encore mieux aux chevaux qu'aux gens.</p>"
+      },
+      "alignment": "Neutre bon",
+      "type": {
+        "value": "humanoid",
+        "subtype": "orc",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 2
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "orc, commun",
+        "communication": {}
+      }
+    },
+    "source": {
+      "book": "La Kour Warcraft",
+      "page": "",
+      "custom": "",
+      "license": "CC-BY-4.0",
+      "rules": "2024",
+      "revision": 1
+    }
+  },
+  "items": [
+    {
+      "name": "Plus jamais de chaînes",
+      "type": "feat",
+      "img": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>Durgan a l'avantage aux jets de sauvegarde contre les états agrippé, entravé et paralysé, et aux tests pour échapper à une prise.</p>",
+          "chat": ""
+        },
+        "identifier": "plus-jamais-de-chaines",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "0pIa16ALgjetFWR6",
+      "_key": "!actors.items!MlpeJBkfpAHEFRZI.0pIa16ALgjetFWR6"
+    },
+    {
+      "name": "Attaques multiples",
+      "type": "feat",
+      "img": "icons/magic/control/buff-strength-muscle-damage.webp",
+      "system": {
+        "description": {
+          "value": "<p>Durgan fait deux attaques : une de Hache de bûcheron et une de Chaîne brisée.</p>",
+          "chat": ""
+        },
+        "identifier": "attaques-multiples",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "xfBF3jLiyD4qiWfR": {
+            "_id": "xfBF3jLiyD4qiWfR",
+            "type": "utility",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 200,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "XrKYzq3F6F4YnQ6k",
+      "_key": "!actors.items!MlpeJBkfpAHEFRZI.XrKYzq3F6F4YnQ6k"
+    },
+    {
+      "name": "Hache de bûcheron",
+      "type": "weapon",
+      "img": "icons/weapons/axes/axe-broad-worn.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 9 (1d12 + 3) dégâts tranchants.</p>",
+          "chat": ""
+        },
+        "identifier": "hache-de-bucheron",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "identified": true,
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 12,
+            "bonus": "",
+            "types": [
+              "slashing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": 1,
+              "formula": ""
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": 1.5,
+          "units": "m"
+        },
+        "activities": {
+          "C6AOr4nnoGGQoGBl": {
+            "_id": "C6AOr4nnoGGQoGBl",
+            "type": "attack",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 12,
+                  "bonus": "3",
+                  "types": [
+                    "slashing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {
+        "lakour-warcraft": {
+          "toucher": 5
+        }
+      },
+      "sort": 300,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "UFQdhNQlvHis5mkK",
+      "_key": "!actors.items!MlpeJBkfpAHEFRZI.UFQdhNQlvHis5mkK"
+    },
+    {
+      "name": "Chaîne brisée",
+      "type": "weapon",
+      "img": "icons/commodities/metal/chain-steel.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 3 m. <em>Touché :</em> 6 (1d6 + 3) dégâts contondants. Si la cible est de taille M ou inférieure, elle est agrippée (évasion DD 13).</p>",
+          "chat": ""
+        },
+        "identifier": "chaine-brisee",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "identified": true,
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": 1,
+              "formula": ""
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": 3,
+          "units": "m"
+        },
+        "activities": {
+          "l2uH6rrfZruDVGAz": {
+            "_id": "l2uH6rrfZruDVGAz",
+            "type": "attack",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 6,
+                  "bonus": "3",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {
+        "lakour-warcraft": {
+          "toucher": 5
+        }
+      },
+      "sort": 400,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "fw4KFZLGGhQFgg7m",
+      "_key": "!actors.items!MlpeJBkfpAHEFRZI.fw4KFZLGGhQFgg7m"
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Durgan Brise-Fers, hôte des Deux Lanternes",
+    "actorLink": false,
+    "disposition": 1,
+    "displayName": 20,
+    "displayBars": 20,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/lakour-warcraft/assets/jetons/durgan-brise-fers.svg",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#b3261e",
+        "background": "#350b08"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "durgan-brise-fers",
+      "role": "elite",
+      "mj": "Ancien prisonnier du camp que gardait Hilde ; elle l'a laissé partir, il ne l'a jamais oublié. Ils ont rebâti ensemble l'entrepôt de l'ancien camp de réfugiés pour en faire le relais. Il a muré lui-même le boyau des contrebandiers sous la cave il y a deux ans, et prend sa réouverture comme une insulte personnelle. Il descend avec le groupe à l'acte 2 et le suit jusqu'à l'îlot. Il méprise les cultistes de tout poil : la Horde a déjà payé pour avoir écouté des démons.",
+      "armure": "tablier de cuir épais"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

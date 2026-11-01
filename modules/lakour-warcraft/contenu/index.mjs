@@ -5,6 +5,7 @@ import { GUIDES, TABLES } from "./guides.mjs";
 import { BESTIAIRE } from "./bestiaire.mjs";
 import { AVENTURE_DOCUMENTS } from "./aventure.mjs";
 import { CAMPAGNE_DOCUMENTS } from "./campagne.mjs";
+import { ONE_SHOT_DOCUMENTS } from "./one-shot.mjs";
 import { ARSENAL } from "./arsenal.mjs";
 import { DONS } from "./dons.mjs";
 import { AFFLICTIONS } from "./afflictions.mjs";
@@ -20,5 +21,6 @@ export const DOCUMENTS = [
   ...GUIDES, ...TABLES, ...LISTES_SORTS,
   ...BESTIAIRE,
   ...AVENTURE_DOCUMENTS,
-  ...CAMPAGNE_DOCUMENTS
+  ...CAMPAGNE_DOCUMENTS,
+  ...ONE_SHOT_DOCUMENTS
 ];

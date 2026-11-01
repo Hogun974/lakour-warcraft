@@ -66,6 +66,7 @@ pour les jetons de personnage joueur, fond en dégradé, ombre, liseré, version
 | [woman-elf-face](https://game-icons.net/1x1/delapouite/woman-elf-face.html) | Delapouite | Peuple — Elfe de la nuit |
 | [elf-helmet](https://game-icons.net/1x1/kier-heyl/elf-helmet.html) | Kier Heyl | Peuple — Elfe de sang |
 | [anchor](https://game-icons.net/1x1/lorc/anchor.html) | Lorc | Figurant — Marin |
+| [beer-stein](https://game-icons.net/1x1/lorc/beer-stein.html) | Lorc | Durgan Brise-Fers, hôte des Deux Lanternes |
 | [boar-tusks](https://game-icons.net/1x1/lorc/boar-tusks.html) | Lorc | Guerrier huran |
 | [burning-meteor](https://game-icons.net/1x1/lorc/burning-meteor.html) | Lorc | Infernal de Brasegouffre |
 | [candle-light](https://game-icons.net/1x1/lorc/candle-light.html) | Lorc | Kobold mineur |
@@ -81,9 +82,11 @@ pour les jetons de personnage joueur, fond en dégradé, ombre, liseré, version
 | [hound](https://game-icons.net/1x1/lorc/hound.html) | Lorc | Chien corrompu |
 | [imp](https://game-icons.net/1x1/lorc/imp.html) | Lorc | Diablotin de la Légion |
 | [imp-laugh](https://game-icons.net/1x1/lorc/imp-laugh.html) | Lorc | Ezzavel le Rieur, satyre |
+| [lantern-flame](https://game-icons.net/1x1/lorc/lantern-flame.html) | Lorc | Hilde Brunval, hôtesse des Deux Lanternes |
 | [lion](https://game-icons.net/1x1/lorc/lion.html) | Lorc | Peuple — Humain |
 | [minotaur](https://game-icons.net/1x1/lorc/minotaur.html) | Lorc | Hanuk Pas-de-Pluie, guide caravanier |
 | [quill-ink](https://game-icons.net/1x1/lorc/quill-ink.html) | Lorc | Iselle Marchebrume, scribe du sommet |
+| [raven](https://game-icons.net/1x1/lorc/raven.html) | Lorc | Vesper Lacombe, réprouvée de Brumefeuille |
 | [sea-serpent](https://game-icons.net/1x1/lorc/sea-serpent.html) | Lorc | Sss'thera, sirène des abysses |
 | [swap-bag](https://game-icons.net/1x1/lorc/swap-bag.html) | Lorc | Marchand |
 | [totem-mask](https://game-icons.net/1x1/lorc/totem-mask.html) | Lorc | Grommel Défense-Grise, géomancien huran |
@@ -93,5 +96,6 @@ pour les jetons de personnage joueur, fond en dégradé, ombre, liseré, version
 | [wolf-head](https://game-icons.net/1x1/lorc/wolf-head.html) | Lorc | Loup des bois |
 | [wyvern](https://game-icons.net/1x1/lorc/wyvern.html) | Lorc | Dragonnet noir |
 | [goat](https://game-icons.net/1x1/skoll/goat.html) | Skoll | Satyre |
+| [pestle-mortar](https://game-icons.net/1x1/skoll/pestle-mortar.html) | Skoll | Aldwin Crayeval, le bon docteur |
 | [skeleton](https://game-icons.net/1x1/skoll/skeleton.html) | Skoll | Squelette du Fléau |
 | [troll](https://game-icons.net/1x1/skoll/troll.html) | Skoll | Troll Fanécorce |

@@ -2,7 +2,7 @@
 // importable par l'outil natif de Foundry ou proposée à la création d'un monde (quickstart du manifeste).
 // Une Adventure embarque des COPIES des documents des autres compendiums, avec les mêmes identifiants : l'import de
 // Foundry garde les identifiants (keepId), donc les épingles des scènes (entryId, pageId) visent les journaux importés.
-// Contenu d'une aventure : ses propres documents (PNJ, journaux, cartes ; pas les lieux génériques « lieu-… ») et les
+// Contenu d'une aventure : ses propres documents (PNJ, tables, journaux, cartes ; pas les lieux génériques « lieu-… ») et les
 // acteurs, objets et tables que ses journaux citent par @UUID. Dans les copies, un lien vers un document embarqué
 // devient un lien vers le document du monde (« Actor.<id> ») ; les autres liens restent vers le compendium du module.
 // Forme stockée : un seul enregistrement « !adventures!<id> » avec les documents embarqués en entier (la CLI de Foundry
@@ -12,9 +12,11 @@ import { readFileSync } from "node:fs";
 import { MODULE, STATS, identifiant } from "./aides.mjs";
 import { AVENTURE_DOCUMENTS } from "./aventure.mjs";
 import { CAMPAGNE_DOCUMENTS } from "./campagne.mjs";
+import { ONE_SHOT_DOCUMENTS } from "./one-shot.mjs";
 import { CARTES_LIEUX } from "./lieux-cartes.mjs";
 import { TITRE_AVENTURE } from "./aventure-cartes.mjs";
 import { TITRE_CAMPAGNE } from "./campagne-cartes.mjs";
+import { TITRE_ONE_SHOT } from "./one-shot-cartes.mjs";
 
 // Version du contenu de l'installateur (scripts/main.js) : posée sur les journaux et scènes embarqués, pour que le bouton
 // « Installer » les reconnaisse à jour au lieu de remplacer leurs pages (et leurs liens vers le monde) par celles du compendium.
@@ -45,6 +47,13 @@ export const AVENTURES = [
     legende: "Campagne — niveaux 3 à 6, six à neuf séances. La suite des Puits de cendre, en quatre chapitres.",
     resume: "Quatre Braises de la Fournaise, quatre lieux des Tarides et de leur côte : la fonderie de Fort-Rivet, les ruines englouties d'Eldrassal, le sommet de Gué-de-Sel et le cratère de Brasegouffre, où la Lame ardente veut rouvrir un portail de la Légion. Horloge de 24 jours, deux aides de jeu.",
     cles: PNJ_ET_JOURNAUX(CAMPAGNE_DOCUMENTS)
+  },
+  {
+    cle: "nuit-aux-deux-lanternes", nom: TITRE_ONE_SHOT, sort: 300,
+    img: `modules/${MODULE}/assets/cartes/gue-brumeux-relais.svg`,
+    legende: "One-shot — niveau 3, une soirée de 3 à 4 heures. Une nuit d'orage dans un relais au bord du marécage d'Âprefange.",
+    resume: "L'orage bloque Alliance et Horde au relais des Deux Lanternes. Une recrue tombe malade, les morts sortent de la cave et tout accuse la réprouvée assise près du feu ; mais le bon docteur de Theramore a disparu, et sur l'îlot voisin, une cloche attend l'heure morte pour réveiller un cimetière de réfugiés. Trois cartes, deux aides de jeu, une table des bruits de la nuit.",
+    cles: PNJ_ET_JOURNAUX(ONE_SHOT_DOCUMENTS)
   }
 ];
 

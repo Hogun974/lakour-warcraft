@@ -171,8 +171,9 @@ test("le guide du joueur est visible, le guide du MJ caché", () => {
 test("les tables couvrent toute leur formule, sans trou ni chevauchement, et leurs documents existent", () => {
   const uuids = new Set(docs.map(({ pack, doc }) => uuidDe(pack, doc)));
   const tables = tous.filter(d => d.__pack === "tables");
-  assert.deepEqual(tables.map(t => t.flags["lakour-warcraft"].cle).sort(), ["complications", "noms-par-peuple", "rencontres-sur-la-route",
-    "rumeurs-de-taverne", "temps-et-chemins", "trouvailles", "visages-d-azeroth"]);
+  // Sept tables génériques, plus la table propre au one-shot « Une nuit aux Deux Lanternes ».
+  assert.deepEqual(tables.map(t => t.flags["lakour-warcraft"].cle).sort(), ["bruits-de-la-nuit", "complications", "noms-par-peuple",
+    "rencontres-sur-la-route", "rumeurs-de-taverne", "temps-et-chemins", "trouvailles", "visages-d-azeroth"]);
   for (const t of tables) {
     const max = Number(/^1d(\d+)$/.exec(t.formula)?.[1]);
     let attendu = 1;

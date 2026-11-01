@@ -1,4 +1,5 @@
-// Essais des cartes vivantes de lakour-warcraft (aventure « Les Puits de cendre », campagne « Les Braises de la Légion ») :
+// Essais des cartes vivantes de lakour-warcraft (aventure « Les Puits de cendre », campagne « Les Braises de la Légion »,
+// one-shot « Une nuit aux Deux Lanternes ») :
 // - chaque épingle vise une page existante du journal qu'elle nomme, et la page précise de sa carte (la page du MJ qui
 //   cite cette carte et aucune autre carte d'aventure) ou une aide de jeu visible ; elle est posée sur une pièce ;
 // - chaque zone du plan devient une région dans les bornes de la scène, avec un comportement complet ; chaque
@@ -12,13 +13,14 @@ import { fabriquer } from "../outils/fabriquer-warcraft.mjs";
 import { PAGES_JOURNAUX, epingle, pageJournal } from "../modules/lakour-warcraft/contenu/cles-journaux.mjs";
 import { CARTES, TITRE_AVENTURE } from "../modules/lakour-warcraft/contenu/aventure-cartes.mjs";
 import { CARTES_CAMPAGNE } from "../modules/lakour-warcraft/contenu/campagne-cartes.mjs";
+import { CARTES_ONE_SHOT } from "../modules/lakour-warcraft/contenu/one-shot-cartes.mjs";
 import { scene } from "../modules/lakour-warcraft/contenu/cartes.mjs";
 
 const M = "lakour-warcraft";
 const fabriques = fabriquer();
 const scenes = fabriques.filter(d => d.pack === "scenes").map(d => d.doc);
 const journaux = fabriques.filter(d => d.pack === "journaux").map(d => d.doc);
-const CLES_CARTES = [...CARTES, ...CARTES_CAMPAGNE].map(c => c.flags[M].cle);
+const CLES_CARTES = [...CARTES, ...CARTES_CAMPAGNE, ...CARTES_ONE_SHOT].map(c => c.flags[M].cle);
 const TYPES_REGION = ["displayScrollingText", "teleportToken", "pauseGame", "adjustDarknessLevel"];
 
 // ---------------------------------------------------------------- Vérificateur (aussi pour les mutations)
@@ -26,7 +28,7 @@ const TYPES_REGION = ["displayScrollingText", "teleportToken", "pauseGame", "adj
 function verifier({ scenes, journaux }) {
   const erreurs = [];
   const cartes = scenes.filter(s => CLES_CARTES.includes(s.flags?.[M]?.cle));
-  if (cartes.length !== CLES_CARTES.length) erreurs.push(`${cartes.length} cartes d'aventure et de campagne au lieu de ${CLES_CARTES.length}`);
+  if (cartes.length !== CLES_CARTES.length) erreurs.push(`${cartes.length} cartes d'aventure, de campagne et de one-shot au lieu de ${CLES_CARTES.length}`);
   const autres = cartes.map(s => s._id);
 
   for (const [cle, titres] of Object.entries(PAGES_JOURNAUX)) {
@@ -93,7 +95,8 @@ function verifier({ scenes, journaux }) {
 
 // ---------------------------------------------------------------- Essais
 
-test("cartes vivantes : les 8 cartes d'aventure et de campagne passent le vérificateur", () => {
+test("cartes vivantes : les 11 cartes d'aventure, de campagne et du one-shot passent le vérificateur", () => {
+  assert.equal(CLES_CARTES.length, 11);
   assert.deepEqual(verifier({ scenes, journaux }), []);
 });
 

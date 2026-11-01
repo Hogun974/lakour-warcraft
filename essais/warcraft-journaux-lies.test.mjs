@@ -16,6 +16,7 @@ import { liens, jet, jetSauvegarde, degats, soins, reference } from "../modules/
 import { BESTIAIRE } from "../modules/lakour-warcraft/contenu/bestiaire.mjs";
 import { PNJ_AVENTURE } from "../modules/lakour-warcraft/contenu/aventure.mjs";
 import { PNJ_CAMPAGNE } from "../modules/lakour-warcraft/contenu/campagne.mjs";
+import { PNJ_ONE_SHOT } from "../modules/lakour-warcraft/contenu/one-shot.mjs";
 
 const M = "lakour-warcraft";
 const fabriques = fabriquer();
@@ -165,14 +166,15 @@ test("journaux liés : chaque @UUID vise un document fabriqué, chaque jet suit 
 });
 
 test("journaux liés : le MJ a des liens et des jets partout (aventure, campagne, guides)", () => {
-  const minimum = { "aventure-puits-de-cendre": [50, 25], "campagne-braises-legion": [70, 45], "guide-du-mj": [12, 0], "guide-du-joueur": [13, 0] };
+  const minimum = { "aventure-puits-de-cendre": [50, 25], "campagne-braises-legion": [70, 45], "one-shot-deux-lanternes": [70, 30],
+    "guide-du-mj": [12, 0], "guide-du-joueur": [13, 0] };
   for (const [cle, [nLiens, nJets]] of Object.entries(minimum)) {
     const j = journal(cle);
     assert.ok(liensDe(j).length >= nLiens, `${j.name} : ${liensDe(j).length} liens au lieu d'au moins ${nLiens}`);
     assert.ok(jetsDe(j).length >= nJets, `${j.name} : ${jetsDe(j).length} jets au lieu d'au moins ${nJets}`);
   }
-  // Chaque page des journaux de l'aventure et de la campagne a au moins un lien.
-  for (const cle of ["aventure-puits-de-cendre", "campagne-braises-legion"]) {
+  // Chaque page des journaux de l'aventure, de la campagne et du one-shot a au moins un lien.
+  for (const cle of ["aventure-puits-de-cendre", "campagne-braises-legion", "one-shot-deux-lanternes"]) {
     for (const p of journal(cle).pages) assert.match(p.text.content, /@UUID\[/, `${cle} / ${p.name} : aucun lien`);
   }
 });
@@ -183,21 +185,23 @@ test("journaux liés : chaque PNJ nommé, carte et aide de jeu est lié depuis l
       "scenes:mine-rouge-veine", "journaux:contrat-du-cartel"],
     "campagne-braises-legion": [...PNJ_CAMPAGNE.map(d => d.__cle), "bestiaire:ezzavel", "bestiaire:grizzla-tordeboulon", "scenes:fonderie-fort-rivet",
       "scenes:ruines-eldrassal", "scenes:gue-de-sel-sommet", "scenes:cratere-brasegouffre", "journaux:lettre-lame-ardente",
-      "journaux:sauf-conduit-gue-de-sel", "journaux:aventure-puits-de-cendre"]
+      "journaux:sauf-conduit-gue-de-sel", "journaux:aventure-puits-de-cendre"],
+    "one-shot-deux-lanternes": [...PNJ_ONE_SHOT.map(d => d.__cle), "scenes:gue-brumeux-relais", "scenes:gue-brumeux-caves",
+      "scenes:cimetiere-des-rescapes", "journaux:relais-deux-lanternes", "journaux:carnet-crayeval", "tables:bruits-de-la-nuit"]
   };
   const parCle = new Map(fabriques.map(f => [f.cle, uuidDe(f.pack, f.doc)]));
   for (const [cle, cibles] of Object.entries(attendus)) {
     const lies = new Set(liensDe(journal(cle)).map(u => u.split(".JournalEntryPage.")[0]));
     for (const c of cibles) assert.ok(lies.has(parCle.get(c)), `${cle} : ${c} non lié`);
   }
-  // Le guide du joueur lie chaque peuple jouable, le guide du MJ chaque table.
+  // Le guide du joueur lie chaque peuple jouable, le guide du MJ chaque table générique (pas celles propres à une aventure).
   const lies = cle => new Set(liensDe(journal(cle)));
   for (const f of fabriques.filter(f => f.pack === "peuples" && f.doc.type === "race")) assert.ok(lies("guide-du-joueur").has(uuidDe("peuples", f.doc)), f.doc.name);
-  for (const f of fabriques.filter(f => f.pack === "tables")) assert.ok(lies("guide-du-mj").has(uuidDe("tables", f.doc)), f.doc.name);
+  for (const f of fabriques.filter(f => f.pack === "tables" && !f.doc.flags[M].aventure)) assert.ok(lies("guide-du-mj").has(uuidDe("tables", f.doc)), f.doc.name);
 });
 
-test("journaux liés : aucun test ni sauvegarde « DD n » laissé en clair dans l'aventure et la campagne", () => {
-  for (const cle of ["aventure-puits-de-cendre", "campagne-braises-legion"]) {
+test("journaux liés : aucun test ni sauvegarde « DD n » laissé en clair dans l'aventure, la campagne et le one-shot", () => {
+  for (const cle of ["aventure-puits-de-cendre", "campagne-braises-legion", "one-shot-deux-lanternes"]) {
     const enClair = decode(texte(journal(cle))).replace(ENRICHER, "").match(/.{0,30}\bDD \d+/g) ?? [];
     assert.deepEqual(enClair, [], `${cle} : jets non cliquables`);
   }
@@ -205,7 +209,7 @@ test("journaux liés : aucun test ni sauvegarde « DD n » laissé en clair dans
 
 test("journaux liés : les aides de jeu sont des pages texte séparées, montrées page par page depuis le journal du MJ", () => {
   const aides = journaux.filter(j => j.name.startsWith("Aide de jeu — "));
-  assert.equal(aides.length, 3);
+  assert.equal(aides.length, 5);   // contrat du Cartel, lettre et sauf-conduit de la campagne, relais et carnet du one-shot
   for (const a of aides) {
     assert.equal(a.ownership.default, 2, `${a.name} : visible`);
     for (const p of a.pages) assert.equal(p.type, "text", `${a.name} / ${p.name}`);

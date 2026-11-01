@@ -6965,5 +6965,2027 @@
     "pageId": "cZXvD6E1KUIYnxJ9"
    }
   ]
+ },
+ "gue-brumeux-relais": {
+  "largeur": 30,
+  "hauteur": 22,
+  "lumiere": "nuit",
+  "pieces": [
+   {
+    "nom": "Cour du relais",
+    "x": 0,
+    "y": 0,
+    "l": 30,
+    "h": 17,
+    "sol": "terre"
+   },
+   {
+    "nom": "Rivière en crue",
+    "x": 0,
+    "y": 17,
+    "l": 30,
+    "h": 5,
+    "sol": "eau"
+   },
+   {
+    "nom": "Salle commune",
+    "x": 2,
+    "y": 2,
+    "l": 12,
+    "h": 8,
+    "sol": "bois"
+   },
+   {
+    "nom": "Cuisine",
+    "x": 14,
+    "y": 2,
+    "l": 6,
+    "h": 5,
+    "sol": "pierre"
+   },
+   {
+    "nom": "Chambre du docteur",
+    "x": 20,
+    "y": 2,
+    "l": 4,
+    "h": 4,
+    "sol": "bois"
+   },
+   {
+    "nom": "Chambre des voyageurs",
+    "x": 24,
+    "y": 2,
+    "l": 4,
+    "h": 4,
+    "sol": "bois"
+   },
+   {
+    "nom": "Couloir des chambres",
+    "x": 20,
+    "y": 6,
+    "l": 8,
+    "h": 2,
+    "sol": "bois"
+   },
+   {
+    "nom": "Écurie",
+    "x": 22,
+    "y": 10,
+    "l": 6,
+    "h": 5,
+    "sol": "terre"
+   },
+   {
+    "nom": "Remise du passeur",
+    "x": 2,
+    "y": 12,
+    "l": 5,
+    "h": 3,
+    "sol": "bois"
+   }
+  ],
+  "ouvertures": [
+   {
+    "x": 7,
+    "y": 9,
+    "cote": "sud",
+    "type": "porte"
+   },
+   {
+    "x": 2,
+    "y": 5,
+    "cote": "ouest",
+    "type": "fenetre"
+   },
+   {
+    "x": 11,
+    "y": 9,
+    "cote": "sud",
+    "type": "fenetre"
+   },
+   {
+    "x": 5,
+    "y": 2,
+    "cote": "nord",
+    "type": "fenetre"
+   },
+   {
+    "x": 13,
+    "y": 4,
+    "cote": "est",
+    "type": "porte"
+   },
+   {
+    "x": 16,
+    "y": 2,
+    "cote": "nord",
+    "type": "porte"
+   },
+   {
+    "x": 19,
+    "y": 6,
+    "cote": "est",
+    "type": "porte"
+   },
+   {
+    "x": 21,
+    "y": 5,
+    "cote": "sud",
+    "type": "porte"
+   },
+   {
+    "x": 25,
+    "y": 5,
+    "cote": "sud",
+    "type": "porte"
+   },
+   {
+    "x": 22,
+    "y": 2,
+    "cote": "nord",
+    "type": "fenetre"
+   },
+   {
+    "x": 27,
+    "y": 3,
+    "cote": "est",
+    "type": "fenetre"
+   },
+   {
+    "x": 27,
+    "y": 7,
+    "cote": "est",
+    "type": "porte"
+   },
+   {
+    "x": 22,
+    "y": 11,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 22,
+    "y": 12,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 22,
+    "y": 13,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 4,
+    "y": 12,
+    "cote": "nord",
+    "type": "porte"
+   },
+   {
+    "x": 0,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 1,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 2,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 3,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 4,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 5,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 6,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 7,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 8,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 9,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 10,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 11,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 12,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 13,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 14,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 15,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 16,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 17,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 18,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 19,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 20,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 21,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 22,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 23,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 24,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 25,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 26,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 27,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 28,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 29,
+    "y": 17,
+    "cote": "nord",
+    "type": "passage"
+   }
+  ],
+  "lumieres": [
+   {
+    "x": 3,
+    "y": 3,
+    "rayon": 3,
+    "couleur": "#ff9a40"
+   },
+   {
+    "x": 8,
+    "y": 6,
+    "rayon": 4,
+    "couleur": "#ffcc88"
+   },
+   {
+    "x": 18,
+    "y": 3,
+    "rayon": 2,
+    "couleur": "#ff8a30"
+   },
+   {
+    "x": 22,
+    "y": 4,
+    "rayon": 1,
+    "couleur": "#ffddaa"
+   },
+   {
+    "x": 8,
+    "y": 10,
+    "rayon": 2,
+    "couleur": "#5577ff"
+   },
+   {
+    "x": 10,
+    "y": 10,
+    "rayon": 2,
+    "couleur": "#ff3a2a"
+   },
+   {
+    "x": 24,
+    "y": 12,
+    "rayon": 2,
+    "couleur": "#ffcc88"
+   }
+  ],
+  "elements": [
+   {
+    "nom": "Cheminée",
+    "x": 2,
+    "y": 2,
+    "l": 2,
+    "h": 1
+   },
+   {
+    "nom": "Comptoir",
+    "x": 9,
+    "y": 3,
+    "l": 4,
+    "h": 1
+   },
+   {
+    "nom": "Grande table",
+    "x": 4,
+    "y": 5,
+    "l": 4,
+    "h": 2
+   },
+   {
+    "nom": "Table du coin",
+    "x": 10,
+    "y": 7,
+    "l": 2,
+    "h": 1
+   },
+   {
+    "nom": "Râtelier d'armes",
+    "x": 13,
+    "y": 8,
+    "l": 1,
+    "h": 2
+   },
+   {
+    "nom": "Fourneau",
+    "x": 18,
+    "y": 2,
+    "l": 2,
+    "h": 1
+   },
+   {
+    "nom": "Billot",
+    "x": 17,
+    "y": 3,
+    "l": 1,
+    "h": 1
+   },
+   {
+    "nom": "Sacs de farine",
+    "x": 17,
+    "y": 5,
+    "l": 2,
+    "h": 1
+   },
+   {
+    "nom": "Trappe de la cave",
+    "x": 15,
+    "y": 5,
+    "l": 1,
+    "h": 1
+   },
+   {
+    "nom": "Lit du docteur",
+    "x": 20,
+    "y": 2,
+    "l": 1,
+    "h": 2
+   },
+   {
+    "nom": "Malle du docteur",
+    "x": 23,
+    "y": 4,
+    "l": 1,
+    "h": 1
+   },
+   {
+    "nom": "Lits superposés",
+    "x": 24,
+    "y": 2,
+    "l": 1,
+    "h": 3
+   },
+   {
+    "nom": "Coffre",
+    "x": 27,
+    "y": 4,
+    "l": 1,
+    "h": 1
+   },
+   {
+    "nom": "Stalles",
+    "x": 26,
+    "y": 10,
+    "l": 2,
+    "h": 4
+   },
+   {
+    "nom": "Mangeoire",
+    "x": 23,
+    "y": 14,
+    "l": 2,
+    "h": 1
+   },
+   {
+    "nom": "Filets et cordages",
+    "x": 2,
+    "y": 12,
+    "l": 2,
+    "h": 1
+   },
+   {
+    "nom": "Barque retournée",
+    "x": 4,
+    "y": 13,
+    "l": 2,
+    "h": 1
+   },
+   {
+    "nom": "Poteau des deux lanternes",
+    "x": 9,
+    "y": 10,
+    "l": 1,
+    "h": 1
+   },
+   {
+    "nom": "Chariot de Pip",
+    "x": 10,
+    "y": 12,
+    "l": 3,
+    "h": 2
+   },
+   {
+    "nom": "Puits",
+    "x": 17,
+    "y": 10,
+    "l": 2,
+    "h": 2
+   },
+   {
+    "nom": "Tas de bois",
+    "x": 0,
+    "y": 8,
+    "l": 1,
+    "h": 3
+   },
+   {
+    "nom": "Ponton du bac",
+    "x": 13,
+    "y": 15,
+    "l": 2,
+    "h": 2
+   },
+   {
+    "nom": "Saule",
+    "x": 28,
+    "y": 13,
+    "l": 2,
+    "h": 2
+   },
+   {
+    "nom": "Bac de Bram",
+    "x": 13,
+    "y": 18,
+    "l": 4,
+    "h": 2
+   },
+   {
+    "nom": "Roseaux",
+    "x": 24,
+    "y": 17,
+    "l": 4,
+    "h": 2
+   },
+   {
+    "nom": "Roseaux",
+    "x": 2,
+    "y": 19,
+    "l": 3,
+    "h": 2
+   }
+  ],
+  "sons": [
+   {
+    "nom": "Cheminée",
+    "x": 3,
+    "y": 3,
+    "rayon": 3,
+    "son": "feu",
+    "volume": 0.35
+   },
+   {
+    "nom": "Salle commune",
+    "x": 8,
+    "y": 6,
+    "rayon": 5,
+    "son": "foule",
+    "volume": 0.15
+   },
+   {
+    "nom": "Cour sous la pluie",
+    "x": 15,
+    "y": 12,
+    "rayon": 14,
+    "son": "pluie",
+    "volume": 0.35
+   },
+   {
+    "nom": "Orage sur la rivière",
+    "x": 15,
+    "y": 19,
+    "rayon": 12,
+    "son": "orage",
+    "volume": 0.25
+   }
+  ],
+  "zones": [
+   {
+    "nom": "Accueil de la salle commune",
+    "x": 2,
+    "y": 2,
+    "l": 12,
+    "h": 8,
+    "type": "texte",
+    "texte": "Laine mouillée, soupe de poisson, fumée de tourbe. Les conversations baissent d'un ton à chaque nouvel arrivant."
+   },
+   {
+    "nom": "Ponton du bac",
+    "x": 13,
+    "y": 15,
+    "l": 2,
+    "h": 2,
+    "type": "texte",
+    "texte": "La rivière gronde, grosse de pluie. Le bac tire sur sa corde comme un chien sur sa laisse."
+   },
+   {
+    "nom": "Chambre du docteur",
+    "x": 20,
+    "y": 2,
+    "l": 4,
+    "h": 4,
+    "type": "texte",
+    "texte": "Le lit n'est pas défait. Ça sent le vinaigre, et dessous, quelque chose de sucré qui a tourné."
+   },
+   {
+    "nom": "Trappe de la cave",
+    "x": 14,
+    "y": 4,
+    "l": 3,
+    "h": 3,
+    "type": "pause"
+   }
+  ],
+  "notes": [
+   {
+    "x": 11,
+    "y": 4,
+    "texte": "Hilde et Durgan, les hôtes",
+    "icone": "icons/svg/tankard.svg",
+    "entryId": "KvrjD375dkDDLtS9",
+    "pageId": "T9KGsRBRbD2COTgq"
+   },
+   {
+    "x": 7,
+    "y": 8,
+    "texte": "Le règlement des Deux Lanternes",
+    "icone": "icons/svg/hanging-sign.svg",
+    "entryId": "Ckcfe75G4dbgpFw1",
+    "pageId": "RfEbEiYF0A4Oq9sD"
+   },
+   {
+    "x": 12,
+    "y": 3,
+    "texte": "Le registre des voyageurs",
+    "icone": "icons/svg/book.svg",
+    "entryId": "Ckcfe75G4dbgpFw1",
+    "pageId": "U9huyMKBmDc8dNpN"
+   },
+   {
+    "x": 5,
+    "y": 7,
+    "texte": "Les voyageurs bloqués par l'orage",
+    "icone": "icons/svg/mystery-man.svg",
+    "entryId": "KvrjD375dkDDLtS9",
+    "pageId": "T9KGsRBRbD2COTgq"
+   },
+   {
+    "x": 22,
+    "y": 3,
+    "texte": "Chambre vide du docteur (indice)",
+    "icone": "icons/svg/door-open-outline.svg",
+    "entryId": "KvrjD375dkDDLtS9",
+    "pageId": "T9KGsRBRbD2COTgq"
+   },
+   {
+    "x": 15,
+    "y": 6,
+    "texte": "Minuit : la trappe de la cave",
+    "icone": "icons/svg/skull.svg",
+    "entryId": "KvrjD375dkDDLtS9",
+    "pageId": "T9KGsRBRbD2COTgq"
+   },
+   {
+    "x": 14,
+    "y": 16,
+    "texte": "Le bac, et Bram qui manque",
+    "icone": "icons/svg/anchor.svg",
+    "entryId": "KvrjD375dkDDLtS9",
+    "pageId": "T9KGsRBRbD2COTgq"
+   }
+  ]
+ },
+ "gue-brumeux-caves": {
+  "largeur": 28,
+  "hauteur": 20,
+  "lumiere": "nuit",
+  "pieces": [
+   {
+    "nom": "Cave du relais",
+    "x": 1,
+    "y": 1,
+    "l": 8,
+    "h": 6,
+    "sol": "terre"
+   },
+   {
+    "nom": "Réserve",
+    "x": 1,
+    "y": 7,
+    "l": 5,
+    "h": 4,
+    "sol": "terre"
+   },
+   {
+    "nom": "Boyau des contrebandiers",
+    "x": 9,
+    "y": 3,
+    "l": 12,
+    "h": 2,
+    "sol": "terre"
+   },
+   {
+    "nom": "Laboratoire",
+    "x": 13,
+    "y": 5,
+    "l": 7,
+    "h": 6,
+    "sol": "pierre"
+   },
+   {
+    "nom": "Cachot",
+    "x": 9,
+    "y": 7,
+    "l": 4,
+    "h": 4,
+    "sol": "pierre"
+   },
+   {
+    "nom": "Ossuaire",
+    "x": 21,
+    "y": 1,
+    "l": 6,
+    "h": 6,
+    "sol": "terre"
+   },
+   {
+    "nom": "Galerie noyée",
+    "x": 21,
+    "y": 7,
+    "l": 4,
+    "h": 8,
+    "sol": "eau"
+   },
+   {
+    "nom": "Embarcadère caché",
+    "x": 15,
+    "y": 15,
+    "l": 10,
+    "h": 4,
+    "sol": "bois"
+   },
+   {
+    "nom": "Bras du marais",
+    "x": 0,
+    "y": 15,
+    "l": 15,
+    "h": 5,
+    "sol": "eau"
+   }
+  ],
+  "ouvertures": [
+   {
+    "x": 3,
+    "y": 6,
+    "cote": "sud",
+    "type": "porte"
+   },
+   {
+    "x": 8,
+    "y": 3,
+    "cote": "est",
+    "type": "passage"
+   },
+   {
+    "x": 8,
+    "y": 4,
+    "cote": "est",
+    "type": "passage"
+   },
+   {
+    "x": 16,
+    "y": 5,
+    "cote": "nord",
+    "type": "porte"
+   },
+   {
+    "x": 13,
+    "y": 8,
+    "cote": "ouest",
+    "type": "verrouillee"
+   },
+   {
+    "x": 20,
+    "y": 3,
+    "cote": "est",
+    "type": "passage"
+   },
+   {
+    "x": 20,
+    "y": 4,
+    "cote": "est",
+    "type": "passage"
+   },
+   {
+    "x": 22,
+    "y": 6,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 23,
+    "y": 6,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 21,
+    "y": 14,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 22,
+    "y": 14,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 23,
+    "y": 14,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 24,
+    "y": 14,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 15,
+    "y": 15,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 15,
+    "y": 16,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 15,
+    "y": 17,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 15,
+    "y": 18,
+    "cote": "ouest",
+    "type": "passage"
+   }
+  ],
+  "lumieres": [
+   {
+    "x": 4,
+    "y": 3,
+    "rayon": 2,
+    "couleur": "#ffcc66"
+   },
+   {
+    "x": 16,
+    "y": 7,
+    "rayon": 3,
+    "couleur": "#b8e05a"
+   },
+   {
+    "x": 18,
+    "y": 9,
+    "rayon": 1,
+    "couleur": "#ffddaa"
+   },
+   {
+    "x": 23,
+    "y": 3,
+    "rayon": 2,
+    "couleur": "#8fb0ff"
+   },
+   {
+    "x": 5,
+    "y": 17,
+    "rayon": 1,
+    "couleur": "#aaffcc"
+   }
+  ],
+  "elements": [
+   {
+    "nom": "Escalier de la trappe",
+    "x": 1,
+    "y": 1,
+    "l": 2,
+    "h": 1
+   },
+   {
+    "nom": "Tonneaux de bière",
+    "x": 5,
+    "y": 1,
+    "l": 3,
+    "h": 1
+   },
+   {
+    "nom": "Sacs de farine marqués",
+    "x": 2,
+    "y": 4,
+    "l": 2,
+    "h": 1
+   },
+   {
+    "nom": "Gravats du mur",
+    "x": 7,
+    "y": 5,
+    "l": 2,
+    "h": 1
+   },
+   {
+    "nom": "Jambons fumés",
+    "x": 1,
+    "y": 8,
+    "l": 2,
+    "h": 1
+   },
+   {
+    "nom": "Caisses de contrebande",
+    "x": 3,
+    "y": 9,
+    "l": 2,
+    "h": 2
+   },
+   {
+    "nom": "Étai pourri",
+    "x": 12,
+    "y": 3,
+    "l": 1,
+    "h": 1
+   },
+   {
+    "nom": "Flaque",
+    "x": 18,
+    "y": 4,
+    "l": 2,
+    "h": 1
+   },
+   {
+    "nom": "Étagère de bocaux",
+    "x": 13,
+    "y": 5,
+    "l": 1,
+    "h": 3
+   },
+   {
+    "nom": "Alambics",
+    "x": 18,
+    "y": 5,
+    "l": 2,
+    "h": 1
+   },
+   {
+    "nom": "Table de dissection",
+    "x": 15,
+    "y": 7,
+    "l": 3,
+    "h": 2
+   },
+   {
+    "nom": "Pupitre du docteur",
+    "x": 18,
+    "y": 9,
+    "l": 2,
+    "h": 1
+   },
+   {
+    "nom": "Chaudron de peste",
+    "x": 14,
+    "y": 10,
+    "l": 1,
+    "h": 1
+   },
+   {
+    "nom": "Sacs prêts à partir",
+    "x": 16,
+    "y": 10,
+    "l": 2,
+    "h": 1
+   },
+   {
+    "nom": "Chaînes",
+    "x": 9,
+    "y": 8,
+    "l": 1,
+    "h": 2
+   },
+   {
+    "nom": "Paille",
+    "x": 11,
+    "y": 10,
+    "l": 2,
+    "h": 1
+   },
+   {
+    "nom": "Niches d'ossements",
+    "x": 21,
+    "y": 1,
+    "l": 6,
+    "h": 1
+   },
+   {
+    "nom": "Tas de crânes",
+    "x": 25,
+    "y": 4,
+    "l": 2,
+    "h": 2
+   },
+   {
+    "nom": "Vieux coffre",
+    "x": 21,
+    "y": 5,
+    "l": 1,
+    "h": 1
+   },
+   {
+    "nom": "Éboulis",
+    "x": 23,
+    "y": 10,
+    "l": 2,
+    "h": 1
+   },
+   {
+    "nom": "Pieux d'amarrage",
+    "x": 16,
+    "y": 15,
+    "l": 1,
+    "h": 1
+   },
+   {
+    "nom": "Barque du passeur",
+    "x": 18,
+    "y": 17,
+    "l": 3,
+    "h": 1
+   },
+   {
+    "nom": "Lanterne éteinte",
+    "x": 24,
+    "y": 15,
+    "l": 1,
+    "h": 1
+   },
+   {
+    "nom": "Roseaux",
+    "x": 2,
+    "y": 16,
+    "l": 3,
+    "h": 2
+   },
+   {
+    "nom": "Souche noyée",
+    "x": 9,
+    "y": 18,
+    "l": 2,
+    "h": 1
+   }
+  ],
+  "sons": [
+   {
+    "nom": "Boyau des contrebandiers",
+    "x": 14,
+    "y": 3,
+    "rayon": 6,
+    "son": "grotte",
+    "volume": 0.25
+   },
+   {
+    "nom": "Laboratoire",
+    "x": 16,
+    "y": 8,
+    "rayon": 4,
+    "son": "tension",
+    "volume": 0.2
+   },
+   {
+    "nom": "Chaudron de peste",
+    "x": 14,
+    "y": 10,
+    "rayon": 2,
+    "son": "feu",
+    "volume": 0.2
+   },
+   {
+    "nom": "Pluie sur le marais",
+    "x": 6,
+    "y": 17,
+    "rayon": 7,
+    "son": "pluie",
+    "volume": 0.25
+   }
+  ],
+  "zones": [
+   {
+    "nom": "Cave du relais",
+    "x": 1,
+    "y": 1,
+    "l": 8,
+    "h": 6,
+    "type": "texte",
+    "texte": "Sous l'odeur de bière renversée, une autre, sucrée, qui colle au fond de la gorge."
+   },
+   {
+    "nom": "Laboratoire",
+    "x": 13,
+    "y": 5,
+    "l": 7,
+    "h": 6,
+    "type": "texte",
+    "texte": "Des bocaux alignés comme à la parade. Dans certains, quelque chose bouge encore."
+   },
+   {
+    "nom": "Ossuaire",
+    "x": 21,
+    "y": 1,
+    "l": 6,
+    "h": 6,
+    "type": "pause"
+   },
+   {
+    "nom": "Galerie noyée",
+    "x": 21,
+    "y": 7,
+    "l": 4,
+    "h": 8,
+    "type": "obscurite",
+    "obscurite": 1
+   }
+  ],
+  "notes": [
+   {
+    "x": 3,
+    "y": 5,
+    "texte": "Farine marquée (indice)",
+    "icone": "icons/svg/biohazard.svg",
+    "entryId": "KvrjD375dkDDLtS9",
+    "pageId": "3XTXjWF2p7Qbw59C"
+   },
+   {
+    "x": 12,
+    "y": 4,
+    "texte": "L'étai piégé",
+    "icone": "icons/svg/trap.svg",
+    "entryId": "KvrjD375dkDDLtS9",
+    "pageId": "3XTXjWF2p7Qbw59C"
+   },
+   {
+    "x": 16,
+    "y": 9,
+    "texte": "Laboratoire : acolytes et table vide",
+    "icone": "icons/svg/combat.svg",
+    "entryId": "KvrjD375dkDDLtS9",
+    "pageId": "3XTXjWF2p7Qbw59C"
+   },
+   {
+    "x": 19,
+    "y": 10,
+    "texte": "Le carnet du docteur",
+    "icone": "icons/svg/book.svg",
+    "entryId": "QWxYXPXim6TIQi2j",
+    "pageId": "hnrDBpuoscQV4I5e"
+   },
+   {
+    "x": 10,
+    "y": 8,
+    "texte": "Bram, enchaîné",
+    "icone": "icons/svg/padlock.svg",
+    "entryId": "KvrjD375dkDDLtS9",
+    "pageId": "3XTXjWF2p7Qbw59C"
+   },
+   {
+    "x": 24,
+    "y": 2,
+    "texte": "Ossuaire : les squelettes",
+    "icone": "icons/svg/bones.svg",
+    "entryId": "KvrjD375dkDDLtS9",
+    "pageId": "3XTXjWF2p7Qbw59C"
+   },
+   {
+    "x": 19,
+    "y": 16,
+    "texte": "La barque du passeur",
+    "icone": "icons/svg/anchor.svg",
+    "entryId": "KvrjD375dkDDLtS9",
+    "pageId": "3XTXjWF2p7Qbw59C"
+   }
+  ]
+ },
+ "cimetiere-des-rescapes": {
+  "largeur": 30,
+  "hauteur": 24,
+  "lumiere": "nuit",
+  "pieces": [
+   {
+    "nom": "Marais",
+    "x": 0,
+    "y": 0,
+    "l": 30,
+    "h": 24,
+    "sol": "eau"
+   },
+   {
+    "nom": "Îlot des Rescapés",
+    "x": 6,
+    "y": 4,
+    "l": 18,
+    "h": 15,
+    "sol": "herbe"
+   },
+   {
+    "nom": "Chapelle en ruine",
+    "x": 15,
+    "y": 5,
+    "l": 7,
+    "h": 6,
+    "sol": "pierre"
+   },
+   {
+    "nom": "Mausolée",
+    "x": 7,
+    "y": 5,
+    "l": 5,
+    "h": 4,
+    "sol": "pierre"
+   },
+   {
+    "nom": "Ponton",
+    "x": 13,
+    "y": 19,
+    "l": 3,
+    "h": 3,
+    "sol": "bois"
+   }
+  ],
+  "ouvertures": [
+   {
+    "x": 6,
+    "y": 4,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 7,
+    "y": 4,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 8,
+    "y": 4,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 9,
+    "y": 4,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 10,
+    "y": 4,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 11,
+    "y": 4,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 12,
+    "y": 4,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 13,
+    "y": 4,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 14,
+    "y": 4,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 15,
+    "y": 4,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 16,
+    "y": 4,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 17,
+    "y": 4,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 18,
+    "y": 4,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 19,
+    "y": 4,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 20,
+    "y": 4,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 21,
+    "y": 4,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 22,
+    "y": 4,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 23,
+    "y": 4,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 6,
+    "y": 18,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 7,
+    "y": 18,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 8,
+    "y": 18,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 9,
+    "y": 18,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 10,
+    "y": 18,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 11,
+    "y": 18,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 12,
+    "y": 18,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 13,
+    "y": 18,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 14,
+    "y": 18,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 15,
+    "y": 18,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 16,
+    "y": 18,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 17,
+    "y": 18,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 18,
+    "y": 18,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 19,
+    "y": 18,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 20,
+    "y": 18,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 21,
+    "y": 18,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 22,
+    "y": 18,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 23,
+    "y": 18,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 6,
+    "y": 4,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 6,
+    "y": 5,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 6,
+    "y": 6,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 6,
+    "y": 7,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 6,
+    "y": 8,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 6,
+    "y": 9,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 6,
+    "y": 10,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 6,
+    "y": 11,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 6,
+    "y": 12,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 6,
+    "y": 13,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 6,
+    "y": 14,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 6,
+    "y": 15,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 6,
+    "y": 16,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 6,
+    "y": 17,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 6,
+    "y": 18,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 23,
+    "y": 4,
+    "cote": "est",
+    "type": "passage"
+   },
+   {
+    "x": 23,
+    "y": 5,
+    "cote": "est",
+    "type": "passage"
+   },
+   {
+    "x": 23,
+    "y": 6,
+    "cote": "est",
+    "type": "passage"
+   },
+   {
+    "x": 23,
+    "y": 7,
+    "cote": "est",
+    "type": "passage"
+   },
+   {
+    "x": 23,
+    "y": 8,
+    "cote": "est",
+    "type": "passage"
+   },
+   {
+    "x": 23,
+    "y": 9,
+    "cote": "est",
+    "type": "passage"
+   },
+   {
+    "x": 23,
+    "y": 10,
+    "cote": "est",
+    "type": "passage"
+   },
+   {
+    "x": 23,
+    "y": 11,
+    "cote": "est",
+    "type": "passage"
+   },
+   {
+    "x": 23,
+    "y": 12,
+    "cote": "est",
+    "type": "passage"
+   },
+   {
+    "x": 23,
+    "y": 13,
+    "cote": "est",
+    "type": "passage"
+   },
+   {
+    "x": 23,
+    "y": 14,
+    "cote": "est",
+    "type": "passage"
+   },
+   {
+    "x": 23,
+    "y": 15,
+    "cote": "est",
+    "type": "passage"
+   },
+   {
+    "x": 23,
+    "y": 16,
+    "cote": "est",
+    "type": "passage"
+   },
+   {
+    "x": 23,
+    "y": 17,
+    "cote": "est",
+    "type": "passage"
+   },
+   {
+    "x": 23,
+    "y": 18,
+    "cote": "est",
+    "type": "passage"
+   },
+   {
+    "x": 13,
+    "y": 19,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 13,
+    "y": 20,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 13,
+    "y": 21,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 15,
+    "y": 19,
+    "cote": "est",
+    "type": "passage"
+   },
+   {
+    "x": 15,
+    "y": 20,
+    "cote": "est",
+    "type": "passage"
+   },
+   {
+    "x": 15,
+    "y": 21,
+    "cote": "est",
+    "type": "passage"
+   },
+   {
+    "x": 13,
+    "y": 21,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 14,
+    "y": 21,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 15,
+    "y": 21,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 17,
+    "y": 10,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 18,
+    "y": 10,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 19,
+    "y": 10,
+    "cote": "sud",
+    "type": "passage"
+   },
+   {
+    "x": 15,
+    "y": 7,
+    "cote": "ouest",
+    "type": "passage"
+   },
+   {
+    "x": 19,
+    "y": 5,
+    "cote": "nord",
+    "type": "passage"
+   },
+   {
+    "x": 9,
+    "y": 8,
+    "cote": "sud",
+    "type": "porte"
+   }
+  ],
+  "lumieres": [
+   {
+    "x": 13,
+    "y": 13,
+    "rayon": 3,
+    "couleur": "#c8ff9a"
+   },
+   {
+    "x": 15,
+    "y": 13,
+    "rayon": 2,
+    "couleur": "#9aff60"
+   },
+   {
+    "x": 18,
+    "y": 7,
+    "rayon": 2,
+    "couleur": "#aabbff"
+   },
+   {
+    "x": 14,
+    "y": 20,
+    "rayon": 2,
+    "couleur": "#ffcc66"
+   },
+   {
+    "x": 9,
+    "y": 6,
+    "rayon": 1,
+    "couleur": "#88ffaa"
+   }
+  ],
+  "elements": [
+   {
+    "nom": "Cloche des Rescapés",
+    "x": 12,
+    "y": 12,
+    "l": 2,
+    "h": 2
+   },
+   {
+    "nom": "Brasero de peste",
+    "x": 15,
+    "y": 13,
+    "l": 1,
+    "h": 1
+   },
+   {
+    "nom": "Tombe de Joren Brunval",
+    "x": 8,
+    "y": 15,
+    "l": 2,
+    "h": 1
+   },
+   {
+    "nom": "Tombes fraîchement ouvertes",
+    "x": 17,
+    "y": 13,
+    "l": 3,
+    "h": 1
+   },
+   {
+    "nom": "Rangée de tombes",
+    "x": 17,
+    "y": 16,
+    "l": 4,
+    "h": 1
+   },
+   {
+    "nom": "Croix de bois penchées",
+    "x": 7,
+    "y": 11,
+    "l": 2,
+    "h": 1
+   },
+   {
+    "nom": "Panneau des Rescapés",
+    "x": 14,
+    "y": 18,
+    "l": 1,
+    "h": 1
+   },
+   {
+    "nom": "Saule mort",
+    "x": 22,
+    "y": 6,
+    "l": 1,
+    "h": 1
+   },
+   {
+    "nom": "Autel brisé",
+    "x": 17,
+    "y": 6,
+    "l": 3,
+    "h": 1
+   },
+   {
+    "nom": "Bancs renversés",
+    "x": 16,
+    "y": 8,
+    "l": 4,
+    "h": 1
+   },
+   {
+    "nom": "Sarcophage vide",
+    "x": 8,
+    "y": 6,
+    "l": 3,
+    "h": 1
+   },
+   {
+    "nom": "Barque d'Aldwin",
+    "x": 17,
+    "y": 21,
+    "l": 2,
+    "h": 1
+   },
+   {
+    "nom": "Roseaux",
+    "x": 1,
+    "y": 2,
+    "l": 3,
+    "h": 2
+   },
+   {
+    "nom": "Roseaux",
+    "x": 25,
+    "y": 20,
+    "l": 3,
+    "h": 2
+   },
+   {
+    "nom": "Souche",
+    "x": 26,
+    "y": 2,
+    "l": 2,
+    "h": 1
+   }
+  ],
+  "sons": [
+   {
+    "nom": "Pluie sur l'îlot",
+    "x": 15,
+    "y": 12,
+    "rayon": 15,
+    "son": "pluie",
+    "volume": 0.3
+   },
+   {
+    "nom": "Cloche des Rescapés",
+    "x": 13,
+    "y": 13,
+    "rayon": 5,
+    "son": "tension",
+    "volume": 0.3
+   },
+   {
+    "nom": "Vent du marais",
+    "x": 3,
+    "y": 20,
+    "rayon": 8,
+    "son": "vent",
+    "volume": 0.2
+   }
+  ],
+  "zones": [
+   {
+    "nom": "Débarquement",
+    "x": 13,
+    "y": 19,
+    "l": 3,
+    "h": 3,
+    "type": "texte",
+    "texte": "Planté dans la vase, un panneau de bois : « Ils ont fui la peste. Qu'elle ne les trouve pas ici. »"
+   },
+   {
+    "nom": "Cercle de la cloche",
+    "x": 10,
+    "y": 10,
+    "l": 6,
+    "h": 6,
+    "type": "pause"
+   },
+   {
+    "nom": "Mausolée",
+    "x": 7,
+    "y": 5,
+    "l": 5,
+    "h": 4,
+    "type": "obscurite",
+    "obscurite": 1
+   },
+   {
+    "nom": "Chapelle en ruine",
+    "x": 15,
+    "y": 5,
+    "l": 7,
+    "h": 6,
+    "type": "texte",
+    "texte": "Le toit s'est effondré. La pluie tombe sur l'autel comme on jette de la terre sur un cercueil."
+   }
+  ],
+  "notes": [
+   {
+    "x": 14,
+    "y": 20,
+    "texte": "Le ponton des Rescapés",
+    "icone": "icons/svg/anchor.svg",
+    "entryId": "KvrjD375dkDDLtS9",
+    "pageId": "KOqX3BDbuoQOWDW7"
+   },
+   {
+    "x": 12,
+    "y": 14,
+    "texte": "Aldwin et la cloche — le rituel",
+    "icone": "icons/svg/sound.svg",
+    "entryId": "KvrjD375dkDDLtS9",
+    "pageId": "KOqX3BDbuoQOWDW7"
+   },
+   {
+    "x": 9,
+    "y": 16,
+    "texte": "Tombe de Joren Brunval",
+    "icone": "icons/svg/skull.svg",
+    "entryId": "KvrjD375dkDDLtS9",
+    "pageId": "KOqX3BDbuoQOWDW7"
+   },
+   {
+    "x": 9,
+    "y": 7,
+    "texte": "Le Recousu, dans le mausolée",
+    "icone": "icons/svg/terror.svg",
+    "entryId": "KvrjD375dkDDLtS9",
+    "pageId": "KOqX3BDbuoQOWDW7"
+   },
+   {
+    "x": 18,
+    "y": 9,
+    "texte": "Chapelle : Vesper attend",
+    "icone": "icons/svg/cowled.svg",
+    "entryId": "KvrjD375dkDDLtS9",
+    "pageId": "KOqX3BDbuoQOWDW7"
+   },
+   {
+    "x": 20,
+    "y": 14,
+    "texte": "Croquis du cimetière",
+    "icone": "icons/svg/direction.svg",
+    "entryId": "QWxYXPXim6TIQi2j",
+    "pageId": "n8Dz46R3TyeYEZCB"
+   }
+  ]
  }
 }

@@ -71,7 +71,12 @@ export const JETONS_PNJ = {
   "infernal-brasegouffre": "lorc/burning-meteor",
   "cultiste-lame-ardente": "delapouite/executioner-hood",
   "fanatique-lame-ardente": "darkzaitzev/hooded-figure",
-  "diablotin": "lorc/imp"
+  "diablotin": "lorc/imp",
+  // --- One-shot « Une nuit aux Deux Lanternes »
+  "hilde-brunval": "lorc/lantern-flame",                // la lanterne bleue du relais
+  "durgan-brise-fers": "lorc/beer-stein",               // l'aubergiste orc
+  "vesper-lacombe": "lorc/raven",                       // la réprouvée qui ne dort jamais
+  "aldwin-crayeval": "skoll/pestle-mortar"              // le « bon docteur »
 };
 
 // Clé du peuple jouable (objet « race » du compendium peuples, flags.lakour-warcraft.cle) -> icône. Anneau bleu acier.
@@ -171,7 +176,7 @@ export const FACTIONS = {
   neutres: { nom: "Gens du commun", anneau: "#d8cfb8", fond: "#2a2722" }            // ivoire des neutres
 };
 
-// Clé du PNJ (bestiaire, aventure, campagne) -> faction. Tout PNJ doit y figurer : un oubli prend les couleurs des
+// Clé du PNJ (bestiaire, aventure, campagne, one-shot) -> faction. Tout PNJ doit y figurer : un oubli prend les couleurs des
 // neutres (pour que pnj() reste utilisable dans les essais), mais essais/warcraft-bestiaire-vivant.test.mjs le refuse.
 export const FACTION_PAR_DEFAUT = "neutres";
 export const FACTION_PNJ = {
@@ -199,7 +204,9 @@ export const FACTION_PNJ = {
   "grunt-orgrimmar": "horde", "hanuk-pas-de-pluie": "horde", "garrok-brise-dent": "horde",
   // --- Cartel et gens du commun
   "grizzla-tordeboulon": "cartel", "vizzik-tirelire": "cartel", "dechiqueteur-fonderie": "cartel",
-  "paysan": "neutres", "marchand": "neutres", "iselle-marchebrume": "neutres"   // la scribe du sommet de Gué-de-Sel
+  "paysan": "neutres", "marchand": "neutres", "iselle-marchebrume": "neutres",  // la scribe du sommet de Gué-de-Sel
+  // --- One-shot : les hôtes des Deux Lanternes, la réprouvée, et le nécromancien sous son masque de médecin de Theramore
+  "hilde-brunval": "alliance", "durgan-brise-fers": "horde", "vesper-lacombe": "horde", "aldwin-crayeval": "alliance"
 };
 
 // prototypeToken.ring d'un PNJ (schéma TokenRingData de Foundry 14 : enabled, colors.ring/background, effects,

@@ -1,4 +1,4 @@
-// Épingles de journal des cartes d'aventure et de campagne. Les journaux (aventure.mjs, campagne.mjs) importent les
+// Épingles de journal des cartes d'aventure, de campagne et du one-shot. Les journaux (aventure.mjs, campagne.mjs, one-shot.mjs) importent les
 // cartes pour leurs liens @UUID : les cartes ne peuvent donc pas importer les journaux à leur tour. Les identifiants
 // sont recalculés ici comme journal() de aides.mjs les calcule (clé du journal, rang de la page) ; l'ordre des pages
 // ci-dessous est comparé aux journaux construits par essais/warcraft-cartes-vivantes.test.mjs.
@@ -13,7 +13,11 @@ export const PAGES_JOURNAUX = {
     "Chapitre 2 — Les ruines d'Eldrassal", "Chapitre 3 — Le sommet de Gué-de-Sel", "Chapitre 4 — La nuit des deux lunes",
     "Dénouements et récompenses", "PNJ et forces en présence"],
   "lettre-lame-ardente": ["Lettre de la Lame ardente"],
-  "sauf-conduit-gue-de-sel": ["Sauf-conduit"]
+  "sauf-conduit-gue-de-sel": ["Sauf-conduit"],
+  "one-shot-deux-lanternes": ["Synopsis (MJ)", "Accroches et minutage", "Acte 1 — L'orage au relais", "Acte 2 — Sous le relais",
+    "Acte 3 — Le cimetière des Rescapés", "Dénouements et récompenses", "PNJ et forces en présence"],
+  "relais-deux-lanternes": ["Le règlement des Deux Lanternes", "Le registre des voyageurs"],
+  "carnet-crayeval": ["Lettre du Cercle", "Croquis du cimetière"]
 };
 
 // « cle#Titre de la page » (même syntaxe que les liens des journaux) -> { entryId, pageId } ; une cible inconnue est une erreur.

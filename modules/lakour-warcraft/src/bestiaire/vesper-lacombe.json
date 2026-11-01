@@ -1,0 +1,673 @@
+{
+  "_id": "eH06E9RxoVB5nOWB",
+  "_key": "!actors!eH06E9RxoVB5nOWB",
+  "name": "Vesper Lacombe, réprouvée de Brumefeuille",
+  "type": "npc",
+  "img": "modules/lakour-warcraft/assets/jetons/vesper-lacombe.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 10,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 15,
+        "proficient": 0
+      },
+      "con": {
+        "value": 10,
+        "proficient": 0
+      },
+      "int": {
+        "value": 12,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 13,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 11,
+        "proficient": 0
+      }
+    },
+    "skills": {
+      "ste": {
+        "value": 1,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 13,
+        "calc": "natural"
+      },
+      "hp": {
+        "value": 27,
+        "max": 27,
+        "temp": null,
+        "tempmax": null,
+        "formula": "6d8"
+      },
+      "movement": {
+        "units": "m",
+        "hover": false,
+        "ignoredDifficultTerrain": [],
+        "walk": "9"
+      },
+      "senses": {
+        "ranges": {
+          "darkvision": 18,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null
+        },
+        "units": "m",
+        "special": ""
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Une silhouette encapuchonnée, maigre à faire peur, qui sent la terre froide et la lavande séchée. Sous le capuchon, une mâchoire recousue avec soin et deux yeux pâles qui ne clignent jamais.</p><h3>Note du MJ</h3><p>Boulangère à Brumefeuille, au nord de Lordaeron, quand un certain maître Varn a vendu au village du grain bon marché. Le village est mort, puis s'est relevé ; Vesper avec lui. Libérée du Fléau avec les Réprouvés, elle a traversé la mer pour retrouver Varn, devenu le docteur Aldwin Crayeval. Elle l'a reconnu ce soir. Elle ment d'abord sur ses raisons (« je vais à Theramore voir de la famille ») et laisse les vivants la soupçonner. Défendue, elle devient une alliée loyale ; humiliée, elle part seule et attend Aldwin dans la chapelle de l'îlot. Elle veut le tuer ; on peut la convaincre de le laisser vivre pour qu'il soit jugé.</p>",
+        "public": "<p>Une silhouette encapuchonnée, maigre à faire peur, qui sent la terre froide et la lavande séchée. Sous le capuchon, une mâchoire recousue avec soin et deux yeux pâles qui ne clignent jamais.</p>"
+      },
+      "alignment": "Neutre",
+      "type": {
+        "value": "humanoid",
+        "subtype": "réprouvée",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 1
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "necrotic"
+        ],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "commun, bas-parler",
+        "communication": {}
+      }
+    },
+    "source": {
+      "book": "La Kour Warcraft",
+      "page": "",
+      "custom": "",
+      "license": "CC-BY-4.0",
+      "rules": "2024",
+      "revision": 1
+    }
+  },
+  "items": [
+    {
+      "name": "Volonté des Réprouvés",
+      "type": "feat",
+      "img": "icons/magic/death/hand-withered-gray.webp",
+      "system": {
+        "description": {
+          "value": "<p>Vesper ne dort pas, ne respire pas et ne mange pas. Elle a l'avantage aux jets de sauvegarde contre les états charmé et effrayé, et la magie ne peut pas l'endormir.</p>",
+          "chat": ""
+        },
+        "identifier": "volonte-des-reprouves",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "GSNJRcQkCZ1LKzTy",
+      "_key": "!actors.items!eH06E9RxoVB5nOWB.GSNJRcQkCZ1LKzTy"
+    },
+    {
+      "name": "Rancune",
+      "type": "feat",
+      "img": "icons/magic/death/skull-humanoid-white-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>Vesper a l'avantage aux jets d'attaque contre Aldwin Crayeval, et lui inflige 7 (2d6) dégâts nécrotiques de plus quand elle le touche.</p>",
+          "chat": ""
+        },
+        "identifier": "rancune",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 200,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "Lr7B3aKTHVkkDqGB",
+      "_key": "!actors.items!eH06E9RxoVB5nOWB.Lr7B3aKTHVkkDqGB"
+    },
+    {
+      "name": "Couteau de boulangère",
+      "type": "weapon",
+      "img": "icons/tools/cooking/knife-chef-steel-brown.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Attaque au corps à corps :</em> +4, allonge 1,5 m. <em>Touché :</em> 4 (1d4 + 2) dégâts perforants.</p>",
+          "chat": ""
+        },
+        "identifier": "couteau-de-boulangere",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "identified": true,
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": 1,
+              "formula": ""
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": 1.5,
+          "units": "m"
+        },
+        "activities": {
+          "g9v2SKh2ofFDdflF": {
+            "_id": "g9v2SKh2ofFDdflF",
+            "type": "attack",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "attack": {
+              "ability": "dex",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 4,
+                  "bonus": "2",
+                  "types": [
+                    "piercing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {
+        "lakour-warcraft": {
+          "toucher": 4
+        }
+      },
+      "sort": 300,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "lZAu86ZJlBXFu9Zo",
+      "_key": "!actors.items!eH06E9RxoVB5nOWB.lZAu86ZJlBXFu9Zo"
+    },
+    {
+      "name": "Arbalète de poing",
+      "type": "weapon",
+      "img": "icons/weapons/crossbows/crossbow-simple-black.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Attaque à distance :</em> +4, portée 9/36 m. <em>Touché :</em> 5 (1d6 + 2) dégâts perforants.</p>",
+          "chat": ""
+        },
+        "identifier": "arbalete-de-poing",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "martialR",
+          "baseItem": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "identified": true,
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": 1,
+              "formula": ""
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": 9,
+          "long": 36,
+          "reach": null,
+          "units": "m"
+        },
+        "activities": {
+          "9vmB1ZJrUeKf9zsF": {
+            "_id": "9vmB1ZJrUeKf9zsF",
+            "type": "attack",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "attack": {
+              "ability": "dex",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 6,
+                  "bonus": "2",
+                  "types": [
+                    "piercing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {
+        "lakour-warcraft": {
+          "toucher": 4
+        }
+      },
+      "sort": 400,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "GGIVdO2kKuYIrA9c",
+      "_key": "!actors.items!eH06E9RxoVB5nOWB.GGIVdO2kKuYIrA9c"
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Vesper Lacombe, réprouvée de Brumefeuille",
+    "actorLink": false,
+    "disposition": 0,
+    "displayName": 20,
+    "displayBars": 20,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/lakour-warcraft/assets/jetons/vesper-lacombe.svg",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#b3261e",
+        "background": "#350b08"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "vesper-lacombe",
+      "role": "elite",
+      "mj": "Boulangère à Brumefeuille, au nord de Lordaeron, quand un certain maître Varn a vendu au village du grain bon marché. Le village est mort, puis s'est relevé ; Vesper avec lui. Libérée du Fléau avec les Réprouvés, elle a traversé la mer pour retrouver Varn, devenu le docteur Aldwin Crayeval. Elle l'a reconnu ce soir. Elle ment d'abord sur ses raisons (« je vais à Theramore voir de la famille ») et laisse les vivants la soupçonner. Défendue, elle devient une alliée loyale ; humiliée, elle part seule et attend Aldwin dans la chapelle de l'îlot. Elle veut le tuer ; on peut la convaincre de le laisser vivre pour qu'il soit jugé.",
+      "armure": "cuir"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}
