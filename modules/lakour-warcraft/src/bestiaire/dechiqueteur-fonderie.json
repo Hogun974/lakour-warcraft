@@ -123,7 +123,7 @@
     {
       "name": "Moteur à éclat",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/commodities/tech/engine-tech-thrust-green.webp",
       "system": {
         "description": {
           "value": "<p>Le déchiqueteur tourne grâce à un fragment d'éclat gangrené. S'il subit des dégâts de foudre, sa vitesse tombe à 0 jusqu'à la fin de son prochain tour. Quand il est détruit, son moteur explose : chaque créature à 3 m ou moins fait un jet de sauvegarde de Dextérité DD 12 et subit 7 (2d6) dégâts de feu en cas d'échec, la moitié en cas de réussite.</p>",
@@ -167,7 +167,7 @@
     {
       "name": "Attaques multiples",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/tools/hand/chainsaw-steel-purple.webp",
       "system": {
         "description": {
           "value": "<p>Le déchiqueteur fait deux attaques de Scie.</p>",
@@ -284,7 +284,7 @@
     {
       "name": "Scie",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/environment/traps/saw-mechanical-toothed-steel-red.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 3 m. <em>Touché :</em> 8 (1d10 + 3) dégâts tranchants.</p>",
@@ -479,7 +479,7 @@
     {
       "name": "Jet de vapeur (recharge 5–6)",
       "type": "feat",
-      "img": "icons/svg/fire-shield.svg",
+      "img": "icons/magic/air/fog-gas-smoke-dense-white.webp",
       "system": {
         "description": {
           "value": "<p><em>Jet de sauvegarde de Constitution :</em> DD 12, chaque créature dans un cône de 4,5 m. <em>Échec :</em> 10 (3d6) dégâts de feu. <em>Réussite :</em> moitié des dégâts.</p>",

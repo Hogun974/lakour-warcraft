@@ -142,7 +142,7 @@
     {
       "name": "Incantation",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/unholy/hands-praying-fire-green.webp",
       "system": {
         "description": {
           "value": "<p>Drogha lance ses sorts avec le Charisme (DD 15). À volonté : <em>prestidigitation</em>. 2/jour chacun : <em>injonction</em>, <em>ténèbres</em>. 1/jour chacun : <em>boule de feu</em> (flammes vertes), <em>porte dimensionnelle</em>.</p>",
@@ -186,7 +186,7 @@
     {
       "name": "Corps embrasé",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/fire/elemental-fire-humanoid.webp",
       "system": {
         "description": {
           "value": "<p>Une créature qui touche Drogha avec une attaque au corps à corps alors qu'elle se trouve à 1,5 m ou moins de lui subit 5 (1d10) dégâts de feu.</p>",
@@ -230,7 +230,7 @@
     {
       "name": "Attaques multiples",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
       "system": {
         "description": {
           "value": "<p>Drogha fait deux attaques, de Lame ardente ou de Trait de gangrefeu.</p>",
@@ -347,7 +347,7 @@
     {
       "name": "Lame ardente",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/swords/greatsword-flamberge.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +7, allonge 1,5 m. <em>Touché :</em> 8 (1d8 + 4) dégâts tranchants, plus 7 (2d6) dégâts de feu.</p>",
@@ -559,7 +559,7 @@
     {
       "name": "Trait de gangrefeu",
       "type": "weapon",
-      "img": "icons/svg/fire-shield.svg",
+      "img": "icons/magic/unholy/projectile-fireball-green.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque magique à distance :</em> +7, portée 36 m. <em>Touché :</em> 13 (3d8) dégâts de feu.</p>",
@@ -754,7 +754,7 @@
     {
       "name": "Immolation (recharge 5–6)",
       "type": "feat",
-      "img": "icons/svg/fire-shield.svg",
+      "img": "icons/magic/fire/blast-jet-stream-embers-orange.webp",
       "system": {
         "description": {
           "value": "<p>Drogha désigne un point à 27 m ou moins : une colonne de flammes vertes en jaillit.</p><p><em>Jet de sauvegarde de Dextérité :</em> DD 15, chaque créature dans une sphère de 4,5 m. <em>Échec :</em> 21 (6d6) dégâts de feu. <em>Réussite :</em> moitié des dégâts.</p>",
@@ -912,7 +912,7 @@
     {
       "name": "Pacte de cendre (1/jour)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/fire/flame-burning-creature-skeleton.webp",
       "system": {
         "description": {
           "value": "<p>Quand Drogha tombe à 0 point de vie pour la première fois, il revient à 20 points de vie dans une gerbe de flammes vertes ; chaque créature à 3 m de lui subit 7 (2d6) dégâts de feu.</p>",

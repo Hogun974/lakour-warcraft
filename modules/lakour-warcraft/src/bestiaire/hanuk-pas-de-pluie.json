@@ -148,7 +148,7 @@
     {
       "name": "Massue-totem",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/clubs/club-banded-brown.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 8 (1d10 + 3) dégâts contondants.</p>",
@@ -343,7 +343,7 @@
     {
       "name": "Piétinement de guerre (1/jour)",
       "type": "feat",
-      "img": "icons/svg/explosion.svg",
+      "img": "icons/magic/sonic/explosion-impact-shock-wave.webp",
       "system": {
         "description": {
           "value": "<p><em>Jet de sauvegarde de Constitution :</em> DD 13, chaque créature dans un rayon de 3 m. <em>Échec :</em> 6 (1d6 + 3) dégâts contondants. La créature tombe à terre. <em>Réussite :</em> moitié des dégâts.</p>",
@@ -501,7 +501,7 @@
     {
       "name": "Guide des Tarides",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/tools/navigation/map-marked-brown.webp",
       "system": {
         "description": {
           "value": "<p>Avec Hanuk, le groupe ne se perd jamais dans les Tarides et a l'avantage aux tests de Survie pour pister ou trouver de l'eau.</p>",

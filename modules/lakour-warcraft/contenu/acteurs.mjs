@@ -2,11 +2,13 @@
 // Les clés s'écrivent en français (for, dex, con, int, sag, cha ; tailles TP P M G TG Gig ; types de créature, de
 // dégâts et d'états) ; toute clé inconnue lève une erreur au lieu de produire un acteur faux.
 // Distances en mètres (case de 1,5 m) : vitesses, sens, allonges, portées et zones.
+// Icône d'une capacité : son img, sinon celle de la table ICONES_PNJ (contenu/icones-pnj.mjs), sinon un glyphe par genre.
 // Les attaques et capacités sont des objets propres à l'acteur (copiés dans items par outils/fabriquer-warcraft.mjs),
 // avec des activités dnd5e « attack », « save » ou « utility » de la même forme que celles du SRD 5.2.
 // Le bonus d'attaque annoncé est vérifié : il doit valoir modificateur de caractéristique + bonus de maîtrise du FP.
 import { MODULE, STATS, html, icone, identifiant } from "./aides.mjs";
 import { anneauJeton, cheminJeton } from "./jetons.mjs";
+import { ICONES_PNJ } from "./icones-pnj.mjs";
 
 // ---------------------------------------------------------------- Vocabulaire (français -> dnd5e)
 
@@ -304,7 +306,10 @@ export function pnj(d) {
 
   const prof = maitrise(d.fp);
   const ctx = { cle: d.cle, abilities, prof };
-  const objets = (d.capacites ?? []).map((c, i) => construireCapacite(c, { ...ctx, i }));
+  const icones = ICONES_PNJ[d.cle] ?? {};
+  const inconnues = Object.keys(icones).filter(nom => !(d.capacites ?? []).some(c => c.nom === nom));
+  if (inconnues.length) throw new Error(`${ou} : ICONES_PNJ nomme des capacités absentes (${inconnues.join(", ")})`);
+  const objets = (d.capacites ?? []).map((c, i) => construireCapacite(c.img || !icones[c.nom] ? c : { ...c, img: icones[c.nom] }, { ...ctx, i }));
   if (!objets.length) throw new Error(`${ou} : aucune capacité`);
 
   const _id = identifiant(`bestiaire:${d.cle}`);

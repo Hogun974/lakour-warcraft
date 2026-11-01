@@ -147,7 +147,7 @@
         {
           "name": "Fusée de secours",
           "type": "feat",
-          "img": "icons/svg/book.svg",
+          "img": "icons/weapons/thrown/rocket.webp",
           "system": {
             "description": {
               "value": "<p>La première fois que Vizzik tombe à 0 point de vie, une fusée cousue dans son dos l'emporte à 9 m dans la direction de son choix ; il reste à 1 point de vie.</p>",
@@ -190,7 +190,7 @@
         {
           "name": "Clé à molette",
           "type": "weapon",
-          "img": "icons/svg/sword.svg",
+          "img": "icons/tools/hand/wrench-adjustable.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 6 (1d6 + 3) dégâts contondants.</p>",
@@ -384,7 +384,7 @@
         {
           "name": "Pistolet à éclat",
           "type": "weapon",
-          "img": "icons/svg/target.svg",
+          "img": "icons/weapons/guns/gun-pistol-brown.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque à distance :</em> +5, portée 9/27 m. <em>Touché :</em> 8 (1d10 + 3) dégâts perforants, plus 3 (1d6) dégâts de feu.</p>",
@@ -595,7 +595,7 @@
         {
           "name": "Grenade de chantier (2/jour)",
           "type": "feat",
-          "img": "icons/svg/fire-shield.svg",
+          "img": "icons/skills/ranged/bomb-grenade-thrown-orange.webp",
           "system": {
             "description": {
               "value": "<p>Vizzik lance une grenade sur un point qu'il voit à 18 m ou moins.</p><p><em>Jet de sauvegarde de Dextérité :</em> DD 13, chaque créature dans une sphère de 3 m. <em>Échec :</em> 10 (3d6) dégâts de feu. <em>Réussite :</em> moitié des dégâts.</p>",
@@ -752,7 +752,7 @@
         {
           "name": "Coup de sifflet",
           "type": "feat",
-          "img": "icons/svg/upgrade.svg",
+          "img": "icons/tools/instruments/whistle-copper.webp",
           "system": {
             "description": {
               "value": "<p><em>Action bonus.</em> Vizzik siffle : un déchiqueteur qui l'entend se déplace aussitôt de sa vitesse, sans provoquer d'attaque d'opportunité.</p>",
@@ -1043,7 +1043,7 @@
         {
           "name": "Moteur à éclat",
           "type": "feat",
-          "img": "icons/svg/book.svg",
+          "img": "icons/commodities/tech/engine-tech-thrust-green.webp",
           "system": {
             "description": {
               "value": "<p>Le déchiqueteur tourne grâce à un fragment d'éclat gangrené. S'il subit des dégâts de foudre, sa vitesse tombe à 0 jusqu'à la fin de son prochain tour. Quand il est détruit, son moteur explose : chaque créature à 3 m ou moins fait un jet de sauvegarde de Dextérité DD 12 et subit 7 (2d6) dégâts de feu en cas d'échec, la moitié en cas de réussite.</p>",
@@ -1086,7 +1086,7 @@
         {
           "name": "Attaques multiples",
           "type": "feat",
-          "img": "icons/svg/upgrade.svg",
+          "img": "icons/tools/hand/chainsaw-steel-purple.webp",
           "system": {
             "description": {
               "value": "<p>Le déchiqueteur fait deux attaques de Scie.</p>",
@@ -1202,7 +1202,7 @@
         {
           "name": "Scie",
           "type": "weapon",
-          "img": "icons/svg/sword.svg",
+          "img": "icons/environment/traps/saw-mechanical-toothed-steel-red.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 3 m. <em>Touché :</em> 8 (1d10 + 3) dégâts tranchants.</p>",
@@ -1396,7 +1396,7 @@
         {
           "name": "Jet de vapeur (recharge 5–6)",
           "type": "feat",
-          "img": "icons/svg/fire-shield.svg",
+          "img": "icons/magic/air/fog-gas-smoke-dense-white.webp",
           "system": {
             "description": {
               "value": "<p><em>Jet de sauvegarde de Constitution :</em> DD 12, chaque créature dans un cône de 4,5 m. <em>Échec :</em> 10 (3d6) dégâts de feu. <em>Réussite :</em> moitié des dégâts.</p>",
@@ -1753,7 +1753,7 @@
         {
           "name": "Fille de la nuit",
           "type": "feat",
-          "img": "icons/svg/book.svg",
+          "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
           "system": {
             "description": {
               "value": "<p>Dans la pénombre ou l'obscurité, Aelyra peut prendre l'action Se cacher par une action bonus.</p>",
@@ -1796,7 +1796,7 @@
         {
           "name": "Attaques multiples",
           "type": "feat",
-          "img": "icons/svg/upgrade.svg",
+          "img": "icons/skills/ranged/person-archery-bow-attack-gray.webp",
           "system": {
             "description": {
               "value": "<p>Aelyra fait deux attaques, avec son Arc long ou sa Lame de guerre.</p>",
@@ -1912,7 +1912,7 @@
         {
           "name": "Lame de guerre",
           "type": "weapon",
-          "img": "icons/svg/sword.svg",
+          "img": "icons/weapons/polearms/glaive-hooked-steel.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 7 (1d8 + 3) dégâts tranchants.</p>",
@@ -2106,7 +2106,7 @@
         {
           "name": "Arc long",
           "type": "weapon",
-          "img": "icons/svg/target.svg",
+          "img": "icons/weapons/bows/longbow-leather-green.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque à distance :</em> +5, portée 45/180 m. <em>Touché :</em> 7 (1d8 + 3) dégâts perforants.</p>",
@@ -2493,7 +2493,7 @@
         {
           "name": "Amphibie",
           "type": "feat",
-          "img": "icons/svg/book.svg",
+          "img": "icons/magic/water/bubbles-air-water-light.webp",
           "system": {
             "description": {
               "value": "<p>Sss'thera respire dans l'air comme dans l'eau.</p>",
@@ -2536,7 +2536,7 @@
         {
           "name": "Incantation",
           "type": "feat",
-          "img": "icons/svg/book.svg",
+          "img": "icons/magic/water/orb-water-bubbles-blue.webp",
           "system": {
             "description": {
               "value": "<p>Sss'thera lance ses sorts avec le Charisme (DD 14). À volonté : <em>main de mage</em>, <em>rayon de givre</em>. 1/jour chacun : <em>image miroir</em>, <em>immobilisation de personne</em>, <em>ténèbres</em>.</p>",
@@ -2579,7 +2579,7 @@
         {
           "name": "Attaques multiples",
           "type": "feat",
-          "img": "icons/svg/upgrade.svg",
+          "img": "icons/skills/melee/spear-tips-three-purple.webp",
           "system": {
             "description": {
               "value": "<p>Sss'thera fait deux attaques : une de Trident et une de Queue, ou deux de Trait des abysses.</p>",
@@ -2695,7 +2695,7 @@
         {
           "name": "Trident",
           "type": "weapon",
-          "img": "icons/svg/sword.svg",
+          "img": "icons/weapons/polearms/trident-jeweled-purple.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 7 (1d8 + 3) dégâts perforants.</p>",
@@ -2889,7 +2889,7 @@
         {
           "name": "Queue",
           "type": "weapon",
-          "img": "icons/svg/sword.svg",
+          "img": "icons/commodities/biological/tail-scaled-green.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 6 (1d6 + 3) dégâts contondants. Si la cible est de taille M ou inférieure, elle est agrippée (évasion DD 13).</p>",
@@ -3083,7 +3083,7 @@
         {
           "name": "Trait des abysses",
           "type": "weapon",
-          "img": "icons/svg/frozen.svg",
+          "img": "icons/magic/water/projectile-water-ice-orb.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque magique à distance :</em> +5, portée 36 m. <em>Touché :</em> 9 (2d8) dégâts de froid.</p>",
@@ -3277,7 +3277,7 @@
         {
           "name": "Chant des marées (recharge 5–6)",
           "type": "feat",
-          "img": "icons/svg/explosion.svg",
+          "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
           "system": {
             "description": {
               "value": "<p>Sss'thera chante dans une langue oubliée. Seules les créatures de son choix qui l'entendent sont concernées.</p><p><em>Jet de sauvegarde de Sagesse :</em> DD 14, chaque créature dans un rayon de 9 m. <em>Échec :</em> La cible est charmée jusqu'à la fin du prochain tour de Sss'thera ; elle doit utiliser tout son déplacement pour s'approcher d'elle, et ne peut pas l'attaquer.</p>",
@@ -3608,7 +3608,7 @@
         {
           "name": "Vieux soldat",
           "type": "feat",
-          "img": "icons/svg/book.svg",
+          "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
           "system": {
             "description": {
               "value": "<p>Corwen a l'avantage aux jets de sauvegarde contre l'état effrayé.</p>",
@@ -3651,7 +3651,7 @@
         {
           "name": "Attaques multiples",
           "type": "feat",
-          "img": "icons/svg/upgrade.svg",
+          "img": "icons/skills/melee/strikes-sword-triple-gray.webp",
           "system": {
             "description": {
               "value": "<p>Corwen fait deux attaques d'Épée longue.</p>",
@@ -3767,7 +3767,7 @@
         {
           "name": "Épée longue",
           "type": "weapon",
-          "img": "icons/svg/sword.svg",
+          "img": "icons/weapons/swords/sword-guard-blue.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 7 (1d8 + 3) dégâts tranchants.</p>",
@@ -3961,7 +3961,7 @@
         {
           "name": "Arbalète lourde",
           "type": "weapon",
-          "img": "icons/svg/target.svg",
+          "img": "icons/weapons/crossbows/crossbow-heavy.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque à distance :</em> +2, portée 30/120 m. <em>Touché :</em> 5 (1d10) dégâts perforants.</p>",
@@ -4155,7 +4155,7 @@
         {
           "name": "Parade",
           "type": "feat",
-          "img": "icons/svg/upgrade.svg",
+          "img": "icons/skills/melee/swords-parry-block-yellow.webp",
           "system": {
             "description": {
               "value": "<p><em>Réaction.</em> Corwen ajoute 2 à sa CA contre une attaque au corps à corps qui devrait le toucher. Il doit voir l'attaquant et tenir une arme de corps à corps.</p>",
@@ -4455,7 +4455,7 @@
         {
           "name": "Attaques multiples",
           "type": "feat",
-          "img": "icons/svg/upgrade.svg",
+          "img": "icons/skills/melee/hand-grip-axe-strike-orange.webp",
           "system": {
             "description": {
               "value": "<p>Garrok fait deux attaques de Hache de guerre.</p>",
@@ -4571,7 +4571,7 @@
         {
           "name": "Hache de guerre",
           "type": "weapon",
-          "img": "icons/svg/sword.svg",
+          "img": "icons/weapons/axes/axe-battle-heavy-black.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 9 (1d12 + 3) dégâts tranchants.</p>",
@@ -4765,7 +4765,7 @@
         {
           "name": "Javeline",
           "type": "weapon",
-          "img": "icons/svg/target.svg",
+          "img": "icons/weapons/polearms/javelin.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque à distance :</em> +5, portée 9/36 m. <em>Touché :</em> 6 (1d6 + 3) dégâts perforants.</p>",
@@ -4959,7 +4959,7 @@
         {
           "name": "Cri de ralliement (1/jour)",
           "type": "feat",
-          "img": "icons/svg/upgrade.svg",
+          "img": "icons/sundries/flags/banner-standard-tattered-red.webp",
           "system": {
             "description": {
               "value": "<p><em>Action bonus.</em> Garrok et chaque allié à 9 m ou moins qui l'entend gagnent 5 points de vie temporaires.</p>",
@@ -5291,7 +5291,7 @@
         {
           "name": "Deux visages",
           "type": "feat",
-          "img": "icons/svg/book.svg",
+          "img": "icons/magic/symbols/mask-yellow-orange.webp",
           "system": {
             "description": {
               "value": "<p>Tant qu'Iselle n'a attaqué personne, les tests de Sagesse (Intuition) faits pour percer son rôle ont le désavantage.</p>",
@@ -5334,7 +5334,7 @@
         {
           "name": "Incantation",
           "type": "feat",
-          "img": "icons/svg/book.svg",
+          "img": "icons/sundries/books/book-open-purple.webp",
           "system": {
             "description": {
               "value": "<p>Iselle lance ses sorts avec le Charisme (DD 13). À volonté : <em>illusion mineure</em>, <em>message</em>. 1/jour chacun : <em>charme-personne</em>, <em>invisibilité</em>, <em>suggestion</em>.</p>",
@@ -5377,7 +5377,7 @@
         {
           "name": "Dague empoisonnée",
           "type": "weapon",
-          "img": "icons/svg/sword.svg",
+          "img": "icons/weapons/daggers/dagger-poisoned.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque au corps à corps :</em> +4, allonge 1,5 m. <em>Touché :</em> 4 (1d4 + 2) dégâts perforants, plus 7 (2d6) dégâts de poison.</p>",
@@ -5588,7 +5588,7 @@
         {
           "name": "Trait de gangrefeu",
           "type": "weapon",
-          "img": "icons/svg/fire-shield.svg",
+          "img": "icons/magic/fire/projectile-fireball-smoke-green.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque magique à distance :</em> +5, portée 36 m. <em>Touché :</em> 11 (2d10) dégâts de feu.</p>",
@@ -5782,7 +5782,7 @@
         {
           "name": "Mot de discorde (recharge 5–6)",
           "type": "feat",
-          "img": "icons/svg/explosion.svg",
+          "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
           "system": {
             "description": {
               "value": "<p><em>Jet de sauvegarde de Sagesse :</em> DD 13, une créature visible à 18 m ou moins. <em>Échec :</em> La cible est charmée par Iselle pendant 1 minute : elle tient ses propres alliés pour des traîtres à la Trêve et attaque le plus proche. Elle refait le jet à la fin de chacun de ses tours et met fin à l'effet en cas de réussite.</p>",
@@ -6115,7 +6115,7 @@
         {
           "name": "Incantation",
           "type": "feat",
-          "img": "icons/svg/book.svg",
+          "img": "icons/magic/unholy/hands-praying-fire-green.webp",
           "system": {
             "description": {
               "value": "<p>Drogha lance ses sorts avec le Charisme (DD 15). À volonté : <em>prestidigitation</em>. 2/jour chacun : <em>injonction</em>, <em>ténèbres</em>. 1/jour chacun : <em>boule de feu</em> (flammes vertes), <em>porte dimensionnelle</em>.</p>",
@@ -6158,7 +6158,7 @@
         {
           "name": "Corps embrasé",
           "type": "feat",
-          "img": "icons/svg/book.svg",
+          "img": "icons/magic/fire/elemental-fire-humanoid.webp",
           "system": {
             "description": {
               "value": "<p>Une créature qui touche Drogha avec une attaque au corps à corps alors qu'elle se trouve à 1,5 m ou moins de lui subit 5 (1d10) dégâts de feu.</p>",
@@ -6201,7 +6201,7 @@
         {
           "name": "Attaques multiples",
           "type": "feat",
-          "img": "icons/svg/upgrade.svg",
+          "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
           "system": {
             "description": {
               "value": "<p>Drogha fait deux attaques, de Lame ardente ou de Trait de gangrefeu.</p>",
@@ -6317,7 +6317,7 @@
         {
           "name": "Lame ardente",
           "type": "weapon",
-          "img": "icons/svg/sword.svg",
+          "img": "icons/weapons/swords/greatsword-flamberge.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque au corps à corps :</em> +7, allonge 1,5 m. <em>Touché :</em> 8 (1d8 + 4) dégâts tranchants, plus 7 (2d6) dégâts de feu.</p>",
@@ -6528,7 +6528,7 @@
         {
           "name": "Trait de gangrefeu",
           "type": "weapon",
-          "img": "icons/svg/fire-shield.svg",
+          "img": "icons/magic/unholy/projectile-fireball-green.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque magique à distance :</em> +7, portée 36 m. <em>Touché :</em> 13 (3d8) dégâts de feu.</p>",
@@ -6722,7 +6722,7 @@
         {
           "name": "Immolation (recharge 5–6)",
           "type": "feat",
-          "img": "icons/svg/fire-shield.svg",
+          "img": "icons/magic/fire/blast-jet-stream-embers-orange.webp",
           "system": {
             "description": {
               "value": "<p>Drogha désigne un point à 27 m ou moins : une colonne de flammes vertes en jaillit.</p><p><em>Jet de sauvegarde de Dextérité :</em> DD 15, chaque créature dans une sphère de 4,5 m. <em>Échec :</em> 21 (6d6) dégâts de feu. <em>Réussite :</em> moitié des dégâts.</p>",
@@ -6879,7 +6879,7 @@
         {
           "name": "Pacte de cendre (1/jour)",
           "type": "feat",
-          "img": "icons/svg/upgrade.svg",
+          "img": "icons/magic/fire/flame-burning-creature-skeleton.webp",
           "system": {
             "description": {
               "value": "<p>Quand Drogha tombe à 0 point de vie pour la première fois, il revient à 20 points de vie dans une gerbe de flammes vertes ; chaque créature à 3 m de lui subit 7 (2d6) dégâts de feu.</p>",
@@ -7185,7 +7185,7 @@
         {
           "name": "Résistance à la magie",
           "type": "feat",
-          "img": "icons/svg/book.svg",
+          "img": "icons/magic/symbols/runes-carved-stone-green.webp",
           "system": {
             "description": {
               "value": "<p>L'infernal a l'avantage aux jets de sauvegarde contre les sorts et autres effets magiques.</p>",
@@ -7228,7 +7228,7 @@
         {
           "name": "Aura de gangrefeu",
           "type": "feat",
-          "img": "icons/svg/book.svg",
+          "img": "icons/magic/fire/barrier-wall-flame-ring-yellow.webp",
           "system": {
             "description": {
               "value": "<p>Au début de chacun des tours de l'infernal, chaque créature à 1,5 m ou moins de lui subit 5 (1d10) dégâts de feu.</p>",
@@ -7271,7 +7271,7 @@
         {
           "name": "Chute de météore (1/jour)",
           "type": "feat",
-          "img": "icons/svg/fire-shield.svg",
+          "img": "icons/magic/earth/explosion-lava-stone-green.webp",
           "system": {
             "description": {
               "value": "<p>L'infernal arrive en tombant du ciel comme une pierre en flammes, sur un point qu'il voit.</p><p><em>Jet de sauvegarde de Dextérité :</em> DD 15, chaque créature dans un rayon de 3 m. <em>Échec :</em> 14 (4d6) dégâts de feu. La créature tombe à terre. <em>Réussite :</em> moitié des dégâts.</p>",
@@ -7428,7 +7428,7 @@
         {
           "name": "Attaques multiples",
           "type": "feat",
-          "img": "icons/svg/upgrade.svg",
+          "img": "icons/magic/earth/strike-body-stone-crumble.webp",
           "system": {
             "description": {
               "value": "<p>L'infernal fait deux attaques de Poing de pierre.</p>",
@@ -7544,7 +7544,7 @@
         {
           "name": "Poing de pierre",
           "type": "weapon",
-          "img": "icons/svg/sword.svg",
+          "img": "icons/magic/fire/flame-burning-fist-strike.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque au corps à corps :</em> +8, allonge 1,5 m. <em>Touché :</em> 14 (2d8 + 5) dégâts contondants, plus 7 (2d6) dégâts de feu.</p>",
@@ -7939,7 +7939,7 @@
         {
           "name": "Fanatisme",
           "type": "feat",
-          "img": "icons/svg/book.svg",
+          "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
           "system": {
             "description": {
               "value": "<p>Le cultiste a l'avantage aux jets de sauvegarde contre l'état effrayé tant qu'il voit un chef de la Lame ardente.</p>",
@@ -7982,7 +7982,7 @@
         {
           "name": "Lame courbe",
           "type": "weapon",
-          "img": "icons/svg/sword.svg",
+          "img": "icons/weapons/swords/scimitar-broad.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque au corps à corps :</em> +4, allonge 1,5 m. <em>Touché :</em> 5 (1d6 + 2) dégâts tranchants, plus 2 (1d4) dégâts de feu.</p>",
@@ -8193,7 +8193,7 @@
         {
           "name": "Fléchette",
           "type": "weapon",
-          "img": "icons/svg/target.svg",
+          "img": "icons/weapons/thrown/dart-feathered.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque à distance :</em> +4, portée 6/18 m. <em>Touché :</em> 4 (1d4 + 2) dégâts perforants.</p>",
@@ -8579,7 +8579,7 @@
         {
           "name": "Incantation",
           "type": "feat",
-          "img": "icons/svg/book.svg",
+          "img": "icons/magic/symbols/runes-triangle-orange.webp",
           "system": {
             "description": {
               "value": "<p>Le fanatique lance ses sorts avec le Charisme (DD 12). À volonté : <em>thaumaturgie</em>. 1/jour chacun : <em>bouclier de la foi</em>, <em>immobilisation de personne</em>, <em>injonction</em>.</p>",
@@ -8622,7 +8622,7 @@
         {
           "name": "Attaques multiples",
           "type": "feat",
-          "img": "icons/svg/upgrade.svg",
+          "img": "icons/skills/melee/maneuver-daggers-paired-orange.webp",
           "system": {
             "description": {
               "value": "<p>Le fanatique fait deux attaques de Dague rituelle.</p>",
@@ -8738,7 +8738,7 @@
         {
           "name": "Dague rituelle",
           "type": "weapon",
-          "img": "icons/svg/sword.svg",
+          "img": "icons/weapons/daggers/dagger-ritual-brown.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque au corps à corps :</em> +4, allonge 1,5 m. <em>Touché :</em> 4 (1d4 + 2) dégâts perforants, plus 4 (1d8) dégâts de feu.</p>",
@@ -8949,7 +8949,7 @@
         {
           "name": "Flamme corrompue",
           "type": "weapon",
-          "img": "icons/svg/fire-shield.svg",
+          "img": "icons/magic/fire/projectile-fireball-orange-green.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque magique à distance :</em> +4, portée 18 m. <em>Touché :</em> 9 (2d8) dégâts de feu.</p>",
@@ -9335,7 +9335,7 @@
         {
           "name": "Résistance à la magie",
           "type": "feat",
-          "img": "icons/svg/book.svg",
+          "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-red.webp",
           "system": {
             "description": {
               "value": "<p>Le diablotin a l'avantage aux jets de sauvegarde contre les sorts et autres effets magiques.</p>",
@@ -9378,7 +9378,7 @@
         {
           "name": "Griffes",
           "type": "weapon",
-          "img": "icons/svg/sword.svg",
+          "img": "icons/creatures/claws/claw-hooked-curved.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 5 (1d4 + 3) dégâts perforants.</p>",
@@ -9572,7 +9572,7 @@
         {
           "name": "Trait de feu",
           "type": "weapon",
-          "img": "icons/svg/fire-shield.svg",
+          "img": "icons/magic/fire/projectile-fireball-orange.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque magique à distance :</em> +5, portée 18 m. <em>Touché :</em> 7 (2d6) dégâts de feu.</p>",
@@ -9766,7 +9766,7 @@
         {
           "name": "Invisibilité",
           "type": "feat",
-          "img": "icons/svg/upgrade.svg",
+          "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
           "system": {
             "description": {
               "value": "<p>Le diablotin devient invisible jusqu'à ce qu'il attaque, ou jusqu'à la fin de sa concentration (comme pour un sort).</p>",
@@ -10073,7 +10073,7 @@
         {
           "name": "Incantation",
           "type": "feat",
-          "img": "icons/svg/book.svg",
+          "img": "icons/magic/symbols/runes-star-pentagon-orange.webp",
           "system": {
             "description": {
               "value": "<p>Drogha lance ses sorts avec le Charisme (DD 13). À volonté : <em>décharge occulte</em> (voir Trait de gangrefeu), <em>prestidigitation</em>. 1/jour chacun : <em>armure d'Agathys</em>, <em>injonction</em>, <em>ténèbres</em>.</p>",
@@ -10116,7 +10116,7 @@
         {
           "name": "Lame ardente",
           "type": "weapon",
-          "img": "icons/svg/sword.svg",
+          "img": "icons/weapons/swords/sword-flamberge.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 7 (1d8 + 3) dégâts tranchants, plus 3 (1d6) dégâts de feu.</p>",
@@ -10327,7 +10327,7 @@
         {
           "name": "Trait de gangrefeu",
           "type": "weapon",
-          "img": "icons/svg/fire-shield.svg",
+          "img": "icons/magic/fire/projectile-fireball-green.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque magique à distance :</em> +5, portée 36 m. <em>Touché :</em> 11 (2d10) dégâts de feu.</p>",
@@ -10521,7 +10521,7 @@
         {
           "name": "Immolation (recharge 5–6)",
           "type": "feat",
-          "img": "icons/svg/fire-shield.svg",
+          "img": "icons/magic/fire/flame-burning-earth-yellow.webp",
           "system": {
             "description": {
               "value": "<p>Drogha désigne un point à 18 m ou moins : des flammes vertes jaillissent du sol.</p><p><em>Jet de sauvegarde de Dextérité :</em> DD 13, chaque créature dans une sphère de 3 m. <em>Échec :</em> 10 (3d6) dégâts de feu. <em>Réussite :</em> moitié des dégâts.</p>",
@@ -10678,7 +10678,7 @@
         {
           "name": "Pacte de cendre (1/jour)",
           "type": "feat",
-          "img": "icons/svg/upgrade.svg",
+          "img": "icons/magic/fire/flame-burning-skeleton-explosion.webp",
           "system": {
             "description": {
               "value": "<p>Quand Drogha tombe à 0 point de vie pour la première fois, il revient à 10 points de vie dans une gerbe de flammes vertes ; chaque créature à 1,5 m de lui subit 5 (2d4) dégâts de feu.</p>",
@@ -11927,7 +11927,7 @@
         {
           "name": "Protégée du Cartel",
           "type": "feat",
-          "img": "icons/svg/book.svg",
+          "img": "icons/commodities/currency/coins-plain-stack-gold.webp",
           "system": {
             "description": {
               "value": "<p>Tant qu'elle est à Cabestan, quiconque lève la main sur Grizzla devient l'ennemi du Cartel Gentepression : les gardes du port (utiliser Grunt d'Orgrimmar ou Garde de Hurlevent) arrivent en 1d4 rounds.</p>",
@@ -11970,7 +11970,7 @@
         {
           "name": "Pistolet de poche",
           "type": "weapon",
-          "img": "icons/svg/target.svg",
+          "img": "icons/weapons/guns/gun-pistol-brass.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque à distance :</em> +4, portée 9/27 m. <em>Touché :</em> 5 (1d6 + 2) dégâts perforants.</p>",
@@ -12164,7 +12164,7 @@
         {
           "name": "Affaire conclue (1/jour)",
           "type": "feat",
-          "img": "icons/svg/upgrade.svg",
+          "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
           "system": {
             "description": {
               "value": "<p><em>Réaction.</em> Grizzla tend un sac de pièces ou une promesse écrite : une créature qui l'attaque doit réussir un test de Sagesse DD 13 ou renoncer à son attaque ce tour-ci, le temps d'écouter l'offre.</p>",
@@ -12495,7 +12495,7 @@
         {
           "name": "Résistance à la magie",
           "type": "feat",
-          "img": "icons/svg/book.svg",
+          "img": "icons/magic/defensive/shield-barrier-glowing-triangle-magenta.webp",
           "system": {
             "description": {
               "value": "<p>Ezzavel a l'avantage aux jets de sauvegarde contre les sorts et autres effets magiques.</p>",
@@ -12538,7 +12538,7 @@
         {
           "name": "Attaques multiples",
           "type": "feat",
-          "img": "icons/svg/upgrade.svg",
+          "img": "icons/skills/melee/weapons-crossed-daggers-orange.webp",
           "system": {
             "description": {
               "value": "<p>Ezzavel fait deux attaques : une de Dague gangrenée et une de Sabots.</p>",
@@ -12654,7 +12654,7 @@
         {
           "name": "Dague gangrenée",
           "type": "weapon",
-          "img": "icons/svg/sword.svg",
+          "img": "icons/magic/fire/dagger-rune-enchant-flame-strong-green.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 5 (1d4 + 3) dégâts perforants, plus 3 (1d6) dégâts de feu.</p>",
@@ -12865,7 +12865,7 @@
         {
           "name": "Sabots",
           "type": "weapon",
-          "img": "icons/svg/sword.svg",
+          "img": "icons/commodities/bones/hooves-cloven-grey.webp",
           "system": {
             "description": {
               "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 5 (1d4 + 3) dégâts contondants. Si la cible est de taille M ou inférieure, Ezzavel la repousse de 3 m.</p>",
@@ -13059,7 +13059,7 @@
         {
           "name": "Air de discorde (recharge 5–6)",
           "type": "feat",
-          "img": "icons/svg/explosion.svg",
+          "img": "icons/tools/instruments/flute-simple-wood.webp",
           "system": {
             "description": {
               "value": "<p>Ezzavel joue quelques notes fausses sur une flûte d'os. Seules les créatures de son choix sont concernées.</p><p><em>Jet de sauvegarde de Sagesse :</em> DD 12, chaque créature dans un rayon de 9 m. <em>Échec :</em> La cible est charmée jusqu'à la fin de son prochain tour : elle ne peut pas attaquer Ezzavel et doit utiliser son action pour attaquer la créature la plus proche d'elle, ou se déplacer si personne n'est à portée.</p>",

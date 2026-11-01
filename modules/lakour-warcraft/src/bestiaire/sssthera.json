@@ -141,7 +141,7 @@
     {
       "name": "Amphibie",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/water/bubbles-air-water-light.webp",
       "system": {
         "description": {
           "value": "<p>Sss'thera respire dans l'air comme dans l'eau.</p>",
@@ -185,7 +185,7 @@
     {
       "name": "Incantation",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/water/orb-water-bubbles-blue.webp",
       "system": {
         "description": {
           "value": "<p>Sss'thera lance ses sorts avec le Charisme (DD 14). À volonté : <em>main de mage</em>, <em>rayon de givre</em>. 1/jour chacun : <em>image miroir</em>, <em>immobilisation de personne</em>, <em>ténèbres</em>.</p>",
@@ -229,7 +229,7 @@
     {
       "name": "Attaques multiples",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/spear-tips-three-purple.webp",
       "system": {
         "description": {
           "value": "<p>Sss'thera fait deux attaques : une de Trident et une de Queue, ou deux de Trait des abysses.</p>",
@@ -346,7 +346,7 @@
     {
       "name": "Trident",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/polearms/trident-jeweled-purple.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 7 (1d8 + 3) dégâts perforants.</p>",
@@ -541,7 +541,7 @@
     {
       "name": "Queue",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/commodities/biological/tail-scaled-green.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 6 (1d6 + 3) dégâts contondants. Si la cible est de taille M ou inférieure, elle est agrippée (évasion DD 13).</p>",
@@ -736,7 +736,7 @@
     {
       "name": "Trait des abysses",
       "type": "weapon",
-      "img": "icons/svg/frozen.svg",
+      "img": "icons/magic/water/projectile-water-ice-orb.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque magique à distance :</em> +5, portée 36 m. <em>Touché :</em> 9 (2d8) dégâts de froid.</p>",
@@ -931,7 +931,7 @@
     {
       "name": "Chant des marées (recharge 5–6)",
       "type": "feat",
-      "img": "icons/svg/explosion.svg",
+      "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
       "system": {
         "description": {
           "value": "<p>Sss'thera chante dans une langue oubliée. Seules les créatures de son choix qui l'entendent sont concernées.</p><p><em>Jet de sauvegarde de Sagesse :</em> DD 14, chaque créature dans un rayon de 9 m. <em>Échec :</em> La cible est charmée jusqu'à la fin du prochain tour de Sss'thera ; elle doit utiliser tout son déplacement pour s'approcher d'elle, et ne peut pas l'attaquer.</p>",

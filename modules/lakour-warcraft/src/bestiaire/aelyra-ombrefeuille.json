@@ -148,7 +148,7 @@
     {
       "name": "Fille de la nuit",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
       "system": {
         "description": {
           "value": "<p>Dans la pénombre ou l'obscurité, Aelyra peut prendre l'action Se cacher par une action bonus.</p>",
@@ -192,7 +192,7 @@
     {
       "name": "Attaques multiples",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/ranged/person-archery-bow-attack-gray.webp",
       "system": {
         "description": {
           "value": "<p>Aelyra fait deux attaques, avec son Arc long ou sa Lame de guerre.</p>",
@@ -309,7 +309,7 @@
     {
       "name": "Lame de guerre",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/polearms/glaive-hooked-steel.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 7 (1d8 + 3) dégâts tranchants.</p>",
@@ -504,7 +504,7 @@
     {
       "name": "Arc long",
       "type": "weapon",
-      "img": "icons/svg/target.svg",
+      "img": "icons/weapons/bows/longbow-leather-green.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque à distance :</em> +5, portée 45/180 m. <em>Touché :</em> 7 (1d8 + 3) dégâts perforants.</p>",

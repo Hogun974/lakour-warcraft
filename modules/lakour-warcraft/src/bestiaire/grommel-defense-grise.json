@@ -140,7 +140,7 @@
     {
       "name": "Bâton d'épines",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/staves/staff-vines-green.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +2, allonge 1,5 m. <em>Touché :</em> 3 (1d6) dégâts contondants.</p>",
@@ -335,7 +335,7 @@
     {
       "name": "Éclat de terre",
       "type": "weapon",
-      "img": "icons/svg/lightning.svg",
+      "img": "icons/magic/earth/projectile-spiked-stone-boulder-brown.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque magique à distance :</em> +4, portée 18 m. <em>Touché :</em> 7 (2d6) dégâts contondants.</p>",
@@ -530,7 +530,7 @@
     {
       "name": "Ronces jaillissantes (recharge 5–6)",
       "type": "feat",
-      "img": "icons/svg/explosion.svg",
+      "img": "icons/magic/nature/root-vine-thorned-coil-green.webp",
       "system": {
         "description": {
           "value": "<p><em>Jet de sauvegarde de Dextérité :</em> DD 12, une créature visible à 18 m ou moins. <em>Échec :</em> 9 (2d8) dégâts perforants. La cible est entravée par les ronces jusqu'à la fin du prochain tour de Grommel. <em>Réussite :</em> moitié des dégâts.</p>",

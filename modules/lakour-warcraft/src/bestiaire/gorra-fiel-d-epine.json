@@ -134,7 +134,7 @@
     {
       "name": "Peau d'épines",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/nature/vines-thorned-curled-green.webp",
       "system": {
         "description": {
           "value": "<p>Une créature qui agrippe Gorra, ou la touche à mains nues, subit 2 (1d4) dégâts perforants.</p>",
@@ -178,7 +178,7 @@
     {
       "name": "Gorgée de gangrène",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
       "system": {
         "description": {
           "value": "<p>Les yeux de Gorra luisent de vert. Elle ne peut pas être effrayée et a la résistance aux dégâts de feu ; elle a le désavantage aux jets de sauvegarde contre les effets radiants.</p>",
@@ -222,7 +222,7 @@
     {
       "name": "Attaques multiples",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/melee/strike-axe-red.webp",
       "system": {
         "description": {
           "value": "<p>Gorra fait deux attaques de Hache à épines.</p>",
@@ -339,7 +339,7 @@
     {
       "name": "Hache à épines",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/axes/axe-broad-jagged.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 8 (1d10 + 3) dégâts tranchants, plus 2 (1d4) dégâts de feu.</p>",
@@ -551,7 +551,7 @@
     {
       "name": "Javeline",
       "type": "weapon",
-      "img": "icons/svg/target.svg",
+      "img": "icons/weapons/polearms/spear-simple-stone-green.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque à distance :</em> +5, portée 9/36 m. <em>Touché :</em> 6 (1d6 + 3) dégâts perforants.</p>",
@@ -746,7 +746,7 @@
     {
       "name": "Rugissement de la cheffe (1/jour)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/creatures/abilities/lion-roar-yellow.webp",
       "system": {
         "description": {
           "value": "<p><em>Action bonus.</em> Chaque huran allié à 9 m ou moins qui entend Gorra gagne 5 points de vie temporaires et a l'avantage à sa prochaine attaque.</p>",

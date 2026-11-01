@@ -132,7 +132,7 @@
     {
       "name": "Fanatisme",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
       "system": {
         "description": {
           "value": "<p>Le cultiste a l'avantage aux jets de sauvegarde contre l'état effrayé tant qu'il voit un chef de la Lame ardente.</p>",
@@ -176,7 +176,7 @@
     {
       "name": "Lame courbe",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/weapons/swords/scimitar-broad.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +4, allonge 1,5 m. <em>Touché :</em> 5 (1d6 + 2) dégâts tranchants, plus 2 (1d4) dégâts de feu.</p>",
@@ -388,7 +388,7 @@
     {
       "name": "Fléchette",
       "type": "weapon",
-      "img": "icons/svg/target.svg",
+      "img": "icons/weapons/thrown/dart-feathered.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque à distance :</em> +4, portée 6/18 m. <em>Touché :</em> 4 (1d4 + 2) dégâts perforants.</p>",

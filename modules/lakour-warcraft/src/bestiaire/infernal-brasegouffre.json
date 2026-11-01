@@ -122,7 +122,7 @@
     {
       "name": "Résistance à la magie",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/symbols/runes-carved-stone-green.webp",
       "system": {
         "description": {
           "value": "<p>L'infernal a l'avantage aux jets de sauvegarde contre les sorts et autres effets magiques.</p>",
@@ -166,7 +166,7 @@
     {
       "name": "Aura de gangrefeu",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/fire/barrier-wall-flame-ring-yellow.webp",
       "system": {
         "description": {
           "value": "<p>Au début de chacun des tours de l'infernal, chaque créature à 1,5 m ou moins de lui subit 5 (1d10) dégâts de feu.</p>",
@@ -210,7 +210,7 @@
     {
       "name": "Chute de météore (1/jour)",
       "type": "feat",
-      "img": "icons/svg/fire-shield.svg",
+      "img": "icons/magic/earth/explosion-lava-stone-green.webp",
       "system": {
         "description": {
           "value": "<p>L'infernal arrive en tombant du ciel comme une pierre en flammes, sur un point qu'il voit.</p><p><em>Jet de sauvegarde de Dextérité :</em> DD 15, chaque créature dans un rayon de 3 m. <em>Échec :</em> 14 (4d6) dégâts de feu. La créature tombe à terre. <em>Réussite :</em> moitié des dégâts.</p>",
@@ -368,7 +368,7 @@
     {
       "name": "Attaques multiples",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/earth/strike-body-stone-crumble.webp",
       "system": {
         "description": {
           "value": "<p>L'infernal fait deux attaques de Poing de pierre.</p>",
@@ -485,7 +485,7 @@
     {
       "name": "Poing de pierre",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/magic/fire/flame-burning-fist-strike.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +8, allonge 1,5 m. <em>Touché :</em> 14 (2d8 + 5) dégâts contondants, plus 7 (2d6) dégâts de feu.</p>",

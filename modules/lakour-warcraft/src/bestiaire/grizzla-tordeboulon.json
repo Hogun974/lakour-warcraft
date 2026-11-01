@@ -140,7 +140,7 @@
     {
       "name": "Protégée du Cartel",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/commodities/currency/coins-plain-stack-gold.webp",
       "system": {
         "description": {
           "value": "<p>Tant qu'elle est à Cabestan, quiconque lève la main sur Grizzla devient l'ennemi du Cartel Gentepression : les gardes du port (utiliser Grunt d'Orgrimmar ou Garde de Hurlevent) arrivent en 1d4 rounds.</p>",
@@ -184,7 +184,7 @@
     {
       "name": "Pistolet de poche",
       "type": "weapon",
-      "img": "icons/svg/target.svg",
+      "img": "icons/weapons/guns/gun-pistol-brass.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque à distance :</em> +4, portée 9/27 m. <em>Touché :</em> 5 (1d6 + 2) dégâts perforants.</p>",
@@ -379,7 +379,7 @@
     {
       "name": "Affaire conclue (1/jour)",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
       "system": {
         "description": {
           "value": "<p><em>Réaction.</em> Grizzla tend un sac de pièces ou une promesse écrite : une créature qui l'attaque doit réussir un test de Sagesse DD 13 ou renoncer à son attaque ce tour-ci, le temps d'écouter l'offre.</p>",

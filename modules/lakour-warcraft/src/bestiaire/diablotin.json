@@ -140,7 +140,7 @@
     {
       "name": "Résistance à la magie",
       "type": "feat",
-      "img": "icons/svg/book.svg",
+      "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-red.webp",
       "system": {
         "description": {
           "value": "<p>Le diablotin a l'avantage aux jets de sauvegarde contre les sorts et autres effets magiques.</p>",
@@ -184,7 +184,7 @@
     {
       "name": "Griffes",
       "type": "weapon",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/creatures/claws/claw-hooked-curved.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 5 (1d4 + 3) dégâts perforants.</p>",
@@ -379,7 +379,7 @@
     {
       "name": "Trait de feu",
       "type": "weapon",
-      "img": "icons/svg/fire-shield.svg",
+      "img": "icons/magic/fire/projectile-fireball-orange.webp",
       "system": {
         "description": {
           "value": "<p><em>Attaque magique à distance :</em> +5, portée 18 m. <em>Touché :</em> 7 (2d6) dégâts de feu.</p>",
@@ -574,7 +574,7 @@
     {
       "name": "Invisibilité",
       "type": "feat",
-      "img": "icons/svg/upgrade.svg",
+      "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
       "system": {
         "description": {
           "value": "<p>Le diablotin devient invisible jusqu'à ce qu'il attaque, ou jusqu'à la fin de sa concentration (comme pour un sort).</p>",
