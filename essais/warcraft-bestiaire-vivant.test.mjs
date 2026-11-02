@@ -157,8 +157,8 @@ test("bestiaire vivant : chaque règle cassée est détectée par la batterie", 
   assert.deepEqual(passees, [], "mutations passées inaperçues");
 });
 
-test("bestiaire vivant : 52 PNJ, toutes les factions servent, un PNJ hors table prend les couleurs neutres", () => {
-  assert.equal(ACTEURS.length, 52);   // 30 du bestiaire, 6 de l'aventure, 12 de la campagne, 4 du one-shot
+test("bestiaire vivant : 69 PNJ, toutes les factions servent, un PNJ hors table prend les couleurs neutres", () => {
+  assert.equal(ACTEURS.length, 69);   // 30 du bestiaire, 6 de l'aventure, 12 de la campagne, 4 du one-shot, 3 boss du donjon, 5 montures, 9 rares
   assert.equal(CLES_BESTIAIRE.size, 30);
   assert.deepEqual(Object.keys(FACTIONS).filter(f => !Object.values(FACTION_PNJ).includes(f)), [], "faction sans PNJ");
   // Hors table (PNJ d'essai) : anneau neutre, mais la batterie ci-dessus refuse tout PNJ du module absent de FACTION_PNJ.

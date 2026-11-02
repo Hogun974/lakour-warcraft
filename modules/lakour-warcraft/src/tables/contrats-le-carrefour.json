@@ -1,0 +1,269 @@
+{
+  "_id": "RSBhBDeioyO2ibMQ",
+  "_key": "!tables!RSBhBDeioyO2ibMQ",
+  "name": "Contrats — Le Carrefour",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Un poteau de bois au pied de la tour de guet, couvert d'affiches en orc, en taurahe et en commun. Le MJ IA tire trois contrats par jour de jeu sur cette table (relancez les doublons et les contrats déjà pris) ; voir le journal « Tableau des contrats ».</p>",
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "contrats-le-carrefour",
+      "aventure": "Les Tarides vivantes",
+      "collection": "contrats"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "p21ghuuVtblqeqEp",
+      "_key": "!tables.results!RSBhBDeioyO2ibMQ.p21ghuuVtblqeqEp",
+      "type": "text",
+      "name": "Traque — La bête aux yeux verts",
+      "description": "<p><strong>Commanditaire :</strong> Gornak Croc-Gris, intendant du Carrefour.</p><p>Un loup gangrené, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.kkJpRCb1TYvyoexd]{Crocs-de-Cendre}, attaque les caravanes la nuit avec une meute qu'il a pervertie. Rapporter sa tête. Les chamans voudraient aussi savoir à quelle oasis il a bu.</p><p><strong>Récompense :</strong> 60 po et <strong>+4</strong> de réputation auprès de : Horde (Le Carrefour).</p>",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "traque",
+            "po": 60,
+            "faction": "horde",
+            "reputation": 4
+          }
+        }
+      }
+    },
+    {
+      "_id": "F2FCkh6dPH2TxBBo",
+      "_key": "!tables.results!RSBhBDeioyO2ibMQ.F2FCkh6dPH2TxBBo",
+      "type": "text",
+      "name": "Traque — Le fer qui marche",
+      "description": "<p><strong>Commanditaire :</strong> les éclaireurs de la route de Fort-Rivet.</p><p>Une machine gobeline sans pilote, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.MSzbsS8RNDhbCU6K]{Rouille-Cœur}, a découpé deux kodos et une tente. L'arrêter. Vizzik Tirelire, à Fort-Rivet, paierait cher pour en récupérer le moteur.</p><p><strong>Récompense :</strong> 70 po et <strong>+3</strong> de réputation auprès de : Horde (Le Carrefour).</p>",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "traque",
+            "po": 70,
+            "faction": "horde",
+            "reputation": 3
+          }
+        }
+      }
+    },
+    {
+      "_id": "vTDKXCa2stEYDGdp",
+      "_key": "!tables.results!RSBhBDeioyO2ibMQ.vTDKXCa2stEYDGdp",
+      "type": "text",
+      "name": "Récolte — Lichen de sang",
+      "description": "<p><strong>Commanditaire :</strong> Tahko Vent-Clair, gardien du Cercle cénarien.</p><p>Gratter dix brins de lichen rouge sur les rochers autour du kraal de Ronceroc ([[/check skill=nat dc=12]]{Nature DD 12} pour ne pas abîmer la souche), sans provoquer les hurans. Les chamans en font un onguent contre la fièvre de gangrène.</p><p><strong>Récompense :</strong> 30 po et <strong>+2</strong> de réputation auprès de : Cercle cénarien.</p>",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "recolte",
+            "po": 30,
+            "faction": "cercle-cenarien",
+            "reputation": 2
+          }
+        }
+      }
+    },
+    {
+      "_id": "H6mT7wVWl1qy3j8U",
+      "_key": "!tables.results!RSBhBDeioyO2ibMQ.H6mT7wVWl1qy3j8U",
+      "type": "text",
+      "name": "Récolte — Plumes pour les flèches",
+      "description": "<p><strong>Commanditaire :</strong> la fléchière du Carrefour, une troll.</p><p>Rapporter douze longues plumes de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.hOTVQNbVXommXjaP]{harpie}, prises sur les pitons de la piste de Fort-Rivet. Les harpies chantent ; on dit que leur vieille matriarche chante mieux que toutes.</p><p><strong>Récompense :</strong> 35 po et <strong>+2</strong> de réputation auprès de : Horde (Le Carrefour).</p>",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "recolte",
+            "po": 35,
+            "faction": "horde",
+            "reputation": 2
+          }
+        }
+      }
+    },
+    {
+      "_id": "kH3uNx8KJKfgt2x7",
+      "_key": "!tables.results!RSBhBDeioyO2ibMQ.kH3uNx8KJKfgt2x7",
+      "type": "text",
+      "name": "Escorte — Le vieil homme et l'oasis",
+      "description": "<p><strong>Commanditaire :</strong> le Cercle cénarien.</p><p>Escorter Ahote Corne-Lente, druide tauren très âgé, jusqu'à une oasis souillée où il veut chanter trois nuits pour la purifier. Il marche lentement et refuse qu'on tue les bêtes malades qui y boivent.</p><p><strong>Récompense :</strong> 50 po et <strong>+3</strong> de réputation auprès de : Cercle cénarien.</p>",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "escorte",
+            "po": 50,
+            "faction": "cercle-cenarien",
+            "reputation": 3
+          }
+        }
+      }
+    },
+    {
+      "_id": "jAf5x09143f0ZFk8",
+      "_key": "!tables.results!RSBhBDeioyO2ibMQ.jAf5x09143f0ZFk8",
+      "type": "text",
+      "name": "Escorte — La caravane de sel",
+      "description": "<p><strong>Commanditaire :</strong> un marchand orc du Carrefour.</p><p>Escorter quatre kodos chargés de sel jusqu'à Gué-de-Sel, trois jours de piste. Les Kolkar rôdent, et l'un des conducteurs vend la route aux pillards.</p><p><strong>Récompense :</strong> 60 po et <strong>+3</strong> de réputation auprès de : Horde (Le Carrefour).</p>",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "escorte",
+            "po": 60,
+            "faction": "horde",
+            "reputation": 3
+          }
+        }
+      }
+    },
+    {
+      "_id": "TejdoOTKQ3pDK9b3",
+      "_key": "!tables.results!RSBhBDeioyO2ibMQ.TejdoOTKQ3pDK9b3",
+      "type": "text",
+      "name": "Avis de recherche — Le déserteur",
+      "description": "<p><strong>Commanditaire :</strong> Grizzak Œil-Fendu, pour les Kor'kron.</p><p>Ramener vivant le grunt Rakhar Dent-Fendue, qui a quitté son poste en volant six haches de guerre pour les vendre aux quilboars. Il se cache chez les hurans de Ronceroc. Les Kor'kron veulent les noms de ses acheteurs.</p><p><strong>Récompense :</strong> 70 po et <strong>+4</strong> de réputation auprès de : Garde kor'kron.</p>",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "avis",
+            "po": 70,
+            "faction": "kor-kron",
+            "reputation": 4
+          }
+        }
+      }
+    },
+    {
+      "_id": "sf0JaElmuUJw6lI0",
+      "_key": "!tables.results!RSBhBDeioyO2ibMQ.sf0JaElmuUJw6lI0",
+      "type": "text",
+      "name": "Avis de recherche — Les pillards kolkar",
+      "description": "<p><strong>Commanditaire :</strong> le chef de guerre du Carrefour.</p><p>Mort ou vif : @UUID[Compendium.lakour-warcraft.bestiaire.Actor.QUScvpfLBVyjpYzE]{Khan Ventrouge}, seigneur kolkar, qui pille les deux côtés de la frontière. Theramore offre la même prime : il ne faut pas que l'Alliance la touche avant nous.</p><p><strong>Récompense :</strong> 80 po et <strong>+4</strong> de réputation auprès de : Horde (Le Carrefour).</p>",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "avis",
+            "po": 80,
+            "faction": "horde",
+            "reputation": 4
+          }
+        }
+      }
+    },
+    {
+      "_id": "T1eibiILvgOCQSHR",
+      "_key": "!tables.results!RSBhBDeioyO2ibMQ.T1eibiILvgOCQSHR",
+      "type": "text",
+      "name": "Livraison — Ordres scellés",
+      "description": "<p><strong>Commanditaire :</strong> un messager kor'kron.</p><p>Porter des ordres scellés au porte-voix de la Horde à Gué-de-Sel, en mains propres et en deux jours. Un espion de la Lame ardente suit le groupe depuis le départ.</p><p><strong>Récompense :</strong> 40 po et <strong>+3</strong> de réputation auprès de : Garde kor'kron.</p>",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "livraison",
+            "po": 40,
+            "faction": "kor-kron",
+            "reputation": 3
+          }
+        }
+      }
+    },
+    {
+      "_id": "1h3cJYqw354Kf8Nf",
+      "_key": "!tables.results!RSBhBDeioyO2ibMQ.1h3cJYqw354Kf8Nf",
+      "type": "text",
+      "name": "Livraison — Graines d'oasis",
+      "description": "<p><strong>Commanditaire :</strong> Tahko Vent-Clair.</p><p>Porter un sac de graines bénies par les druides à l'oasis du Bosquet-aux-Saules et les semer à la pleine lune. Les quilboars ont fait leur bauge près de l'eau.</p><p><strong>Récompense :</strong> 25 po et <strong>+2</strong> de réputation auprès de : Cercle cénarien.</p>",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "livraison",
+            "po": 25,
+            "faction": "cercle-cenarien",
+            "reputation": 2
+          }
+        }
+      }
+    }
+  ]
+}

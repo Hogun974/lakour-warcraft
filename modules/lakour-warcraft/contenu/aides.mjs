@@ -39,6 +39,13 @@ export function html(texte = "") {
 // Une référence orpheline fait échouer la fabrication.
 export const ref = cle => ({ __ref: cle });
 
+// Range les documents d'un supplément dans sa collection (flags.lakour-warcraft.collection) : les objets des suppléments
+// partagent le compendium « objets » avec ceux d'Azeroth et de l'arsenal, et les essais les comptent à part.
+export function collection(nom, documents) {
+  for (const d of documents) d.flags[MODULE].collection = nom;
+  return documents;
+}
+
 // ---------- Journaux
 
 export function journal({ cle, nom, pages, visible = true }) {

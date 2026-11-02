@@ -1,0 +1,218 @@
+{
+  "_id": "oASJ43k3lBw6jsjG",
+  "_key": "!items!oASJ43k3lBw6jsjG",
+  "name": "Arc composite du khan Ventrouge",
+  "type": "weapon",
+  "img": "icons/weapons/bows/longbow-recurve-leather-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un arc de corne et de tendons peint en rouge, si puissant que seul un centaure le bandait sans peine. C'est une <strong>arme +1</strong> (arc long). Les Kolkar reconnaissent l'arc de leur khan : celui qui le porte est défié, ou craint.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "arc-composite-du-khan",
+    "price": {
+      "value": 600,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "range": {
+      "value": 45,
+      "long": 180,
+      "reach": null,
+      "units": "m"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 8,
+        "bonus": "",
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        },
+        "types": [
+          "piercing"
+        ]
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        },
+        "types": []
+      }
+    },
+    "armor": {
+      "value": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "martialR",
+      "baseItem": "longbow"
+    },
+    "magicalBonus": 1,
+    "properties": [
+      "amm",
+      "hvy",
+      "two",
+      "mgc"
+    ],
+    "proficient": null,
+    "activities": {
+      "f66i93kSqJfVQCax": {
+        "_id": "f66i93kSqJfVQCax",
+        "type": "attack",
+        "name": "",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "45",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "",
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "ranged",
+            "classification": "weapon"
+          }
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        }
+      }
+    },
+    "ammunition": {},
+    "mastery": "slow"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "arc-composite-du-khan",
+      "collection": "rares"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

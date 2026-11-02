@@ -1,0 +1,566 @@
+{
+  "_id": "HhMVwbW30U3DVkqW",
+  "_key": "!actors!HhMVwbW30U3DVkqW",
+  "name": "Kodo des Tarides",
+  "type": "npc",
+  "img": "modules/lakour-warcraft/assets/jetons/monture-kodo.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 22,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 7,
+        "proficient": 0
+      },
+      "con": {
+        "value": 19,
+        "proficient": 0
+      },
+      "int": {
+        "value": 2,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 5,
+        "proficient": 0
+      }
+    },
+    "skills": {},
+    "attributes": {
+      "ac": {
+        "flat": 13,
+        "calc": "natural"
+      },
+      "hp": {
+        "value": 94,
+        "max": 94,
+        "temp": null,
+        "tempmax": null,
+        "formula": "9d12 + 36"
+      },
+      "movement": {
+        "units": "m",
+        "hover": false,
+        "ignoredDifficultTerrain": [],
+        "walk": "9"
+      },
+      "senses": {
+        "ranges": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null
+        },
+        "units": "m",
+        "special": ""
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Un colosse gris à peau de cuir, gros comme une maison, avec deux cornes en croissant et une queue qui balaie les mouches. Les taurens et les orcs le chargent de tout ce qui doit traverser les Tarides.</p><h3>Note du MJ</h3><p>Lent mais increvable. Un kodo effrayé (feu, démon, odeur de sang de kodo) fonce droit devant lui : test de Sagesse (Dressage) DD 13 par le conducteur pour le calmer. Les kodos vont mourir dans un cimetière connu d'eux seuls, quelque part au sud-ouest : une rumeur pour des aventuriers curieux.</p>",
+        "public": "<p>Un colosse gris à peau de cuir, gros comme une maison, avec deux cornes en croissant et une queue qui balaie les mouches. Les taurens et les orcs le chargent de tout ce qui doit traverser les Tarides.</p>"
+      },
+      "alignment": "Non aligné",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 3
+    },
+    "traits": {
+      "size": "huge",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "",
+        "communication": {}
+      }
+    },
+    "source": {
+      "book": "La Kour Warcraft",
+      "page": "",
+      "custom": "",
+      "license": "CC-BY-4.0",
+      "rules": "2024",
+      "revision": 1
+    }
+  },
+  "items": [
+    {
+      "name": "Bête de somme",
+      "type": "feat",
+      "img": "icons/creatures/mammals/ox-buffalo-horned-green.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Capacité de charge : 660 kg</strong> (pousser, tirer ou soulever : 1320 kg). Porte un palanquin pour quatre cavaliers de taille M, ou une caravane entière de marchandises. Vitesse 9 m, mais il marche douze heures sans se fatiguer. Prix : 300 po au Carrefour (500 po avec le palanquin).</p>",
+          "chat": ""
+        },
+        "identifier": "bete-de-somme",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "GyyGdoz1vlB3hHcz",
+      "_key": "!actors.items!HhMVwbW30U3DVkqW.GyyGdoz1vlB3hHcz"
+    },
+    {
+      "name": "Coup de tête",
+      "type": "weapon",
+      "img": "icons/creatures/mammals/bull-horned-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Attaque au corps à corps :</em> +8, allonge 3 m. <em>Touché :</em> 17 (2d10 + 6) dégâts contondants.</p>",
+          "chat": ""
+        },
+        "identifier": "coup-de-tete",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "identified": true,
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 10,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": 1,
+              "formula": ""
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": 3,
+          "units": "m"
+        },
+        "activities": {
+          "TpAx0EzCsdEy5jjv": {
+            "_id": "TpAx0EzCsdEy5jjv",
+            "type": "attack",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 10,
+                  "bonus": "6",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {
+        "lakour-warcraft": {
+          "toucher": 8
+        }
+      },
+      "sort": 200,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "VdfGA6zFBogA0kvf",
+      "_key": "!actors.items!HhMVwbW30U3DVkqW.VdfGA6zFBogA0kvf"
+    },
+    {
+      "name": "Piétinement (recharge 5–6)",
+      "type": "feat",
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Jet de sauvegarde de Dextérité :</em> DD 16, chaque créature de taille G ou inférieure dont le kodo traverse l'espace en se déplaçant de toute sa vitesse, sans provoquer d'attaque d'opportunité. <em>Échec :</em> 16 (3d10) dégâts contondants. La cible tombe à terre. <em>Réussite :</em> moitié des dégâts.</p>",
+          "chat": ""
+        },
+        "identifier": "pietinement",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "K98HNUB5mZh13hxd": {
+            "_id": "K98HNUB5mZh13hxd",
+            "type": "save",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": 10,
+                  "bonus": "",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "16"
+              }
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 300,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "ChZ0TyfNuKMcTKM9",
+      "_key": "!actors.items!HhMVwbW30U3DVkqW.ChZ0TyfNuKMcTKM9"
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Kodo des Tarides",
+    "actorLink": false,
+    "disposition": 1,
+    "displayName": 20,
+    "displayBars": 20,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "modules/lakour-warcraft/assets/jetons/monture-kodo.svg",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#8b5a2b",
+        "background": "#2b1a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "monture-kodo",
+      "role": "troupe",
+      "mj": "Lent mais increvable. Un kodo effrayé (feu, démon, odeur de sang de kodo) fonce droit devant lui : test de Sagesse (Dressage) DD 13 par le conducteur pour le calmer. Les kodos vont mourir dans un cimetière connu d'eux seuls, quelque part au sud-ouest : une rumeur pour des aventuriers curieux.",
+      "armure": "cuir épais",
+      "collection": "montures"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

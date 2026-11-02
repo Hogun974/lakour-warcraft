@@ -1,0 +1,462 @@
+{
+  "_id": "3DFGDjCiL0OKaoAq",
+  "_key": "!actors!3DFGDjCiL0OKaoAq",
+  "name": "Bélier de montagne de Forgefer",
+  "type": "npc",
+  "img": "modules/lakour-warcraft/assets/jetons/monture-belier-de-forgefer.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 16,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 12,
+        "proficient": 0
+      },
+      "con": {
+        "value": 15,
+        "proficient": 0
+      },
+      "int": {
+        "value": 2,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 11,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 6,
+        "proficient": 0
+      }
+    },
+    "skills": {
+      "ath": {
+        "value": 1,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 12,
+        "calc": "natural"
+      },
+      "hp": {
+        "value": 30,
+        "max": 30,
+        "temp": null,
+        "tempmax": null,
+        "formula": "4d10 + 8"
+      },
+      "movement": {
+        "units": "m",
+        "hover": false,
+        "ignoredDifficultTerrain": [],
+        "walk": "12",
+        "climb": "9"
+      },
+      "senses": {
+        "ranges": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null
+        },
+        "units": "m",
+        "special": ""
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Un bélier gris des montagnes de Dun Morogh, large comme un poney, aux cornes enroulées cerclées de bronze. Les nains en élèvent depuis toujours et le mènent par la voix plus que par les rênes.</p><h3>Note du MJ</h3><p>Une monture robuste et têtue, idéale en montagne et dans les collines rouges des Tarides. Il obéit à qui le nourrit et refuse d'avancer s'il sent un démon (gangrène, Lame ardente) : un indice gratuit pour le MJ.</p>",
+        "public": "<p>Un bélier gris des montagnes de Dun Morogh, large comme un poney, aux cornes enroulées cerclées de bronze. Les nains en élèvent depuis toujours et le mènent par la voix plus que par les rênes.</p>"
+      },
+      "alignment": "Non aligné",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 0.5
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "",
+        "communication": {}
+      }
+    },
+    "source": {
+      "book": "La Kour Warcraft",
+      "page": "",
+      "custom": "",
+      "license": "CC-BY-4.0",
+      "rules": "2024",
+      "revision": 1
+    }
+  },
+  "items": [
+    {
+      "name": "Bête de selle",
+      "type": "feat",
+      "img": "icons/creatures/mammals/goat-horned-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Capacité de charge : 240 kg</strong> (pousser, tirer ou soulever : 480 kg). Porte un cavalier de taille M ou P et son paquetage sans ralentir. Vitesse 12 m, escalade 9 m. Prix : 150 po chez les éleveurs nains de Theramore (réputation Amical auprès de l'Alliance), 30 po la selle et le harnais.</p>",
+          "chat": ""
+        },
+        "identifier": "bete-de-selle",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "e6hvCEZONHCwbbl6",
+      "_key": "!actors.items!3DFGDjCiL0OKaoAq.e6hvCEZONHCwbbl6"
+    },
+    {
+      "name": "Pied de montagne",
+      "type": "feat",
+      "img": "icons/environment/wilderness/cave-entrance-mountain-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Le bélier a l'avantage aux tests et aux jets de sauvegarde faits pour ne pas tomber à terre, et ignore le terrain difficile des pentes rocheuses. Son cavalier en profite aussi pour rester en selle.</p>",
+          "chat": ""
+        },
+        "identifier": "pied-de-montagne",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 200,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "wRtVCLFLzYWr01oo",
+      "_key": "!actors.items!3DFGDjCiL0OKaoAq.wRtVCLFLzYWr01oo"
+    },
+    {
+      "name": "Coup de cornes",
+      "type": "weapon",
+      "img": "icons/commodities/bones/horn-curved-grey.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 7 (1d8 + 3) dégâts contondants. Si le bélier s'est déplacé d'au moins 6 m en ligne droite vers la cible juste avant, elle subit 7 (2d6) dégâts contondants de plus et, si elle est de taille G ou inférieure, tombe à terre.</p>",
+          "chat": ""
+        },
+        "identifier": "coup-de-cornes",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "identified": true,
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": 1,
+              "formula": ""
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": 1.5,
+          "units": "m"
+        },
+        "activities": {
+          "YlB6VIGlASjsFUCV": {
+            "_id": "YlB6VIGlASjsFUCV",
+            "type": "attack",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 8,
+                  "bonus": "3",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {
+        "lakour-warcraft": {
+          "toucher": 5
+        }
+      },
+      "sort": 300,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "lwt1W30F9HjIRIEj",
+      "_key": "!actors.items!3DFGDjCiL0OKaoAq.lwt1W30F9HjIRIEj"
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Bélier de montagne de Forgefer",
+    "actorLink": false,
+    "disposition": 1,
+    "displayName": 20,
+    "displayBars": 20,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/lakour-warcraft/assets/jetons/monture-belier-de-forgefer.svg",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#8b5a2b",
+        "background": "#2b1a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "monture-belier-de-forgefer",
+      "role": "troupe",
+      "mj": "Une monture robuste et têtue, idéale en montagne et dans les collines rouges des Tarides. Il obéit à qui le nourrit et refuse d'avancer s'il sent un démon (gangrène, Lame ardente) : un indice gratuit pour le MJ.",
+      "armure": "toison épaisse",
+      "collection": "montures"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

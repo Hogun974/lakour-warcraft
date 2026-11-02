@@ -1,0 +1,93 @@
+{
+  "_id": "hwGD7Ngm4yzU54cq",
+  "_key": "!tables!hwGD7Ngm4yzU54cq",
+  "name": "Butin — Mère-Brasier (Mèche-Noire)",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Quand Mère-Brasier s'éteint, tirez une fois. Si elle a été libérée sans être tuée, ne tirez pas : le groupe reçoit le Cœur de braise captif.</p>",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "butin-mere-brasier",
+      "aventure": "La Raffinerie de Mèche-Noire",
+      "collection": "donjon-meche-noire"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "z7TgjelvTtj5LCbL",
+      "_key": "!tables.results!hwGD7Ngm4yzU54cq.z7TgjelvTtj5LCbL",
+      "type": "document",
+      "name": "Cœur de braise captif",
+      "description": "",
+      "range": [
+        1,
+        2
+      ],
+      "weight": 2,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.KU3SmSvUx0N53FCJ"
+    },
+    {
+      "_id": "anw6qTouQC2cbrKN",
+      "_key": "!tables.results!hwGD7Ngm4yzU54cq.anw6qTouQC2cbrKN",
+      "type": "document",
+      "name": "Flasque d'huile de feu",
+      "description": "",
+      "range": [
+        3,
+        4
+      ],
+      "weight": 2,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.a8lnV8qn64Glgrtr"
+    },
+    {
+      "_id": "K3bghU7YkRmZh63e",
+      "_key": "!tables.results!hwGD7Ngm4yzU54cq.K3bghU7YkRmZh63e",
+      "type": "document",
+      "name": "Fouet-chaîne de l'Enchaînée",
+      "description": "",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.VrpW4E2Bl9wYDBdc"
+    },
+    {
+      "_id": "hdulOZJDyYBcKX1T",
+      "_key": "!tables.results!hwGD7Ngm4yzU54cq.hdulOZJDyYBcKX1T",
+      "type": "document",
+      "name": "Potion de mana mineure",
+      "description": "",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.TtyEZzHdraWaFyZJ"
+    }
+  ]
+}

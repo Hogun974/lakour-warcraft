@@ -1,0 +1,701 @@
+{
+  "_id": "kkJpRCb1TYvyoexd",
+  "_key": "!actors!kkJpRCb1TYvyoexd",
+  "name": "Crocs-de-Cendre, le loup gangrené",
+  "type": "npc",
+  "img": "modules/lakour-warcraft/assets/jetons/rare-crocs-de-cendre.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 18,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 15,
+        "proficient": 0
+      },
+      "con": {
+        "value": 16,
+        "proficient": 0
+      },
+      "int": {
+        "value": 4,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 13,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 7,
+        "proficient": 0
+      }
+    },
+    "skills": {
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 14,
+        "calc": "natural"
+      },
+      "hp": {
+        "value": 68,
+        "max": 68,
+        "temp": null,
+        "tempmax": null,
+        "formula": "8d10 + 24"
+      },
+      "movement": {
+        "units": "m",
+        "hover": false,
+        "ignoredDifficultTerrain": [],
+        "walk": "15"
+      },
+      "senses": {
+        "ranges": {
+          "darkvision": 18,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null
+        },
+        "units": "m",
+        "special": ""
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Un loup énorme au pelage roussi par plaques, aux yeux qui luisent d'un vert malade. Là où il a dormi, l'herbe est brûlée en cercle.</p><h3>Note du MJ</h3><p>Un loup du nord des Tarides qui a bu à une oasis souillée par la gangrène de Rouge-Veine. Il rôde entre le Carrefour et la mine, et attaque les caravanes de nuit, avec la meute qu'il a pervertie. Il fuit à 15 PV et revient le lendemain, sauf si on le traque jusqu'à sa tanière ([[/check skill=sur dc=14]]{Survie DD 14}, une demi-journée). <strong>Butin garanti :</strong> @UUID[Compendium.lakour-warcraft.objets.Item.HfEf1Sb1c8aYVnYp]{Collier de Crocs-de-Cendre}, et une prime de 60 po au Carrefour (contrat « La bête aux yeux verts »).</p>",
+        "public": "<p>Un loup énorme au pelage roussi par plaques, aux yeux qui luisent d'un vert malade. Là où il a dormi, l'herbe est brûlée en cercle.</p>"
+      },
+      "alignment": "Non aligné",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 3
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "fire"
+        ],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "",
+        "communication": {}
+      }
+    },
+    "source": {
+      "book": "La Kour Warcraft",
+      "page": "",
+      "custom": "",
+      "license": "CC-BY-4.0",
+      "rules": "2024",
+      "revision": 1
+    }
+  },
+  "items": [
+    {
+      "name": "Sang gangrené",
+      "type": "feat",
+      "img": "icons/skills/wounds/blood-cells-disease-green.webp",
+      "system": {
+        "description": {
+          "value": "<p>Quand Crocs-de-Cendre est touché par une attaque au corps à corps, un sang vert et brûlant gicle : l'attaquant, s'il est à 1,5 m ou moins, subit 3 (1d6) dégâts de feu.</p>",
+          "chat": ""
+        },
+        "identifier": "sang-gangrene",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "YOtOEpGUwLxeusNO",
+      "_key": "!actors.items!kkJpRCb1TYvyoexd.YOtOEpGUwLxeusNO"
+    },
+    {
+      "name": "Attaques multiples",
+      "type": "feat",
+      "img": "icons/creatures/mammals/wolf-shadow-black.webp",
+      "system": {
+        "description": {
+          "value": "<p>Crocs-de-Cendre fait deux attaques de Morsure de cendre.</p>",
+          "chat": ""
+        },
+        "identifier": "attaques-multiples",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "KHW2RuuQYPzTRRbU": {
+            "_id": "KHW2RuuQYPzTRRbU",
+            "type": "utility",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 200,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "Jt3KuDqpmXESc12e",
+      "_key": "!actors.items!kkJpRCb1TYvyoexd.Jt3KuDqpmXESc12e"
+    },
+    {
+      "name": "Morsure de cendre",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fang-tooth-venomous.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Attaque au corps à corps :</em> +6, allonge 1,5 m. <em>Touché :</em> 9 (1d10 + 4) dégâts perforants, plus 3 (1d6) dégâts de feu. Si la cible est de taille M ou inférieure, elle doit réussir un jet de sauvegarde de Force DD 14 ou tomber à terre.</p>",
+          "chat": ""
+        },
+        "identifier": "morsure-de-cendre",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "identified": true,
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 10,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": 1,
+              "formula": ""
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": 1.5,
+          "units": "m"
+        },
+        "activities": {
+          "AD2PdUvcowSMKeYU": {
+            "_id": "AD2PdUvcowSMKeYU",
+            "type": "attack",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 10,
+                  "bonus": "4",
+                  "types": [
+                    "piercing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                },
+                {
+                  "number": 1,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "fire"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {
+        "lakour-warcraft": {
+          "toucher": 6
+        }
+      },
+      "sort": 300,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "MmFWCkK2WWxLQ5u7",
+      "_key": "!actors.items!kkJpRCb1TYvyoexd.MmFWCkK2WWxLQ5u7"
+    },
+    {
+      "name": "Hurlement de la meute (recharge 5–6)",
+      "type": "feat",
+      "img": "icons/creatures/mammals/wolf-howl-moon-forest-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Crocs-de-Cendre hurle à glacer le sang. La première fois dans un combat, trois loups des bois accourent et arrivent au round suivant.</p><p><em>Jet de sauvegarde de Sagesse :</em> DD 11, chaque créature dans un rayon de 9 m. <em>Échec :</em> La cible est effrayée jusqu'à la fin de son prochain tour.</p>",
+          "chat": ""
+        },
+        "identifier": "hurlement-de-la-meute",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "Drfi5G8nP0fL4PkK": {
+            "_id": "Drfi5G8nP0fL4PkK",
+            "type": "save",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "radius",
+                "size": "9",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "damage": {
+              "onSave": "none",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "wis"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "11"
+              }
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 400,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "7TvvxxjER75bgPrH",
+      "_key": "!actors.items!kkJpRCb1TYvyoexd.7TvvxxjER75bgPrH"
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Crocs-de-Cendre, le loup gangrené",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/lakour-warcraft/assets/jetons/rare-crocs-de-cendre.svg",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#8b5a2b",
+        "background": "#2b1a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "rare-crocs-de-cendre",
+      "role": "elite",
+      "mj": "Un loup du nord des Tarides qui a bu à une oasis souillée par la gangrène de Rouge-Veine. Il rôde entre le Carrefour et la mine, et attaque les caravanes de nuit, avec la meute qu'il a pervertie. Il fuit à 15 PV et revient le lendemain, sauf si on le traque jusqu'à sa tanière ([[/check skill=sur dc=14]]{Survie DD 14}, une demi-journée). **Butin garanti :** @UUID[Compendium.lakour-warcraft.objets.Item.HfEf1Sb1c8aYVnYp]{Collier de Crocs-de-Cendre}, et une prime de 60 po au Carrefour (contrat « La bête aux yeux verts »).",
+      "armure": "fourrure brûlée",
+      "collection": "rares"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

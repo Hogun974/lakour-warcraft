@@ -1,0 +1,595 @@
+{
+  "_id": "RCBp8OUPgTUpSH8n",
+  "_key": "!actors!RCBp8OUPgTUpSH8n",
+  "name": "Glouglou Premier, roi des murlocs",
+  "type": "npc",
+  "img": "modules/lakour-warcraft/assets/jetons/rare-glouglou-premier.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 14,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 14,
+        "proficient": 0
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 12,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 14,
+        "proficient": 0
+      }
+    },
+    "skills": {
+      "itm": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 14,
+        "calc": "natural"
+      },
+      "hp": {
+        "value": 52,
+        "max": 52,
+        "temp": null,
+        "tempmax": null,
+        "formula": "8d8 + 16"
+      },
+      "movement": {
+        "units": "m",
+        "hover": false,
+        "ignoredDifficultTerrain": [],
+        "walk": "9",
+        "swim": "12"
+      },
+      "senses": {
+        "ranges": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null
+        },
+        "units": "m",
+        "special": ""
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Un murloc ventru à la peau orangée, coiffé d'une couronne de coquillages dorés, qui brandit un sceptre de corail. Les autres murlocs s'inclinent sur son passage, et gargouillent quand il gargouille.</p><h3>Note du MJ</h3><p>La rumeur de taverne était vraie : un murloc porte une couronne. Il règne sur trois villages de la côte entre Cabestan et Eldrassal et fait piller les filets des pêcheurs « pour l'impôt ». Tuer ses sujets d'abord le rend vulnérable. Un personnage qui lui offre un poisson rare et lui parle en murloc (ou réussit [[/check skill=prf dc=15]]{Représentation DD 15}) peut obtenir une trêve. <strong>Butin garanti :</strong> @UUID[Compendium.lakour-warcraft.objets.Item.AUU2sP0uwaiQsfxV]{Couronne de coquillages du roi Glouglou}.</p>",
+        "public": "<p>Un murloc ventru à la peau orangée, coiffé d'une couronne de coquillages dorés, qui brandit un sceptre de corail. Les autres murlocs s'inclinent sur son passage, et gargouillent quand il gargouille.</p>"
+      },
+      "alignment": "Chaotique neutre",
+      "type": {
+        "value": "humanoid",
+        "subtype": "murloc",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 2
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "murloc",
+        "communication": {}
+      }
+    },
+    "source": {
+      "book": "La Kour Warcraft",
+      "page": "",
+      "custom": "",
+      "license": "CC-BY-4.0",
+      "rules": "2024",
+      "revision": 1
+    }
+  },
+  "items": [
+    {
+      "name": "Amphibie",
+      "type": "feat",
+      "img": "icons/magic/water/bubbles-air-water-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>Glouglou respire aussi bien dans l'air que sous l'eau.</p>",
+          "chat": ""
+        },
+        "identifier": "amphibie",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "hiKv11f3FDQPt7NE",
+      "_key": "!actors.items!RCBp8OUPgTUpSH8n.hiKv11f3FDQPt7NE"
+    },
+    {
+      "name": "Cour du roi",
+      "type": "feat",
+      "img": "icons/commodities/treasure/crown-gold-laurel-wreath.webp",
+      "system": {
+        "description": {
+          "value": "<p>Glouglou n'est jamais seul : 1d4 + 2 murlocs l'entourent. Tant qu'un murloc allié se trouve à 1,5 m de lui, les attaques contre Glouglou ont le désavantage : ses sujets se jettent devant les coups.</p>",
+          "chat": ""
+        },
+        "identifier": "cour-du-roi",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 200,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "tqq8vDkN6b5eoIOB",
+      "_key": "!actors.items!RCBp8OUPgTUpSH8n.tqq8vDkN6b5eoIOB"
+    },
+    {
+      "name": "Sceptre de corail",
+      "type": "weapon",
+      "img": "icons/weapons/staves/staff-ornate-banded-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Attaque au corps à corps :</em> +4, allonge 1,5 m. <em>Touché :</em> 6 (1d8 + 2) dégâts contondants.</p>",
+          "chat": ""
+        },
+        "identifier": "sceptre-de-corail",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "identified": true,
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": 1,
+              "formula": ""
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": 1.5,
+          "units": "m"
+        },
+        "activities": {
+          "asWa6clAl5JDLJtn": {
+            "_id": "asWa6clAl5JDLJtn",
+            "type": "attack",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 8,
+                  "bonus": "2",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {
+        "lakour-warcraft": {
+          "toucher": 4
+        }
+      },
+      "sort": 300,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "rhIybnOE4mvnWumU",
+      "_key": "!actors.items!RCBp8OUPgTUpSH8n.rhIybnOE4mvnWumU"
+    },
+    {
+      "name": "Mrglglgl royal (recharge 5–6)",
+      "type": "feat",
+      "img": "icons/magic/sonic/bell-alarm-red-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Action bonus.</em> Glouglou pousse un cri de guerre : chaque murloc allié à 18 m ou moins qui l'entend a l'avantage à sa prochaine attaque avant la fin de son prochain tour.</p>",
+          "chat": ""
+        },
+        "identifier": "mrglglgl-royal",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "TFjhHhJ7GDItAqrs": {
+            "_id": "TFjhHhJ7GDItAqrs",
+            "type": "utility",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "bonus",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 400,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "pBEIv63ZWoso0Dkb",
+      "_key": "!actors.items!RCBp8OUPgTUpSH8n.pBEIv63ZWoso0Dkb"
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Glouglou Premier, roi des murlocs",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/lakour-warcraft/assets/jetons/rare-glouglou-premier.svg",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#8b5a2b",
+        "background": "#2b1a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "rare-glouglou-premier",
+      "role": "elite",
+      "mj": "La rumeur de taverne était vraie : un murloc porte une couronne. Il règne sur trois villages de la côte entre Cabestan et Eldrassal et fait piller les filets des pêcheurs « pour l'impôt ». Tuer ses sujets d'abord le rend vulnérable. Un personnage qui lui offre un poisson rare et lui parle en murloc (ou réussit [[/check skill=prf dc=15]]{Représentation DD 15}) peut obtenir une trêve. **Butin garanti :** @UUID[Compendium.lakour-warcraft.objets.Item.AUU2sP0uwaiQsfxV]{Couronne de coquillages du roi Glouglou}.",
+      "armure": "coquillages et couronne",
+      "collection": "rares"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

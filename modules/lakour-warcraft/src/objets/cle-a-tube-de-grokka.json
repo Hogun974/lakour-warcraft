@@ -1,0 +1,217 @@
+{
+  "_id": "o1X8rSvX8HBATOtt",
+  "_key": "!items!o1X8rSvX8HBATOtt",
+  "name": "Clé à tube de Grokka",
+  "type": "weapon",
+  "img": "icons/tools/hand/wrench-iron-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une clé à tube longue comme un humain, dont la mâchoire a serré les boulons de toutes les conduites de la raffinerie, et quelques crânes. C'est une <strong>arme +1</strong> (maillet d'armes). Les ouvriers kobolds de Mèche-Noire s'aplatissent en la voyant.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "cle-a-tube-de-grokka",
+    "price": {
+      "value": 500,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 10,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "range": {
+      "value": null,
+      "long": null,
+      "reach": null,
+      "units": "m"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "damage": {
+      "base": {
+        "number": 2,
+        "denomination": 6,
+        "bonus": "",
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        },
+        "types": [
+          "bludgeoning"
+        ]
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        },
+        "types": []
+      }
+    },
+    "armor": {
+      "value": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "maul"
+    },
+    "magicalBonus": 1,
+    "properties": [
+      "hvy",
+      "two",
+      "mgc"
+    ],
+    "proficient": null,
+    "activities": {
+      "9MvtizrtqvTIjoAy": {
+        "_id": "9MvtizrtqvTIjoAy",
+        "type": "attack",
+        "name": "",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "1.5",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "",
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "weapon"
+          }
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        }
+      }
+    },
+    "ammunition": {},
+    "mastery": "topple"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "cle-a-tube-de-grokka",
+      "collection": "donjon-meche-noire"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

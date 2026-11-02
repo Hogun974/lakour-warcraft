@@ -1,0 +1,227 @@
+{
+  "_id": "uSKoAQ1BsXQ5i3nt",
+  "_key": "!items!uSKoAQ1BsXQ5i3nt",
+  "name": "Tourte au poisson de Theramore",
+  "type": "consumable",
+  "img": "icons/consumables/grains/pastry-bread-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une tourte dorée farcie de poisson de la baie, d'herbes du marais et de beurre salé, telle qu'on la sert à l'auberge du port de Theramore. Elle réchauffe et donne l'esprit clair, ce qui n'est pas rien dans les brumes d'Âprefange.</p><p>Six portions. Il faut <strong>10 minutes</strong> pour manger une portion ; la créature qui la mange est <strong>bien nourrie</strong> : +1 aux jets de sauvegarde de Sagesse et +2 à la Sagesse (Perception) passive.</p><p>Un seul repas « bien nourri » à la fois : un nouveau repas remplace le précédent. L'effet prend fin au prochain <strong>repos long</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "tourte-de-poisson-de-theramore",
+    "price": {
+      "value": 5,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "6",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        },
+        "types": []
+      },
+      "replace": false
+    },
+    "type": {
+      "value": "food",
+      "subtype": ""
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "activities": {
+      "QA9RAFBkKtddctEH": {
+        "_id": "QA9RAFBkKtddctEH",
+        "type": "utility",
+        "name": "Manger une portion",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "minute",
+          "value": 10,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "oEzXvblIT6mkhhjQ",
+            "level": {}
+          }
+        ],
+        "range": {
+          "value": "",
+          "units": "touch",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "oEzXvblIT6mkhhjQ",
+      "_key": "!items.effects!uSKoAQ1BsXQ5i3nt.oEzXvblIT6mkhhjQ",
+      "name": "Bien nourri — tourte de Theramore",
+      "img": "icons/consumables/grains/pastry-bread-brown.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.abilities.wis.save.roll.bonus",
+            "value": "1",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "hj7C6mmACPRt2hZL"
+          },
+          {
+            "key": "system.skills.prc.bonuses.passive",
+            "value": "2",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "V94kvTqXg9nVr0V7"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": "longRest",
+        "expired": false
+      },
+      "description": "<p>Bien nourri jusqu'au prochain repos long : +1 aux jets de sauvegarde de Sagesse et +2 à la Sagesse (Perception) passive.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "tourte-de-poisson-de-theramore",
+      "collection": "consommables"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

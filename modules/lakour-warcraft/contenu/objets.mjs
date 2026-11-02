@@ -135,10 +135,14 @@ const utilisations = (u, ou) => {
 };
 
 // Effet actif (forme Foundry 14 relevée dans dnd5e 6.0 : type "base", system.changes avec type et phase).
-// e = { nom, changements: [[cle, valeur, mode = "add"]], transfert = true, duree (secondes), etats, texte }
+// e = { nom, changements: [[cle, valeur, mode = "add"]], transfert = true, duree (secondes), etats, texte,
+//       expiration (« longRest » ou « shortRest » : retiré par le repos de dnd5e, sans durée), desactive (allumé à la main) }
+const EXPIRATIONS_REPOS = ["longRest", "shortRest"];
 function effet(base, parent, i, e, img, ou) {
   const _id = identifiant(`${base}:effet:${i}`);
   for (const s of e.etats ?? []) dans(ETATS, s, "état", ou);
+  if (e.expiration) dans(EXPIRATIONS_REPOS, e.expiration, "expiration", ou);
+  exiger(!(e.expiration && e.duree), `${ou} : effet « ${e.nom} » à la fois limité par une durée et par un repos`);
   return {
     _id, _key: `!items.effects!${parent}.${_id}`, name: e.nom, img: e.img ?? img, type: "base",
     system: {
@@ -147,7 +151,10 @@ function effet(base, parent, i, e, img, ou) {
         return { key, value, priority: null, type, phase: "initial", _id: identifiant(`${base}:effet:${i}:${j}`) };
       })
     },
-    disabled: false, duration: { value: e.duree ?? null, units: "seconds", expiry: e.duree ? "turnStart" : null, expired: false },
+    disabled: e.desactive ?? false,
+    duration: e.expiration
+      ? { value: null, units: "seconds", expiry: e.expiration, expired: false }
+      : { value: e.duree ?? null, units: "seconds", expiry: e.duree ? "turnStart" : null, expired: false },
     description: html(e.texte ?? ""), origin: null, tint: "#ffffff", transfer: e.transfert ?? true,
     statuses: e.etats ?? [], sort: 0, flags: {}, start: null, showIcon: 1, folder: null, _stats: STATS
   };

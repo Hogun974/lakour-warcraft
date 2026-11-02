@@ -1,0 +1,59 @@
+{
+  "_id": "VZcn4yVHakxr92pi",
+  "_key": "!items!VZcn4yVHakxr92pi",
+  "name": "Registre du Cartel Baille-Fonds",
+  "type": "loot",
+  "img": "icons/sundries/documents/document-sealed-signatures-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Le livre de comptes du baron : livraisons d'huile de feu, pots-de-vin versés à des gardes de Cabestan, et une commande de vingt barils « à livrer à la Lame ardente, paiement en pièces anciennes ». Remis à Grizzla Tordeboulon, il vaut une prime de 100 po et <strong>+5</strong> de réputation auprès du Cartel Gentepression.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "registre-du-cartel-baille-fonds",
+    "price": {
+      "value": 50,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "treasure",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "registre-du-cartel-baille-fonds",
+      "collection": "donjon-meche-noire"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

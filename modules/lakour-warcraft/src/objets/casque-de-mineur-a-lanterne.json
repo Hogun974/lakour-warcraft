@@ -1,0 +1,165 @@
+{
+  "_id": "q4nPH0xfdiJHhDM8",
+  "_key": "!items!q4nPH0xfdiJHhDM8",
+  "name": "Casque de mineur à lanterne",
+  "type": "equipment",
+  "img": "icons/equipment/head/helmet-mining-lamp.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un casque de cuir bouilli surmonté d'une lanterne à huile de feu qui ne s'éteint pas sous la pluie. Par une <strong>action bonus</strong>, vous l'allumez ou l'éteignez : elle éclaire en lumière vive sur 9 m devant vous, et en lumière faible sur 9 m de plus. Une flasque d'huile la fait brûler 6 heures.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "casque-de-mineur-a-lanterne",
+    "price": {
+      "value": 15,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "clothing",
+      "baseItem": ""
+    },
+    "properties": [],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": null,
+    "proficient": null,
+    "activities": {
+      "oo5ivXlfA2nKczVA": {
+        "_id": "oo5ivXlfA2nKczVA",
+        "type": "utility",
+        "name": "Allumer la lanterne",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "casque-de-mineur-a-lanterne",
+      "collection": "donjon-meche-noire"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

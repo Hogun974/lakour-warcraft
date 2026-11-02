@@ -1,0 +1,221 @@
+{
+  "_id": "F5rIuGiIcZeMyRf4",
+  "_key": "!items!F5rIuGiIcZeMyRf4",
+  "name": "Flacon de peau-de-pierre",
+  "type": "consumable",
+  "img": "icons/consumables/potions/flask-corked-purple-glow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un liquide gris et pâteux qui laisse sur la langue un goût de silex. Pendant des heures, la peau prend le grain du granit et sonne mat quand on la frappe.</p><p>Par une <strong>action bonus</strong>, vous buvez le flacon : <strong>+1</strong> à la classe d'armure.</p><p>Un seul flacon à la fois : en boire un second met fin à l'effet du premier. L'effet dure <strong>8 heures</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "flacon-de-peau-de-pierre",
+    "price": {
+      "value": 300,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        },
+        "types": []
+      },
+      "replace": false
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "magicalBonus": null,
+    "properties": [
+      "mgc"
+    ],
+    "activities": {
+      "6n8muF7M29sSrIEP": {
+        "_id": "6n8muF7M29sSrIEP",
+        "type": "utility",
+        "name": "Boire",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "8",
+          "units": "hour",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "YQjFhEnyCzdf4td6",
+            "level": {}
+          }
+        ],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "YQjFhEnyCzdf4td6",
+      "_key": "!items.effects!F5rIuGiIcZeMyRf4.YQjFhEnyCzdf4td6",
+      "name": "Flacon de peau-de-pierre",
+      "img": "icons/consumables/potions/flask-corked-purple-glow.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.ac.bonus",
+            "value": "1",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "fo86rBYz9LjdkLsv"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": 28800,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
+      },
+      "description": "<p>Pendant 8 heures : <strong>+1</strong> à la classe d'armure.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "flacon-de-peau-de-pierre",
+      "collection": "consommables"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

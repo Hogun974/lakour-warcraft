@@ -1,0 +1,109 @@
+{
+  "_id": "z3E7n0j8KL83Jp6M",
+  "_key": "!tables!z3E7n0j8KL83Jp6M",
+  "name": "Butin — Baron Nizzel Baille-Fonds (Mèche-Noire)",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Dans la carcasse du Grand Déchiqueteur et la cabine du baron : tirez deux fois (relancez un doublon). Le Registre du Cartel Baille-Fonds est toujours dans la cabine, en plus du tirage.</p>",
+  "formula": "1d8",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "butin-baron-nizzel",
+      "aventure": "La Raffinerie de Mèche-Noire",
+      "collection": "donjon-meche-noire"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "9uYLmqHdlDAKk5Vq",
+      "_key": "!tables.results!z3E7n0j8KL83Jp6M.9uYLmqHdlDAKk5Vq",
+      "type": "document",
+      "name": "Lunettes de sûreté du contremaître",
+      "description": "",
+      "range": [
+        1,
+        2
+      ],
+      "weight": 2,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.PbPhgB8CMVf1lOmi"
+    },
+    {
+      "_id": "AyCXoSeZRfzyjRW7",
+      "_key": "!tables.results!z3E7n0j8KL83Jp6M.AyCXoSeZRfzyjRW7",
+      "type": "document",
+      "name": "Pistolet-fusée du baron",
+      "description": "",
+      "range": [
+        3,
+        4
+      ],
+      "weight": 2,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.DUTBe5MhGXNhmG4w"
+    },
+    {
+      "_id": "eSZEnpCRXKJkqUfW",
+      "_key": "!tables.results!z3E7n0j8KL83Jp6M.eSZEnpCRXKJkqUfW",
+      "type": "document",
+      "name": "Bottes à ressorts Baille-Fonds",
+      "description": "",
+      "range": [
+        5,
+        6
+      ],
+      "weight": 2,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.hGE8PsZTAtnG0kwk"
+    },
+    {
+      "_id": "ywuzIj8DHMRYiiLs",
+      "_key": "!tables.results!z3E7n0j8KL83Jp6M.ywuzIj8DHMRYiiLs",
+      "type": "document",
+      "name": "Moteur à huile de feu miniature",
+      "description": "",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.QCQO8txrQq1KUHs9"
+    },
+    {
+      "_id": "KhiLS3FFSm1ImToJ",
+      "_key": "!tables.results!z3E7n0j8KL83Jp6M.KhiLS3FFSm1ImToJ",
+      "type": "document",
+      "name": "Registre du Cartel Baille-Fonds",
+      "description": "",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.VZcn4yVHakxr92pi"
+    }
+  ]
+}

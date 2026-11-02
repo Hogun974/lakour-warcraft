@@ -86,8 +86,8 @@ const MUTATIONS = {
   "icône absente du cœur (faute de frappe)": [ICONE, M => peindre(M, "vizzik-tirelire", objet(M, "vizzik-tirelire", "Clé à molette"), "icons/tools/hand/wrench-ajustable.webp")],
   "capacité sans icône": [ICONE, M => peindre(M, "hanuk-pas-de-pluie", objet(M, "hanuk-pas-de-pluie", "Guide des Tarides"), undefined)],
   "deux capacités d'un PNJ sous la même icône": [REPETEE, M => { const o = objets(M, "drogha-embrase"); peindre(M, "drogha-embrase", o[3], o[4].img); }],
-  "douze capacités sous la même icône": [VARIETE, M => {
-    M.acteurs.filter(a => !CLES_BESTIAIRE.has(cleDe(a))).slice(0, 12).forEach(a => peindre(M, cleDe(a), a.__objets[0], "icons/skills/melee/strike-sword-gray.webp"));
+  "vingt capacités sous la même icône": [VARIETE, M => {
+    M.acteurs.filter(a => !CLES_BESTIAIRE.has(cleDe(a))).slice(0, 20).forEach(a => peindre(M, cleDe(a), a.__objets[0], "icons/skills/melee/strike-sword-gray.webp"));
   }],
   "attaque magique sous une icône d'épée": [MAGIE, M => peindre(M, "diablotin", objet(M, "diablotin", "Trait de feu"), "icons/weapons/swords/sword-guard-steel-green.webp")],
   "trait de gangrefeu sous une icône d'arc": [MAGIE, M => peindre(M, "drogha-cendrelame", objet(M, "drogha-cendrelame", "Trait de gangrefeu"), "icons/weapons/bows/bow-recurve-black.webp")],

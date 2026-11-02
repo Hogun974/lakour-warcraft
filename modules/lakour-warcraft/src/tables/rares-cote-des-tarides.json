@@ -1,0 +1,92 @@
+{
+  "_id": "75HMSNV1jRaP0xB4",
+  "_key": "!tables!75HMSNV1jRaP0xB4",
+  "name": "Rares et élites — Côte des Tarides",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Entre Cabestan, les marais salés et la crique d'Eldrassal. Une fois par jour de voyage dans la zone, sur 1 sur 1d6, tirez sur cette table. Chaque créature nommée porte un butin garanti (voir sa note du MJ) ; une créature vaincue ne revient pas : relancez si elle sort de nouveau.</p>",
+  "formula": "1d4",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "rares-cote-des-tarides",
+      "aventure": "Les Tarides vivantes",
+      "collection": "rares"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "OBnTW04FmUK1jHAR",
+      "_key": "!tables.results!75HMSNV1jRaP0xB4.OBnTW04FmUK1jHAR",
+      "type": "document",
+      "name": "Glouglou Premier, roi des murlocs",
+      "description": "",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.bestiaire.Actor.RCBp8OUPgTUpSH8n"
+    },
+    {
+      "_id": "JLvMOBH64JrOEZEg",
+      "_key": "!tables.results!75HMSNV1jRaP0xB4.JLvMOBH64JrOEZEg",
+      "type": "document",
+      "name": "Gueule-de-Fer, le crocilisque ancien",
+      "description": "",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.bestiaire.Actor.lLwQLxs3tufdW6rd"
+    },
+    {
+      "_id": "ZiRdjjMtuDonnolj",
+      "_key": "!tables.results!75HMSNV1jRaP0xB4.ZiRdjjMtuDonnolj",
+      "type": "document",
+      "name": "Capitaine Sel-Rouge, pirate du Cartel Baille-Fonds",
+      "description": "",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.bestiaire.Actor.MxwnrGN15l3gbGvg"
+    },
+    {
+      "_id": "ctn6bjudriDd2cXh",
+      "_key": "!tables.results!75HMSNV1jRaP0xB4.ctn6bjudriDd2cXh",
+      "type": "text",
+      "name": "Des nouvelles du port",
+      "description": "<p>Pas de rare aujourd'hui, mais un pêcheur, un docker ou un marin raconte ce qu'il a vu, et où. Le lendemain, la rencontre est assurée (tirez de nouveau 1d3).</p>",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    }
+  ]
+}

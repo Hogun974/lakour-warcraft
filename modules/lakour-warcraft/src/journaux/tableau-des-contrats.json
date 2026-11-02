@@ -1,0 +1,100 @@
+{
+  "_id": "RY5VCJoLMFYRPxjJ",
+  "_key": "!journal!RY5VCJoLMFYRPxjJ",
+  "name": "Tableau des contrats",
+  "folder": null,
+  "sort": 0,
+  "categories": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "tableau-des-contrats",
+      "collection": "contrats"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "pages": [
+    {
+      "_id": "ABJL5dNwrrxf77Wb",
+      "_key": "!journal.pages!RY5VCJoLMFYRPxjJ.ABJL5dNwrrxf77Wb",
+      "name": "Usage (MJ)",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Chaque plaque tournante de la campagne a son <strong>tableau des contrats</strong> : des petits travaux payés en pièces d'or et en réputation, pour occuper les jours entre deux chapitres et faire voyager le groupe dans les Tarides.</p><p><strong>Tirer trois contrats par jour de jeu.</strong> Chaque matin où le groupe se trouve dans une ville (ou la veille de son départ), le MJ IA tire <strong>trois fois</strong> sur la table de la ville, relance les doublons et les contrats déjà pris ou accomplis, puis montre les trois affiches aux joueurs (titre, commanditaire, récompense). Les contrats qu'on ne prend pas sont arrachés le soir.</p><p><strong>Prendre un contrat.</strong> Le groupe en prend autant qu'il veut parmi les trois, mais pas plus de <strong>trois contrats en cours</strong> à la fois. Un contrat se rend au commanditaire, ou à l'intendant de sa faction.</p><p><strong>Payer.</strong> À la remise : les pièces d'or (outil d'argent du MJ IA), puis la réputation sur l'horloge de la faction (identifiant rep-&lt;faction&gt;, par exemple rep-cartel-gentepression), en respectant le plafond de 10 points par faction et par jour (voir le @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.uIWkSgn7SjyOj8nd]{Guide de la réputation}). Un contrat échoué ou abandonné coûte <strong>1 point</strong> auprès de la faction.</p><p><strong>Niveau.</strong> Les récompenses sont prévues pour des personnages de niveau 3 à 4. Au niveau 5 ou 6, multipliez les pièces d'or par 1,5 (pas la réputation) et ajoutez un ou deux adversaires.</p><p><strong>Les cinq types de contrat</strong></p><ul><li><strong>Traque</strong> : une créature précise à abattre, souvent un rare (voir @UUID[Compendium.lakour-warcraft.tables.RollTable.uHs3owEV50iyMo6b]{les tables des rares}) ; il est là où le contrat le dit, sans tirage.</li><li><strong>Récolte</strong> : rapporter une quantité de quelque chose, avec un test pour bien faire et un danger sur place.</li><li><strong>Escorte</strong> : protéger quelqu'un ou quelque chose sur une route ; tirez sur la table des rencontres sur la route.</li><li><strong>Avis de recherche</strong> : une personne recherchée, morte ou vive ; vivante, elle rapporte plus.</li><li><strong>Livraison</strong> : porter un objet ou un message, avec un délai ; quelqu'un veut l'intercepter.</li></ul><p><strong>Faction et accès.</strong> Au Carrefour, un membre de l'Alliance ne prend un contrat que s'il est <strong>Neutre</strong> ou mieux auprès de la Horde ; à Theramore, l'inverse. À Cabestan, port neutre, tout le monde signe. Un contrat dirigé contre une faction peut faire perdre de la réputation auprès d'elle (au jugement du MJ).</p><p><strong>Pour le moteur.</strong> Chaque affiche porte ses données en clair (type, po, faction, points) dans le drapeau « contrat » de son résultat.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ZEQ0DPfilFRipLoQ",
+      "_key": "!journal.pages!RY5VCJoLMFYRPxjJ.ZEQ0DPfilFRipLoQ",
+      "name": "Cabestan",
+      "type": "text",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Le port neutre du Cartel Gentepression. Le tableau est un panneau de liège à l'entrée du comptoir, sur le quai : la moitié des affiches portent la roue dentée du Cartel, l'autre moitié sont des notes griffonnées par des gens qui ont besoin d'aide et pas d'argent. Un gobelin tamponne chaque contrat pris (1 pa de frais d'écriture).</p><p>Factions : Cartel Gentepression, Ligue des explorateurs, Aube d'argent, Kirin Tor. Le contrat « La raffinerie qui fume » ouvre @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.c0tGHcTPLMP8ggpZ]{le donjon de Mèche-Noire}.</p><p>Table : @UUID[Compendium.lakour-warcraft.tables.RollTable.sJNBMZ7wUAUwqkxp]{Contrats — Cabestan}.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "JqtyAlpezDOrkDyZ",
+      "_key": "!journal.pages!RY5VCJoLMFYRPxjJ.JqtyAlpezDOrkDyZ",
+      "name": "Le Carrefour",
+      "type": "text",
+      "sort": 300,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Le relais de la Horde au cœur des Tarides. Le tableau est un poteau de bois au pied de la tour de guet, couvert d'affiches en orc, en taurahe et en commun ; un grunt lit les affiches à voix haute à qui ne sait pas lire. Les contrats se rendent à l'intendant Gornak Croc-Gris.</p><p>Factions : Horde, Garde kor'kron, Cercle cénarien.</p><p>Table : @UUID[Compendium.lakour-warcraft.tables.RollTable.RSBhBDeioyO2ibMQ]{Contrats — Le Carrefour}.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "qbGSgc3vatPqBfes",
+      "_key": "!journal.pages!RY5VCJoLMFYRPxjJ.qbGSgc3vatPqBfes",
+      "name": "Theramore",
+      "type": "text",
+      "sort": 400,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>La cité portuaire de l'Alliance, au bord du marécage d'Âprefange. Le tableau du Guet est sous l'arche du port, aux affiches bien alignées et tamponnées du lion ; un sergent note le nom de chaque volontaire. Les contrats se rendent à l'intendante Maëlis Hautepierre.</p><p>Factions : Alliance, Kirin Tor, Chevaliers de la Main d'argent, Sentinelles, Aube d'argent, Ligue des explorateurs.</p><p>Table : @UUID[Compendium.lakour-warcraft.tables.RollTable.xLGnHbXKzzIajN6o]{Contrats — Theramore}.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ]
+}

@@ -11,6 +11,9 @@
     "Installer": "Installer le contenu dans ce monde",
     "DejaInstalle": "Contenu installé",
     "PasInstalle": "Contenu pas encore installé dans ce monde.",
-    "MauvaisSysteme": "Ce monde n'utilise pas D&D 5e : rien à installer."
+    "MauvaisSysteme": "Ce monde n'utilise pas D&D 5e : rien à installer.",
+    "FureurRefusee": "{objet} : refusé. Épuisement de la fureur encore actif sur {noms} ; attendez qu'il se dissipe, ou retirez ces créatures des cibles.",
+    "FureurRetiree": "{effet} retiré de {nom} : cette créature porte encore Épuisement de la fureur d'une utilisation précédente.",
+    "Phase2": "{nom} tombe à {pv} PV sur {max} : phase 2 ! Utilisez sa capacité de phase 2 et posez ses nouvelles zones au sol."
   }
 }

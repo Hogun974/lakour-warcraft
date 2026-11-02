@@ -1,0 +1,59 @@
+{
+  "_id": "QCQO8txrQq1KUHs9",
+  "_key": "!items!QCQO8txrQq1KUHs9",
+  "name": "Moteur à huile de feu miniature",
+  "type": "loot",
+  "img": "icons/commodities/tech/motor-rotating.webp",
+  "system": {
+    "description": {
+      "value": "<p>Le petit moteur de secours du Grand Déchiqueteur, encore chaud. Un ingénieur gnome ou gobelin en donnerait un bon prix ; Vizzik Tirelire, s'il est encore en affaires, le double.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "moteur-a-huile-de-feu",
+    "price": {
+      "value": 250,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 8,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "material",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "moteur-a-huile-de-feu",
+      "collection": "donjon-meche-noire"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

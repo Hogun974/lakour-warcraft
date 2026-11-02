@@ -1,0 +1,726 @@
+{
+  "_id": "UtyMTirY1LFaq5GB",
+  "_key": "!actors!UtyMTirY1LFaq5GB",
+  "name": "Sabot-de-Verre, le kodo des cendres",
+  "type": "npc",
+  "img": "modules/lakour-warcraft/assets/jetons/rare-sabot-de-verre.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 22,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 8,
+        "proficient": 0
+      },
+      "con": {
+        "value": 20,
+        "proficient": 0
+      },
+      "int": {
+        "value": 2,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 11,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 5,
+        "proficient": 0
+      }
+    },
+    "skills": {},
+    "attributes": {
+      "ac": {
+        "flat": 16,
+        "calc": "natural"
+      },
+      "hp": {
+        "value": 115,
+        "max": 115,
+        "temp": null,
+        "tempmax": null,
+        "formula": "10d12 + 50"
+      },
+      "movement": {
+        "units": "m",
+        "hover": false,
+        "ignoredDifficultTerrain": [],
+        "walk": "12"
+      },
+      "senses": {
+        "ranges": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null
+        },
+        "units": "m",
+        "special": ""
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Un kodo gigantesque dont le dos a fondu en une carapace de verre noir et luisant, comme si on l'avait roulé dans le cratère. Il barrit d'une voix brisée, et la terre tremble.</p><h3>Note du MJ</h3><p>Un vieux mâle qui a dormi trop près du cratère de Brasegouffre la nuit où le Cœur de la Fournaise a remué. La douleur l'a rendu fou : il charge tout ce qui bouge sur la route de Gué-de-Sel. Les taurens voudraient qu'on l'abatte proprement, sans le faire souffrir ([[/check skill=ani dc=17]]{Dressage DD 17} pour le calmer assez longtemps). <strong>Butin garanti :</strong> @UUID[Compendium.lakour-warcraft.objets.Item.0Lb8TdNr7TardQq1]{Talisman de verre noir}, et sa viande, dont un tauren tire de quoi faire trois marmites de ragoût de kodo.</p>",
+        "public": "<p>Un kodo gigantesque dont le dos a fondu en une carapace de verre noir et luisant, comme si on l'avait roulé dans le cratère. Il barrit d'une voix brisée, et la terre tremble.</p>"
+      },
+      "alignment": "Non aligné",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 5
+    },
+    "traits": {
+      "size": "huge",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "fire"
+        ],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "",
+        "communication": {}
+      }
+    },
+    "source": {
+      "book": "La Kour Warcraft",
+      "page": "",
+      "custom": "",
+      "license": "CC-BY-4.0",
+      "rules": "2024",
+      "revision": 1
+    }
+  },
+  "items": [
+    {
+      "name": "Peau de verre noir",
+      "type": "feat",
+      "img": "icons/commodities/gems/gem-faceted-cushion-teal-black.webp",
+      "system": {
+        "description": {
+          "value": "<p>Le dos de Sabot-de-Verre est couvert d'une croûte de verre noir. Quand une attaque le touche avec un coup critique, des éclats volent : chaque créature à 1,5 m de lui subit 3 (1d6) dégâts tranchants.</p>",
+          "chat": ""
+        },
+        "identifier": "peau-de-verre-noir",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "5ueA1zEJiqSaeJ6E",
+      "_key": "!actors.items!UtyMTirY1LFaq5GB.5ueA1zEJiqSaeJ6E"
+    },
+    {
+      "name": "Cornes de verre",
+      "type": "weapon",
+      "img": "icons/creatures/mammals/ox-bull-horned-glowing-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Attaque au corps à corps :</em> +9, allonge 3 m. <em>Touché :</em> 17 (2d10 + 6) dégâts perforants.</p>",
+          "chat": ""
+        },
+        "identifier": "cornes-de-verre",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "identified": true,
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 10,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": 1,
+              "formula": ""
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": 3,
+          "units": "m"
+        },
+        "activities": {
+          "6CFdntGPjbeGEudu": {
+            "_id": "6CFdntGPjbeGEudu",
+            "type": "attack",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 10,
+                  "bonus": "6",
+                  "types": [
+                    "piercing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {
+        "lakour-warcraft": {
+          "toucher": 9
+        }
+      },
+      "sort": 200,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "YFGiUNT7mzvCLEOR",
+      "_key": "!actors.items!UtyMTirY1LFaq5GB.YFGiUNT7mzvCLEOR"
+    },
+    {
+      "name": "Ruée de verre (recharge 5–6)",
+      "type": "feat",
+      "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Jet de sauvegarde de Dextérité :</em> DD 17, chaque créature dont Sabot-de-Verre traverse l'espace en se déplaçant de toute sa vitesse. <em>Échec :</em> 22 (4d10) dégâts contondants. La cible tombe à terre. <em>Réussite :</em> moitié des dégâts.</p>",
+          "chat": ""
+        },
+        "identifier": "ruee-de-verre",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "JnPLgoQXWye0NgiW": {
+            "_id": "JnPLgoQXWye0NgiW",
+            "type": "save",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": [
+                {
+                  "number": 4,
+                  "denomination": 10,
+                  "bonus": "",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "17"
+              }
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 300,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "RA0Hc101IRf1DBn0",
+      "_key": "!actors.items!UtyMTirY1LFaq5GB.RA0Hc101IRf1DBn0"
+    },
+    {
+      "name": "Barrissement fêlé (recharge 6)",
+      "type": "feat",
+      "img": "icons/magic/sonic/projectile-shock-wave-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Jet de sauvegarde de Constitution :</em> DD 16, chaque créature dans un cône de 9 m. <em>Échec :</em> 13 (3d8) dégâts de tonnerre. <em>Réussite :</em> moitié des dégâts.</p>",
+          "chat": ""
+        },
+        "identifier": "barrissement-fele",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "6",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "5taU55yyLqPvD07o": {
+            "_id": "5taU55yyLqPvD07o",
+            "type": "save",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "cone",
+                "size": "9",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "thunder"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            },
+            "save": {
+              "ability": [
+                "con"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "16"
+              }
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 400,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "EtqsWmgpHo2o4zxB",
+      "_key": "!actors.items!UtyMTirY1LFaq5GB.EtqsWmgpHo2o4zxB"
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Sabot-de-Verre, le kodo des cendres",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "modules/lakour-warcraft/assets/jetons/rare-sabot-de-verre.svg",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#8b5a2b",
+        "background": "#2b1a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "rare-sabot-de-verre",
+      "role": "elite",
+      "mj": "Un vieux mâle qui a dormi trop près du cratère de Brasegouffre la nuit où le Cœur de la Fournaise a remué. La douleur l'a rendu fou : il charge tout ce qui bouge sur la route de Gué-de-Sel. Les taurens voudraient qu'on l'abatte proprement, sans le faire souffrir ([[/check skill=ani dc=17]]{Dressage DD 17} pour le calmer assez longtemps). **Butin garanti :** @UUID[Compendium.lakour-warcraft.objets.Item.0Lb8TdNr7TardQq1]{Talisman de verre noir}, et sa viande, dont un tauren tire de quoi faire trois marmites de ragoût de kodo.",
+      "armure": "peau vitrifiée",
+      "collection": "rares"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

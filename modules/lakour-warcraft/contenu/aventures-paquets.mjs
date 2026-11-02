@@ -17,6 +17,12 @@ import { CARTES_LIEUX } from "./lieux-cartes.mjs";
 import { TITRE_AVENTURE } from "./aventure-cartes.mjs";
 import { TITRE_CAMPAGNE } from "./campagne-cartes.mjs";
 import { TITRE_ONE_SHOT } from "./one-shot-cartes.mjs";
+import { DONJON_DOCUMENTS, TITRE_DONJON } from "./donjon.mjs";
+import { CONSOMMABLES } from "./consommables.mjs";
+import { REPUTATION_DOCUMENTS } from "./reputations.mjs";
+import { MONTURES_DOCUMENTS } from "./montures.mjs";
+import { RARES_DOCUMENTS, TITRE_TARIDES } from "./rares.mjs";
+import { CONTRATS_DOCUMENTS } from "./contrats.mjs";
 
 // Version du contenu de l'installateur (scripts/main.js) : posée sur les journaux et scènes embarqués, pour que le bouton
 // « Installer » les reconnaisse à jour au lieu de remplacer leurs pages (et leurs liens vers le monde) par celles du compendium.
@@ -54,6 +60,20 @@ export const AVENTURES = [
     legende: "One-shot — niveau 3, une soirée de 3 à 4 heures. Une nuit d'orage dans un relais au bord du marécage d'Âprefange.",
     resume: "L'orage bloque Alliance et Horde au relais des Deux Lanternes. Une recrue tombe malade, les morts sortent de la cave et tout accuse la réprouvée assise près du feu ; mais le bon docteur de Theramore a disparu, et sur l'îlot voisin, une cloche attend l'heure morte pour réveiller un cimetière de réfugiés. Trois cartes, deux aides de jeu, une table des bruits de la nuit.",
     cles: PNJ_ET_JOURNAUX(ONE_SHOT_DOCUMENTS)
+  },
+  {
+    cle: "raffinerie-de-meche-noire", nom: TITRE_DONJON, sort: 400,
+    img: `modules/${MODULE}/assets/cartes/lieu-mine.svg`,
+    legende: "Donjon — niveau 5, une séance. Trois boss à mécaniques dans une mine-raffinerie du Cartel Baille-Fonds, au nord de Cabestan.",
+    resume: "Un contremaître ogre et ses wagonnets fous, un élémentaire de feu enchaîné à une chaudière qui monte en pression, et un baron gobelin dans un déchiqueteur géant au-dessus d'un broyeur. Actions légendaires et de repaire, phases à mi-vie, zones au sol, journal de rencontre pour les joueurs, une table de butin par boss et un ensemble de deux pièces. Se joue sur la carte générique « Lieu — Mine ».",
+    cles: PNJ_ET_JOURNAUX(DONJON_DOCUMENTS)
+  },
+  {
+    cle: "tarides-vivantes", nom: TITRE_TARIDES, sort: 500,
+    img: `modules/${MODULE}/assets/cartes/lieu-port.svg`,
+    legende: "Supplément — niveaux 3 à 6. Contrats, rares, montures, routes aériennes, consommables et réputation pour la campagne des Tarides.",
+    resume: "Les tableaux des contrats de Cabestan, du Carrefour et de Theramore (trois contrats par jour de jeu), neuf rares et élites errants avec leur butin garanti, cinq montures et les routes aériennes, Furie sanguinaire et Héroïsme, repas et flacons, et le guide de la réputation de dix factions, de Haï à Exalté.",
+    cles: PNJ_ET_JOURNAUX([...CONSOMMABLES, ...REPUTATION_DOCUMENTS, ...MONTURES_DOCUMENTS, ...RARES_DOCUMENTS, ...CONTRATS_DOCUMENTS])
   }
 ];
 

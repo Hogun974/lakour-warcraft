@@ -1,0 +1,133 @@
+{
+  "_id": "izTlgtk7EPEfFOO4",
+  "_key": "!items!izTlgtk7EPEfFOO4",
+  "name": "Gantelets ignifugés du contremaître",
+  "type": "equipment",
+  "img": "icons/equipment/hand/glove-armored-leather-steel-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>Des gantelets de cuir épais doublés d'amiante et cerclés d'acier, noircis par les conduites brûlantes. Tant que vous les portez, vous pouvez saisir un objet brûlant sans vous blesser, et vous avez <strong>+1</strong> aux jets de dégâts de vos attaques d'arme au corps à corps.</p><p><strong>Ensemble « Tenue réglementaire de Mèche-Noire » (2 pièces)</strong> : avec les Lunettes de sûreté du contremaître, équipés tous les deux, vous avez la <strong>résistance aux dégâts de feu</strong> et <strong>+2</strong> aux jets de sauvegarde de Dextérité. Le bonus est l'effet « Tenue réglementaire de Mèche-Noire (2 pièces) » des lunettes, éteint par défaut : allumez-le sur votre fiche quand les deux pièces sont portées, éteignez-le quand l'une est retirée.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "gantelets-ignifuges-du-contremaitre",
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": null,
+    "proficient": null,
+    "activities": {}
+  },
+  "effects": [
+    {
+      "_id": "VBmxZQDIS5jdKPNI",
+      "_key": "!items.effects!izTlgtk7EPEfFOO4.VBmxZQDIS5jdKPNI",
+      "name": "Gantelets ignifugés",
+      "img": "icons/equipment/hand/glove-armored-leather-steel-brown.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.rolls.damage.mwak.bonus",
+            "value": "1",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "kOCrnsqcMfpXs0Ut"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>+1 aux dégâts des attaques d'arme au corps à corps.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "gantelets-ignifuges-du-contremaitre",
+      "collection": "donjon-meche-noire",
+      "ensemble": "tenue-meche-noire"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

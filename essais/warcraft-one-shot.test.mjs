@@ -282,7 +282,7 @@ test("one-shot : niveau 3, 3 à 5 joueurs, une soirée, trois actes, quatre PNJ 
 });
 
 test("one-shot : le paquet Adventure est le troisième, avec cartes, journaux, PNJ et table", () => {
-  assert.equal(aventures.length, 3);
+  assert.equal(aventures.length, 5);   // puis le donjon de Mèche-Noire et le supplément des Tarides vivantes
   assert.equal(aventures[2].cle, "aventures:nuit-aux-deux-lanternes");
   const a = CONTEXTE.aventure;
   assert.deepEqual([a.scenes.length, a.journal.length], [3, 3]);

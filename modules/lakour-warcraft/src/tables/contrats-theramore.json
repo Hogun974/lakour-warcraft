@@ -1,0 +1,269 @@
+{
+  "_id": "xLGnHbXKzzIajN6o",
+  "_key": "!tables!xLGnHbXKzzIajN6o",
+  "name": "Contrats — Theramore",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Le tableau d'affichage du Guet, sous l'arche du port de Theramore, aux affiches bien alignées et tamponnées du lion. Le MJ IA tire trois contrats par jour de jeu sur cette table (relancez les doublons et les contrats déjà pris) ; voir le journal « Tableau des contrats ».</p>",
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "contrats-theramore",
+      "aventure": "Les Tarides vivantes",
+      "collection": "contrats"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "Pz2dgnC6UDLcHj6b",
+      "_key": "!tables.results!xLGnHbXKzzIajN6o.Pz2dgnC6UDLcHj6b",
+      "type": "text",
+      "name": "Traque — Le rire dans les collines",
+      "description": "<p><strong>Commanditaire :</strong> Maëlis Hautepierre, au nom du Guet de Theramore.</p><p>Une chasseresse satyre, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.2DZv3K0IpC4pN4q4]{Vexxa la Rieuse}, abat les éclaireurs de Theramore sur la route de Gué-de-Sel. La tuer, ou la faire fuir pour de bon. Pour des aventuriers aguerris (niveau 5 ou plus).</p><p><strong>Récompense :</strong> 90 po et <strong>+4</strong> de réputation auprès de : Alliance (Theramore).</p>",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "traque",
+            "po": 90,
+            "faction": "alliance",
+            "reputation": 4
+          }
+        }
+      }
+    },
+    {
+      "_id": "BzjFxZkFAyRGqHsP",
+      "_key": "!tables.results!xLGnHbXKzzIajN6o.BzjFxZkFAyRGqHsP",
+      "type": "text",
+      "name": "Traque — Le monstre de la route du sud",
+      "description": "<p><strong>Commanditaire :</strong> un convoyeur de Theramore qui a tout perdu.</p><p>Un kodo couvert de verre noir, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.UtyMTirY1LFaq5GB]{Sabot-de-Verre}, a renversé deux chariots sur la route de Gué-de-Sel. L'abattre ; les taurens demandent qu'on le fasse sans le faire souffrir, et le diront à qui voudra l'entendre.</p><p><strong>Récompense :</strong> 80 po et <strong>+3</strong> de réputation auprès de : Alliance (Theramore).</p>",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "traque",
+            "po": 80,
+            "faction": "alliance",
+            "reputation": 3
+          }
+        }
+      }
+    },
+    {
+      "_id": "wrogElo0gUNK7kTo",
+      "_key": "!tables.results!xLGnHbXKzzIajN6o.wrogElo0gUNK7kTo",
+      "type": "text",
+      "name": "Récolte — Fleurs-de-brume",
+      "description": "<p><strong>Commanditaire :</strong> Magistère Aldren Vif-Argent, pour le Kirin Tor.</p><p>Cueillir huit fleurs-de-brume dans le marécage d'Âprefange, à l'aube et pas après ([[/check skill=nat dc=13]]{Nature DD 13} pour les reconnaître). Les alchimistes de la tour en font des potions de mana.</p><p><strong>Récompense :</strong> 30 po et <strong>+2</strong> de réputation auprès de : Kirin Tor.</p>",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "recolte",
+            "po": 30,
+            "faction": "kirin-tor",
+            "reputation": 2
+          }
+        }
+      }
+    },
+    {
+      "_id": "Ggh1yzOuUvC8ZFxS",
+      "_key": "!tables.results!xLGnHbXKzzIajN6o.Ggh1yzOuUvC8ZFxS",
+      "type": "text",
+      "name": "Récolte — Échantillons de gangrène",
+      "description": "<p><strong>Commanditaire :</strong> le Kirin Tor.</p><p>Prélever l'eau de trois oasis souillées des Tarides dans des fioles scellées ([[/check skill=arc dc=13]]{Arcanes DD 13} pour le faire sans se contaminer). Le Kirin Tor veut comprendre d'où vient la gangrène. La Lame ardente préfèrerait qu'il ne le comprenne pas.</p><p><strong>Récompense :</strong> 45 po et <strong>+3</strong> de réputation auprès de : Kirin Tor.</p>",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "recolte",
+            "po": 45,
+            "faction": "kirin-tor",
+            "reputation": 3
+          }
+        }
+      }
+    },
+    {
+      "_id": "i8NjCTYaf2mNxJWW",
+      "_key": "!tables.results!xLGnHbXKzzIajN6o.i8NjCTYaf2mNxJWW",
+      "type": "text",
+      "name": "Escorte — Les réfugiés de Lordaeron",
+      "description": "<p><strong>Commanditaire :</strong> Frère Odric Pierrelune, de la Main d'argent.</p><p>Escorter une douzaine de réfugiés jusqu'aux terres qu'on leur a promises au bord du marais, en évitant les patrouilles de la Horde nerveuses. L'un d'eux a été mordu par une goule et ne l'a dit à personne.</p><p><strong>Récompense :</strong> 40 po et <strong>+3</strong> de réputation auprès de : Chevaliers de la Main d'argent.</p>",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "escorte",
+            "po": 40,
+            "faction": "main-d-argent",
+            "reputation": 3
+          }
+        }
+      }
+    },
+    {
+      "_id": "z3fo1npItI4bJuIf",
+      "_key": "!tables.results!xLGnHbXKzzIajN6o.z3fo1npItI4bJuIf",
+      "type": "text",
+      "name": "Escorte — La sentinelle blessée",
+      "description": "<p><strong>Commanditaire :</strong> les Sentinelles.</p><p>Ramener l'éclaireuse Ilaria Feuille-Sombre, blessée et fiévreuse, jusqu'au poste de la Lisière au nord des Tarides. Elle a vu quelque chose dans les collines rouges et ne le dira qu'à son intendante.</p><p><strong>Récompense :</strong> 50 po et <strong>+3</strong> de réputation auprès de : Sentinelles.</p>",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "escorte",
+            "po": 50,
+            "faction": "sentinelles",
+            "reputation": 3
+          }
+        }
+      }
+    },
+    {
+      "_id": "Svh1rZYCsIP84rN8",
+      "_key": "!tables.results!xLGnHbXKzzIajN6o.Svh1rZYCsIP84rN8",
+      "type": "text",
+      "name": "Avis de recherche — Le khan des collines rouges",
+      "description": "<p><strong>Commanditaire :</strong> Maëlis Hautepierre.</p><p>Mort ou vif : @UUID[Compendium.lakour-warcraft.bestiaire.Actor.QUScvpfLBVyjpYzE]{Khan Ventrouge}, seigneur kolkar. Le Carrefour offre la même prime ; le Guet tient à ce que ce soit l'Alliance qui la touche.</p><p><strong>Récompense :</strong> 80 po et <strong>+4</strong> de réputation auprès de : Alliance (Theramore).</p>",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "avis",
+            "po": 80,
+            "faction": "alliance",
+            "reputation": 4
+          }
+        }
+      }
+    },
+    {
+      "_id": "uneC0mn1cVZw5vif",
+      "_key": "!tables.results!xLGnHbXKzzIajN6o.uneC0mn1cVZw5vif",
+      "type": "text",
+      "name": "Avis de recherche — Le docteur des marais",
+      "description": "<p><strong>Commanditaire :</strong> Sœur Linnea Clairmatin, pour l'Aube d'argent.</p><p>Débusquer un @UUID[Compendium.lakour-warcraft.bestiaire.Actor.ztoJXQwhFHGZcx2J]{nécromancien du Culte des Damnés} qui s'est installé dans une ferme abandonnée d'Âprefange et y « soigne » les mourants. Le ramener vivant pour qu'il soit jugé.</p><p><strong>Récompense :</strong> 70 po et <strong>+4</strong> de réputation auprès de : Aube d'argent.</p>",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "avis",
+            "po": 70,
+            "faction": "aube-d-argent",
+            "reputation": 4
+          }
+        }
+      }
+    },
+    {
+      "_id": "cJr16xoiwtbVp9Kf",
+      "_key": "!tables.results!xLGnHbXKzzIajN6o.cJr16xoiwtbVp9Kf",
+      "type": "text",
+      "name": "Livraison — Le courrier du capitaine",
+      "description": "<p><strong>Commanditaire :</strong> un officier de Theramore.</p><p>Porter une lettre du capitaine Corwen Haldis au Bureau de la Trêve de Cabestan, avant le soir du troisième jour. La lettre parle de la Horde en termes peu diplomatiques : mieux vaut qu'elle ne tombe pas dans les mauvaises mains.</p><p><strong>Récompense :</strong> 25 po et <strong>+2</strong> de réputation auprès de : Alliance (Theramore).</p>",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "livraison",
+            "po": 25,
+            "faction": "alliance",
+            "reputation": 2
+          }
+        }
+      }
+    },
+    {
+      "_id": "jf5RU2rEvHLSEZ0L",
+      "_key": "!tables.results!xLGnHbXKzzIajN6o.jf5RU2rEvHLSEZ0L",
+      "type": "text",
+      "name": "Livraison — La caisse de mithril",
+      "description": "<p><strong>Commanditaire :</strong> Bruni Martelfort, par lettre.</p><p>Porter une petite caisse de mithril brut, très lourde, du port de Theramore au comptoir de la Ligue à Cabestan. Le Cartel Baille-Fonds a payé quelqu'un pour la détourner en route.</p><p><strong>Récompense :</strong> 40 po et <strong>+3</strong> de réputation auprès de : Ligue des explorateurs.</p>",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "livraison",
+            "po": 40,
+            "faction": "ligue-des-explorateurs",
+            "reputation": 3
+          }
+        }
+      }
+    }
+  ]
+}

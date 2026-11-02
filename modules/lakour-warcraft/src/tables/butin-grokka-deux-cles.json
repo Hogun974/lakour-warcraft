@@ -1,0 +1,93 @@
+{
+  "_id": "wFOdn4WPlAPvdEOR",
+  "_key": "!tables!wFOdn4WPlAPvdEOR",
+  "name": "Butin — Grokka Deux-Clés (Mèche-Noire)",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Une fois Grokka vaincu (ou rendu), tirez une fois. Ajoutez toujours ses deux clés (grille du Puits, coffre des paies : 60 po) et 2d10 po dans ses poches.</p>",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "butin-grokka-deux-cles",
+      "aventure": "La Raffinerie de Mèche-Noire",
+      "collection": "donjon-meche-noire"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "emBgyWW3uiO3aNRu",
+      "_key": "!tables.results!wFOdn4WPlAPvdEOR.emBgyWW3uiO3aNRu",
+      "type": "document",
+      "name": "Clé à tube de Grokka",
+      "description": "",
+      "range": [
+        1,
+        2
+      ],
+      "weight": 2,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.o1X8rSvX8HBATOtt"
+    },
+    {
+      "_id": "C76lb9UulBZtYn47",
+      "_key": "!tables.results!wFOdn4WPlAPvdEOR.C76lb9UulBZtYn47",
+      "type": "document",
+      "name": "Gantelets ignifugés du contremaître",
+      "description": "",
+      "range": [
+        3,
+        4
+      ],
+      "weight": 2,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.izTlgtk7EPEfFOO4"
+    },
+    {
+      "_id": "sXkr6O4GreNlboPW",
+      "_key": "!tables.results!wFOdn4WPlAPvdEOR.sXkr6O4GreNlboPW",
+      "type": "document",
+      "name": "Casque de mineur à lanterne",
+      "description": "",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.q4nPH0xfdiJHhDM8"
+    },
+    {
+      "_id": "DL8cDfgxyLuiGuxV",
+      "_key": "!tables.results!wFOdn4WPlAPvdEOR.DL8cDfgxyLuiGuxV",
+      "type": "document",
+      "name": "Potion de soins majeure",
+      "description": "",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.JpC7YtpnD69HcMEL"
+    }
+  ]
+}

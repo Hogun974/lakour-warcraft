@@ -1,0 +1,1660 @@
+{
+  "_id": "GFn614V0fW2MVRIb",
+  "_key": "!actors!GFn614V0fW2MVRIb",
+  "name": "Grokka Deux-Clés, contremaître de Mèche-Noire",
+  "type": "npc",
+  "img": "modules/lakour-warcraft/assets/jetons/grokka-deux-cles.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 20,
+        "proficient": 1
+      },
+      "dex": {
+        "value": 8,
+        "proficient": 0
+      },
+      "con": {
+        "value": 18,
+        "proficient": 1
+      },
+      "int": {
+        "value": 7,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 9,
+        "proficient": 0
+      }
+    },
+    "skills": {
+      "ath": {
+        "value": 1,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 15,
+        "calc": "natural"
+      },
+      "hp": {
+        "value": 95,
+        "max": 95,
+        "temp": null,
+        "tempmax": null,
+        "formula": "10d10 + 40"
+      },
+      "movement": {
+        "units": "m",
+        "hover": false,
+        "ignoredDifficultTerrain": [],
+        "walk": "12"
+      },
+      "senses": {
+        "ranges": {
+          "darkvision": 18,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null
+        },
+        "units": "m",
+        "special": ""
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Un ogre gris-bleu de plus de trois mètres, sanglé dans des plaques de chaudière rivetées, deux énormes clés à tube passées à la ceinture comme des épées. Il compte les wagonnets à voix haute, et se trompe toujours.</p><h3>Note du MJ</h3><p>Contremaître de la raffinerie pour le baron Baille-Fonds, payé en viande et en bière. Il tient le Front de taille et sait qu'il sera puni s'il laisse passer quelqu'un. Il cogne d'abord le plus proche, lance des boulons sur ceux qui restent loin, et fait tomber la Pluie de rivets sur les groupes serrés. Phase 2 à 47 PV (voir sa capacité). Il se rend à 15 PV si on lui promet à manger et la vie sauve (Intimidation ou Persuasion DD 14) : il donne alors l'une de ses deux clés, celle de la grille du Puits de descente.</p>",
+        "public": "<p>Un ogre gris-bleu de plus de trois mètres, sanglé dans des plaques de chaudière rivetées, deux énormes clés à tube passées à la ceinture comme des épées. Il compte les wagonnets à voix haute, et se trompe toujours.</p>"
+      },
+      "alignment": "Neutre mauvais",
+      "type": {
+        "value": "giant",
+        "subtype": "ogre",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 4
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "ogre, gobelin, quelques mots de commun",
+        "communication": {}
+      }
+    },
+    "source": {
+      "book": "La Kour Warcraft",
+      "page": "",
+      "custom": "",
+      "license": "CC-BY-4.0",
+      "rules": "2024",
+      "revision": 1
+    },
+    "resources": {
+      "legact": {
+        "max": 2,
+        "spent": 0
+      },
+      "legres": {
+        "max": 1,
+        "spent": 0
+      },
+      "lair": {
+        "value": true,
+        "initiative": 20,
+        "inside": false
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Résistance légendaire (1/jour)",
+      "type": "feat",
+      "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+      "system": {
+        "description": {
+          "value": "<p>Quand Grokka Deux-Clés rate un jet de sauvegarde, il peut décider de le réussir à la place, 1 fois par jour (bouton « Résister » de dnd5e sur la carte du jet).</p>",
+          "chat": ""
+        },
+        "identifier": "legendary-resistance",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "zr4WlNBKSEivjDe8",
+      "_key": "!actors.items!GFn614V0fW2MVRIb.zr4WlNBKSEivjDe8"
+    },
+    {
+      "name": "Attaques multiples",
+      "type": "feat",
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Grokka fait deux attaques de Clé à tube.</p>",
+          "chat": ""
+        },
+        "identifier": "attaques-multiples",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "lN6XkW8OX3Rhblb8": {
+            "_id": "lN6XkW8OX3Rhblb8",
+            "type": "utility",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 200,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "fWkIRBEs4ydy4Aa5",
+      "_key": "!actors.items!GFn614V0fW2MVRIb.fWkIRBEs4ydy4Aa5"
+    },
+    {
+      "name": "Clé à tube",
+      "type": "weapon",
+      "img": "icons/tools/hand/wrench-adjustable-toothed.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Attaque au corps à corps :</em> +7, allonge 3 m. <em>Touché :</em> 14 (2d8 + 5) dégâts contondants. Si la cible est de taille M ou inférieure, elle est repoussée de 3 m.</p>",
+          "chat": ""
+        },
+        "identifier": "cle-a-tube",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "identified": true,
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": 1,
+              "formula": ""
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": 3,
+          "units": "m"
+        },
+        "activities": {
+          "u5WajFFwylc1Iz5v": {
+            "_id": "u5WajFFwylc1Iz5v",
+            "type": "attack",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 8,
+                  "bonus": "5",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {
+        "lakour-warcraft": {
+          "toucher": 7
+        }
+      },
+      "sort": 300,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "dPAF8hUwPelfGMwx",
+      "_key": "!actors.items!GFn614V0fW2MVRIb.dPAF8hUwPelfGMwx"
+    },
+    {
+      "name": "Boulon lancé",
+      "type": "weapon",
+      "img": "icons/tools/hand/hammer-and-nail.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Attaque à distance :</em> +7, portée 9/36 m. <em>Touché :</em> 12 (2d6 + 5) dégâts contondants.</p>",
+          "chat": ""
+        },
+        "identifier": "boulon-lance",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "identified": true,
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 6,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": 1,
+              "formula": ""
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": 9,
+          "long": 36,
+          "reach": null,
+          "units": "m"
+        },
+        "activities": {
+          "LuzqCBKFU4HQvFp3": {
+            "_id": "LuzqCBKFU4HQvFp3",
+            "type": "attack",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 6,
+                  "bonus": "5",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {
+        "lakour-warcraft": {
+          "toucher": 7
+        }
+      },
+      "sort": 400,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "XaP1qolO7J05Z6vD",
+      "_key": "!actors.items!GFn614V0fW2MVRIb.XaP1qolO7J05Z6vD"
+    },
+    {
+      "name": "Pluie de rivets (recharge 5–6)",
+      "type": "feat",
+      "img": "icons/magic/earth/projectile-moonrock-asteroid.webp",
+      "system": {
+        "description": {
+          "value": "<p>Grokka frappe la passerelle de sa clé : au plafond, les seaux de rivets basculent. Il désigne jusqu'à trois points qu'il voit à 18 m ou moins ; un cercle rouge de 3 m de rayon apparaît au sol autour de chacun (zones annoncées). Les rivets tombent au début du prochain tour de Grokka : une créature encore dans un cercle fait le jet.</p><p><em>Jet de sauvegarde de Dextérité :</em> DD 14, chaque créature dans un rayon de 3 m. <em>Échec :</em> 14 (4d6) dégâts perforants. <em>Réussite :</em> moitié des dégâts.</p>",
+          "chat": ""
+        },
+        "identifier": "pluie-de-rivets",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "9pgLpWEJv0j9gV3m": {
+            "_id": "9pgLpWEJv0j9gV3m",
+            "type": "save",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "radius",
+                "size": "3",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": [
+                {
+                  "number": 4,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "piercing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "14"
+              }
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 500,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "fZOhMlDUeEm3EZQ0",
+      "_key": "!actors.items!GFn614V0fW2MVRIb.fZOhMlDUeEm3EZQ0"
+    },
+    {
+      "name": "Phase 2 — Tuyau arraché",
+      "type": "feat",
+      "img": "icons/commodities/tech/pipe-exhaust-vent-brass.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Se déclenche une seule fois, dès que Grokka tombe à 47 points de vie ou moins (la moitié).</em> Grokka arrache la conduite d'huile qui court le long de la paroi et la brandit comme une massue. L'huile noire inonde le sol dans un rayon de 6 m autour de lui : c'est un terrain difficile, et la première flamme l'embrase (la nappe brûle 1 minute ; 2d6 dégâts de feu à qui y entre ou y commence son tour). Grokka entre en rage : <strong>+2</strong> aux jets d'attaque au corps à corps, <strong>−2</strong> à la CA, et il ne lance plus de Boulon.</p>",
+          "chat": ""
+        },
+        "identifier": "phase-2-tuyau-arrache",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "I06k1cpNB3vUMLny": {
+            "_id": "I06k1cpNB3vUMLny",
+            "type": "utility",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "kioES6Psys20D29h",
+                "level": {
+                  "min": null,
+                  "max": null
+                }
+              }
+            ],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "self",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": false,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            }
+          }
+        }
+      },
+      "effects": [
+        {
+          "_id": "kioES6Psys20D29h",
+          "_key": "!actors.items.effects!GFn614V0fW2MVRIb.i67BYuXQrchm5zhl.kioES6Psys20D29h",
+          "name": "Rage du contremaître",
+          "img": "icons/commodities/tech/pipe-exhaust-vent-brass.webp",
+          "type": "base",
+          "system": {
+            "magical": false,
+            "changes": [
+              {
+                "key": "system.rolls.attack.mwak.bonus",
+                "value": "2",
+                "priority": null,
+                "type": "add",
+                "phase": "initial",
+                "_id": "p0RK1X8mVgTb8fQY"
+              },
+              {
+                "key": "system.attributes.ac.bonus",
+                "value": "-2",
+                "priority": null,
+                "type": "add",
+                "phase": "initial",
+                "_id": "anZtVLRYPGgivQn1"
+              }
+            ]
+          },
+          "disabled": false,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "<p>+2 aux jets d'attaque au corps à corps, −2 à la CA, jusqu'à la fin du combat.</p>",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_stats": {
+            "coreVersion": "14.369",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.6"
+          }
+        }
+      ],
+      "flags": {},
+      "sort": 600,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "i67BYuXQrchm5zhl",
+      "_key": "!actors.items!GFn614V0fW2MVRIb.i67BYuXQrchm5zhl"
+    },
+    {
+      "name": "Pas lourd",
+      "type": "feat",
+      "img": "icons/skills/movement/feet-spurred-boots-brown.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Action légendaire.</em> Grokka se déplace de la moitié de sa vitesse sans provoquer d'attaque d'opportunité. Chaque créature de taille M ou inférieure dont il traverse l'espace est poussée de 1,5 m sur le côté.</p>",
+          "chat": ""
+        },
+        "identifier": "pas-lourd",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "Slmy78g7oWExZSFN": {
+            "_id": "Slmy78g7oWExZSFN",
+            "type": "utility",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "legendary",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 700,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "4DrT4ugm8CFZ7y9d",
+      "_key": "!actors.items!GFn614V0fW2MVRIb.4DrT4ugm8CFZ7y9d"
+    },
+    {
+      "name": "Revers de clé",
+      "type": "weapon",
+      "img": "icons/tools/hand/wrench-double.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Action légendaire.</em> <em>Attaque au corps à corps :</em> +7, allonge 3 m. <em>Touché :</em> 14 (2d8 + 5) dégâts contondants.</p>",
+          "chat": ""
+        },
+        "identifier": "revers-de-cle",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "identified": true,
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": 1,
+              "formula": ""
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": 3,
+          "units": "m"
+        },
+        "activities": {
+          "HKByTKVONguaGDXA": {
+            "_id": "HKByTKVONguaGDXA",
+            "type": "attack",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "legendary",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 8,
+                  "bonus": "5",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {
+        "lakour-warcraft": {
+          "toucher": 7
+        }
+      },
+      "sort": 800,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "OzGG6uZ2rhGLzUI1",
+      "_key": "!actors.items!GFn614V0fW2MVRIb.OzGG6uZ2rhGLzUI1"
+    },
+    {
+      "name": "Coup de sifflet",
+      "type": "feat",
+      "img": "icons/tools/instruments/whistle-sports.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Action légendaire (coûte 2 actions).</em> Grokka siffle entre ses doigts : deux kobolds mineurs (fiche du bestiaire) surgissent d'une galerie latérale à 9 m ou moins de lui et jouent juste après lui dans l'initiative. Pas plus de quatre kobolds appelés pendant le combat.</p>",
+          "chat": ""
+        },
+        "identifier": "coup-de-sifflet",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "hA0GwVoZGzQdz4lD": {
+            "_id": "hA0GwVoZGzQdz4lD",
+            "type": "utility",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "legendary",
+              "value": 2,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 900,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "czFN2TGO32HFzjWS",
+      "_key": "!actors.items!GFn614V0fW2MVRIb.czFN2TGO32HFzjWS"
+    },
+    {
+      "name": "Wagonnet fou",
+      "type": "feat",
+      "img": "icons/commodities/stone/ore-chunk-copper-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Action de repaire (à l'initiative 20, en perdant les égalités).</em> Un wagonnet chargé de minerai dévale les rails de la Galerie principale vers le Front de taille. Le grincement s'entend un round à l'avance : le MJ annonce la ligne de 18 m sur 1,5 m de large au tour précédent.</p><p><em>Jet de sauvegarde de Dextérité :</em> DD 13, chaque créature dans une ligne de 18 m. <em>Échec :</em> 11 (2d10) dégâts contondants. La cible tombe à terre. <em>Réussite :</em> la cible se jette hors des rails et ne subit rien.</p>",
+          "chat": ""
+        },
+        "identifier": "wagonnet-fou",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "rNugRxrOEVODEj2R": {
+            "_id": "rNugRxrOEVODEj2R",
+            "type": "save",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "lair",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "line",
+                "size": "18",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "damage": {
+              "onSave": "none",
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 10,
+                  "bonus": "",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "13"
+              }
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1000,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "5OZskMQrvGPQmiQ2",
+      "_key": "!actors.items!GFn614V0fW2MVRIb.5OZskMQrvGPQmiQ2"
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Grokka Deux-Clés, contremaître de Mèche-Noire",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/lakour-warcraft/assets/jetons/grokka-deux-cles.svg",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#c43c8c",
+        "background": "#3a0f28"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "grokka-deux-cles",
+      "role": "chef",
+      "mj": "Contremaître de la raffinerie pour le baron Baille-Fonds, payé en viande et en bière. Il tient le Front de taille et sait qu'il sera puni s'il laisse passer quelqu'un. Il cogne d'abord le plus proche, lance des boulons sur ceux qui restent loin, et fait tomber la Pluie de rivets sur les groupes serrés. Phase 2 à 47 PV (voir sa capacité). Il se rend à 15 PV si on lui promet à manger et la vie sauve (Intimidation ou Persuasion DD 14) : il donne alors l'une de ses deux clés, celle de la grille du Puits de descente.",
+      "armure": "plaques de chaudière rivetées",
+      "boss": {
+        "phase2": "Phase 2 — Tuyau arraché"
+      },
+      "collection": "donjon-meche-noire"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

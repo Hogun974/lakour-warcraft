@@ -1,0 +1,227 @@
+{
+  "_id": "VZpVXdtVbHdZKhRr",
+  "_key": "!items!VZpVXdtVbHdZKhRr",
+  "name": "Marmite de ragoût de kodo épicé",
+  "type": "consumable",
+  "img": "icons/consumables/food/bowl-stew-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un ragoût noir et brûlant de viande de kodo, de racines des Tarides et de piment de Durotar, mijoté toute une nuit dans une marmite cabossée. Les grunts du Carrefour jurent qu'il tient debout un orc blessé jusqu'au lendemain.</p><p>Six portions. Il faut <strong>10 minutes</strong> pour manger une portion ; la créature qui la mange est <strong>bien nourrie</strong> : +1 aux jets de sauvegarde de Constitution et aux tests de Force.</p><p>Un seul repas « bien nourri » à la fois : un nouveau repas remplace le précédent. L'effet prend fin au prochain <strong>repos long</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "ragout-de-kodo-epice",
+    "price": {
+      "value": 4,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "6",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        },
+        "types": []
+      },
+      "replace": false
+    },
+    "type": {
+      "value": "food",
+      "subtype": ""
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "activities": {
+      "Coqc2rPbov0HYdYe": {
+        "_id": "Coqc2rPbov0HYdYe",
+        "type": "utility",
+        "name": "Manger une portion",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "minute",
+          "value": 10,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "Ke96r2cf5PL5NpSn",
+            "level": {}
+          }
+        ],
+        "range": {
+          "value": "",
+          "units": "touch",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "Ke96r2cf5PL5NpSn",
+      "_key": "!items.effects!VZpVXdtVbHdZKhRr.Ke96r2cf5PL5NpSn",
+      "name": "Bien nourri — ragoût de kodo",
+      "img": "icons/consumables/food/bowl-stew-brown.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.abilities.con.save.roll.bonus",
+            "value": "1",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "w87gFY10DoCHP6IR"
+          },
+          {
+            "key": "system.abilities.str.check.roll.bonus",
+            "value": "1",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "tJYUrUf8lIce83FY"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": "longRest",
+        "expired": false
+      },
+      "description": "<p>Bien nourri jusqu'au prochain repos long : +1 aux jets de sauvegarde de Constitution et aux tests de Force.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "ragout-de-kodo-epice",
+      "collection": "consommables"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,1620 @@
+{
+  "_id": "iW0ajwxt1Hm8PDRd",
+  "_key": "!actors!iW0ajwxt1Hm8PDRd",
+  "name": "Mère-Brasier, l'élémentaire enchaînée",
+  "type": "npc",
+  "img": "modules/lakour-warcraft/assets/jetons/mere-brasier.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 12,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 17,
+        "proficient": 0
+      },
+      "con": {
+        "value": 16,
+        "proficient": 0
+      },
+      "int": {
+        "value": 6,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 7,
+        "proficient": 0
+      }
+    },
+    "skills": {},
+    "attributes": {
+      "ac": {
+        "flat": 14,
+        "calc": "natural"
+      },
+      "hp": {
+        "value": 102,
+        "max": 102,
+        "temp": null,
+        "tempmax": null,
+        "formula": "12d10 + 36"
+      },
+      "movement": {
+        "units": "m",
+        "hover": false,
+        "ignoredDifficultTerrain": [],
+        "walk": "15"
+      },
+      "senses": {
+        "ranges": {
+          "darkvision": 18,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null
+        },
+        "units": "m",
+        "special": ""
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Une silhouette de flammes orangées, haute comme deux hommes, aux bras qui se terminent en longs fouets de feu. Quatre chaînes couvertes de runes la relient à une énorme chaudière de cuivre ; à chaque pulsation, l'huile bout dans les cuves.</p><h3>Note du MJ</h3><p>Un élémentaire de feu arraché aux Terres de feu par un sorcier du Cartel et enchaîné pour chauffer les alambics. Elle hait ses geôliers plus que les intrus, mais ne fait pas la différence dans sa douleur. Elle frappe tout ce qui approche, souffle sa vapeur sur les groupes, et la chaudière fait monter la pression. Les joueurs ont un vrai choix : briser les chaînes plus tôt (la blesse, mais la libère) ou laisser la jauge monter. Phase 2 à 51 PV. Elle ne parle pas, mais un personnage qui lui parle en primordial (ou qui réussit Arcanes DD 15) comprend qu'elle veut seulement rentrer chez elle : si on détruit les quatre chaînes ET la chaudière sans la tuer, elle s'éteint d'elle-même et laisse son Cœur de braise.</p>",
+        "public": "<p>Une silhouette de flammes orangées, haute comme deux hommes, aux bras qui se terminent en longs fouets de feu. Quatre chaînes couvertes de runes la relient à une énorme chaudière de cuivre ; à chaque pulsation, l'huile bout dans les cuves.</p>"
+      },
+      "alignment": "Neutre",
+      "type": {
+        "value": "elemental",
+        "subtype": "feu",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 5
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [
+          "fire",
+          "poison"
+        ],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "exhaustion",
+          "grappled",
+          "paralyzed",
+          "petrified",
+          "poisoned",
+          "prone",
+          "restrained",
+          "unconscious"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "primordial (igné), comprend le gobelin",
+        "communication": {}
+      }
+    },
+    "source": {
+      "book": "La Kour Warcraft",
+      "page": "",
+      "custom": "",
+      "license": "CC-BY-4.0",
+      "rules": "2024",
+      "revision": 1
+    },
+    "resources": {
+      "legact": {
+        "max": 3,
+        "spent": 0
+      },
+      "legres": {
+        "max": 1,
+        "spent": 0
+      },
+      "lair": {
+        "value": true,
+        "initiative": 20,
+        "inside": false
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Résistance légendaire (1/jour)",
+      "type": "feat",
+      "img": "icons/magic/fire/barrier-shield-explosion-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>Quand Mère-Brasier rate un jet de sauvegarde, il peut décider de le réussir à la place, 1 fois par jour (bouton « Résister » de dnd5e sur la carte du jet).</p>",
+          "chat": ""
+        },
+        "identifier": "legendary-resistance",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "HqDAj9LzHiYolGpR",
+      "_key": "!actors.items!iW0ajwxt1Hm8PDRd.HqDAj9LzHiYolGpR"
+    },
+    {
+      "name": "Forme de feu",
+      "type": "feat",
+      "img": "icons/magic/fire/elemental-creature-horse.webp",
+      "system": {
+        "description": {
+          "value": "<p>Une créature qui touche Mère-Brasier ou la frappe au corps à corps à 1,5 m ou moins subit 5 (1d10) dégâts de feu. Un objet inflammable qu'elle touche prend feu. Chaque litre d'eau versé sur elle lui inflige 1 dégât de froid ; un bassin lunaire réveillé la tuerait.</p>",
+          "chat": ""
+        },
+        "identifier": "forme-de-feu",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 200,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "C1bG5e7c7kG1ZOlO",
+      "_key": "!actors.items!iW0ajwxt1Hm8PDRd.C1bG5e7c7kG1ZOlO"
+    },
+    {
+      "name": "Enchaînée à la chaudière",
+      "type": "feat",
+      "img": "icons/magic/control/debuff-chains-orb-movement-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Avant la phase 2, Mère-Brasier ne quitte pas le centre du Puits de descente : sa vitesse est de 0. Quatre chaînes runiques la retiennent (CA 16, 25 PV chacune, immunisées contre le feu et le poison ; à 1,5 m d'une chaîne, on la frappe sans rien risquer de ses fouets). Chaque chaîne brisée lui inflige 10 dégâts de force. Quand la quatrième cède, la phase 2 commence, quels que soient ses points de vie.</p>",
+          "chat": ""
+        },
+        "identifier": "enchainee-a-la-chaudiere",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 300,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "hBw1fgopDDHpEOn7",
+      "_key": "!actors.items!iW0ajwxt1Hm8PDRd.hBw1fgopDDHpEOn7"
+    },
+    {
+      "name": "Jauge de pression",
+      "type": "feat",
+      "img": "icons/commodities/tech/dial-meter-gauge-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>La chaudière a une jauge de 0 à 6, que le MJ tient en vue de tous. Elle monte de 1 à chaque Soupape hurlante. Une créature à côté de l'une des trois vannes du Puits peut, par une action, la faire baisser de 1 (Force (Athlétisme) ou outils de bricoleur DD 14). À 4 ou plus, Mère-Brasier a l'avantage à ses jets d'attaque. À 6, la chaudière crache : chaque créature dans le Puits fait un jet de sauvegarde de Constitution DD 14 et subit 21 (6d6) dégâts de feu en cas d'échec, la moitié en cas de réussite ; la jauge retombe à 0.</p>",
+          "chat": ""
+        },
+        "identifier": "jauge-de-pression",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 400,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "wWpRee2C9PbLBPC1",
+      "_key": "!actors.items!iW0ajwxt1Hm8PDRd.wWpRee2C9PbLBPC1"
+    },
+    {
+      "name": "Attaques multiples",
+      "type": "feat",
+      "img": "icons/magic/fire/beam-strike-whip-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>Mère-Brasier fait deux attaques de Fouet de flammes.</p>",
+          "chat": ""
+        },
+        "identifier": "attaques-multiples",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "w3OkZQ5zvOGclsQU": {
+            "_id": "w3OkZQ5zvOGclsQU",
+            "type": "utility",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 500,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "ulgFQM8GieFmsE88",
+      "_key": "!actors.items!iW0ajwxt1Hm8PDRd.ulgFQM8GieFmsE88"
+    },
+    {
+      "name": "Fouet de flammes",
+      "type": "weapon",
+      "img": "icons/weapons/misc/whip-leather.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Attaque au corps à corps :</em> +6, allonge 3 m. <em>Touché :</em> 10 (2d6 + 3) dégâts de feu. Si la cible est une créature, elle prend feu : 1d4 dégâts de feu au début de chacun de ses tours, jusqu'à ce qu'elle ou un allié dépense une action pour éteindre les flammes.</p>",
+          "chat": ""
+        },
+        "identifier": "fouet-de-flammes",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "identified": true,
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 6,
+            "bonus": "",
+            "types": [
+              "fire"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": 1,
+              "formula": ""
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": 3,
+          "units": "m"
+        },
+        "activities": {
+          "cmmPjJQzFxToX0pp": {
+            "_id": "cmmPjJQzFxToX0pp",
+            "type": "attack",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "attack": {
+              "ability": "dex",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 6,
+                  "bonus": "3",
+                  "types": [
+                    "fire"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {
+        "lakour-warcraft": {
+          "toucher": 6
+        }
+      },
+      "sort": 600,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "9VssCftsRBOYgrhy",
+      "_key": "!actors.items!iW0ajwxt1Hm8PDRd.9VssCftsRBOYgrhy"
+    },
+    {
+      "name": "Jet de vapeur (recharge 5–6)",
+      "type": "feat",
+      "img": "icons/magic/air/fog-gas-smoke-swirling-white.webp",
+      "system": {
+        "description": {
+          "value": "<p>La chaudière dans le dos de Mère-Brasier vomit un jet de vapeur brûlante.</p><p><em>Jet de sauvegarde de Constitution :</em> DD 14, chaque créature dans un cône de 6 m. <em>Échec :</em> 14 (4d6) dégâts de feu. <em>Réussite :</em> moitié des dégâts.</p>",
+          "chat": ""
+        },
+        "identifier": "jet-de-vapeur",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "4B377MLFSlTtjmXe": {
+            "_id": "4B377MLFSlTtjmXe",
+            "type": "save",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "cone",
+                "size": "6",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": [
+                {
+                  "number": 4,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "fire"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            },
+            "save": {
+              "ability": [
+                "con"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "14"
+              }
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 700,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "exN7m4K9Q8k2xjY5",
+      "_key": "!actors.items!iW0ajwxt1Hm8PDRd.exN7m4K9Q8k2xjY5"
+    },
+    {
+      "name": "Phase 2 — Les chaînes cèdent",
+      "type": "feat",
+      "img": "icons/magic/control/debuff-chains-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Se déclenche une seule fois, dès que Mère-Brasier tombe à 51 points de vie ou moins (la moitié), ou quand sa dernière chaîne se brise.</em> Les chaînes fondent comme de la cire. Libérée, elle se déplace enfin (vitesse 15 m, plus 3 m) et a l'avantage aux jets de sauvegarde de Dextérité. Chaque case qu'elle quitte devient une <strong>flaque de scories</strong> jusqu'à la fin du combat : terrain difficile, 5 (1d10) dégâts de feu à qui y entre ou y commence son tour. La jauge de pression ne monte plus, mais garde sa valeur.</p>",
+          "chat": ""
+        },
+        "identifier": "phase-2-les-chaines-cedent",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "dciIO832QJQEjRid": {
+            "_id": "dciIO832QJQEjRid",
+            "type": "utility",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "VrejDlMhQoLeFKIB",
+                "level": {
+                  "min": null,
+                  "max": null
+                }
+              }
+            ],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "self",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": false,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            }
+          }
+        }
+      },
+      "effects": [
+        {
+          "_id": "VrejDlMhQoLeFKIB",
+          "_key": "!actors.items.effects!iW0ajwxt1Hm8PDRd.qd0YiKA8bkloMYvv.VrejDlMhQoLeFKIB",
+          "name": "Libérée de ses chaînes",
+          "img": "icons/magic/control/debuff-chains-purple.webp",
+          "type": "base",
+          "system": {
+            "magical": false,
+            "changes": [
+              {
+                "key": "system.attributes.movement.bonus",
+                "value": "3",
+                "priority": null,
+                "type": "add",
+                "phase": "initial",
+                "_id": "95pPUn7LCqravSNN"
+              },
+              {
+                "key": "system.abilities.dex.save.roll.mode",
+                "value": 1,
+                "priority": null,
+                "type": "add",
+                "phase": "initial",
+                "_id": "gECoQqiYGGefBznX"
+              }
+            ]
+          },
+          "disabled": false,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "<p>Vitesse +3 m et avantage aux jets de sauvegarde de Dextérité, jusqu'à la fin du combat.</p>",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_stats": {
+            "coreVersion": "14.369",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.6"
+          }
+        }
+      ],
+      "flags": {},
+      "sort": 800,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "qd0YiKA8bkloMYvv",
+      "_key": "!actors.items!iW0ajwxt1Hm8PDRd.qd0YiKA8bkloMYvv"
+    },
+    {
+      "name": "Crachat de scories",
+      "type": "weapon",
+      "img": "icons/magic/fire/projectile-meteor-salvo-heavy-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Action légendaire.</em> <em>Attaque magique à distance :</em> +6, portée 18 m. <em>Touché :</em> 9 (2d8) dégâts de feu.</p>",
+          "chat": ""
+        },
+        "identifier": "crachat-de-scories",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "identified": true,
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 8,
+            "bonus": "-3",
+            "types": [
+              "fire"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": 1,
+              "formula": ""
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": 18,
+          "long": null,
+          "reach": null,
+          "units": "m"
+        },
+        "activities": {
+          "manKo9NbZmEqKEoc": {
+            "_id": "manKo9NbZmEqKEoc",
+            "type": "attack",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "legendary",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "attack": {
+              "ability": "dex",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "spell"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "fire"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {
+        "lakour-warcraft": {
+          "toucher": 6
+        }
+      },
+      "sort": 900,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "xI8hfHf13bzadMrw",
+      "_key": "!actors.items!iW0ajwxt1Hm8PDRd.xI8hfHf13bzadMrw"
+    },
+    {
+      "name": "Ruissellement",
+      "type": "feat",
+      "img": "icons/magic/earth/lava-explosion-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Action légendaire.</em> Phase 2 seulement : Mère-Brasier se déplace de la moitié de sa vitesse, sans provoquer d'attaque d'opportunité, et laisse ses flaques de scories derrière elle.</p>",
+          "chat": ""
+        },
+        "identifier": "ruissellement",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "GIaJpIcJrkjnUAJY": {
+            "_id": "GIaJpIcJrkjnUAJY",
+            "type": "utility",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "legendary",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1000,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "onrz3Y8ib3SJcV10",
+      "_key": "!actors.items!iW0ajwxt1Hm8PDRd.onrz3Y8ib3SJcV10"
+    },
+    {
+      "name": "Bouffée de la chaudière",
+      "type": "feat",
+      "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Action légendaire (coûte 2 actions).</em> Mère-Brasier se gonfle et souffle une vague de chaleur autour d'elle.</p><p><em>Jet de sauvegarde de Dextérité :</em> DD 14, chaque créature dans un rayon de 3 m. <em>Échec :</em> 10 (3d6) dégâts de feu. <em>Réussite :</em> moitié des dégâts.</p>",
+          "chat": ""
+        },
+        "identifier": "bouffee-de-la-chaudiere",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "Dfd3ZOcqqZfNpw2c": {
+            "_id": "Dfd3ZOcqqZfNpw2c",
+            "type": "save",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "legendary",
+              "value": 2,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "radius",
+                "size": "3",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "fire"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "14"
+              }
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1100,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "F9UbRDraVrcLgnaG",
+      "_key": "!actors.items!iW0ajwxt1Hm8PDRd.F9UbRDraVrcLgnaG"
+    },
+    {
+      "name": "Soupape hurlante",
+      "type": "feat",
+      "img": "icons/commodities/tech/valve-pressure-pipe-copper.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Action de repaire (à l'initiative 20, en perdant les égalités).</em> L'une des trois bouches de vapeur du Puits, désignée au tour précédent par un sifflement aigu (zone annoncée), crache une colonne de vapeur de 1,5 m de rayon et 6 m de haut. La jauge de pression monte de 1.</p><p><em>Jet de sauvegarde de Dextérité :</em> DD 14, chaque créature dans un rayon de 1,5 m. <em>Échec :</em> 10 (3d6) dégâts de feu. <em>Réussite :</em> moitié des dégâts.</p>",
+          "chat": ""
+        },
+        "identifier": "soupape-hurlante",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "F6wriGVGYbAFhxxi": {
+            "_id": "F6wriGVGYbAFhxxi",
+            "type": "save",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "lair",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "radius",
+                "size": "1.5",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "fire"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "14"
+              }
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1200,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "jU6kyZqCM2x7u74N",
+      "_key": "!actors.items!iW0ajwxt1Hm8PDRd.jU6kyZqCM2x7u74N"
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Mère-Brasier, l'élémentaire enchaînée",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/lakour-warcraft/assets/jetons/mere-brasier.svg",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#8b5a2b",
+        "background": "#2b1a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "mere-brasier",
+      "role": "chef",
+      "mj": "Un élémentaire de feu arraché aux Terres de feu par un sorcier du Cartel et enchaîné pour chauffer les alambics. Elle hait ses geôliers plus que les intrus, mais ne fait pas la différence dans sa douleur. Elle frappe tout ce qui approche, souffle sa vapeur sur les groupes, et la chaudière fait monter la pression. Les joueurs ont un vrai choix : briser les chaînes plus tôt (la blesse, mais la libère) ou laisser la jauge monter. Phase 2 à 51 PV. Elle ne parle pas, mais un personnage qui lui parle en primordial (ou qui réussit Arcanes DD 15) comprend qu'elle veut seulement rentrer chez elle : si on détruit les quatre chaînes ET la chaudière sans la tuer, elle s'éteint d'elle-même et laisse son Cœur de braise.",
+      "boss": {
+        "phase2": "Phase 2 — Les chaînes cèdent"
+      },
+      "collection": "donjon-meche-noire"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

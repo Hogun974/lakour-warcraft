@@ -1,0 +1,313 @@
+{
+  "_id": "VsKTVEAjxDUd5oAw",
+  "_key": "!items!VsKTVEAjxDUd5oAw",
+  "name": "Dague de gangrecorne",
+  "type": "weapon",
+  "img": "icons/magic/fire/dagger-rune-enchant-flame-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une dague taillée dans la corne de Vexxa la Rieuse, nervurée de veines vertes qui luisent dans le noir. C'est une <strong>arme +1</strong> (dague) : chaque coup qui touche inflige <strong>1d4 dégâts de feu</strong> supplémentaires (flammes vertes). La nuit, on croit l'entendre rire ; un paladin ou un druide voudra la détruire.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "dague-de-gangrecorne",
+    "price": {
+      "value": 700,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "range": {
+      "value": 6,
+      "long": 18,
+      "reach": null,
+      "units": "m"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 4,
+        "bonus": "",
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        },
+        "types": [
+          "piercing"
+        ]
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        },
+        "types": []
+      }
+    },
+    "armor": {
+      "value": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "dagger"
+    },
+    "magicalBonus": 1,
+    "properties": [
+      "fin",
+      "lgt",
+      "thr",
+      "mgc"
+    ],
+    "proficient": null,
+    "activities": {
+      "jgAQEhXgn81DQBW9": {
+        "_id": "jgAQEhXgn81DQBW9",
+        "type": "attack",
+        "name": "",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "1.5",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "",
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "weapon"
+          }
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        }
+      },
+      "v4IwK8rtPuQoHyLj": {
+        "_id": "v4IwK8rtPuQoHyLj",
+        "type": "damage",
+        "name": "Flamme verte",
+        "img": null,
+        "sort": 100000,
+        "flags": {},
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": "La cible est touchée par la dague",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "1.5",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "damage": {
+          "critical": {
+            "allow": false,
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": 1,
+              "denomination": 4,
+              "bonus": "",
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              },
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "ammunition": {},
+    "mastery": "nick"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "dague-de-gangrecorne",
+      "collection": "rares"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

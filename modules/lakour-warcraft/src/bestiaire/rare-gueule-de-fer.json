@@ -1,0 +1,576 @@
+{
+  "_id": "lLwQLxs3tufdW6rd",
+  "_key": "!actors!lLwQLxs3tufdW6rd",
+  "name": "Gueule-de-Fer, le crocilisque ancien",
+  "type": "npc",
+  "img": "modules/lakour-warcraft/assets/jetons/rare-gueule-de-fer.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 20,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 10,
+        "proficient": 0
+      },
+      "con": {
+        "value": 17,
+        "proficient": 0
+      },
+      "int": {
+        "value": 2,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 12,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 5,
+        "proficient": 0
+      }
+    },
+    "skills": {
+      "ste": {
+        "value": 1,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 15,
+        "calc": "natural"
+      },
+      "hp": {
+        "value": 95,
+        "max": 95,
+        "temp": null,
+        "tempmax": null,
+        "formula": "10d12 + 30"
+      },
+      "movement": {
+        "units": "m",
+        "hover": false,
+        "ignoredDifficultTerrain": [],
+        "walk": "9",
+        "swim": "12"
+      },
+      "senses": {
+        "ranges": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null
+        },
+        "units": "m",
+        "special": ""
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Un crocilisque long comme une barque de pêche, aux écailles grises et dures comme du fer, couvertes de coquillages. On dit qu'il a mangé trois pêcheurs et un contremaître du Cartel.</p><h3>Note du MJ</h3><p>Il chasse dans les marais salés au sud de Cabestan, là où le Cartel fait passer ses barques de contrebande. Il attend sous l'eau, saisit une proie, roule et l'emporte. Un appât (un kodo mort, un tonneau de poisson) le fait sortir. Il fuit à 25 PV, et revient. <strong>Butin garanti :</strong> @UUID[Compendium.lakour-warcraft.objets.Item.EEDEayXLoCLvrM3Y]{Bouclier en écailles de Gueule-de-Fer}, et dans son estomac une bague de contremaître (25 po) que Grizzla reconnaît.</p>",
+        "public": "<p>Un crocilisque long comme une barque de pêche, aux écailles grises et dures comme du fer, couvertes de coquillages. On dit qu'il a mangé trois pêcheurs et un contremaître du Cartel.</p>"
+      },
+      "alignment": "Non aligné",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 4
+    },
+    "traits": {
+      "size": "huge",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "",
+        "communication": {}
+      }
+    },
+    "source": {
+      "book": "La Kour Warcraft",
+      "page": "",
+      "custom": "",
+      "license": "CC-BY-4.0",
+      "rules": "2024",
+      "revision": 1
+    }
+  },
+  "items": [
+    {
+      "name": "Écailles de fer",
+      "type": "feat",
+      "img": "icons/commodities/leather/scales-green.webp",
+      "system": {
+        "description": {
+          "value": "<p>Les dégâts contondants, perforants et tranchants que Gueule-de-Fer subit d'armes non magiques sont réduits de 3. Il retient son souffle une heure sous l'eau.</p>",
+          "chat": ""
+        },
+        "identifier": "ecailles-de-fer",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "FrvqeCCtXOloej30",
+      "_key": "!actors.items!lLwQLxs3tufdW6rd.FrvqeCCtXOloej30"
+    },
+    {
+      "name": "Mâchoire de fer",
+      "type": "weapon",
+      "img": "icons/commodities/bones/bone-jaw-teeth-green.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Attaque au corps à corps :</em> +7, allonge 1,5 m. <em>Touché :</em> 16 (2d10 + 5) dégâts perforants. La cible est agrippée (évasion DD 15). Tant qu'elle l'est, elle est entravée et Gueule-de-Fer ne peut pas mordre une autre cible.</p>",
+          "chat": ""
+        },
+        "identifier": "machoire-de-fer",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "identified": true,
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 10,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": 1,
+              "formula": ""
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": 1.5,
+          "units": "m"
+        },
+        "activities": {
+          "CXe2NDPy9IKuFH76": {
+            "_id": "CXe2NDPy9IKuFH76",
+            "type": "attack",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 10,
+                  "bonus": "5",
+                  "types": [
+                    "piercing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {
+        "lakour-warcraft": {
+          "toucher": 7
+        }
+      },
+      "sort": 200,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "sTMwWgwvR1pN8WZv",
+      "_key": "!actors.items!lLwQLxs3tufdW6rd.sTMwWgwvR1pN8WZv"
+    },
+    {
+      "name": "Roulade de la mort (recharge 5–6)",
+      "type": "feat",
+      "img": "icons/magic/water/vortex-water-whirlpool-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Jet de sauvegarde de Force :</em> DD 15, la créature que Gueule-de-Fer agrippe. <em>Échec :</em> 16 (3d10) dégâts tranchants. Gueule-de-Fer l'entraîne sous l'eau avec lui, où elle doit retenir son souffle. <em>Réussite :</em> la cible se dégage et n'est plus agrippée.</p>",
+          "chat": ""
+        },
+        "identifier": "roulade-de-la-mort",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "cPEPyYBafakgoao4": {
+            "_id": "cPEPyYBafakgoao4",
+            "type": "save",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "damage": {
+              "onSave": "none",
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": 10,
+                  "bonus": "",
+                  "types": [
+                    "slashing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            },
+            "save": {
+              "ability": [
+                "str"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "15"
+              }
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 300,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "7Gd8qg5InOBVAH69",
+      "_key": "!actors.items!lLwQLxs3tufdW6rd.7Gd8qg5InOBVAH69"
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Gueule-de-Fer, le crocilisque ancien",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 20,
+    "displayBars": 20,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "modules/lakour-warcraft/assets/jetons/rare-gueule-de-fer.svg",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#8b5a2b",
+        "background": "#2b1a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "rare-gueule-de-fer",
+      "role": "elite",
+      "mj": "Il chasse dans les marais salés au sud de Cabestan, là où le Cartel fait passer ses barques de contrebande. Il attend sous l'eau, saisit une proie, roule et l'emporte. Un appât (un kodo mort, un tonneau de poisson) le fait sortir. Il fuit à 25 PV, et revient. **Butin garanti :** @UUID[Compendium.lakour-warcraft.objets.Item.EEDEayXLoCLvrM3Y]{Bouclier en écailles de Gueule-de-Fer}, et dans son estomac une bague de contremaître (25 po) que Grizzla reconnaît.",
+      "armure": "écailles de fer",
+      "collection": "rares"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

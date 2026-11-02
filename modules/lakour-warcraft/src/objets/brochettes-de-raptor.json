@@ -1,0 +1,227 @@
+{
+  "_id": "1ypEKSCGDzILPDsh",
+  "_key": "!items!1ypEKSCGDzILPDsh",
+  "name": "Brochettes de raptor au piment",
+  "type": "consumable",
+  "img": "icons/consumables/food/cooked-kebab-meat-skewer-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Des lanières de raptor marinées dans le jus de cactus et roulées dans un piment qui fait pleurer les trolls eux-mêmes. On les mange avec les doigts, et on regarde autour de soi avec des yeux tout neufs.</p><p>Six portions. Il faut <strong>10 minutes</strong> pour manger une portion ; la créature qui la mange est <strong>bien nourrie</strong> : +2 à l'initiative et +1 aux jets de sauvegarde de Dextérité.</p><p>Un seul repas « bien nourri » à la fois : un nouveau repas remplace le précédent. L'effet prend fin au prochain <strong>repos long</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "brochettes-de-raptor",
+    "price": {
+      "value": 3,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "6",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        },
+        "types": []
+      },
+      "replace": false
+    },
+    "type": {
+      "value": "food",
+      "subtype": ""
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "activities": {
+      "YhJiaoZNGgoYfpcJ": {
+        "_id": "YhJiaoZNGgoYfpcJ",
+        "type": "utility",
+        "name": "Manger une portion",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "minute",
+          "value": 10,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "YVwJAjeXxBo6dNzi",
+            "level": {}
+          }
+        ],
+        "range": {
+          "value": "",
+          "units": "touch",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "YVwJAjeXxBo6dNzi",
+      "_key": "!items.effects!1ypEKSCGDzILPDsh.YVwJAjeXxBo6dNzi",
+      "name": "Bien nourri — brochettes de raptor",
+      "img": "icons/consumables/food/cooked-kebab-meat-skewer-red.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.init.roll.bonus",
+            "value": "2",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "5CJfFubko1Z1I4kk"
+          },
+          {
+            "key": "system.abilities.dex.save.roll.bonus",
+            "value": "1",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "sPg2RpThcOcOnIWS"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": "longRest",
+        "expired": false
+      },
+      "description": "<p>Bien nourri jusqu'au prochain repos long : +2 à l'initiative et +1 aux jets de sauvegarde de Dextérité.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "brochettes-de-raptor",
+      "collection": "consommables"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "_id": "hGE8PsZTAtnG0kwk",
+  "_key": "!items!hGE8PsZTAtnG0kwk",
+  "name": "Bottes à ressorts Baille-Fonds",
+  "type": "equipment",
+  "img": "icons/equipment/feet/boots-armored-brass.webp",
+  "system": {
+    "description": {
+      "value": "<p>Des bottes de laiton montées sur deux ressorts graissés, qui grincent à chaque pas. Votre vitesse augmente de 1,5 m tant que vous les portez. Trois fois par jour, par une <strong>action bonus</strong>, vous bondissez jusqu'à 6 m en longueur ou 3 m en hauteur, sans élan. Elles retrouvent leurs bonds à l'aube.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "bottes-a-ressorts-baille-fonds",
+    "price": {
+      "value": 500,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "3",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": null,
+    "proficient": null,
+    "activities": {
+      "lnvx0WODt1rJvwUx": {
+        "_id": "lnvx0WODt1rJvwUx",
+        "type": "utility",
+        "name": "Bond à ressorts",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "m2xHkX0rOaFLiDFx",
+      "_key": "!items.effects!hGE8PsZTAtnG0kwk.m2xHkX0rOaFLiDFx",
+      "name": "Bottes à ressorts",
+      "img": "icons/equipment/feet/boots-armored-brass.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.movement.bonus",
+            "value": "1.5",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "GHJaaOcchn0bHsxB"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Vitesse +1,5 m.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "bottes-a-ressorts-baille-fonds",
+      "collection": "donjon-meche-noire"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

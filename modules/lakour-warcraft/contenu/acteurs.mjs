@@ -9,6 +9,7 @@
 import { MODULE, STATS, html, icone, identifiant } from "./aides.mjs";
 import { anneauJeton, cheminJeton } from "./jetons.mjs";
 import { ICONES_PNJ } from "./icones-pnj.mjs";
+import { effet as effetSorts } from "./sorts.mjs";
 
 // ---------------------------------------------------------------- Vocabulaire (français -> dnd5e)
 
@@ -52,7 +53,9 @@ export const COMPETENCES = {
 };
 const VITESSES = { marche: "walk", nage: "swim", vol: "fly", escalade: "climb", creusement: "burrow" };
 const SENS = { noir: "darkvision", aveugle: "blindsight", vibrations: "tremorsense", veritable: "truesight" };
-const ACTIVATIONS = { action: "action", bonus: "bonus", reaction: "reaction", special: "special" };
+// « legendaire » et « repaire » : activations « legendary » (coût dans activation.value, payé sur resources.legact par
+// dnd5e) et « lair » de dnd5e 6.0.6 (CONFIG.DND5E.activityActivationTypes) ; le PNJ doit déclarer `legendaire`.
+const ACTIVATIONS = { action: "action", bonus: "bonus", reaction: "reaction", special: "special", legendaire: "legendary", repaire: "lair" };
 const ZONES = { cone: "cone", ligne: "line", rayon: "radius", sphere: "sphere", cube: "cube" };
 const ROLES = ["troupe", "elite", "chef"];
 const FP_VALIDES = [0, 0.125, 0.25, 0.5, ...Array.from({ length: 30 }, (_, i) => i + 1)];
@@ -95,22 +98,32 @@ export const trait = (nom, texte, options = {}) => ({ genre: "trait", nom, texte
 export const attaque = (nom, options) => ({ genre: "attaque", nom, ...options });
 // Effet à jet de sauvegarde : { carac, dd, zone?: { forme, taille }, cible?, degats?, type?, moitie?, echec?, reussite? … }
 export const sauvegarde = (nom, options) => ({ genre: "sauvegarde", nom, ...options });
-// Action sans jet (attaques multiples, cri, incantation…) : { activation?, recharge?, parJour? }
+// Action sans jet (attaques multiples, cri, incantation…) : { activation?, recharge?, parJour?, effet? }
+// effet = { nom, changements: [[clé, valeur, mode]], duree (secondes), texte } : effet actif que l'action s'applique à
+// elle-même (phase d'un boss, rage…), clés vérifiées par cheminEffetValide (sorts.mjs).
+// Activation « legendaire » : `cout` = nombre d'actions légendaires dépensées (1 à 3, 1 par défaut).
 export const action = (nom, texte, options = {}) => ({ genre: "action", nom, texte, ...options });
 export const attaquesMultiples = texte => action("Attaques multiples", texte);
 
 const CHAMPS_CAPACITE = {
   trait: ["genre", "nom", "texte", "img"],
-  attaque: ["genre", "nom", "toucher", "degats", "type", "distance", "allonge", "portee", "carac", "plus", "effet", "rider", "arme", "magique", "img", "recharge", "parJour", "activation"],
-  sauvegarde: ["genre", "nom", "carac", "dd", "zone", "cible", "portee", "degats", "type", "moitie", "echec", "reussite", "texte", "img", "recharge", "parJour", "activation"],
-  action: ["genre", "nom", "texte", "img", "recharge", "parJour", "activation"]
+  attaque: ["genre", "nom", "toucher", "degats", "type", "distance", "allonge", "portee", "carac", "plus", "effet", "rider", "arme", "magique", "img", "recharge", "parJour", "activation", "cout"],
+  sauvegarde: ["genre", "nom", "carac", "dd", "zone", "cible", "portee", "degats", "type", "moitie", "echec", "reussite", "texte", "img", "recharge", "parJour", "activation", "cout"],
+  action: ["genre", "nom", "texte", "img", "recharge", "parJour", "activation", "cout", "effet"]
 };
 
-// Squelette commun d'une activité dnd5e (forme du SRD 5.2).
-function activite(_id, type, { activation = "action", consommer = false } = {}) {
+// En-tête du texte d'une capacité selon son activation (une action ordinaire n'en a pas).
+function enTete(activation, cout) {
+  if (activation === "legendary") return `*Action légendaire${cout > 1 ? ` (coûte ${cout} actions)` : ""}.* `;
+  if (activation === "lair") return "*Action de repaire (à l'initiative 20, en perdant les égalités).* ";
+  return { bonus: "*Action bonus.* ", reaction: "*Réaction.* " }[activation] ?? "";
+}
+
+// Squelette commun d'une activité dnd5e (forme du SRD 5.2). valeur : coût d'une action légendaire.
+function activite(_id, type, { activation = "action", consommer = false, valeur = null } = {}) {
   return {
     _id, type, name: "", img: null, sort: 0, flags: {},
-    activation: { type: activation, value: null, condition: "", override: false },
+    activation: { type: activation, value: valeur, condition: "", override: false },
     consumption: { targets: consommer ? [{ type: "itemUses", value: "1", target: "", scaling: { mode: "", formula: "" } }] : [], scaling: { allowed: false, max: "" }, spellSlot: true },
     description: { chatFlavor: "" },
     duration: { units: "inst", value: "", special: "", concentration: false, override: false },
@@ -180,7 +193,13 @@ function construireCapacite(c, ctx) {
   for (const k of Object.keys(c)) if (!champs.includes(k)) throw new Error(`${ou} : champ inconnu « ${k} »`);
   const id = j => identifiant(`bestiaire:${ctx.cle}:capacite:${ctx.i}:${j}`);
   const activation = traduire(ACTIVATIONS, c.activation ?? "action", "activation", ou);
+  if (c.cout !== undefined && activation !== "legendary") throw new Error(`${ou} : un coût n'a de sens que pour une action légendaire`);
+  const cout = activation === "legendary" ? (c.cout ?? 1) : null;
+  if (cout !== null && ![1, 2, 3].includes(cout)) throw new Error(`${ou} : coût d'action légendaire ${cout} invalide (1 à 3)`);
+  if (["legendary", "lair"].includes(activation) && !ctx.legendaire) throw new Error(`${ou} : action légendaire ou de repaire sur un PNJ sans « legendaire »`);
+  if (activation === "lair" && !ctx.legendaire.repaire) throw new Error(`${ou} : action de repaire sur un PNJ sans repaire`);
   const { uses, suffixe, consommer } = usages(c);
+  const quand = enTete(activation, cout);
   const base = (type, img, systeme, texte) => ({
     name: `${c.nom}${suffixe}`, type, img: img ?? icone("svg/book"),
     system: { description: { value: html(texte), chat: "" }, identifier: slug(c.nom), source: SOURCE, uses, ...systeme },
@@ -190,15 +209,24 @@ function construireCapacite(c, ctx) {
   if (c.genre === "trait") return base("feat", c.img, { type: { value: "monster", subtype: "" }, properties: ["trait"], requirements: "", activities: {} }, c.texte);
 
   if (c.genre === "action") {
-    const act = { ...activite(id(0), "utility", { activation, consommer }), roll: { prompt: false, visible: false, name: "", formula: "" } };
-    const quand = { bonus: "*Action bonus.* ", reaction: "*Réaction.* " }[activation] ?? "";
-    return base("feat", c.img ?? icone("svg/upgrade"), { type: { value: "monster", subtype: "" }, properties: [], requirements: "", activities: { [act._id]: act } }, `${quand}${c.texte}`);
+    const act = { ...activite(id(0), "utility", { activation, consommer, valeur: cout }), roll: { prompt: false, visible: false, name: "", formula: "" } };
+    const img = c.img ?? icone("svg/upgrade");
+    // Effet sur soi : non transféré, appliqué par l'activité (bouton de la carte de chat de dnd5e) au PNJ lui-même.
+    const effets = c.effet ? [effetSorts(`bestiaire:${ctx.cle}:capacite:${ctx.i}`, "parent", 0, { ...c.effet, img: c.effet.img ?? img }, img, ou, { transfert: false, magique: false })] : [];
+    if (effets.length) {
+      act.effects = [{ _id: effets[0]._id, level: { min: null, max: null } }];
+      act.target.affects = { count: "", type: "self", choice: false, special: "" };
+      act.target.prompt = false;
+      if (c.effet.duree) act.duration = { ...act.duration, value: String(Math.round(c.effet.duree / 60) || 1), units: c.effet.duree >= 60 ? "minute" : "round" };
+    }
+    const objet = base("feat", img, { type: { value: "monster", subtype: "" }, properties: [], requirements: "", activities: { [act._id]: act } }, `${quand}${c.texte}`);
+    objet.effects = effets;
+    return objet;
   }
 
   if (c.genre === "sauvegarde") {
-    const { act, carac } = activiteSauvegarde(id(0), c, ou, { activation, consommer });
+    const { act, carac } = activiteSauvegarde(id(0), c, ou, { activation, consommer, valeur: cout });
     const img = c.img ?? (c.type ? IMAGE_DEGATS[DEGATS[norme(c.type)]] && icone(IMAGE_DEGATS[DEGATS[norme(c.type)]]) : null) ?? icone("svg/explosion");
-    const quand = { bonus: "*Action bonus.* ", reaction: "*Réaction.* " }[activation] ?? "";
     return base("feat", img, { type: { value: "monster", subtype: "" }, properties: [], requirements: "", activities: { [act._id]: act } },
       `${quand}${c.texte ? `${c.texte}\n\n` : ""}${texteSauvegarde(c, carac)}`);
   }
@@ -214,7 +242,7 @@ function construireCapacite(c, ctx) {
     throw new Error(`${ou} : +${c.toucher} au toucher ne correspond à aucune caractéristique (${candidates.map(k => `${k} ${signe(modificateur(ctx.abilities[k]) + ctx.prof)}`).join(", ")})`);
   }
   const plus = (c.plus ?? []).map(([formule, t]) => ({ d: des(formule, ou), type: traduire(DEGATS, t, "type de dégâts", ou) }));
-  const act = activite(id(0), "attack", { activation, consommer });
+  const act = activite(id(0), "attack", { activation, consommer, valeur: cout });
   act.attack = {
     ability: carac, bonus: "", critical: { threshold: null }, flat: false,
     type: { value: c.distance ? "ranged" : "melee", classification: c.magique ? "spell" : "weapon" }
@@ -236,7 +264,7 @@ function construireCapacite(c, ctx) {
     : `allonge ${nombre(allonge)} m${portee ? ` ou portée ${portee.map(nombre).join("/")} m` : ""}`;
   const degatsTexte = [phraseDegats(d, type), ...plus.map(p => phraseDegats(p.d, p.type))].join(", plus ");
   const genreAttaque = `Attaque ${c.magique ? "magique " : ""}${c.distance ? "à distance" : "au corps à corps"}`;
-  const texte = `*${genreAttaque} :* ${signe(c.toucher)}, ${ouAttaque}. *Touché :* ${degatsTexte}.${c.effet ? ` ${c.effet}` : ""}${texteRider}`;
+  const texte = `${quand}*${genreAttaque} :* ${signe(c.toucher)}, ${ouAttaque}. *Touché :* ${degatsTexte}.${c.effet ? ` ${c.effet}` : ""}${texteRider}`;
   const arme = { naturelle: "natural", simple: c.distance ? "simpleR" : "simpleM", guerre: c.distance ? "martialR" : "martialM" }[c.arme ?? "naturelle"];
   if (!arme) throw new Error(`${ou} : arme « ${c.arme} » inconnue (naturelle, simple, guerre)`);
   const img = c.img ?? (c.magique ? icone(IMAGE_DEGATS[type] ?? "svg/lightning") : icone(c.distance ? "svg/target" : "svg/sword"));
@@ -257,7 +285,25 @@ function construireCapacite(c, ctx) {
 
 const CHAMPS_PNJ = ["cle", "nom", "fp", "taille", "type", "sousType", "alignement", "ca", "armure", "pv", "dv", "carac", "sauvegardes",
   "competences", "vitesse", "sens", "resistances", "immunites", "vulnerabilites", "immunitesEtats", "langues", "disposition", "role",
-  "texte", "mj", "capacites"];
+  "texte", "mj", "capacites", "legendaire"];
+
+// Créature légendaire (boss) : legendaire = { actions (1 à 5), resistances (0 à 3), repaire?: { initiative } }.
+// -> system.resources.legact / legres / lair de dnd5e 6.0.6 (NPCData). Avec des résistances, le trait « Résistance
+// légendaire » est ajouté en tête, à l identifiant « legendary-resistance » que dnd5e cherche pour en afficher les usages.
+function ressourcesLegendaires(l, ou) {
+  if (!l) return null;
+  for (const k of Object.keys(l)) if (!["actions", "resistances", "repaire"].includes(k)) throw new Error(`${ou} : champ légendaire inconnu « ${k} »`);
+  if (!Number.isInteger(l.actions) || l.actions < 1 || l.actions > 5) throw new Error(`${ou} : ${l.actions} actions légendaires (1 à 5)`);
+  const resistances = l.resistances ?? 0;
+  if (!Number.isInteger(resistances) || resistances < 0 || resistances > 3) throw new Error(`${ou} : ${resistances} résistances légendaires (0 à 3)`);
+  const initiative = l.repaire ? (l.repaire.initiative ?? 20) : null;
+  if (l.repaire && (!Number.isInteger(initiative) || initiative < 1 || initiative > 30)) throw new Error(`${ou} : initiative de repaire ${initiative} invalide`);
+  return {
+    legact: { max: l.actions, spent: 0 },
+    legres: { max: resistances, spent: 0 },
+    lair: { value: Boolean(l.repaire), initiative, inside: false }
+  };
+}
 
 export function pnj(d) {
   const ou = `PNJ « ${d.cle ?? d.nom ?? "?"} »`;
@@ -305,12 +351,23 @@ export function pnj(d) {
   for (const [k, v] of Object.entries(d.sens ?? {})) ranges[traduire(SENS, k, "sens", ou)] = v;
 
   const prof = maitrise(d.fp);
-  const ctx = { cle: d.cle, abilities, prof };
+  const ressources = ressourcesLegendaires(d.legendaire, ou);
+  const ctx = { cle: d.cle, abilities, prof, legendaire: d.legendaire ?? null };
+  if (ressources?.legres.max) {
+    const nom = d.nom.split(",")[0];
+    d = { ...d, capacites: [trait("Résistance légendaire", `Quand ${nom} rate un jet de sauvegarde, il peut décider de le réussir à la place, ${ressources.legres.max} fois par jour (bouton « Résister » de dnd5e sur la carte du jet).`), ...d.capacites] };
+  }
   const icones = ICONES_PNJ[d.cle] ?? {};
   const inconnues = Object.keys(icones).filter(nom => !(d.capacites ?? []).some(c => c.nom === nom));
   if (inconnues.length) throw new Error(`${ou} : ICONES_PNJ nomme des capacités absentes (${inconnues.join(", ")})`);
   const objets = (d.capacites ?? []).map((c, i) => construireCapacite(c.img || !icones[c.nom] ? c : { ...c, img: icones[c.nom] }, { ...ctx, i }));
   if (!objets.length) throw new Error(`${ou} : aucune capacité`);
+  const resistance = ressources?.legres.max ? objets[0] : null;
+  if (resistance) {
+    resistance.name = `Résistance légendaire (${ressources.legres.max}/jour)`;
+    resistance.system.identifier = "legendary-resistance";
+  }
+  if (ressources && !objets.some(o => Object.values(o.system.activities ?? {}).some(a => a.activation.type === "legendary"))) throw new Error(`${ou} : « legendaire » sans aucune action légendaire`);
 
   const _id = identifiant(`bestiaire:${d.cle}`);
   const image = cheminJeton(d.cle);
@@ -342,7 +399,8 @@ export function pnj(d) {
         ci: { value: liste(d.immunitesEtats, ETATS, "état"), custom: "" },
         languages: { value: [], custom: d.langues ?? "", communication: {} }
       },
-      source: SOURCE
+      source: SOURCE,
+      ...(ressources ? { resources: ressources } : {})
     },
     __objets: objets,
     items: [], effects: [],

@@ -1,0 +1,92 @@
+{
+  "_id": "uHs3owEV50iyMo6b",
+  "_key": "!tables!uHs3owEV50iyMo6b",
+  "name": "Rares et élites — Nord des Tarides",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Entre le Carrefour, Fort-Rivet, le kraal de Ronceroc et la mine de Rouge-Veine. Une fois par jour de voyage dans la zone, sur 1 sur 1d6, tirez sur cette table. Chaque créature nommée porte un butin garanti (voir sa note du MJ) ; une créature vaincue ne revient pas : relancez si elle sort de nouveau.</p>",
+  "formula": "1d4",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "rares-nord-des-tarides",
+      "aventure": "Les Tarides vivantes",
+      "collection": "rares"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "axrtYOuvexZTIhrp",
+      "_key": "!tables.results!uHs3owEV50iyMo6b.axrtYOuvexZTIhrp",
+      "type": "document",
+      "name": "Crocs-de-Cendre, le loup gangrené",
+      "description": "",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.bestiaire.Actor.kkJpRCb1TYvyoexd"
+    },
+    {
+      "_id": "CkjCKsdgXrM8NGo2",
+      "_key": "!tables.results!uHs3owEV50iyMo6b.CkjCKsdgXrM8NGo2",
+      "type": "document",
+      "name": "Vieille Plume-Fiel, matriarche des harpies",
+      "description": "",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.bestiaire.Actor.91PomlVIbUiHDDMn"
+    },
+    {
+      "_id": "vGlxTHHhUJ6FZRn6",
+      "_key": "!tables.results!uHs3owEV50iyMo6b.vGlxTHHhUJ6FZRn6",
+      "type": "document",
+      "name": "Rouille-Cœur, le déchiqueteur fou",
+      "description": "",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.bestiaire.Actor.MSzbsS8RNDhbCU6K"
+    },
+    {
+      "_id": "5qsIljIUdZJ1pjk5",
+      "_key": "!tables.results!uHs3owEV50iyMo6b.5qsIljIUdZJ1pjk5",
+      "type": "text",
+      "name": "Une piste fraîche",
+      "description": "<p>Pas de rare aujourd'hui, mais une trace : des herbes brûlées en cercle, des plumes vert-de-gris ou des traînées de rouille. Le lendemain, la rencontre est assurée (tirez de nouveau 1d3).</p>",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    }
+  ]
+}

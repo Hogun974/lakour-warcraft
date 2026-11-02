@@ -22,6 +22,12 @@ import { AVENTURE_DOCUMENTS } from "../modules/lakour-warcraft/contenu/aventure.
 import { CAMPAGNE_DOCUMENTS } from "../modules/lakour-warcraft/contenu/campagne.mjs";
 import { ONE_SHOT_DOCUMENTS } from "../modules/lakour-warcraft/contenu/one-shot.mjs";
 import { CARTES_LIEUX } from "../modules/lakour-warcraft/contenu/lieux-cartes.mjs";
+import { DONJON_DOCUMENTS } from "../modules/lakour-warcraft/contenu/donjon.mjs";
+import { CONSOMMABLES } from "../modules/lakour-warcraft/contenu/consommables.mjs";
+import { REPUTATION_DOCUMENTS } from "../modules/lakour-warcraft/contenu/reputations.mjs";
+import { MONTURES_DOCUMENTS } from "../modules/lakour-warcraft/contenu/montures.mjs";
+import { RARES_DOCUMENTS } from "../modules/lakour-warcraft/contenu/rares.mjs";
+import { CONTRATS_DOCUMENTS } from "../modules/lakour-warcraft/contenu/contrats.mjs";
 
 const M = "lakour-warcraft";
 const RACINE = new URL(`../modules/${M}/`, import.meta.url);
@@ -53,7 +59,8 @@ function attendu(definitions) {
   return cles;
 }
 const ATTENDU = { "aventures:puits-de-cendre": attendu(AVENTURE_DOCUMENTS), "aventures:braises-de-la-legion": attendu(CAMPAGNE_DOCUMENTS),
-  "aventures:nuit-aux-deux-lanternes": attendu(ONE_SHOT_DOCUMENTS) };
+  "aventures:nuit-aux-deux-lanternes": attendu(ONE_SHOT_DOCUMENTS), "aventures:raffinerie-de-meche-noire": attendu(DONJON_DOCUMENTS),
+  "aventures:tarides-vivantes": attendu([...CONSOMMABLES, ...REPUTATION_DOCUMENTS, ...MONTURES_DOCUMENTS, ...RARES_DOCUMENTS, ...CONTRATS_DOCUMENTS]) };
 
 // Tous les « _id » d'un document, à toute profondeur (pages, épingles, zones, comportements, objets d'acteur…).
 function identifiants(v, acc = new Set()) {
@@ -67,7 +74,7 @@ const contientCle = v => (Array.isArray(v) ? v.some(contientCle) : v && typeof v
 
 function verifier({ aventures, manifeste }) {
   const erreurs = [];
-  if (aventures.length !== 3) erreurs.push(`${aventures.length} aventures au lieu de 3`);
+  if (aventures.length !== 5) erreurs.push(`${aventures.length} aventures au lieu de 5`);
 
   for (const { pack, cle, doc: a } of aventures) {
     const ou = `« ${a.name} »`;
@@ -162,12 +169,17 @@ function verifier({ aventures, manifeste }) {
 
 // ---------------------------------------------------------------- Essais
 
-test("aventures : les trois paquets et le manifeste passent le vérificateur", () => {
+test("aventures : les cinq paquets et le manifeste passent le vérificateur", () => {
   assert.deepEqual(verifier({ aventures, manifeste }), []);
 });
 
 test("aventures : contenu attendu de chaque paquet", () => {
-  const [puits, braises, nuit] = aventures.map(a => a.doc);
+  const [puits, braises, nuit, donjon, tarides] = aventures.map(a => a.doc);
+  assert.equal(donjon.name, "La Raffinerie de Mèche-Noire");
+  assert.equal(tarides.name, "Les Tarides vivantes");
+  assert.deepEqual([donjon.scenes.length, donjon.journal.length, donjon.tables.length], [0, 2, 3], "donjon : journal de rencontre, journal du MJ, trois tables de butin");
+  assert.ok(donjon.actors.length >= 3 && donjon.items.length >= 11, "donjon : boss, renforts et butin");
+  assert.ok(tarides.tables.length >= 6 && tarides.actors.length >= 14 && tarides.journal.length >= 4, "Tarides vivantes : tables, montures et rares, journaux");
   assert.equal(puits.name, "Les Puits de cendre");
   assert.equal(braises.name, "Les Braises de la Légion");
   assert.equal(nuit.name, "Une nuit aux Deux Lanternes");

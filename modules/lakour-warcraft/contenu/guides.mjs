@@ -40,7 +40,7 @@ const sansAccent = t => t.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
 const CARACS_FR = { force: "str", dexterite: "dex", constitution: "con", intelligence: "int", sagesse: "wis", charisme: "cha" };
 const OUTILS_FR = { "outils de voleur": "thief", "outils de bricoleur": "tinker" };
 for (const o of Object.values(OUTILS_FR)) if (!Object.values(OUTILS).flat().includes(o)) throw new Error(`Outil dnd5e inconnu : ${o}`);
-const REGLES_FR = { "terrain difficile": "difficultTerrain" };
+const REGLES_FR = { "terrain difficile": "difficultTerrain", "monter en selle": "mounting", "controler une monture": "controllingamount", "rythme de voyage": "travelpace" };
 function libelle(texte, ou) {
   if (!texte || /[[\]{}]/.test(texte)) throw new Error(`${ou} : libellé vide ou avec des crochets/accolades (${texte})`);
   return texte;

@@ -1,0 +1,179 @@
+{
+  "_id": "E5C85wneDdtrYvvy",
+  "_key": "!items!E5C85wneDdtrYvvy",
+  "name": "Mante de plumes de fiel",
+  "type": "equipment",
+  "img": "icons/commodities/materials/feather-colored-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une cape cousue des longues plumes vert-de-gris de la vieille harpie, qui bruissent au moindre souffle. Une fois par jour, quand vous tombez, vous pouvez par une <strong>réaction</strong> ouvrir la mante : vous descendez de 18 m par round pendant 1 minute et ne subissez aucun dégât de chute. Elle se regonfle à l'aube.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "mante-de-plumes-de-fiel",
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": null,
+    "proficient": null,
+    "activities": {
+      "rVfaxcv4DSsf02va": {
+        "_id": "rVfaxcv4DSsf02va",
+        "type": "utility",
+        "name": "Planer",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "condition": "Vous tombez",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "mante-de-plumes-de-fiel",
+      "collection": "rares"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

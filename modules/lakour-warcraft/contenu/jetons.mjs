@@ -76,7 +76,27 @@ export const JETONS_PNJ = {
   "hilde-brunval": "lorc/lantern-flame",                // la lanterne bleue du relais
   "durgan-brise-fers": "lorc/beer-stein",               // l'aubergiste orc
   "vesper-lacombe": "lorc/raven",                       // la réprouvée qui ne dort jamais
-  "aldwin-crayeval": "skoll/pestle-mortar"              // le « bon docteur »
+  "aldwin-crayeval": "skoll/pestle-mortar",             // le « bon docteur »
+  // --- Donjon « La Raffinerie de Mèche-Noire »
+  "grokka-deux-cles": "lorc/anvil-impact",              // le contremaître et ses clés
+  "mere-brasier": "lorc/gooey-daemon",                  // l'élémentaire de scories
+  "baron-nizzel-baille-fonds": "lorc/robot-golem",      // le Grand Déchiqueteur
+  // --- Montures des Tarides
+  "monture-belier-de-forgefer": "caro-asercion/warlord-helmet", // les cornes du bélier
+  "monture-loup-de-guerre": "lorc/wolf-howl",
+  "monture-kodo": "delapouite/animal-hide",             // la peau du kodo
+  "monture-raptor": "lorc/bestial-fangs",
+  "monture-hippogriffe": "lorc/eagle-emblem",
+  // --- Rares et élites des Tarides
+  "rare-crocs-de-cendre": "delapouite/sniffing-dog",
+  "rare-plume-fiel": "lorc/evil-bat",                   // les ailes de la vieille harpie
+  "rare-rouille-coeur": "lorc/auto-repair",
+  "rare-glouglou-premier": "delapouite/jewel-crown",    // la couronne du roi murloc
+  "rare-gueule-de-fer": "lorc/grasping-claws",
+  "rare-capitaine-sel-rouge": "delapouite/pirate-captain",
+  "rare-khan-ventrouge": "lorc/bowman",
+  "rare-sabot-de-verre": "lorc/crystal-ball",           // le verre noir
+  "rare-vexxa-la-rieuse": "delapouite/devil-mask"
 };
 
 // Clé du peuple jouable (objet « race » du compendium peuples, flags.lakour-warcraft.cle) -> icône. Anneau bleu acier.
@@ -172,6 +192,7 @@ export const FACTIONS = {
   naga: { nom: "Nagas d'Azshara", anneau: "#14917a", fond: "#04241f" },             // vert des abysses
   defias: { nom: "Confrérie défias", anneau: "#6d6d6d", fond: "#161616" },          // gris de la fumée et des masques
   cartel: { nom: "Cartel Gentepression", anneau: "#e0b43a", fond: "#3a2c08" },      // or gobelin
+  "baille-fonds": { nom: "Cartel Baille-Fonds", anneau: "#c43c8c", fond: "#3a0f28" }, // magenta de l'huile de feu, le rival
   sauvages: { nom: "Bêtes et tribus sauvages", anneau: "#8b5a2b", fond: "#2b1a0a" }, // brun des terres sauvages
   neutres: { nom: "Gens du commun", anneau: "#d8cfb8", fond: "#2a2722" }            // ivoire des neutres
 };
@@ -206,7 +227,15 @@ export const FACTION_PNJ = {
   "grizzla-tordeboulon": "cartel", "vizzik-tirelire": "cartel", "dechiqueteur-fonderie": "cartel",
   "paysan": "neutres", "marchand": "neutres", "iselle-marchebrume": "neutres",  // la scribe du sommet de Gué-de-Sel
   // --- One-shot : les hôtes des Deux Lanternes, la réprouvée, et le nécromancien sous son masque de médecin de Theramore
-  "hilde-brunval": "alliance", "durgan-brise-fers": "horde", "vesper-lacombe": "horde", "aldwin-crayeval": "alliance"
+  "hilde-brunval": "alliance", "durgan-brise-fers": "horde", "vesper-lacombe": "horde", "aldwin-crayeval": "alliance",
+  // --- Suppléments : le Cartel Baille-Fonds (donjon de Mèche-Noire, corsaire), l'élémentaire captive, les montures (bêtes
+  // sauvages, l'hippogriffe de Theramore), les rares (bêtes et tribus, le prototype de Vizzik, la chasseresse de la Légion)
+  "grokka-deux-cles": "baille-fonds", "baron-nizzel-baille-fonds": "baille-fonds", "rare-capitaine-sel-rouge": "baille-fonds",
+  "mere-brasier": "sauvages",
+  "monture-belier-de-forgefer": "sauvages", "monture-loup-de-guerre": "sauvages", "monture-kodo": "sauvages", "monture-raptor": "sauvages",
+  "monture-hippogriffe": "alliance",
+  "rare-crocs-de-cendre": "sauvages", "rare-plume-fiel": "sauvages", "rare-glouglou-premier": "sauvages", "rare-gueule-de-fer": "sauvages",
+  "rare-khan-ventrouge": "sauvages", "rare-sabot-de-verre": "sauvages", "rare-rouille-coeur": "cartel", "rare-vexxa-la-rieuse": "legion"
 };
 
 // prototypeToken.ring d'un PNJ (schéma TokenRingData de Foundry 14 : enabled, colors.ring/background, effects,

@@ -1,0 +1,469 @@
+{
+  "_id": "kmMedxXNioduXgmC",
+  "_key": "!actors!kmMedxXNioduXgmC",
+  "name": "Loup de guerre de Durotar",
+  "type": "npc",
+  "img": "modules/lakour-warcraft/assets/jetons/monture-loup-de-guerre.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 17,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 15,
+        "proficient": 0
+      },
+      "con": {
+        "value": 15,
+        "proficient": 0
+      },
+      "int": {
+        "value": 3,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 12,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 7,
+        "proficient": 0
+      }
+    },
+    "skills": {
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 13,
+        "calc": "natural"
+      },
+      "hp": {
+        "value": 37,
+        "max": 37,
+        "temp": null,
+        "tempmax": null,
+        "formula": "5d10 + 10"
+      },
+      "movement": {
+        "units": "m",
+        "hover": false,
+        "ignoredDifficultTerrain": [],
+        "walk": "15"
+      },
+      "senses": {
+        "ranges": {
+          "darkvision": 18,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null
+        },
+        "units": "m",
+        "special": ""
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Un loup noir aussi haut qu'un cheval, au poitrail barré de cicatrices et aux oreilles fendues. Les orcs de Durotar les élèvent depuis leur arrivée en Kalimdor, et un loup de guerre ne reconnaît qu'un seul maître.</p><h3>Note du MJ</h3><p>Fidèle et féroce : il se bat à côté de son cavalier, et le défend s'il tombe. Un loup maltraité finit par mordre la main qui le frappe. Les chevaux de l'Alliance paniquent à son odeur (désavantage aux tests pour les contrôler à 9 m ou moins).</p>",
+        "public": "<p>Un loup noir aussi haut qu'un cheval, au poitrail barré de cicatrices et aux oreilles fendues. Les orcs de Durotar les élèvent depuis leur arrivée en Kalimdor, et un loup de guerre ne reconnaît qu'un seul maître.</p>"
+      },
+      "alignment": "Non aligné",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 1
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "",
+        "communication": {}
+      }
+    },
+    "source": {
+      "book": "La Kour Warcraft",
+      "page": "",
+      "custom": "",
+      "license": "CC-BY-4.0",
+      "rules": "2024",
+      "revision": 1
+    }
+  },
+  "items": [
+    {
+      "name": "Bête de selle",
+      "type": "feat",
+      "img": "icons/creatures/mammals/wolf-howl-moon-gray.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Capacité de charge : 255 kg</strong> (pousser, tirer ou soulever : 510 kg). Porte un cavalier de taille M et son paquetage. Vitesse 15 m. Prix : 120 po au Carrefour (réputation Amical auprès de la Horde), 25 po le harnais de guerre.</p>",
+          "chat": ""
+        },
+        "identifier": "bete-de-selle",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "jR6tszQcnHQBvzCB",
+      "_key": "!actors.items!kmMedxXNioduXgmC.jR6tszQcnHQBvzCB"
+    },
+    {
+      "name": "Flair du loup",
+      "type": "feat",
+      "img": "icons/creatures/mammals/dog-husky-white-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Le loup a l'avantage aux tests de Sagesse (Perception) fondés sur l'ouïe ou l'odorat, et il prévient son cavalier d'une embuscade : le cavalier ne peut pas être surpris tant que le loup ne l'est pas.</p>",
+          "chat": ""
+        },
+        "identifier": "flair-du-loup",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 200,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "hpdZMLm5G7YdVkZk",
+      "_key": "!actors.items!kmMedxXNioduXgmC.hpdZMLm5G7YdVkZk"
+    },
+    {
+      "name": "Crocs de guerre",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/mouth-teeth-crooked-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Attaque au corps à corps :</em> +5, allonge 1,5 m. <em>Touché :</em> 10 (2d6 + 3) dégâts perforants. Si la cible est de taille M ou inférieure, elle doit réussir un jet de sauvegarde de Force DD 13 ou tomber à terre.</p>",
+          "chat": ""
+        },
+        "identifier": "crocs-de-guerre",
+        "source": {
+          "book": "La Kour Warcraft",
+          "page": "",
+          "custom": "",
+          "license": "CC-BY-4.0",
+          "rules": "2024",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "quantity": 1,
+        "equipped": true,
+        "proficient": 1,
+        "identified": true,
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 6,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": 1,
+              "formula": ""
+            }
+          },
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": 1.5,
+          "units": "m"
+        },
+        "activities": {
+          "iq0Fv4Ei4xIw6C5X": {
+            "_id": "iq0Fv4Ei4xIw6C5X",
+            "type": "attack",
+            "name": "",
+            "img": null,
+            "sort": 0,
+            "flags": {},
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "value": "",
+              "special": "",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 6,
+                  "bonus": "3",
+                  "types": [
+                    "piercing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {
+        "lakour-warcraft": {
+          "toucher": 5
+        }
+      },
+      "sort": 300,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_id": "TY4Rml8WymbpZwTl",
+      "_key": "!actors.items!kmMedxXNioduXgmC.TY4Rml8WymbpZwTl"
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Loup de guerre de Durotar",
+    "actorLink": false,
+    "disposition": 1,
+    "displayName": 20,
+    "displayBars": 20,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/lakour-warcraft/assets/jetons/monture-loup-de-guerre.svg",
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": "#8b5a2b",
+        "background": "#2b1a0a"
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.6,
+        "texture": null
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "monture-loup-de-guerre",
+      "role": "troupe",
+      "mj": "Fidèle et féroce : il se bat à côté de son cavalier, et le défend s'il tombe. Un loup maltraité finit par mordre la main qui le frappe. Les chevaux de l'Alliance paniquent à son odeur (désavantage aux tests pour les contrôler à 9 m ou moins).",
+      "armure": "cuir de selle clouté",
+      "collection": "montures"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

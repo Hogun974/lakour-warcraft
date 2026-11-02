@@ -1,0 +1,132 @@
+{
+  "_id": "0Lb8TdNr7TardQq1",
+  "_key": "!items!0Lb8TdNr7TardQq1",
+  "name": "Talisman de verre noir",
+  "type": "equipment",
+  "img": "icons/equipment/neck/amulet-carved-stone-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un éclat du verre noir qui recouvrait le dos de Sabot-de-Verre, poli par le vent du cratère et monté sur une chaîne. Il est froid même au soleil. Tant que vous le portez, vous avez <strong>+1</strong> aux jets de sauvegarde de Constitution.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "talisman-de-verre-noir",
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.2,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": null,
+    "proficient": null,
+    "activities": {}
+  },
+  "effects": [
+    {
+      "_id": "hSNXdGv6O1nkyZ0a",
+      "_key": "!items.effects!0Lb8TdNr7TardQq1.hSNXdGv6O1nkyZ0a",
+      "name": "Talisman de verre noir",
+      "img": "icons/equipment/neck/amulet-carved-stone-purple.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.abilities.con.save.roll.bonus",
+            "value": "1",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "gNB8usQV1xsCsK5L"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>+1 aux jets de sauvegarde de Constitution.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "talisman-de-verre-noir",
+      "collection": "rares"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,9 +1,58 @@
 // Installation du contenu La Kour Warcraft dans un monde D&D 5e : guides et aventures dans le journal, cartes des
 // aventures rangées par dossier (les lieux génériques « lieu-… » restent au compendium, le MJ IA les importe au besoin),
 // plans des cartes pour le placement des jetons, style visuel plat ou relief.
+import "./automatismes.js";   // Fureur, ensembles, phase 2 des boss, liens morts du chat (hooks défensifs)
+
 const ID = "lakour-warcraft";
-const VERSION_CONTENU = "0.4.2";   // 0.4.0 : journaux liés (@UUID, jets), listes de sorts, cartes vivantes (sons, zones, épingles) ;
-                                   // 0.4.2 : one-shot « Une nuit aux Deux Lanternes » (journaux, cartes et dossier proposés aux mondes déjà installés)
+const VERSION_CONTENU = "0.6.0";   // 0.4.0 : journaux liés (@UUID, jets), listes de sorts, cartes vivantes (sons, zones, épingles) ;
+                                   // 0.4.2 : one-shot « Une nuit aux Deux Lanternes » (journaux, cartes et dossier proposés aux mondes déjà installés) ;
+                                   // 0.5.0 : Tarides vivantes (contrats, donjon de Mèche-Noire, montures et routes aériennes, rares,
+                                   //         consommables, réputation : journaux et horloges de réputation des factions) ;
+                                   // 0.6.0 : automatismes (fureur, ensemble, phase 2 des boss) et drapeaux qui les repèrent
+
+// Factions dont le MJ IA suit la réputation (horloge « rep-<clé> », type « reputation »). Même liste, dans le même ordre,
+// que REPUTATIONS de contenu/reputations.mjs (vérifié par essais/warcraft-tarides-vivantes.test.mjs).
+export const REPUTATIONS_INSTALLEES = [
+  ["alliance", "Alliance (Theramore)"], ["horde", "Horde (Le Carrefour)"], ["cartel-gentepression", "Cartel Gentepression"],
+  ["kirin-tor", "Kirin Tor"], ["cercle-cenarien", "Cercle cénarien"], ["main-d-argent", "Chevaliers de la Main d'argent"],
+  ["aube-d-argent", "Aube d'argent"], ["kor-kron", "Garde kor'kron"], ["sentinelles", "Sentinelles"],
+  ["ligue-des-explorateurs", "Ligue des explorateurs"]
+];
+
+// Une horloge de réputation par faction, à 0 et visible, si le moteur sait en tenir (api.horloges.assurer, à venir) :
+// sans moteur, sans API ou en cas d'erreur, rien ne bloque l'installation. Rend le nombre d'horloges assurées.
+// Les paliers du « Guide de la réputation » (contenu/reputations.mjs, PALIERS), au format du moteur : [{ nom, min }].
+export const PALIERS_REPUTATION = Object.freeze([
+  { nom: "Haï", min: -100 }, { nom: "Hostile", min: -29 }, { nom: "Inamical", min: -14 }, { nom: "Neutre", min: 0 },
+  { nom: "Amical", min: 10 }, { nom: "Honoré", min: 25 }, { nom: "Révéré", min: 45 }, { nom: "Exalté", min: 70 }
+]);
+
+// api : celle que le moteur passe à « lakour-mj-ia.pret », sinon celle du module lakour-mj-ia.
+export async function assurerReputations(jeu = globalThis.game, api = jeu?.modules?.get?.("lakour-mj-ia")?.api) {
+  const horloges = api?.horloges;
+  if (typeof horloges?.assurer !== "function") return 0;
+  let n = 0;
+  for (const [faction, nom] of REPUTATIONS_INSTALLEES) {
+    try {
+      await horloges.assurer({ id: `rep-${faction}`, nom, type: "reputation", valeur: 0, visible: true, faction, paliers: PALIERS_REPUTATION });
+      n++;
+    } catch (erreur) { console.warn(`${ID} | réputation ${faction}`, erreur); }
+  }
+  return n;
+}
+
+// À chaque chargement, chez le MJ actif d'un monde dnd5e : l'installeur a pu passer avant que le moteur sache tenir des
+// horloges, et assurer ne crée que ce qui manque. Appelé au « ready » et quand le moteur annonce son API
+// (« lakour-mj-ia.pret ») ; un seul passage à la fois. Rend le nombre d'horloges assurées.
+let reputationsEnCours = null;
+export function reputationsAuChargement(jeu = globalThis.game, api) {
+  if (!jeu?.user || jeu.user !== jeu.users?.activeGM || jeu.system?.id !== "dnd5e") return Promise.resolve(0);
+  reputationsEnCours ??= assurerReputations(jeu, api ?? jeu.modules?.get?.("lakour-mj-ia")?.api)
+    .catch(erreur => { console.warn(`${ID} | réputations`, erreur); return 0; })
+    .finally(() => { reputationsEnCours = null; });
+  return reputationsEnCours;
+}
+Hooks.on("lakour-mj-ia.pret", api => { reputationsAuChargement(globalThis.game, api); });
 
 const { ApplicationV2, HandlebarsApplicationMixin, DialogV2 } = foundry.applications.api;
 
@@ -175,6 +224,10 @@ async function installerContenu() {
     }
   }
 
+  // Réputations des factions (horloges du MJ IA), sans bloquer si le moteur ne les gère pas encore.
+  const reputations = await assurerReputations();
+  if (reputations) rapport.push(`réputations des factions (${reputations})`);
+
   await appliquerStyle(styleVisuel());
   await game.settings.set(ID, "installe", VERSION_CONTENU);
   ui.notifications.info(game.i18n.format("LAKOURWOW.Installe", { liste: rapport.join(", ") || game.i18n.localize("LAKOURWOW.RienDeNeuf") }));
@@ -231,6 +284,7 @@ Hooks.on("createScene", scene => {
 Hooks.once("ready", async () => {
   game.modules.get(ID).api = { installer, cheminSelonStyle };
   if (!game.user.isGM || game.user !== game.users.activeGM || game.system.id !== "dnd5e") return;
+  reputationsAuChargement();
   if (game.settings.get(ID, "installe") === VERSION_CONTENU) return;
   const ok = await DialogV2.confirm({
     window: { title: "LAKOURWOW.Titre" },

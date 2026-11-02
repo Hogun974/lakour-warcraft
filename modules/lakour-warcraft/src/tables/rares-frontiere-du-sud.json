@@ -1,0 +1,92 @@
+{
+  "_id": "OfKnGM40LOE9x50Q",
+  "_key": "!tables!OfKnGM40LOE9x50Q",
+  "name": "Rares et élites — Frontière du sud",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Entre Gué-de-Sel, les collines rouges et le cratère de Brasegouffre. Une fois par jour de voyage dans la zone, sur 1 sur 1d6, tirez sur cette table. Chaque créature nommée porte un butin garanti (voir sa note du MJ) ; une créature vaincue ne revient pas : relancez si elle sort de nouveau.</p>",
+  "formula": "1d4",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "rares-frontiere-du-sud",
+      "aventure": "Les Tarides vivantes",
+      "collection": "rares"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "vZpBi9q1jQVJgOGK",
+      "_key": "!tables.results!OfKnGM40LOE9x50Q.vZpBi9q1jQVJgOGK",
+      "type": "document",
+      "name": "Khan Ventrouge, seigneur kolkar",
+      "description": "",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.bestiaire.Actor.QUScvpfLBVyjpYzE"
+    },
+    {
+      "_id": "RfdG2vZ55RFiZcgd",
+      "_key": "!tables.results!OfKnGM40LOE9x50Q.RfdG2vZ55RFiZcgd",
+      "type": "document",
+      "name": "Sabot-de-Verre, le kodo des cendres",
+      "description": "",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.bestiaire.Actor.UtyMTirY1LFaq5GB"
+    },
+    {
+      "_id": "ZGSwA9PrhOEJPt0g",
+      "_key": "!tables.results!OfKnGM40LOE9x50Q.ZGSwA9PrhOEJPt0g",
+      "type": "document",
+      "name": "Vexxa la Rieuse, chasseresse de la Lame ardente",
+      "description": "",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.bestiaire.Actor.2DZv3K0IpC4pN4q4"
+    },
+    {
+      "_id": "x9XwIIXA77YGUYxh",
+      "_key": "!tables.results!OfKnGM40LOE9x50Q.x9XwIIXA77YGUYxh",
+      "type": "text",
+      "name": "Le rire dans les collines",
+      "description": "<p>Pas de rare aujourd'hui, mais un rire de chèvre la nuit, des sabots dans le lointain, ou un éclat de verre noir sur la piste. Le lendemain, la rencontre est assurée (tirez de nouveau 1d3).</p>",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    }
+  ]
+}

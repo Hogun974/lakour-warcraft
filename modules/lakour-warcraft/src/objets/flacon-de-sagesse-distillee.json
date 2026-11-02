@@ -1,0 +1,229 @@
+{
+  "_id": "tvjslgMOwlg1Huhg",
+  "_key": "!items!tvjslgMOwlg1Huhg",
+  "name": "Flacon de sagesse distillée",
+  "type": "consumable",
+  "img": "icons/consumables/potions/flask-corked-blue-glow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un liquide bleu pâle où flottent des paillettes d'argent, que les mages de Theramore boivent avant les longues séances d'étude. Il a un goût d'encre et de neige.</p><p>Par une <strong>action bonus</strong>, vous buvez le flacon : <strong>+2</strong> aux jets de sauvegarde de concentration et avantage aux tests d'Intelligence (Arcanes).</p><p>Un seul flacon à la fois : en boire un second met fin à l'effet du premier. L'effet dure <strong>8 heures</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "flacon-de-sagesse-distillee",
+    "price": {
+      "value": 200,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        },
+        "types": []
+      },
+      "replace": false
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "magicalBonus": null,
+    "properties": [
+      "mgc"
+    ],
+    "activities": {
+      "ZmZ6FYHJydRh7iU4": {
+        "_id": "ZmZ6FYHJydRh7iU4",
+        "type": "utility",
+        "name": "Boire",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "8",
+          "units": "hour",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "bFgwJ1WJEbL5oLjd",
+            "level": {}
+          }
+        ],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "bFgwJ1WJEbL5oLjd",
+      "_key": "!items.effects!tvjslgMOwlg1Huhg.bFgwJ1WJEbL5oLjd",
+      "name": "Flacon de sagesse distillée",
+      "img": "icons/consumables/potions/flask-corked-blue-glow.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.concentration.roll.bonus",
+            "value": "2",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "oJ9eWSTJIa2DoTwc"
+          },
+          {
+            "key": "system.skills.arc.roll.mode",
+            "value": 1,
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "AVNUqigUSp50D8PG"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": 28800,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
+      },
+      "description": "<p>Pendant 8 heures : <strong>+2</strong> aux jets de sauvegarde de concentration et avantage aux tests d'Intelligence (Arcanes).</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "flacon-de-sagesse-distillee",
+      "collection": "consommables"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

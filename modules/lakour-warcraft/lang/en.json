@@ -11,6 +11,9 @@
     "Installer": "Install the content in this world",
     "DejaInstalle": "Content installed",
     "PasInstalle": "Content not installed in this world yet.",
-    "MauvaisSysteme": "This world does not use D&D 5e: nothing to install."
+    "MauvaisSysteme": "This world does not use D&D 5e: nothing to install.",
+    "FureurRefusee": "{objet}: refused. Fury Exhaustion still active on {noms}; wait for it to fade, or remove those creatures from your targets.",
+    "FureurRetiree": "{effet} removed from {nom}: this creature still carries Fury Exhaustion from an earlier use.",
+    "Phase2": "{nom} drops to {pv} HP out of {max}: phase 2! Use its phase 2 ability and place its new ground zones."
   }
 }

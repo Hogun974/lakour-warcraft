@@ -1,0 +1,269 @@
+{
+  "_id": "sJNBMZ7wUAUwqkxp",
+  "_key": "!tables!sJNBMZ7wUAUwqkxp",
+  "name": "Contrats — Cabestan",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Le panneau de liège à l'entrée du comptoir du Cartel, sur le quai : affiches tamponnées de la roue dentée, notes griffonnées, primes. Le MJ IA tire trois contrats par jour de jeu sur cette table (relancez les doublons et les contrats déjà pris) ; voir le journal « Tableau des contrats ».</p>",
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "contrats-cabestan",
+      "aventure": "Les Tarides vivantes",
+      "collection": "contrats"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "iRrWNBWIcy396LW4",
+      "_key": "!tables.results!sJNBMZ7wUAUwqkxp.iRrWNBWIcy396LW4",
+      "type": "text",
+      "name": "Traque — La bouche de fer des marais",
+      "description": "<p><strong>Commanditaire :</strong> Nixi Pèse-Juste, au nom des bateliers du Cartel.</p><p>Un crocilisque énorme, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.lLwQLxs3tufdW6rd]{Gueule-de-Fer}, coule les barques dans les marais salés au sud du port. Rapporter une de ses écailles dorsales. Les contrebandiers qui passent par là préfèreraient qu'on ne voie pas leur cargaison.</p><p><strong>Récompense :</strong> 80 po et <strong>+4</strong> de réputation auprès de : Cartel Gentepression.</p>",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "traque",
+            "po": 80,
+            "faction": "cartel-gentepression",
+            "reputation": 4
+          }
+        }
+      }
+    },
+    {
+      "_id": "CjtusG0CQ7z2vXEr",
+      "_key": "!tables.results!sJNBMZ7wUAUwqkxp.CjtusG0CQ7z2vXEr",
+      "type": "text",
+      "name": "Traque — Le roi aux coquillages",
+      "description": "<p><strong>Commanditaire :</strong> la guilde des pêcheurs de Cabestan.</p><p>Un murloc couronné, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.RCBp8OUPgTUpSH8n]{Glouglou Premier}, lève « l'impôt » sur les filets de trois villages de la côte. Le chasser, le tuer ou obtenir une trêve écrite (le Cartel accepte une empreinte de nageoire).</p><p><strong>Récompense :</strong> 60 po et <strong>+3</strong> de réputation auprès de : Cartel Gentepression.</p>",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "traque",
+            "po": 60,
+            "faction": "cartel-gentepression",
+            "reputation": 3
+          }
+        }
+      }
+    },
+    {
+      "_id": "xSUaSm9MIyvzhz4U",
+      "_key": "!tables.results!sJNBMZ7wUAUwqkxp.xSUaSm9MIyvzhz4U",
+      "type": "text",
+      "name": "Récolte — Sel blanc pour la saumure",
+      "description": "<p><strong>Commanditaire :</strong> le saleur du quai, un gobelin pressé.</p><p>Rapporter vingt sacs de sel des marais salés avant la marée haute. Il faut un chariot, et chasser les crabes et les murlocs qui gardent les meilleurs bancs ([[/check skill=sur dc=12]]{Survie DD 12} pour trouver les bancs propres).</p><p><strong>Récompense :</strong> 30 po et <strong>+2</strong> de réputation auprès de : Cartel Gentepression.</p>",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "recolte",
+            "po": 30,
+            "faction": "cartel-gentepression",
+            "reputation": 2
+          }
+        }
+      }
+    },
+    {
+      "_id": "P6trdN2cwWTBytIV",
+      "_key": "!tables.results!sJNBMZ7wUAUwqkxp.P6trdN2cwWTBytIV",
+      "type": "text",
+      "name": "Récolte — Tessons pour la Ligue",
+      "description": "<p><strong>Commanditaire :</strong> Bruni Martelfort, archiviste de la Ligue des explorateurs.</p><p>Rapporter cinq fragments gravés des ruines d'Eldrassal, intacts et avec l'endroit exact où chacun a été trouvé ([[/check skill=his dc=13]]{Histoire DD 13} pour reconnaître les bons). Les nagas y fouillent aussi.</p><p><strong>Récompense :</strong> 45 po et <strong>+3</strong> de réputation auprès de : Ligue des explorateurs.</p>",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "recolte",
+            "po": 45,
+            "faction": "ligue-des-explorateurs",
+            "reputation": 3
+          }
+        }
+      }
+    },
+    {
+      "_id": "VLEqGcVODWqAkd6i",
+      "_key": "!tables.results!sJNBMZ7wUAUwqkxp.VLEqGcVODWqAkd6i",
+      "type": "text",
+      "name": "Escorte — Le cartographe nerveux",
+      "description": "<p><strong>Commanditaire :</strong> la Ligue des explorateurs.</p><p>Accompagner Pip Écrou-d'Argent, cartographe gnome qui sursaute à chaque bruit, jusqu'à la crique d'Eldrassal et le ramener avec ses relevés, en deux jours. Il veut tout mesurer, surtout là où il ne faut pas.</p><p><strong>Récompense :</strong> 50 po et <strong>+3</strong> de réputation auprès de : Ligue des explorateurs.</p>",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "escorte",
+            "po": 50,
+            "faction": "ligue-des-explorateurs",
+            "reputation": 3
+          }
+        }
+      }
+    },
+    {
+      "_id": "UTztU5steLqARNzR",
+      "_key": "!tables.results!sJNBMZ7wUAUwqkxp.UTztU5steLqARNzR",
+      "type": "text",
+      "name": "Escorte — La caisse qu'on n'ouvre pas",
+      "description": "<p><strong>Commanditaire :</strong> un intermédiaire du Cartel qui ne donne pas son nom.</p><p>Escorter un chariot jusqu'au Carrefour sans ouvrir la caisse plombée. Elle est tiède, elle bouge, et elle a faim la nuit (c'est un petit de wyverne promis à un dresseur). Les Kolkar en ont entendu parler.</p><p><strong>Récompense :</strong> 60 po et <strong>+3</strong> de réputation auprès de : Cartel Gentepression.</p>",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "escorte",
+            "po": 60,
+            "faction": "cartel-gentepression",
+            "reputation": 3
+          }
+        }
+      }
+    },
+    {
+      "_id": "fG080MlB5njaTngG",
+      "_key": "!tables.results!sJNBMZ7wUAUwqkxp.fG080MlB5njaTngG",
+      "type": "text",
+      "name": "Avis de recherche — Le capitaine au chapeau rouge",
+      "description": "<p><strong>Commanditaire :</strong> le Cartel Gentepression, par affiche officielle.</p><p>Mort ou vif : @UUID[Compendium.lakour-warcraft.bestiaire.Actor.MxwnrGN15l3gbGvg]{Capitaine Sel-Rouge}, corsaire du Cartel Baille-Fonds, pour le pillage de trois navires. Vivant, il rapporte 30 po de plus : le Cartel veut l'interroger.</p><p><strong>Récompense :</strong> 90 po et <strong>+4</strong> de réputation auprès de : Cartel Gentepression.</p>",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "avis",
+            "po": 90,
+            "faction": "cartel-gentepression",
+            "reputation": 4
+          }
+        }
+      }
+    },
+    {
+      "_id": "ZtsB8POFAakEGA4V",
+      "_key": "!tables.results!sJNBMZ7wUAUwqkxp.ZtsB8POFAakEGA4V",
+      "type": "text",
+      "name": "Avis de recherche — La raffinerie qui fume",
+      "description": "<p><strong>Commanditaire :</strong> Grizzla Tordeboulon, en personne.</p><p>Fermer la raffinerie du baron Nizzel Baille-Fonds, au nord du port, et saisir ses comptes : voir @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.c0tGHcTPLMP8ggpZ]{le donjon de Mèche-Noire}. La prime de l'affiche revient au groupe ; à la fermeture, Grizzla y ajoute 150 po par personnage, et 100 po pour le registre du baron.</p><p><strong>Récompense :</strong> 150 po et <strong>+5</strong> de réputation auprès de : Cartel Gentepression.</p>",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "avis",
+            "po": 150,
+            "faction": "cartel-gentepression",
+            "reputation": 5
+          }
+        }
+      }
+    },
+    {
+      "_id": "6RJgCnG2vJyT3FiN",
+      "_key": "!tables.results!sJNBMZ7wUAUwqkxp.6RJgCnG2vJyT3FiN",
+      "type": "text",
+      "name": "Livraison — Bandages pour l'Aube",
+      "description": "<p><strong>Commanditaire :</strong> Sœur Linnea Clairmatin, de l'Aube d'argent.</p><p>Porter une caisse de @UUID[Compendium.lakour-warcraft.objets.Item.ir70JZS8pByBzcgW]{bandages} et d'eau bénite à une ferme en quarantaine sur la route du Carrefour. Les fermiers ont peur de tout le monde, et l'un d'eux cache un parent qui « ne va pas bien du tout ».</p><p><strong>Récompense :</strong> 25 po et <strong>+2</strong> de réputation auprès de : Aube d'argent.</p>",
+      "range": [
+        9,
+        9
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "livraison",
+            "po": 25,
+            "faction": "aube-d-argent",
+            "reputation": 2
+          }
+        }
+      }
+    },
+    {
+      "_id": "mvuCjUe02usmahLo",
+      "_key": "!tables.results!sJNBMZ7wUAUwqkxp.mvuCjUe02usmahLo",
+      "type": "text",
+      "name": "Livraison — Le pli du Kirin Tor",
+      "description": "<p><strong>Commanditaire :</strong> un mage de passage, pressé de reprendre le bateau.</p><p>Porter un pli scellé à la tour des mages de Theramore sans l'ouvrir. Quelqu'un le veut : un voleur à la tire au port, puis un faux garde à l'arrivée. Ouvert, le pli ne contient qu'une liste d'artefacts, et le sceau brisé se voit.</p><p><strong>Récompense :</strong> 35 po et <strong>+3</strong> de réputation auprès de : Kirin Tor.</p>",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "livraison",
+            "po": 35,
+            "faction": "kirin-tor",
+            "reputation": 3
+          }
+        }
+      }
+    }
+  ]
+}

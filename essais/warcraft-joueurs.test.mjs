@@ -147,7 +147,8 @@ test("les dons du module sont des dons d'origine, et les historiques en utilisen
 
 test("entre 15 et 20 objets, dont la pierre de foyer, des potions, des armes, des armures et des objets peu communs", () => {
   // L'arsenal (contenu/arsenal.mjs, essais/warcraft-arsenal.test.mjs) partage le compendium : il est compté à part.
-  const objets = tous.filter(d => d.__pack === "objets" && !d.flags?.["lakour-warcraft"]?.arsenal);
+  // Les suppléments (consommables, butin du donjon et des rares) sont rangés dans leur collection et comptés à part.
+  const objets = tous.filter(d => d.__pack === "objets" && !d.flags?.["lakour-warcraft"]?.arsenal && !d.flags?.["lakour-warcraft"]?.collection);
   assert.ok(objets.length >= 15 && objets.length <= 20, `${objets.length} objets`);
   assert.ok(objets.some(o => o.flags[MODULE].cle === "pierre-de-foyer"));
   for (const type of ["weapon", "equipment", "consumable", "loot"]) assert.ok(objets.some(o => o.type === type), `aucun ${type}`);
@@ -169,11 +170,15 @@ test("le guide du joueur est visible, le guide du MJ caché", () => {
 });
 
 test("les tables couvrent toute leur formule, sans trou ni chevauchement, et leurs documents existent", () => {
-  const uuids = new Set(docs.map(({ pack, doc }) => uuidDe(pack, doc)));
+  // Les tables des rares tirent un PNJ du bestiaire (compendium du MJ) : la cible se cherche dans tous les compendiums.
+  const uuids = new Set(fabriquer().map(({ pack, doc }) => uuidDe(pack, doc)));
   const tables = tous.filter(d => d.__pack === "tables");
-  // Sept tables génériques, plus la table propre au one-shot « Une nuit aux Deux Lanternes ».
-  assert.deepEqual(tables.map(t => t.flags["lakour-warcraft"].cle).sort(), ["bruits-de-la-nuit", "complications", "noms-par-peuple",
-    "rencontres-sur-la-route", "rumeurs-de-taverne", "temps-et-chemins", "trouvailles", "visages-d-azeroth"]);
+  // Sept tables génériques, la table propre au one-shot « Une nuit aux Deux Lanternes », et celles des suppléments :
+  // butin des trois boss du donjon, contrats des trois villes, rares des trois zones.
+  assert.deepEqual(tables.map(t => t.flags["lakour-warcraft"].cle).sort(), ["bruits-de-la-nuit", "butin-baron-nizzel", "butin-grokka-deux-cles",
+    "butin-mere-brasier", "complications", "contrats-cabestan", "contrats-le-carrefour", "contrats-theramore", "noms-par-peuple",
+    "rares-cote-des-tarides", "rares-frontiere-du-sud", "rares-nord-des-tarides", "rencontres-sur-la-route", "rumeurs-de-taverne",
+    "temps-et-chemins", "trouvailles", "visages-d-azeroth"]);
   for (const t of tables) {
     const max = Number(/^1d(\d+)$/.exec(t.formula)?.[1]);
     let attendu = 1;

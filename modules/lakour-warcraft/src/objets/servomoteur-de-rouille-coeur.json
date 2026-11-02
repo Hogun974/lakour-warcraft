@@ -1,0 +1,59 @@
+{
+  "_id": "PqlBDenJxfPGsb7s",
+  "_key": "!items!PqlBDenJxfPGsb7s",
+  "name": "Servomoteur de Rouille-Cœur",
+  "type": "loot",
+  "img": "icons/commodities/tech/cog-gear-crank-steel.webp",
+  "system": {
+    "description": {
+      "value": "<p>Le moteur d'épaule du déchiqueteur fou, un bloc de pignons et de ressorts qui tressaute encore. Vizzik Tirelire en paie 400 po (c'était son prototype) ; un ingénieur gnome en tire de quoi fabriquer un bras mécanique à moitié prix.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "servomoteur-de-rouille-coeur",
+    "price": {
+      "value": 300,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 6,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "material",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "servomoteur-de-rouille-coeur",
+      "collection": "rares"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

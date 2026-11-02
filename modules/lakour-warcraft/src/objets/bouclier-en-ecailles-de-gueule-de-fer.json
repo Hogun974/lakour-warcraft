@@ -1,0 +1,90 @@
+{
+  "_id": "EEDEayXLoCLvrM3Y",
+  "_key": "!items!EEDEayXLoCLvrM3Y",
+  "name": "Bouclier en écailles de Gueule-de-Fer",
+  "type": "equipment",
+  "img": "icons/equipment/shield/heater-emossed-spiral-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un écu taillé dans une seule écaille dorsale du vieux crocilisque, dure comme le fer et marbrée de vert. C'est un <strong>bouclier +1</strong> (+3 à la CA en tout). Il flotte : un naufragé qui s'y agrippe ne coule pas.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "bouclier-en-ecailles-de-gueule-de-fer",
+    "price": {
+      "value": 600,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 6,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": 2,
+      "magicalBonus": 1,
+      "dex": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "shield",
+      "baseItem": "shield"
+    },
+    "properties": [
+      "mgc"
+    ],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": null,
+    "proficient": null,
+    "activities": {}
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "bouclier-en-ecailles-de-gueule-de-fer",
+      "collection": "rares"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

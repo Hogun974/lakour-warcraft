@@ -1,5 +1,5 @@
 // Fabrique les jetons du module lakour-warcraft : un SVG autonome de 400×400 par PNJ du bestiaire (y compris les PNJ
-// de l'aventure, de la campagne et du one-shot) et par figurant à part, en version plate (assets/jetons/<cle>.svg) et en relief
+// de l'aventure, de la campagne, du one-shot, du donjon de Mèche-Noire, les montures et les rares) et par figurant à part, en version plate (assets/jetons/<cle>.svg) et en relief
 // (assets/jetons/3d/<cle>.svg) ; un jeton de personnage joueur par peuple jouable (assets/jetons/joueurs/<cle>.svg et
 // joueurs/3d/<cle>.svg) avec leurs index (assets/jetons/index.json et index-3d.json : clé du peuple -> chemin, lus par
 // le MJ IA quand il crée un personnage) ; la liste des types de figurants (assets/jetons/figurants.json) et les
@@ -19,6 +19,9 @@ import { BESTIAIRE } from "../modules/lakour-warcraft/contenu/bestiaire.mjs";
 import { AVENTURE_DOCUMENTS } from "../modules/lakour-warcraft/contenu/aventure.mjs";
 import { CAMPAGNE_DOCUMENTS } from "../modules/lakour-warcraft/contenu/campagne.mjs";
 import { ONE_SHOT_DOCUMENTS } from "../modules/lakour-warcraft/contenu/one-shot.mjs";
+import { DONJON_DOCUMENTS } from "../modules/lakour-warcraft/contenu/donjon.mjs";
+import { MONTURES_DOCUMENTS } from "../modules/lakour-warcraft/contenu/montures.mjs";
+import { RARES_DOCUMENTS } from "../modules/lakour-warcraft/contenu/rares.mjs";
 import { PEUPLES } from "../modules/lakour-warcraft/contenu/peuples.mjs";
 import {
   AUTEURS, COULEURS_ANNEAU, DOSSIER_JETONS, INDEX_JOUEURS, JETONS_FIGURANTS, JETONS_PEUPLES, JETONS_PNJ, LISERES, TYPES_FIGURANTS,
@@ -34,7 +37,8 @@ export const lireIcone = (nom, source) => lireIconeCommune(nom, { auteurs: AUTEU
 
 // ---------------------------------------------------------------- Liste des jetons
 
-const PNJ = [...BESTIAIRE, ...AVENTURE_DOCUMENTS, ...CAMPAGNE_DOCUMENTS, ...ONE_SHOT_DOCUMENTS].filter(d => d.__pack === "bestiaire" && d.type === "npc");
+const PNJ = [...BESTIAIRE, ...AVENTURE_DOCUMENTS, ...CAMPAGNE_DOCUMENTS, ...ONE_SHOT_DOCUMENTS,
+  ...DONJON_DOCUMENTS, ...MONTURES_DOCUMENTS, ...RARES_DOCUMENTS].filter(d => d.__pack === "bestiaire" && d.type === "npc");
 // Peuples jouables : les objets « race » du compendium peuples (pas leurs traits, qui sont des « feat »).
 export const RACES = PEUPLES.filter(d => d.__pack === "peuples" && d.type === "race");
 

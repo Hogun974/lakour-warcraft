@@ -1,0 +1,311 @@
+{
+  "_id": "hziTHSAthW4OM4Tg",
+  "_key": "!items!hziTHSAthW4OM4Tg",
+  "name": "Cristal chantant d'Héroïsme",
+  "type": "equipment",
+  "img": "icons/commodities/treasure/glass-crystal-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un éclat de cristal draeneï serti dans une monture d'argent. Frappé du doigt, il rend une note claire qui ne s'éteint pas : le courage y résonne comme une cloche. Les vindicateurs de l'Exodar le confient aux compagnies qui partent loin de chez elles.</p><p>Par une <strong>action bonus</strong>, vous déclenchez l'objet : chaque allié de votre choix dans un rayon de <strong>9 m</strong> autour de vous, vous compris, reçoit <strong>Héroïsme</strong> pendant 1 minute (vitesse +3 m, +1d4 aux jets d'attaque, avantage aux sauvegardes de Dextérité).</p><p><strong>Une fois par combat.</strong> L'objet se recharge quand le combat suivant commence (jet d'initiative). Chaque créature qui reçoit la fureur gagne aussi <strong>Épuisement de la fureur</strong> jusqu'à la fin du combat (10 minutes au plus) : tant qu'elle le porte, ni Furie sanguinaire ni Héroïsme ne lui font plus d'effet, d'où qu'ils viennent.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "cristal-d-heroisme",
+    "price": {
+      "value": 900,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "initiative",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": null,
+    "proficient": null,
+    "activities": {
+      "7zUXEkCsHAXAwdec": {
+        "_id": "7zUXEkCsHAXAwdec",
+        "type": "utility",
+        "name": "Faire chanter le cristal",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "oMiUQ6Xp3e8RiWy1",
+            "level": {}
+          },
+          {
+            "_id": "31zAkylG2X2cPROl",
+            "level": {}
+          }
+        ],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "radius",
+            "size": "9",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "ally",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "oMiUQ6Xp3e8RiWy1",
+      "_key": "!items.effects!hziTHSAthW4OM4Tg.oMiUQ6Xp3e8RiWy1",
+      "name": "Héroïsme",
+      "img": "icons/commodities/treasure/glass-crystal-green.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.movement.bonus",
+            "value": "3",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "RAqzK6t8FjoN8Q6C"
+          },
+          {
+            "key": "system.rolls.attack.mwak.bonus",
+            "value": "1d4",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "y9FDg1o7TVRbuP2K"
+          },
+          {
+            "key": "system.rolls.attack.rwak.bonus",
+            "value": "1d4",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "sepkAmBhkIFRHO0o"
+          },
+          {
+            "key": "system.rolls.attack.msak.bonus",
+            "value": "1d4",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "MfrazMH4JDJEG2PL"
+          },
+          {
+            "key": "system.rolls.attack.rsak.bonus",
+            "value": "1d4",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "CtT4VdtgISrNtWQz"
+          },
+          {
+            "key": "system.abilities.dex.save.roll.mode",
+            "value": 1,
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "y9VuBA1sG57S3eDL"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": 60,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
+      },
+      "description": "<p>Pendant 1 minute : vitesse augmentée de 3 m, <strong>+1d4</strong> aux jets d'attaque, avantage aux jets de sauvegarde de Dextérité.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "lakour-warcraft": {
+          "fureur": "elan"
+        }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    },
+    {
+      "_id": "31zAkylG2X2cPROl",
+      "_key": "!items.effects!hziTHSAthW4OM4Tg.31zAkylG2X2cPROl",
+      "name": "Épuisement de la fureur",
+      "img": "icons/commodities/treasure/glass-crystal-green.webp",
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": 600,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
+      },
+      "description": "<p>Le corps a brûlé ses réserves. Jusqu'à la fin du combat (10 minutes au plus), la créature ne peut plus profiter de <strong>Furie sanguinaire</strong> ni d'<strong>Héroïsme</strong> : si l'un d'eux lui est appliqué, retirez-le aussitôt.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "lakour-warcraft": {
+          "fureur": "epuisement"
+        }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "cristal-d-heroisme",
+      "fureur": true,
+      "collection": "consommables"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

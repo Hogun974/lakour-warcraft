@@ -12,6 +12,12 @@ import { AFFLICTIONS } from "./afflictions.mjs";
 import { SORTS, LISTES_SORTS } from "./sorts.mjs";
 import { AFFILIATIONS } from "./affiliations.mjs";
 import { SOUS_CLASSES, CAPACITES_SOUS_CLASSES } from "./sous-classes.mjs";
+import { CONSOMMABLES } from "./consommables.mjs";
+import { REPUTATION_DOCUMENTS } from "./reputations.mjs";
+import { DONJON_DOCUMENTS } from "./donjon.mjs";
+import { MONTURES_DOCUMENTS } from "./montures.mjs";
+import { RARES_DOCUMENTS } from "./rares.mjs";
+import { CONTRATS_DOCUMENTS } from "./contrats.mjs";
 
 // Tout le contenu du module, dans l'ordre des compendiums.
 export const DOCUMENTS = [
@@ -22,5 +28,7 @@ export const DOCUMENTS = [
   ...BESTIAIRE,
   ...AVENTURE_DOCUMENTS,
   ...CAMPAGNE_DOCUMENTS,
-  ...ONE_SHOT_DOCUMENTS
+  ...ONE_SHOT_DOCUMENTS,
+  // Suppléments « Tarides vivantes » (lot 1) : consommables, réputation, donjon de Mèche-Noire, montures, rares, contrats.
+  ...CONSOMMABLES, ...REPUTATION_DOCUMENTS, ...DONJON_DOCUMENTS, ...MONTURES_DOCUMENTS, ...RARES_DOCUMENTS, ...CONTRATS_DOCUMENTS
 ];

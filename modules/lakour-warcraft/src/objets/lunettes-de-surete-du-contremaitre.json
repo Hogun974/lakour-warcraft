@@ -1,0 +1,187 @@
+{
+  "_id": "PbPhgB8CMVf1lOmi",
+  "_key": "!items!PbPhgB8CMVf1lOmi",
+  "name": "Lunettes de sûreté du contremaître",
+  "type": "equipment",
+  "img": "icons/equipment/head/goggles-welding.webp",
+  "system": {
+    "description": {
+      "value": "<p>Des lunettes de soudeur aux verres fumés, sanglées de cuir, que le baron faisait porter à ses contremaîtres (il les leur retenait sur la paie). Tant que vous les portez, vous voyez dans le noir jusqu'à 18 m, et vous avez l'avantage aux jets de sauvegarde contre l'état aveuglé causé par une lumière vive ou une explosion.</p><p><strong>Ensemble « Tenue réglementaire de Mèche-Noire » (2 pièces)</strong> : avec les Gantelets ignifugés du contremaître, équipés tous les deux, vous avez la <strong>résistance aux dégâts de feu</strong> et <strong>+2</strong> aux jets de sauvegarde de Dextérité. Le bonus est l'effet « Tenue réglementaire de Mèche-Noire (2 pièces) » des lunettes, éteint par défaut : allumez-le sur votre fiche quand les deux pièces sont portées, éteignez-le quand l'une est retirée.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "lunettes-de-surete-du-contremaitre",
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": null,
+    "proficient": null,
+    "activities": {}
+  },
+  "effects": [
+    {
+      "_id": "aU8FmXfA99mQ1k52",
+      "_key": "!items.effects!PbPhgB8CMVf1lOmi.aU8FmXfA99mQ1k52",
+      "name": "Lunettes de sûreté",
+      "img": "icons/equipment/head/goggles-welding.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.senses.ranges.darkvision",
+            "value": 18,
+            "priority": null,
+            "type": "upgrade",
+            "phase": "initial",
+            "_id": "W0GckyMiHT9lVBFj"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Vision dans le noir 18 m.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    },
+    {
+      "_id": "pRWohKbHYCz3itKQ",
+      "_key": "!items.effects!PbPhgB8CMVf1lOmi.pRWohKbHYCz3itKQ",
+      "name": "Tenue réglementaire de Mèche-Noire (2 pièces)",
+      "img": "icons/equipment/head/goggles-welding.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.traits.dr.value",
+            "value": "fire",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "lsYd6bIcQuMkdXgo"
+          },
+          {
+            "key": "system.abilities.dex.save.roll.bonus",
+            "value": "2",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "dnopajI4I1ZMjD5a"
+          }
+        ]
+      },
+      "disabled": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Bonus d'ensemble, à allumer quand les gantelets et les lunettes sont portés tous les deux : résistance au feu et +2 aux jets de sauvegarde de Dextérité.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "lakour-warcraft": {
+          "ensemble": "tenue-meche-noire",
+          "pieces": 2
+        }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "lunettes-de-surete-du-contremaitre",
+      "collection": "donjon-meche-noire",
+      "ensemble": "tenue-meche-noire"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}
