@@ -174,10 +174,11 @@ test("les tables couvrent toute leur formule, sans trou ni chevauchement, et leu
   const uuids = new Set(fabriquer().map(({ pack, doc }) => uuidDe(pack, doc)));
   const tables = tous.filter(d => d.__pack === "tables");
   // Sept tables génériques, la table propre au one-shot « Une nuit aux Deux Lanternes », et celles des suppléments :
-  // butin des trois boss du donjon, contrats des trois villes, rares des trois zones.
+  // butin des trois boss du donjon, contrats des trois villes, rares des trois zones, récolte des quatre biomes, missions de la garnison.
   assert.deepEqual(tables.map(t => t.flags["lakour-warcraft"].cle).sort(), ["bruits-de-la-nuit", "butin-baron-nizzel", "butin-grokka-deux-cles",
-    "butin-mere-brasier", "complications", "contrats-cabestan", "contrats-le-carrefour", "contrats-theramore", "noms-par-peuple",
-    "rares-cote-des-tarides", "rares-frontiere-du-sud", "rares-nord-des-tarides", "rencontres-sur-la-route", "rumeurs-de-taverne",
+    "butin-mere-brasier", "complications", "contrats-cabestan", "contrats-le-carrefour", "contrats-theramore", "missions-des-suivants", "noms-par-peuple",
+    "rares-cote-des-tarides", "rares-frontiere-du-sud", "rares-nord-des-tarides", "recolte-collines-rouges", "recolte-cote-et-criques",
+    "recolte-marais-d-aprefange", "recolte-plaines-des-tarides", "rencontres-sur-la-route", "rumeurs-de-taverne",
     "temps-et-chemins", "trouvailles", "visages-d-azeroth"]);
   for (const t of tables) {
     const max = Number(/^1d(\d+)$/.exec(t.formula)?.[1]);
@@ -187,7 +188,9 @@ test("les tables couvrent toute leur formule, sans trou ni chevauchement, et leu
       attendu = r.range[1] + 1;
       if (r.type === "document") assert.ok(uuids.has(r.documentUuid), `${t.name} : ${r.documentUuid} introuvable`);
     }
-    assert.equal(attendu - 1, max, `${t.name} : s'arrête à ${attendu - 1} au lieu de ${max}`);
+    // Une table dont la description ajoute un bonus au jet (« Ajoutez 1 au jet… ») doit couvrir le résultat majoré.
+    const bonus = Number(/Ajoutez (\d+) au jet/.exec(t.description)?.[1] ?? 0);
+    assert.equal(attendu - 1, max + bonus, `${t.name} : s'arrête à ${attendu - 1} au lieu de ${max + bonus}`);
   }
 });
 

@@ -1,0 +1,212 @@
+{
+  "_id": "y2Om3no5AARP7Xa0",
+  "_key": "!items!y2Om3no5AARP7Xa0",
+  "name": "Voie du maître brasseur",
+  "type": "subclass",
+  "img": "icons/containers/barrels/barrel-hogshead-cask-oak-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>Les maîtres brasseurs pandarens ont fait d'un art de taverne une discipline de combat. Ils tanguent, titubent et semblent toujours sur le point de tomber ; c'est pourtant leur adversaire qui finit par terre. Leur souffle sent le grain et le piment, leur tonneau ne quitte jamais leur dos, et ils répètent volontiers qu'une bonne bière et une bonne garde ont le même secret : le temps.</p><p><em>Sous-classe du Moine, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Tonnelier de la pagode, Titubement</li><li><strong>Niveau 6</strong> : Souffle de feu</li><li><strong>Niveau 11</strong> : Fût roulant</li><li><strong>Niveau 17</strong> : Ivresse du sage</li></ul>",
+      "chat": ""
+    },
+    "identifier": "voie-du-maitre-brasseur",
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "advancement": {
+      "FiiKdxGG6FQdkxKw": {
+        "_id": "FiiKdxGG6FQdkxKw",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.JKfOu414ayfOtmH6",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.X7TNjmVzP6IqOFv4",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "name": "Capacités : Voie du maître brasseur",
+        "hint": "",
+        "flags": {}
+      },
+      "qQ3JEU54761oIoUa": {
+        "_id": "qQ3JEU54761oIoUa",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.1aE1b3EO9nbpPpSN",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "name": "Capacités : Voie du maître brasseur",
+        "hint": "",
+        "flags": {}
+      },
+      "KnqxAW0fuv5hyLaO": {
+        "_id": "KnqxAW0fuv5hyLaO",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.5uJIDRQxsSNJYpm9",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "name": "Capacités : Voie du maître brasseur",
+        "hint": "",
+        "flags": {}
+      },
+      "PzRzyHonnBRWRKLu": {
+        "_id": "PzRzyHonnBRWRKLu",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.R4BnsNMD7qCPBUPG",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "name": "Capacités : Voie du maître brasseur",
+        "hint": "",
+        "flags": {}
+      },
+      "XGrxVDRDVHFRFKQ4": {
+        "_id": "XGrxVDRDVHFRFKQ4",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "tool:art:brewer"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 3,
+        "name": "Tonnelier de la pagode",
+        "hint": "Matériel de brasseur.",
+        "flags": {}
+      },
+      "5Y5dSX9RFBsu7C3H": {
+        "_id": "5Y5dSX9RFBsu7C3H",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "titubement",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "number": 1,
+              "faces": 8,
+              "modifiers": []
+            },
+            "11": {
+              "number": 2,
+              "faces": 8,
+              "modifiers": []
+            },
+            "17": {
+              "number": 3,
+              "faces": 8,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "name": "Dés du titubement",
+        "hint": "",
+        "flags": {}
+      },
+      "7Edmbxgkt0kPCkdR": {
+        "_id": "7Edmbxgkt0kPCkdR",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "souffle",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "6": {
+              "number": 2,
+              "faces": 6,
+              "modifiers": []
+            },
+            "11": {
+              "number": 3,
+              "faces": 6,
+              "modifiers": []
+            },
+            "17": {
+              "number": 4,
+              "faces": 6,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "name": "Dés du souffle de feu",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "classIdentifier": "monk",
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "voie-du-maitre-brasseur",
+      "classe": "monk"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

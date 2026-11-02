@@ -13112,7 +13112,7 @@
       "_id": "VZpVXdtVbHdZKhRr",
       "name": "Marmite de ragoût de kodo épicé",
       "type": "consumable",
-      "img": "icons/consumables/food/bowl-stew-brown.webp",
+      "img": "icons/consumables/food/bowl-stew-tofu-potato-brown.webp",
       "system": {
         "description": {
           "value": "<p>Un ragoût noir et brûlant de viande de kodo, de racines des Tarides et de piment de Durotar, mijoté toute une nuit dans une marmite cabossée. Les grunts du Carrefour jurent qu'il tient debout un orc blessé jusqu'au lendemain.</p><p>Six portions. Il faut <strong>10 minutes</strong> pour manger une portion ; la créature qui la mange est <strong>bien nourrie</strong> : +1 aux jets de sauvegarde de Constitution et aux tests de Force.</p><p>Un seul repas « bien nourri » à la fois : un nouveau repas remplace le précédent. L'effet prend fin au prochain <strong>repos long</strong>.</p>",
@@ -13270,7 +13270,7 @@
         {
           "_id": "Ke96r2cf5PL5NpSn",
           "name": "Bien nourri — ragoût de kodo",
-          "img": "icons/consumables/food/bowl-stew-brown.webp",
+          "img": "icons/consumables/food/bowl-stew-tofu-potato-brown.webp",
           "type": "base",
           "system": {
             "changes": [
@@ -14244,7 +14244,7 @@
       "_id": "QRo4DNmnICFAXTgN",
       "name": "Flacon de rage du kodo",
       "type": "consumable",
-      "img": "icons/consumables/potions/flask-corked-red-glow.webp",
+      "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
       "system": {
         "description": {
           "value": "<p>Une mixture rouge sombre au fumet de musc, que les chasseurs taurens refusent de boire et que les gladiateurs orcs adorent. Elle fait gonfler les veines du cou.</p><p>Par une <strong>action bonus</strong>, vous buvez le flacon : <strong>+1</strong> aux jets de dégâts des armes et avantage aux tests de Force.</p><p>Un seul flacon à la fois : en boire un second met fin à l'effet du premier. L'effet dure <strong>8 heures</strong>.</p>",
@@ -14404,7 +14404,7 @@
         {
           "_id": "AXEq7ebNj6NNTFO9",
           "name": "Flacon de rage du kodo",
-          "img": "icons/consumables/potions/flask-corked-red-glow.webp",
+          "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
           "type": "base",
           "system": {
             "changes": [
@@ -15499,7 +15499,7 @@
       "_id": "oASJ43k3lBw6jsjG",
       "name": "Arc composite du khan Ventrouge",
       "type": "weapon",
-      "img": "icons/weapons/bows/longbow-recurve-leather-red.webp",
+      "img": "icons/weapons/bows/longbow-gold-pink.webp",
       "system": {
         "description": {
           "value": "<p>Un arc de corne et de tendons peint en rouge, si puissant que seul un centaure le bandait sans peine. C'est une <strong>arme +1</strong> (arc long). Les Kolkar reconnaissent l'arc de leur khan : celui qui le porte est défié, ou craint.</p>",
@@ -24682,7 +24682,7 @@
         "lakour-warcraft": {
           "cle": "guide-de-la-reputation",
           "collection": "reputation",
-          "version": "0.6.0"
+          "version": "0.7.0"
         }
       },
       "_stats": {
@@ -24922,7 +24922,7 @@
         "lakour-warcraft": {
           "cle": "routes-aeriennes-des-tarides",
           "collection": "montures",
-          "version": "0.6.0"
+          "version": "0.7.0"
         }
       },
       "_stats": {
@@ -25000,7 +25000,7 @@
         "lakour-warcraft": {
           "cle": "rares-et-elites-des-tarides",
           "collection": "rares",
-          "version": "0.6.0"
+          "version": "0.7.0"
         }
       },
       "_stats": {
@@ -25096,7 +25096,7 @@
         "lakour-warcraft": {
           "cle": "tableau-des-contrats",
           "collection": "contrats",
-          "version": "0.6.0"
+          "version": "0.7.0"
         }
       },
       "_stats": {

@@ -1,0 +1,90 @@
+{
+  "_id": "NkGBhoNq44yd2JSU",
+  "_key": "!items!NkGBhoNq44yd2JSU",
+  "name": "Table des missions des suivants",
+  "type": "facility",
+  "img": "icons/tools/navigation/map-marked-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une grande table couverte d'une carte des Tarides, de pions de bois et de rapports griffonnés. C'est la caserne de la garnison : un officier y loge les suivants et les envoie en mission. <strong>Ordre : recruter.</strong> En un tour de bastion, la table recrute des défenseurs (douze au plus), ou envoie un suivant en mission : tirez sur la table « Missions des suivants » pour son résultat. Un suivant blessé en mission ne repart pas avant deux tours.</p>",
+      "chat": ""
+    },
+    "identifier": "table-des-missions",
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "activities": {},
+    "building": {
+      "built": true,
+      "size": "roomy"
+    },
+    "craft": {
+      "item": null,
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": 12
+    },
+    "disabled": false,
+    "enlargeable": false,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 5,
+    "order": "recruit",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": "",
+      "paid": false
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": null,
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "barrack"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "table-des-missions",
+      "collection": "garnison"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -18,6 +18,9 @@ import { DONJON_DOCUMENTS } from "./donjon.mjs";
 import { MONTURES_DOCUMENTS } from "./montures.mjs";
 import { RARES_DOCUMENTS } from "./rares.mjs";
 import { CONTRATS_DOCUMENTS } from "./contrats.mjs";
+import { COMPAGNONS } from "./compagnons.mjs";
+import { METIERS_DOCUMENTS } from "./metiers.mjs";
+import { GARNISON_DOCUMENTS } from "./garnison.mjs";
 
 // Tout le contenu du module, dans l'ordre des compendiums.
 export const DOCUMENTS = [
@@ -30,5 +33,7 @@ export const DOCUMENTS = [
   ...CAMPAGNE_DOCUMENTS,
   ...ONE_SHOT_DOCUMENTS,
   // Suppléments « Tarides vivantes » (lot 1) : consommables, réputation, donjon de Mèche-Noire, montures, rares, contrats.
-  ...CONSOMMABLES, ...REPUTATION_DOCUMENTS, ...DONJON_DOCUMENTS, ...MONTURES_DOCUMENTS, ...RARES_DOCUMENTS, ...CONTRATS_DOCUMENTS
+  ...CONSOMMABLES, ...REPUTATION_DOCUMENTS, ...DONJON_DOCUMENTS, ...MONTURES_DOCUMENTS, ...RARES_DOCUMENTS, ...CONTRATS_DOCUMENTS,
+  // Lot 2 : familier du rôdeur, métiers (récolte, artisanat), garnison de faction (installations de bastion).
+  ...COMPAGNONS, ...METIERS_DOCUMENTS, ...GARNISON_DOCUMENTS
 ];

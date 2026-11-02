@@ -1,0 +1,100 @@
+{
+  "_id": "oAaR0CzmzvqcSWv3",
+  "_key": "!journal!oAaR0CzmzvqcSWv3",
+  "name": "Recettes d'artisanat",
+  "folder": null,
+  "sort": 0,
+  "categories": [],
+  "ownership": {
+    "default": 2
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "recettes-d-artisanat",
+      "collection": "metiers"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "pages": [
+    {
+      "_id": "4nLldvVIs0s0ABeP",
+      "_key": "!journal.pages!oAaR0CzmzvqcSWv3.4nLldvVIs0s0ABeP",
+      "name": "Alchimie",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Outil :</strong> matériel d'alchimiste. Il faut maîtriser l'outil du métier, avoir les composants et payer les fournitures (fioles, charbon, sel, mèches). À la fin du temps indiqué, faites le test d'outil. <strong>Réussite</strong> : l'objet est prêt. <strong>Réussite de 5 ou plus au-dessus du DD</strong> : pour un consommable, un exemplaire de plus. <strong>Échec</strong> : les fournitures sont perdues, les composants gardés. <strong>Échec de 5 ou plus</strong> : les composants sont perdus aussi.</p><ul><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.D2jD8VN39EjXu6ZT]{Potion de soins}</strong> (commun) — 2 × @UUID[Compendium.lakour-warcraft.objets.Item.Kb533hoo2qZoFAv2]{Herbe-à-fièvre}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.ndEiNXzBHz8KCR71]{Lys des oasis} ; [[/check tool=alchemist dc=10]]{matériel d'alchimiste DD 10} ; 4 heures ; 21 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.DnuAjolIuMjbG2Y6]{Élixir de la mangouste}</strong> (peu commun) — 2 × @UUID[Compendium.lakour-warcraft.objets.Item.dDeiKeUVOYgekIfD]{Varech des criques}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.Kb533hoo2qZoFAv2]{Herbe-à-fièvre} ; [[/check tool=alchemist dc=12]]{matériel d'alchimiste DD 12} ; 4 heures ; 57 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.a8lnV8qn64Glgrtr]{Flasque d'huile de feu}</strong> (commun) — 1 × @UUID[Compendium.lakour-warcraft.objets.Item.Gb9sLJdkHzOhbLfs]{Chardon-cendre} ; [[/check tool=alchemist dc=13]]{matériel d'alchimiste DD 13} ; 4 heures ; 5 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.TtyEZzHdraWaFyZJ]{Potion de mana mineure}</strong> (peu commun) — 1 × @UUID[Compendium.lakour-warcraft.objets.Item.bTlZCs4uTLxsWWGk]{Pétale de lune}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.ndEiNXzBHz8KCR71]{Lys des oasis} ; [[/check tool=alchemist dc=13]]{matériel d'alchimiste DD 13} ; 4 heures ; 23 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.JpC7YtpnD69HcMEL]{Potion de soins majeure}</strong> (peu commun) — 2 × @UUID[Compendium.lakour-warcraft.objets.Item.ndEiNXzBHz8KCR71]{Lys des oasis}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.tQQ6ZDrlT0TkoeBp]{Mousse d'Âprefange} ; [[/check tool=alchemist dc=14]]{matériel d'alchimiste DD 14} ; 8 heures ; 63 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.tvjslgMOwlg1Huhg]{Flacon de sagesse distillée}</strong> (peu commun) — 1 × @UUID[Compendium.lakour-warcraft.objets.Item.bTlZCs4uTLxsWWGk]{Pétale de lune}, 2 × @UUID[Compendium.lakour-warcraft.objets.Item.tQQ6ZDrlT0TkoeBp]{Mousse d'Âprefange} ; [[/check tool=alchemist dc=15]]{matériel d'alchimiste DD 15} ; 8 heures ; 59 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.QRo4DNmnICFAXTgN]{Flacon de rage du kodo}</strong> (peu commun) — 2 × @UUID[Compendium.lakour-warcraft.objets.Item.Gb9sLJdkHzOhbLfs]{Chardon-cendre}, 2 × @UUID[Compendium.lakour-warcraft.objets.Item.Kb533hoo2qZoFAv2]{Herbe-à-fièvre} ; [[/check tool=alchemist dc=15]]{matériel d'alchimiste DD 15} ; 8 heures ; 78 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.kVrdN7ED5Tqsj51E]{Flacon des Titans de pierre}</strong> (rare) — 2 × @UUID[Compendium.lakour-warcraft.objets.Item.Gb9sLJdkHzOhbLfs]{Chardon-cendre}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.AJCsPW8NFBDSXcCE]{Veine de mithril} ; [[/check tool=alchemist dc=17]]{matériel d'alchimiste DD 17} ; 1 jour ; 90 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.F5rIuGiIcZeMyRf4]{Flacon de peau-de-pierre}</strong> (rare) — 1 × @UUID[Compendium.lakour-warcraft.objets.Item.wsWsboEY5DpiLBNS]{Éclat de verre noir}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.AJCsPW8NFBDSXcCE]{Veine de mithril} ; [[/check tool=alchemist dc=17]]{matériel d'alchimiste DD 17} ; 1 jour ; 98 po de fournitures.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "sti892eWiqvrl1i6",
+      "_key": "!journal.pages!oAaR0CzmzvqcSWv3.sti892eWiqvrl1i6",
+      "name": "Forge",
+      "type": "text",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Outil :</strong> outils de forgeron. Il faut maîtriser l'outil du métier, avoir les composants et payer les fournitures (fioles, charbon, sel, mèches). À la fin du temps indiqué, faites le test d'outil. <strong>Réussite</strong> : l'objet est prêt. <strong>Réussite de 5 ou plus au-dessus du DD</strong> : pour un consommable, un exemplaire de plus. <strong>Échec</strong> : les fournitures sont perdues, les composants gardés. <strong>Échec de 5 ou plus</strong> : les composants sont perdus aussi.</p><ul><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.v2iFRecHPXFq07w7]{Pierre à aiguiser de Rouge-Veine}</strong> (commun) — 1 × @UUID[Compendium.lakour-warcraft.objets.Item.wwwk7ZfSpXXVIZNN]{Minerai de fer rouge} ; [[/check tool=smith dc=10]]{outils de forgeron DD 10} ; 1 heure ; 1 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.Vh8xj1loPd6h7UBw]{Épée de la Garde de Hurlevent}</strong> (ordinaire) — 3 × @UUID[Compendium.lakour-warcraft.objets.Item.wwwk7ZfSpXXVIZNN]{Minerai de fer rouge}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.EVwHyz2AkECxete8]{Cuir léger} ; [[/check tool=smith dc=12]]{outils de forgeron DD 12} ; 1 jour ; 3 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.t7SVoj0O72IicoSq]{Hache d'Orgrimmar}</strong> (ordinaire) — 4 × @UUID[Compendium.lakour-warcraft.objets.Item.wwwk7ZfSpXXVIZNN]{Minerai de fer rouge}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.EVwHyz2AkECxete8]{Cuir léger} ; [[/check tool=smith dc=12]]{outils de forgeron DD 12} ; 1 jour ; 6 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.KG0AhPmTDVfOusRV]{Harnois de grunt}</strong> (ordinaire) — 4 × @UUID[Compendium.lakour-warcraft.objets.Item.wwwk7ZfSpXXVIZNN]{Minerai de fer rouge}, 2 × @UUID[Compendium.lakour-warcraft.objets.Item.tXz5Gb5yosB83Hqm]{Peau de kodo épaisse} ; [[/check tool=smith dc=14]]{outils de forgeron DD 14} ; 3 jours ; 11 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.FkzYwXfJlC3FWUy9]{Cotte de mailles de la Garde}</strong> (ordinaire) — 6 × @UUID[Compendium.lakour-warcraft.objets.Item.wwwk7ZfSpXXVIZNN]{Minerai de fer rouge}, 2 × @UUID[Compendium.lakour-warcraft.objets.Item.EVwHyz2AkECxete8]{Cuir léger} ; [[/check tool=smith dc=14]]{outils de forgeron DD 14} ; 3 jours ; 24 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.izTlgtk7EPEfFOO4]{Gantelets ignifugés du contremaître}</strong> (peu commun) — 2 × @UUID[Compendium.lakour-warcraft.objets.Item.KPChWgeRVZjlgjT2]{Cuir gangrené}, 2 × @UUID[Compendium.lakour-warcraft.objets.Item.wwwk7ZfSpXXVIZNN]{Minerai de fer rouge} ; [[/check tool=smith dc=15]]{outils de forgeron DD 15} ; 3 jours ; 172 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.EEDEayXLoCLvrM3Y]{Bouclier en écailles de Gueule-de-Fer}</strong> (peu commun) — 3 × @UUID[Compendium.lakour-warcraft.objets.Item.AMV0unlVbi8J5snB]{Écailles de crocilisque}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.RSJq3oORPKQk3hRQ]{Pépite d'argent} ; [[/check tool=smith dc=16]]{outils de forgeron DD 16} ; 3 jours ; 260 po de fournitures.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "g1yHGnK5SpDjkw7M",
+      "_key": "!journal.pages!oAaR0CzmzvqcSWv3.g1yHGnK5SpDjkw7M",
+      "name": "Ingénierie gobeline et gnome",
+      "type": "text",
+      "sort": 300,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Outil :</strong> outils de bricoleur. Il faut maîtriser l'outil du métier, avoir les composants et payer les fournitures (fioles, charbon, sel, mèches). À la fin du temps indiqué, faites le test d'outil. <strong>Réussite</strong> : l'objet est prêt. <strong>Réussite de 5 ou plus au-dessus du DD</strong> : pour un consommable, un exemplaire de plus. <strong>Échec</strong> : les fournitures sont perdues, les composants gardés. <strong>Échec de 5 ou plus</strong> : les composants sont perdus aussi.</p><ul><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.K40fHzYjihsiKYhA]{Fusée de détresse gobeline}</strong> (commun) — 1 × @UUID[Compendium.lakour-warcraft.objets.Item.uKCUMZbAK9UISvRP]{Minerai de cuivre} ; [[/check tool=tinker dc=10]]{outils de bricoleur DD 10} ; 1 heure ; 1 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.J5njSJUKfoAdTJw5]{Bombe gobeline}</strong> (ordinaire) — 2 × @UUID[Compendium.lakour-warcraft.objets.Item.uKCUMZbAK9UISvRP]{Minerai de cuivre}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.Gb9sLJdkHzOhbLfs]{Chardon-cendre} ; [[/check tool=tinker dc=12]]{outils de bricoleur DD 12} ; 2 heures ; 1 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.q4nPH0xfdiJHhDM8]{Casque de mineur à lanterne}</strong> (commun) — 2 × @UUID[Compendium.lakour-warcraft.objets.Item.uKCUMZbAK9UISvRP]{Minerai de cuivre}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.EVwHyz2AkECxete8]{Cuir léger} ; [[/check tool=tinker dc=12]]{outils de bricoleur DD 12} ; 4 heures ; 5 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.FAJxlvoFN9FA6JM8]{Lunette de visée gnome}</strong> (peu commun) — 2 × @UUID[Compendium.lakour-warcraft.objets.Item.uKCUMZbAK9UISvRP]{Minerai de cuivre}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.wsWsboEY5DpiLBNS]{Éclat de verre noir} ; [[/check tool=tinker dc=15]]{outils de bricoleur DD 15} ; 1 jour ; 61 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.hGE8PsZTAtnG0kwk]{Bottes à ressorts Baille-Fonds}</strong> (peu commun) — 3 × @UUID[Compendium.lakour-warcraft.objets.Item.wwwk7ZfSpXXVIZNN]{Minerai de fer rouge}, 3 × @UUID[Compendium.lakour-warcraft.objets.Item.uKCUMZbAK9UISvRP]{Minerai de cuivre}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.AJCsPW8NFBDSXcCE]{Veine de mithril} ; [[/check tool=tinker dc=18]]{outils de bricoleur DD 18} ; 3 jours ; 201 po de fournitures.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1QG4mlzrpBJy6R8k",
+      "_key": "!journal.pages!oAaR0CzmzvqcSWv3.1QG4mlzrpBJy6R8k",
+      "name": "Cuisine",
+      "type": "text",
+      "sort": 400,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Outil :</strong> ustensiles de cuisinier. Il faut maîtriser l'outil du métier, avoir les composants et payer les fournitures (fioles, charbon, sel, mèches). À la fin du temps indiqué, faites le test d'outil. <strong>Réussite</strong> : l'objet est prêt. <strong>Réussite de 5 ou plus au-dessus du DD</strong> : pour un consommable, un exemplaire de plus. <strong>Échec</strong> : les fournitures sont perdues, les composants gardés. <strong>Échec de 5 ou plus</strong> : les composants sont perdus aussi.</p><ul><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.VZpVXdtVbHdZKhRr]{Marmite de ragoût de kodo épicé}</strong> (ordinaire) — 2 × @UUID[Compendium.lakour-warcraft.objets.Item.W1mu6Fgluoow1gG8]{Viande de gibier}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.Kb533hoo2qZoFAv2]{Herbe-à-fièvre} ; [[/check tool=cook dc=10]]{ustensiles de cuisinier DD 10} ; 1 heure ; 0 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.1ypEKSCGDzILPDsh]{Brochettes de raptor au piment}</strong> (ordinaire) — 2 × @UUID[Compendium.lakour-warcraft.objets.Item.W1mu6Fgluoow1gG8]{Viande de gibier} ; [[/check tool=cook dc=11]]{ustensiles de cuisinier DD 11} ; 1 heure ; 1 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.uSKoAQ1BsXQ5i3nt]{Tourte au poisson de Theramore}</strong> (ordinaire) — 3 × @UUID[Compendium.lakour-warcraft.objets.Item.2NwsIYGrWZzc7sJA]{Filet de poisson} ; [[/check tool=cook dc=12]]{ustensiles de cuisinier DD 12} ; 2 heures ; 1 po de fournitures.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ]
+}

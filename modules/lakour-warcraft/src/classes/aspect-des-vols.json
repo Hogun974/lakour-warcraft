@@ -1,0 +1,158 @@
+{
+  "_id": "B6li9QTCpATkMfd1",
+  "_key": "!items!B6li9QTCpATkMfd1",
+  "name": "Aspect des Vols draconiques",
+  "type": "subclass",
+  "img": "icons/creatures/reptiles/dragon-winged-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Les grands Vols de dragons d'Azeroth ont longtemps marché parmi les mortels sous des visages d'emprunt. De ces rencontres sont nés des enfants dont le sang garde un éclat d'écaille : un don pour la flamme chez ceux du Vol rouge, le givre arcanique chez ceux du Vol bleu, le souffle du Rêve chez ceux du Vol vert, le poids du temps chez ceux du Vol de bronze. Ces ensorceleurs ne choisissent pas leur Vol : ils le découvrent, souvent à leurs dépens.</p><p><em>Sous-classe du Ensorceleur, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Élu d'un Vol, Écailles de l'ancêtre</li><li><strong>Niveau 6</strong> : Affinité du Vol</li><li><strong>Niveau 14</strong> : Ailes de l'Aspect</li><li><strong>Niveau 18</strong> : Présence de l'Aspect</li></ul>",
+      "chat": ""
+    },
+    "identifier": "aspect-des-vols",
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "advancement": {
+      "HBbVMDBCmSZXn3Fm": {
+        "_id": "HBbVMDBCmSZXn3Fm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.FNlDARNulfz8vnAy",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.fxgvG0NUg4FekmIZ",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "name": "Capacités : Aspect des Vols draconiques",
+        "hint": "",
+        "flags": {}
+      },
+      "DfUBoDFsyYer73Op": {
+        "_id": "DfUBoDFsyYer73Op",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.9qbaGHN6gFaae3kv",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "name": "Capacités : Aspect des Vols draconiques",
+        "hint": "",
+        "flags": {}
+      },
+      "AdUT3Og1nUZO4LiN": {
+        "_id": "AdUT3Og1nUZO4LiN",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.TTNVUonnBKNkUKGj",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "name": "Capacités : Aspect des Vols draconiques",
+        "hint": "",
+        "flags": {}
+      },
+      "EdWHwaEzvqVaFkMn": {
+        "_id": "EdWHwaEzvqVaFkMn",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.sWxzXJ4VyTUqpDQA",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "name": "Capacités : Aspect des Vols draconiques",
+        "hint": "",
+        "flags": {}
+      },
+      "DnXbBP2x00VI8PCi": {
+        "_id": "DnXbBP2x00VI8PCi",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "languages:standard:draconic"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "dr:fire",
+                "dr:cold",
+                "dr:poison",
+                "dr:force"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 3,
+        "name": "Élu d'un Vol",
+        "hint": "Draconique, et la résistance du Vol choisi : rouge (feu), bleu (froid), vert (poison), bronze (force).",
+        "flags": {}
+      }
+    },
+    "classIdentifier": "sorcerer",
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "aspect-des-vols",
+      "classe": "sorcerer"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

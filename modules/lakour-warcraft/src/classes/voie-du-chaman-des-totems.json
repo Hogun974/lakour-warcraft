@@ -1,0 +1,210 @@
+{
+  "_id": "zHXjUE3hpZIXEf1x",
+  "_key": "!items!zHXjUE3hpZIXEf1x",
+  "name": "Voie du chaman des totems",
+  "type": "subclass",
+  "img": "icons/magic/death/skull-cattle-totem-glow-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Dans les tribus des Tarides et de Durotar, certains guerriers n'entrent pas en rage : ils appellent. Leur colère réveille les esprits de la pierre, du vent et du magma, qui jaillissent du sol sous la forme de totems grossiers plantés au milieu de la mêlée. Ces chamans de guerre ne connaissent pas les longues prières des anciens ; ils parlent aux éléments en criant, et les éléments, qui aiment le bruit, leur répondent.</p><p><em>Sous-classe du Barbare, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Totems élémentaires, Parole des esprits</li><li><strong>Niveau 6</strong> : Bouclier de foudre</li><li><strong>Niveau 10</strong> : Totem du flot</li><li><strong>Niveau 14</strong> : Incarnation des éléments</li></ul>",
+      "chat": ""
+    },
+    "identifier": "voie-du-chaman-des-totems",
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "advancement": {
+      "hLrGROgYUfkgCwjs": {
+        "_id": "hLrGROgYUfkgCwjs",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.74qv4lRjPOfnrxn8",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.roAS0WYaRarxvifC",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "name": "Capacités : Voie du chaman des totems",
+        "hint": "",
+        "flags": {}
+      },
+      "5MMahfUYUCnBk5VP": {
+        "_id": "5MMahfUYUCnBk5VP",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.ZVDK73mGwvhx8g42",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "name": "Capacités : Voie du chaman des totems",
+        "hint": "",
+        "flags": {}
+      },
+      "fyzKBGhNHW1MOGvS": {
+        "_id": "fyzKBGhNHW1MOGvS",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.jmqFA52GTbEXuVhf",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "name": "Capacités : Voie du chaman des totems",
+        "hint": "",
+        "flags": {}
+      },
+      "3vzzMqcOfmkhPrFT": {
+        "_id": "3vzzMqcOfmkhPrFT",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.ihLUfgf76LMDLVEM",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "name": "Capacités : Voie du chaman des totems",
+        "hint": "",
+        "flags": {}
+      },
+      "Y13DEPtClWY9Z3rR": {
+        "_id": "Y13DEPtClWY9Z3rR",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "languages:exotic:primordial"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:nat",
+                "skills:sur"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 3,
+        "name": "Parole des esprits",
+        "hint": "Primordial, plus Nature ou Survie.",
+        "flags": {}
+      },
+      "ci8KOt0c8aM9sCdl": {
+        "_id": "ci8KOt0c8aM9sCdl",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "magma",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "number": 1,
+              "faces": 6,
+              "modifiers": []
+            },
+            "10": {
+              "number": 2,
+              "faces": 6,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "name": "Dés du totem de magma",
+        "hint": "",
+        "flags": {}
+      },
+      "Ju0rElfYjLgw4Gmk": {
+        "_id": "Ju0rElfYjLgw4Gmk",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "foudre",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "6": {
+              "number": 1,
+              "faces": 6,
+              "modifiers": []
+            },
+            "14": {
+              "number": 2,
+              "faces": 6,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "name": "Dés du bouclier de foudre",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "classIdentifier": "barbarian",
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "voie-du-chaman-des-totems",
+      "classe": "barbarian"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

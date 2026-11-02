@@ -1,0 +1,159 @@
+{
+  "_id": "EJOqGZrGBXXGSNAT",
+  "_key": "!items!EJOqGZrGBXXGSNAT",
+  "name": "Frénésie bestiale",
+  "type": "feat",
+  "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Quand vous faites l'action Attaquer, votre familier peut faire <strong>deux attaques</strong> au lieu d'une. Une fois par tour, quand l'une de ses attaques touche, elle inflige <strong>1d8 dégâts perforants</strong> supplémentaires.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "familier-frenesie-bestiale",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Chasseur et son familier",
+    "prerequisites": {
+      "level": 11,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {
+      "hmEF30es8DiGyQvG": {
+        "_id": "hmEF30es8DiGyQvG",
+        "type": "damage",
+        "name": "Morsure enragée",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": "Une fois par tour, quand une attaque de votre familier touche",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "damage": {
+          "critical": {
+            "allow": false,
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": 1,
+              "denomination": 8,
+              "bonus": "",
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              },
+              "types": [
+                "piercing"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "familier-frenesie-bestiale",
+      "sousClasse": "chasseur-et-son-familier",
+      "classe": "ranger",
+      "niveau": 11,
+      "automatisation": "partielle"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

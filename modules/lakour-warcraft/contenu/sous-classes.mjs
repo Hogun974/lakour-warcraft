@@ -13,7 +13,7 @@
 // SRD 2024 du compendium classes24 (niveaux des capacités, sorts de domaine aux niveaux 3/5/7/9 ou 3/5/9/13/17).
 // Textes originaux. Toutes les distances sont en mètres (5 pieds = 1,5 m).
 import { MODULE, STATS, identifiant, icone, html } from "./aides.mjs";
-import { exiger, cleTrait } from "./objets.mjs";
+import { CARACTERISTIQUES, exiger, cleTrait } from "./objets.mjs";
 import { capacite } from "./dons.mjs";
 import { SORTS, SOURCE } from "./sorts.mjs";
 
@@ -106,7 +106,16 @@ export const CAPACITES_EN_PARTIE = {
   "main-d-argent-champion": "La lumière vive émise par le champion : éclairage de scène, hors du modèle d'acteur.",
   "si-7-maitre-du-deguisement": "Se grimer en une minute sans matériel : permission de jeu, aucune clé d'acteur ne la porte.",
   "si-7-evasion": "L'invisibilité cesse si l'espion attaque ou lance un sort : fin d'effet conditionnelle, retirée à la main.",
-  "elements-avatar": "Regagner l'usage en dépensant un emplacement de niveau 5 : consommation alternative, appliquée par le joueur."
+  "elements-avatar": "Regagner l'usage en dépensant un emplacement de niveau 5 : consommation alternative, appliquée par le joueur.",
+  "chevalier-poigne-de-la-mort": "L'attraction jusqu'à un espace voisin : déplacement forcé de jeton, fait à la main ; l'entrave est appliquée par l'activité.",
+  "chevalier-aura-de-froid": "La résistance des alliés dans l'aura et le ralentissement des ennemis : dnd5e 6.0.6 n'applique pas d'effet de zone permanent autour d'un personnage.",
+  "chevalier-armee-des-morts": "Les quatre goules : jetons posés par le MJ (profil de goule du bestiaire), qui disparaissent à la fin de la minute.",
+  "totems-totems-elementaires": "Le totem est un repère sur la carte : la zone de 3 m suit le totem, pas le barbare ; le MJ choisit les cibles au moment de planter.",
+  "brasseur-fut-roulant": "L'état à terre en cas d'échec : dnd5e 6.0.6 n'applique pas d'état selon le résultat de la sauvegarde sans effet de durée ; posé à la main.",
+  "familier-compagnon": "Le familier est une fiche à part : son bonus de maîtrise et ses points de vie suivent le niveau du rôdeur, recopiés à la main.",
+  "familier-frenesie-bestiale": "La seconde attaque du familier : action d'une autre fiche, jouée par le MJ ou le joueur ; seul le surcroît de dégâts est une activité.",
+  "familier-aspect-de-la-meute": "L'avantage du familier : effet à poser sur sa propre fiche ; l'activité ne l'applique qu'au rôdeur.",
+  "brasseur-ivresse-du-sage": "Le renversement d'un assaillant qui vous rate pendant l'Ivresse insondable : réaction jouée à la main, l'état à terre posé par le MJ."
 };
 
 // ---------- Avancements (forme dnd5e 6.0.6 : objet indexé par _id, libellé dans `name`).
@@ -174,7 +183,7 @@ export function sousClasse(sc) {
   for (const d of capacites.filter(d => d.__maitrises)) {
     const m = d.__maitrises;
     avancements.push(avancement(ou, n++, "Trait", {
-      mode: "default", allowReplacements: false,
+      mode: "default", allowReplacements: true,
       grants: (m.accordees ?? []).map(k => cleTrait(k, ou)),
       choices: (m.choix ?? []).map(ch => ({ count: ch.nombre ?? 1, pool: ch.parmi.map(k => cleTrait(k, ou)) }))
     }, { niveau: d.system.prerequisites.level, nom: d.name, indice: m.indice ?? "", value: { chosen: [] } }));
@@ -276,10 +285,10 @@ const ELEMENTS_SC = {
       texte: "Par une **action bonus**, vous laissez les quatre esprits vous habiter pendant **1 minute** : vous gagnez une **vitesse de vol de 9 m** et vous avez la **résistance** aux dégâts de feu, de froid, de foudre et de tonnerre. Une utilisation par **repos long** ; vous pouvez aussi la regagner en dépensant un emplacement de sort de niveau 5.",
       utilisations: { max: 1, periode: "lr" },
       effets: [{
-        nom: "Avatar des éléments", transfert: false, duree: [1, "minutes"], texte: "Vol 9 m ; résistance au feu, au froid, à la foudre et au tonnerre.",
+        nom: "Incarnation des éléments", transfert: false, duree: [1, "minutes"], texte: "Vol 9 m ; résistance au feu, au froid, à la foudre et au tonnerre.",
         changements: [["system.attributes.movement.speeds.fly", "9", "upgrade"], ...ELEMENTS.map(t => ["system.traits.dr.value", t])]
       }],
-      activites: [{ type: "utility", nom: "Devenir avatar", activation: "bonus", duree: [1, "minute"], effets: [0] }]
+      activites: [{ type: "utility", nom: "Incarner les éléments", activation: "bonus", duree: [1, "minute"], effets: [0] }]
     }
   ]
 };
@@ -634,11 +643,253 @@ const SI7_SC = {
   ]
 };
 
+// ======================================================================= Paladin : Serment du chevalier de la mort
+
+const SORTS_CHEVALIER = [
+  { niveau: 3, liste: ["sorts:fletrissure-gangrenee", "protectionMalBien"] },
+  { niveau: 5, liste: ["sorts:nova-de-givre", "rayonAffaiblissant"] },
+  { niveau: 9, liste: ["caresseVampire", "malediction"] },
+  { niveau: 13, liste: ["sorts:blizzard", "fletrissement"] },
+  { niveau: 17, liste: ["brumeMortelle", "contagion"] }
+];
+const CHEVALIER_SC = {
+  cle: "serment-du-chevalier-de-la-mort", nom: "Serment du chevalier de la mort", classe: "paladin", titreSorts: "Sorts du chevalier de la mort",
+  img: icone("magic/water/orb-ice-glow"),
+  texte: "Certains chevaliers sont revenus du froid. Relevés par un maître qui n'est plus, ou par une malédiction qu'ils ont fini par dompter, ils ont gardé de leur mort une lame qui gèle, des runes gravées dans la chair et un serment d'un genre nouveau : protéger les vivants avec les armes des morts. On les craint dans les deux factions, on les appelle quand le Fléau se réveille, et on ne leur offre jamais de s'asseoir près du feu.",
+  echelles: [{ id: "givre", nom: "Dés de la rune de givre", des: { 3: [1, 6], 15: [2, 6] } }],
+  sorts: SORTS_CHEVALIER,
+  capacites: [
+    {
+      cle: "chevalier-sorts", nom: "Sorts du chevalier de la mort", niveau: 3, liste: true, img: icone("magic/water/heart-ice-freeze"),
+      texte: listeSorts("Le froid et la mort répondent à votre serment. Quand vous atteignez les niveaux de paladin indiqués, ces sorts vous sont accordés ; ils sont **toujours préparés**.", SORTS_CHEVALIER)
+    },
+    {
+      cle: "chevalier-rune-de-givre", nom: "Rune de givre", niveau: 3, img: icone("magic/symbols/rune-sigil-rough-white-teal"),
+      texte: "Par une **action bonus**, vous dépensez une utilisation de votre **Conduit divin** pour graver une rune de givre sur votre arme, pour **1 minute**. Pendant cette durée, une fois par tour, quand vous touchez une créature avec cette arme, elle subit **1d6 dégâts de froid** supplémentaires. Ces dés passent à **2d6** au niveau 15.",
+      activites: [
+        { type: "utility", nom: "Graver la rune", activation: "bonus", duree: [1, "minute"], depense: "feat:channel-divinity-paladin" },
+        { type: "damage", nom: "Morsure du givre", activation: "", condition: "Une fois par tour, en touchant avec l'arme runée", degats: [{ des: "@scale.serment-du-chevalier-de-la-mort.givre", types: ["cold"] }] }
+      ]
+    },
+    {
+      cle: "chevalier-poigne-de-la-mort", nom: "Poigne de la mort", niveau: 3, img: icone("magic/unholy/hand-grasping-green"),
+      texte: "Par une **action**, vous dépensez une utilisation de votre **Conduit divin** : une main de brume glacée saisit une créature que vous voyez à **9 m** ou moins. Elle fait un jet de sauvegarde de **Force** (DD de vos sorts de paladin). En cas d'échec, elle est attirée en ligne droite jusqu'à un espace libre à côté de vous et **entravée** jusqu'à la fin de votre prochain tour.",
+      effets: [{ nom: "Poigne de la mort", transfert: false, etats: ["restrained"], duree: [null, null, "sourceEnd"] }],
+      activites: [{ type: "save", nom: "Saisir", activation: "action", portee: [9, "m"], cible: ["1", "creature"], sauvegarde: { carac: ["str"], dd: "cha", reussite: "none" }, effets: [0], depense: "feat:channel-divinity-paladin" }]
+    },
+    {
+      cle: "chevalier-aura-de-froid", nom: "Aura de froid", niveau: 7, img: icone("magic/water/barrier-ice-wall-snow"),
+      texte: "Un froid de tombe vous entoure dans un rayon de **3 m**. Vous et les créatures de votre choix dans l'aura avez la **résistance aux dégâts de froid**. Une créature hostile qui commence son tour dans l'aura voit sa vitesse réduite de **3 m** jusqu'au début de son tour suivant.",
+      effets: [{ nom: "Aura de froid", changements: [["system.traits.dr.value", "cold"]] }]
+    },
+    {
+      cle: "chevalier-carapace-anti-magie", nom: "Carapace anti-magie", niveau: 15, img: icone("magic/defensive/barrier-shield-dome-deflect-teal"),
+      texte: "Par une **réaction**, quand vous devez faire un jet de sauvegarde, vous vous enveloppez d'une carapace verdâtre qui boit la magie : jusqu'à la fin de votre prochain tour, vous avez l'**avantage** à tous vos jets de sauvegarde. Une utilisation par **repos court**.",
+      utilisations: { max: 1, periode: "sr" },
+      effets: [{ nom: "Carapace anti-magie", transfert: false, duree: [1, "rounds", "turnEnd"], changements: CARACTERISTIQUES.map(c => [`system.abilities.${c}.save.roll.mode`, 1]) }],
+      activites: [{ type: "utility", nom: "Dresser la carapace", activation: "reaction", condition: "Quand vous devez faire un jet de sauvegarde", duree: [1, "round"], effets: [0] }]
+    },
+    {
+      cle: "chevalier-armee-des-morts", nom: "Armée des morts", niveau: 20, img: icone("magic/unholy/hands-circle-light-green"),
+      texte: "Par une **action**, vous frappez le sol et quatre goules (profil de goule du bestiaire) se relèvent dans des espaces libres à **9 m** ou moins de vous. Elles agissent juste après vous, obéissent à vos ordres et retombent en poussière au bout de **1 minute**. Pendant cette minute, vous avez la **résistance aux dégâts nécrotiques et de froid** et **+2 à la classe d'armure**. Une utilisation par **repos long**.",
+      utilisations: { max: 1, periode: "lr" },
+      effets: [{ nom: "Armée des morts", transfert: false, duree: [1, "minutes"], changements: [["system.traits.dr.value", "necrotic"], ["system.traits.dr.value", "cold"], ["system.attributes.ac.bonus", "2"]] }],
+      activites: [{ type: "utility", nom: "Lever l'armée", activation: "action", duree: [1, "minute"], effets: [0] }]
+    }
+  ]
+};
+
+// ======================================================================= Barbare : Voie du chaman des totems
+
+const TOTEMS_SC = {
+  cle: "voie-du-chaman-des-totems", nom: "Voie du chaman des totems", classe: "barbarian",
+  img: icone("magic/death/skull-cattle-totem-glow-red"),
+  texte: "Dans les tribus des Tarides et de Durotar, certains guerriers n'entrent pas en rage : ils appellent. Leur colère réveille les esprits de la pierre, du vent et du magma, qui jaillissent du sol sous la forme de totems grossiers plantés au milieu de la mêlée. Ces chamans de guerre ne connaissent pas les longues prières des anciens ; ils parlent aux éléments en criant, et les éléments, qui aiment le bruit, leur répondent.",
+  echelles: [
+    { id: "magma", nom: "Dés du totem de magma", des: { 3: [1, 6], 10: [2, 6] } },
+    { id: "foudre", nom: "Dés du bouclier de foudre", des: { 6: [1, 6], 14: [2, 6] } }
+  ],
+  capacites: [
+    {
+      cle: "totems-totems-elementaires", nom: "Totems élémentaires", niveau: 3, img: icone("weapons/wands/wand-totem"),
+      texte: "Pendant votre **Rage**, par une **action bonus**, vous plantez un totem dans un espace libre à 3 m ou moins de vous ; il reste jusqu'à la fin de votre Rage. Choisissez :\n\n- **Totem de peau de pierre** : vous et vos alliés à 3 m ou moins du totem gagnez **+1 à la classe d'armure** pendant 1 minute.\n- **Totem des vents** : vous et vos alliés à 3 m ou moins du totem gagnez **3 m de vitesse** pendant 1 minute.\n- **Totem de magma** : chaque créature hostile à 3 m ou moins du totem fait un jet de sauvegarde de **Dextérité** (DD 8 + votre modificateur de Constitution + votre bonus de maîtrise) et subit **1d6 dégâts de feu** (moitié en cas de réussite) ; **2d6** au niveau 10.\n\nNombre d'utilisations : votre **bonus de maîtrise** par repos long.",
+      utilisations: PB_PAR_REPOS_LONG,
+      effets: [
+        { nom: "Totem de peau de pierre", transfert: false, duree: [1, "minutes"], changements: [["system.attributes.ac.bonus", "1"]] },
+        { nom: "Totem des vents", transfert: false, duree: [1, "minutes"], changements: [["system.attributes.movement.speeds.walk", "3"]] }
+      ],
+      activites: [
+        { type: "utility", nom: "Planter le totem de peau de pierre", activation: "bonus", gabarit: ["radius", 3], cible: ["", "ally"], duree: [1, "minute"], effets: [0] },
+        { type: "utility", nom: "Planter le totem des vents", activation: "bonus", gabarit: ["radius", 3], cible: ["", "ally"], duree: [1, "minute"], effets: [1] },
+        { type: "save", nom: "Planter le totem de magma", activation: "bonus", gabarit: ["radius", 3], cible: ["", "enemy"], sauvegarde: { carac: ["dex"], dd: "con", reussite: "half" }, degats: [{ des: "@scale.voie-du-chaman-des-totems.magma", types: ["fire"] }] }
+      ]
+    },
+    {
+      cle: "totems-parole-des-esprits", nom: "Parole des esprits", niveau: 3, img: icone("magic/symbols/runes-carved-stone-green"),
+      texte: "Les esprits vous ont appris leur langue à force de cris. Vous parlez le **primordial**, et vous maîtrisez **Nature** ou **Survie**, au choix.",
+      maitrises: { accordees: ["languages:exotic:primordial"], choix: [{ parmi: ["skills:nat", "skills:sur"] }], indice: "Primordial, plus Nature ou Survie." }
+    },
+    {
+      cle: "totems-bouclier-de-foudre", nom: "Bouclier de foudre", niveau: 6, img: icone("magic/lightning/barrier-shield-crackling-orb-pink"),
+      texte: "Pendant votre **Rage**, des éclairs courent sur votre peau. Quand une créature à 1,5 m ou moins vous touche avec une attaque au corps à corps, elle subit **1d6 dégâts de foudre**. Ces dés passent à **2d6** au niveau 14.",
+      activites: [{ type: "damage", nom: "Riposte de foudre", activation: "", condition: "Pendant votre Rage, quand une créature à 1,5 m vous touche au corps à corps", portee: [1.5, "m"], cible: ["1", "creature"], degats: [{ des: "@scale.voie-du-chaman-des-totems.foudre", types: ["lightning"] }] }]
+    },
+    {
+      cle: "totems-totem-du-flot", nom: "Totem du flot", niveau: 10, img: icone("magic/water/orb-water-bubbles-teal"),
+      texte: "Par une **action bonus**, vous plantez un totem d'où ruisselle une eau claire : vous et chaque allié dans un rayon de **9 m** autour de lui récupérez **2d8 + votre modificateur de Constitution** points de vie. Une utilisation par **repos court**.",
+      utilisations: { max: 1, periode: "sr" },
+      activites: [{ type: "heal", nom: "Planter le totem du flot", activation: "bonus", gabarit: ["radius", 9], cible: ["", "ally"], soin: { des: "2d8", bonus: "@abilities.con.mod" } }]
+    },
+    {
+      cle: "totems-avatar-des-elements", nom: "Incarnation des éléments", niveau: 14, img: icone("magic/earth/lava-stone-fire-eye"),
+      texte: "Par une **action bonus**, pendant votre **Rage**, vous laissez les quatre éléments vous habiter pour **1 minute** : vous avez la **résistance aux dégâts de feu, de froid, de foudre et de tonnerre**, et votre vitesse augmente de **3 m**. Une utilisation par **repos long**.",
+      utilisations: { max: 1, periode: "lr" },
+      effets: [{ nom: "Incarnation des éléments", transfert: false, duree: [1, "minutes"], changements: [...ELEMENTS.map(t => ["system.traits.dr.value", t]), ["system.attributes.movement.speeds.walk", "3"]] }],
+      activites: [{ type: "utility", nom: "Incarner les éléments", activation: "bonus", duree: [1, "minute"], effets: [0] }]
+    }
+  ]
+};
+
+// ======================================================================= Moine : Voie du maître brasseur
+
+const BRASSEUR_SC = {
+  cle: "voie-du-maitre-brasseur", nom: "Voie du maître brasseur", classe: "monk",
+  img: icone("containers/barrels/barrel-hogshead-cask-oak-brown"),
+  texte: "Les maîtres brasseurs pandarens ont fait d'un art de taverne une discipline de combat. Ils tanguent, titubent et semblent toujours sur le point de tomber ; c'est pourtant leur adversaire qui finit par terre. Leur souffle sent le grain et le piment, leur tonneau ne quitte jamais leur dos, et ils répètent volontiers qu'une bonne bière et une bonne garde ont le même secret : le temps.",
+  echelles: [
+    { id: "titubement", nom: "Dés du titubement", des: { 3: [1, 8], 11: [2, 8], 17: [3, 8] } },
+    { id: "souffle", nom: "Dés du souffle de feu", des: { 6: [2, 6], 11: [3, 6], 17: [4, 6] } }
+  ],
+  capacites: [
+    {
+      cle: "brasseur-tonnelier", nom: "Tonnelier de la pagode", niveau: 3, img: icone("containers/barrels/barrel-oak-banded-tan"),
+      texte: "Vous maîtrisez le **matériel de brasseur**. Par une **action bonus**, vous offrez une gorgée de votre tonneau à une créature à portée de main (vous compris) : elle gagne **1d8 + votre modificateur de Sagesse** points de vie temporaires. Nombre d'utilisations : votre **bonus de maîtrise** par repos long.",
+      maitrises: { accordees: ["tool:art:brewer"], indice: "Matériel de brasseur." },
+      utilisations: PB_PAR_REPOS_LONG,
+      activites: [{ type: "heal", nom: "Une gorgée", activation: "bonus", portee: ["", "touch"], cible: ["1", "creature"], soin: { des: "1d8", bonus: "@abilities.wis.mod", type: "temphp" } }]
+    },
+    {
+      cle: "brasseur-titubement", nom: "Titubement", niveau: 3, img: icone("magic/control/silhouette-fall-slip-prone"),
+      texte: "Par une **réaction**, quand une attaque vous touche, vous chancelez dans le bon sens : vous gagnez **1d8 + votre modificateur de Constitution** points de vie temporaires avant de subir les dégâts. Ce dé passe à **2d8** au niveau 11 et à **3d8** au niveau 17. Nombre d'utilisations : votre **bonus de maîtrise** par repos long.",
+      utilisations: PB_PAR_REPOS_LONG,
+      activites: [{ type: "heal", nom: "Tituber", activation: "reaction", condition: "Quand une attaque vous touche", soin: { des: "@scale.voie-du-maitre-brasseur.titubement + @abilities.con.mod", type: "temphp" } }]
+    },
+    {
+      cle: "brasseur-souffle-de-feu", nom: "Souffle de feu", niveau: 6, img: icone("creatures/abilities/mouth-teeth-fire-orange"),
+      texte: "Par une **action**, vous recrachez une gorgée d'alcool fort sur une flamme : chaque créature dans un cône de **4,5 m** fait un jet de sauvegarde de **Dextérité** (DD 8 + votre modificateur de Sagesse + votre bonus de maîtrise) et subit **2d6 dégâts de feu** (moitié en cas de réussite). Ces dés passent à **3d6** au niveau 11 et à **4d6** au niveau 17. Nombre d'utilisations : votre **bonus de maîtrise** par repos long.",
+      utilisations: PB_PAR_REPOS_LONG,
+      activites: [{ type: "save", nom: "Cracher le feu", activation: "action", gabarit: ["cone", 4.5], cible: ["", "creature"], sauvegarde: { carac: ["dex"], dd: "wis", reussite: "half" }, degats: [{ des: "@scale.voie-du-maitre-brasseur.souffle", types: ["fire"] }] }]
+    },
+    {
+      cle: "brasseur-fut-roulant", nom: "Fût roulant", niveau: 11, img: icone("containers/barrels/barrel-reinforced-chestnut-brown"),
+      texte: "Par une **action**, vous fracassez votre tonneau au sol et le faites rouler : chaque créature dans un cube de **3 m** que vous touchez à 9 m ou moins fait un jet de sauvegarde de **Dextérité** (DD de votre Sagesse) et subit **3d8 dégâts contondants** en cas d'échec (moitié en cas de réussite) ; en cas d'échec, elle tombe aussi **à terre**. Une utilisation par **repos court**.",
+      utilisations: { max: 1, periode: "sr" },
+      activites: [{ type: "save", nom: "Faire rouler le fût", activation: "action", portee: [9, "m"], gabarit: ["cube", 3], cible: ["", "creature"], sauvegarde: { carac: ["dex"], dd: "wis", reussite: "half" }, degats: [{ des: "3d8", types: ["bludgeoning"] }] }]
+    },
+    {
+      cle: "brasseur-ivresse-du-sage", nom: "Ivresse du sage", niveau: 17, img: icone("magic/life/heart-cross-strong-flame-green"),
+      texte: "Votre corps a tant bu qu'il ne craint plus rien de ce qu'on boit. Vous avez la **résistance aux dégâts de poison**, vous ne pouvez plus être **empoisonné**, et vous avez l'**avantage** aux jets de sauvegarde de **Constitution**.\n\n**Ivresse insondable.** Par une **action bonus**, vous videz votre tonneau d'un trait. Pendant **1 minute**, vous avez la **résistance aux dégâts contondants, perforants et tranchants**, et chaque fois qu'une créature vous rate avec une attaque au corps à corps, vous pouvez par votre **réaction** la faire tomber **à terre** (sans jet). Une utilisation par **repos long**.",
+      utilisations: { max: 1, periode: "lr" },
+      effets: [
+        { nom: "Ivresse du sage", changements: [["system.traits.dr.value", "poison"], ["system.traits.ci.value", "poisoned"], ["system.abilities.con.save.roll.mode", 1]] },
+        { nom: "Ivresse insondable", transfert: false, duree: [1, "minutes"], changements: [["system.traits.dr.value", "bludgeoning"], ["system.traits.dr.value", "piercing"], ["system.traits.dr.value", "slashing"]] }
+      ],
+      activites: [{ type: "utility", nom: "Vider le tonneau", activation: "bonus", duree: [1, "minute"], effets: [1] }]
+    }
+  ]
+};
+
+// ======================================================================= Ensorceleur : Aspect des Vols draconiques
+
+const VOLS_SC = {
+  cle: "aspect-des-vols", nom: "Aspect des Vols draconiques", classe: "sorcerer",
+  img: icone("creatures/reptiles/dragon-winged-blue"),
+  texte: "Les grands Vols de dragons d'Azeroth ont longtemps marché parmi les mortels sous des visages d'emprunt. De ces rencontres sont nés des enfants dont le sang garde un éclat d'écaille : un don pour la flamme chez ceux du Vol rouge, le givre arcanique chez ceux du Vol bleu, le souffle du Rêve chez ceux du Vol vert, le poids du temps chez ceux du Vol de bronze. Ces ensorceleurs ne choisissent pas leur Vol : ils le découvrent, souvent à leurs dépens.",
+  capacites: [
+    {
+      cle: "aspect-elu-d-un-vol", nom: "Élu d'un Vol", niveau: 3, img: icone("creatures/reptiles/dragon-horned-blue"),
+      texte: "Choisissez le Vol de votre ancêtre : **rouge** (feu), **bleu** (froid), **vert** (poison) ou **de bronze** (force). Vous gagnez la **résistance** au type de dégâts de votre Vol, et vous parlez le **draconique**.",
+      maitrises: { accordees: ["languages:standard:draconic"], choix: [{ parmi: ["dr:fire", "dr:cold", "dr:poison", "dr:force"] }], indice: "Draconique, et la résistance du Vol choisi : rouge (feu), bleu (froid), vert (poison), bronze (force)." }
+    },
+    {
+      cle: "aspect-ecailles-de-l-ancetre", nom: "Écailles de l'ancêtre", niveau: 3, img: icone("commodities/leather/scales-blue"),
+      texte: "De fines écailles affleurent sous votre peau quand vous êtes en danger. Vos points de vie maximum augmentent de **1 par niveau** d'ensorceleur.",
+      effets: [{ nom: "Écailles de l'ancêtre", changements: [["system.attributes.hp.bonuses.overall", "@classes.sorcerer.levels"]] }]
+    },
+    {
+      cle: "aspect-affinite-du-vol", nom: "Affinité du Vol", niveau: 6, img: icone("creatures/abilities/dragon-ice-breath-blue"),
+      texte: "Quand vous lancez un sort qui inflige le type de dégâts de votre Vol, vous ajoutez votre **modificateur de Charisme** à l'un des jets de dégâts de ce sort.",
+      activites: [{ type: "damage", nom: "Souffle de l'ancêtre", activation: "", condition: "Un de vos sorts inflige le type de dégâts de votre Vol", degats: [{ des: "@abilities.cha.mod", types: ["fire", "cold", "poison", "force"] }] }]
+    },
+    {
+      cle: "aspect-ailes-de-l-aspect", nom: "Ailes de l'Aspect", niveau: 14, img: icone("creatures/abilities/wings-birdlike-blue"),
+      texte: "Par une **action bonus**, vous déployez des ailes d'écailles aux couleurs de votre Vol : vous gagnez une **vitesse de vol de 18 m** pendant **1 heure**, ou jusqu'à ce que vous les repliiez (action bonus).",
+      effets: [{ nom: "Ailes de l'Aspect", transfert: false, duree: [1, "hours"], changements: [["system.attributes.movement.speeds.fly", "18", "upgrade"]] }],
+      activites: [{ type: "utility", nom: "Déployer les ailes", activation: "bonus", duree: [1, "hour"], effets: [0] }]
+    },
+    {
+      cle: "aspect-presence-de-l-aspect", nom: "Présence de l'Aspect", niveau: 18, img: icone("creatures/abilities/dragon-breath-purple"),
+      texte: "Par une **action**, vous laissez paraître la majesté de votre ancêtre. Chaque créature de votre choix dans un rayon de **18 m** fait un jet de sauvegarde de **Sagesse** (DD de vos sorts d'ensorceleur) ; en cas d'échec, elle est **effrayée** ou **charmée** (au choix, le même effet pour toutes) pendant **1 minute**. Une utilisation par **repos long**.",
+      utilisations: { max: 1, periode: "lr" },
+      effets: [
+        { nom: "Effroi de l'Aspect", transfert: false, etats: ["frightened"], duree: [1, "minutes"] },
+        { nom: "Fascination de l'Aspect", transfert: false, etats: ["charmed"], duree: [1, "minutes"] }
+      ],
+      activites: [
+        { type: "save", nom: "Inspirer l'effroi", activation: "action", gabarit: ["radius", 18], cible: ["", "creature"], sauvegarde: { carac: ["wis"], dd: "cha", reussite: "none" }, effets: [0] },
+        { type: "save", nom: "Fasciner", activation: "action", gabarit: ["radius", 18], cible: ["", "creature"], sauvegarde: { carac: ["wis"], dd: "cha", reussite: "none" }, effets: [1] }
+      ]
+    }
+  ]
+};
+
+// ======================================================================= Rôdeur : Chasseur et son familier
+
+const FAMILIER_SC = {
+  cle: "chasseur-et-son-familier", nom: "Chasseur et son familier", classe: "ranger",
+  img: icone("creatures/abilities/paw-print-yellow"),
+  texte: "Des plaines des Tarides aux forêts des Grisonnes, les chasseurs les plus redoutés ne chassent jamais seuls. Un loup, un raptor, un grand félin ou un ours les suit, apprivoisé à force de patience et de viande partagée. Le lien qui les unit tient de la meute plus que du dressage : la bête devine l'intention avant le geste, et le chasseur sent la proie à travers ses yeux.",
+  capacites: [
+    {
+      cle: "familier-compagnon", nom: "Compagnon de chasse", niveau: 3, img: icone("creatures/abilities/paw-print-pair-purple"),
+      texte: "Une bête vous accompagne : utilisez la fiche « Familier du chasseur » du bestiaire (le MJ la pose sur la carte). Elle agit juste après vous dans l'ordre d'initiative, ajoute votre **bonus de maîtrise** à sa classe d'armure, à ses jets d'attaque et à ses dégâts, et a **5 + cinq fois votre niveau de rôdeur** points de vie. Si elle meurt, vous pouvez la ramener par un rituel d'**une heure** au chevet de son corps, une fois par **repos long**.",
+      utilisations: { max: 1, periode: "lr" },
+      activites: [{ type: "utility", nom: "Ramener le familier", activation: "hour", activationValeur: 1, condition: "Au chevet du corps du familier" }]
+    },
+    {
+      cle: "familier-ordre-de-chasse", nom: "Ordre de chasse", niveau: 3, img: icone("creatures/abilities/cougar-pounce-stalk-black"),
+      texte: "Par une **action bonus**, vous ordonnez à votre familier d'attaquer, de se replier ou de protéger un allié ; sans ordre, il se défend et esquive. Quand votre familier et vous touchez la même créature pendant le même tour, elle subit **1d6 dégâts perforants** supplémentaires.",
+      activites: [
+        { type: "utility", nom: "Donner l'ordre", activation: "bonus" },
+        { type: "damage", nom: "Curée", activation: "", condition: "Votre familier et vous touchez la même créature pendant le même tour", degats: [{ des: "1d6", types: ["piercing"] }] }
+      ]
+    },
+    {
+      cle: "familier-sens-partages", nom: "Sens partagés", niveau: 7, img: icone("creatures/mammals/wolf-howl-moon-black"),
+      texte: "Vous percevez ce que perçoit votre familier tant qu'il est à **30 m** ou moins de vous. Vous avez l'**avantage** aux tests de Sagesse (**Perception**) et (**Survie**).",
+      effets: [{ nom: "Sens partagés", changements: [["system.skills.prc.roll.mode", 1], ["system.skills.sur.roll.mode", 1]] }]
+    },
+    {
+      cle: "familier-frenesie-bestiale", nom: "Frénésie bestiale", niveau: 11, img: icone("creatures/abilities/mouth-teeth-rows-red"),
+      texte: "Quand vous faites l'action Attaquer, votre familier peut faire **deux attaques** au lieu d'une. Une fois par tour, quand l'une de ses attaques touche, elle inflige **1d8 dégâts perforants** supplémentaires.",
+      activites: [{ type: "damage", nom: "Morsure enragée", activation: "", condition: "Une fois par tour, quand une attaque de votre familier touche", degats: [{ des: "1d8", types: ["piercing"] }] }]
+    },
+    {
+      cle: "familier-aspect-de-la-meute", nom: "Aspect de la meute", niveau: 15, img: icone("creatures/abilities/wolf-heads-swirl-purple"),
+      texte: "Par une **action bonus**, vous et votre familier chassez comme une seule bête pendant **1 minute** : vous avez l'**avantage** à vos jets d'attaque, et votre familier aussi. Une utilisation par **repos long**.",
+      utilisations: { max: 1, periode: "lr" },
+      effets: [{ nom: "Aspect de la meute", transfert: false, duree: [1, "minutes"], changements: [["system.rolls.attack.mode", 1]] }],
+      activites: [{ type: "utility", nom: "Chasser en meute", activation: "bonus", duree: [1, "minute"], effets: [0] }]
+    }
+  ]
+};
+
 // ======================================================================= Assemblage
 
-const DEFINITIONS = [ELEMENTS_SC, MAIN_SC, REVE_SC, GLADIATEUR_SC, ILLIDARI_SC, GANGRENE_SC, KIRIN_TOR_SC, SI7_SC];
+const DEFINITIONS = [ELEMENTS_SC, MAIN_SC, REVE_SC, GLADIATEUR_SC, ILLIDARI_SC, GANGRENE_SC, KIRIN_TOR_SC, SI7_SC,
+  CHEVALIER_SC, TOTEMS_SC, BRASSEUR_SC, VOLS_SC, FAMILIER_SC];
 const CONSTRUITES = DEFINITIONS.map(sousClasse);
 
-// Les huit sous-classes (compendium « classes ») et leurs capacités (même compendium).
+// Les treize sous-classes (compendium « classes ») et leurs capacités (même compendium).
 export const SOUS_CLASSES = CONSTRUITES.map(c => c.sousClasse);
 export const CAPACITES_SOUS_CLASSES = CONSTRUITES.flatMap(c => c.capacites);

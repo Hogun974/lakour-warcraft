@@ -1,0 +1,60 @@
+{
+  "_id": "AJCsPW8NFBDSXcCE",
+  "_key": "!items!AJCsPW8NFBDSXcCE",
+  "name": "Veine de mithril",
+  "type": "loot",
+  "img": "icons/commodities/metal/ingot-stamped-silver.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un morceau de roche où court un fil de mithril, léger comme une plume et plus dur que l'acier. Un forgeron nain vous embrasserait pour moins que ça.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "veine-de-mithril",
+    "price": {
+      "value": 40,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "material",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "veine-de-mithril",
+      "metier": "minage",
+      "collection": "metiers"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

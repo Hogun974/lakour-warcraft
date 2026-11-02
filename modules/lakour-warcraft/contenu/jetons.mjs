@@ -96,7 +96,9 @@ export const JETONS_PNJ = {
   "rare-capitaine-sel-rouge": "delapouite/pirate-captain",
   "rare-khan-ventrouge": "lorc/bowman",
   "rare-sabot-de-verre": "lorc/crystal-ball",           // le verre noir
-  "rare-vexxa-la-rieuse": "delapouite/devil-mask"
+  "rare-vexxa-la-rieuse": "delapouite/devil-mask",
+  // --- Compagnons
+  "familier-du-chasseur": "lorc/paw-heart"              // le lien du chasseur et de sa bête
 };
 
 // Clé du peuple jouable (objet « race » du compendium peuples, flags.lakour-warcraft.cle) -> icône. Anneau bleu acier.
@@ -235,7 +237,8 @@ export const FACTION_PNJ = {
   "monture-belier-de-forgefer": "sauvages", "monture-loup-de-guerre": "sauvages", "monture-kodo": "sauvages", "monture-raptor": "sauvages",
   "monture-hippogriffe": "alliance",
   "rare-crocs-de-cendre": "sauvages", "rare-plume-fiel": "sauvages", "rare-glouglou-premier": "sauvages", "rare-gueule-de-fer": "sauvages",
-  "rare-khan-ventrouge": "sauvages", "rare-sabot-de-verre": "sauvages", "rare-rouille-coeur": "cartel", "rare-vexxa-la-rieuse": "legion"
+  "rare-khan-ventrouge": "sauvages", "rare-sabot-de-verre": "sauvages", "rare-rouille-coeur": "cartel", "rare-vexxa-la-rieuse": "legion",
+  "familier-du-chasseur": "sauvages"   // une bête : sauvage par sa nature, alliée par son lien (disposition 1)
 };
 
 // prototypeToken.ring d'un PNJ (schéma TokenRingData de Foundry 14 : enabled, colors.ring/background, effects,

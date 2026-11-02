@@ -64,6 +64,21 @@ export function journal({ cle, nom, pages, visible = true }) {
   };
 }
 
+// Ajoute des pages à un journal déjà construit (un supplément complète un guide sans que le guide l'importe) : mêmes
+// identifiants que journal() aurait donnés à ces rangs.
+export function ajouterPages(j, pages) {
+  const cle = j.flags[MODULE].cle;
+  for (const p of pages) {
+    const i = j.pages.length;
+    const pid = identifiant(`journaux:${cle}:${i}`);
+    j.pages.push({
+      _id: pid, _key: `!journal.pages!${j._id}.${pid}`, name: p.titre, type: "text", sort: (i + 1) * 100,
+      title: { show: true, level: 1 }, text: { content: html(p.texte), format: 1 }, ownership: { default: -1 }, flags: {}
+    });
+  }
+  return j;
+}
+
 // ---------- Tables aléatoires : résultats [min, max, texte | { titre, texte } | ref("pack:cle")].
 
 export function table({ cle, nom, formule, description = "", resultats }) {

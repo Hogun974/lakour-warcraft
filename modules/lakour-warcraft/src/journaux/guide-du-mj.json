@@ -132,6 +132,44 @@
         "default": -1
       },
       "flags": {}
+    },
+    {
+      "_id": "eifUqHFEn9qv1vtC",
+      "_key": "!journal.pages!AhhKFRv0rzMyRAt8.eifUqHFEn9qv1vtC",
+      "name": "Métiers : récolte et artisanat (MJ)",
+      "type": "text",
+      "sort": 700,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Quand récolter.</strong> Pendant un voyage, un personnage qui renonce à guetter peut récolter une heure par étape (une à quatre heures par jour). Tirez sur la table du biome, puis demandez le test : DD 10, 13 ou 16 selon la qualité du composant. Une réussite rapporte 1d4 unités, un échec une seule.</p><p><strong>Tables de récolte</strong><br>- @UUID[Compendium.lakour-warcraft.tables.RollTable.GpNPBpZ0Cqz1PouH]{Récolte — Plaines des Tarides}<br>- @UUID[Compendium.lakour-warcraft.tables.RollTable.w0SQN2xuHnkAl6sY]{Récolte — Côte et criques}<br>- @UUID[Compendium.lakour-warcraft.tables.RollTable.o9A3IHBcJZOkQ8L4]{Récolte — Collines rouges et cratère}<br>- @UUID[Compendium.lakour-warcraft.tables.RollTable.lTCn7NQqcOD8H1wz]{Récolte — Marais d'Âprefange}</p><p><strong>Artisanat.</strong> Un objet se fabrique pendant le temps libre ou au camp, jamais en combat. Le temps indiqué peut se fractionner sur plusieurs jours. Les recettes sont dans @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.oAaR0CzmzvqcSWv3]{Recettes d'artisanat}. Un objet rare (flacon des Titans de pierre, flacon de peau-de-pierre) demande un composant rare, la veine de mithril : c'est une bonne raison de partir en expédition.</p><p><strong>Équilibre.</strong> Fabriquer coûte la moitié du prix de vente (arrondie à la po supérieure) : la valeur des composants au prix du marchand, plus les fournitures indiquées dans la recette, qui complètent. L'artisanat fait gagner de l'argent, pas une fortune. Un intendant de faction rachète les composants à la moitié de leur valeur, et les vend à leur valeur moins sa remise de réputation.</p><p><strong>Pour le MJ IA.</strong> Les composants portent un drapeau « metier » (herboristerie, minage, depecage) et les produits nouveaux aussi (forge, ingenierie) : le butin d'une bête ou d'un filon peut se distribuer directement depuis la table du biome.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "SPmxwtkFK1Hd5c63",
+      "_key": "!journal.pages!AhhKFRv0rzMyRAt8.SPmxwtkFK1Hd5c63",
+      "name": "Garnison de faction (MJ)",
+      "type": "text",
+      "sort": 800,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Le journal @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.R7wogMFeFL5TSKjF]{Garnison de faction} explique la garnison aux joueurs. Côté MJ :</p><ul><li><strong>Activer les bastions</strong> : réglages de dnd5e, « Bastions », puis le bouton de tour de bastion apparaît pour le MJ ; dnd5e fait avancer les ordres d'un tour tous les 7 jours de jeu.</li><li><strong>Installations</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.zF4D30Ht2ACDel72]{Atelier gobelin}, @UUID[Compendium.lakour-warcraft.objets.Item.6Mu3gjHZrmbM5Z8D]{Forge de garnison}, @UUID[Compendium.lakour-warcraft.objets.Item.FqMDCb6K2DfNZqvq]{Jardin d'herboriste}, @UUID[Compendium.lakour-warcraft.objets.Item.fWTUIaBzX7TFdcjM]{Enclos à montures}, @UUID[Compendium.lakour-warcraft.objets.Item.NkGBhoNq44yd2JSU]{Table des missions des suivants}, @UUID[Compendium.lakour-warcraft.objets.Item.WLGtfE9ohGrByhkS]{Autel des esprits}.</li><li><strong>Missions des suivants</strong> : @UUID[Compendium.lakour-warcraft.tables.RollTable.FzbACQsPtmIARtiR]{Missions des suivants}, à tirer quand la table des missions reçoit l'ordre de recruter.</li><li><strong>Attaque de la garnison</strong> : une fois par mois de jeu, si un ennemi a des raisons d'en vouloir au groupe, lancez 1d6 par défenseur ; chaque 1 est un défenseur perdu. Sans défenseur, une installation (au hasard) est mise hors d'usage jusqu'à réparation (ordre « réparer » de dnd5e).</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
     }
   ]
 }

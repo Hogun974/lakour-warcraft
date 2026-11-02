@@ -299,9 +299,9 @@ test("sous-classes : tous les documents passent le vérificateur", () => {
   assert.deepEqual(verifier(TOUS), []);
 });
 
-test("huit sous-classes de huit classes différentes, au moins quatre capacités chacune", () => {
-  assert.equal(SOUS_CLASSES.length, 8);
-  assert.equal(new Set(SOUS_CLASSES.map(s => s.system.classIdentifier)).size, 8);
+test("treize sous-classes de onze classes différentes, au moins quatre capacités chacune", () => {
+  assert.equal(SOUS_CLASSES.length, 13);
+  assert.equal(new Set(SOUS_CLASSES.map(s => s.system.classIdentifier)).size, 11);
   for (const s of SOUS_CLASSES) {
     const n = CAPACITES_SOUS_CLASSES.filter(c => c.flags[MODULE].sousClasse === cleDe(s)).length;
     assert.ok(n >= 4, `${s.name} : ${n} capacités`);

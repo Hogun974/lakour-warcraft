@@ -4,11 +4,12 @@
 import "./automatismes.js";   // Fureur, ensembles, phase 2 des boss, liens morts du chat (hooks défensifs)
 
 const ID = "lakour-warcraft";
-const VERSION_CONTENU = "0.6.0";   // 0.4.0 : journaux liés (@UUID, jets), listes de sorts, cartes vivantes (sons, zones, épingles) ;
+const VERSION_CONTENU = "0.7.0";   // 0.4.0 : journaux liés (@UUID, jets), listes de sorts, cartes vivantes (sons, zones, épingles) ;
                                    // 0.4.2 : one-shot « Une nuit aux Deux Lanternes » (journaux, cartes et dossier proposés aux mondes déjà installés) ;
                                    // 0.5.0 : Tarides vivantes (contrats, donjon de Mèche-Noire, montures et routes aériennes, rares,
                                    //         consommables, réputation : journaux et horloges de réputation des factions) ;
-                                   // 0.6.0 : automatismes (fureur, ensemble, phase 2 des boss) et drapeaux qui les repèrent
+                                   // 0.6.0 : automatismes (fureur, ensemble, phase 2 des boss) et drapeaux qui les repèrent ;
+                                   // 0.7.0 : métiers (recettes, pages des guides), cinq sous-classes, garnison de faction
 
 // Factions dont le MJ IA suit la réputation (horloge « rep-<clé> », type « reputation »). Même liste, dans le même ordre,
 // que REPUTATIONS de contenu/reputations.mjs (vérifié par essais/warcraft-tarides-vivantes.test.mjs).

@@ -50,7 +50,7 @@ export const BUTIN_RARES = collection("rares", [
     texte: "Un sabre court à la garde de laiton en forme de bourse percée, l'emblème du Cartel Baille-Fonds. C'est une **arme +1** (cimeterre). La lame est gravée de vingt-trois encoches : une par navire pillé."
   }),
   arme({
-    cle: "arc-composite-du-khan", nom: "Arc composite du khan Ventrouge", img: icone("icons/weapons/bows/longbow-recurve-leather-red.webp"),
+    cle: "arc-composite-du-khan", nom: "Arc composite du khan Ventrouge", img: icone("icons/weapons/bows/longbow-gold-pink.webp"),
     categorie: "martialR", base: "longbow", degats: { des: "1d8", types: ["piercing"] }, proprietes: ["amm", "hvy", "two"], maitrise: "slow", portee: [45, 180],
     bonus: 1, rarete: "uncommon", prix: [600, "gp"], poids: 2,
     texte: "Un arc de corne et de tendons peint en rouge, si puissant que seul un centaure le bandait sans peine. C'est une **arme +1** (arc long). Les Kolkar reconnaissent l'arc de leur khan : celui qui le porte est défié, ou craint."

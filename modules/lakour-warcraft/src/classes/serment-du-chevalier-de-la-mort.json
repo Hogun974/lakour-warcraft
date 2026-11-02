@@ -1,0 +1,320 @@
+{
+  "_id": "ICemliImEMFMTxft",
+  "_key": "!items!ICemliImEMFMTxft",
+  "name": "Serment du chevalier de la mort",
+  "type": "subclass",
+  "img": "icons/magic/water/orb-ice-glow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Certains chevaliers sont revenus du froid. Relevés par un maître qui n'est plus, ou par une malédiction qu'ils ont fini par dompter, ils ont gardé de leur mort une lame qui gèle, des runes gravées dans la chair et un serment d'un genre nouveau : protéger les vivants avec les armes des morts. On les craint dans les deux factions, on les appelle quand le Fléau se réveille, et on ne leur offre jamais de s'asseoir près du feu.</p><p><em>Sous-classe du Paladin, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Sorts du chevalier de la mort, Rune de givre, Poigne de la mort</li><li><strong>Niveau 7</strong> : Aura de froid</li><li><strong>Niveau 15</strong> : Carapace anti-magie</li><li><strong>Niveau 20</strong> : Armée des morts</li></ul><h2>Sorts du chevalier de la mort</h2><ul><li><strong>Niveau 3</strong> : Flétrissure gangrenée, Protection contre le mal et le bien</li><li><strong>Niveau 5</strong> : Nova de givre, Rayon affaiblissant</li><li><strong>Niveau 9</strong> : Caresse du vampire, Malédiction</li><li><strong>Niveau 13</strong> : Blizzard, Flétrissement</li><li><strong>Niveau 17</strong> : Brume mortelle, Contagion</li></ul>",
+      "chat": ""
+    },
+    "identifier": "serment-du-chevalier-de-la-mort",
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "advancement": {
+      "teoIsNmYNWadj5MX": {
+        "_id": "teoIsNmYNWadj5MX",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.jQJsj3OfsAAd3LDH",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.l4uqYDv2rXkaG2hP",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.jdH7norqy2YGtMAH",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "name": "Capacités : Serment du chevalier de la mort",
+        "hint": "",
+        "flags": {}
+      },
+      "IlTXxAikPbq7Hzjf": {
+        "_id": "IlTXxAikPbq7Hzjf",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.HM5W65QuDBrjIh3N",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "name": "Capacités : Serment du chevalier de la mort",
+        "hint": "",
+        "flags": {}
+      },
+      "0y1d5I4COnzpGIFE": {
+        "_id": "0y1d5I4COnzpGIFE",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.gMAJg8EvsftqLvRf",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "name": "Capacités : Serment du chevalier de la mort",
+        "hint": "",
+        "flags": {}
+      },
+      "jjt2xnT1yACVhP5i": {
+        "_id": "jjt2xnT1yACVhP5i",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.wBP0KvaBLaF6MBAo",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "name": "Capacités : Serment du chevalier de la mort",
+        "hint": "",
+        "flags": {}
+      },
+      "GygrThWULDk5YY70": {
+        "_id": "GygrThWULDk5YY70",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.sorts.Item.DSPw83v6on9ICAom",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "name": "Sorts du chevalier de la mort",
+        "hint": "",
+        "flags": {}
+      },
+      "XpJs7V8lnnjl7eQZ": {
+        "_id": "XpJs7V8lnnjl7eQZ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.sorts.Item.assuCxUZyyYH81vE",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplRayofEnfee",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "name": "Sorts du chevalier de la mort",
+        "hint": "",
+        "flags": {}
+      },
+      "ybYiDFYtdJPvVUxI": {
+        "_id": "ybYiDFYtdJPvVUxI",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplVampiricTo",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplBestowCurs",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "name": "Sorts du chevalier de la mort",
+        "hint": "",
+        "flags": {}
+      },
+      "jw2FUuMcFFfAcakH": {
+        "_id": "jw2FUuMcFFfAcakH",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.sorts.Item.3cbqTP1IQovpBRQ9",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplBlight0000",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "name": "Sorts du chevalier de la mort",
+        "hint": "",
+        "flags": {}
+      },
+      "dkJBGE29mv1Gea0n": {
+        "_id": "dkJBGE29mv1Gea0n",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplCloudkill0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplContagion0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "prepared": 2,
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 17,
+        "name": "Sorts du chevalier de la mort",
+        "hint": "",
+        "flags": {}
+      },
+      "tBFzn2CSztXG1KLk": {
+        "_id": "tBFzn2CSztXG1KLk",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "givre",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "number": 1,
+              "faces": 6,
+              "modifiers": []
+            },
+            "15": {
+              "number": 2,
+              "faces": 6,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "name": "Dés de la rune de givre",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "classIdentifier": "paladin",
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "serment-du-chevalier-de-la-mort",
+      "classe": "paladin"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

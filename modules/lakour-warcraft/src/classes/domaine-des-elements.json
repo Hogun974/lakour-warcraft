@@ -89,7 +89,7 @@
         "type": "Trait",
         "configuration": {
           "mode": "default",
-          "allowReplacements": false,
+          "allowReplacements": true,
           "grants": [
             "languages:exotic:primordial"
           ],
@@ -116,7 +116,7 @@
         "type": "Trait",
         "configuration": {
           "mode": "default",
-          "allowReplacements": false,
+          "allowReplacements": true,
           "grants": [],
           "choices": [
             {

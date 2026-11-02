@@ -1,0 +1,159 @@
+{
+  "_id": "ZVDK73mGwvhx8g42",
+  "_key": "!items!ZVDK73mGwvhx8g42",
+  "name": "Bouclier de foudre",
+  "type": "feat",
+  "img": "icons/magic/lightning/barrier-shield-crackling-orb-pink.webp",
+  "system": {
+    "description": {
+      "value": "<p>Pendant votre <strong>Rage</strong>, des éclairs courent sur votre peau. Quand une créature à 1,5 m ou moins vous touche avec une attaque au corps à corps, elle subit <strong>1d6 dégâts de foudre</strong>. Ces dés passent à <strong>2d6</strong> au niveau 14.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "totems-bouclier-de-foudre",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Voie du chaman des totems",
+    "prerequisites": {
+      "level": 6,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {
+      "MPzQrh1DkzjxhayR": {
+        "_id": "MPzQrh1DkzjxhayR",
+        "type": "damage",
+        "name": "Riposte de foudre",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": "Pendant votre Rage, quand une créature à 1,5 m vous touche au corps à corps",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "1.5",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "damage": {
+          "critical": {
+            "allow": false,
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "custom": {
+                "enabled": true,
+                "formula": "@scale.voie-du-chaman-des-totems.foudre"
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              },
+              "types": [
+                "lightning"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "totems-bouclier-de-foudre",
+      "sousClasse": "voie-du-chaman-des-totems",
+      "classe": "barbarian",
+      "niveau": 6,
+      "automatisation": "complete"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

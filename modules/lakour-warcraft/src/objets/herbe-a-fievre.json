@@ -1,0 +1,60 @@
+{
+  "_id": "Kb533hoo2qZoFAv2",
+  "_key": "!items!Kb533hoo2qZoFAv2",
+  "name": "Herbe-à-fièvre",
+  "type": "loot",
+  "img": "icons/commodities/flowers/flower-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une herbe sèche aux petites fleurs vert pâle, qui pousse en touffes au pied des rochers des Tarides. Mâchée, elle fait tomber la fièvre ; distillée, elle entre dans toutes les potions de soins.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "herbe-a-fievre",
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "material",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "herbe-a-fievre",
+      "metier": "herboristerie",
+      "collection": "metiers"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

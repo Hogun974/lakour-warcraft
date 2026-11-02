@@ -1,0 +1,123 @@
+{
+  "_id": "w0SQN2xuHnkAl6sY",
+  "_key": "!tables!w0SQN2xuHnkAl6sY",
+  "name": "Récolte — Côte et criques",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>De Cabestan à la crique d'Eldrassal. Une heure de récolte : tirez une fois, puis faites le test du métier du composant (matériel d'herboriste ou Nature, outils de forgeron ou Athlétisme, outils de maroquinier ou Survie) : DD 10 pour un composant commun, 13 peu commun, 16 rare. Réussite : 1d4 unités ; échec : une seule. Un personnage récolte au plus quatre heures par jour.</p>",
+  "formula": "1d8",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "recolte-cote-et-criques",
+      "collection": "metiers"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "yMu5qpniJOa9rTQN",
+      "_key": "!tables.results!w0SQN2xuHnkAl6sY.yMu5qpniJOa9rTQN",
+      "type": "document",
+      "name": "Varech des criques",
+      "description": "",
+      "range": [
+        1,
+        2
+      ],
+      "weight": 2,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.dDeiKeUVOYgekIfD"
+    },
+    {
+      "_id": "k3mW0oDi49K8bHVm",
+      "_key": "!tables.results!w0SQN2xuHnkAl6sY.k3mW0oDi49K8bHVm",
+      "type": "document",
+      "name": "Filet de poisson",
+      "description": "",
+      "range": [
+        3,
+        4
+      ],
+      "weight": 2,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.2NwsIYGrWZzc7sJA"
+    },
+    {
+      "_id": "JwafoMePgxAvUbRP",
+      "_key": "!tables.results!w0SQN2xuHnkAl6sY.JwafoMePgxAvUbRP",
+      "type": "document",
+      "name": "Écailles de crocilisque",
+      "description": "",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.AMV0unlVbi8J5snB"
+    },
+    {
+      "_id": "nXkPh9cB79wcc4NU",
+      "_key": "!tables.results!w0SQN2xuHnkAl6sY.nXkPh9cB79wcc4NU",
+      "type": "document",
+      "name": "Minerai de cuivre",
+      "description": "",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.uKCUMZbAK9UISvRP"
+    },
+    {
+      "_id": "amzHNhrYUK4vCnAs",
+      "_key": "!tables.results!w0SQN2xuHnkAl6sY.amzHNhrYUK4vCnAs",
+      "type": "document",
+      "name": "Pétale de lune",
+      "description": "",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.bTlZCs4uTLxsWWGk"
+    },
+    {
+      "_id": "8tvksPVcsu6TWSyh",
+      "_key": "!tables.results!w0SQN2xuHnkAl6sY.8tvksPVcsu6TWSyh",
+      "type": "text",
+      "name": "La marée monte",
+      "description": "<p>La mer remonte plus vite que prévu : il faut sortir des rochers (Athlétisme DD 12) ou perdre l'heure et son sac de récolte.</p>",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    }
+  ]
+}

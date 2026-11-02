@@ -108,7 +108,7 @@
         "type": "Trait",
         "configuration": {
           "mode": "default",
-          "allowReplacements": false,
+          "allowReplacements": true,
           "grants": [],
           "choices": [
             {

@@ -1,0 +1,60 @@
+{
+  "_id": "wwwk7ZfSpXXVIZNN",
+  "_key": "!items!wwwk7ZfSpXXVIZNN",
+  "name": "Minerai de fer rouge",
+  "type": "loot",
+  "img": "icons/commodities/stone/ore-chunk-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>Le fer rouille-sang des collines de Rouge-Veine, lourd et cassant tant qu'il n'est pas forgé. Les forgerons d'Orgrimmar ne jurent que par lui.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "minerai-de-fer-rouge",
+    "price": {
+      "value": 2,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "material",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "minerai-de-fer-rouge",
+      "metier": "minage",
+      "collection": "metiers"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "_id": "fxgvG0NUg4FekmIZ",
+  "_key": "!items!fxgvG0NUg4FekmIZ",
+  "name": "Écailles de l'ancêtre",
+  "type": "feat",
+  "img": "icons/commodities/leather/scales-blue-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>De fines écailles affleurent sous votre peau quand vous êtes en danger. Vos points de vie maximum augmentent de <strong>1 par niveau</strong> d'ensorceleur.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "aspect-ecailles-de-l-ancetre",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Aspect des Vols draconiques",
+    "prerequisites": {
+      "level": 3,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "wFfTngo3kfF2VOMG",
+      "_key": "!items.effects!fxgvG0NUg4FekmIZ.wFfTngo3kfF2VOMG",
+      "name": "Écailles de l'ancêtre",
+      "img": "icons/commodities/leather/scales-blue-white.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.hp.bonuses.overall",
+            "type": "add",
+            "value": "@classes.sorcerer.levels",
+            "phase": "initial",
+            "priority": null
+          }
+        ]
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "aspect-ecailles-de-l-ancetre",
+      "sousClasse": "aspect-des-vols",
+      "classe": "sorcerer",
+      "niveau": 3,
+      "automatisation": "complete"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

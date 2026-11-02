@@ -1,0 +1,60 @@
+{
+  "_id": "tQQ6ZDrlT0TkoeBp",
+  "_key": "!items!tQQ6ZDrlT0TkoeBp",
+  "name": "Mousse d'Âprefange",
+  "type": "loot",
+  "img": "icons/commodities/flowers/clover-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une mousse violette et spongieuse des souches du marécage d'Âprefange. Elle garde l'eau des semaines et calme les plaies les plus profondes.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "mousse-d-aprefange",
+    "price": {
+      "value": 8,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "material",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "mousse-d-aprefange",
+      "metier": "herboristerie",
+      "collection": "metiers"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "_id": "Gb9sLJdkHzOhbLfs",
+  "_key": "!items!Gb9sLJdkHzOhbLfs",
+  "name": "Chardon-cendre",
+  "type": "loot",
+  "img": "icons/commodities/flowers/flower-grey-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un chardon gris aux fleurs orangées qui pousse sur les pentes noircies autour du cratère de Brasegouffre. Il sent la poudre ; les gobelins en mettent dans leurs bombes.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "chardon-cendre",
+    "price": {
+      "value": 10,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "material",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "chardon-cendre",
+      "metier": "herboristerie",
+      "collection": "metiers"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

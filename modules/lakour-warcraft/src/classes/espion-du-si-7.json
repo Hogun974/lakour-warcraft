@@ -104,7 +104,7 @@
         "type": "Trait",
         "configuration": {
           "mode": "default",
-          "allowReplacements": false,
+          "allowReplacements": true,
           "grants": [
             "tool:disg",
             "tool:forg"

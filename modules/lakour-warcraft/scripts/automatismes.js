@@ -4,6 +4,7 @@
 //    de chat (création, ou réactivation d'un effet existant par dnd5e) à une créature déjà épuisée par une utilisation
 //    précédente est retirée, avec un message. L'Épuisement tombe à la fin du combat (sa durée de 10 minutes ne s'écoule
 //    que si le temps du monde avance).
+// 1 bis. Effets non cumulables (flags.unique) : le nouvel exemplaire remplace l'ancien (MJ actif).
 // 2. Ensemble « Tenue réglementaire de Mèche-Noire » : le bonus d'ensemble s'allume quand les deux pièces sont
 //    équipées, s'éteint sinon (createItem, updateItem, deleteItem ; MJ actif).
 // 3. Phase 2 des boss du donjon (flags.lakour-warcraft.boss) : à 50 % des PV ou moins, une fois par combat (créé, démarré
@@ -47,6 +48,16 @@ export function fureurARetirer(effets, nouvel, maintenant = Date.now()) {
 
 // Identifiants des épuisements de fureur à ôter d'un acteur (à la fin d'un combat).
 export const epuisementsATerminer = effets => liste(effets).filter(estEpuisement).map(e => e.id);
+
+// ---------------------------------------------------------------- 1 bis. Effets uniques (non cumulables)
+
+// Un effet marqué flags.unique (la pierre à aiguiser…) ne se cumule pas : rend les identifiants des autres effets de même
+// clé déjà sur la créature, à retirer au profit du nouveau.
+export function effetsRemplaces(effets, nouvel) {
+  const cle = drapeau(nouvel, "unique");
+  if (!cle) return [];
+  return liste(effets).filter(e => e !== nouvel && e.id !== nouvel.id && drapeau(e, "unique") === cle).map(e => e.id);
+}
 
 // ---------------------------------------------------------------- 2. Ensembles
 
@@ -162,6 +173,13 @@ async function retirerFureurInterdite(effet, userId) {
   });
 }
 sur("createActiveEffect", (effet, _options, userId) => retirerFureurInterdite(effet, userId));
+// Effet unique : le nouvel exemplaire remplace l'ancien (MJ actif).
+sur("createActiveEffect", async effet => {
+  const acteur = effet?.parent;
+  if (!estMjActif() || !(acteur instanceof Actor)) return;
+  const anciens = effetsRemplaces(acteur.effects, effet);
+  if (anciens.length) await acteur.deleteEmbeddedDocuments("ActiveEffect", anciens);
+});
 // dnd5e réactive un effet déjà présent (disabled: false, durée remise) au lieu d'en créer un second.
 sur("updateActiveEffect", (effet, changements, _options, userId) => {
   const u = foundry.utils;

@@ -1,0 +1,64 @@
+{
+  "_id": "roAS0WYaRarxvifC",
+  "_key": "!items!roAS0WYaRarxvifC",
+  "name": "Parole des esprits",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Les esprits vous ont appris leur langue à force de cris. Vous parlez le <strong>primordial</strong>, et vous maîtrisez <strong>Nature</strong> ou <strong>Survie</strong>, au choix.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "totems-parole-des-esprits",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Voie du chaman des totems",
+    "prerequisites": {
+      "level": 3,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "totems-parole-des-esprits",
+      "sousClasse": "voie-du-chaman-des-totems",
+      "classe": "barbarian",
+      "niveau": 3,
+      "automatisation": "complete",
+      "portePar": "sous-classe"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

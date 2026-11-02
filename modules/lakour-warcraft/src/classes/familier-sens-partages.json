@@ -1,0 +1,111 @@
+{
+  "_id": "lDJbqTOdUmBO9YbY",
+  "_key": "!items!lDJbqTOdUmBO9YbY",
+  "name": "Sens partagés",
+  "type": "feat",
+  "img": "icons/creatures/mammals/wolf-howl-moon-black.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous percevez ce que perçoit votre familier tant qu'il est à <strong>30 m</strong> ou moins de vous. Vous avez l'<strong>avantage</strong> aux tests de Sagesse (<strong>Perception</strong>) et (<strong>Survie</strong>).</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "familier-sens-partages",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Chasseur et son familier",
+    "prerequisites": {
+      "level": 7,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "Qaf32iX8HiSaYA8b",
+      "_key": "!items.effects!lDJbqTOdUmBO9YbY.Qaf32iX8HiSaYA8b",
+      "name": "Sens partagés",
+      "img": "icons/creatures/mammals/wolf-howl-moon-black.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.skills.prc.roll.mode",
+            "type": "add",
+            "value": 1,
+            "phase": "initial",
+            "priority": null
+          },
+          {
+            "key": "system.skills.sur.roll.mode",
+            "type": "add",
+            "value": 1,
+            "phase": "initial",
+            "priority": null
+          }
+        ]
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "familier-sens-partages",
+      "sousClasse": "chasseur-et-son-familier",
+      "classe": "ranger",
+      "niveau": 7,
+      "automatisation": "complete"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

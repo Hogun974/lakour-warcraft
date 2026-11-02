@@ -1,0 +1,164 @@
+{
+  "_id": "JKfOu414ayfOtmH6",
+  "_key": "!items!JKfOu414ayfOtmH6",
+  "name": "Tonnelier de la pagode",
+  "type": "feat",
+  "img": "icons/containers/barrels/barrel-oak-banded-tan.webp",
+  "system": {
+    "description": {
+      "value": "<p>Vous maîtrisez le <strong>matériel de brasseur</strong>. Par une <strong>action bonus</strong>, vous offrez une gorgée de votre tonneau à une créature à portée de main (vous compris) : elle gagne <strong>1d8 + votre modificateur de Sagesse</strong> points de vie temporaires. Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "brasseur-tonnelier",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Voie du maître brasseur",
+    "prerequisites": {
+      "level": 3,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {
+      "aRnbmSQFKPecMCRN": {
+        "_id": "aRnbmSQFKPecMCRN",
+        "type": "heal",
+        "name": "Une gorgée",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "touch",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "healing": {
+          "number": 1,
+          "denomination": 8,
+          "bonus": "@abilities.wis.mod",
+          "custom": {
+            "enabled": false,
+            "formula": ""
+          },
+          "scaling": {
+            "mode": "",
+            "number": null,
+            "formula": ""
+          },
+          "types": [
+            "temphp"
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "@prof",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "brasseur-tonnelier",
+      "sousClasse": "voie-du-maitre-brasseur",
+      "classe": "monk",
+      "niveau": 3,
+      "automatisation": "complete",
+      "portePar": "sous-classe"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

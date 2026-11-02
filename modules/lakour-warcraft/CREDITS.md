@@ -15,6 +15,18 @@ et renommés à partir du **System Reference Document 5.2** (« SRD 5.2 ») de W
 available at https://www.dndbeyond.com/srd. The SRD 5.2 is licensed under the Creative Commons Attribution 4.0
 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.*
 
+## Sous-classe inspirée du SRD 5.1
+
+La progression de la sous-classe d'ensorceleur **Aspect des Vols draconiques** (ancêtre et type de dégâts au choix,
+points de vie supplémentaires par niveau, modificateur de Charisme ajouté aux dégâts du type de l'ancêtre, ailes,
+présence effrayante ou charmante) suit celle de la lignée draconique du **System Reference Document 5.1** (« SRD 5.1 »)
+de Wizards of the Coast LLC, publié sous licence **Creative Commons Attribution 4.0 International (CC BY 4.0)** :
+<https://creativecommons.org/licenses/by/4.0/legalcode>. Les textes sont originaux ; aucun texte du SRD n'est reproduit.
+
+*This work includes material taken from the System Reference Document 5.1 ("SRD 5.1") by Wizards of the Coast LLC and
+available at https://dnd.wizards.com/resources/systems-reference-document. The SRD 5.1 is licensed under the Creative
+Commons Attribution 4.0 International License available at https://creativecommons.org/licenses/by/4.0/legalcode.*
+
 ## Icônes des jetons
 
 Les silhouettes des jetons (`assets/jetons/`) sont des icônes de **[game-icons.net](https://game-icons.net)**,
@@ -100,6 +112,7 @@ pour les jetons de personnage joueur, fond en dégradé, ombre, liseré, version
 | [lantern-flame](https://game-icons.net/1x1/lorc/lantern-flame.html) | Lorc | Hilde Brunval, hôtesse des Deux Lanternes |
 | [lion](https://game-icons.net/1x1/lorc/lion.html) | Lorc | Peuple — Humain |
 | [minotaur](https://game-icons.net/1x1/lorc/minotaur.html) | Lorc | Hanuk Pas-de-Pluie, guide caravanier |
+| [paw-heart](https://game-icons.net/1x1/lorc/paw-heart.html) | Lorc | Familier du chasseur |
 | [quill-ink](https://game-icons.net/1x1/lorc/quill-ink.html) | Lorc | Iselle Marchebrume, scribe du sommet |
 | [raven](https://game-icons.net/1x1/lorc/raven.html) | Lorc | Vesper Lacombe, réprouvée de Brumefeuille |
 | [robot-golem](https://game-icons.net/1x1/lorc/robot-golem.html) | Lorc | Baron Nizzel Baille-Fonds, dans le Grand Déchiqueteur |

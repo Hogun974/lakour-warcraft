@@ -1,0 +1,60 @@
+{
+  "_id": "ndEiNXzBHz8KCR71",
+  "_key": "!items!ndEiNXzBHz8KCR71",
+  "name": "Lys des oasis",
+  "type": "loot",
+  "img": "icons/commodities/flowers/lily-water-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un lys blanc qui ne fleurit qu'au bord des oasis saines. Quand l'eau se gâte, il noircit : les caravaniers le regardent avant de boire.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "lys-des-oasis",
+    "price": {
+      "value": 2,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "material",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "lys-des-oasis",
+      "metier": "herboristerie",
+      "collection": "metiers"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

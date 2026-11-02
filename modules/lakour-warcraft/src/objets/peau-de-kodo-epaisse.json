@@ -1,0 +1,60 @@
+{
+  "_id": "tXz5Gb5yosB83Hqm",
+  "_key": "!items!tXz5Gb5yosB83Hqm",
+  "name": "Peau de kodo épaisse",
+  "type": "loot",
+  "img": "icons/commodities/leather/fur-pelt-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un pan de peau de kodo épais comme un doigt. Les taurens n'en prennent que sur les bêtes mortes de vieillesse, et demandent qu'on fasse de même.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "peau-de-kodo-epaisse",
+    "price": {
+      "value": 3,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "material",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "peau-de-kodo-epaisse",
+      "metier": "depecage",
+      "collection": "metiers"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

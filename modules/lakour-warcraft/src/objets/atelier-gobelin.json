@@ -1,0 +1,90 @@
+{
+  "_id": "zF4D30Ht2ACDel72",
+  "_key": "!items!zF4D30Ht2ACDel72",
+  "name": "Atelier gobelin",
+  "type": "facility",
+  "img": "icons/magic/symbols/cog-orange-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un hangar de tôle où trois apprentis gobelins (ou gnomes, selon la bannière) soudent, vissent et font sauter ce qu'ils ont soudé. <strong>Ordre : fabriquer.</strong> L'atelier produit un objet d'ingénierie ; dnd5e calcule le coût et le délai de l'ordre selon l'objet choisi (pour un objet ordinaire : la moitié de son prix en po, et un jour par tranche de 10 po de prix ; pour un objet magique, son propre barème) ; pas de test, pas de recette à suivre. Par exemple @UUID[Compendium.lakour-warcraft.objets.Item.J5njSJUKfoAdTJw5]{Bombe gobeline} : 12 po et 3 jours, @UUID[Compendium.lakour-warcraft.objets.Item.q4nPH0xfdiJHhDM8]{Casque de mineur à lanterne} : 7 po et 2 jours.</p>",
+      "chat": ""
+    },
+    "identifier": "atelier-gobelin",
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "activities": {},
+    "building": {
+      "built": true,
+      "size": "roomy"
+    },
+    "craft": {
+      "item": "Compendium.lakour-warcraft.objets.Item.J5njSJUKfoAdTJw5",
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "disabled": false,
+    "enlargeable": false,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 3
+    },
+    "level": 5,
+    "order": "craft",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": "",
+      "paid": false
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": null,
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "workshop"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "atelier-gobelin",
+      "collection": "garnison"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

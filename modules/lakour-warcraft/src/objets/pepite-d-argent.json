@@ -1,0 +1,60 @@
+{
+  "_id": "RSJq3oORPKQk3hRQ",
+  "_key": "!items!RSJq3oORPKQk3hRQ",
+  "name": "Pépite d'argent",
+  "type": "loot",
+  "img": "icons/commodities/metal/ingot-rough-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une pépite d'argent natif, tirée d'un filon mince. L'argent mord les morts-vivants et retient la magie des flacons.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "pepite-d-argent",
+    "price": {
+      "value": 10,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "material",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "pepite-d-argent",
+      "metier": "minage",
+      "collection": "metiers"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

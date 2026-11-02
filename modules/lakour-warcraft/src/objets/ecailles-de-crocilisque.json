@@ -1,0 +1,60 @@
+{
+  "_id": "AMV0unlVbi8J5snB",
+  "_key": "!items!AMV0unlVbi8J5snB",
+  "name": "Écailles de crocilisque",
+  "type": "loot",
+  "img": "icons/commodities/leather/scales-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une poignée d'écailles dorsales de crocilisque, dures comme de la corne. Les armuriers les cousent en écailles de protection.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "ecailles-de-crocilisque",
+    "price": {
+      "value": 10,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "material",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "ecailles-de-crocilisque",
+      "metier": "depecage",
+      "collection": "metiers"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

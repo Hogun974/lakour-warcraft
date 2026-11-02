@@ -3,7 +3,7 @@
   "_key": "!items!QRo4DNmnICFAXTgN",
   "name": "Flacon de rage du kodo",
   "type": "consumable",
-  "img": "icons/consumables/potions/flask-corked-red-glow.webp",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
   "system": {
     "description": {
       "value": "<p>Une mixture rouge sombre au fumet de musc, que les chasseurs taurens refusent de boire et que les gladiateurs orcs adorent. Elle fait gonfler les veines du cou.</p><p>Par une <strong>action bonus</strong>, vous buvez le flacon : <strong>+1</strong> aux jets de dégâts des armes et avantage aux tests de Force.</p><p>Un seul flacon à la fois : en boire un second met fin à l'effet du premier. L'effet dure <strong>8 heures</strong>.</p>",
@@ -164,7 +164,7 @@
       "_id": "AXEq7ebNj6NNTFO9",
       "_key": "!items.effects!QRo4DNmnICFAXTgN.AXEq7ebNj6NNTFO9",
       "name": "Flacon de rage du kodo",
-      "img": "icons/consumables/potions/flask-corked-red-glow.webp",
+      "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
       "type": "base",
       "system": {
         "changes": [

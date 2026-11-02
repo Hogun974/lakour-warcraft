@@ -9504,7 +9504,7 @@
         "lakour-warcraft": {
           "cle": "journal-de-rencontre-meche-noire",
           "collection": "donjon-meche-noire",
-          "version": "0.6.0"
+          "version": "0.7.0"
         }
       },
       "_stats": {
@@ -9600,7 +9600,7 @@
         "lakour-warcraft": {
           "cle": "donjon-meche-noire",
           "collection": "donjon-meche-noire",
-          "version": "0.6.0"
+          "version": "0.7.0"
         }
       },
       "_stats": {

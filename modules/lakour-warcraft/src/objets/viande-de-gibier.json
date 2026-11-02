@@ -1,0 +1,60 @@
+{
+  "_id": "W1mu6Fgluoow1gG8",
+  "_key": "!items!W1mu6Fgluoow1gG8",
+  "name": "Viande de gibier",
+  "type": "loot",
+  "img": "icons/consumables/meat/drumstick-bone-pink.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un quartier de viande de sanglier, de zhévra ou de loup, salé pour la route. Il tient trois jours.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "viande-de-gibier",
+    "price": {
+      "value": 5,
+      "denomination": "sp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "material",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "viande-de-gibier",
+      "metier": "depecage",
+      "collection": "metiers"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

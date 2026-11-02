@@ -1,0 +1,90 @@
+{
+  "_id": "fWTUIaBzX7TFdcjM",
+  "_key": "!items!fWTUIaBzX7TFdcjM",
+  "name": "Enclos à montures",
+  "type": "facility",
+  "img": "icons/commodities/leather/fur-pelt-spotted-tan.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une palissade, un abreuvoir et des stalles pour trois montures (loups, kodos, béliers, raptors ou hippogriffes selon la faction). <strong>Ordre : commercer.</strong> En un tour de bastion, le palefrenier achète ou vend une monture au prix de l'éleveur, moins la remise de réputation de la faction. Les montures de l'enclos sont nourries et soignées : elles ne perdent pas de points de vie pendant l'absence du groupe.</p>",
+      "chat": ""
+    },
+    "identifier": "enclos-a-montures",
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "activities": {},
+    "building": {
+      "built": true,
+      "size": "roomy"
+    },
+    "craft": {
+      "item": null,
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "disabled": false,
+    "enlargeable": false,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 9,
+    "order": "trade",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": "",
+      "paid": false
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": 3
+      },
+      "pending": {
+        "creatures": [],
+        "operation": null,
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "stable"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "enclos-a-montures",
+      "collection": "garnison"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

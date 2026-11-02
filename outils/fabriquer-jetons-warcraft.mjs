@@ -22,6 +22,7 @@ import { ONE_SHOT_DOCUMENTS } from "../modules/lakour-warcraft/contenu/one-shot.
 import { DONJON_DOCUMENTS } from "../modules/lakour-warcraft/contenu/donjon.mjs";
 import { MONTURES_DOCUMENTS } from "../modules/lakour-warcraft/contenu/montures.mjs";
 import { RARES_DOCUMENTS } from "../modules/lakour-warcraft/contenu/rares.mjs";
+import { COMPAGNONS } from "../modules/lakour-warcraft/contenu/compagnons.mjs";
 import { PEUPLES } from "../modules/lakour-warcraft/contenu/peuples.mjs";
 import {
   AUTEURS, COULEURS_ANNEAU, DOSSIER_JETONS, INDEX_JOUEURS, JETONS_FIGURANTS, JETONS_PEUPLES, JETONS_PNJ, LISERES, TYPES_FIGURANTS,
@@ -38,7 +39,7 @@ export const lireIcone = (nom, source) => lireIconeCommune(nom, { auteurs: AUTEU
 // ---------------------------------------------------------------- Liste des jetons
 
 const PNJ = [...BESTIAIRE, ...AVENTURE_DOCUMENTS, ...CAMPAGNE_DOCUMENTS, ...ONE_SHOT_DOCUMENTS,
-  ...DONJON_DOCUMENTS, ...MONTURES_DOCUMENTS, ...RARES_DOCUMENTS].filter(d => d.__pack === "bestiaire" && d.type === "npc");
+  ...DONJON_DOCUMENTS, ...MONTURES_DOCUMENTS, ...RARES_DOCUMENTS, ...COMPAGNONS].filter(d => d.__pack === "bestiaire" && d.type === "npc");
 // Peuples jouables : les objets « race » du compendium peuples (pas leurs traits, qui sont des « feat »).
 export const RACES = PEUPLES.filter(d => d.__pack === "peuples" && d.type === "race");
 
@@ -143,6 +144,18 @@ et renommés à partir du **System Reference Document 5.2** (« SRD 5.2 ») de W
 *This work includes material from the System Reference Document 5.2 ("SRD 5.2") by Wizards of the Coast LLC,
 available at https://www.dndbeyond.com/srd. The SRD 5.2 is licensed under the Creative Commons Attribution 4.0
 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.*
+
+## Sous-classe inspirée du SRD 5.1
+
+La progression de la sous-classe d'ensorceleur **Aspect des Vols draconiques** (ancêtre et type de dégâts au choix,
+points de vie supplémentaires par niveau, modificateur de Charisme ajouté aux dégâts du type de l'ancêtre, ailes,
+présence effrayante ou charmante) suit celle de la lignée draconique du **System Reference Document 5.1** (« SRD 5.1 »)
+de Wizards of the Coast LLC, publié sous licence **Creative Commons Attribution 4.0 International (CC BY 4.0)** :
+<https://creativecommons.org/licenses/by/4.0/legalcode>. Les textes sont originaux ; aucun texte du SRD n'est reproduit.
+
+*This work includes material taken from the System Reference Document 5.1 ("SRD 5.1") by Wizards of the Coast LLC and
+available at https://dnd.wizards.com/resources/systems-reference-document. The SRD 5.1 is licensed under the Creative
+Commons Attribution 4.0 International License available at https://creativecommons.org/licenses/by/4.0/legalcode.*
 
 ## Icônes des jetons
 

@@ -1,0 +1,60 @@
+{
+  "_id": "dDeiKeUVOYgekIfD",
+  "_key": "!items!dDeiKeUVOYgekIfD",
+  "name": "Varech des criques",
+  "type": "loot",
+  "img": "icons/commodities/flowers/buds-red-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une algue brune et salée ramassée à marée basse sur la côte des Tarides. Les alchimistes en tirent un sel qui rend les muscles vifs.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "varech-des-criques",
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "material",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "varech-des-criques",
+      "metier": "herboristerie",
+      "collection": "metiers"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

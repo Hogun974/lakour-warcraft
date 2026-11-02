@@ -8,7 +8,7 @@ import assert from "node:assert/strict";
 import { fabriquer } from "../outils/fabriquer-warcraft.mjs";
 import {
   HORS_COMBAT, ID, changementsEnsembles, cleAnnoncePhase2, cleCombat, contenuPhase2, enveloppeAsynchrone, enveloppeSynchrone, epuisementsATerminer,
-  epuisesParmi, estObjetFureur, fureurARetirer, memosAPurger, packDuLien, porteEpuisement, pourChacun
+  effetsRemplaces, epuisesParmi, estObjetFureur, fureurARetirer, memosAPurger, packDuLien, porteEpuisement, pourChacun
 } from "../modules/lakour-warcraft/scripts/automatismes.js";
 
 const fl = valeurs => ({ [ID]: valeurs });
@@ -110,6 +110,13 @@ test("hooks : erreurs synchrones et rejets asynchrones attrapés, retour gardé 
     const n = await pourChacun([1, 2, 3], async x => { if (x === 2) throw new Error("échec"); faits.push(x); }, "essai");
     assert.deepEqual([n, faits], [2, [1, 3]], "un échec n'arrête pas les suivants");
   } finally { console.warn = avertir; }
+});
+
+test("effets uniques : un nouvel affûtage remplace l'ancien, sans toucher aux autres effets", () => {
+  const u = (id, cle) => ({ id, flags: fl({ unique: cle }) });
+  const nouvel = u("n", "lame-affutee");
+  assert.deepEqual(effetsRemplaces([u("a", "lame-affutee"), u("b", "autre"), { id: "c", flags: {} }, nouvel], nouvel), ["a"]);
+  assert.deepEqual(effetsRemplaces([u("a", "lame-affutee")], { id: "x", flags: {} }), [], "un effet ordinaire ne remplace rien");
 });
 
 test("liens : seul un compendium du module est reconnu", () => {

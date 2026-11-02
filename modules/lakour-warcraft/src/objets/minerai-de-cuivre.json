@@ -1,0 +1,60 @@
+{
+  "_id": "uKCUMZbAK9UISvRP",
+  "_key": "!items!uKCUMZbAK9UISvRP",
+  "name": "Minerai de cuivre",
+  "type": "loot",
+  "img": "icons/commodities/stone/ore-chunk-copper-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un bloc de roche veiné de cuivre, comme on en trouve dans toutes les collines. Le métal des bricoleurs et des chaudronniers.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "minerai-de-cuivre",
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "material",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "minerai-de-cuivre",
+      "metier": "minage",
+      "collection": "metiers"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

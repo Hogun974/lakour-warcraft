@@ -278,6 +278,12 @@ const TABLE = {
     "Dague de gangrecorne": "weapons/daggers/dagger-ritual-green",
     "Flèche gangrenée": "weapons/ammunition/arrow-broadhead-green",
     "Rire moqueur": "magic/unholy/silhouette-evil-horned-giant"
+  },
+  // ---------- Compagnons : le familier du rôdeur « Chasseur et son familier »
+  "familier-du-chasseur": {
+    "Lien du chasseur": "creatures/abilities/paw-glowing-yellow",
+    "Crocs et griffes": "creatures/abilities/mouth-teeth-rows-white",
+    "Se jeter devant": "creatures/abilities/cougar-roar-rush-orange"
   }
 };
 

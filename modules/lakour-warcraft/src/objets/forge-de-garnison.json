@@ -1,0 +1,90 @@
+{
+  "_id": "6Mu3gjHZrmbM5Z8D",
+  "_key": "!items!6Mu3gjHZrmbM5Z8D",
+  "name": "Forge de garnison",
+  "type": "facility",
+  "img": "icons/tools/smithing/anvil.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une forge de pierre et un soufflet de cuir de kodo, tenus par deux forgerons de la faction. <strong>Ordre : fabriquer.</strong> Elle forge une arme, une armure ou un outil ordinaire ; dnd5e calcule le coût et le délai de l'ordre selon l'objet choisi (pour un objet ordinaire : la moitié de son prix en po, et un jour par tranche de 10 po de prix ; pour un objet magique, son propre barème) ; pas de test, pas de recette à suivre. Par exemple @UUID[Compendium.lakour-warcraft.objets.Item.Vh8xj1loPd6h7UBw]{Épée de la Garde de Hurlevent} : 10 po et 2 jours, @UUID[Compendium.lakour-warcraft.objets.Item.KG0AhPmTDVfOusRV]{Harnois de grunt} : 25 po et 5 jours, @UUID[Compendium.lakour-warcraft.objets.Item.v2iFRecHPXFq07w7]{Pierre à aiguiser de Rouge-Veine} : 2 po et 1 jour.</p>",
+      "chat": ""
+    },
+    "identifier": "forge-de-garnison",
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "activities": {},
+    "building": {
+      "built": true,
+      "size": "roomy"
+    },
+    "craft": {
+      "item": "Compendium.lakour-warcraft.objets.Item.Vh8xj1loPd6h7UBw",
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "disabled": false,
+    "enlargeable": false,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 2
+    },
+    "level": 5,
+    "order": "craft",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": "",
+      "paid": false
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": null,
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "smithy"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "forge-de-garnison",
+      "collection": "garnison"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

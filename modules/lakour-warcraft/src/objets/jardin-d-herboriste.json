@@ -1,0 +1,90 @@
+{
+  "_id": "FqMDCb6K2DfNZqvq",
+  "_key": "!items!FqMDCb6K2DfNZqvq",
+  "name": "Jardin d'herboriste",
+  "type": "facility",
+  "img": "icons/magic/nature/plant-bamboo-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Des plates-bandes irriguées par une source, à l'abri d'une palissade. <strong>Ordre : récolter.</strong> En un tour de bastion, le jardinier rapporte 1d4 + 2 @UUID[Compendium.lakour-warcraft.objets.Item.Kb533hoo2qZoFAv2]{Herbe-à-fièvre} et 1d4 @UUID[Compendium.lakour-warcraft.objets.Item.ndEiNXzBHz8KCR71]{Lys des oasis} ; un jardin bien gardé donne en plus une @UUID[Compendium.lakour-warcraft.objets.Item.tQQ6ZDrlT0TkoeBp]{Mousse d'Âprefange} par tour.</p>",
+      "chat": ""
+    },
+    "identifier": "jardin-d-herboriste",
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "activities": {},
+    "building": {
+      "built": true,
+      "size": "roomy"
+    },
+    "craft": {
+      "item": null,
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "disabled": false,
+    "enlargeable": false,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 9,
+    "order": "harvest",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": "",
+      "paid": false
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": null,
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "greenhouse"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "jardin-d-herboriste",
+      "collection": "garnison"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "_id": "GpNPBpZ0Cqz1PouH",
+  "_key": "!tables!GpNPBpZ0Cqz1PouH",
+  "name": "Récolte — Plaines des Tarides",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Autour du Carrefour, de Fort-Rivet et du kraal de Ronceroc. Une heure de récolte : tirez une fois, puis faites le test du métier du composant (matériel d'herboriste ou Nature, outils de forgeron ou Athlétisme, outils de maroquinier ou Survie) : DD 10 pour un composant commun, 13 peu commun, 16 rare. Réussite : 1d4 unités ; échec : une seule. Un personnage récolte au plus quatre heures par jour.</p>",
+  "formula": "1d8",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "recolte-plaines-des-tarides",
+      "collection": "metiers"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "BURUO3tE7wfYK1AQ",
+      "_key": "!tables.results!GpNPBpZ0Cqz1PouH.BURUO3tE7wfYK1AQ",
+      "type": "document",
+      "name": "Herbe-à-fièvre",
+      "description": "",
+      "range": [
+        1,
+        2
+      ],
+      "weight": 2,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.Kb533hoo2qZoFAv2"
+    },
+    {
+      "_id": "Zj9eQZSbbwTyyJFD",
+      "_key": "!tables.results!GpNPBpZ0Cqz1PouH.Zj9eQZSbbwTyyJFD",
+      "type": "document",
+      "name": "Lys des oasis",
+      "description": "",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.ndEiNXzBHz8KCR71"
+    },
+    {
+      "_id": "qi8TtlByFOqbCnfx",
+      "_key": "!tables.results!GpNPBpZ0Cqz1PouH.qi8TtlByFOqbCnfx",
+      "type": "document",
+      "name": "Minerai de cuivre",
+      "description": "",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.uKCUMZbAK9UISvRP"
+    },
+    {
+      "_id": "oafAWXi7QgK6jdDA",
+      "_key": "!tables.results!GpNPBpZ0Cqz1PouH.oafAWXi7QgK6jdDA",
+      "type": "document",
+      "name": "Viande de gibier",
+      "description": "",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.W1mu6Fgluoow1gG8"
+    },
+    {
+      "_id": "e4SwPqG7h0PygMou",
+      "_key": "!tables.results!GpNPBpZ0Cqz1PouH.e4SwPqG7h0PygMou",
+      "type": "document",
+      "name": "Peau de kodo épaisse",
+      "description": "",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.tXz5Gb5yosB83Hqm"
+    },
+    {
+      "_id": "3IqRcFBwaUyvSCPU",
+      "_key": "!tables.results!GpNPBpZ0Cqz1PouH.3IqRcFBwaUyvSCPU",
+      "type": "document",
+      "name": "Cuir léger",
+      "description": "",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.EVwHyz2AkECxete8"
+    },
+    {
+      "_id": "hcaNtIWUJXWr7CFH",
+      "_key": "!tables.results!GpNPBpZ0Cqz1PouH.hcaNtIWUJXWr7CFH",
+      "type": "text",
+      "name": "Un témoin gênant",
+      "description": "<p>Une bête défend son territoire, ou une patrouille se demande ce que vous faites là. Tirez sur la table des rencontres sur la route ; la récolte reprend après.</p>",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    }
+  ]
+}

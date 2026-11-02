@@ -1,0 +1,177 @@
+{
+  "_id": "5uJIDRQxsSNJYpm9",
+  "_key": "!items!5uJIDRQxsSNJYpm9",
+  "name": "Fût roulant",
+  "type": "feat",
+  "img": "icons/containers/barrels/barrel-reinforced-chestnut-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>Par une <strong>action</strong>, vous fracassez votre tonneau au sol et le faites rouler : chaque créature dans un cube de <strong>3 m</strong> que vous touchez à 9 m ou moins fait un jet de sauvegarde de <strong>Dextérité</strong> (DD de votre Sagesse) et subit <strong>3d8 dégâts contondants</strong> en cas d'échec (moitié en cas de réussite) ; en cas d'échec, elle tombe aussi <strong>à terre</strong>. Une utilisation par <strong>repos court</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "brasseur-fut-roulant",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Voie du maître brasseur",
+    "prerequisites": {
+      "level": 11,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {
+      "oUdhDeikhThgQXDn": {
+        "_id": "oUdhDeikhThgQXDn",
+        "type": "save",
+        "name": "Faire rouler le fût",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "9",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "cube",
+            "size": "3",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "wis",
+            "formula": ""
+          }
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": 3,
+              "denomination": 8,
+              "bonus": "",
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              },
+              "types": [
+                "bludgeoning"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "brasseur-fut-roulant",
+      "sousClasse": "voie-du-maitre-brasseur",
+      "classe": "monk",
+      "niveau": 11,
+      "automatisation": "partielle"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

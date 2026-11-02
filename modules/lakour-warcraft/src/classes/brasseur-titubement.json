@@ -1,0 +1,163 @@
+{
+  "_id": "X7TNjmVzP6IqOFv4",
+  "_key": "!items!X7TNjmVzP6IqOFv4",
+  "name": "Titubement",
+  "type": "feat",
+  "img": "icons/magic/control/silhouette-fall-slip-prone.webp",
+  "system": {
+    "description": {
+      "value": "<p>Par une <strong>réaction</strong>, quand une attaque vous touche, vous chancelez dans le bon sens : vous gagnez <strong>1d8 + votre modificateur de Constitution</strong> points de vie temporaires avant de subir les dégâts. Ce dé passe à <strong>2d8</strong> au niveau 11 et à <strong>3d8</strong> au niveau 17. Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "brasseur-titubement",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Voie du maître brasseur",
+    "prerequisites": {
+      "level": 3,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {
+      "JKjCe8Q2lYZCh4lg": {
+        "_id": "JKjCe8Q2lYZCh4lg",
+        "type": "heal",
+        "name": "Tituber",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "condition": "Quand une attaque vous touche",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "healing": {
+          "number": null,
+          "denomination": null,
+          "bonus": "",
+          "custom": {
+            "enabled": true,
+            "formula": "@scale.voie-du-maitre-brasseur.titubement + @abilities.con.mod"
+          },
+          "scaling": {
+            "mode": "",
+            "number": null,
+            "formula": ""
+          },
+          "types": [
+            "temphp"
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "@prof",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "brasseur-titubement",
+      "sousClasse": "voie-du-maitre-brasseur",
+      "classe": "monk",
+      "niveau": 3,
+      "automatisation": "complete"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

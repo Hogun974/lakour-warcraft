@@ -3,7 +3,7 @@
   "_key": "!items!VZpVXdtVbHdZKhRr",
   "name": "Marmite de ragoût de kodo épicé",
   "type": "consumable",
-  "img": "icons/consumables/food/bowl-stew-brown.webp",
+  "img": "icons/consumables/food/bowl-stew-tofu-potato-brown.webp",
   "system": {
     "description": {
       "value": "<p>Un ragoût noir et brûlant de viande de kodo, de racines des Tarides et de piment de Durotar, mijoté toute une nuit dans une marmite cabossée. Les grunts du Carrefour jurent qu'il tient debout un orc blessé jusqu'au lendemain.</p><p>Six portions. Il faut <strong>10 minutes</strong> pour manger une portion ; la créature qui la mange est <strong>bien nourrie</strong> : +1 aux jets de sauvegarde de Constitution et aux tests de Force.</p><p>Un seul repas « bien nourri » à la fois : un nouveau repas remplace le précédent. L'effet prend fin au prochain <strong>repos long</strong>.</p>",
@@ -162,7 +162,7 @@
       "_id": "Ke96r2cf5PL5NpSn",
       "_key": "!items.effects!VZpVXdtVbHdZKhRr.Ke96r2cf5PL5NpSn",
       "name": "Bien nourri — ragoût de kodo",
-      "img": "icons/consumables/food/bowl-stew-brown.webp",
+      "img": "icons/consumables/food/bowl-stew-tofu-potato-brown.webp",
       "type": "base",
       "system": {
         "changes": [

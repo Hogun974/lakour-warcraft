@@ -1,0 +1,65 @@
+{
+  "_id": "jQJsj3OfsAAd3LDH",
+  "_key": "!items!jQJsj3OfsAAd3LDH",
+  "name": "Sorts du chevalier de la mort",
+  "type": "feat",
+  "img": "icons/magic/water/heart-ice-freeze.webp",
+  "system": {
+    "description": {
+      "value": "<p>Le froid et la mort répondent à votre serment. Quand vous atteignez les niveaux de paladin indiqués, ces sorts vous sont accordés ; ils sont <strong>toujours préparés</strong>.</p><ul><li>Niveau 3 : Flétrissure gangrenée, Protection contre le mal et le bien</li><li>Niveau 5 : Nova de givre, Rayon affaiblissant</li><li>Niveau 9 : Caresse du vampire, Malédiction</li><li>Niveau 13 : Blizzard, Flétrissement</li><li>Niveau 17 : Brume mortelle, Contagion</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "chevalier-sorts",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Serment du chevalier de la mort",
+    "prerequisites": {
+      "level": 3,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "chevalier-sorts",
+      "sousClasse": "serment-du-chevalier-de-la-mort",
+      "classe": "paladin",
+      "niveau": 3,
+      "automatisation": "complete",
+      "portePar": "sous-classe",
+      "liste": "sorts"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "_id": "wsWsboEY5DpiLBNS",
+  "_key": "!items!wsWsboEY5DpiLBNS",
+  "name": "Éclat de verre noir",
+  "type": "loot",
+  "img": "icons/commodities/stone/ore-chunk-black.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un éclat de la roche fondue en verre par la chute de la Fournaise, ramassé sur les pentes du cratère. Tranchant comme un rasoir, froid même au soleil.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "eclat-de-verre-noir",
+    "price": {
+      "value": 12,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "material",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "eclat-de-verre-noir",
+      "metier": "minage",
+      "collection": "metiers"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

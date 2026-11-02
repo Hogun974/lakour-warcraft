@@ -38,7 +38,8 @@ export function liens(...listes) {
 // Le libellé garde le texte français (« Survie DD 11 ») : le MJ lit la même chose, mais clique pour lancer le jet.
 const sansAccent = t => t.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
 const CARACS_FR = { force: "str", dexterite: "dex", constitution: "con", intelligence: "int", sagesse: "wis", charisme: "cha" };
-const OUTILS_FR = { "outils de voleur": "thief", "outils de bricoleur": "tinker" };
+const OUTILS_FR = { "outils de voleur": "thief", "outils de bricoleur": "tinker", "materiel d'herboriste": "herb",
+  "materiel d'alchimiste": "alchemist", "outils de forgeron": "smith", "ustensiles de cuisinier": "cook", "outils de maroquinier": "leatherworker" };
 for (const o of Object.values(OUTILS_FR)) if (!Object.values(OUTILS).flat().includes(o)) throw new Error(`Outil dnd5e inconnu : ${o}`);
 const REGLES_FR = { "terrain difficile": "difficultTerrain", "monter en selle": "mounting", "controler une monture": "controllingamount", "rythme de voyage": "travelpace" };
 function libelle(texte, ou) {

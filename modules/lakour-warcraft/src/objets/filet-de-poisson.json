@@ -1,0 +1,60 @@
+{
+  "_id": "2NwsIYGrWZzc7sJA",
+  "_key": "!items!2NwsIYGrWZzc7sJA",
+  "name": "Filet de poisson",
+  "type": "loot",
+  "img": "icons/consumables/meat/fillet-fish-pink-silver-gray.webp",
+  "system": {
+    "description": {
+      "value": "<p>Le filet d'un poisson de la baie, vidé et rincé à l'eau de mer. À manger le jour même, ou à cuire en tourte.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "filet-de-poisson",
+    "price": {
+      "value": 5,
+      "denomination": "sp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "material",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "filet-de-poisson",
+      "metier": "depecage",
+      "collection": "metiers"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

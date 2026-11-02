@@ -1,0 +1,60 @@
+{
+  "_id": "EVwHyz2AkECxete8",
+  "_key": "!items!EVwHyz2AkECxete8",
+  "name": "Cuir léger",
+  "type": "loot",
+  "img": "icons/commodities/leather/leather-bolt-tan.webp",
+  "system": {
+    "description": {
+      "value": "<p>Des peaux de petit gibier tannées à la hâte. Bonnes pour les poignées, les sangles et les gants.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "cuir-leger",
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "common",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "material",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "cuir-leger",
+      "metier": "depecage",
+      "collection": "metiers"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "_id": "nlKCkAAxSbRayLqG",
+  "_key": "!items!nlKCkAAxSbRayLqG",
+  "name": "Compagnon de chasse",
+  "type": "feat",
+  "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une bête vous accompagne : utilisez la fiche « Familier du chasseur » du bestiaire (le MJ la pose sur la carte). Elle agit juste après vous dans l'ordre d'initiative, ajoute votre <strong>bonus de maîtrise</strong> à sa classe d'armure, à ses jets d'attaque et à ses dégâts, et a <strong>5 + cinq fois votre niveau de rôdeur</strong> points de vie. Si elle meurt, vous pouvez la ramener par un rituel d'<strong>une heure</strong> au chevet de son corps, une fois par <strong>repos long</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "familier-compagnon",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Chasseur et son familier",
+    "prerequisites": {
+      "level": 3,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {
+      "SOsR8DettoenevY0": {
+        "_id": "SOsR8DettoenevY0",
+        "type": "utility",
+        "name": "Ramener le familier",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "hour",
+          "value": 1,
+          "condition": "Au chevet du corps du familier",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "familier-compagnon",
+      "sousClasse": "chasseur-et-son-familier",
+      "classe": "ranger",
+      "niveau": 3,
+      "automatisation": "partielle"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

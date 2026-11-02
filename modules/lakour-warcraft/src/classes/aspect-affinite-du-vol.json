@@ -1,0 +1,162 @@
+{
+  "_id": "9qbaGHN6gFaae3kv",
+  "_key": "!items!9qbaGHN6gFaae3kv",
+  "name": "Affinité du Vol",
+  "type": "feat",
+  "img": "icons/creatures/abilities/dragon-ice-breath-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Quand vous lancez un sort qui inflige le type de dégâts de votre Vol, vous ajoutez votre <strong>modificateur de Charisme</strong> à l'un des jets de dégâts de ce sort.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "aspect-affinite-du-vol",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Aspect des Vols draconiques",
+    "prerequisites": {
+      "level": 6,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {
+      "VW1aUlS2FGGEJrcX": {
+        "_id": "VW1aUlS2FGGEJrcX",
+        "type": "damage",
+        "name": "Souffle de l'ancêtre",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": "Un de vos sorts inflige le type de dégâts de votre Vol",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "damage": {
+          "critical": {
+            "allow": false,
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "custom": {
+                "enabled": true,
+                "formula": "@abilities.cha.mod"
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              },
+              "types": [
+                "fire",
+                "cold",
+                "poison",
+                "force"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "aspect-affinite-du-vol",
+      "sousClasse": "aspect-des-vols",
+      "classe": "sorcerer",
+      "niveau": 6,
+      "automatisation": "complete"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

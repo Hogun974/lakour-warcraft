@@ -1,0 +1,177 @@
+{
+  "_id": "1aE1b3EO9nbpPpSN",
+  "_key": "!items!1aE1b3EO9nbpPpSN",
+  "name": "Souffle de feu",
+  "type": "feat",
+  "img": "icons/creatures/abilities/mouth-teeth-fire-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Par une <strong>action</strong>, vous recrachez une gorgée d'alcool fort sur une flamme : chaque créature dans un cône de <strong>4,5 m</strong> fait un jet de sauvegarde de <strong>Dextérité</strong> (DD 8 + votre modificateur de Sagesse + votre bonus de maîtrise) et subit <strong>2d6 dégâts de feu</strong> (moitié en cas de réussite). Ces dés passent à <strong>3d6</strong> au niveau 11 et à <strong>4d6</strong> au niveau 17. Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "brasseur-souffle-de-feu",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Voie du maître brasseur",
+    "prerequisites": {
+      "level": 6,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {
+      "GZ7GJcrDBz3Q5xVT": {
+        "_id": "GZ7GJcrDBz3Q5xVT",
+        "type": "save",
+        "name": "Cracher le feu",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "cone",
+            "size": "4.5",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "wis",
+            "formula": ""
+          }
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "custom": {
+                "enabled": true,
+                "formula": "@scale.voie-du-maitre-brasseur.souffle"
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              },
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "uses": {
+      "max": "@prof",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "brasseur-souffle-de-feu",
+      "sousClasse": "voie-du-maitre-brasseur",
+      "classe": "monk",
+      "niveau": 6,
+      "automatisation": "complete"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

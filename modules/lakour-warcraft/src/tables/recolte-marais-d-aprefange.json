@@ -1,0 +1,123 @@
+{
+  "_id": "lTCn7NQqcOD8H1wz",
+  "_key": "!tables!lTCn7NQqcOD8H1wz",
+  "name": "Récolte — Marais d'Âprefange",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Autour de Theramore et du Gué-Brumeux. Une heure de récolte : tirez une fois, puis faites le test du métier du composant (matériel d'herboriste ou Nature, outils de forgeron ou Athlétisme, outils de maroquinier ou Survie) : DD 10 pour un composant commun, 13 peu commun, 16 rare. Réussite : 1d4 unités ; échec : une seule. Un personnage récolte au plus quatre heures par jour.</p>",
+  "formula": "1d8",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "recolte-marais-d-aprefange",
+      "collection": "metiers"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "42PV84FXfHCTEqLw",
+      "_key": "!tables.results!lTCn7NQqcOD8H1wz.42PV84FXfHCTEqLw",
+      "type": "document",
+      "name": "Mousse d'Âprefange",
+      "description": "",
+      "range": [
+        1,
+        3
+      ],
+      "weight": 3,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.tQQ6ZDrlT0TkoeBp"
+    },
+    {
+      "_id": "VyntwysDASBHckK1",
+      "_key": "!tables.results!lTCn7NQqcOD8H1wz.VyntwysDASBHckK1",
+      "type": "document",
+      "name": "Herbe-à-fièvre",
+      "description": "",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.Kb533hoo2qZoFAv2"
+    },
+    {
+      "_id": "HRzJUWQtFwhjhFkH",
+      "_key": "!tables.results!lTCn7NQqcOD8H1wz.HRzJUWQtFwhjhFkH",
+      "type": "document",
+      "name": "Filet de poisson",
+      "description": "",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.2NwsIYGrWZzc7sJA"
+    },
+    {
+      "_id": "bzo5LIV6yuzNFhZO",
+      "_key": "!tables.results!lTCn7NQqcOD8H1wz.bzo5LIV6yuzNFhZO",
+      "type": "document",
+      "name": "Écailles de crocilisque",
+      "description": "",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.AMV0unlVbi8J5snB"
+    },
+    {
+      "_id": "piMFE8LofeI1lYCp",
+      "_key": "!tables.results!lTCn7NQqcOD8H1wz.piMFE8LofeI1lYCp",
+      "type": "document",
+      "name": "Viande de gibier",
+      "description": "",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.W1mu6Fgluoow1gG8"
+    },
+    {
+      "_id": "GyI0jeiA6jW73OSU",
+      "_key": "!tables.results!lTCn7NQqcOD8H1wz.GyI0jeiA6jW73OSU",
+      "type": "text",
+      "name": "Sables mouvants",
+      "description": "<p>La berge s'enfonce sous les pieds : jet de sauvegarde de Force DD 12 ou entravé jusqu'à ce qu'un allié vous tire de là (action, Athlétisme DD 12).</p>",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    }
+  ]
+}

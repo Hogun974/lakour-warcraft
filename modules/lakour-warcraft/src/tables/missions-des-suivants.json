@@ -1,0 +1,133 @@
+{
+  "_id": "FzbACQsPtmIARtiR",
+  "_key": "!tables!FzbACQsPtmIARtiR",
+  "name": "Missions des suivants",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Pour un suivant envoyé en mission par la table des missions (un tour de bastion). Ajoutez 1 au jet si la garnison est Honorée ou mieux auprès de sa faction.</p>",
+  "formula": "1d8",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "missions-des-suivants",
+      "collection": "garnison"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "bC7uKKapv7YPkPmR",
+      "_key": "!tables.results!FzbACQsPtmIARtiR.bC7uKKapv7YPkPmR",
+      "type": "text",
+      "name": "Embuscade",
+      "description": "<p>Le suivant revient blessé et sans rien. Il ne repart pas avant deux tours.</p>",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "qBbCbAwWSpeSpRKy",
+      "_key": "!tables.results!FzbACQsPtmIARtiR.qBbCbAwWSpeSpRKy",
+      "type": "text",
+      "name": "Fausse piste",
+      "description": "<p>Rien trouvé, mais le suivant rapporte une rumeur : tirez sur la table des rumeurs de taverne.</p>",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "yDg8EO7Cnw2nEq6u",
+      "_key": "!tables.results!FzbACQsPtmIARtiR.yDg8EO7Cnw2nEq6u",
+      "type": "text",
+      "name": "Ravitaillement",
+      "description": "<p>Le suivant rapporte 2d6 composants communs du biome le plus proche (table de récolte du biome).</p>",
+      "range": [
+        3,
+        4
+      ],
+      "weight": 2,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "0NLFqaNlEF1lYEZH",
+      "_key": "!tables.results!FzbACQsPtmIARtiR.0NLFqaNlEF1lYEZH",
+      "type": "text",
+      "name": "Escorte payée",
+      "description": "<p>Le suivant a escorté une caravane : 3d10 po pour la garnison.</p>",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "efq2ObTt7nuYzS04",
+      "_key": "!tables.results!FzbACQsPtmIARtiR.efq2ObTt7nuYzS04",
+      "type": "text",
+      "name": "Service rendu",
+      "description": "<p>Le suivant a aidé une patrouille de la faction : +2 de réputation auprès d'elle.</p>",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "G7ZJqFA3JLQsyWko",
+      "_key": "!tables.results!FzbACQsPtmIARtiR.G7ZJqFA3JLQsyWko",
+      "type": "text",
+      "name": "Trouvaille",
+      "description": "<p>Le suivant rapporte une pépite d'argent (ou, si la garnison est près d'Âprefange, une mousse d'Âprefange) et 2d6 po.</p>",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "JNNghiwhqD00EBsD",
+      "_key": "!tables.results!FzbACQsPtmIARtiR.JNNghiwhqD00EBsD",
+      "type": "text",
+      "name": "Exploit",
+      "description": "<p>Le suivant a vu un rare de la région : la garnison sait où il se trouve (tirez sur la table des rares de la zone ; un contrat de traque l'attend au tableau). +3 de réputation.</p>",
+      "range": [
+        8,
+        9
+      ],
+      "weight": 2,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    }
+  ]
+}

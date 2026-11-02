@@ -1,0 +1,64 @@
+{
+  "_id": "FNlDARNulfz8vnAy",
+  "_key": "!items!FNlDARNulfz8vnAy",
+  "name": "Élu d'un Vol",
+  "type": "feat",
+  "img": "icons/creatures/reptiles/dragon-horned-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Choisissez le Vol de votre ancêtre : <strong>rouge</strong> (feu), <strong>bleu</strong> (froid), <strong>vert</strong> (poison) ou <strong>de bronze</strong> (force). Vous gagnez la <strong>résistance</strong> au type de dégâts de votre Vol, et vous parlez le <strong>draconique</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "aspect-elu-d-un-vol",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Aspect des Vols draconiques",
+    "prerequisites": {
+      "level": 3,
+      "repeatable": false,
+      "items": []
+    },
+    "properties": [],
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": {},
+    "enchant": {},
+    "cover": null,
+    "crewed": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "aspect-elu-d-un-vol",
+      "sousClasse": "aspect-des-vols",
+      "classe": "sorcerer",
+      "niveau": 3,
+      "automatisation": "complete",
+      "portePar": "sous-classe"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "_id": "bTlZCs4uTLxsWWGk",
+  "_key": "!items!bTlZCs4uTLxsWWGk",
+  "name": "Pétale de lune",
+  "type": "loot",
+  "img": "icons/commodities/flowers/lotus-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un pétale blanc qui luit doucement la nuit, cueilli dans les jardins noyés des ruines elfiques. Les prêtresses d'Élune disent qu'il garde un peu de la lumière de la Dame blanche.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "petale-de-lune",
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "rare",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "properties": [],
+    "type": {
+      "value": "material",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "petale-de-lune",
+      "metier": "herboristerie",
+      "collection": "metiers"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

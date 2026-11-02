@@ -1,0 +1,129 @@
+{
+  "_id": "GBiEhJquLdzDHgB1",
+  "_key": "!items!GBiEhJquLdzDHgB1",
+  "name": "Chasseur et son familier",
+  "type": "subclass",
+  "img": "icons/creatures/abilities/paw-print-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Des plaines des Tarides aux forêts des Grisonnes, les chasseurs les plus redoutés ne chassent jamais seuls. Un loup, un raptor, un grand félin ou un ours les suit, apprivoisé à force de patience et de viande partagée. Le lien qui les unit tient de la meute plus que du dressage : la bête devine l'intention avant le geste, et le chasseur sent la proie à travers ses yeux.</p><p><em>Sous-classe du Rôdeur, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Compagnon de chasse, Ordre de chasse</li><li><strong>Niveau 7</strong> : Sens partagés</li><li><strong>Niveau 11</strong> : Frénésie bestiale</li><li><strong>Niveau 15</strong> : Aspect de la meute</li></ul>",
+      "chat": ""
+    },
+    "identifier": "chasseur-et-son-familier",
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "advancement": {
+      "DZMqWCwRBWDQRrnl": {
+        "_id": "DZMqWCwRBWDQRrnl",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.nlKCkAAxSbRayLqG",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.FCo9RSLUpzni6zvr",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "name": "Capacités : Chasseur et son familier",
+        "hint": "",
+        "flags": {}
+      },
+      "bscOqt36lc982W2t": {
+        "_id": "bscOqt36lc982W2t",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.lDJbqTOdUmBO9YbY",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "name": "Capacités : Chasseur et son familier",
+        "hint": "",
+        "flags": {}
+      },
+      "pCf7HgFIyYKAZWVc": {
+        "_id": "pCf7HgFIyYKAZWVc",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.EJOqGZrGBXXGSNAT",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "name": "Capacités : Chasseur et son familier",
+        "hint": "",
+        "flags": {}
+      },
+      "pN7k7lYlJ6T4jMgb": {
+        "_id": "pN7k7lYlJ6T4jMgb",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.lakour-warcraft.classes.Item.9cIgTQ6HWH2ur82z",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "name": "Capacités : Chasseur et son familier",
+        "hint": "",
+        "flags": {}
+      }
+    },
+    "classIdentifier": "ranger",
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "chasseur-et-son-familier",
+      "classe": "ranger"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

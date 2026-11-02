@@ -73,7 +73,7 @@ export const CONSOMMABLES = collection("consommables", [
     "Héroïsme", "Faire chanter le cristal"),
 
   // ---------- Repas « bien nourri »
-  repas("ragout-de-kodo-epice", "Marmite de ragoût de kodo épicé", icone("icons/consumables/food/bowl-stew-brown.webp"), 4,
+  repas("ragout-de-kodo-epice", "Marmite de ragoût de kodo épicé", icone("icons/consumables/food/bowl-stew-tofu-potato-brown.webp"), 4,
     "Un ragoût noir et brûlant de viande de kodo, de racines des Tarides et de piment de Durotar, mijoté toute une nuit dans une marmite cabossée. Les grunts du Carrefour jurent qu'il tient debout un orc blessé jusqu'au lendemain.",
     "Bien nourri — ragoût de kodo", [["system.abilities.con.save.roll.bonus", "1"], ["system.abilities.str.check.roll.bonus", "1"]],
     "+1 aux jets de sauvegarde de Constitution et aux tests de Force"),
@@ -93,7 +93,7 @@ export const CONSOMMABLES = collection("consommables", [
   flacon("flacon-de-sagesse-distillee", "Flacon de sagesse distillée", icone("icons/consumables/potions/flask-corked-blue-glow.webp"), "uncommon", 200,
     "Un liquide bleu pâle où flottent des paillettes d'argent, que les mages de Theramore boivent avant les longues séances d'étude. Il a un goût d'encre et de neige.",
     [["system.attributes.concentration.roll.bonus", "2"], ["system.skills.arc.roll.mode", 1]], "**+2** aux jets de sauvegarde de concentration et avantage aux tests d'Intelligence (Arcanes)"),
-  flacon("flacon-de-rage-du-kodo", "Flacon de rage du kodo", icone("icons/consumables/potions/flask-corked-red-glow.webp"), "uncommon", 200,
+  flacon("flacon-de-rage-du-kodo", "Flacon de rage du kodo", icone("icons/consumables/potions/flask-red-bubbles-vortex.webp"), "uncommon", 200,
     "Une mixture rouge sombre au fumet de musc, que les chasseurs taurens refusent de boire et que les gladiateurs orcs adorent. Elle fait gonfler les veines du cou.",
     [["system.rolls.damage.mwak.bonus", "1"], ["system.rolls.damage.rwak.bonus", "1"], ["system.abilities.str.check.roll.mode", 1]], "**+1** aux jets de dégâts des armes et avantage aux tests de Force"),
   flacon("flacon-de-peau-de-pierre", "Flacon de peau-de-pierre", icone("icons/consumables/potions/flask-corked-purple-glow.webp"), "rare", 300,

@@ -1,0 +1,139 @@
+{
+  "_id": "o9A3IHBcJZOkQ8L4",
+  "_key": "!tables!o9A3IHBcJZOkQ8L4",
+  "name": "Récolte — Collines rouges et cratère",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Entre Rouge-Veine, Gué-de-Sel et le cratère de Brasegouffre. Une heure de récolte : tirez une fois, puis faites le test du métier du composant (matériel d'herboriste ou Nature, outils de forgeron ou Athlétisme, outils de maroquinier ou Survie) : DD 10 pour un composant commun, 13 peu commun, 16 rare. Réussite : 1d4 unités ; échec : une seule. Un personnage récolte au plus quatre heures par jour.</p>",
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "recolte-collines-rouges",
+      "collection": "metiers"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "F4R46MebCQRLpFwf",
+      "_key": "!tables.results!o9A3IHBcJZOkQ8L4.F4R46MebCQRLpFwf",
+      "type": "document",
+      "name": "Minerai de fer rouge",
+      "description": "",
+      "range": [
+        1,
+        2
+      ],
+      "weight": 2,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.wwwk7ZfSpXXVIZNN"
+    },
+    {
+      "_id": "nFHH3RcYpe5FxSxK",
+      "_key": "!tables.results!o9A3IHBcJZOkQ8L4.nFHH3RcYpe5FxSxK",
+      "type": "document",
+      "name": "Chardon-cendre",
+      "description": "",
+      "range": [
+        3,
+        4
+      ],
+      "weight": 2,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.Gb9sLJdkHzOhbLfs"
+    },
+    {
+      "_id": "8F3DolxU7GpFgkoD",
+      "_key": "!tables.results!o9A3IHBcJZOkQ8L4.8F3DolxU7GpFgkoD",
+      "type": "document",
+      "name": "Éclat de verre noir",
+      "description": "",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.wsWsboEY5DpiLBNS"
+    },
+    {
+      "_id": "ArXPqXgBQw3JgdrX",
+      "_key": "!tables.results!o9A3IHBcJZOkQ8L4.ArXPqXgBQw3JgdrX",
+      "type": "document",
+      "name": "Pépite d'argent",
+      "description": "",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.RSJq3oORPKQk3hRQ"
+    },
+    {
+      "_id": "huIvMJRVPBeJxbx2",
+      "_key": "!tables.results!o9A3IHBcJZOkQ8L4.huIvMJRVPBeJxbx2",
+      "type": "document",
+      "name": "Cuir gangrené",
+      "description": "",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.KPChWgeRVZjlgjT2"
+    },
+    {
+      "_id": "dkpf08g4BlkbrUKo",
+      "_key": "!tables.results!o9A3IHBcJZOkQ8L4.dkpf08g4BlkbrUKo",
+      "type": "document",
+      "name": "Veine de mithril",
+      "description": "",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.AJCsPW8NFBDSXcCE"
+    },
+    {
+      "_id": "XEnHlZsjiFKyetG5",
+      "_key": "!tables.results!o9A3IHBcJZOkQ8L4.XEnHlZsjiFKyetG5",
+      "type": "text",
+      "name": "Gangrène",
+      "description": "<p>Le filon ou la plante est souillé : une lueur verte, une odeur de soufre. Qui le touche fait un jet de sauvegarde de Constitution DD 12 ou gagne un niveau d'Épuisement. La Lame ardente n'est peut-être pas loin.</p>",
+      "range": [
+        9,
+        10
+      ],
+      "weight": 2,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    }
+  ]
+}
