@@ -80,7 +80,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Une bête fidèle, loup, raptor ou grand félin, qui ne quitte pas son chasseur d'une semelle et grogne avant même qu'on ait sorti une lame.</p><h3>Note du MJ</h3><p>Fiche de base du familier de la sous-classe « Chasseur et son familier » (rôdeur). Posez-le près de son rôdeur, avec l'allégeance du groupe. Recalculez ses PV (5 + 5 × niveau de rôdeur) et ajoutez à sa CA, à son toucher et à ses dégâts la différence entre le bonus de maîtrise du rôdeur et +2. Il ne fuit pas tant que son rôdeur est debout.</p>",
+        "value": "<p>Une bête fidèle, loup, raptor ou grand félin, qui ne quitte pas son chasseur d'une semelle et grogne avant même qu'on ait sorti une lame.</p><h3>Note du MJ</h3><p>Fiche de base du familier de la sous-classe « Chasseur et son familier » (rôdeur). Posez-le près de son rôdeur, avec l'allégeance du groupe. Le rôdeur cible son jeton et utilise « Lier le familier » (capacité Compagnon de chasse), ou le MJ appelle lierFamilier dans l'API du module : ses PV (5 + 5 × niveau de rôdeur) et l'écart entre le bonus de maîtrise du rôdeur et +2 (effet « Lien du chasseur » : CA, toucher, dégâts) suivent alors le rôdeur d'eux-mêmes. Il ne fuit pas tant que son rôdeur est debout.</p>",
         "public": "<p>Une bête fidèle, loup, raptor ou grand félin, qui ne quitte pas son chasseur d'une semelle et grogne avant même qu'on ait sorti une lame.</p>"
       },
       "alignment": "Non aligné",
@@ -529,9 +529,15 @@
     "lakour-warcraft": {
       "cle": "familier-du-chasseur",
       "role": "troupe",
-      "mj": "Fiche de base du familier de la sous-classe « Chasseur et son familier » (rôdeur). Posez-le près de son rôdeur, avec l'allégeance du groupe. Recalculez ses PV (5 + 5 × niveau de rôdeur) et ajoutez à sa CA, à son toucher et à ses dégâts la différence entre le bonus de maîtrise du rôdeur et +2. Il ne fuit pas tant que son rôdeur est debout.",
+      "mj": "Fiche de base du familier de la sous-classe « Chasseur et son familier » (rôdeur). Posez-le près de son rôdeur, avec l'allégeance du groupe. Le rôdeur cible son jeton et utilise « Lier le familier » (capacité Compagnon de chasse), ou le MJ appelle lierFamilier dans l'API du module : ses PV (5 + 5 × niveau de rôdeur) et l'écart entre le bonus de maîtrise du rôdeur et +2 (effet « Lien du chasseur » : CA, toucher, dégâts) suivent alors le rôdeur d'eux-mêmes. Il ne fuit pas tant que son rôdeur est debout.",
       "armure": "fourrure ou écailles",
-      "collection": "compagnons"
+      "collection": "compagnons",
+      "familier": {
+        "classe": "ranger",
+        "pvDeBase": 5,
+        "pvParNiveau": 5,
+        "maitriseDeBase": 2
+      }
     }
   },
   "_stats": {

@@ -6,7 +6,7 @@
   "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
   "system": {
     "description": {
-      "value": "<p>Une bête vous accompagne : utilisez la fiche « Familier du chasseur » du bestiaire (le MJ la pose sur la carte). Elle agit juste après vous dans l'ordre d'initiative, ajoute votre <strong>bonus de maîtrise</strong> à sa classe d'armure, à ses jets d'attaque et à ses dégâts, et a <strong>5 + cinq fois votre niveau de rôdeur</strong> points de vie. Si elle meurt, vous pouvez la ramener par un rituel d'<strong>une heure</strong> au chevet de son corps, une fois par <strong>repos long</strong>.</p>",
+      "value": "<p>Une bête vous accompagne : utilisez la fiche « Familier du chasseur » du bestiaire (le MJ la pose sur la carte). Elle agit juste après vous dans l'ordre d'initiative, ajoute votre <strong>bonus de maîtrise</strong> à sa classe d'armure, à ses jets d'attaque et à ses dégâts, et a <strong>5 + cinq fois votre niveau de rôdeur</strong> points de vie. Si elle meurt, vous pouvez la ramener par un rituel d'<strong>une heure</strong> au chevet de son corps, une fois par <strong>repos long</strong>.</p><p><strong>Lier le familier.</strong> Ciblez son jeton et utilisez l'activité « Lier le familier » : sa fiche suit ensuite votre niveau (points de vie, bonus de maîtrise), recopiée par le MJ.</p>",
       "chat": ""
     },
     "source": {
@@ -112,6 +112,86 @@
           "name": "",
           "formula": ""
         }
+      },
+      "tWnEZ1HC06gBJ4pk": {
+        "_id": "tWnEZ1HC06gBJ4pk",
+        "type": "utility",
+        "name": "Lier le familier",
+        "img": null,
+        "sort": 100000,
+        "flags": {
+          "lakour-warcraft": {
+            "lierFamilier": true
+          }
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": "Ciblez le jeton de votre familier",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "any",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
       }
     },
     "uses": {
@@ -141,7 +221,8 @@
       "sousClasse": "chasseur-et-son-familier",
       "classe": "ranger",
       "niveau": 3,
-      "automatisation": "partielle"
+      "automatisation": "complete",
+      "compagnon": "rodeur"
     }
   },
   "_stats": {

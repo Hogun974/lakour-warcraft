@@ -74,7 +74,11 @@
       "showIcon": 1,
       "folder": null,
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "lakour-warcraft": {
+          "aura": "froid"
+        }
+      },
       "_stats": {
         "coreVersion": "14.369",
         "systemId": "dnd5e",
@@ -93,7 +97,19 @@
       "sousClasse": "serment-du-chevalier-de-la-mort",
       "classe": "paladin",
       "niveau": 7,
-      "automatisation": "partielle"
+      "automatisation": "complete",
+      "aura": {
+        "cle": "froid",
+        "classe": "paladin",
+        "rayons": [
+          [
+            1,
+            3
+          ]
+        ],
+        "coupure": "inconscient",
+        "ralentit": 3
+      }
     }
   },
   "_stats": {

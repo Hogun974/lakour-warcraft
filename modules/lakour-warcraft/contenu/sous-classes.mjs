@@ -99,24 +99,60 @@ function sortDe(s, ou) {
   return { uuid: uuidSrd(s), nom, niveau };
 }
 
-// ---------- Automatisation : ce que le MJ applique encore (le reste est porté par effets, activités et avancements).
+// ---------- Automatisation : ce que le MJ applique encore (le reste est porté par effets, activités et avancements, ou
+// par les automatismes de scripts/capacites.js, repérés par REPERES_AUTOMATISMES ci-dessous : auras de pureté et de
+// froid, familier du chasseur, fin de l'Évasion d'agent, chute du Fût roulant).
 export const CAPACITES_EN_PARTIE = {
   "main-d-argent-chatiment-du-fleau": "La terreur ne frappe que les morts-vivants et les fiélons : la nature de la cible est connue du seul MJ, qui décide de lancer le jet de sauvegarde.",
-  "main-d-argent-aura-de-purete": "La protection des alliés dans l'aura : dnd5e 6.0.6 n'applique pas d'effet de zone permanent autour d'un personnage, seul le paladin la reçoit automatiquement.",
   "main-d-argent-champion": "La lumière vive émise par le champion : éclairage de scène, hors du modèle d'acteur.",
   "si-7-maitre-du-deguisement": "Se grimer en une minute sans matériel : permission de jeu, aucune clé d'acteur ne la porte.",
-  "si-7-evasion": "L'invisibilité cesse si l'espion attaque ou lance un sort : fin d'effet conditionnelle, retirée à la main.",
   "elements-avatar": "Regagner l'usage en dépensant un emplacement de niveau 5 : consommation alternative, appliquée par le joueur.",
   "chevalier-poigne-de-la-mort": "L'attraction jusqu'à un espace voisin : déplacement forcé de jeton, fait à la main ; l'entrave est appliquée par l'activité.",
-  "chevalier-aura-de-froid": "La résistance des alliés dans l'aura et le ralentissement des ennemis : dnd5e 6.0.6 n'applique pas d'effet de zone permanent autour d'un personnage.",
   "chevalier-armee-des-morts": "Les quatre goules : jetons posés par le MJ (profil de goule du bestiaire), qui disparaissent à la fin de la minute.",
   "totems-totems-elementaires": "Le totem est un repère sur la carte : la zone de 3 m suit le totem, pas le barbare ; le MJ choisit les cibles au moment de planter.",
-  "brasseur-fut-roulant": "L'état à terre en cas d'échec : dnd5e 6.0.6 n'applique pas d'état selon le résultat de la sauvegarde sans effet de durée ; posé à la main.",
-  "familier-compagnon": "Le familier est une fiche à part : son bonus de maîtrise et ses points de vie suivent le niveau du rôdeur, recopiés à la main.",
   "familier-frenesie-bestiale": "La seconde attaque du familier : action d'une autre fiche, jouée par le MJ ou le joueur ; seul le surcroît de dégâts est une activité.",
   "familier-aspect-de-la-meute": "L'avantage du familier : effet à poser sur sa propre fiche ; l'activité ne l'applique qu'au rôdeur.",
   "brasseur-ivresse-du-sage": "Le renversement d'un assaillant qui vous rate pendant l'Ivresse insondable : réaction jouée à la main, l'état à terre posé par le MJ."
 };
+
+// ---------- Repères des automatismes (scripts/capacites.js), posés après construction dans flags.lakour-warcraft :
+// objet (la capacité), effets (par rang) et activites (par rang, null pour en sauter une). Les automatismes ne lisent
+// jamais les noms.
+// - aura : { cle, classe, rayons: [[niveau de classe minimal, rayon en m]…], coupure, ralentit } sur la capacité, et
+//   { aura: cle } sur son effet transféré (celui que le MJ actif recopie sur les alliés du porteur). Aura de pureté :
+//   rayon de l'Aura de protection du paladin 2024 (3 m, 9 m au niveau 18 : échelle « aura » de dnd5e.classes24),
+//   éteinte quand le porteur est neutralisé (règle de l'Aura de protection). Aura de froid : 3 m, éteinte quand le
+//   porteur est inconscient ; l'ennemi qui commence son tour dedans perd 3 m de vitesse jusqu'à son tour suivant.
+// - evasion : l'invisibilité d'Évasion d'agent, retirée quand l'espion attaque ou lance un sort.
+// - aTerre : "echec" — une sauvegarde ratée contre cette capacité met la créature à terre.
+// - compagnon : la capacité qui donne le familier ; lierFamilier sur l'activité qui relie le jeton ciblé au rôdeur.
+export const REPERES_AUTOMATISMES = {
+  "main-d-argent-aura-de-purete": {
+    objet: { aura: { cle: "purete", classe: "paladin", rayons: [[1, 3], [18, 9]], coupure: "neutralise" } }, effets: [{ aura: "purete" }]
+  },
+  "chevalier-aura-de-froid": {
+    objet: { aura: { cle: "froid", classe: "paladin", rayons: [[1, 3]], coupure: "inconscient", ralentit: 3 } }, effets: [{ aura: "froid" }]
+  },
+  "si-7-evasion": { effets: [{ evasion: true }] },
+  "brasseur-fut-roulant": { objet: { aTerre: "echec" } },
+  "familier-compagnon": { objet: { compagnon: "rodeur" }, activites: [null, { lierFamilier: true }] }
+};
+function poserReperes(doc) {
+  const cle = doc.flags[MODULE].cle;
+  const r = REPERES_AUTOMATISMES[cle];
+  if (!r) return doc;
+  Object.assign(doc.flags[MODULE], structuredClone(r.objet ?? {}));
+  (r.effets ?? []).forEach((f, i) => {
+    exiger(doc.effects[i], `${PACK}:${cle} : repère pour l'effet n° ${i}, absent`);
+    if (f) doc.effects[i].flags = { ...doc.effects[i].flags, [MODULE]: { ...doc.effects[i].flags?.[MODULE], ...f } };
+  });
+  (r.activites ?? []).forEach((f, i) => {
+    const act = doc.system.activities[identifiant(`${PACK}:${cle}:activite:${i}`)];
+    exiger(act, `${PACK}:${cle} : repère pour l'activité n° ${i}, absente`);
+    if (f) act.flags = { ...act.flags, [MODULE]: { ...act.flags?.[MODULE], ...f } };
+  });
+  return doc;
+}
 
 // ---------- Avancements (forme dnd5e 6.0.6 : objet indexé par _id, libellé dans `name`).
 function avancement(base, n, type, configuration, { niveau, nom = "", indice = "", value = {} } = {}) {
@@ -852,9 +888,12 @@ const FAMILIER_SC = {
   capacites: [
     {
       cle: "familier-compagnon", nom: "Compagnon de chasse", niveau: 3, img: icone("creatures/abilities/paw-print-pair-purple"),
-      texte: "Une bête vous accompagne : utilisez la fiche « Familier du chasseur » du bestiaire (le MJ la pose sur la carte). Elle agit juste après vous dans l'ordre d'initiative, ajoute votre **bonus de maîtrise** à sa classe d'armure, à ses jets d'attaque et à ses dégâts, et a **5 + cinq fois votre niveau de rôdeur** points de vie. Si elle meurt, vous pouvez la ramener par un rituel d'**une heure** au chevet de son corps, une fois par **repos long**.",
+      texte: "Une bête vous accompagne : utilisez la fiche « Familier du chasseur » du bestiaire (le MJ la pose sur la carte). Elle agit juste après vous dans l'ordre d'initiative, ajoute votre **bonus de maîtrise** à sa classe d'armure, à ses jets d'attaque et à ses dégâts, et a **5 + cinq fois votre niveau de rôdeur** points de vie. Si elle meurt, vous pouvez la ramener par un rituel d'**une heure** au chevet de son corps, une fois par **repos long**.\n\n**Lier le familier.** Ciblez son jeton et utilisez l'activité « Lier le familier » : sa fiche suit ensuite votre niveau (points de vie, bonus de maîtrise), recopiée par le MJ.",
       utilisations: { max: 1, periode: "lr" },
-      activites: [{ type: "utility", nom: "Ramener le familier", activation: "hour", activationValeur: 1, condition: "Au chevet du corps du familier" }]
+      activites: [
+        { type: "utility", nom: "Ramener le familier", activation: "hour", activationValeur: 1, condition: "Au chevet du corps du familier" },
+        { type: "utility", nom: "Lier le familier", activation: "", condition: "Ciblez le jeton de votre familier", consomme: false, portee: ["", "any"], cible: ["1", "creature"] }
+      ]
     },
     {
       cle: "familier-ordre-de-chasse", nom: "Ordre de chasse", niveau: 3, img: icone("creatures/abilities/cougar-pounce-stalk-black"),
@@ -892,4 +931,4 @@ const CONSTRUITES = DEFINITIONS.map(sousClasse);
 
 // Les treize sous-classes (compendium « classes ») et leurs capacités (même compendium).
 export const SOUS_CLASSES = CONSTRUITES.map(c => c.sousClasse);
-export const CAPACITES_SOUS_CLASSES = CONSTRUITES.flatMap(c => c.capacites);
+export const CAPACITES_SOUS_CLASSES = CONSTRUITES.flatMap(c => c.capacites).map(poserReperes);

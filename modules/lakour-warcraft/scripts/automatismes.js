@@ -15,8 +15,8 @@
 // Tout est défensif : une API absente ou changée ne fait qu'éteindre l'automatisme ; une erreur (même asynchrone) est
 // écrite en console sans interrompre Foundry.
 export const ID = "lakour-warcraft";
-const drapeau = (doc, cle) => doc?.flags?.[ID]?.[cle];
-const liste = c => (c ? [...(c.contents ?? c)] : []);
+export const drapeau = (doc, cle) => doc?.flags?.[ID]?.[cle];
+export const liste = c => (c ? [...(c.contents ?? c)] : []);
 
 // ---------------------------------------------------------------- 1. Fureur
 
@@ -114,7 +114,7 @@ export function packDuLien(uuid) {
 
 // ---------------------------------------------------------------- Outils des hooks
 
-const avertir = (quoi, erreur) => console.warn(`${ID} | ${quoi}`, erreur);
+export const avertir = (quoi, erreur) => console.warn(`${ID} | ${quoi}`, erreur);
 
 // Hook « pre* » : appel synchrone, son retour (false pour annuler) est rendu tel quel ; une erreur est écrite, sans
 // rien annuler.
@@ -138,10 +138,11 @@ export async function pourChacun(elements, action, quoi = "boucle") {
   return n;
 }
 
-const surPre = (nom, fn) => globalThis.Hooks?.on?.(nom, enveloppeSynchrone(nom, fn));
-const sur = (nom, fn) => globalThis.Hooks?.on?.(nom, enveloppeAsynchrone(nom, fn));
-const estMjActif = () => Boolean(globalThis.game?.user) && game.user === game.users?.activeGM;
-const prevenir = (cle, donnees) => {
+// Outils partagés avec scripts/capacites.js et scripts/etabli.js.
+export const surPre = (nom, fn) => globalThis.Hooks?.on?.(nom, enveloppeSynchrone(nom, fn));
+export const sur = (nom, fn) => globalThis.Hooks?.on?.(nom, enveloppeAsynchrone(nom, fn));
+export const estMjActif = () => Boolean(globalThis.game?.user) && game.user === game.users?.activeGM;
+export const prevenir = (cle, donnees) => {
   try { ui.notifications?.warn(game.i18n.format(cle, donnees)); } catch { /* interface absente */ }
 };
 

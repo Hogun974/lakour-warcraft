@@ -1,0 +1,39 @@
+<section class="lakourwow-etabli" style="display: flex; flex-direction: column; gap: 0.5rem; padding: 0.25rem;">
+  {{#if recette}}
+  <label style="display: flex; gap: 0.5rem; align-items: center;">
+    <strong>{{localize "LAKOURWOW.Etabli.Recette"}}</strong>
+    <select name="recette" style="flex: 1;">
+      {{#each groupes}}
+      <optgroup label="{{nom}}">
+        {{#each recettes}}<option value="{{id}}" {{#if choisie}}selected{{/if}}>{{nom}}</option>{{/each}}
+      </optgroup>
+      {{/each}}
+    </select>
+  </label>
+
+  <p><strong>{{{lien}}}</strong> — {{localize "LAKOURWOW.Etabli.DD"}} {{recette.dd}} · {{localize "LAKOURWOW.Etabli.Temps"}} : {{recette.temps}}</p>
+
+  <ul style="margin: 0; padding-left: 1.2rem;">
+    <li>{{#if etat.maitrise}}<i class="fa-solid fa-check"></i>{{else}}<i class="fa-solid fa-xmark"></i>{{/if}}
+      {{localize "LAKOURWOW.Etabli.Outil"}} : {{recette.nomOutil}}</li>
+    <li>{{localize "LAKOURWOW.Etabli.Composants"}} :
+      <ul style="margin: 0; padding-left: 1.2rem;">
+        {{#each etat.composants}}
+        <li>{{#if ok}}<i class="fa-solid fa-check"></i>{{else}}<i class="fa-solid fa-xmark"></i>{{/if}} {{nombre}} × {{nom}} ({{a}})</li>
+        {{/each}}
+      </ul>
+    </li>
+    <li>{{localize "LAKOURWOW.Etabli.Fournitures"}} : {{recette.fournitures}} po ({{localize "LAKOURWOW.Etabli.Bourse"}} : {{bourse}} po)</li>
+  </ul>
+
+  <p style="font-size: 0.9em; opacity: 0.85;">{{localize "LAKOURWOW.Etabli.Regle"}}</p>
+
+  {{#each raisons}}<p style="margin: 0;"><i class="fa-solid fa-triangle-exclamation"></i> {{this}}</p>{{/each}}
+
+  <button type="button" data-action="fabriquer" {{#unless possible}}disabled{{/unless}}>
+    <i class="fa-solid fa-hammer"></i> {{localize "LAKOURWOW.Etabli.Fabriquer"}}
+  </button>
+  {{else}}
+  <p>{{localize "LAKOURWOW.Etabli.Aucune"}}</p>
+  {{/if}}
+</section>

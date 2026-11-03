@@ -162,7 +162,11 @@
       "showIcon": 1,
       "folder": null,
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "lakour-warcraft": {
+          "evasion": true
+        }
+      },
       "_stats": {
         "coreVersion": "14.369",
         "systemId": "dnd5e",
@@ -181,7 +185,7 @@
       "sousClasse": "espion-du-si-7",
       "classe": "rogue",
       "niveau": 13,
-      "automatisation": "partielle"
+      "automatisation": "complete"
     }
   },
   "_stats": {

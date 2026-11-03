@@ -2,7 +2,7 @@
 // dnd5e du bestiaire, posé par le MJ ; ses chiffres de base valent pour un rôdeur de niveau 3, et le trait « Lien du
 // chasseur » dit comment les ajuster au niveau du rôdeur (bonus de maîtrise, points de vie). Textes originaux.
 import { action, attaque, pnj, trait } from "./acteurs.mjs";
-import { collection } from "./aides.mjs";
+import { MODULE, collection } from "./aides.mjs";
 
 export const COMPAGNONS = collection("compagnons", [
   pnj({ cle: "familier-du-chasseur", nom: "Familier du chasseur", fp: 0.5, type: "bête", alignement: "Non aligné",
@@ -14,5 +14,8 @@ export const COMPAGNONS = collection("compagnons", [
       action("Se jeter devant", "Quand une créature que le familier voit attaque son rôdeur à 1,5 m de lui, il impose le désavantage au jet d'attaque.", { activation: "réaction" })
     ],
     texte: "Une bête fidèle, loup, raptor ou grand félin, qui ne quitte pas son chasseur d'une semelle et grogne avant même qu'on ait sorti une lame.",
-    mj: "Fiche de base du familier de la sous-classe « Chasseur et son familier » (rôdeur). Posez-le près de son rôdeur, avec l'allégeance du groupe. Recalculez ses PV (5 + 5 × niveau de rôdeur) et ajoutez à sa CA, à son toucher et à ses dégâts la différence entre le bonus de maîtrise du rôdeur et +2. Il ne fuit pas tant que son rôdeur est debout." })
+    mj: "Fiche de base du familier de la sous-classe « Chasseur et son familier » (rôdeur). Posez-le près de son rôdeur, avec l'allégeance du groupe. Le rôdeur cible son jeton et utilise « Lier le familier » (capacité Compagnon de chasse), ou le MJ appelle lierFamilier dans l'API du module : ses PV (5 + 5 × niveau de rôdeur) et l'écart entre le bonus de maîtrise du rôdeur et +2 (effet « Lien du chasseur » : CA, toucher, dégâts) suivent alors le rôdeur d'eux-mêmes. Il ne fuit pas tant que son rôdeur est debout." })
 ]);
+// Repère de scripts/capacites.js : la règle du « Lien du chasseur » (PV = pvDeBase + pvParNiveau × niveau de la classe ;
+// CA, toucher et dégâts + (bonus de maîtrise du rôdeur − maitriseDeBase), la fiche comptant déjà maitriseDeBase).
+COMPAGNONS[0].flags[MODULE].familier = { classe: "ranger", pvDeBase: 5, pvParNiveau: 5, maitriseDeBase: 2 };

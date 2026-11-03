@@ -166,7 +166,8 @@
       "sousClasse": "voie-du-maitre-brasseur",
       "classe": "monk",
       "niveau": 11,
-      "automatisation": "partielle"
+      "automatisation": "complete",
+      "aTerre": "echec"
     }
   },
   "_stats": {

@@ -81,7 +81,11 @@
       "showIcon": 1,
       "folder": null,
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "lakour-warcraft": {
+          "aura": "purete"
+        }
+      },
       "_stats": {
         "coreVersion": "14.369",
         "systemId": "dnd5e",
@@ -100,7 +104,22 @@
       "sousClasse": "serment-de-la-main-d-argent",
       "classe": "paladin",
       "niveau": 7,
-      "automatisation": "partielle"
+      "automatisation": "complete",
+      "aura": {
+        "cle": "purete",
+        "classe": "paladin",
+        "rayons": [
+          [
+            1,
+            3
+          ],
+          [
+            18,
+            9
+          ]
+        ],
+        "coupure": "neutralise"
+      }
     }
   },
   "_stats": {

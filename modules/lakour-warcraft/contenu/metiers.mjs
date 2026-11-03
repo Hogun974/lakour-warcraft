@@ -165,7 +165,21 @@ const ligneRecette = metier => ([produit, composants, dd, temps]) => {
   return `- **${lien(`objets:${produit}`)}** (${QUALITE[p.system.rarity ?? ""]}) — ${liste} ; ${jet(METIERS_ARTISANAT[metier].outil, dd)} ; ${temps} ; ${cout} po de fournitures.`;
 };
 
-const REGLE_ARTISANAT = "Il faut maîtriser l'outil du métier, avoir les composants et payer les fournitures (fioles, charbon, sel, mèches). À la fin du temps indiqué, faites le test d'outil. **Réussite** : l'objet est prêt. **Réussite de 5 ou plus au-dessus du DD** : pour un consommable, un exemplaire de plus. **Échec** : les fournitures sont perdues, les composants gardés. **Échec de 5 ou plus** : les composants sont perdus aussi.";
+const REGLE_ARTISANAT = "Il faut maîtriser l'outil du métier, avoir les composants et payer les fournitures (fioles, charbon, sel, mèches). À la fin du temps indiqué, faites le test d'outil. **Réussite** : l'objet est prêt. **Réussite de 5 ou plus au-dessus du DD** : pour un consommable, un exemplaire de plus. **Échec** : les fournitures sont perdues, les composants gardés. **Échec de 5 ou plus** : les composants sont perdus aussi. **L'établi** (bouton « Établi » en tête de la fiche de personnage) vérifie l'outil, les composants et l'or, lance le test et applique ce résultat.";
+
+// Recettes lues par l'établi (scripts/etabli.js), posées en flags.lakour-warcraft.recettes du journal « Recettes
+// d'artisanat » : le produit par son uuid de compendium (résolu par le fabricant), les composants par leur clé (drapeau
+// « cle » des objets d'un inventaire, jamais leur nom), l'outil par sa clé dnd5e et les fournitures par fournituresDe.
+export const RECETTES_ETABLI = Object.entries(RECETTES).flatMap(([metier, liste]) => liste.map(([produit, composants, dd, temps]) => {
+  const p = objet(produit);
+  return {
+    id: `${metier}:${produit}`, metier, nomMetier: METIERS_ARTISANAT[metier].nom,
+    outil: METIERS_ARTISANAT[metier].outilDnd, nomOutil: METIERS_ARTISANAT[metier].outil,
+    produit: { cle: produit, nom: p.name, uuid: { __ref: p.__cle, __uuid: true } }, consommable: p.type === "consumable",
+    composants: composants.map(([c, nombre]) => ({ cle: c, nom: objet(c).name, nombre })),
+    dd, temps, fournitures: fournituresDe(prixPo(p), valeurComposants(composants, c => prixPo(objet(c))))
+  };
+}));
 
 export const JOURNAL_RECETTES = journal({
   cle: "recettes-d-artisanat", nom: "Recettes d'artisanat", visible: true, pages: [
@@ -176,6 +190,7 @@ export const JOURNAL_RECETTES = journal({
 ${RECETTES[cle].map(ligneRecette(cle)).join("\n")}` }))
   ]
 });
+JOURNAL_RECETTES.flags[MODULE].recettes = RECETTES_ETABLI;
 
 // ---------------------------------------------------------------- Tables de récolte par biome
 
@@ -227,7 +242,7 @@ Une heure de récolte donne une chance de trouver un composant selon le pays tra
 - **Ingénierie gobeline et gnome** (outils de bricoleur) : bombes, fusées, lunettes, mécanismes.
 - **Cuisine** (ustensiles de cuisinier) : les repas « bien nourri ».
 
-Les recettes, avec leurs composants, leur test, leur temps et leur coût, sont dans ${lienTables("journaux:recettes-d-artisanat")}.` }]);
+Les recettes, avec leurs composants, leur test, leur temps et leur coût, sont dans ${lienTables("journaux:recettes-d-artisanat")}. Le bouton **« Établi »**, en tête de votre fiche de personnage, choisit la recette, vérifie l'outil, les composants et l'or, lance le test d'outil et range l'objet fabriqué dans votre inventaire.` }]);
 
 ajouterPages(guideMJ, [{
   titre: "Métiers : récolte et artisanat (MJ)", texte: `
@@ -239,6 +254,8 @@ ${TABLES_RECOLTE.map(t => `- ${lienTables(`tables:${t.flags[MODULE].cle}`)}`).jo
 **Artisanat.** Un objet se fabrique pendant le temps libre ou au camp, jamais en combat. Le temps indiqué peut se fractionner sur plusieurs jours. Les recettes sont dans ${lienTables("journaux:recettes-d-artisanat")}. Un objet rare (flacon des Titans de pierre, flacon de peau-de-pierre) demande un composant rare, la veine de mithril : c'est une bonne raison de partir en expédition.
 
 **Équilibre.** Fabriquer coûte la moitié du prix de vente (arrondie à la po supérieure) : la valeur des composants au prix du marchand, plus les fournitures indiquées dans la recette, qui complètent. L'artisanat fait gagner de l'argent, pas une fortune. Un intendant de faction rachète les composants à la moitié de leur valeur, et les vend à leur valeur moins sa remise de réputation.
+
+**Établi.** Chaque joueur fabrique seul depuis sa fiche (bouton « Établi », ou l'API du module : ouvrirEtabli). L'établi n'écrit que sur la fiche du fabricant : or des fournitures, composants retirés selon la règle, objet du compendium du module ajouté (deux exemplaires d'un consommable sur une réussite de 5 ou plus), et un message dans le chat. Le temps de fabrication reste à votre arbitrage.
 
 **Pour le MJ IA.** Les composants portent un drapeau « metier » (herboristerie, minage, depecage) et les produits nouveaux aussi (forge, ingenierie) : le butin d'une bête ou d'un filon peut se distribuer directement depuis la table du biome.` }]);
 

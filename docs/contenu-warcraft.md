@@ -189,6 +189,29 @@ pièce de fond peut couvrir toute la carte, les bâtiments posés par-dessus (la
 Les **éléments nommés** (comptoir, puits, autel, moteur à éclat…) sont les repères du MJ IA pour placer les jetons ;
 `assets/cartes/plans.json` les recopie pour l'installateur.
 
+## Automatismes (scripts/)
+
+Repérés par des drapeaux `flags["lakour-warcraft"]` posés par le contenu, jamais par les noms ; seul le MJ actif écrit
+(sauf l'établi, qui n'écrit que sur la fiche de son propriétaire). Logique pure exportée, éprouvée par mutations
+(`essais/warcraft-automatismes`, `warcraft-capacites`, `warcraft-etabli`).
+
+| Fichier | Automatisme | Repères |
+|---|---|---|
+| `automatismes.js` | fureur, effets uniques, ensembles, phase 2 des boss, liens morts du chat | `fureur`, `unique`, `ensemble`, `boss` |
+| `capacites.js` | Aura de pureté et Aura de froid (copie de l'effet sur les alliés du rayon, ralentissement des ennemis au début de leur tour) | `aura` (capacité et effet), `auraRecue`, `auraRalenti` |
+| `capacites.js` | familier du chasseur (PV et « Lien du chasseur » suivent le rôdeur) | `familier` (fiche), `compagnon`, `lierFamilier` (activité), `rodeur`, `lienChasseur` |
+| `capacites.js` | Évasion d'agent : l'invisibilité tombe à l'attaque ou au sort | `evasion` (effet) |
+| `capacites.js` | Fût roulant : à terre sur sauvegarde ratée (message `save` relié à son activité par `system.activity`) | `aTerre`, `futRoulant` |
+| `etabli.js` | établi d'artisanat (fenêtre ApplicationV2, contrôle « Établi » des fiches de personnage) | `recettes` (journal des recettes), `cle` (composants, produits) |
+
+API (`game.modules.get("lakour-warcraft").api`) : `installer()`, `cheminSelonStyle()`, `lierFamilier(familier, rodeur)`,
+`ouvrirEtabli(acteur)`. Ce qui reste au MJ est listé, avec sa raison, dans `CAPACITES_EN_PARTIE` (`contenu/sous-classes.mjs`).
+
+Choix tranchés : un porteur d'aura **neutre** (ou secret) ne la donne à personne, un PJ (amical) la donne aux jetons
+amicaux ; le rayon (en mètres) est converti dans l'unité de la scène (`grid.units`), unité inconnue = pas d'aura ;
+seul un propriétaire du familier, ou un MJ, peut le lier ; l'établi prend un verrou par acteur, relit l'inventaire après
+le jet et n'écrit rien s'il manque quoi que ce soit ; le contrôle « Établi » n'a qu'un `onClick` (pas d'`action`).
+
 ## Jetons
 
 `outils/fabriquer-jetons-warcraft.mjs` dessine des SVG autonomes de 400×400 (silhouettes de **game-icons.net**,
