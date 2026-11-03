@@ -161,7 +161,7 @@ function effet(base, parent, i, e, img, ou) {
 }
 
 // Activité dnd5e. a = { type, nom, activation, condition, duree: [valeur, unité], portee: [valeur en m, "m"],
-// activationValeur (ex. 10 pour « 10 minutes »), cible: [nombre, type], gabarit: [type, taille en m], consomme, soin: { des, bonus, type }, degats: [{ des, bonus, types }],
+// activationValeur (ex. 10 pour « 10 minutes »), cible: [nombre, type], gabarit: [type, taille en m], fixe (gabarit qui ne suit pas le jeton : target.template.stationary), consomme, soin: { des, bonus, type }, degats: [{ des, bonus, types }],
 // sauvegarde: { carac: [...], dd: "con" | nombre, reussite: "half" | "none" }, attaque: { type, carac, classement },
 // jet: { nom, formule }, effets: [indices des effets du document] }
 const TYPES_ACTIVITE = ["utility", "heal", "damage", "save", "attack"];
@@ -190,7 +190,7 @@ function activite(base, i, a, idsEffets, avecUtilisations, ou) {
     effects: effets,
     range: { value: String(porteeValeur), units: porteeUnite, special: "", override: false },
     target: {
-      template: { count: "", contiguous: false, type: gabarit, size: String(taille), width: "", height: "", units: UNITES, stationary: false },
+      template: { count: "", contiguous: false, type: gabarit, size: String(taille), width: "", height: "", units: UNITES, stationary: Boolean(a.fixe) },
       affects: { count: String(cibleNombre), type: cibleType, choice: false, special: "" }, prompt: Boolean(gabarit), override: false
     },
     uses: { spent: 0, recovery: [], max: "" },

@@ -100,24 +100,15 @@ function sortDe(s, ou) {
 }
 
 // ---------- Automatisation : ce que le MJ applique encore (le reste est porté par effets, activités et avancements, ou
-// par les automatismes de scripts/capacites.js, repérés par REPERES_AUTOMATISMES ci-dessous : auras de pureté et de
-// froid, familier du chasseur, fin de l'Évasion d'agent, chute du Fût roulant).
+// par les automatismes de scripts/capacites.js et scripts/capacites-suite.js, repérés par REPERES_AUTOMATISMES
+// ci-dessous).
 export const CAPACITES_EN_PARTIE = {
-  "main-d-argent-chatiment-du-fleau": "La terreur ne frappe que les morts-vivants et les fiélons : la nature de la cible est connue du seul MJ, qui décide de lancer le jet de sauvegarde.",
-  "main-d-argent-champion": "La lumière vive émise par le champion : éclairage de scène, hors du modèle d'acteur.",
-  "si-7-maitre-du-deguisement": "Se grimer en une minute sans matériel : permission de jeu, aucune clé d'acteur ne la porte.",
-  "elements-avatar": "Regagner l'usage en dépensant un emplacement de niveau 5 : consommation alternative, appliquée par le joueur.",
-  "chevalier-poigne-de-la-mort": "L'attraction jusqu'à un espace voisin : déplacement forcé de jeton, fait à la main ; l'entrave est appliquée par l'activité.",
-  "chevalier-armee-des-morts": "Les quatre goules : jetons posés par le MJ (profil de goule du bestiaire), qui disparaissent à la fin de la minute.",
-  "totems-totems-elementaires": "Le totem est un repère sur la carte : la zone de 3 m suit le totem, pas le barbare ; le MJ choisit les cibles au moment de planter.",
-  "familier-frenesie-bestiale": "La seconde attaque du familier : action d'une autre fiche, jouée par le MJ ou le joueur ; seul le surcroît de dégâts est une activité.",
-  "familier-aspect-de-la-meute": "L'avantage du familier : effet à poser sur sa propre fiche ; l'activité ne l'applique qu'au rôdeur.",
-  "brasseur-ivresse-du-sage": "Le renversement d'un assaillant qui vous rate pendant l'Ivresse insondable : réaction jouée à la main, l'état à terre posé par le MJ."
+  "si-7-maitre-du-deguisement": "Se grimer en une minute sans matériel et passer pour une autre personne : permission de jeu et apparence jugées par le MJ, aucune clé d'acteur ne les porte (seul l'avantage aux tests est un effet)."
 };
 
-// ---------- Repères des automatismes (scripts/capacites.js), posés après construction dans flags.lakour-warcraft :
-// objet (la capacité), effets (par rang) et activites (par rang, null pour en sauter une). Les automatismes ne lisent
-// jamais les noms.
+// ---------- Repères des automatismes (scripts/capacites.js, scripts/capacites-suite.js), posés après construction dans
+// flags.lakour-warcraft : objet (la capacité), effets (par rang, null pour en sauter un) et activites (par rang, null
+// pour en sauter une). Les automatismes ne lisent jamais les noms.
 // - aura : { cle, classe, rayons: [[niveau de classe minimal, rayon en m]…], coupure, ralentit } sur la capacité, et
 //   { aura: cle } sur son effet transféré (celui que le MJ actif recopie sur les alliés du porteur). Aura de pureté :
 //   rayon de l'Aura de protection du paladin 2024 (3 m, 9 m au niveau 18 : échelle « aura » de dnd5e.classes24),
@@ -126,6 +117,15 @@ export const CAPACITES_EN_PARTIE = {
 // - evasion : l'invisibilité d'Évasion d'agent, retirée quand l'espion attaque ou lance un sort.
 // - aTerre : "echec" — une sauvegarde ratée contre cette capacité met la créature à terre.
 // - compagnon : la capacité qui donne le familier ; lierFamilier sur l'activité qui relie le jeton ciblé au rôdeur.
+// - typesVises : types de créature (CONFIG.DND5E.creatureTypes) que visent la sauvegarde et son effet (Châtiment du Fléau).
+// - lumiere : { vive (m) } — l'effet fait émettre une lumière vive aux jetons du porteur (Champion de la Lumière).
+// - recharge : l'activité qui regagne l'utilisation en dépensant un emplacement (consommation dnd5e, voir capaciteDe).
+// - attire : "echec" — une sauvegarde ratée attire la créature jusqu'à un espace libre voisin (Poigne de la mort).
+// - armee : { profil (clé du bestiaire), nombre, portee (m), duree (s) } sur l'activité, armee sur l'effet du chevalier.
+// - totem : { cible: "allies" | "hostiles", rayon (m, autour du totem), portee (m, du barbare au totem) } par activité.
+// - meute : l'effet recopié sur les familiers liés ; frenesie : la capacité recopiée sur leur fiche.
+// - ivresse : l'effet « Ivresse insondable » ; renverser : la réaction qui met l'assaillant à terre.
+const REPERE_TOTEM = cible => ({ totem: { cible, rayon: 3, portee: 3 } });
 export const REPERES_AUTOMATISMES = {
   "main-d-argent-aura-de-purete": {
     objet: { aura: { cle: "purete", classe: "paladin", rayons: [[1, 3], [18, 9]], coupure: "neutralise" } }, effets: [{ aura: "purete" }]
@@ -135,7 +135,16 @@ export const REPERES_AUTOMATISMES = {
   },
   "si-7-evasion": { effets: [{ evasion: true }] },
   "brasseur-fut-roulant": { objet: { aTerre: "echec" } },
-  "familier-compagnon": { objet: { compagnon: "rodeur" }, activites: [null, { lierFamilier: true }] }
+  "familier-compagnon": { objet: { compagnon: "rodeur" }, activites: [null, { lierFamilier: true }] },
+  "main-d-argent-chatiment-du-fleau": { effets: [{ typesVises: ["undead", "fiend"] }], activites: [null, { typesVises: ["undead", "fiend"] }] },
+  "main-d-argent-champion": { effets: [{ lumiere: { vive: 9 } }] },
+  "elements-avatar": { activites: [null, { recharge: true }] },
+  "chevalier-poigne-de-la-mort": { objet: { attire: "echec" } },
+  "chevalier-armee-des-morts": { effets: [{ armee: true }], activites: [{ armee: { profil: "goule", nombre: 4, portee: 9, duree: 60 } }] },
+  "totems-totems-elementaires": { activites: [REPERE_TOTEM("allies"), REPERE_TOTEM("allies"), REPERE_TOTEM("hostiles")] },
+  "familier-aspect-de-la-meute": { effets: [{ meute: true }] },
+  "familier-frenesie-bestiale": { objet: { frenesie: true } },
+  "brasseur-ivresse-du-sage": { effets: [null, { ivresse: true }], activites: [null, { renverser: true }] }
 };
 function poserReperes(doc) {
   const cle = doc.flags[MODULE].cle;
@@ -174,17 +183,26 @@ function capaciteDe(sc, c, nomSousClasse) {
       if (!/^\d+d\d+$/.test(p.des ?? "")) exiger(!p.bonus, `${ou} : bonus « ${p.bonus} » ignoré par la formule libre « ${p.des} »`);
     }
     if (a.depense) exiger(CIBLES_CONSOMMATION[sc.classe]?.includes(a.depense), `${ou} : « ${a.depense} » n'est pas une ressource du ${classe.nom}`);
+    if (a.recharge) {
+      exiger(c.utilisations, `${ou} : recharge sans utilisation à regagner`);
+      exiger(Number.isInteger(a.recharge) && a.recharge >= 1 && a.recharge <= niveauSortMax(classe.incantation, niveau), `${ou} : emplacement de niveau ${a.recharge} hors de portée d'un ${classe.nom} de niveau ${niveau}`);
+    }
   }
   const portePar = maitrises || liste ? "sous-classe" : null;
   const automatisation = CAPACITES_EN_PARTIE[c.cle] ? "partielle" : "complete";
-  const doc = capacite(PACK, { ...d, activites: (d.activites ?? []).map(a => (a.depense ? { ...a, consomme: false } : a)) }, {
+  const doc = capacite(PACK, { ...d, activites: (d.activites ?? []).map(a => (a.depense || a.recharge ? { ...a, consomme: false } : a)) }, {
     type: "class", sousType: "", niveau, exigences: nomSousClasse,
     drapeaux: { sousClasse: sc.cle, classe: sc.classe, niveau, automatisation, ...(portePar ? { portePar } : {}), ...(liste ? { liste: "sorts" } : {}) }
   });
+  // Recharge (consommation native de dnd5e, ConsumptionTargetData) : l'utilisation revient (itemUses −1 sur la
+  // capacité) contre un emplacement de sort du niveau donné (spellSlots, cible = niveau).
   (d.activites ?? []).forEach((a, i) => {
-    if (!a.depense) return;
+    if (!a.depense && !a.recharge) return;
     const act = doc.system.activities[identifiant(`${ou}:activite:${i}`)];
-    act.consumption.targets = [{ type: "itemUses", value: "1", target: a.depense, scaling: { mode: "", formula: "" } }];
+    act.consumption.targets = a.depense
+      ? [{ type: "itemUses", value: "1", target: a.depense, scaling: { mode: "", formula: "" } }]
+      : [{ type: "itemUses", value: "-1", target: "", scaling: { mode: "", formula: "" } },
+        { type: "spellSlots", value: "1", target: String(a.recharge), scaling: { mode: "", formula: "" } }];
   });
   // Formules : @scale.<cette sous-classe>.<échelle déclarée>, @classes.<sa classe>.levels.
   const json = JSON.stringify(doc.system.activities) + JSON.stringify(doc.effects);
@@ -324,7 +342,10 @@ const ELEMENTS_SC = {
         nom: "Incarnation des éléments", transfert: false, duree: [1, "minutes"], texte: "Vol 9 m ; résistance au feu, au froid, à la foudre et au tonnerre.",
         changements: [["system.attributes.movement.speeds.fly", "9", "upgrade"], ...ELEMENTS.map(t => ["system.traits.dr.value", t])]
       }],
-      activites: [{ type: "utility", nom: "Incarner les éléments", activation: "bonus", duree: [1, "minute"], effets: [0] }]
+      activites: [
+        { type: "utility", nom: "Incarner les éléments", activation: "bonus", duree: [1, "minute"], effets: [0] },
+        { type: "utility", nom: "Regagner l'avatar", activation: "", condition: "Utilisation dépensée : regagnez-la en dépensant un emplacement de sort de niveau 5", recharge: 5 }
+      ]
     }
   ]
 };
@@ -755,9 +776,9 @@ const TOTEMS_SC = {
         { nom: "Totem des vents", transfert: false, duree: [1, "minutes"], changements: [["system.attributes.movement.speeds.walk", "3"]] }
       ],
       activites: [
-        { type: "utility", nom: "Planter le totem de peau de pierre", activation: "bonus", gabarit: ["radius", 3], cible: ["", "ally"], duree: [1, "minute"], effets: [0] },
-        { type: "utility", nom: "Planter le totem des vents", activation: "bonus", gabarit: ["radius", 3], cible: ["", "ally"], duree: [1, "minute"], effets: [1] },
-        { type: "save", nom: "Planter le totem de magma", activation: "bonus", gabarit: ["radius", 3], cible: ["", "enemy"], sauvegarde: { carac: ["dex"], dd: "con", reussite: "half" }, degats: [{ des: "@scale.voie-du-chaman-des-totems.magma", types: ["fire"] }] }
+        { type: "utility", nom: "Planter le totem de peau de pierre", activation: "bonus", gabarit: ["radius", 3], fixe: true, cible: ["", "ally"], duree: [1, "minute"], effets: [0] },
+        { type: "utility", nom: "Planter le totem des vents", activation: "bonus", gabarit: ["radius", 3], fixe: true, cible: ["", "ally"], duree: [1, "minute"], effets: [1] },
+        { type: "save", nom: "Planter le totem de magma", activation: "bonus", gabarit: ["radius", 3], fixe: true, cible: ["", "enemy"], sauvegarde: { carac: ["dex"], dd: "con", reussite: "half" }, degats: [{ des: "@scale.voie-du-chaman-des-totems.magma", types: ["fire"] }] }
       ]
     },
     {
@@ -830,7 +851,10 @@ const BRASSEUR_SC = {
         { nom: "Ivresse du sage", changements: [["system.traits.dr.value", "poison"], ["system.traits.ci.value", "poisoned"], ["system.abilities.con.save.roll.mode", 1]] },
         { nom: "Ivresse insondable", transfert: false, duree: [1, "minutes"], changements: [["system.traits.dr.value", "bludgeoning"], ["system.traits.dr.value", "piercing"], ["system.traits.dr.value", "slashing"]] }
       ],
-      activites: [{ type: "utility", nom: "Vider le tonneau", activation: "bonus", duree: [1, "minute"], effets: [1] }]
+      activites: [
+        { type: "utility", nom: "Vider le tonneau", activation: "bonus", duree: [1, "minute"], effets: [1] },
+        { type: "utility", nom: "Renverser l'assaillant", activation: "reaction", condition: "Pendant l'Ivresse insondable, une créature vous rate avec une attaque au corps à corps", consomme: false, portee: ["", "any"], cible: ["1", "creature"] }
+      ]
     }
   ]
 };

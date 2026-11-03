@@ -8,7 +8,9 @@
 //    effet est désactivé sur la fiche, quand le porteur tombe à 0 PV ou est inconscient (ou neutralisé, pour l'Aura de
 //    pureté : règle de l'Aura de protection). « Les créatures de votre choix » de l'Aura de froid sont les jetons de même
 //    allégeance. Seules les allégeances amicale et hostile ont des alliés : un porteur neutre (ou secret) ne donne son
-//    aura à personne ; un PJ, amical, la donne aux jetons amicaux. Recalcul différé (un seul à la fois) au déplacement, à la création ou à la suppression d'un jeton, au
+//    aura à personne ; un PJ, amical, la donne aux jetons amicaux. Positions lues dans la source du jeton (destination
+//    du déplacement : en Foundry 14, x/y valent la position animée pendant l'animation). Recalcul différé (un seul à la
+//    fois) au déplacement (updateToken, moveToken), à la création ou à la suppression d'un jeton, au
 //    changement de tour, de scène active, de PV, d'effets ou de niveau ; seuls les écarts sont écrits (pas de boucle :
 //    les effets posés ici ne relancent pas le calcul). Ralentissement (drapeau ralentit) : au début du tour d'une
 //    créature d'allégeance opposée dans l'aura, effet marqué flags.auraRalenti (vitesses − 3 m, ou − 10 pi si sa fiche
@@ -265,8 +267,15 @@ export function metATerre({ type, marque, rolls, resiste, aTerre, immunise } = {
 
 // ---------------------------------------------------------------- Hooks : 5. Auras (MJ actif)
 
-const geometrie = t => ({ x: t.x, y: t.y, width: t.width, height: t.height, elevation: t.elevation, level: t.level });
-function grilleDe(scene) {
+// Position d'un jeton pour les calculs : celle de la SOURCE (destination du déplacement). En Foundry 14, pendant
+// l'animation d'un déplacement, TokenDocument#x/y/elevation valent la position animée (interpolée) ; _source porte la
+// destination dès le hook updateToken/moveToken (TokenDocument#movement.destination est lue dans _source).
+export function positionJeton(t) {
+  const s = t?._source ?? t ?? {};
+  return { x: s.x, y: s.y, width: s.width, height: s.height, elevation: s.elevation, level: s.level };
+}
+const geometrie = positionJeton;
+export function grilleDe(scene) {
   const g = scene?.grid ?? {};
   let diagonals = g.diagonals;
   if (diagonals === undefined) {
@@ -331,6 +340,8 @@ const estNotreEffet = e => Boolean(drapeau(e, "auraRecue") || drapeau(e, "auraRa
 sur("updateToken", (jeton, changements) => {
   if (estSurSceneActive(jeton) && CHAMPS_JETON.some(k => k in (changements ?? {}))) planifierAuras();
 });
+// Foundry 14 : un déplacement passe par le hook moveToken (TokenDocument#_onUpdateMovement), en plus d'updateToken.
+sur("moveToken", jeton => { if (estSurSceneActive(jeton)) planifierAuras(); });
 sur("createToken", jeton => { if (estSurSceneActive(jeton)) planifierAuras(); });
 sur("deleteToken", jeton => { if (estSurSceneActive(jeton)) planifierAuras(); });
 sur("deleteActor", () => planifierAuras());
@@ -399,7 +410,7 @@ async function resoudreFamilier(x) {
 }
 
 // Familiers liés à un rôdeur : fiches du monde (le lien est toujours posé sur elles, jetons liés).
-function familiersDe(rodeur) {
+export function familiersDe(rodeur) {
   return liste(game.actors).filter(a => drapeau(a, "familier") && drapeau(a, "rodeur") === rodeur.uuid);
 }
 

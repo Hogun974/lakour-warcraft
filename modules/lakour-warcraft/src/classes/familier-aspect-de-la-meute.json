@@ -168,7 +168,11 @@
       "showIcon": 1,
       "folder": null,
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "lakour-warcraft": {
+          "meute": true
+        }
+      },
       "_stats": {
         "coreVersion": "14.369",
         "systemId": "dnd5e",
@@ -187,7 +191,7 @@
       "sousClasse": "chasseur-et-son-familier",
       "classe": "ranger",
       "niveau": 15,
-      "automatisation": "partielle"
+      "automatisation": "complete"
     }
   },
   "_stats": {

@@ -3,18 +3,21 @@
 // plans des cartes pour le placement des jetons, style visuel plat ou relief.
 import "./automatismes.js";   // Fureur, ensembles, phase 2 des boss, liens morts du chat (hooks défensifs)
 import { lierFamilier } from "./capacites.js";   // Auras, familier du chasseur, Évasion d'agent, Fût roulant (hooks défensifs)
+import "./capacites-suite.js";                    // Fléau, Champion, Avatar, Poigne, Armée des morts, meute, frénésie, totems, Ivresse
 import { ouvrirEtabli } from "./etabli.js";      // Établi d'artisanat (fenêtre ouverte depuis la fiche de personnage)
 import { enregistrerFetes } from "./fetes.js";   // Fêtes de saison des Tarides, enregistrées auprès du MJ IA (crochet « lakour-mj-ia.pret »)
 
 const ID = "lakour-warcraft";
-const VERSION_CONTENU = "0.9.0";   // 0.4.0 : journaux liés (@UUID, jets), listes de sorts, cartes vivantes (sons, zones, épingles) ;
+const VERSION_CONTENU = "0.10.0";   // 0.4.0 : journaux liés (@UUID, jets), listes de sorts, cartes vivantes (sons, zones, épingles) ;
                                    // 0.4.2 : one-shot « Une nuit aux Deux Lanternes » (journaux, cartes et dossier proposés aux mondes déjà installés) ;
                                    // 0.5.0 : Tarides vivantes (contrats, donjon de Mèche-Noire, montures et routes aériennes, rares,
                                    //         consommables, réputation : journaux et horloges de réputation des factions) ;
                                    // 0.6.0 : automatismes (fureur, ensemble, phase 2 des boss) et drapeaux qui les repèrent ;
                                    // 0.7.0 : métiers (recettes, pages des guides), cinq sous-classes, garnison de faction ;
                                    // 0.8.0 : établi d'artisanat (recettes lues par l'établi, guides), lien du familier ;
-                                   // 0.9.0 : fêtes de saison (journaux, contrats, objets ; page du guide du MJ)
+                                   // 0.9.0 : fêtes de saison (journaux, contrats, objets ; page du guide du MJ) ;
+                                   // 0.10.0 : capacités de sous-classe automatisées (repères, activités « Regagner l'avatar »
+                                   //          et « Renverser l'assaillant »)
 
 // Factions dont le MJ IA suit la réputation (horloge « rep-<clé> », type « reputation »). Même liste, dans le même ordre,
 // que REPUTATIONS de contenu/reputations.mjs (vérifié par essais/warcraft-tarides-vivantes.test.mjs).

@@ -277,7 +277,13 @@
       "showIcon": 1,
       "folder": null,
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "lakour-warcraft": {
+          "lumiere": {
+            "vive": 9
+          }
+        }
+      },
       "_stats": {
         "coreVersion": "14.369",
         "systemId": "dnd5e",
@@ -296,7 +302,7 @@
       "sousClasse": "serment-de-la-main-d-argent",
       "classe": "paladin",
       "niveau": 20,
-      "automatisation": "partielle"
+      "automatisation": "complete"
     }
   },
   "_stats": {

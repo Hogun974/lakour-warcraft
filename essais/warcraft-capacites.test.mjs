@@ -38,6 +38,18 @@ function batterieAuras(f) {
     ok(presque(d(j(0, 0), { x: 150, y: 0, width: 1, height: 1 }, { ...GRILLE, type: 0 }), 2.25), "sans grille : distance continue");
   });
 
+  essai("position", () => {
+    // Doublure d'un TokenDocument de Foundry 14 en plein déplacement animé : x/y/elevation valent la position
+    // interpolée, _source la destination (mesuré en jeu : x = 649,98 quand _source.x = 1300).
+    const anime = { x: 649.98, y: 0, elevation: 0, width: 1, height: 1, level: "n", _source: { x: 1300, y: 0, elevation: 3, width: 1, height: 1, level: "n" } };
+    const p = f.positionJeton(anime);
+    ok(p.x === 1300 && p.elevation === 3, "position lue dans la source (destination), pas la position animée");
+    ok(f.positionJeton({ x: 100, y: 200, width: 2, height: 2 }).x === 100, "sans source : les champs du document");
+    const porteur = { jeton: "tP", acteur: "A:P", disposition: 1, geometrie: j(13, 0), cle: "purete", rayon: 3, ralentit: 0 };
+    const v = f.aurasVoulues([porteur], [{ jeton: "t1", acteur: "A:1", disposition: 1, geometrie: f.positionJeton(anime) }], GRILLE);
+    ok(v.get("A:1")?.has("purete"), "allié arrivé à côté du porteur : dans l'aura dès le hook, pendant l'animation");
+  });
+
   essai("rayon", () => {
     const purete = { rayons: [[1, 3], [18, 9]] };
     ok(f.rayonAura(purete, 7) === 3 && f.rayonAura(purete, 17) === 3, "Aura de protection : 3 m avant le niveau 18");
@@ -217,6 +229,7 @@ const MUTANTS = {
   "règle de diagonale de la scène ignorée": enveloppe("distanceJetons", d => (a, b, g) => d(a, b, { ...g, diagonals: 0 })),
   "altitude ignorée": enveloppe("distanceJetons", d => (a, b, g) => d({ ...a, elevation: 0 }, { ...b, elevation: 0 }, g)),
   "niveaux de scène ignorés": enveloppe("distanceJetons", d => (a, b, g) => d({ ...a, level: null }, { ...b, level: null }, g)),
+  "position animée lue (x au lieu de _source.x)": enveloppe("positionJeton", () => t => ({ x: t.x, y: t.y, width: t.width, height: t.height, elevation: t.elevation, level: t.level })),
   "rayon strict (bord exclu)": enveloppe("aurasVoulues", v => (p, js, g) => v(p.map(x => ({ ...x, rayon: x.rayon - 0.01 })), js, g)),
   "allégeance ignorée": enveloppe("aurasVoulues", v => (p, js, g) => v(p, js.map(x => ({ ...x, disposition: p[0]?.disposition })), g)),
   "le porteur se donne une copie": enveloppe("aurasVoulues", v => (p, js, g) => v(p.map(x => ({ ...x, acteur: `${x.acteur}#` })), js, g)),

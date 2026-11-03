@@ -117,6 +117,86 @@
           "name": "",
           "formula": ""
         }
+      },
+      "sPaBp4MiNqI3kLYa": {
+        "_id": "sPaBp4MiNqI3kLYa",
+        "type": "utility",
+        "name": "Renverser l'assaillant",
+        "img": null,
+        "sort": 100000,
+        "flags": {
+          "lakour-warcraft": {
+            "renverser": true
+          }
+        },
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "condition": "Pendant l'Ivresse insondable, une créature vous rate avec une attaque au corps à corps",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "any",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
       }
     },
     "uses": {
@@ -236,7 +316,11 @@
       "showIcon": 1,
       "folder": null,
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "lakour-warcraft": {
+          "ivresse": true
+        }
+      },
       "_stats": {
         "coreVersion": "14.369",
         "systemId": "dnd5e",
@@ -255,7 +339,7 @@
       "sousClasse": "voie-du-maitre-brasseur",
       "classe": "monk",
       "niveau": 17,
-      "automatisation": "partielle"
+      "automatisation": "complete"
     }
   },
   "_stats": {

@@ -141,7 +141,14 @@
         "name": "Terreur sacrée",
         "img": null,
         "sort": 100000,
-        "flags": {},
+        "flags": {
+          "lakour-warcraft": {
+            "typesVises": [
+              "undead",
+              "fiend"
+            ]
+          }
+        },
         "activation": {
           "type": "",
           "value": null,
@@ -263,7 +270,14 @@
       "showIcon": 1,
       "folder": null,
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "lakour-warcraft": {
+          "typesVises": [
+            "undead",
+            "fiend"
+          ]
+        }
+      },
       "_stats": {
         "coreVersion": "14.369",
         "systemId": "dnd5e",
@@ -282,7 +296,7 @@
       "sousClasse": "serment-de-la-main-d-argent",
       "classe": "paladin",
       "niveau": 3,
-      "automatisation": "partielle"
+      "automatisation": "complete"
     }
   },
   "_stats": {

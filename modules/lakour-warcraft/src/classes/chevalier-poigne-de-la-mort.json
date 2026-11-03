@@ -187,7 +187,8 @@
       "sousClasse": "serment-du-chevalier-de-la-mort",
       "classe": "paladin",
       "niveau": 3,
-      "automatisation": "partielle"
+      "automatisation": "complete",
+      "attire": "echec"
     }
   },
   "_stats": {

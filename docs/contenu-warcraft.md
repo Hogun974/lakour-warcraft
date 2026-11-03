@@ -193,7 +193,9 @@ Les **éléments nommés** (comptoir, puits, autel, moteur à éclat…) sont le
 
 Repérés par des drapeaux `flags["lakour-warcraft"]` posés par le contenu, jamais par les noms ; seul le MJ actif écrit
 (sauf l'établi, qui n'écrit que sur la fiche de son propriétaire). Logique pure exportée, éprouvée par mutations
-(`essais/warcraft-automatismes`, `warcraft-capacites`, `warcraft-etabli`).
+(`essais/warcraft-automatismes`, `warcraft-capacites`, `warcraft-capacites-suite`, `warcraft-etabli`). Les positions de
+jetons sont lues dans leur source (`_source.x/y/elevation` : destination d'un déplacement ; en Foundry 14, `x/y` valent
+la position animée pendant l'animation), et les auras sont recalculées aux hooks `updateToken` et `moveToken`.
 
 | Fichier | Automatisme | Repères |
 |---|---|---|
@@ -202,15 +204,31 @@ Repérés par des drapeaux `flags["lakour-warcraft"]` posés par le contenu, jam
 | `capacites.js` | familier du chasseur (PV et « Lien du chasseur » suivent le rôdeur) | `familier` (fiche), `compagnon`, `lierFamilier` (activité), `rodeur`, `lienChasseur` |
 | `capacites.js` | Évasion d'agent : l'invisibilité tombe à l'attaque ou au sort | `evasion` (effet) |
 | `capacites.js` | Fût roulant : à terre sur sauvegarde ratée (message `save` relié à son activité par `system.activity`) | `aTerre`, `futRoulant` |
+| `capacites-suite.js` | Châtiment du Fléau : sauvegarde refusée si toutes les cibles ont un type connu autre que mort-vivant ou fiélon, cibles de la carte filtrées, effet retiré d'une créature d'un autre type connu (type inconnu : le MJ décide) | `typesVises` (activité et effet) |
+| `capacites-suite.js` | Champion de la Lumière : lumière vive de 9 m sur les jetons du porteur pendant l'effet, lumière d'avant rétablie à la fin | `lumiere` (effet), `lumiereAvant` (jeton) |
+| `capacites-suite.js` | Avatar des éléments : activité « Regagner l'avatar », consommation native (utilisation −1, emplacement de niveau 5) ; refusée si l'utilisation n'est pas dépensée ou si l'emplacement est décoché (`dnd5e.preActivityConsumption`) | `recharge` (activité) |
+| `capacites-suite.js` | Poigne de la mort : sauvegarde ratée → jeton déplacé (action « displace », coût nul) jusqu'à l'espace libre voisin du chevalier au bout de la ligne droite (murs testés si la scène est sur le canevas du MJ) ; remis en place sur résistance légendaire | `attire`, `poigne` (message) |
+| `capacites-suite.js` | Armée des morts : goules du bestiaire importées (acteur marqué, propriétaires du chevalier), posées dans les espaces libres à 9 m, ajoutées au combat juste après le chevalier ; renvoyées au bout de 10 rounds (ou 60 s du monde), à la fin du combat ou de l'effet | `armee` (activité, effet, acteur importé) |
+| `capacites-suite.js` | Aspect de la meute : effet recopié sur les familiers liés, même durée | `meute`, `meuteRecue` |
+| `capacites-suite.js` | Frénésie bestiale : capacité (et sa Morsure enragée) recopiée sur la fiche du familier lié | `frenesie`, `frenesieRecue` |
+| `capacites-suite.js` | Totems élémentaires : le gabarit fixe (`stationary`, émanation dnd5e dont la base est la case du totem) est le totem ; effet appliqué au barbare et à ses alliés à 3 m de sa case, hostiles du magma nommés au MJ, totem ôté à la fin de la Rage, au plus tard 10 minutes du monde après la pose, à la fin du combat ou quand son porteur n'existe plus ; planter hors de la Rage refusé | `totem` (activité, région), `totemRecu` |
+| `capacites-suite.js` | Ivresse du sage : attaque au corps à corps (ni lancée ni à distance) ratée contre le moine en Ivresse insondable → réaction proposée ; « Renverser l'assaillant » met à terre en une écriture | `ivresse` (effet), `renverser` (activité) |
 | `etabli.js` | établi d'artisanat (fenêtre ApplicationV2, contrôle « Établi » des fiches de personnage) | `recettes` (journal des recettes), `cle` (composants, produits) |
 
 API (`game.modules.get("lakour-warcraft").api`) : `installer()`, `cheminSelonStyle()`, `lierFamilier(familier, rodeur)`,
-`ouvrirEtabli(acteur)`. Ce qui reste au MJ est listé, avec sa raison, dans `CAPACITES_EN_PARTIE` (`contenu/sous-classes.mjs`).
+`ouvrirEtabli(acteur)`. Ce qui reste au MJ est listé, avec sa raison, dans `CAPACITES_EN_PARTIE` (`contenu/sous-classes.mjs`) :
+depuis la 0.10.0, seul **Maître du déguisement** (se grimer et passer pour un autre : jugement du MJ, aucune clé d'acteur).
 
 Choix tranchés : un porteur d'aura **neutre** (ou secret) ne la donne à personne, un PJ (amical) la donne aux jetons
 amicaux ; le rayon (en mètres) est converti dans l'unité de la scène (`grid.units`), unité inconnue = pas d'aura ;
 seul un propriétaire du familier, ou un MJ, peut le lier ; l'établi prend un verrou par acteur, relit l'inventaire après
 le jet et n'écrit rien s'il manque quoi que ce soit ; le contrôle « Établi » n'a qu'un `onClick` (pas d'`action`).
+Capacités (0.10.0) : une carte (sauvegarde, utilisation, attaque) n'est exploitée que si son auteur est MJ ou propriétaire de ce qu'elle touche (chevalier, jeton déplacé, moine, assaillant) ; les noms sont échappés dans les messages ; la lumière du Champion garde une lumière déjà plus grande ; les goules et la Poigne ne se posent que
+sur grille carrée ou sans grille (hexagonale : message au MJ) ; l'Armée des morts levée en combat dure 10 rounds jusqu'au
+tour du chevalier (`CONFIG.time.roundTime` = 6 s), sinon 60 s du temps du monde ; la Rage est reconnue par un effet appliqué à l'acteur
+venu de l'objet d'identifiant `rage` (SRD 2024), jamais par l'effet de l'objet lui-même (dnd5e le prépare actif dès
+qu'une activité le cite) ; l'Armée des morts finit au tour du combattant du chevalier, repéré par son id ; la
+mémoire des attaques ratées de l'Ivresse est celle du poste du MJ actif (deux minutes, perdue au rechargement).
 
 ## Jetons
 

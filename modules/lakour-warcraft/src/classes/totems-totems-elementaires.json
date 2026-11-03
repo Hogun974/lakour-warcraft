@@ -36,7 +36,15 @@
         "name": "Planter le totem de peau de pierre",
         "img": null,
         "sort": 0,
-        "flags": {},
+        "flags": {
+          "lakour-warcraft": {
+            "totem": {
+              "cible": "allies",
+              "rayon": 3,
+              "portee": 3
+            }
+          }
+        },
         "activation": {
           "type": "bonus",
           "value": null,
@@ -89,7 +97,7 @@
             "width": "",
             "height": "",
             "units": "m",
-            "stationary": false
+            "stationary": true
           },
           "affects": {
             "count": "",
@@ -124,7 +132,15 @@
         "name": "Planter le totem des vents",
         "img": null,
         "sort": 100000,
-        "flags": {},
+        "flags": {
+          "lakour-warcraft": {
+            "totem": {
+              "cible": "allies",
+              "rayon": 3,
+              "portee": 3
+            }
+          }
+        },
         "activation": {
           "type": "bonus",
           "value": null,
@@ -177,7 +193,7 @@
             "width": "",
             "height": "",
             "units": "m",
-            "stationary": false
+            "stationary": true
           },
           "affects": {
             "count": "",
@@ -212,7 +228,15 @@
         "name": "Planter le totem de magma",
         "img": null,
         "sort": 200000,
-        "flags": {},
+        "flags": {
+          "lakour-warcraft": {
+            "totem": {
+              "cible": "hostiles",
+              "rayon": 3,
+              "portee": 3
+            }
+          }
+        },
         "activation": {
           "type": "bonus",
           "value": null,
@@ -260,7 +284,7 @@
             "width": "",
             "height": "",
             "units": "m",
-            "stationary": false
+            "stationary": true
           },
           "affects": {
             "count": "",
@@ -423,7 +447,7 @@
       "sousClasse": "voie-du-chaman-des-totems",
       "classe": "barbarian",
       "niveau": 3,
-      "automatisation": "partielle"
+      "automatisation": "complete"
     }
   },
   "_stats": {

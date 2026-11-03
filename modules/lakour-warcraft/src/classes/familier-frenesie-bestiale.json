@@ -148,7 +148,8 @@
       "sousClasse": "chasseur-et-son-familier",
       "classe": "ranger",
       "niveau": 11,
-      "automatisation": "partielle"
+      "automatisation": "complete",
+      "frenesie": true
     }
   },
   "_stats": {

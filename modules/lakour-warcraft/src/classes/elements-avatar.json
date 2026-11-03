@@ -117,6 +117,105 @@
           "name": "",
           "formula": ""
         }
+      },
+      "hEIiV3VteqB8Ql26": {
+        "_id": "hEIiV3VteqB8Ql26",
+        "type": "utility",
+        "name": "Regagner l'avatar",
+        "img": null,
+        "sort": 100000,
+        "flags": {
+          "lakour-warcraft": {
+            "recharge": true
+          }
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": "Utilisation dépensée : regagnez-la en dépensant un emplacement de sort de niveau 5",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "-1",
+              "target": "",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            },
+            {
+              "type": "spellSlots",
+              "value": "1",
+              "target": "5",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
       }
     },
     "uses": {
@@ -215,7 +314,7 @@
       "sousClasse": "domaine-des-elements",
       "classe": "cleric",
       "niveau": 17,
-      "automatisation": "partielle"
+      "automatisation": "complete"
     }
   },
   "_stats": {

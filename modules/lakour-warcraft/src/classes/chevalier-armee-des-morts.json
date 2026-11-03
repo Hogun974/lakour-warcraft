@@ -36,7 +36,16 @@
         "name": "Lever l'armée",
         "img": null,
         "sort": 0,
-        "flags": {},
+        "flags": {
+          "lakour-warcraft": {
+            "armee": {
+              "profil": "goule",
+              "nombre": 4,
+              "portee": 9,
+              "duree": 60
+            }
+          }
+        },
         "activation": {
           "type": "action",
           "value": null,
@@ -182,7 +191,11 @@
       "showIcon": 1,
       "folder": null,
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "lakour-warcraft": {
+          "armee": true
+        }
+      },
       "_stats": {
         "coreVersion": "14.369",
         "systemId": "dnd5e",
@@ -201,7 +214,7 @@
       "sousClasse": "serment-du-chevalier-de-la-mort",
       "classe": "paladin",
       "niveau": 20,
-      "automatisation": "partielle"
+      "automatisation": "complete"
     }
   },
   "_stats": {

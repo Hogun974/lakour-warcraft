@@ -267,7 +267,12 @@ function verifier(liste) {
         for (const t of a.healing?.types ?? []) if (!["healing", "temphp"].includes(t)) err(`soin « ${t} »`);
         for (const [, x] of JSON.stringify(a).matchAll(/@classes\.([\w-]+)\./g)) if (x !== classe) err(`@classes.${x} dans une capacité de ${classe}`);
         for (const t of a.consumption.targets) {
-          if (t.type !== "itemUses") err(`consommation « ${t.type} »`);
+          // Recharge (Avatar des éléments) : un emplacement de sort (cible = niveau) contre une utilisation rendue.
+          if (t.type === "spellSlots") {
+            const rend = a.consumption.targets.some(x => x.type === "itemUses" && x.target === "" && Number(x.value) < 0);
+            if (!a.flags?.[MODULE]?.recharge || !rend || !/^[1-9]$/.test(t.target) || t.value !== "1") err(`activité « ${a.name} » : recharge par emplacement mal formée`);
+          } else if (t.type !== "itemUses") err(`consommation « ${t.type} »`);
+          else if (Number(t.value) < 0 && !a.consumption.targets.some(x => x.type === "spellSlots")) err(`activité « ${a.name} » rend une utilisation sans rien dépenser`);
           else if (t.target === "" && !d.system.uses.max) err(`activité « ${a.name} » consomme des usages absents`);
           else if (t.target !== "" && !(CIBLES_CONSO[classe] ?? []).includes(t.target)) err(`activité « ${a.name} » dépense « ${t.target} », étranger au ${classe}`);
         }
