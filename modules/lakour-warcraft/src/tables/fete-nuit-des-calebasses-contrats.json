@@ -1,0 +1,102 @@
+{
+  "_id": "0C7GDUAyigkK1yyc",
+  "_key": "!tables!0C7GDUAyigkK1yyc",
+  "name": "Contrats de fête — La Nuit des Calebasses",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Les affiches de La Nuit des Calebasses, punaisées sur les tableaux des contrats pendant la fête (du 25 octobre au 2 novembre, la nuit du 31 octobre surtout). Le MJ IA en ajoute une aux trois contrats du jour, ou les propose toutes le jour le plus fort de la fête.</p>",
+  "formula": "1d3",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "fete-nuit-des-calebasses-contrats",
+      "aventure": "Fêtes des Tarides",
+      "fete": "nuit-des-calebasses",
+      "collection": "fetes"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "vsyB3DxaCqeANA1W",
+      "_key": "!tables.results!0C7GDUAyigkK1yyc.vsyB3DxaCqeANA1W",
+      "type": "text",
+      "name": "Avis de recherche — Le semeur de calebasses noires",
+      "description": "<p><strong>Commanditaire :</strong> Sœur Linnea Clairmatin, de l'Aube d'argent.</p><p>Quelqu'un dépose des calebasses noires, peintes de runes, au bord des pistes ; là où elles brûlent, les morts se relèvent. Débusquer ce @UUID[Compendium.lakour-warcraft.bestiaire.Actor.ztoJXQwhFHGZcx2J]{nécromancien du Culte des Damnés} et le ramener vivant pour qu'il soit jugé.</p><p><strong>Récompense :</strong> 70 po et <strong>+4</strong> de réputation auprès de : Aube d'argent.</p>",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "avis",
+            "po": 70,
+            "faction": "aube-d-argent",
+            "reputation": 4
+          }
+        }
+      }
+    },
+    {
+      "_id": "QT7MnQJK74POdBBI",
+      "_key": "!tables.results!0C7GDUAyigkK1yyc.QT7MnQJK74POdBBI",
+      "type": "text",
+      "name": "Récolte — Calebasses de l'oasis",
+      "description": "<p><strong>Commanditaire :</strong> Gornak Croc-Gris, intendant du Carrefour.</p><p>Le Carrefour manque de calebasses : rapporter vingt grosses calebasses des jardins de l'oasis du Bosquet-aux-Saules, où des @UUID[Compendium.lakour-warcraft.bestiaire.Actor.qTTqGBYn4AqsQwVN]{hurans} ont fait leur bauge ([[/check skill=ath dc=12]]{Athlétisme DD 12} pour charger le chariot avant leur retour).</p><p><strong>Récompense :</strong> 25 po et <strong>+2</strong> de réputation auprès de : Horde (Le Carrefour).</p>",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "recolte",
+            "po": 25,
+            "faction": "horde",
+            "reputation": 2
+          }
+        }
+      }
+    },
+    {
+      "_id": "vq3pqTt4keKuKhZB",
+      "_key": "!tables.results!0C7GDUAyigkK1yyc.vq3pqTt4keKuKhZB",
+      "type": "text",
+      "name": "Escorte — La procession des Rescapés",
+      "description": "<p><strong>Commanditaire :</strong> Frère Odric Pierrelune, de la Main d'argent.</p><p>Escorter une procession de réfugiés de Lordaeron, calebasses allumées, de Theramore au cimetière des Rescapés. Les @UUID[Compendium.lakour-warcraft.bestiaire.Actor.QsFYC2AB4WaEidqA]{goules} du marais suivent les lumières comme des papillons.</p><p><strong>Récompense :</strong> 45 po et <strong>+3</strong> de réputation auprès de : Chevaliers de la Main d'argent.</p>",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "escorte",
+            "po": 45,
+            "faction": "main-d-argent",
+            "reputation": 3
+          }
+        }
+      }
+    }
+  ]
+}

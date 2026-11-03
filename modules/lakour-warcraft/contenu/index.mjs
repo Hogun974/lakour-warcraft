@@ -21,6 +21,7 @@ import { CONTRATS_DOCUMENTS } from "./contrats.mjs";
 import { COMPAGNONS } from "./compagnons.mjs";
 import { METIERS_DOCUMENTS } from "./metiers.mjs";
 import { GARNISON_DOCUMENTS } from "./garnison.mjs";
+import { FETES_DOCUMENTS } from "./fetes.mjs";
 
 // Tout le contenu du module, dans l'ordre des compendiums.
 export const DOCUMENTS = [
@@ -35,5 +36,7 @@ export const DOCUMENTS = [
   // Suppléments « Tarides vivantes » (lot 1) : consommables, réputation, donjon de Mèche-Noire, montures, rares, contrats.
   ...CONSOMMABLES, ...REPUTATION_DOCUMENTS, ...DONJON_DOCUMENTS, ...MONTURES_DOCUMENTS, ...RARES_DOCUMENTS, ...CONTRATS_DOCUMENTS,
   // Lot 2 : familier du rôdeur, métiers (récolte, artisanat), garnison de faction (installations de bastion).
-  ...COMPAGNONS, ...METIERS_DOCUMENTS, ...GARNISON_DOCUMENTS
+  ...COMPAGNONS, ...METIERS_DOCUMENTS, ...GARNISON_DOCUMENTS,
+  // Fêtes de saison des Tarides (déclinaisons du calendrier du MJ IA, enregistrées par scripts/fetes.js).
+  ...FETES_DOCUMENTS
 ];

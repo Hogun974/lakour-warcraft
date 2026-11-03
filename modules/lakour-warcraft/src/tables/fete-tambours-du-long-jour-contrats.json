@@ -1,0 +1,102 @@
+{
+  "_id": "Dc0oNoBlthbgd1JP",
+  "_key": "!tables!Dc0oNoBlthbgd1JP",
+  "name": "Contrats de fête — Les Tambours du Long Jour",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Les affiches de Les Tambours du Long Jour, punaisées sur les tableaux des contrats pendant la fête (du 20 au 22 juin, le jour du solstice surtout). Le MJ IA en ajoute une aux trois contrats du jour, ou les propose toutes le jour le plus fort de la fête.</p>",
+  "formula": "1d3",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "fete-tambours-du-long-jour-contrats",
+      "aventure": "Fêtes des Tarides",
+      "fete": "tambours-du-long-jour",
+      "collection": "fetes"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "iyeLGLI8jtN0Vlyl",
+      "_key": "!tables.results!Dc0oNoBlthbgd1JP.iyeLGLI8jtN0Vlyl",
+      "type": "text",
+      "name": "Livraison — La flamme de la Chaîne",
+      "description": "<p><strong>Commanditaire :</strong> Gornak Croc-Gris, intendant du Carrefour.</p><p>Porter la torche du feu du Carrefour jusqu'au feu de Gué-de-Sel avant le coucher du soleil, sans qu'elle s'éteigne. Les cavaliers de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.QUScvpfLBVyjpYzE]{Khan Ventrouge} trouvent drôle de voler la flamme ; [[/check skill=ath dc=13]]{Athlétisme DD 13} pour tenir le rythme de la course.</p><p><strong>Récompense :</strong> 40 po et <strong>+3</strong> de réputation auprès de : Horde (Le Carrefour).</p>",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "livraison",
+            "po": 40,
+            "faction": "horde",
+            "reputation": 3
+          }
+        }
+      }
+    },
+    {
+      "_id": "syAMFQDWmY6jNhMs",
+      "_key": "!tables.results!Dc0oNoBlthbgd1JP.syAMFQDWmY6jNhMs",
+      "type": "text",
+      "name": "Récolte — Poudre pour les fusées",
+      "description": "<p><strong>Commanditaire :</strong> Grizzla Tordeboulon, intendante du Cartel.</p><p>Rapporter dix sacs de soufre des collines rouges pour les fusées de Cabestan ([[/check skill=sur dc=12]]{Survie DD 12} pour trouver les bons filons), avant que les @UUID[Compendium.lakour-warcraft.bestiaire.Actor.hOTVQNbVXommXjaP]{harpies} n'emportent les sacs pour en garnir leurs nids.</p><p><strong>Récompense :</strong> 30 po et <strong>+2</strong> de réputation auprès de : Cartel Gentepression.</p>",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "recolte",
+            "po": 30,
+            "faction": "cartel-gentepression",
+            "reputation": 2
+          }
+        }
+      }
+    },
+    {
+      "_id": "NdUaZC6wkRrerOJV",
+      "_key": "!tables.results!Dc0oNoBlthbgd1JP.NdUaZC6wkRrerOJV",
+      "type": "text",
+      "name": "Traque — Les feux qui s'éteignent",
+      "description": "<p><strong>Commanditaire :</strong> Tahko Vent-Clair, gardien du Cercle cénarien.</p><p>Sur trois collines, les feux du Long Jour s'éteignent d'un coup, étouffés par la terre. Les géomanciens de Ronceroc ont éveillé un @UUID[Compendium.lakour-warcraft.bestiaire.Actor.2iMr3wfHStHPZ63v]{élémentaire de terre} pour garder les hauteurs. L'apaiser ou le briser, et que les feux reprennent avant minuit.</p><p><strong>Récompense :</strong> 50 po et <strong>+3</strong> de réputation auprès de : Cercle cénarien.</p>",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "traque",
+            "po": 50,
+            "faction": "cercle-cenarien",
+            "reputation": 3
+          }
+        }
+      }
+    }
+  ]
+}

@@ -17,8 +17,8 @@ export const TYPES_CONTRAT = { traque: "Traque", recolte: "Récolte", escorte: "
 const lien = liens(RARES, BESTIAIRE, OBJETS, CONSOMMABLES, DONJON_DOCUMENTS);
 const fiche = (cle, nom) => lien(`bestiaire:${cle}`, nom);
 
-// c = [type, titre, commanditaire, texte, po, faction, points]
-function resultat([type, titre, commanditaire, texte, po, faction, points]) {
+// c = [type, titre, commanditaire, texte, po, faction, points] (aussi pour les contrats de fête : fetes.mjs)
+export function resultat([type, titre, commanditaire, texte, po, faction, points]) {
   if (!TYPES_CONTRAT[type]) throw new Error(`Contrat « ${titre} » : type inconnu ${type}`);
   if (!Number.isInteger(po) || po <= 0 || !Number.isInteger(points) || points < 1 || points > 5) throw new Error(`Contrat « ${titre} » : récompense invalide`);
   const f = reputation(faction);

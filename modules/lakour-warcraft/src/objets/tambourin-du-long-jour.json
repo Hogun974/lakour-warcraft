@@ -1,0 +1,235 @@
+{
+  "_id": "cmzugqT3XLvcSc0x",
+  "_key": "!items!cmzugqT3XLvcSc0x",
+  "name": "Tambourin du Long Jour",
+  "type": "equipment",
+  "img": "icons/tools/instruments/drum-brown-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un petit tambour de peau de kodo peint d'un soleil rouge, battu de l'aube au couchant le jour le plus long. Son rythme passe dans les jambes de ceux qui l'entendent.</p><p>Par une <strong>action bonus</strong>, vous battez le rythme : chaque allié de votre choix dans un rayon de <strong>9 m</strong> autour de vous, vous compris, gagne <strong>Rythme du Long Jour</strong> pendant <strong>10 minutes</strong> (vitesse augmentée de 1,5 m, avantage aux tests de Charisme (Représentation)).</p><p><strong>Une fois par jour</strong> : la peau se retend à l'aube.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "tambourin-du-long-jour",
+    "price": {
+      "value": 120,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": null,
+    "proficient": null,
+    "activities": {
+      "LINrg01B8ItCYZCh": {
+        "_id": "LINrg01B8ItCYZCh",
+        "type": "utility",
+        "name": "Battre le rythme",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "bpdipnfemV0I7XKl",
+            "level": {}
+          }
+        ],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "radius",
+            "size": "9",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "ally",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "bpdipnfemV0I7XKl",
+      "_key": "!items.effects!cmzugqT3XLvcSc0x.bpdipnfemV0I7XKl",
+      "name": "Rythme du Long Jour",
+      "img": "icons/tools/instruments/drum-brown-red.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.movement.bonus",
+            "value": "1.5",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "eW7znRSU6AXMqMrE"
+          },
+          {
+            "key": "system.skills.prf.roll.mode",
+            "value": 1,
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "AzU9MhaFnBkBPPp7"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": 600,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
+      },
+      "description": "<p>Pendant 10 minutes : vitesse augmentée de 1,5 m, avantage aux tests de Charisme (Représentation).</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "tambourin-du-long-jour",
+      "fete": "tambours-du-long-jour",
+      "collection": "fetes"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

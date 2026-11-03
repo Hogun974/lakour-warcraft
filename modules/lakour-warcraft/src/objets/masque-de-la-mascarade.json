@@ -1,0 +1,133 @@
+{
+  "_id": "qx7bkD7JH5MV2miA",
+  "_key": "!items!qx7bkD7JH5MV2miA",
+  "name": "Masque de la Mascarade",
+  "type": "equipment",
+  "img": "icons/commodities/treasure/mask-jeweled-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un demi-masque de cuivre doré, serti de verroterie, ouvragé par un illusionniste gobelin de Cabestan. Celui qui le porte a la voix un peu plus grave, la démarche un peu plus souple, et personne ne jurerait l'avoir déjà vu.</p><p>Tant que vous portez le masque (équipé) et que vous y êtes <strong>harmonisé</strong>, vous avez l'avantage aux tests de Charisme (Tromperie). Par une <strong>action</strong>, vous pouvez changer à volonté la couleur du masque et des pierres qui l'ornent.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "masque-de-la-mascarade",
+    "price": {
+      "value": 150,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "uncommon",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "clothing",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "m"
+    },
+    "strength": null,
+    "proficient": null,
+    "activities": {}
+  },
+  "effects": [
+    {
+      "_id": "UXdJ68HTXOcgBCh1",
+      "_key": "!items.effects!qx7bkD7JH5MV2miA.UXdJ68HTXOcgBCh1",
+      "name": "Masque de la Mascarade",
+      "img": "icons/commodities/treasure/mask-jeweled-gold.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.skills.dec.roll.mode",
+            "value": 1,
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "uOEKIZa4KWkb0k0F"
+          }
+        ]
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>Masque porté : avantage aux tests de Charisme (Tromperie).</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "masque-de-la-mascarade",
+      "fete": "mascarade-de-cabestan",
+      "collection": "fetes"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "_id": "W8GJ32evgwLcCHfF",
+  "_key": "!items!W8GJ32evgwLcCHfF",
+  "name": "Fusée gobeline du Long Jour",
+  "type": "consumable",
+  "img": "icons/magic/light/explosion-star-glow-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un tube de carton rouge et or, une mèche courte, et la mention « Ne pas tenir par le mauvais bout » en trois langues. Le Cartel en tire des centaines au-dessus de la baie de Cabestan le soir du Long Jour ; une fusée détournée de son but éclate en gerbe d'étincelles aveuglantes.</p><p>Par une <strong>action</strong>, vous allumez la fusée et la lancez vers un point situé à <strong>18 m</strong> au plus : chaque créature dans une sphère de <strong>3 m</strong> de rayon centrée sur ce point fait un <strong>jet de sauvegarde de Dextérité DD 12</strong>. En cas d'échec, elle subit <strong>1d6 dégâts de feu</strong> et elle est <strong>aveuglée</strong> jusqu'à la fin de votre prochain tour ; en cas de réussite, elle subit la moitié de ces dégâts et n'est pas aveuglée.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "fusee-gobeline-du-long-jour",
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        },
+        "types": []
+      },
+      "replace": false
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "activities": {
+      "s16uuPsHDLmqEfk6": {
+        "_id": "s16uuPsHDLmqEfk6",
+        "type": "save",
+        "name": "Lancer la fusée",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "round",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "DABmrIayKImvUB6c",
+            "onSave": false,
+            "level": {}
+          }
+        ],
+        "range": {
+          "value": "18",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "sphere",
+            "size": "3",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "12"
+          }
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": 1,
+              "denomination": 6,
+              "bonus": "",
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              },
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "DABmrIayKImvUB6c",
+      "_key": "!items.effects!W8GJ32evgwLcCHfF.DABmrIayKImvUB6c",
+      "name": "Ébloui par la fusée",
+      "img": "icons/magic/light/explosion-star-glow-orange.webp",
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": 6,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
+      },
+      "description": "<p>Aveuglé jusqu'à la fin du prochain tour du lanceur.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "blinded"
+      ],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "fusee-gobeline-du-long-jour",
+      "fete": "tambours-du-long-jour",
+      "collection": "fetes"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

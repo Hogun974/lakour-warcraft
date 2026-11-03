@@ -1,0 +1,184 @@
+{
+  "_id": "NrePXf1GWBL4FFAr",
+  "_key": "!items!NrePXf1GWBL4FFAr",
+  "name": "Galettes aux dattes de la Trêve",
+  "type": "consumable",
+  "img": "icons/consumables/food/dried-fruit-candy-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>Des galettes rondes de farine de maïs, fourrées de dattes de l'oasis et de miel de cactus, que les cuisinières du Carrefour cuisent par centaines pendant la Trêve, avec des dattes qui viennent de loin, et que les gobelins revendent au prix fort à Cabestan. On en glisse une dans chaque présent.</p><p>Par une <strong>action</strong>, vous mangez une galette et récupérez <strong>1d4 + 1</strong> points de vie.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "galettes-aux-dattes-de-la-treve",
+    "price": {
+      "value": 5,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.25,
+      "units": "lb"
+    },
+    "quantity": 4,
+    "rarity": "",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        },
+        "types": []
+      },
+      "replace": false
+    },
+    "type": {
+      "value": "food",
+      "subtype": ""
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "activities": {
+      "MQDupLencESPXWSp": {
+        "_id": "MQDupLencESPXWSp",
+        "type": "heal",
+        "name": "Manger une galette",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "healing": {
+          "number": 1,
+          "denomination": 4,
+          "bonus": "1",
+          "custom": {
+            "enabled": false,
+            "formula": ""
+          },
+          "scaling": {
+            "mode": "",
+            "number": null,
+            "formula": ""
+          },
+          "types": [
+            "healing"
+          ]
+        }
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "galettes-aux-dattes-de-la-treve",
+      "fete": "treve-des-presents",
+      "collection": "fetes"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

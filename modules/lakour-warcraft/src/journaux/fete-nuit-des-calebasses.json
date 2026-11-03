@@ -1,0 +1,82 @@
+{
+  "_id": "yQFFByTcvqMwOXoe",
+  "_key": "!journal!yQFFByTcvqMwOXoe",
+  "name": "Fête — La Nuit des Calebasses (MJ)",
+  "folder": null,
+  "sort": 0,
+  "categories": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "fete-nuit-des-calebasses",
+      "fete": "nuit-des-calebasses",
+      "collection": "fetes"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "pages": [
+    {
+      "_id": "633ZJQrS29NTiaRR",
+      "_key": "!journal.pages!yQFFByTcvqMwOXoe.633ZJQrS29NTiaRR",
+      "name": "La fête",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<figure class=\"lakour-warcraft-fete\"><img src=\"modules/lakour-warcraft/assets/fetes/halloween.jpg\" alt=\"Des calebasses creusées et éclairées le long d'une piste des Tarides au crépuscule\"></figure><p>À la fin de la saison sèche, quand les calebasses sont mûres, vient la <strong>Nuit des Calebasses</strong>. Chaque famille en creuse une par mort de l'année, y taille un visage qui lui ressemble et y pose une chandelle. Le soir du 31, on les aligne au bord des pistes, sur les palissades, devant les tentes : elles montrent aux morts le chemin des ancêtres, pour qu'ils ne s'égarent pas parmi les vivants.</p><p><strong>Une braise pour mes morts.</strong> Les enfants vont de tente en tente, une calebasse à la main, et demandent « une braise pour mes morts ». On leur donne une braise du foyer pour leur chandelle, et du sucre de cactus. Refuser porte malheur.</p><p><strong>Les morts qui se trompent de chemin.</strong> Depuis le Fléau, tout le monde sait que certains morts ne restent pas couchés. Cette nuit-là, les nécromanciens le savent aussi.</p><p><strong>Quand.</strong> du 25 octobre au 2 novembre, la nuit du 31 octobre surtout, d'après la date du jour (le MJ IA pose la carte de la fête au chat et peut y faire allusion). Hors saison, le MJ peut forcer la fête dans les réglages du MJ IA, « Fête de saison ».</p><p><strong>Réputation.</strong> En plus des contrats, une fois par fête et par personnage (voir le @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.uIWkSgn7SjyOj8nd]{Guide de la réputation}, plafond de 10 points par jour) :<br>- <strong>+3</strong> auprès de : Aube d'argent, pour un mort-vivant abattu ou un nid de goules nettoyé pendant la Nuit (en plus du barème habituel).<br>- <strong>+2</strong> auprès de : Chevaliers de la Main d'argent, pour une procession de réfugiés protégée jusqu'à son cimetière.</p><p><strong>Objets de la fête</strong>, en vente chez les marchands des trois villes tant qu'elle dure : @UUID[Compendium.lakour-warcraft.objets.Item.d4CzjxL1Fxw00OiE]{Calebasse-lanterne}, @UUID[Compendium.lakour-warcraft.objets.Item.4aaQCcIUTwszczSr]{Sucre de cactus de la Nuit}.</p><p><strong>Contrats et tables</strong> : @UUID[Compendium.lakour-warcraft.tables.RollTable.0C7GDUAyigkK1yyc]{Contrats de fête — La Nuit des Calebasses}. Le MJ IA ajoute un contrat de fête aux trois affiches du jour.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "pl3MQUOcC9UZ4KYo",
+      "_key": "!journal.pages!yQFFByTcvqMwOXoe.pl3MQUOcC9UZ4KYo",
+      "name": "Ambiance",
+      "type": "text",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Au Carrefour.</strong> La palissade porte une calebasse par grunt tombé dans l'année ; les chamans les allument une à une en disant les noms. Les enfants orcs et taurens font la tournée des tentes, et Gornak Croc-Gris fait semblant d'être avare pour les voir supplier.</p><p><strong>À Theramore.</strong> Les réfugiés de Lordaeron posent leurs calebasses le long du marais, du côté où sont venus les morts autrefois. L'Aube d'argent, menée par Sœur Linnea Clairmatin, veille jusqu'au matin, l'épée à la main et une tasse de thé dans l'autre ; les gardes du Guet doublent les rondes.</p><p><strong>À Cabestan.</strong> Les gobelins vendent des calebasses déjà taillées, des calebasses à mèche longue (qui éclatent comme des pétards) et des « lanternes éternelles » qui durent jusqu'à minuit. Les dockers parient sur celle qui s'éteindra la dernière.</p><p><strong>Dans les kraals.</strong> Les hurans croient que les calebasses allumées sont des esprits qui regardent : ils évitent les pistes cette nuit-là. Les caravanes en profitent ; les pillards kolkar aussi.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "W45g2gZAmanJZ56S",
+      "_key": "!journal.pages!yQFFByTcvqMwOXoe.W45g2gZAmanJZ56S",
+      "name": "Accroches",
+      "type": "text",
+      "sort": 300,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<ul><li><strong>Les calebasses noires.</strong> Le long de la piste de Theramore, des calebasses peintes de runes brûlent d'une flamme verte, et les tombes voisines bougent. Un @UUID[Compendium.lakour-warcraft.bestiaire.Actor.ztoJXQwhFHGZcx2J]{nécromancien du Culte des Damnés} prépare un réveil ; [[/check skill=arc dc=14]]{Arcanes DD 14} pour comprendre le rite et éteindre les flammes dans le bon ordre. Chaque @UUID[Compendium.lakour-warcraft.bestiaire.Actor.QsFYC2AB4WaEidqA]{goule} abattue cette nuit-là compte double auprès de l'Aube d'argent.</li><li><strong>La procession égarée.</strong> La procession des réfugiés qui allait au cimetière des Rescapés n'est jamais arrivée. On retrouve ses calebasses alignées vers le marécage, au mauvais endroit, comme si quelqu'un les avait déplacées. @UUID[Compendium.lakour-warcraft.bestiaire.Actor.9pgWTVP7FvGOGb8e]{Le docteur Crayeval} a-t-il des élèves ?</li><li><strong>Une braise pour Vesper.</strong> Une enfant demande « une braise pour mes morts » à @UUID[Compendium.lakour-warcraft.bestiaire.Actor.eH06E9RxoVB5nOWB]{Vesper Lacombe}, la réprouvée, devant tout le relais. Les adultes retiennent leur souffle. Ce que fait le groupe ([[/check skill=per dc=13]]{Persuasion DD 13} pour calmer la foule) peut valoir +2 auprès de la Main d'argent, ou −2.</li><li><strong>Les esprits de Ronceroc.</strong> Des hurans terrifiés se rendent au Carrefour : une calebasse géante « marche » autour du kraal de Ronceroc. C'est un @UUID[Compendium.lakour-warcraft.bestiaire.Actor.2iMr3wfHStHPZ63v]{élémentaire de terre} coiffé d'une calebasse par un farceur gobelin, et il n'aime pas ça. L'arrêter avant qu'il n'écrase le kraal vaut +2 auprès du Cercle cénarien.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "_id": "6zu15ES8qO7Pn3El",
+  "_key": "!tables!6zu15ES8qO7Pn3El",
+  "name": "Paquets-surprises du Cartel",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>À tirer quand un personnage ouvre un paquet-surprise du Cartel pendant la Trêve des Présents.</p>",
+  "formula": "1d8",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "fete-treve-des-presents-paquets",
+      "aventure": "Fêtes des Tarides",
+      "fete": "treve-des-presents",
+      "collection": "fetes"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "ig8suPSbwFSZLbEH",
+      "_key": "!tables.results!6zu15ES8qO7Pn3El.ig8suPSbwFSZLbEH",
+      "type": "text",
+      "name": "Rien",
+      "description": "<p>Du papier froissé, un ruban et un petit mot : « Merci de votre confiance. — Le Cartel ».</p>",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "CFF39xrMVl2cEISo",
+      "_key": "!tables.results!6zu15ES8qO7Pn3El.CFF39xrMVl2cEISo",
+      "type": "text",
+      "name": "Un écrou en or",
+      "description": "<p>Un écrou de cuivre doré, sans aucune valeur, poli comme un bijou. Un gobelin quelque part trouve ça très drôle.</p>",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "fNK99BNHp874TNBL",
+      "_key": "!tables.results!6zu15ES8qO7Pn3El.fNK99BNHp874TNBL",
+      "type": "document",
+      "name": "Galettes aux dattes de la Trêve",
+      "description": "",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.NrePXf1GWBL4FFAr"
+    },
+    {
+      "_id": "XTQVv9pchGY8aClU",
+      "_key": "!tables.results!6zu15ES8qO7Pn3El.XTQVv9pchGY8aClU",
+      "type": "document",
+      "name": "Sucre de cactus de la Nuit",
+      "description": "",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.4aaQCcIUTwszczSr"
+    },
+    {
+      "_id": "4Js6C9U9NqtWOKiA",
+      "_key": "!tables.results!6zu15ES8qO7Pn3El.4Js6C9U9NqtWOKiA",
+      "type": "text",
+      "name": "Un jouet mécanique",
+      "description": "<p>Un petit kodo de fer-blanc à remontoir qui avance de 3 m en meuglant, puis tombe sur le flanc. Les enfants du Carrefour le paieraient 5 pa.</p>",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "TEqwImuTeO1fCRKI",
+      "_key": "!tables.results!6zu15ES8qO7Pn3El.TEqwImuTeO1fCRKI",
+      "type": "document",
+      "name": "Fusée gobeline du Long Jour",
+      "description": "",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.W8GJ32evgwLcCHfF"
+    },
+    {
+      "_id": "MJlTHYfPYChkm0Ba",
+      "_key": "!tables.results!6zu15ES8qO7Pn3El.MJlTHYfPYChkm0Ba",
+      "type": "text",
+      "name": "Une lettre de change",
+      "description": "<p>Un bon de 10 po à faire valoir chez Nixi Pèse-Juste, à Cabestan, « sous réserve de frais de dossier » (3 po).</p>",
+      "range": [
+        7,
+        7
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {}
+    },
+    {
+      "_id": "JZz1GBuFAkT5KvD8",
+      "_key": "!tables.results!6zu15ES8qO7Pn3El.JZz1GBuFAkT5KvD8",
+      "type": "document",
+      "name": "Lampe-étoile des aïeux",
+      "description": "",
+      "range": [
+        8,
+        8
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {},
+      "documentUuid": "Compendium.lakour-warcraft.objets.Item.YPfb0mtY5GIAoPkO"
+    }
+  ]
+}

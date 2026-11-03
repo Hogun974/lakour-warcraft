@@ -1,0 +1,102 @@
+{
+  "_id": "cQvTkAAcP7SKGDTs",
+  "_key": "!tables!cQvTkAAcP7SKGDTs",
+  "name": "Contrats de fête — La Trêve des Présents",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Les affiches de La Trêve des Présents, punaisées sur les tableaux des contrats pendant la fête (tout le mois de décembre, au plus fort du 24 au 26). Le MJ IA en ajoute une aux trois contrats du jour, ou les propose toutes le jour le plus fort de la fête.</p>",
+  "formula": "1d3",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "fete-treve-des-presents-contrats",
+      "aventure": "Fêtes des Tarides",
+      "fete": "treve-des-presents",
+      "collection": "fetes"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "2ORRsj0Q8VMw0wJ0",
+      "_key": "!tables.results!cQvTkAAcP7SKGDTs.2ORRsj0Q8VMw0wJ0",
+      "type": "text",
+      "name": "Livraison — Le sapin du capitaine",
+      "description": "<p><strong>Commanditaire :</strong> le capitaine Corwen Haldis, envoyé de Theramore.</p><p>Un sapin du nord attend sur le quai de Cabestan : le porter jusqu'à la place du port de Theramore avant la veille du 24, droit, vert et entier. Une sentinelle jure qu'il a été coupé sans permission en Orneval et veut le saisir ; [[/check skill=per dc=13]]{Persuasion DD 13} pour la convaincre d'attendre que Theramore paie l'amende.</p><p><strong>Récompense :</strong> 50 po et <strong>+3</strong> de réputation auprès de : Alliance (Theramore).</p>",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "livraison",
+            "po": 50,
+            "faction": "alliance",
+            "reputation": 3
+          }
+        }
+      }
+    },
+    {
+      "_id": "VDRlPvJWBU4tEcvG",
+      "_key": "!tables.results!cQvTkAAcP7SKGDTs.VDRlPvJWBU4tEcvG",
+      "type": "text",
+      "name": "Escorte — La Vieille aux Grelots",
+      "description": "<p><strong>Commanditaire :</strong> Hanuk Pas-de-Pluie, guide caravanier.</p><p>Hanuk, déguisé en Vieille aux Grelots, mène un kodo blanc chargé de présents vers les fermes et les campements des Tarides, jusqu'aux abords du kraal de Ronceroc. L'escorter trois nuits, sans gâcher la surprise des enfants ni laisser les hurans piller le chariot ([[/check skill=ste dc=12]]{Discrétion DD 12} pour passer devant une tente sans réveiller personne).</p><p><strong>Récompense :</strong> 45 po et <strong>+3</strong> de réputation auprès de : Horde (Le Carrefour).</p>",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "escorte",
+            "po": 45,
+            "faction": "horde",
+            "reputation": 3
+          }
+        }
+      }
+    },
+    {
+      "_id": "yTjW3I8pBQGsBvbE",
+      "_key": "!tables.results!cQvTkAAcP7SKGDTs.yTjW3I8pBQGsBvbE",
+      "type": "text",
+      "name": "Traque — Le voleur de grelots",
+      "description": "<p><strong>Commanditaire :</strong> Gornak Croc-Gris, intendant du Carrefour.</p><p>Chaque matin, des grelots manquent à l'Épineux du relais. Les coupables sont les harpies de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.91PomlVIbUiHDDMn]{Vieille Plume-Fiel}, qui en tapissent leur nid sur les pitons de la piste de Fort-Rivet. Rapporter douze grelots ; la matriarche, elle, ne les rendra pas de bon gré.</p><p><strong>Récompense :</strong> 40 po et <strong>+2</strong> de réputation auprès de : Horde (Le Carrefour).</p>",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "traque",
+            "po": 40,
+            "faction": "horde",
+            "reputation": 2
+          }
+        }
+      }
+    }
+  ]
+}

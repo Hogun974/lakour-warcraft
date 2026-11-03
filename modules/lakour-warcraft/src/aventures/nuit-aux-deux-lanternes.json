@@ -8858,7 +8858,7 @@
       "flags": {
         "lakour-warcraft": {
           "cle": "one-shot-deux-lanternes",
-          "version": "0.8.0"
+          "version": "0.9.0"
         }
       },
       "_stats": {
@@ -9007,7 +9007,7 @@
       "flags": {
         "lakour-warcraft": {
           "cle": "relais-deux-lanternes",
-          "version": "0.8.0"
+          "version": "0.9.0"
         }
       },
       "_stats": {
@@ -9066,7 +9066,7 @@
       "flags": {
         "lakour-warcraft": {
           "cle": "carnet-crayeval",
-          "version": "0.8.0"
+          "version": "0.9.0"
         }
       },
       "_stats": {
@@ -11597,7 +11597,7 @@
             ]
           },
           "aventure": "Une nuit aux Deux Lanternes",
-          "version": "0.8.0"
+          "version": "0.9.0"
         }
       },
       "_stats": {
@@ -13532,7 +13532,7 @@
             ]
           },
           "aventure": "Une nuit aux Deux Lanternes",
-          "version": "0.8.0"
+          "version": "0.9.0"
         }
       },
       "_stats": {
@@ -15354,7 +15354,7 @@
             ]
           },
           "aventure": "Une nuit aux Deux Lanternes",
-          "version": "0.8.0"
+          "version": "0.9.0"
         }
       },
       "_stats": {

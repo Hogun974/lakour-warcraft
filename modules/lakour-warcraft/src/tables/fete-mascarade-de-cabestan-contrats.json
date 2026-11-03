@@ -1,0 +1,102 @@
+{
+  "_id": "UZuebiV03AckjAAz",
+  "_key": "!tables!UZuebiV03AckjAAz",
+  "name": "Contrats de fête — La Mascarade de Cabestan",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Les affiches de La Mascarade de Cabestan, punaisées sur les tableaux des contrats pendant la fête (du jeudi gras au mardi gras (dates mobiles)). Le MJ IA en ajoute une aux trois contrats du jour, ou les propose toutes le jour le plus fort de la fête.</p>",
+  "formula": "1d3",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "fete-mascarade-de-cabestan-contrats",
+      "aventure": "Fêtes des Tarides",
+      "fete": "mascarade-de-cabestan",
+      "collection": "fetes"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "8wmf7Sn7Dwwwu8Jd",
+      "_key": "!tables.results!UZuebiV03AckjAAz.8wmf7Sn7Dwwwu8Jd",
+      "type": "text",
+      "name": "Avis de recherche — Le masque qui vole",
+      "description": "<p><strong>Commanditaire :</strong> Nixi Pèse-Juste, comptable du Cartel à Cabestan.</p><p>Un pickpocket au masque serti dépouille les danseurs sur les barges et disparaît dans une gerbe de confettis. C'est un employé du Cartel Baille-Fonds : le ramener vivant, avec sa bourse, et sans ôter le masque d'un innocent ([[/check skill=prc dc=13]]{Perception DD 13} pour le repérer dans la foule).</p><p><strong>Récompense :</strong> 50 po et <strong>+3</strong> de réputation auprès de : Cartel Gentepression.</p>",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "avis",
+            "po": 50,
+            "faction": "cartel-gentepression",
+            "reputation": 3
+          }
+        }
+      }
+    },
+    {
+      "_id": "o9x3LQjXmxCbUKvs",
+      "_key": "!tables.results!UZuebiV03AckjAAz.o9x3LQjXmxCbUKvs",
+      "type": "text",
+      "name": "Escorte — Un ambassadeur sans visage",
+      "description": "<p><strong>Commanditaire :</strong> Grizzak Œil-Fendu, intendant kor'kron.</p><p>Escorter, masqué, un envoyé de la Horde jusqu'à une barge où l'attend un officier de Theramore, masqué lui aussi. Personne ne doit savoir qui parle à qui ; un @UUID[Compendium.lakour-warcraft.bestiaire.Actor.jeU8rFouecAiQFVO]{cultiste de la Lame ardente} déguisé en danseur le sait déjà.</p><p><strong>Récompense :</strong> 60 po et <strong>+4</strong> de réputation auprès de : Garde kor'kron.</p>",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "escorte",
+            "po": 60,
+            "faction": "kor-kron",
+            "reputation": 4
+          }
+        }
+      }
+    },
+    {
+      "_id": "D3iM69e8jdBSUXp6",
+      "_key": "!tables.results!UZuebiV03AckjAAz.D3iM69e8jdBSUXp6",
+      "type": "text",
+      "name": "Livraison — Le Baron de paille",
+      "description": "<p><strong>Commanditaire :</strong> Grizzla Tordeboulon, intendante du Cartel.</p><p>Tirer le Baron de paille, un pantin de six mètres sur un chariot, des entrepôts jusqu'au bout de la jetée avant le soir du mardi gras. Les hommes du baron Nizzel Baille-Fonds, vexés par la ressemblance, veulent le brûler trop tôt et au mauvais endroit ([[/check skill=prc dc=12]]{Perception DD 12} pour voir venir les torches).</p><p><strong>Récompense :</strong> 30 po et <strong>+2</strong> de réputation auprès de : Cartel Gentepression.</p>",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "livraison",
+            "po": 30,
+            "faction": "cartel-gentepression",
+            "reputation": 2
+          }
+        }
+      }
+    }
+  ]
+}

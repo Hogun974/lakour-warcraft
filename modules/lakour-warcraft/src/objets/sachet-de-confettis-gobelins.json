@@ -1,0 +1,221 @@
+{
+  "_id": "aeZ9wnAkoJLpNt6g",
+  "_key": "!items!aeZ9wnAkoJLpNt6g",
+  "name": "Sachet de confettis gobelins",
+  "type": "consumable",
+  "img": "icons/containers/bags/sack-symbol-flower-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Un petit sac de papier peint, bourré de confettis de métal brillant et d'une pincée de poudre qui pétille. À la Mascarade, on s'en lance des poignées à la figure ; les pickpockets s'en servent pour disparaître.</p><p>Par une <strong>action</strong>, vous lancez le sachet vers un point situé à <strong>9 m</strong> au plus : chaque créature dans une sphère de <strong>1,5 m</strong> de rayon centrée sur ce point fait un <strong>jet de sauvegarde de Dextérité DD 11</strong> ; en cas d'échec, elle est <strong>aveuglée</strong> jusqu'au début de votre prochain tour.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "sachet-de-confettis-gobelins",
+    "price": {
+      "value": 2,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "quantity": 3,
+    "rarity": "",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        },
+        "types": []
+      },
+      "replace": false
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "activities": {
+      "2hiyPO3YceHh6epR": {
+        "_id": "2hiyPO3YceHh6epR",
+        "type": "save",
+        "name": "Lancer le sachet",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "round",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "aVAZXoUl0eN5zQCJ",
+            "onSave": false,
+            "level": {}
+          }
+        ],
+        "range": {
+          "value": "9",
+          "units": "m",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "sphere",
+            "size": "1.5",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "11"
+          }
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": []
+        }
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "aVAZXoUl0eN5zQCJ",
+      "_key": "!items.effects!aeZ9wnAkoJLpNt6g.aVAZXoUl0eN5zQCJ",
+      "name": "Plein les yeux",
+      "img": "icons/containers/bags/sack-symbol-flower-yellow.webp",
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "disabled": false,
+      "duration": {
+        "value": 6,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
+      },
+      "description": "<p>Aveuglé jusqu'au début du prochain tour du lanceur.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "blinded"
+      ],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "sachet-de-confettis-gobelins",
+      "fete": "mascarade-de-cabestan",
+      "collection": "fetes"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

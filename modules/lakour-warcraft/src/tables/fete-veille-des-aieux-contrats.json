@@ -1,0 +1,102 @@
+{
+  "_id": "VdzdzwzHctZAc8TV",
+  "_key": "!tables!VdzdzwzHctZAc8TV",
+  "name": "Contrats de fête — La Veille des Aïeux",
+  "img": "icons/svg/d20-black.svg",
+  "description": "<p>Les affiches de La Veille des Aïeux, punaisées sur les tableaux des contrats pendant la fête (du 31 décembre au 2 janvier, la nuit du 31 surtout). Le MJ IA en ajoute une aux trois contrats du jour, ou les propose toutes le jour le plus fort de la fête.</p>",
+  "formula": "1d3",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "fete-veille-des-aieux-contrats",
+      "aventure": "Fêtes des Tarides",
+      "fete": "veille-des-aieux",
+      "collection": "fetes"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "results": [
+    {
+      "_id": "ihbRMpK0MaQC2WsN",
+      "_key": "!tables.results!VdzdzwzHctZAc8TV.ihbRMpK0MaQC2WsN",
+      "type": "text",
+      "name": "Escorte — Le dernier voyage d'Ahote",
+      "description": "<p><strong>Commanditaire :</strong> Tahko Vent-Clair, gardien du Cercle cénarien.</p><p>Ahote Corne-Lente, le plus vieux druide des Tarides, veut monter une dernière fois sur la colline des cairns pour allumer ses lampes. Le porter, le soutenir, le défendre : la nuit, des @UUID[Compendium.lakour-warcraft.bestiaire.Actor.gMmWKENeUcQssiBy]{Kolkar} rôdent autour des cairns pour les piller.</p><p><strong>Récompense :</strong> 40 po et <strong>+3</strong> de réputation auprès de : Cercle cénarien.</p>",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "escorte",
+            "po": 40,
+            "faction": "cercle-cenarien",
+            "reputation": 3
+          }
+        }
+      }
+    },
+    {
+      "_id": "1pgQ8TLFLaP8cmre",
+      "_key": "!tables.results!VdzdzwzHctZAc8TV.1pgQ8TLFLaP8cmre",
+      "type": "text",
+      "name": "Récolte — L'huile des lampes",
+      "description": "<p><strong>Commanditaire :</strong> les gardiens des cairns du Carrefour.</p><p>Rapporter six gourdes de graines-étoiles, ces graines huileuses qui poussent dans les éboulis du nord des Tarides ([[/check skill=nat dc=12]]{Nature DD 12} pour ne cueillir que les mûres). Sans elles, pas d'huile, et des ancêtres dans le noir.</p><p><strong>Récompense :</strong> 30 po et <strong>+2</strong> de réputation auprès de : Horde (Le Carrefour).</p>",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "recolte",
+            "po": 30,
+            "faction": "horde",
+            "reputation": 2
+          }
+        }
+      }
+    },
+    {
+      "_id": "cGIe67fLcnqihEPT",
+      "_key": "!tables.results!VdzdzwzHctZAc8TV.cGIe67fLcnqihEPT",
+      "type": "text",
+      "name": "Livraison — Les noms des disparus",
+      "description": "<p><strong>Commanditaire :</strong> Maëlis Hautepierre, intendante du port de Theramore.</p><p>Porter le registre des noms lus à minuit à Theramore jusqu'au cimetière des Rescapés, au bord du marécage d'Âprefange, et le déposer sur l'autel avant l'aube du premier jour de l'année. Il pleut, la piste est noyée et @UUID[Compendium.lakour-warcraft.bestiaire.Actor.QsFYC2AB4WaEidqA]{quelque chose} rôde entre les tombes.</p><p><strong>Récompense :</strong> 35 po et <strong>+3</strong> de réputation auprès de : Alliance (Theramore).</p>",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "img": null,
+      "flags": {
+        "lakour-warcraft": {
+          "contrat": {
+            "type": "livraison",
+            "po": 35,
+            "faction": "alliance",
+            "reputation": 3
+          }
+        }
+      }
+    }
+  ]
+}

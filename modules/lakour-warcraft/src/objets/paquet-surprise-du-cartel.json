@@ -1,0 +1,173 @@
+{
+  "_id": "VgjcohZu6CVLtYgr",
+  "_key": "!items!VgjcohZu6CVLtYgr",
+  "name": "Paquet-surprise du Cartel",
+  "type": "consumable",
+  "img": "icons/containers/boxes/box-gift-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Une boîte de carton ciré, ficelée d'un ruban vert et tamponnée de la roue dentée du Cartel Gentepression : « Contenu garanti surprenant ». Les gobelins de Cabestan en vendent des piles entières pendant la Trêve des Présents, et personne n'a jamais su ce qu'il y aurait dedans.</p><p>Par une <strong>action</strong>, vous ouvrez le paquet : lancez <strong>1d8</strong> sur la table <strong>Paquets-surprises du Cartel</strong> (le MJ l'a sous la main).</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "La Kour Warcraft",
+      "rules": "2024",
+      "revision": 1,
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "identifier": "paquet-surprise-du-cartel",
+    "price": {
+      "value": 10,
+      "denomination": "gp"
+    },
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "quantity": 1,
+    "rarity": "",
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        },
+        "types": []
+      },
+      "replace": false
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "activities": {
+      "DvOv8a9U0EVf7n4j": {
+        "_id": "DvOv8a9U0EVf7n4j",
+        "type": "utility",
+        "name": "Ouvrir le paquet",
+        "img": null,
+        "sort": 0,
+        "flags": {},
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "concentration": false,
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "",
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "m",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "roll": {
+          "prompt": false,
+          "visible": true,
+          "name": "Contenu du paquet",
+          "formula": "1d8"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "paquet-surprise-du-cartel",
+      "fete": "treve-des-presents",
+      "collection": "fetes"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

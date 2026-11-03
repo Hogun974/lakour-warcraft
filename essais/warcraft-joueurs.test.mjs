@@ -174,9 +174,12 @@ test("les tables couvrent toute leur formule, sans trou ni chevauchement, et leu
   const uuids = new Set(fabriquer().map(({ pack, doc }) => uuidDe(pack, doc)));
   const tables = tous.filter(d => d.__pack === "tables");
   // Sept tables génériques, la table propre au one-shot « Une nuit aux Deux Lanternes », et celles des suppléments :
-  // butin des trois boss du donjon, contrats des trois villes, rares des trois zones, récolte des quatre biomes, missions de la garnison.
+  // butin des trois boss du donjon, contrats des trois villes, rares des trois zones, récolte des quatre biomes, missions de la garnison,
+  // et les fêtes de saison (contrats de chacune des cinq fêtes, paquets-surprises de la Trêve des Présents).
   assert.deepEqual(tables.map(t => t.flags["lakour-warcraft"].cle).sort(), ["bruits-de-la-nuit", "butin-baron-nizzel", "butin-grokka-deux-cles",
-    "butin-mere-brasier", "complications", "contrats-cabestan", "contrats-le-carrefour", "contrats-theramore", "missions-des-suivants", "noms-par-peuple",
+    "butin-mere-brasier", "complications", "contrats-cabestan", "contrats-le-carrefour", "contrats-theramore",
+    "fete-mascarade-de-cabestan-contrats", "fete-nuit-des-calebasses-contrats", "fete-tambours-du-long-jour-contrats",
+    "fete-treve-des-presents-contrats", "fete-treve-des-presents-paquets", "fete-veille-des-aieux-contrats", "missions-des-suivants", "noms-par-peuple",
     "rares-cote-des-tarides", "rares-frontiere-du-sud", "rares-nord-des-tarides", "recolte-collines-rouges", "recolte-cote-et-criques",
     "recolte-marais-d-aprefange", "recolte-plaines-des-tarides", "rencontres-sur-la-route", "rumeurs-de-taverne",
     "temps-et-chemins", "trouvailles", "visages-d-azeroth"]);

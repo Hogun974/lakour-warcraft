@@ -170,6 +170,25 @@
         "default": -1
       },
       "flags": {}
+    },
+    {
+      "_id": "f9b0fU4rZShlISev",
+      "_key": "!journal.pages!AhhKFRv0rzMyRAt8.f9b0fU4rZShlISev",
+      "name": "Fêtes de saison (MJ)",
+      "type": "text",
+      "sort": 900,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Le MJ IA connaît un petit calendrier de fêtes populaires ; les Tarides en déclinent cinq, à leur façon. Le jour venu (d'après la date réelle, dans le navigateur du MJ), le MJ IA pose une carte au chat, change le décor et peut glisser la fête dans ses descriptions. Le réglage « Fête de saison » du MJ IA force une fête hors saison, ou les coupe toutes.</p><ul><li><strong>La Trêve des Présents</strong> (tout le mois de décembre, au plus fort du 24 au 26) : @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.pJE7MwYKStBKajJH]{journal de la fête}, @UUID[Compendium.lakour-warcraft.tables.RollTable.cQvTkAAcP7SKGDTs]{contrats}.</li><li><strong>La Veille des Aïeux</strong> (du 31 décembre au 2 janvier, la nuit du 31 surtout) : @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.Qt90pPOniNtSWZSG]{journal de la fête}, @UUID[Compendium.lakour-warcraft.tables.RollTable.VdzdzwzHctZAc8TV]{contrats}.</li><li><strong>La Nuit des Calebasses</strong> (du 25 octobre au 2 novembre, la nuit du 31 octobre surtout) : @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.yQFFByTcvqMwOXoe]{journal de la fête}, @UUID[Compendium.lakour-warcraft.tables.RollTable.0C7GDUAyigkK1yyc]{contrats}.</li><li><strong>Les Tambours du Long Jour</strong> (du 20 au 22 juin, le jour du solstice surtout) : @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.Cqt79a5l7VnYzFjY]{journal de la fête}, @UUID[Compendium.lakour-warcraft.tables.RollTable.Dc0oNoBlthbgd1JP]{contrats}.</li><li><strong>La Mascarade de Cabestan</strong> (du jeudi gras au mardi gras (dates mobiles)) : @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.yDi6OYK5fqzExFfm]{journal de la fête}, @UUID[Compendium.lakour-warcraft.tables.RollTable.UZuebiV03AckjAAz]{contrats}.</li></ul><p>Chaque journal donne l'ambiance au Carrefour, à Theramore, à Cabestan et dans les kraals, quatre ou cinq accroches et les gains de réputation propres à la fête. Les objets de fête se vendent chez les marchands des trois villes tant que dure la fête ; ensuite, ils deviennent rares.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
     }
   ]
 }

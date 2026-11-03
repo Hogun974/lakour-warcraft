@@ -1,0 +1,82 @@
+{
+  "_id": "Qt90pPOniNtSWZSG",
+  "_key": "!journal!Qt90pPOniNtSWZSG",
+  "name": "Fête — La Veille des Aïeux (MJ)",
+  "folder": null,
+  "sort": 0,
+  "categories": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "fete-veille-des-aieux",
+      "fete": "veille-des-aieux",
+      "collection": "fetes"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "pages": [
+    {
+      "_id": "D2JHjz22F6ZTUJ0n",
+      "_key": "!journal.pages!Qt90pPOniNtSWZSG.D2JHjz22F6ZTUJ0n",
+      "name": "La fête",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<figure class=\"lakour-warcraft-fete\"><img src=\"modules/lakour-warcraft/assets/fetes/nouvel-an.jpg\" alt=\"Des lampes-étoiles sur la colline des cairns au-dessus du Carrefour, la nuit de la Veille des Aïeux\"></figure><p>La dernière nuit de l'année, on ne dort pas : c'est la <strong>Veille des Aïeux</strong>. Chaque peuple des Tarides honore ses morts anciens et ses vivants les plus vieux. On rend visite à l'ancien de son camp avec un présent (une couverture, du tabac, une histoire qu'on lui demande de raconter encore), et l'on écoute jusqu'au bout.</p><p><strong>La colline des cairns.</strong> Au nord du Carrefour, une colline pelée porte des centaines de cairns de pierres plates, un par lignée taurène. À la nuit tombée, chaque famille y allume une <strong>lampe-étoile</strong> par ancêtre ; vue de loin, la colline ressemble à un morceau de ciel tombé dans la savane.</p><p><strong>Un ancien de l'autre camp.</strong> Honorer un ancien d'un autre peuple, ou de l'autre faction, porte chance pour l'année. C'est rare, et l'on s'en souvient.</p><p><strong>Quand.</strong> du 31 décembre au 2 janvier, la nuit du 31 surtout, d'après la date du jour (le MJ IA pose la carte de la fête au chat et peut y faire allusion). Hors saison, le MJ peut forcer la fête dans les réglages du MJ IA, « Fête de saison ».</p><p><strong>Réputation.</strong> En plus des contrats, une fois par fête et par personnage (voir le @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.uIWkSgn7SjyOj8nd]{Guide de la réputation}, plafond de 10 points par jour) :<br>- <strong>+2</strong> auprès de : Horde (Le Carrefour), pour un hommage rendu à un ancien de la Horde (un présent, une histoire écoutée jusqu'au bout, une lampe portée).<br>- <strong>+2</strong> auprès de : Cercle cénarien, pour une lampe-étoile portée sur la colline des cairns pour un druide ou un ancien tauren.</p><p><strong>Objets de la fête</strong>, en vente chez les marchands des trois villes tant qu'elle dure : @UUID[Compendium.lakour-warcraft.objets.Item.YPfb0mtY5GIAoPkO]{Lampe-étoile des aïeux}, @UUID[Compendium.lakour-warcraft.objets.Item.76qAdME0kPDRdtUx]{Pain de cendre des aïeux}.</p><p><strong>Contrats et tables</strong> : @UUID[Compendium.lakour-warcraft.tables.RollTable.VdzdzwzHctZAc8TV]{Contrats de fête — La Veille des Aïeux}. Le MJ IA ajoute un contrat de fête aux trois affiches du jour.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "IQ4sGJ6MtTKZNC7Q",
+      "_key": "!journal.pages!Qt90pPOniNtSWZSG.IQ4sGJ6MtTKZNC7Q",
+      "name": "Ambiance",
+      "type": "text",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Au Carrefour.</strong> Les orcs récitent la lignée de leur clan, du plus vieux nom au plus jeune, devant le feu ; les jeunes grunts se trompent et les vieux les reprennent. Les taurens montent à la colline des cairns en file, une lampe dans chaque main. Personne ne monte la garde ce soir-là sans un vieux pour lui tenir compagnie.</p><p><strong>À Theramore.</strong> À minuit, la cloche du port sonne une fois par mois de l'année écoulée. Dans la chapelle, Frère Odric Pierrelune lit les noms de ceux que les réfugiés ont laissés en Lordaeron ; chacun peut en ajouter un au registre. Puis on boit à leur santé, et les marins jettent une pièce dans la baie.</p><p><strong>À Cabestan.</strong> On solde ses dettes avant minuit : on n'entre pas dans l'année avec une ardoise. Les comptoirs restent ouverts tard, Nixi Pèse-Juste encaisse sans lever les yeux, et les mauvais payeurs se cachent sur les navires.</p><p><strong>Dans les kraals.</strong> À Ronceroc, on enterre sous les ronces une défense de sanglier pour chaque ancien mort dans l'année ; cette nuit-là, les hurans ne chassent pas et ne pillent pas. Les caravaniers le savent et voyagent de nuit.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Vnwg4k5vSx1rZGq7",
+      "_key": "!journal.pages!Qt90pPOniNtSWZSG.Vnwg4k5vSx1rZGq7",
+      "name": "Accroches",
+      "type": "text",
+      "sort": 300,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<ul><li><strong>Le cairn renversé.</strong> À l'aube du dernier jour, un cairn de la colline est renversé et ses pierres gravées emportées. Les traces mènent à un campement de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.gMmWKENeUcQssiBy]{Kolkar} ; [[/check skill=sur dc=13]]{Survie DD 13} pour les suivre. Les pierres rapportées avant minuit valent +3 auprès de la Horde.</li><li><strong>Le dernier conte.</strong> Le vieux @UUID[Compendium.lakour-warcraft.bestiaire.Actor.Hy3EZ9O9zgnyuGam]{Hanuk Pas-de-Pluie} raconte, cette nuit, une histoire qu'il n'a jamais dite : un puits ancien, une pierre qui chante, plus au sud. L'écouter jusqu'au bout ([[/check skill=his dc=13]]{Histoire DD 13} pour en tirer un lieu précis) donne une piste d'aventure pour la nouvelle année.</li><li><strong>Un nom de trop.</strong> Dans le registre de Theramore, quelqu'un a écrit le nom d'un réfugié bien vivant. Menace ou erreur ? @UUID[Compendium.lakour-warcraft.bestiaire.Actor.eH06E9RxoVB5nOWB]{Vesper Lacombe} affirme que ce nom-là est celui d'un « bon docteur » ; [[/check skill=ins dc=14]]{Intuition DD 14} pour savoir si elle ment.</li><li><strong>La dette du baron.</strong> Un comptable du Cartel Baille-Fonds cherche à fuir Cabestan avant minuit avec le registre des dettes du baron. Nixi Pèse-Juste paie 40 po pour le registre ; le livrer à @UUID[Compendium.lakour-warcraft.bestiaire.Actor.EgsVDftATjRAEYLT]{Grizzla} rapporte +2 auprès du Cartel Gentepression.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ]
+}
