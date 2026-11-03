@@ -619,7 +619,11 @@ surPre("dnd5e.preUseActivity", activity => {
 async function appliquerEffet(source, acteur, item, region) {
   const existant = liste(acteur.effects).find(e => e._stats?.duplicateSource === source.uuid);
   const debut = globalThis.ActiveEffect?.implementation?.getEffectStart?.();
-  if (existant) return existant.update({ disabled: false, "duration.expired": false, ...(debut ? { start: debut } : {}) });
+  if (existant) {
+    return existant.update({
+      disabled: false, "duration.expired": false, [`flags.${ID}.totemRecu`]: region.uuid, ...(debut ? { start: debut } : {})
+    });
+  }
   const d = source.toObject();
   delete d._id;
   Object.assign(d, { disabled: false, transfer: false, origin: item.uuid });
@@ -688,6 +692,16 @@ for (const nom of ["createActiveEffect", "updateActiveEffect", "deleteActiveEffe
     if (regions.length) return verifierTotems(regions);
   });
 }
+// Un totem qui tombe (fin de la Rage ou du combat, porteur supprimé, région effacée à la main) emporte les effets qu'il
+// a donnés (flags.totemRecu = uuid de sa région) : sans temps du monde qui avance, leur minute ne s'écoulerait jamais.
+sur("deleteRegion", async region => {
+  if (!estMjActif() || !drapeau(region, "totem")) return;
+  const acteurs = new Set([...liste(region.parent?.tokens).map(x => x.actor), ...liste(game.actors)].filter(Boolean));
+  await pourChacun([...acteurs], a => {
+    const ids = liste(a.effects).filter(e => drapeau(e, "totemRecu") === region.uuid).map(e => e.id);
+    return ids.length ? a.deleteEmbeddedDocuments("ActiveEffect", ids) : null;
+  }, "totems : effets");
+});
 sur("updateWorldTime", () => verifierTotems());
 sur("deleteActor", () => verifierTotems());
 sur("deleteCombat", async combat => {

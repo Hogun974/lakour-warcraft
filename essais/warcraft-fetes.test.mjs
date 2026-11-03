@@ -305,10 +305,10 @@ test("fêtes : enregistrement dans chaque navigateur, défensif sans moteur, hor
   assert.match(String(avis[0][1]?.message), /déjà déclinée/);
 });
 
-test("version : module 0.10.0, contenu 0.10.0", () => {
+test("version : module 0.10.1, contenu 0.10.0", () => {
   const module = JSON.parse(readFileSync(new URL(`modules/${M}/module.json`, RACINE), "utf8"));
   const main = readFileSync(new URL(`modules/${M}/scripts/main.js`, RACINE), "utf8");
-  assert.equal(module.version, "0.10.0");
+  assert.equal(module.version, "0.10.1");
   assert.equal(/const VERSION_CONTENU = "([^"]+)"/.exec(main)?.[1], "0.10.0");
 });
 
