@@ -2,7 +2,7 @@
   "id": "lakour-warcraft",
   "title": "La Kour Warcraft — Azeroth pour la 5e édition",
   "description": "Azeroth pour la 5e édition (système dnd5e, règles 2024), en français : treize peuples jouables, dix historiques, treize sous-classes, dons, affiliations, sorts, arsenal, afflictions, métiers et établi d'artisanat, garnison de faction, réputations et contrats, montures, bestiaire de soixante-dix fiches. Une aventure de départ (niveaux 1 à 3), une campagne en quatre chapitres (3 à 6), un one-shot d'enquête, un donjon à trois boss et des cartes jouables prêtes à l'emploi, chacune importable en un clic. Les règles maison sont automatisées (auras, familier du rôdeur, totems, phase 2 des boss, fureur, ensembles) et cinq fêtes de saison animent les Tarides avec le module compagnon MJ IA. Textes originaux ; œuvre de fan non officielle, non affiliée à Blizzard Entertainment. — Azeroth for D&D 5e (2024 rules), in French: 13 playable species, 13 subclasses, feats, spells, gear, afflictions, crafting, a 70-stat-block bestiary, a starter adventure, a four-chapter campaign, a one-shot and a boss dungeon with ready-to-play maps; house rules automated. Unofficial fan work.",
-  "version": "0.10.1",
+  "version": "0.11.0",
   "authors": [
     {
       "name": "Jordan",

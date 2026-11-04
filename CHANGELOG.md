@@ -6,6 +6,16 @@ Format : [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/), dates au form
 
 ## Non publié
 
+### Ajouté
+- « La Kour Warcraft — Le livre des Tarides » (`contenu/livre-univers.mjs`) : le livre d'univers des joueurs, journal
+  visible installé comme le Guide du joueur, seize pages (arrivée à Cabestan en récit, Azeroth en l'an 21 vu des
+  Tarides, Cabestan et sa Trêve, le Carrefour, Theramore et le Gué-Brumeux, les marges, pistes et perchoirs, les
+  pouvoirs en place, les treize peuples en récit, vivre dans les Tarides, foi et magie, l'année et ses fêtes, portraits,
+  rumeurs, lexique), lié aux peuples, historiques, affiliations, objets et journaux visibles ; traduit en anglais
+  (« The Book of the Barrens »). Les pages des journaux acceptent les citations (« > »).
+- Version du contenu de l'installateur portée à 0.11.0 : le livre est proposé aux mondes déjà installés.
+
+### Autre
 - Dépôt préparé pour la publication : README en français et en anglais, manifeste complet (manifeste, téléchargement,
   signalement de bogues, journal, licence, médias), script d'empaquetage `outils/empaqueter-module.mjs`, workflow de
   release GitHub sur tag `v*`, liste de contrôle `docs/publication.md`.

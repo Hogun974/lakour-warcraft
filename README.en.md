@@ -99,7 +99,7 @@ git clone --recurse-submodules https://github.com/Hogun974/lakour-warcraft.git
 cd lakour-warcraft
 npm install                     # @foundryvtt/foundryvtt-cli, pinned version
 npm run fabriquer-warcraft      # checks the content, writes src/ then compiles packs/
-npm run essais                  # optional: 177 tests, two seconds
+npm run essais                  # optional: 190 tests, two seconds
 node outils/empaqueter-module.mjs   # optional: dist/lakour-warcraft.zip and dist/module.json
 ```
 
@@ -117,14 +117,15 @@ Foundry `Data/modules/` folder, or install `dist/lakour-warcraft.zip` from the m
    importing it places journals, maps, NPCs, items and tables in a folder of its name. When creating a dnd5e world,
    Foundry also offers *Les Puits de cendre* as a quick start.
 4. Players read the **Player's guide — Azeroth** (factions, species, regions, which class for which archetype,
-   professions); the GM reads the **GM's guide — Azeroth** (timeline, tone, magic, economy, languages, advice,
+   professions) and **The Book of the Barrens** (the setting book: places, powers, the peoples in prose, everyday life,
+   festivals, portraits, rumours, a glossary); the GM reads the **GM's guide — Azeroth** (timeline, tone, magic, economy, languages, advice,
    professions, garrison, festivals), hidden from players.
 5. For a character: drag a **species**, a **background** and a **subclass** onto the sheet; dnd5e advancements do the
    rest (traits, proficiencies, always-prepared spells, scaling dice).
 
 ## What the module contains
 
-Twelve compendiums in the "La Kour Warcraft" folder. Figures are those of version 0.10.1.
+Twelve compendiums in the "La Kour Warcraft" folder. Figures are those of version 0.11.0.
 
 ### Species (13 species, 40 traits)
 
@@ -199,11 +200,13 @@ the adventures, the dungeon bosses, the rares of the Barrens, five mounts and th
 player-facing text, a GM note (tactics), a token in its faction's colours and features with painted icons. Numeric
 profiles are adapted from the SRD 5.2.1 (see [Credits](#credits)).
 
-### Tables (28), journals (24), maps (19), adventures (5)
+### Tables (28), journals (25), maps (19), adventures (5)
 
 Random tables (names by species, faces, tavern rumours, road encounters, complications, finds, weather and routes,
 contracts, rares, harvesting by biome, boss loot, follower missions, surprise packages); linked journals with
-clickable references and ready-to-roll checks; 4 adventure maps, 4 campaign maps, 3 one-shot maps and 8 **generic
+clickable references and ready-to-roll checks, among them **The Book of the Barrens**, the players' setting book
+(sixteen pages: arrival in Ratchet, Azeroth in year 21, the places, the powers, the thirteen peoples in prose, everyday
+life, faith and magic, the festivals, portraits, rumours, a glossary); 4 adventure maps, 4 campaign maps, 3 one-shot maps and 8 **generic
 locations** (inn, orc camp, crypt, clearing, mine, harbour, elven ruins, human village) with walls, doors, lights,
 ambient sounds, regions and journal pins, drawn in flat and relief styles; one *Adventure* package per adventure.
 
@@ -269,7 +272,7 @@ reputations.
 
 The content is **built** from JavaScript sources (`modules/lakour-warcraft/contenu/*.mjs`) by constructors that check
 every key against dnd5e 6.0.6: an unknown value, an orphan reference or a distance in feet fails the build. On top,
-177 Node tests (`npm run essais`, no network) check the built documents, links, icons, units, the automation (pure
+190 Node tests (`npm run essais`, no network) check the built documents, links, icons, units, the automation (pure
 logic replayed against mutated versions of the code, all of which must be caught) and the contract with the engine. An
 optional test validates the documents against the Foundry v14 schemas when `FOUNDRY_V14=<folder containing common/>`
 is given.

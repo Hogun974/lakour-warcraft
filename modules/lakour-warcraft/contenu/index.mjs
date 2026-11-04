@@ -22,6 +22,7 @@ import { COMPAGNONS } from "./compagnons.mjs";
 import { METIERS_DOCUMENTS } from "./metiers.mjs";
 import { GARNISON_DOCUMENTS } from "./garnison.mjs";
 import { FETES_DOCUMENTS } from "./fetes.mjs";
+import { LIVRE_DOCUMENTS } from "./livre-univers.mjs";
 
 // Tout le contenu du module, dans l'ordre des compendiums.
 export const DOCUMENTS = [
@@ -38,5 +39,7 @@ export const DOCUMENTS = [
   // Lot 2 : familier du rôdeur, métiers (récolte, artisanat), garnison de faction (installations de bastion).
   ...COMPAGNONS, ...METIERS_DOCUMENTS, ...GARNISON_DOCUMENTS,
   // Fêtes de saison des Tarides (déclinaisons du calendrier du MJ IA, enregistrées par scripts/fetes.js).
-  ...FETES_DOCUMENTS
+  ...FETES_DOCUMENTS,
+  // Le livre des Tarides : livre d'univers des joueurs (journal visible, lié aux peuples, historiques, dons, objets et guides).
+  ...LIVRE_DOCUMENTS
 ];

@@ -104,7 +104,7 @@ git clone --recurse-submodules https://github.com/Hogun974/lakour-warcraft.git
 cd lakour-warcraft
 npm install                     # @foundryvtt/foundryvtt-cli, version épinglée
 npm run fabriquer-warcraft      # vérifie le contenu, écrit src/ puis compile packs/
-npm run essais                  # facultatif : 177 essais, deux secondes
+npm run essais                  # facultatif : 190 essais, deux secondes
 node outils/empaqueter-module.mjs   # facultatif : dist/lakour-warcraft.zip et dist/module.json
 ```
 
@@ -122,14 +122,15 @@ dossier `Data/modules/` de votre Foundry, ou installez `dist/lakour-warcraft.zip
    l'importer pose journaux, cartes, PNJ, objets et tables dans un dossier à son nom. À la création d'un monde dnd5e,
    Foundry propose d'ailleurs *Les Puits de cendre* en démarrage rapide.
 4. Les joueurs lisent le **Guide du joueur — Azeroth** (factions, peuples, régions, quelle classe pour quel archétype,
-   métiers) ; le MJ lit le **Guide du MJ — Azeroth** (chronologie, ton, magie, économie, langues, conseils, métiers,
+   métiers) et **Le livre des Tarides** (le livre d'univers : les lieux, les pouvoirs, les peuples en récit, la vie de
+   tous les jours, les fêtes, des portraits, des rumeurs, un lexique) ; le MJ lit le **Guide du MJ — Azeroth** (chronologie, ton, magie, économie, langues, conseils, métiers,
    garnison, fêtes), caché aux joueurs.
 5. Pour un personnage : glissez un **peuple**, un **historique** et une **sous-classe** sur la fiche ; les avancements
    de dnd5e font le reste (traits, maîtrises, sorts toujours préparés, dés qui évoluent).
 
 ## Ce que contient le module
 
-Douze compendiums, rangés dans le dossier « La Kour Warcraft ». Les chiffres sont ceux de la version 0.10.1.
+Douze compendiums, rangés dans le dossier « La Kour Warcraft ». Les chiffres sont ceux de la version 0.11.0.
 
 ### Peuples (13 peuples, 40 traits)
 
@@ -217,12 +218,14 @@ grunts, marchands, prêtres), les PNJ nommés des aventures, les boss du donjon,
 le familier du chasseur. Chaque fiche a un texte joueur, une note du MJ (tactique), un jeton aux couleurs de son camp
 et des capacités aux icônes peintes. Les profils chiffrés sont adaptés du SRD 5.2.1 (voir [Crédits](#crédits)).
 
-### Tables (28), journaux (24), cartes (19), aventures (5)
+### Tables (28), journaux (25), cartes (19), aventures (5)
 
 - **Tables** : noms par peuple, visages, rumeurs de taverne, rencontres sur la route, complications, trouvailles, temps
   et chemins, contrats (trois villes et cinq fêtes), rares par zone, récolte par biome, butin des boss, missions des
   suivants, paquets-surprises.
-- **Journaux** : les deux guides, les trois aventures et le donjon, les aides de jeu (lettres, contrat, règlement,
+- **Journaux** : les deux guides, **Le livre des Tarides** (le livre d'univers des joueurs : seize pages, de l'arrivée
+  à Cabestan au lexique, avec les lieux, les pouvoirs, les treize peuples en récit, la vie de tous les jours, la foi, les
+  fêtes, des portraits et des rumeurs), les trois aventures et le donjon, les aides de jeu (lettres, contrat, règlement,
   registre, sauf-conduit, carnet), le guide de la réputation, les routes aériennes, les recettes d'artisanat, la
   garnison, le tableau des contrats, les rares, les cinq fêtes. Les journaux sont **liés** (références cliquables vers
   les fiches, jets de dés et sauvegardes prêts à lancer).
@@ -307,7 +310,7 @@ fêtes, réputations.
 
 Le contenu est **fabriqué** à partir de sources JavaScript (`modules/lakour-warcraft/contenu/*.mjs`) par des
 constructeurs qui vérifient chaque clé contre le système dnd5e 6.0.6 : une valeur inconnue, une référence orpheline ou
-une distance en pieds font échouer la fabrication. Par-dessus, 177 essais Node (`npm run essais`, aucun réseau) vérifient
+une distance en pieds font échouer la fabrication. Par-dessus, 190 essais Node (`npm run essais`, aucun réseau) vérifient
 les documents fabriqués, les liens, les icônes, les unités, les automatismes (logique pure rejouée sur des versions
 mutées du code, qui doivent toutes être repérées) et le contrat passé avec le moteur. Un essai facultatif valide les
 documents contre les schémas de Foundry v14 quand `FOUNDRY_V14=<dossier contenant common/>` est fourni.

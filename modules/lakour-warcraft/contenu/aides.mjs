@@ -22,13 +22,18 @@ export function icone(...motifs) {
   return trouvee;
 }
 
-// Texte -> HTML : paragraphes séparés par une ligne vide, **gras**, *italique*, listes « - », titres « # ».
+// Texte -> HTML : paragraphes séparés par une ligne vide, **gras**, *italique*, listes « - », titres « # », citations « > »
+// (un bloc dont chaque ligne commence par « > » ; une ligne « > » seule sépare deux paragraphes de la citation).
 export function html(texte = "") {
   const enLigne = t => t.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/\*(.+?)\*/g, "<em>$1</em>");
   return String(texte).trim().split(/\n\s*\n/).filter(Boolean).map(bloc => {
     const lignes = bloc.trim().split("\n");
     if (lignes.every(l => /^\s*-\s+/.test(l))) return `<ul>${lignes.map(l => `<li>${enLigne(l.replace(/^\s*-\s+/, ""))}</li>`).join("")}</ul>`;
+    if (lignes.every(l => /^\s*>/.test(l))) {
+      const paragraphes = lignes.map(l => l.replace(/^\s*>\s?/, "")).join("\n").split(/\n\s*\n/).map(p => p.split("\n").filter(l => l.trim()));
+      return `<blockquote>${paragraphes.filter(p => p.length).map(p => `<p>${p.map(enLigne).join("<br>")}</p>`).join("")}</blockquote>`;
+    }
     const titre = /^(#{1,3})\s+(.*)$/.exec(bloc.trim());
     if (titre && lignes.length === 1) return `<h${titre[1].length + 1}>${enLigne(titre[2])}</h${titre[1].length + 1}>`;
     return `<p>${lignes.map(enLigne).join("<br>")}</p>`;

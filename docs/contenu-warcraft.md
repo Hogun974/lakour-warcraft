@@ -20,7 +20,7 @@ leur uuid dnd5e**, jamais recopiés.
 | `historiques` (Item) | 10 historiques 2024 (`background`) et des dons d'origine maison | `contenu/historiques.mjs` |
 | `objets` (Item) | armes, armures, potions, objets peu communs, butin | `contenu/objets-azeroth.mjs` |
 | `bestiaire` (Actor) | 30 créatures types, les PNJ de l'aventure et de la campagne (`npc`) | `bestiaire.mjs`, `aventure.mjs`, `campagne.mjs` |
-| `journaux` (JournalEntry) | guide du joueur (visible), guide du MJ (caché), aventure et campagne (cachées), aides de jeu (visibles) | `guides.mjs`, `aventure.mjs`, `campagne.mjs` |
+| `journaux` (JournalEntry) | guide du joueur (visible), guide du MJ (caché), le livre des Tarides (livre d'univers des joueurs, visible), aventure et campagne (cachées), aides de jeu (visibles) | `guides.mjs`, `livre-univers.mjs`, `aventure.mjs`, `campagne.mjs` |
 | `tables` (RollTable) | noms, rumeurs, rencontres, complications, trouvailles | `guides.mjs` |
 | `scenes` (Scene) | 4 cartes de l'aventure, 4 de la campagne, 8 lieux génériques (`lieu-…`) | `aventure-cartes.mjs`, `campagne-cartes.mjs`, `lieux-cartes.mjs` |
 | `aventures` (Adventure) | l'aventure et la campagne, chacune en un paquet importable en un clic | `aventures-paquets.mjs` |
