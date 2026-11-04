@@ -22,15 +22,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Récupérer le dépôt et le sous-module
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           submodules: recursive
           token: ${{ secrets.SOUS_MODULE_TOKEN || github.token }}
 
       - name: Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: 25
+          node-version: 24
           cache: npm
 
       - name: Version du tag
@@ -100,16 +100,13 @@ jobs:
           cat dist/notes.md
 
       - name: Release GitHub
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           name: La Kour Warcraft ${{ steps.version.outputs.version }}
           body_path: dist/notes.md
-          fail_on_unmatched_files: false
+          # dist/ ne contient que ce qui est publié (plus notes.md) : deux motifs, aucun fichier listé deux fois (l'action
+          # ne dédoublonne pas : lakour-warcraft.zip, nommé ET couvert par dist/*.zip, était envoyé deux fois).
+          fail_on_unmatched_files: true
           files: |
-            dist/module.json
-            dist/lakour-warcraft.zip
-            dist/lakour-warcraft-en.json
-            dist/lakour-warcraft-en.zip
-            dist/world.json
-            dist/world-en.json
+            dist/*.json
             dist/*.zip

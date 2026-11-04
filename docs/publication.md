@@ -97,3 +97,30 @@ Un module gratuit n'a pas besoin du catalogue : l'URL du manifeste suffit aux jo
    journaux et cartes déjà importés), section dans `CHANGELOG.md`.
 3. Commit, tag `vX.Y.Z`, poussée des tags : la release se fait seule.
 4. Si le paquet est au catalogue foundryvtt.com : y déclarer la version avec l'URL du manifeste de cette version.
+
+## Release à blanc du 4 novembre 2026
+
+Chaque workflow a été rejoué étape par étape (Ubuntu 24.04 sous WSL, **Node 24.22**, npm 10) dans un clone neuf
+`git clone --recurse-submodules`, avec un tag local et les variables `GITHUB_REF_NAME` / `GITHUB_REPOSITORY` du runner ;
+les archives produites ont été relues (manifeste à la racine, chemins `/`, `packs/` complets, ni `src/`, ni `contenu/`, ni
+`essais/`, ni `node_modules`, ni `.git`, CRC vérifiés). Les actions sont passées en versions Node 24
+(`actions/checkout@v5`, `actions/setup-node@v5`, `softprops/action-gh-release@v3` : les v4/v2 tournent encore sous
+Node 20, en fin de vie sur les runners GitHub).
+
+Constats et corrections :
+
+- **Piège trouvé : les scripts ne s'exécutaient pas sous Linux.** La garde « lancé directement ? » écrite
+  ``import.meta.url === `file:///${process.argv[1]…}` `` est toujours fausse sur le runner (`argv[1]` commence déjà par
+  `/`, d'où `file:////…`) : le script se termine **sans rien faire et sans erreur**. Corrigé dans `outils/empaqueter-module.mjs`
+  (`resolve(process.argv[1]) === fileURLToPath(import.meta.url)`). Sans cela : aucun `dist/`, puis échec des copies du monde.
+- `node-version: 25` → **24** (version visée par les autres dépôts ; les essais passent en Node 24).
+- Liste de fichiers de la release : `lakour-warcraft.zip` nommé **et** couvert par `dist/*.zip` (double envoi) →
+  `dist/*.json` + `dist/*.zip`, `fail_on_unmatched_files: true`.
+
+- [ ] **Bloquant, hors des fichiers touchés ici** : même garde cassée dans `outils/fabriquer-warcraft.mjs` :
+      `npm run fabriquer-warcraft(-en)` ne fabrique rien sous Linux, `modules/lakour-warcraft-en/` n'existe pas et
+      l'empaquetage échoue (« Compendiums non compilés »). Remplacer la ligne par
+      `if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {` (imports `node:path`,
+      `node:url`).
+- [ ] `CHANGELOG.md` n'a pas de section `## 0.11.0` : texte de release générique.
+- [ ] `lakour-mj-ia` public (ou secret `SOUS_MODULE_TOKEN`) avant de pousser le tag.

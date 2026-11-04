@@ -15,6 +15,7 @@
 import { createHash } from "node:crypto";
 import { existsSync, mkdirSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { join, relative, resolve, sep } from "node:path";
+import { fileURLToPath } from "node:url";
 import { crc32, deflateRawSync } from "node:zlib";
 
 export const MODULE = "lakour-warcraft";
@@ -156,7 +157,9 @@ export function empaqueter({ racineDepot = process.cwd(), version = null, depot 
   return { version: versionPubliee, fichiers: entrees.length, octets: archive.length, sha256: empreinte, manifeste: publie };
 }
 
-if (process.argv[1] && import.meta.url === `file:///${process.argv[1].replace(/\\/g, "/")}`) {
+// Lancé directement ? Comparaison de chemins (et non d'URL bricolée « file:/// » + argv[1], fausse sous Linux où argv[1]
+// commence déjà par « / » : le script ne faisait alors rien, sans erreur, sur le runner GitHub ubuntu-latest).
+if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   try {
     const o = options(process.argv.slice(2));
     empaqueter({ ...o });

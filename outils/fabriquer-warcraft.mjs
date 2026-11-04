@@ -204,7 +204,7 @@ async function ecrireEtCompiler(docs, racine, compiler) {
 }
 
 // Lancé directement (npm run fabriquer-warcraft) ; importé par les essais, on ne fait que fabriquer().
-if (process.argv[1] && import.meta.url === `file:///${process.argv[1].replace(/\\/g, "/")}`) {
+if (process.argv[1] && import.meta.url === (await import("node:url")).pathToFileURL((await import("node:path")).resolve(process.argv[1])).href) {
   const docs = fabriquer();
   const langue = process.argv.includes("--langue") ? process.argv[process.argv.indexOf("--langue") + 1] : "fr";
   const compiler = !process.argv.includes("--sans-compiler");

@@ -4,7 +4,7 @@ Les versions sont celles du module `lakour-warcraft` (`modules/lakour-warcraft/m
 `lakour-mj-ia` (sous-module) a son propre journal ; la version du moteur embarquée est rappelée quand elle change.
 Format : [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/), dates au format AAAA-MM-JJ.
 
-## Non publié
+## 0.11.0 — 2026-11-04
 
 ### Ajouté
 - « La Kour Warcraft — Le livre des Tarides » (`contenu/livre-univers.mjs`) : le livre d'univers des joueurs, journal
