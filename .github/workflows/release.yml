@@ -1,7 +1,8 @@
 # Publication d'une release GitHub à chaque tag « vX.Y.Z » : compendiums fabriqués (français, puis anglais : module
 # lakour-warcraft-en engendré à partir des mêmes sources et des dictionnaires contenu/en/), modules empaquetés
-# (outils/empaqueter-module.mjs), monde empaqueté si le script « empaqueter-monde » existe dans package.json, puis release avec
-# module.json, lakour-warcraft.zip, lakour-warcraft-en.json, lakour-warcraft-en.zip, world.json et l'archive du monde.
+# (outils/empaqueter-module.mjs), mondes vierges empaquetés (français puis anglais) si le script « empaqueter-monde » existe dans
+# package.json et recopiés de monde/dist dans dist/, puis release avec module.json, lakour-warcraft.zip, lakour-warcraft-en.json,
+# lakour-warcraft-en.zip, world.json, la-kour-warcraft.zip, world-en.json et la-kour-warcraft-en.zip.
 # Les manifestes publiés portent la version du tag (vérifiée contre module.json). Adresses stables données aux joueurs :
 #   https://github.com/Hogun974/lakour-warcraft/releases/latest/download/module.json               (français)
 #   https://github.com/Hogun974/lakour-warcraft/releases/latest/download/lakour-warcraft-en.json   (anglais)
@@ -59,13 +60,18 @@ jobs:
       - name: Empaqueter le module anglais (lakour-warcraft-en.zip, manifeste lakour-warcraft-en.json)
         run: node outils/empaqueter-module.mjs --module lakour-warcraft-en --version "${{ steps.version.outputs.version }}" --verifier-version --depot "https://github.com/${{ github.repository }}"
 
-      - name: Empaqueter le monde (si le script existe)
+      - name: Empaqueter les mondes vierges, français puis anglais (si le script existe), et les recopier dans dist/
         env:
           VERSION: ${{ steps.version.outputs.version }}
           DEPOT: https://github.com/${{ github.repository }}
         run: |
           if node -e "process.exit(require('./package.json').scripts?.['empaqueter-monde'] ? 0 : 1)"; then
             npm run empaqueter-monde
+            npm run empaqueter-monde -- --langue en
+            cp monde/dist/world.json dist/world.json
+            cp monde/dist/la-kour-warcraft.zip dist/la-kour-warcraft.zip
+            cp monde/dist/world-en.json dist/world-en.json
+            cp monde/dist/la-kour-warcraft-en.zip dist/la-kour-warcraft-en.zip
           else
             echo "Pas de script empaqueter-monde : pas d'archive de monde pour cette release."
           fi
@@ -77,6 +83,7 @@ jobs:
           test -s dist/lakour-warcraft.zip
           test -s dist/lakour-warcraft-en.json
           test -s dist/lakour-warcraft-en.zip
+          if [ -s dist/world.json ]; then test -s dist/la-kour-warcraft.zip && test -s dist/world-en.json && test -s dist/la-kour-warcraft-en.zip; fi
           node -e "const m=require('./dist/module.json'); if (m.version!=='${{ steps.version.outputs.version }}') { console.error('version du manifeste publié :', m.version); process.exit(1) }"
 
       - name: Notes de version (section du CHANGELOG)
@@ -104,4 +111,5 @@ jobs:
             dist/lakour-warcraft-en.json
             dist/lakour-warcraft-en.zip
             dist/world.json
+            dist/world-en.json
             dist/*.zip

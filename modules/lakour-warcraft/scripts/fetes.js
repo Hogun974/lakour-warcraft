@@ -10,7 +10,12 @@
 // Liens (contenu) : la carte est publique, et un document de compendium prend les droits du compendium (journaux : OBSERVER
 // pour les joueurs) ; elle ne lie donc que ce que les joueurs peuvent lire : les objets et les contrats de la fête, jamais
 // le journal du MJ (lié depuis la page « Fêtes de saison (MJ) » du guide du MJ).
-import { ID } from "./identite.js"; // « lakour-warcraft » ou « lakour-warcraft-en » (version anglaise), selon le dossier du module
+//
+// Bilingue : les textes français sont ceux des sources (nom, description, consigne, nom de chaque lien) ; leur version anglaise
+// est sous « en » (mêmes liens, dans le même ordre : seul le nom affiché change, celui du dictionnaire contenu/en/<pack>.json).
+// textesDeFete(f) rend la fête dans la langue du module (anglais dans lakour-warcraft-en, scripts/identite.js) :
+// enregistrerFetes enregistre celle-là auprès du moteur. Le fabricant et les essais, dans node, lisent toujours le français.
+import { ANGLAIS, ID } from "./identite.js"; // « lakour-warcraft » ou « lakour-warcraft-en » (version anglaise), selon le dossier du module
 const C = `Compendium.${ID}`;
 
 // Illustration d'une fête, en tête de la première page de son journal : assets/fetes/<fête du calendrier>.jpg.
@@ -28,7 +33,13 @@ export const FETES_WARCRAFT = Object.freeze([
       { uuid: `${C}.objets.Item.VgjcohZu6CVLtYgr`, nom: "Paquet-surprise du Cartel" },
       { uuid: `${C}.tables.RollTable.cQvTkAAcP7SKGDTs`, nom: "Contrats de fête — La Trêve des Présents" },
       { uuid: `${C}.tables.RollTable.6zu15ES8qO7Pn3El`, nom: "Paquets-surprises du Cartel" }
-    ]
+    ],
+    en: {
+      nom: "The Truce of Presents",
+      description: "The nights grow cool over the Barrens: it is the Truce of Presents. At the Crossroads, the waystation's Thorntree bends under bone bells and leather ribbons; in Theramore, a fir tree brought from the north by ship shines on the harbour square. In Ratchet, the Truce Office receives the gifts that Horde and Alliance exchange, and the goblins sell surprise packages on every corner of the docks. They say the Old Woman of the Bells passes in the night with her white kodo and leaves a present in front of every tent.",
+      consigne: "It is the Truce of Presents in the Barrens: the Thorntree of the Crossroads wears bells, Theramore has its fir tree from the north, and Horde and Alliance exchange gifts at the Truce Office in Ratchet",
+      contenu: ["Thorntree Bell", "Truce Date Cakes", "Cartel Surprise Package", "Festival Contracts — The Truce of Presents", "Cartel Surprise Packages"]
+    }
   },
   {
     id: "veille-des-aieux", fete: "nouvel-an", nom: "La Veille des Aïeux",
@@ -39,7 +50,13 @@ export const FETES_WARCRAFT = Object.freeze([
       { uuid: `${C}.objets.Item.YPfb0mtY5GIAoPkO`, nom: "Lampe-étoile des aïeux" },
       { uuid: `${C}.objets.Item.76qAdME0kPDRdtUx`, nom: "Pain de cendre des aïeux" },
       { uuid: `${C}.tables.RollTable.VdzdzwzHctZAc8TV`, nom: "Contrats de fête — La Veille des Aïeux" }
-    ]
+    ],
+    en: {
+      nom: "Ancestors' Eve",
+      description: "The last night of the year belongs to the ancestors. On the cairn hill above the Crossroads, the tauren light a star lamp for each forebear and the eldest tell stories until dawn. The orcs recite their lineages around the fire; in Theramore, the harbour bell rings at midnight and the names of those left behind in Lordaeron are read out. In Ratchet, debts are settled before midnight: no one enters the year with a tab. Honouring an elder, even of another people, brings luck.",
+      consigne: "It is Ancestors' Eve: star lamps shine on the cairn hill of the Crossroads, the elders tell stories until dawn, Theramore rings the midnight bell and Ratchet settles its debts before the new year",
+      contenu: ["Ancestors' Star Lamp", "Ancestors' Ash Bread", "Festival Contracts — Ancestors' Eve"]
+    }
   },
   {
     id: "nuit-des-calebasses", fete: "halloween", nom: "La Nuit des Calebasses",
@@ -50,7 +67,13 @@ export const FETES_WARCRAFT = Object.freeze([
       { uuid: `${C}.objets.Item.d4CzjxL1Fxw00OiE`, nom: "Calebasse-lanterne" },
       { uuid: `${C}.objets.Item.4aaQCcIUTwszczSr`, nom: "Sucre de cactus de la Nuit" },
       { uuid: `${C}.tables.RollTable.0C7GDUAyigkK1yyc`, nom: "Contrats de fête — La Nuit des Calebasses" }
-    ]
+    ],
+    en: {
+      nom: "The Night of the Gourds",
+      description: "At the end of the dry season, every family of the Barrens hollows out a gourd for each of its dead of the year, carves a face into it and sets a candle inside: lined up along the trails, they show the departed the way to the ancestors, so that they do not wander among the living. Children go from tent to tent asking for \"an ember for my dead\" and come back with their pockets full of cactus sugar. In Theramore, the refugees from Lordaeron set theirs along the marsh, and the Argent Dawn keeps watch until morning.",
+      consigne: "It is the Night of the Gourds: hollowed gourds with a candle at their heart line the trails of the Barrens to guide the dead, children ask for an ember for their dead and the Argent Dawn keeps watch at the edge of the marsh",
+      contenu: ["Gourd Lantern", "Cactus Sugar of the Night", "Festival Contracts — The Night of the Gourds"]
+    }
   },
   {
     id: "tambours-du-long-jour", fete: "musique", nom: "Les Tambours du Long Jour",
@@ -62,7 +85,13 @@ export const FETES_WARCRAFT = Object.freeze([
       { uuid: `${C}.objets.Item.W8GJ32evgwLcCHfF`, nom: "Fusée gobeline du Long Jour" },
       { uuid: `${C}.objets.Item.6iGuNvvhR1ChaY5O`, nom: "Infusion de fleur-de-braise" },
       { uuid: `${C}.tables.RollTable.Dc0oNoBlthbgd1JP`, nom: "Contrats de fête — Les Tambours du Long Jour" }
-    ]
+    ],
+    en: {
+      nom: "The Drums of the Long Day",
+      description: "On the longest day, the tauren drums beat from dawn to dusk to thank the sun. In the evening, a fire is lit on every hill, from Durotar to the coast: a runner carries a torch from the Crossroads to the next fire, and the Chain of Fires crosses the Barrens in a single night. People leap over the embers to seal a wish. On the docks of Theramore, the Watch holds a contest of fifes and lutes; in Ratchet, the Cartel fires rockets over the bay.",
+      consigne: "It is the Drums of the Long Day: the tauren drums beat from morning to evening, fires are lit on the hills of the Barrens, people leap over the embers to make a wish and the Cartel fires rockets over the bay of Ratchet",
+      contenu: ["Tambourine of the Long Day", "Goblin Rocket of the Long Day", "Emberbloom Infusion", "Festival Contracts — The Drums of the Long Day"]
+    }
   },
   {
     id: "mascarade-de-cabestan", fete: "carnaval", nom: "La Mascarade de Cabestan",
@@ -73,12 +102,27 @@ export const FETES_WARCRAFT = Object.freeze([
       { uuid: `${C}.objets.Item.qx7bkD7JH5MV2miA`, nom: "Masque de la Mascarade" },
       { uuid: `${C}.objets.Item.aeZ9wnAkoJLpNt6g`, nom: "Sachet de confettis gobelins" },
       { uuid: `${C}.tables.RollTable.UZuebiV03AckjAAz`, nom: "Contrats de fête — La Mascarade de Cabestan" }
-    ]
+    ],
+    en: {
+      nom: "The Ratchet Masquerade",
+      description: "For five days, the neutral port of Ratchet puts on its masks. The Cartel's law is simple: under a mask, you are no one, neither Horde nor Alliance, and no one may be arrested on the docks over a faction quarrel. People dance on the barges, haggle at the Grand Bazaar, and elect a \"Baron for a Day\" from among the dockers. On the evening of Shrove Tuesday, the Straw Baron, a giant effigy of a goblin grown too rich, burns in the bay amid jeers and rockets.",
+      consigne: "It is the Ratchet Masquerade: under a mask, you are neither Horde nor Alliance, the barges are dancing, the Grand Bazaar is in full swing and the Straw Baron will burn in the bay on the evening of Shrove Tuesday",
+      contenu: ["Masquerade Mask", "Bag of Goblin Confetti", "Festival Contracts — The Ratchet Masquerade"]
+    }
   }
 ]);
 
-// Enregistre les fêtes auprès du moteur (api : celle que passe « lakour-mj-ia.pret »). Rend le nombre de fêtes enregistrées
-// (celles déjà présentes dans le registre comptent : un second appel ne fait rien de plus).
+// La fête dans la langue du module : la même, avec ses textes anglais (nom, description, consigne, nom de chaque lien) quand le
+// module est lakour-warcraft-en. Identifiant, fête du calendrier, décor et uuid des liens ne changent pas ; « en » n'est pas repris.
+export function textesDeFete(f, anglais = ANGLAIS) {
+  if (!anglais || !f.en) return f;
+  const { en, ...reste } = f;
+  return { ...reste, nom: en.nom, description: en.description, consigne: en.consigne,
+    contenu: f.contenu.map((l, i) => ({ ...l, nom: en.contenu?.[i] ?? l.nom })) };
+}
+
+// Enregistre les fêtes auprès du moteur (api : celle que passe « lakour-mj-ia.pret »), dans la langue du module. Rend le nombre
+// de fêtes enregistrées (celles déjà présentes dans le registre comptent : un second appel ne fait rien de plus).
 export function enregistrerFetes(api, jeu = globalThis.game) {
   if (jeu?.system?.id !== "dnd5e") return 0;
   const fetes = api?.fetes;
@@ -89,7 +133,7 @@ export function enregistrerFetes(api, jeu = globalThis.game) {
   for (const def of FETES_WARCRAFT) {
     if (deja.includes(def.id)) { n++; continue; }
     try {
-      fetes.enregistrer(structuredClone(def));
+      fetes.enregistrer(structuredClone(textesDeFete(def)));
       n++;
     } catch (erreur) { console.warn(`${ID} | fête ${def.id}`, erreur); }
   }

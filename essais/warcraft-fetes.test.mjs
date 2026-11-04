@@ -18,7 +18,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { existsSync, readFileSync } from "node:fs";
-import { fabriquer, TYPE_PACK } from "../outils/fabriquer-warcraft.mjs";
+import { fabriquer, lireDictionnaires, TYPE_PACK } from "../outils/fabriquer-warcraft.mjs";
 import { CARACTERISTIQUES, COMPETENCES } from "../modules/lakour-warcraft/contenu/objets.mjs";
 import { FETES, TITRE_FETES, illustration } from "../modules/lakour-warcraft/contenu/fetes.mjs";
 import { REPUTATIONS } from "../modules/lakour-warcraft/contenu/reputations.mjs";
@@ -30,7 +30,7 @@ import { IDS_FETES, MAX_CONTENU, normaliserDeclinaison } from "../modules/lakour
 const crochets = [];
 globalThis.Hooks = { once: (nom, f) => crochets.push({ nom, f }), on: () => {} };
 await import("../modules/lakour-warcraft/scripts/fetes.js?crochet");
-const { FETES_WARCRAFT, enregistrerFetes } = await import("../modules/lakour-warcraft/scripts/fetes.js");
+const { FETES_WARCRAFT, enregistrerFetes, textesDeFete } = await import("../modules/lakour-warcraft/scripts/fetes.js");
 
 const M = "lakour-warcraft";
 const RACINE = new URL("../", import.meta.url);
@@ -329,4 +329,33 @@ test("crédits : CREDITS.md est la sortie du générateur et cite les illustrati
   assert.match(fichier, /`assets\/monde\/fond\.jpg`/);
   assert.match(fichier, /`assets\/fetes\/\*\.jpg`/);
   assert.match(fichier, /ComfyStudio \(FLUX\.2 klein 9B\), sans service distant, pour l'usage privé de la table/);
+});
+
+// ---------------------------------------------------------------- Version anglaise (module lakour-warcraft-en)
+test("fêtes : bloc « en » de chaque fête — textes anglais, mêmes liens sous leur nom du dictionnaire, acceptés par le moteur ; français dans node", async () => {
+  const { MAX_DESCRIPTION, MAX_CONSIGNE } = await import("../modules/lakour-mj-ia/scripts/fetes-logique.js");
+  const { dictionnaire } = lireDictionnaires();
+  const src = readFileSync(new URL(`modules/${M}/scripts/fetes.js`, RACINE), "utf8");
+  assert.match(src, /enregistrer\(structuredClone\(textesDeFete\(def\)\)\)/, "enregistrerFetes passe la fête dans la langue du module");
+  for (const f of FETES_WARCRAFT) {
+    assert.equal(textesDeFete(f), f, "dans node (module français), la fête reste française");
+    const t = textesDeFete(f, true);
+    assert.ok(!("en" in t));
+    assert.deepEqual([t.id, t.fete, t.decor, t.contenu.map(l => l.uuid)], [f.id, f.fete, f.decor, f.contenu.map(l => l.uuid)], `${f.id} : clé, fête, décor et uuid inchangés`);
+    assert.ok(t.nom !== f.nom && t.description !== f.description && t.consigne !== f.consigne, `${f.id} : textes traduits`);
+    assert.ok(t.description.length <= MAX_DESCRIPTION, `${f.id} : description de ${t.description.length} caractères`);
+    assert.ok(t.consigne.length >= 60 && t.consigne.length <= MAX_CONSIGNE, `${f.id} : consigne de ${t.consigne.length} caractères`);
+    assert.match(t.consigne, /Barrens|Ratchet|Crossroads|Theramore/, `${f.id} : la consigne ne situe pas la fête`);
+    assert.ok(!/[àâçéèêëîïôûùüÿœ]/i.test(`${t.nom} ${t.consigne} ${t.contenu.map(l => l.nom).join(" ")}`), `${f.id} : du français dans l'anglais`);
+    for (const l of t.contenu) {
+      const [, pack, , id] = /^Compendium\.[\w-]+\.(\w+)\.(\w+)\.(\w{16})$/.exec(l.uuid);
+      assert.equal(l.nom, dictionnaire[`${pack}/${id}`]?.name?.en, `${f.id} : ${l.uuid} sous son nom anglais`);
+    }
+    // Le journal du MJ de la fête porte le même nom anglais (dictionnaire des journaux : « Festival — <nom> (GM) »).
+    assert.ok(Object.values(dictionnaire).some(e => e.name?.en === `Festival — ${t.nom} (GM)`), `${f.id} : journal « Festival — ${t.nom} (GM) » absent du dictionnaire`);
+    const d = normaliserDeclinaison(structuredClone(t), []);
+    assert.equal(d.description, t.description, `${f.id} : description tronquée`);
+    assert.equal(d.consigne, t.consigne, `${f.id} : consigne tronquée`);
+    assert.deepEqual(d.contenu.map(l => l.nom), t.contenu.map(l => l.nom));
+  }
 });
