@@ -14,7 +14,8 @@
 // Repères par drapeaux posés par le contenu (contenu/consommables.mjs, contenu/donjon.mjs), jamais par les noms.
 // Tout est défensif : une API absente ou changée ne fait qu'éteindre l'automatisme ; une erreur (même asynchrone) est
 // écrite en console sans interrompre Foundry.
-export const ID = "lakour-warcraft";
+import { ID } from "./identite.js"; // « lakour-warcraft » ou « lakour-warcraft-en » (version anglaise), selon le dossier du module
+export { ID };
 export const drapeau = (doc, cle) => doc?.flags?.[ID]?.[cle];
 export const liste = c => (c ? [...(c.contents ?? c)] : []);
 

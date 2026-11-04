@@ -7,7 +7,7 @@ import "./capacites-suite.js";                    // Fléau, Champion, Avatar, P
 import { ouvrirEtabli } from "./etabli.js";      // Établi d'artisanat (fenêtre ouverte depuis la fiche de personnage)
 import { enregistrerFetes } from "./fetes.js";   // Fêtes de saison des Tarides, enregistrées auprès du MJ IA (crochet « lakour-mj-ia.pret »)
 
-const ID = "lakour-warcraft";
+import { ID } from "./identite.js";       // « lakour-warcraft » ou « lakour-warcraft-en » (version anglaise), selon le dossier du module
 const VERSION_CONTENU = "0.10.0";   // 0.4.0 : journaux liés (@UUID, jets), listes de sorts, cartes vivantes (sons, zones, épingles) ;
                                    // 0.4.2 : one-shot « Une nuit aux Deux Lanternes » (journaux, cartes et dossier proposés aux mondes déjà installés) ;
                                    // 0.5.0 : Tarides vivantes (contrats, donjon de Mèche-Noire, montures et routes aériennes, rares,

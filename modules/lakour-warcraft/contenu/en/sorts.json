@@ -1,0 +1,403 @@
+{
+  "sorts/3cbqTP1IQovpBRQ9": {
+    "_nom": "Blizzard",
+    "name": {
+      "fr": "Blizzard",
+      "en": "Blizzard"
+    },
+    "system.description.value": {
+      "fr": "<p>Une tempête de neige et de grêle s'abat dans un cylindre de 6 m de rayon et 9 m de haut centré sur un point à portée. La zone est <strong>fortement obscurcie</strong> et constitue un <strong>terrain difficile</strong>.</p><p>Quand une créature entre dans la zone pour la première fois lors d'un tour ou y commence son tour, elle fait un jet de sauvegarde de Constitution ; elle subit <strong>4d6</strong> dégâts de froid en cas d'échec, la moitié en cas de réussite. Une créature ne subit ces dégâts qu'une fois par tour. Les flammes nues s'éteignent dans la zone.</p><p><strong>Aux niveaux supérieurs.</strong> Les dégâts augmentent de 1d6 par niveau d'emplacement au-delà du 4e.</p><p><strong>Tradition</strong> : Arcanes. <strong>Listes de sorts</strong> : Magicien, Ensorceleur, Druide.</p>",
+      "en": "<p>A storm of snow and hail falls in a 20-foot-radius, 30-foot-high Cylinder centered on a point within range. The area is <strong>Heavily Obscured</strong> and is <strong>Difficult Terrain</strong>.</p><p>When a creature enters the area for the first time on a turn or starts its turn there, it makes a Constitution saving throw; it takes <strong>4d6</strong> Cold damage on a failure, half as much on a success. A creature takes this damage only once per turn. Open flames in the area are extinguished.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d6 for each spell slot level above 4.</p><p><strong>Tradition</strong>: Arcane. <strong>Spell lists</strong>: Wizard, Sorcerer, Druid.</p>"
+    },
+    "system.activities.Jz2XMDKAH3HDLuls.name": {
+      "fr": "Morsure du blizzard",
+      "en": "Bite of the Blizzard"
+    }
+  },
+  "sorts/541C5nPD4exuvGXZ": {
+    "_nom": "Horion élémentaire",
+    "name": {
+      "fr": "Horion élémentaire",
+      "en": "Elemental Shock"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous demandez à un esprit élémentaire de frapper pour vous : un éclat de givre, une gerbe de flammes ou une décharge de foudre jaillit de votre paume vers une cible à portée. Faites une attaque de sort à distance ; en cas de réussite, la cible subit <strong>1d8</strong> dégâts de froid, de feu ou de foudre (choisissez à l'incantation, selon l'esprit qui répond).</p><p>Un esprit qu'on appelle pour rien finit par ne plus répondre : le MJ peut faire bouder l'élément d'un chaman qui lance ce tour par pur caprice.</p><p><strong>Aux niveaux supérieurs.</strong> Les dégâts augmentent de 1d8 aux niveaux 5 (2d8), 11 (3d8) et 17 (4d8).</p><p><strong>Tradition</strong> : Chamanisme. <strong>Listes de sorts</strong> : Druide, Clerc, Ensorceleur.</p>",
+      "en": "<p>You ask an elemental spirit to strike for you: a shard of frost, a burst of flame or a bolt of lightning leaps from your palm toward a target within range. Make a ranged spell attack; on a hit, the target takes <strong>1d8</strong> Cold, Fire or Lightning damage (choose when you cast, according to the spirit that answers).</p><p>A spirit called for nothing eventually stops answering: the GM may have the element of a shaman who casts this cantrip on a whim sulk.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d8 at levels 5 (2d8), 11 (3d8) and 17 (4d8).</p><p><strong>Tradition</strong>: Shamanism. <strong>Spell lists</strong>: Druid, Cleric, Sorcerer.</p>"
+    }
+  },
+  "sorts/8drPFyT9o5AQyuQd": {
+    "_nom": "Sève de jouvence",
+    "name": {
+      "fr": "Sève de jouvence",
+      "en": "Rejuvenating Sap"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous posez la main sur une créature et une sève lumineuse court sous sa peau. Elle récupère aussitôt <strong>1d4 + votre modificateur de caractéristique d'incantation</strong> points de vie, puis <strong>1d4</strong> points de vie au début de chacun de ses trois tours suivants (activité « Repousse », sans dépenser d'emplacement).</p><p>Le sort n'a aucun effet sur les morts-vivants et les créatures artificielles.</p><p><strong>Aux niveaux supérieurs.</strong> Les soins immédiats et ceux de chaque repousse augmentent de 1d4 par niveau d'emplacement au-delà du 1er.</p><p><strong>Tradition</strong> : Druidisme. <strong>Listes de sorts</strong> : Druide, Rôdeur.</p>",
+      "en": "<p>You lay a hand on a creature and a luminous sap runs beneath its skin. It immediately regains <strong>1d4 + your spellcasting ability modifier</strong> Hit Points, then <strong>1d4</strong> Hit Points at the start of each of its next three turns (\"Regrowth\" activity, without expending a slot).</p><p>The spell has no effect on Undead or Constructs.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The immediate healing and that of each regrowth increase by 1d4 for each spell slot level above 1.</p><p><strong>Tradition</strong>: Druidism. <strong>Spell lists</strong>: Druid, Ranger.</p>"
+    },
+    "system.activities.IlQoSBvXU7ily8AI.name": {
+      "fr": "Floraison",
+      "en": "Bloom"
+    },
+    "system.activities.t0sprZT8xn8YrETw.name": {
+      "fr": "Repousse",
+      "en": "Regrowth"
+    },
+    "system.activities.t0sprZT8xn8YrETw.activation.condition": {
+      "fr": "Début de chacun des trois tours suivants de la cible",
+      "en": "Start of each of the target's next three turns"
+    }
+  },
+  "sorts/8p5BBlta0DGltvDC": {
+    "_nom": "Étincelle de la Lumière",
+    "name": {
+      "fr": "Étincelle de la Lumière",
+      "en": "Spark of the Light"
+    },
+    "system.description.value": {
+      "fr": "<p>Une parcelle de Lumière se détache de votre symbole sacré et file vers une créature à portée. Faites une attaque de sort à distance ; en cas de réussite, la cible subit <strong>1d8</strong> dégâts radiants et, jusqu'à la fin de votre prochain tour, elle luit faiblement (1,5 m) et ne peut pas bénéficier de l'état Invisible.</p><p>Les paladins qui ont choisi le style de combat <em>Guerrier béni</em> peuvent prendre ce tour de magie dans la liste du clerc.</p><p><strong>Aux niveaux supérieurs.</strong> Les dégâts augmentent de 1d8 aux niveaux 5 (2d8), 11 (3d8) et 17 (4d8).</p><p><strong>Tradition</strong> : La Lumière. <strong>Listes de sorts</strong> : Clerc.</p>",
+      "en": "<p>A mote of Light breaks away from your Holy Symbol and streaks toward a creature within range. Make a ranged spell attack; on a hit, the target takes <strong>1d8</strong> Radiant damage and, until the end of your next turn, it glows faintly (5 feet) and cannot benefit from the Invisible condition.</p><p>Paladins who chose the <em>Blessed Warrior</em> fighting style can take this cantrip from the Cleric list.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d8 at levels 5 (2d8), 11 (3d8) and 17 (4d8).</p><p><strong>Tradition</strong>: The Light. <strong>Spell lists</strong>: Cleric.</p>"
+    },
+    "effects.tR9Kqax5n7YZFwCO.name": {
+      "fr": "Révélé par la Lumière",
+      "en": "Revealed by the Light"
+    },
+    "effects.tR9Kqax5n7YZFwCO.description": {
+      "fr": "<p>La cible émet une lumière faible dans un rayon de 1,5 m et ne tire aucun bénéfice de l'état Invisible jusqu'à la fin de votre prochain tour.</p>",
+      "en": "<p>The target sheds Dim Light in a 5-foot radius and gains no benefit from the Invisible condition until the end of your next turn.</p>"
+    }
+  },
+  "sorts/BiGOddGx3qG4vgsr": {
+    "_nom": "Psaume de la Lumière",
+    "name": {
+      "fr": "Psaume de la Lumière",
+      "en": "Psalm of the Light"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous entonnez un psaume que reprennent ceux qui vous entourent. Jusqu'à six créatures de votre choix situées à portée, qui peuvent vous entendre, récupèrent chacune <strong>2d6 + votre modificateur de caractéristique d'incantation</strong> points de vie.</p><p>Le psaume ne fait rien aux morts-vivants et aux créatures artificielles. Un Réprouvé qui le reçoit en éprouve une douleur sourde, mais il guérit.</p><p><strong>Aux niveaux supérieurs.</strong> Les soins augmentent de 1d6 par niveau d'emplacement au-delà du 3e.</p><p><strong>Tradition</strong> : La Lumière. <strong>Listes de sorts</strong> : Clerc, Paladin.</p>",
+      "en": "<p>You intone a psalm taken up by those around you. Up to six creatures of your choice within range who can hear you each regain <strong>2d6 + your spellcasting ability modifier</strong> Hit Points.</p><p>The psalm does nothing for Undead or Constructs. A Forsaken who receives it feels a dull pain, but heals.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The healing increases by 1d6 for each spell slot level above 3.</p><p><strong>Tradition</strong>: The Light. <strong>Spell lists</strong>: Cleric, Paladin.</p>"
+    },
+    "system.activities.6nGBjaZEsHsmpVWI.name": {
+      "fr": "Psaume",
+      "en": "Psalm"
+    }
+  },
+  "sorts/ChcnBMoeaaAX1MLV": {
+    "_nom": "Hurlement de terreur",
+    "name": {
+      "fr": "Hurlement de terreur",
+      "en": "Howl of Terror"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous poussez un cri qui n'est pas le vôtre : la voix du démon qui vous a donné ce pouvoir. Chaque ennemi situé à 9 m ou moins de vous et qui peut vous entendre fait un jet de sauvegarde de Sagesse ; en cas d'échec, il a l'état <strong>Effrayé</strong> pour la durée du sort et doit, à son tour, utiliser son mouvement pour s'éloigner de vous.</p><p>À la fin de chacun de ses tours où il ne peut pas vous voir, un ennemi effrayé refait le jet de sauvegarde et se reprend en cas de réussite.</p><p><strong>Prix de la gangrène.</strong> Juste après l'incantation, vous subissez des dégâts nécrotiques égaux au niveau de l'emplacement dépensé ; ces dégâts ne peuvent être réduits d'aucune façon. Vous portez ensuite la <strong>marque de gangrène</strong> pendant 1 heure (désavantage aux tests de Persuasion et de Tromperie). Un lanceur qui accumule les marques attire l'attention des démons : le MJ en tient le compte.</p><p><strong>Tradition</strong> : Gangrène et ombre. <strong>Listes de sorts</strong> : Occultiste, Ensorceleur, Barde.</p>",
+      "en": "<p>You let out a cry that is not your own: the voice of the demon that gave you this power. Each enemy within 30 feet of you who can hear you makes a Wisdom saving throw; on a failure, it has the <strong>Frightened</strong> condition for the duration and must, on its turn, use its movement to move away from you.</p><p>At the end of each of its turns in which it cannot see you, a frightened enemy repeats the saving throw and recovers on a success.</p><p><strong>Price of the fel.</strong> Right after casting, you take Necrotic damage equal to the level of the slot expended; this damage cannot be reduced in any way. You then bear the <strong>fel mark</strong> for 1 hour (Disadvantage on Persuasion and Deception checks). A caster who accumulates marks draws the attention of demons: the GM keeps count.</p><p><strong>Tradition</strong>: Fel and shadow. <strong>Spell lists</strong>: Warlock, Sorcerer, Bard.</p>"
+    },
+    "system.activities.TCugk9XuBBfyg2s9.name": {
+      "fr": "Hurlement",
+      "en": "Howl"
+    },
+    "effects.SIsfk6HG7QxpMhhU.name": {
+      "fr": "Terrorisé",
+      "en": "Terrorized"
+    },
+    "effects.SIsfk6HG7QxpMhhU.description": {
+      "fr": "<p>La créature est effrayée par vous. À son tour, elle doit utiliser son mouvement pour s'éloigner de vous par le chemin le plus sûr. À la fin de chacun de ses tours où elle ne vous voit pas, elle refait le jet de sauvegarde de Sagesse et se reprend en cas de réussite.</p>",
+      "en": "<p>The creature is Frightened of you. On its turn, it must use its movement to move away from you by the safest route. At the end of each of its turns in which it cannot see you, it repeats the Wisdom saving throw and recovers on a success.</p>"
+    }
+  },
+  "sorts/DSPw83v6on9ICAom": {
+    "_nom": "Flétrissure gangrenée",
+    "name": {
+      "fr": "Flétrissure gangrenée",
+      "en": "Fel Wither"
+    },
+    "system.description.value": {
+      "fr": "<p>Une brume verte s'enroule autour d'une créature à portée et s'insinue dans ses plaies. Elle fait un jet de sauvegarde de Constitution. En cas d'échec, elle subit <strong>2d8</strong> dégâts nécrotiques et la flétrissure s'installe : à la fin de chacun de ses tours, elle subit <strong>1d8</strong> dégâts nécrotiques puis refait le jet de sauvegarde, le sort prenant fin pour elle en cas de réussite. En cas de réussite au premier jet, elle ne subit que la moitié des dégâts initiaux et la flétrissure ne prend pas.</p><p><strong>Prix de la gangrène.</strong> Juste après l'incantation, vous subissez des dégâts nécrotiques égaux au niveau de l'emplacement dépensé ; ces dégâts ne peuvent être réduits d'aucune façon. Vous portez ensuite la <strong>marque de gangrène</strong> pendant 1 heure (désavantage aux tests de Persuasion et de Tromperie). Un lanceur qui accumule les marques attire l'attention des démons : le MJ en tient le compte.</p><p><strong>Aux niveaux supérieurs.</strong> Les dégâts initiaux augmentent de 1d8 par niveau d'emplacement au-delà du 1er (le prix de la gangrène aussi, puisqu'il suit le niveau de l'emplacement).</p><p><strong>Tradition</strong> : Gangrène et ombre. <strong>Listes de sorts</strong> : Occultiste, Ensorceleur.</p>",
+      "en": "<p>A green mist coils around a creature within range and seeps into its wounds. It makes a Constitution saving throw. On a failure, it takes <strong>2d8</strong> Necrotic damage and the wither sets in: at the end of each of its turns, it takes <strong>1d8</strong> Necrotic damage and then repeats the saving throw, the spell ending for it on a success. On a success on the first save, it takes only half the initial damage and the wither does not take hold.</p><p><strong>Price of the fel.</strong> Right after casting, you take Necrotic damage equal to the level of the slot expended; this damage cannot be reduced in any way. You then bear the <strong>fel mark</strong> for 1 hour (Disadvantage on Persuasion and Deception checks). A caster who accumulates marks draws the attention of demons: the GM keeps count.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The initial damage increases by 1d8 for each spell slot level above 1 (the price of the fel too, since it follows the slot level).</p><p><strong>Tradition</strong>: Fel and shadow. <strong>Spell lists</strong>: Warlock, Sorcerer.</p>"
+    },
+    "system.activities.dCn4dsHZcN8Hhafp.name": {
+      "fr": "Flétrissure",
+      "en": "Wither"
+    },
+    "system.activities.Vzog8Lrp05hXQXPG.name": {
+      "fr": "Ronger",
+      "en": "Gnaw"
+    },
+    "system.activities.Vzog8Lrp05hXQXPG.activation.condition": {
+      "fr": "Fin de chacun des tours de la cible",
+      "en": "End of each of the target's turns"
+    },
+    "system.activities.vOF0ct17n4AiNhiK.name": {
+      "fr": "Prix de la gangrène",
+      "en": "Price of the fel"
+    },
+    "system.activities.vOF0ct17n4AiNhiK.activation.condition": {
+      "fr": "Juste après l'incantation",
+      "en": "Right after casting"
+    },
+    "effects.CELCqEeaAvEDAxG8.description": {
+      "fr": "<p>À la fin de chacun de ses tours, la créature subit 1d8 dégâts nécrotiques (activité « Ronger »), puis refait le jet de sauvegarde de Constitution ; le sort prend fin pour elle en cas de réussite.</p>",
+      "en": "<p>At the end of each of its turns, the creature takes 1d8 Necrotic damage (\"Gnaw\" activity), then repeats the Constitution saving throw; the spell ends for it on a success.</p>"
+    },
+    "effects.NbLAUsEAJ908MzKZ.name": {
+      "fr": "Marque de gangrène",
+      "en": "Fel mark"
+    },
+    "effects.NbLAUsEAJ908MzKZ.description": {
+      "fr": "<p>Vos yeux brûlent d'un éclat vert et votre peau sent le soufre. Pendant 1 heure, vous avez le désavantage aux tests de Charisme (Persuasion et Tromperie), et toute créature qui connaît la gangrène sait ce que vous venez de faire.</p>",
+      "en": "<p>Your eyes burn with a green glow and your skin smells of sulfur. For 1 hour, you have Disadvantage on Charisma (Persuasion and Deception) checks, and any creature that knows the fel knows what you have just done.</p>"
+    }
+  },
+  "sorts/DrNgIQgF77bFk3ru": {
+    "_nom": "Torpeur d'émeraude",
+    "name": {
+      "fr": "Torpeur d'émeraude",
+      "en": "Emerald Slumber"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous ouvrez pour un instant la porte du Rêve d'émeraude dans l'esprit d'une créature à portée. Elle fait un jet de sauvegarde de Sagesse ; en cas d'échec, elle sombre dans un sommeil paisible (état <strong>Inconscient</strong>) pour la durée du sort.</p><p>Elle se réveille si elle subit des dégâts ou si quelqu'un utilise une action pour la secouer, et elle refait le jet de sauvegarde à la fin de chacun de ses tours. Les morts-vivants, les créatures artificielles et les elfes que le Rêve a déjà tourmentés (au jugement du MJ) réussissent automatiquement.</p><p><strong>Aux niveaux supérieurs.</strong> Vous pouvez viser une créature supplémentaire par niveau d'emplacement au-delà du 2e.</p><p><strong>Tradition</strong> : Druidisme. <strong>Listes de sorts</strong> : Druide, Barde.</p>",
+      "en": "<p>For an instant, you open the door to the Emerald Dream in the mind of a creature within range. It makes a Wisdom saving throw; on a failure, it sinks into a peaceful sleep (<strong>Unconscious</strong> condition) for the duration.</p><p>It wakes if it takes damage or if someone uses an action to shake it, and it repeats the saving throw at the end of each of its turns. Undead, Constructs and elves the Dream has already tormented (at the GM's discretion) automatically succeed.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 2.</p><p><strong>Tradition</strong>: Druidism. <strong>Spell lists</strong>: Druid, Bard.</p>"
+    },
+    "system.activities.q0rhjdTMhRXDi3Ba.name": {
+      "fr": "Torpeur",
+      "en": "Slumber"
+    },
+    "system.materials.value": {
+      "fr": "un pétale de fleur cueilli dans un bois sacré",
+      "en": "a flower petal picked in a sacred wood"
+    },
+    "effects.vmP01m3z3uMInaKq.name": {
+      "fr": "Endormi dans le Rêve",
+      "en": "Asleep in the Dream"
+    },
+    "effects.vmP01m3z3uMInaKq.description": {
+      "fr": "<p>La créature dort jusqu'à la fin du sort. Elle se réveille si elle subit des dégâts ou si une autre créature utilise une action pour la secouer. Elle refait le jet de sauvegarde de Sagesse à la fin de chacun de ses tours et se réveille en cas de réussite.</p>",
+      "en": "<p>The creature sleeps until the spell ends. It wakes if it takes damage or if another creature uses an action to shake it. It repeats the Wisdom saving throw at the end of each of its turns and wakes on a success.</p>"
+    }
+  },
+  "sorts/Dv3y9GfUFDRj2t0b": {
+    "_nom": "Sarments du Rêve",
+    "name": {
+      "fr": "Sarments du Rêve",
+      "en": "Vines of the Dream"
+    },
+    "system.description.value": {
+      "fr": "<p>Des sarments d'un vert irréel, venus du Rêve d'émeraude, jaillissent du sol sous une créature à portée. Elle fait un jet de sauvegarde de Force. En cas d'échec, elle subit <strong>2d8</strong> dégâts perforants et a l'état <strong>Entravé</strong> pour la durée du sort ; en cas de réussite, elle subit la moitié des dégâts et n'est pas entravée.</p><p>À la fin de chacun de ses tours, une créature entravée refait le jet de sauvegarde et se libère en cas de réussite.</p><p><strong>Aux niveaux supérieurs.</strong> Les dégâts augmentent de 1d8 par niveau d'emplacement au-delà du 1er.</p><p><strong>Tradition</strong> : Druidisme. <strong>Listes de sorts</strong> : Druide, Rôdeur.</p>",
+      "en": "<p>Vines of an unreal green, out of the Emerald Dream, burst from the ground beneath a creature within range. It makes a Strength saving throw. On a failure, it takes <strong>2d8</strong> Piercing damage and has the <strong>Restrained</strong> condition for the duration; on a success, it takes half the damage and is not restrained.</p><p>At the end of each of its turns, a restrained creature repeats the saving throw and breaks free on a success.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 1.</p><p><strong>Tradition</strong>: Druidism. <strong>Spell lists</strong>: Druid, Ranger.</p>"
+    },
+    "system.activities.AziXHdYYmQdmE8CO.name": {
+      "fr": "Sarments",
+      "en": "Vines"
+    },
+    "effects.BsmT1kHVFzj4LKYV.name": {
+      "fr": "Entravé par les sarments",
+      "en": "Restrained by the vines"
+    },
+    "effects.BsmT1kHVFzj4LKYV.description": {
+      "fr": "<p>À la fin de chacun de ses tours, la créature refait le jet de sauvegarde de Force ; en cas de réussite, les sarments se rompent.</p>",
+      "en": "<p>At the end of each of its turns, the creature repeats the Strength saving throw; on a success, the vines snap.</p>"
+    }
+  },
+  "sorts/Q8P5FfsS0EfExL5F": {
+    "_nom": "Trait de l'ombre",
+    "name": {
+      "fr": "Trait de l'ombre",
+      "en": "Shadow Bolt"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous rassemblez l'ombre entre vos doigts et la projetez comme une flèche noire. Faites une attaque de sort à distance contre une créature à portée ; en cas de réussite, elle subit <strong>1d8</strong> dégâts nécrotiques.</p><p>L'ombre n'est pas la gangrène : ce tour ne laisse pas de marque. Mais il a le goût de cendre froide, et les paladins le reconnaissent.</p><p><strong>Aux niveaux supérieurs.</strong> Les dégâts augmentent de 1d8 aux niveaux 5 (2d8), 11 (3d8) et 17 (4d8).</p><p><strong>Tradition</strong> : Gangrène et ombre. <strong>Listes de sorts</strong> : Occultiste, Ensorceleur, Magicien.</p>",
+      "en": "<p>You gather shadow between your fingers and hurl it like a black arrow. Make a ranged spell attack against a creature within range; on a hit, it takes <strong>1d8</strong> Necrotic damage.</p><p>Shadow is not fel: this cantrip leaves no mark. But it tastes of cold ash, and paladins recognize it.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d8 at levels 5 (2d8), 11 (3d8) and 17 (4d8).</p><p><strong>Tradition</strong>: Fel and shadow. <strong>Spell lists</strong>: Warlock, Sorcerer, Wizard.</p>"
+    }
+  },
+  "sorts/QBnNuldjrEpoOw5H": {
+    "_nom": "Métamorphose ovine",
+    "name": {
+      "fr": "Métamorphose ovine",
+      "en": "Polymorph: Sheep"
+    },
+    "system.description.value": {
+      "fr": "<p>La spécialité honteuse et indispensable des mages du Kirin Tor. Une créature que vous voyez à portée fait un jet de sauvegarde de Sagesse ; en cas d'échec, elle devient un mouton pour la durée du sort.</p><p>Sous cette forme, elle est de taille Petite, a une CA de 10 et une vitesse de 9 m ; elle ne peut ni parler, ni lancer de sorts, ni utiliser d'objets, et ses seules attaques sont des coups de tête (1d6 dégâts contondants). Elle conserve ses points de vie, son Intelligence et ses souvenirs. <strong>Le sort prend fin dès qu'elle subit des dégâts.</strong> Les métamorphes et les créatures de plus de 9 dés de vie (ou de FP supérieur à 6) réussissent automatiquement.</p><p><strong>Tradition</strong> : Arcanes. <strong>Listes de sorts</strong> : Magicien, Ensorceleur.</p>",
+      "en": "<p>The shameful and indispensable specialty of the Kirin Tor's mages. A creature you can see within range makes a Wisdom saving throw; on a failure, it becomes a sheep for the duration.</p><p>In this form, it is Small, has an AC of 10 and a Speed of 30 feet; it can neither speak, cast spells nor use items, and its only attacks are headbutts (1d6 Bludgeoning damage). It keeps its Hit Points, its Intelligence and its memories. <strong>The spell ends as soon as it takes damage.</strong> Shapechangers and creatures with more than 9 Hit Dice (or a CR above 6) automatically succeed.</p><p><strong>Tradition</strong>: Arcane. <strong>Spell lists</strong>: Wizard, Sorcerer.</p>"
+    },
+    "system.activities.LfosHgeghvD5NlHA.name": {
+      "fr": "Métamorphose",
+      "en": "Polymorph"
+    },
+    "system.materials.value": {
+      "fr": "une touffe de laine",
+      "en": "a tuft of wool"
+    },
+    "effects.rEIp1cC1G0Pb0GCm.name": {
+      "fr": "Changé en mouton",
+      "en": "Turned into a sheep"
+    },
+    "effects.rEIp1cC1G0Pb0GCm.description": {
+      "fr": "<p>La créature est un mouton : Petite, CA 10, vitesse 9 m, 1d6 contondant en coup de tête, aucune action de sort ni de parole. Elle garde ses propres points de vie. Le sort prend fin si elle subit des dégâts.</p>",
+      "en": "<p>The creature is a sheep: Small, AC 10, Speed 30 feet, 1d6 Bludgeoning headbutt, no spellcasting and no speech. It keeps its own Hit Points. The spell ends if it takes damage.</p>"
+    }
+  },
+  "sorts/U1gPpr6PGQbCKA5c": {
+    "_nom": "Marteau de justice",
+    "name": {
+      "fr": "Marteau de justice",
+      "en": "Hammer of Justice"
+    },
+    "system.description.value": {
+      "fr": "<p>Votre coup s'accompagne d'un marteau de Lumière qui s'abat sur la cible. Elle subit <strong>3d6</strong> dégâts radiants supplémentaires et fait un jet de sauvegarde de Constitution : en cas d'échec, elle a l'état <strong>Neutralisé</strong> jusqu'au début de votre prochain tour ; en cas de réussite, elle ne subit que la moitié des dégâts radiants.</p><p><strong>Aux niveaux supérieurs.</strong> Les dégâts radiants augmentent de 1d6 par niveau d'emplacement au-delà du 2e.</p><p><strong>Tradition</strong> : La Lumière. <strong>Listes de sorts</strong> : Paladin.</p>",
+      "en": "<p>Your blow is joined by a hammer of Light that crashes down on the target. It takes an extra <strong>3d6</strong> Radiant damage and makes a Constitution saving throw: on a failure, it has the <strong>Incapacitated</strong> condition until the start of your next turn; on a success, it takes only half the Radiant damage.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The Radiant damage increases by 1d6 for each spell slot level above 2.</p><p><strong>Tradition</strong>: The Light. <strong>Spell lists</strong>: Paladin.</p>"
+    },
+    "system.activities.BvGjY0ciMXdxTZsg.name": {
+      "fr": "Marteau",
+      "en": "Hammer"
+    },
+    "system.activities.BvGjY0ciMXdxTZsg.activation.condition": {
+      "fr": "Juste après avoir touché une créature avec une arme de corps à corps ou une attaque à mains nues",
+      "en": "Right after hitting a creature with a melee weapon or an Unarmed Strike"
+    },
+    "effects.vaFpOG9LD47Xuojb.name": {
+      "fr": "Sonné",
+      "en": "Dazed"
+    },
+    "effects.vaFpOG9LD47Xuojb.description": {
+      "fr": "<p>La cible est neutralisée jusqu'au début de votre prochain tour.</p>",
+      "en": "<p>The target is Incapacitated until the start of your next turn.</p>"
+    }
+  },
+  "sorts/W938hulRx71dmQND": {
+    "_nom": "Éclair bondissant",
+    "name": {
+      "fr": "Éclair bondissant",
+      "en": "Chain Lightning"
+    },
+    "system.description.value": {
+      "fr": "<p>Les esprits de l'orage tracent un éclair qui rebondit de cible en cible.</p><p>Faites une attaque de sort à distance contre une créature à portée. En cas de réussite, elle subit <strong>4d10</strong> dégâts de foudre. Que l'attaque touche ou non, l'éclair bondit ensuite vers <strong>deux autres créatures</strong> de votre choix situées à 9 m ou moins de la première : chacune fait un jet de sauvegarde de Dextérité et subit <strong>2d10</strong> dégâts de foudre en cas d'échec, la moitié en cas de réussite.</p><p><strong>Aux niveaux supérieurs.</strong> Les dégâts contre la première cible augmentent de 1d10, et ceux du rebond de 1d10, par niveau d'emplacement au-delà du 3e.</p><p><strong>Tradition</strong> : Chamanisme. <strong>Listes de sorts</strong> : Druide, Clerc, Ensorceleur, Magicien.</p>",
+      "en": "<p>The spirits of the storm trace a bolt that leaps from target to target.</p><p>Make a ranged spell attack against a creature within range. On a hit, it takes <strong>4d10</strong> Lightning damage. Whether the attack hits or not, the bolt then leaps to <strong>two other creatures</strong> of your choice within 30 feet of the first: each makes a Dexterity saving throw and takes <strong>2d10</strong> Lightning damage on a failure, half as much on a success.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage against the first target increases by 1d10, and that of the leap by 1d10, for each spell slot level above 3.</p><p><strong>Tradition</strong>: Shamanism. <strong>Spell lists</strong>: Druid, Cleric, Sorcerer, Wizard.</p>"
+    },
+    "system.activities.S297BzwMYeqA1N1v.name": {
+      "fr": "Éclair",
+      "en": "Bolt"
+    }
+  },
+  "sorts/assuCxUZyyYH81vE": {
+    "_nom": "Nova de givre",
+    "name": {
+      "fr": "Nova de givre",
+      "en": "Frost Nova"
+    },
+    "system.description.value": {
+      "fr": "<p>Une onde de froid jaillit de vous et fige le sol. Chaque créature de votre choix située à 3 m ou moins de vous fait un jet de sauvegarde de Constitution. En cas d'échec, elle subit <strong>2d8</strong> dégâts de froid et sa vitesse tombe à 0 jusqu'à la fin de son prochain tour ; en cas de réussite, elle subit la moitié des dégâts et peut bouger.</p><p>C'est le premier sort de combat qu'apprennent les apprentis de Dalaran : il sert surtout à fuir.</p><p><strong>Aux niveaux supérieurs.</strong> Les dégâts augmentent de 1d8 par niveau d'emplacement au-delà du 2e.</p><p><strong>Tradition</strong> : Arcanes. <strong>Listes de sorts</strong> : Magicien, Ensorceleur.</p>",
+      "en": "<p>A wave of cold bursts from you and freezes the ground. Each creature of your choice within 10 feet of you makes a Constitution saving throw. On a failure, it takes <strong>2d8</strong> Cold damage and its Speed drops to 0 until the end of its next turn; on a success, it takes half the damage and can move.</p><p>It is the first combat spell the apprentices of Dalaran learn: it mostly serves to run away.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 2.</p><p><strong>Tradition</strong>: Arcane. <strong>Spell lists</strong>: Wizard, Sorcerer.</p>"
+    },
+    "system.activities.VbPlOz1IHKFIkOZc.name": {
+      "fr": "Nova",
+      "en": "Nova"
+    },
+    "effects.MTBB4H71dXMUsPto.name": {
+      "fr": "Pris dans la glace",
+      "en": "Caught in the ice"
+    },
+    "effects.MTBB4H71dXMUsPto.description": {
+      "fr": "<p>La vitesse de la créature est de 0 jusqu'à la fin de son prochain tour.</p>",
+      "en": "<p>The creature's Speed is 0 until the end of its next turn.</p>"
+    }
+  },
+  "sorts/eDR8zGmPXYGoMTwD": {
+    "_nom": "Portail du Kirin Tor",
+    "name": {
+      "fr": "Portail du Kirin Tor",
+      "en": "Kirin Tor Portal"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous tracez un cercle de runes violettes sur le sol et l'accordez à une <strong>pierre de portail</strong> que vous avez déjà touchée : les mages du Kirin Tor en ont laissé dans les ruines de Dalaran, à Theramore, à Hurlevent et dans quelques tours oubliées. Un portail de 3 m de diamètre s'ouvre à portée et reste ouvert pour la durée du sort.</p><p>Toute créature qui entre dans le portail arrive instantanément à 1,5 m de la pierre choisie, ou dans l'espace libre le plus proche. Le portail fonctionne dans les deux sens. Un mage qui l'ouvre sans l'accord du Kirin Tor vers une de ses pierres sera retrouvé, tôt ou tard.</p><p><strong>Tradition</strong> : Arcanes. <strong>Listes de sorts</strong> : Magicien, Ensorceleur.</p>",
+      "en": "<p>You trace a circle of violet runes on the ground and attune it to a <strong>portal stone</strong> you have touched before: the mages of the Kirin Tor left some in the ruins of Dalaran, in Theramore, in Stormwind and in a few forgotten towers. A 10-foot-wide portal opens within range and stays open for the duration.</p><p>Any creature that enters the portal instantly arrives within 5 feet of the chosen stone, or in the nearest unoccupied space. The portal works both ways. A mage who opens one toward one of its stones without the Kirin Tor's consent will be found, sooner or later.</p><p><strong>Tradition</strong>: Arcane. <strong>Spell lists</strong>: Wizard, Sorcerer.</p>"
+    },
+    "system.activities.z2PgMQiVLBGnR3JG.name": {
+      "fr": "Ouvrir le portail",
+      "en": "Open the Portal"
+    },
+    "system.materials.value": {
+      "fr": "de la poudre d'arcanite valant au moins 100 po, que le sort consume",
+      "en": "arcanite powder worth at least 100 gp, which the spell consumes"
+    }
+  },
+  "sorts/j940tC4ldD8vwLln": {
+    "_nom": "Chute d'étoiles d'Élune",
+    "name": {
+      "fr": "Chute d'étoiles d'Élune",
+      "en": "Elune's Starfall"
+    },
+    "system.description.value": {
+      "fr": "<p>Les prêtresses de la Lune le disent : Élune ne frappe qu'une fois, mais elle frappe juste. Une pluie d'étoiles s'abat sur une sphère de 6 m de rayon centrée sur un point à portée. Chaque créature dans la zone fait un jet de sauvegarde de Dextérité ; elle subit <strong>8d8</strong> dégâts radiants en cas d'échec, la moitié en cas de réussite.</p><p>La zone reste baignée d'une lumière argentée jusqu'à la fin de votre prochain tour.</p><p><strong>Aux niveaux supérieurs.</strong> Les dégâts augmentent de 1d8 par niveau d'emplacement au-delà du 5e.</p><p><strong>Tradition</strong> : La Lumière. <strong>Listes de sorts</strong> : Clerc, Druide.</p>",
+      "en": "<p>The priestesses of the Moon say it: Elune strikes only once, but she strikes true. A rain of stars falls on a 20-foot-radius Sphere centered on a point within range. Each creature in the area makes a Dexterity saving throw; it takes <strong>8d8</strong> Radiant damage on a failure, half as much on a success.</p><p>The area stays bathed in silver light until the end of your next turn.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 5.</p><p><strong>Tradition</strong>: The Light. <strong>Spell lists</strong>: Cleric, Druid.</p>"
+    },
+    "system.activities.MoyaXSW1WLDIcxrl.name": {
+      "fr": "Chute d'étoiles",
+      "en": "Starfall"
+    }
+  },
+  "sorts/kZxX21INTXB6PwAz": {
+    "_nom": "Totem du flot guérisseur",
+    "name": {
+      "fr": "Totem du flot guérisseur",
+      "en": "Healing Stream Totem"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous plantez dans un espace inoccupé à portée un totem sculpté où vient loger un esprit de l'eau. Le totem est un objet de taille Petite (CA 13, 10 points de vie) ; s'il est détruit, le sort prend fin.</p><p>Quand vous lancez le sort, puis par une <strong>action bonus</strong> à chacun de vos tours suivants, une créature de votre choix située à 3 m ou moins du totem récupère <strong>1d6 + votre modificateur de caractéristique d'incantation</strong> points de vie. Les morts-vivants et les créatures artificielles n'en tirent aucun bénéfice.</p><p><strong>Aux niveaux supérieurs.</strong> Les soins augmentent de 1d6 par niveau d'emplacement au-delà du 2e.</p><p><strong>Tradition</strong> : Chamanisme. <strong>Listes de sorts</strong> : Druide, Clerc.</p>",
+      "en": "<p>You plant in an unoccupied space within range a carved totem in which a spirit of water comes to dwell. The totem is a Small object (AC 13, 10 Hit Points); if it is destroyed, the spell ends.</p><p>When you cast the spell, and then as a <strong>Bonus Action</strong> on each of your following turns, one creature of your choice within 10 feet of the totem regains <strong>1d6 + your spellcasting ability modifier</strong> Hit Points. Undead and Constructs gain no benefit from it.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The healing increases by 1d6 for each spell slot level above 2.</p><p><strong>Tradition</strong>: Shamanism. <strong>Spell lists</strong>: Druid, Cleric.</p>"
+    },
+    "system.activities.CtAYE3iT16JokVGM.name": {
+      "fr": "Planter le totem",
+      "en": "Plant the Totem"
+    },
+    "system.activities.0wFoAhFT7PXdXAfG.name": {
+      "fr": "Flot guérisseur",
+      "en": "Healing Stream"
+    },
+    "system.materials.value": {
+      "fr": "un galet poli par une rivière",
+      "en": "a pebble polished by a river"
+    }
+  },
+  "sorts/mlMhGL79co5nT8k1": {
+    "_nom": "Égide de la Lumière",
+    "name": {
+      "fr": "Égide de la Lumière",
+      "en": "Aegis of the Light"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous dessinez dans l'air un signe de protection qui se pose sur une créature à portée comme un voile doré. Elle gagne <strong>2d4 + votre modificateur de caractéristique d'incantation</strong> points de vie temporaires pour 1 heure.</p><p>Les prêtres de Hurlevent l'appellent « le manteau de l'Aube » ; on le pose sur les épaules des soldats avant la charge.</p><p><strong>Aux niveaux supérieurs.</strong> Les points de vie temporaires augmentent de 2d4 par niveau d'emplacement au-delà du 1er.</p><p><strong>Tradition</strong> : La Lumière. <strong>Listes de sorts</strong> : Clerc, Paladin.</p>",
+      "en": "<p>You draw a sign of protection in the air, and it settles on a creature within range like a golden veil. It gains <strong>2d4 + your spellcasting ability modifier</strong> Temporary Hit Points for 1 hour.</p><p>The priests of Stormwind call it \"the mantle of the Dawn\"; it is laid on the shoulders of soldiers before the charge.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The Temporary Hit Points increase by 2d4 for each spell slot level above 1.</p><p><strong>Tradition</strong>: The Light. <strong>Spell lists</strong>: Cleric, Paladin.</p>"
+    },
+    "system.activities.BNVWMlPgnnTK3cej.name": {
+      "fr": "Égide",
+      "en": "Aegis"
+    }
+  },
+  "sorts/t1CcbN07bqkqqhxv": {
+    "_nom": "Égide d'orage",
+    "name": {
+      "fr": "Égide d'orage",
+      "en": "Storm Aegis"
+    },
+    "system.description.value": {
+      "fr": "<p>Trois petites sphères crépitantes, prêtées par les esprits de l'air, tournent autour de vous pour la durée du sort.</p><p>Quand une créature située à 1,5 m de vous vous touche avec une attaque au corps à corps, une sphère se décharge sur elle : elle subit <strong>2d6</strong> dégâts de foudre, sans jet de sauvegarde. Le sort prend fin quand la troisième sphère est dépensée.</p><p><strong>Aux niveaux supérieurs.</strong> Les dégâts de chaque décharge augmentent de 1d6 par niveau d'emplacement au-delà du 1er.</p><p><strong>Tradition</strong> : Chamanisme. <strong>Listes de sorts</strong> : Druide, Clerc, Ensorceleur.</p>",
+      "en": "<p>Three small crackling spheres, lent by the spirits of the air, orbit you for the duration.</p><p>When a creature within 5 feet of you hits you with a melee attack, a sphere discharges on it: it takes <strong>2d6</strong> Lightning damage, with no saving throw. The spell ends when the third sphere is spent.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage of each discharge increases by 1d6 for each spell slot level above 1.</p><p><strong>Tradition</strong>: Shamanism. <strong>Spell lists</strong>: Druid, Cleric, Sorcerer.</p>"
+    },
+    "system.activities.KLc6rNjpCijRgCLK.name": {
+      "fr": "Invoquer l'égide",
+      "en": "Invoke the Aegis"
+    },
+    "system.activities.W0tibbv1Jm3hYAkB.name": {
+      "fr": "Décharge",
+      "en": "Discharge"
+    },
+    "system.activities.W0tibbv1Jm3hYAkB.activation.condition": {
+      "fr": "Une créature à 1,5 m vous touche au corps à corps",
+      "en": "A creature within 5 feet hits you in melee"
+    },
+    "effects.xni1nGeRnpYPbRtD.description": {
+      "fr": "<p>Trois sphères d'électricité tournent autour de vous. Quand une créature vous touche avec une attaque au corps à corps, une sphère se décharge sur elle (activité « Décharge »). Le sort prend fin quand la dernière sphère est dépensée.</p>",
+      "en": "<p>Three spheres of electricity orbit you. When a creature hits you with a melee attack, a sphere discharges on it (\"Discharge\" activity). The spell ends when the last sphere is spent.</p>"
+    }
+  }
+}

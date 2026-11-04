@@ -1,0 +1,313 @@
+{
+  "afflictions/3sa5RTkM4XkROFyr": {
+    "_nom": "Murmures gangrenés",
+    "name": {
+      "fr": "Murmures gangrenés",
+      "en": "Fel Whispers"
+    },
+    "system.description.value": {
+      "fr": "<p>Une voix douce vous promet la force. Vos yeux s'allument parfois d'un éclat vert. Vous avez l'<strong>avantage</strong> aux tests de Charisme (<strong>Intimidation</strong>), mais le <strong>désavantage</strong> aux tests de Sagesse (<strong>Intuition</strong>) : vous soupçonnez tout le monde.</p><p><strong>Résister à l'appel.</strong> Chaque fois que vous puisez dans la gangrène, ou que le MJ vous expose au gangrefeu (rituel démoniaque, cristal gangrené, sang de démon bu), faites un jet de sauvegarde de <strong>Sagesse</strong> contre le DD du palier. En cas d'échec, le MJ note un pas de corruption ; au troisième pas, vous passez au palier suivant.</p><p><strong>Purification.</strong> Un rituel des naaru, l'eau d'un puits sacré ou une <em>Restauration supérieure</em> lancée par un prêtre ou un paladin d'au moins le niveau 9 vous fait redescendre d'un palier (une fois par mois).</p>",
+      "en": "<p>A soft voice promises you strength. Your eyes sometimes light up with a green glow. You have <strong>Advantage</strong> on Charisma (<strong>Intimidation</strong>) checks, but <strong>Disadvantage</strong> on Wisdom (<strong>Insight</strong>) checks: you suspect everyone.</p><p><strong>Resist the Call.</strong> Each time you draw on the fel, or the GM exposes you to felfire (a demonic ritual, a fel crystal, demon blood drunk), make a <strong>Wisdom</strong> saving throw against the tier's DC. On a failure, the GM notes one step of corruption; on the third step, you move to the next tier.</p><p><strong>Purification.</strong> A ritual of the naaru, the water of a sacred well or a <em>Greater Restoration</em> cast by a priest or a paladin of at least level 9 brings you down one tier (once per month).</p>"
+    },
+    "system.requirements": {
+      "fr": "Corruption gangrenée — palier 1",
+      "en": "Fel corruption — tier 1"
+    },
+    "system.activities.dhYBmbmLvLwdCKVb.name": {
+      "fr": "Résister à l'appel",
+      "en": "Resist the Call"
+    }
+  },
+  "afflictions/6DIh22TnddSZIrDu": {
+    "_nom": "Œil crevé",
+    "name": {
+      "fr": "Œil crevé",
+      "en": "Gouged Eye"
+    },
+    "system.description.value": {
+      "fr": "<p>Une lame, une griffe ou un éclat d'os vous a pris un œil. Vous subissez un malus de <strong>−1</strong> aux jets d'attaque à distance (armes et sorts) et de <strong>−5</strong> à votre Sagesse (Perception) passive. Vous avez le <strong>désavantage</strong> aux tests de Sagesse (Perception) fondés sur la vue (le MJ l'applique).</p><p><strong>Guérison.</strong> Un sort de <em>Restauration supérieure</em> ou de <em>Régénération</em>, ou les soins d'un maître guérisseur (prêtre de haut rang, druide du Cercle cénarien, chaman de la Terre-Mère), fait disparaître cette blessure.</p>",
+      "en": "<p>A blade, a claw or a shard of bone took one of your eyes. You take a <strong>−1</strong> penalty to ranged attack rolls (weapons and spells) and <strong>−5</strong> to your Passive Wisdom (Perception). You have <strong>Disadvantage</strong> on Wisdom (Perception) checks that rely on sight (the GM applies it).</p><p><strong>Healing.</strong> A <em>Greater Restoration</em> or <em>Regenerate</em> spell, or the care of a master healer (high-ranking priest, druid of the Cenarion Circle, shaman of the Earth Mother), removes this injury.</p>"
+    },
+    "system.requirements": {
+      "fr": "Blessure persistante",
+      "en": "Lingering injury"
+    }
+  },
+  "afflictions/8EN3LuxJ1EEJqcLv": {
+    "_nom": "Mal de Gnomeregan",
+    "name": {
+      "fr": "Mal de Gnomeregan",
+      "en": "Gnomeregan Sickness"
+    },
+    "system.description.value": {
+      "fr": "<p>Les radiations libérées dans Gnomeregan rongent quiconque s'attarde dans ses salles inondées de vase toxique (jet de sauvegarde de Constitution DD 13 par heure passée dans une zone irradiée). Incubation : <strong>1d6 heures</strong>.</p><p><strong>Évolution.</strong> À la fin de chaque <strong>repos long</strong>, la créature malade fait un jet de sauvegarde de <strong>Constitution DD 13</strong>. Après <strong>trois échecs</strong> (cumulés), la maladie passe au stade suivant : le MJ active l'effet de ce stade sur la fiche (les effets des stades précédents restent actifs). Après <strong>trois réussites</strong> (cumulées), la créature guérit et l'objet est retiré.</p><ul><li><strong>Stade 1 — Nausées.</strong> Vomissements et vertiges. Les points de vie maximum diminuent de <strong>1 par niveau</strong>.</li><li><strong>Stade 2 — Cheveux qui tombent.</strong> Les mains tremblent, la peau pèle. Désavantage aux tests et aux jets de sauvegarde de <strong>Dextérité</strong>.</li></ul><p><strong>Remèdes.</strong> Un sort de <em>Restauration partielle</em> (ou toute magie qui met fin à une maladie) guérit la créature. Les ingénieurs gnomes d'Ironforge vendent un sirop « décontaminant » (25 po) qui donne l'avantage au prochain jet.</p>",
+      "en": "<p>The radiation released in Gnomeregan eats away at anyone who lingers in its halls flooded with toxic sludge (DC 13 Constitution saving throw per hour spent in an irradiated area). Incubation: <strong>1d6 hours</strong>.</p><p><strong>Progression.</strong> At the end of each <strong>Long Rest</strong>, the sick creature makes a <strong>DC 13 Constitution</strong> saving throw. After <strong>three failures</strong> (cumulative), the disease moves to the next stage: the GM enables that stage's effect on the sheet (the effects of previous stages remain active). After <strong>three successes</strong> (cumulative), the creature recovers and the item is removed.</p><ul><li><strong>Stage 1 — Nausea.</strong> Vomiting and dizziness. The Hit Point maximum decreases by <strong>1 per level</strong>.</li><li><strong>Stage 2 — Falling Hair.</strong> The hands shake, the skin peels. Disadvantage on <strong>Dexterity</strong> checks and saving throws.</li></ul><p><strong>Remedies.</strong> A <em>Lesser Restoration</em> spell (or any magic that ends a disease) cures the creature. The gnome engineers of Ironforge sell a \"decontaminant\" syrup (25 gp) that grants Advantage on the next save.</p>"
+    },
+    "effects.v3AnGtfSz9mJlNDp.name": {
+      "fr": "Mal de Gnomeregan — stade 1 : Nausées",
+      "en": "Gnomeregan Sickness — stage 1: Nausea"
+    },
+    "effects.v3AnGtfSz9mJlNDp.description": {
+      "fr": "<p>Vomissements et vertiges. Les points de vie maximum diminuent de <strong>1 par niveau</strong>.</p>",
+      "en": "<p>Vomiting and dizziness. The Hit Point maximum decreases by <strong>1 per level</strong>.</p>"
+    },
+    "effects.SMHuEm6m3HnCC9hA.name": {
+      "fr": "Mal de Gnomeregan — stade 2 : Cheveux qui tombent",
+      "en": "Gnomeregan Sickness — stage 2: Falling Hair"
+    },
+    "effects.SMHuEm6m3HnCC9hA.description": {
+      "fr": "<p>Les mains tremblent, la peau pèle. Désavantage aux tests et aux jets de sauvegarde de <strong>Dextérité</strong>.</p>",
+      "en": "<p>The hands shake, the skin peels. Disadvantage on <strong>Dexterity</strong> checks and saving throws.</p>"
+    }
+  },
+  "afflictions/A7mhIsechEgz2ve2": {
+    "_nom": "Bras mal ressoudé",
+    "name": {
+      "fr": "Bras mal ressoudé",
+      "en": "Badly Set Arm"
+    },
+    "system.description.value": {
+      "fr": "<p>L'os a repris de travers. Vous subissez un malus de <strong>−1</strong> aux jets d'attaque au corps à corps avec une arme, et vous avez le <strong>désavantage</strong> aux tests de <strong>Force</strong>.</p><p><strong>Guérison.</strong> Un sort de <em>Restauration supérieure</em> ou de <em>Régénération</em>, ou les soins d'un maître guérisseur (prêtre de haut rang, druide du Cercle cénarien, chaman de la Terre-Mère), fait disparaître cette blessure.</p>",
+      "en": "<p>The bone has knit crooked. You take a <strong>−1</strong> penalty to melee weapon attack rolls, and you have <strong>Disadvantage</strong> on <strong>Strength</strong> checks.</p><p><strong>Healing.</strong> A <em>Greater Restoration</em> or <em>Regenerate</em> spell, or the care of a master healer (high-ranking priest, druid of the Cenarion Circle, shaman of the Earth Mother), removes this injury.</p>"
+    }
+  },
+  "afflictions/DXyKVQmp47aeGExm": {
+    "_nom": "Jambe boiteuse",
+    "name": {
+      "fr": "Jambe boiteuse",
+      "en": "Lame Leg"
+    },
+    "system.description.value": {
+      "fr": "<p>Votre genou s'est mal ressoudé. Toutes vos vitesses diminuent de <strong>3 m</strong>, et vous avez le <strong>désavantage</strong> aux tests de Dextérité (<strong>Acrobaties</strong>).</p><p><strong>Guérison.</strong> Un sort de <em>Restauration supérieure</em> ou de <em>Régénération</em>, ou les soins d'un maître guérisseur (prêtre de haut rang, druide du Cercle cénarien, chaman de la Terre-Mère), fait disparaître cette blessure.</p>",
+      "en": "<p>Your knee has knit badly. All your Speeds decrease by <strong>10 feet</strong>, and you have <strong>Disadvantage</strong> on Dexterity (<strong>Acrobatics</strong>) checks.</p><p><strong>Healing.</strong> A <em>Greater Restoration</em> or <em>Regenerate</em> spell, or the care of a master healer (high-ranking priest, druid of the Cenarion Circle, shaman of the Earth Mother), removes this injury.</p>"
+    }
+  },
+  "afflictions/Gvo8G2HYyM6mSCEl": {
+    "_nom": "Peste du Fléau",
+    "name": {
+      "fr": "Peste du Fléau",
+      "en": "Plague of the Scourge"
+    },
+    "system.description.value": {
+      "fr": "<p>La peste que le Culte des Damnés a semée dans le grain de Lordaeron. On l'attrape en mangeant du grain contaminé, ou par la morsure d'une goule ou d'un zombie du Fléau (jet de sauvegarde de Constitution DD 15 pour l'éviter). Incubation : <strong>1d4 jours</strong>.</p><p><strong>Évolution.</strong> À la fin de chaque <strong>repos long</strong>, la créature malade fait un jet de sauvegarde de <strong>Constitution DD 15</strong>. Après <strong>trois échecs</strong> (cumulés), la maladie passe au stade suivant : le MJ active l'effet de ce stade sur la fiche (les effets des stades précédents restent actifs). Après <strong>trois réussites</strong> (cumulées), la créature guérit et l'objet est retiré.</p><ul><li><strong>Stade 1 — Fièvre grise.</strong> Fièvre, peau cendreuse. Désavantage aux tests de <strong>Force</strong> et de <strong>Constitution</strong>.</li><li><strong>Stade 2 — Chair qui se nécrose.</strong> La peau se marbre de noir. Désavantage aux jets de sauvegarde de <strong>Constitution</strong>, et les points de vie maximum diminuent de <strong>1 par niveau</strong>.</li><li><strong>Stade 3 — Dernier souffle.</strong> Le malade ne tient plus debout. Toutes ses vitesses diminuent de <strong>3 m</strong> et il a le désavantage aux <strong>jets de sauvegarde contre la mort</strong>. S'il meurt, il se relève en zombie du Fléau <strong>1d4 heures</strong> plus tard, à moins que son corps ne soit brûlé ou béni.</li></ul><p><strong>Remèdes.</strong> Un sort de <em>Restauration partielle</em> (ou toute magie qui met fin à une maladie) guérit la créature. Au stade 3, seule une <em>Restauration supérieure</em> suffit.</p>",
+      "en": "<p>The plague the Cult of the Damned sowed in the grain of Lordaeron. It is caught by eating contaminated grain, or from the bite of a Scourge ghoul or zombie (DC 15 Constitution saving throw to avoid it). Incubation: <strong>1d4 days</strong>.</p><p><strong>Progression.</strong> At the end of each <strong>Long Rest</strong>, the sick creature makes a <strong>DC 15 Constitution</strong> saving throw. After <strong>three failures</strong> (cumulative), the disease moves to the next stage: the GM enables that stage's effect on the sheet (the effects of previous stages remain active). After <strong>three successes</strong> (cumulative), the creature recovers and the item is removed.</p><ul><li><strong>Stage 1 — Grey Fever.</strong> Fever, ashen skin. Disadvantage on <strong>Strength</strong> and <strong>Constitution</strong> checks.</li><li><strong>Stage 2 — Necrotizing Flesh.</strong> The skin is marbled with black. Disadvantage on <strong>Constitution</strong> saving throws, and the Hit Point maximum decreases by <strong>1 per level</strong>.</li><li><strong>Stage 3 — Last Breath.</strong> The sick can no longer stand. All their Speeds decrease by <strong>10 feet</strong> and they have Disadvantage on <strong>Death Saving Throws</strong>. If they die, they rise as a Scourge zombie <strong>1d4 hours</strong> later, unless their body is burned or blessed.</li></ul><p><strong>Remedies.</strong> A <em>Lesser Restoration</em> spell (or any magic that ends a disease) cures the creature. At stage 3, only a <em>Greater Restoration</em> will do.</p>"
+    },
+    "system.requirements": {
+      "fr": "Maladie",
+      "en": "Disease"
+    },
+    "system.activities.beNAsQyBYJ1y3rxI.name": {
+      "fr": "Lutter contre la maladie",
+      "en": "Fight the disease"
+    },
+    "effects.LeLH9kZC1eAGNrBO.name": {
+      "fr": "Peste du Fléau — stade 1 : Fièvre grise",
+      "en": "Plague of the Scourge — stage 1: Grey Fever"
+    },
+    "effects.LeLH9kZC1eAGNrBO.description": {
+      "fr": "<p>Fièvre, peau cendreuse. Désavantage aux tests de <strong>Force</strong> et de <strong>Constitution</strong>.</p>",
+      "en": "<p>Fever, ashen skin. Disadvantage on <strong>Strength</strong> and <strong>Constitution</strong> checks.</p>"
+    },
+    "effects.r4GH4KgwiVjCLivi.name": {
+      "fr": "Peste du Fléau — stade 2 : Chair qui se nécrose",
+      "en": "Plague of the Scourge — stage 2: Necrotizing Flesh"
+    },
+    "effects.r4GH4KgwiVjCLivi.description": {
+      "fr": "<p>La peau se marbre de noir. Désavantage aux jets de sauvegarde de <strong>Constitution</strong>, et les points de vie maximum diminuent de <strong>1 par niveau</strong>.</p>",
+      "en": "<p>The skin is marbled with black. Disadvantage on <strong>Constitution</strong> saving throws, and the Hit Point maximum decreases by <strong>1 per level</strong>.</p>"
+    },
+    "effects.d5HQpImT2X9OnhdD.name": {
+      "fr": "Peste du Fléau — stade 3 : Dernier souffle",
+      "en": "Plague of the Scourge — stage 3: Last Breath"
+    },
+    "effects.d5HQpImT2X9OnhdD.description": {
+      "fr": "<p>Le malade ne tient plus debout. Toutes ses vitesses diminuent de <strong>3 m</strong> et il a le désavantage aux <strong>jets de sauvegarde contre la mort</strong>. S'il meurt, il se relève en zombie du Fléau <strong>1d4 heures</strong> plus tard, à moins que son corps ne soit brûlé ou béni.</p>",
+      "en": "<p>The sick can no longer stand. All their Speeds decrease by <strong>10 feet</strong> and they have Disadvantage on <strong>Death Saving Throws</strong>. If they die, they rise as a Scourge zombie <strong>1d4 hours</strong> later, unless their body is burned or blessed.</p>"
+    }
+  },
+  "afflictions/I5OioeRuPnj3iAOK": {
+    "_nom": "Tympan crevé",
+    "name": {
+      "fr": "Tympan crevé",
+      "en": "Burst Eardrum"
+    },
+    "system.description.value": {
+      "fr": "<p>Une explosion gobeline ou un cri de banshee vous a laissé à moitié sourd. Vous subissez un malus de <strong>−3</strong> à votre Sagesse (Perception) passive et de <strong>−1</strong> à l'<strong>initiative</strong>. Vous avez le <strong>désavantage</strong> aux tests de Sagesse (Perception) fondés sur l'ouïe (le MJ l'applique).</p><p><strong>Guérison.</strong> Un sort de <em>Restauration supérieure</em> ou de <em>Régénération</em>, ou les soins d'un maître guérisseur (prêtre de haut rang, druide du Cercle cénarien, chaman de la Terre-Mère), fait disparaître cette blessure.</p>",
+      "en": "<p>A goblin explosion or a banshee's scream has left you half deaf. You take a <strong>−3</strong> penalty to your Passive Wisdom (Perception) and <strong>−1</strong> to <strong>Initiative</strong>. You have <strong>Disadvantage</strong> on Wisdom (Perception) checks that rely on hearing (the GM applies it).</p><p><strong>Healing.</strong> A <em>Greater Restoration</em> or <em>Regenerate</em> spell, or the care of a master healer (high-ranking priest, druid of the Cenarion Circle, shaman of the Earth Mother), removes this injury.</p>"
+    }
+  },
+  "afflictions/KlhkJaXXVPQ4pI1f": {
+    "_nom": "Cicatrice défigurante",
+    "name": {
+      "fr": "Cicatrice défigurante",
+      "en": "Disfiguring Scar"
+    },
+    "system.description.value": {
+      "fr": "<p>Une balafre vous traverse le visage. Vous avez le <strong>désavantage</strong> aux tests de Charisme (<strong>Persuasion</strong>), mais l'<strong>avantage</strong> aux tests de Charisme (<strong>Intimidation</strong>).</p><p><strong>Guérison.</strong> Un sort de <em>Restauration supérieure</em> ou de <em>Régénération</em>, ou les soins d'un maître guérisseur (prêtre de haut rang, druide du Cercle cénarien, chaman de la Terre-Mère), fait disparaître cette blessure.</p>",
+      "en": "<p>A gash runs across your face. You have <strong>Disadvantage</strong> on Charisma (<strong>Persuasion</strong>) checks, but <strong>Advantage</strong> on Charisma (<strong>Intimidation</strong>) checks.</p><p><strong>Healing.</strong> A <em>Greater Restoration</em> or <em>Regenerate</em> spell, or the care of a master healer (high-ranking priest, druid of the Cenarion Circle, shaman of the Earth Mother), removes this injury.</p>"
+    }
+  },
+  "afflictions/NPjl36ZOLQz2jdJ6": {
+    "_nom": "Marque gangrenée",
+    "name": {
+      "fr": "Marque gangrenée",
+      "en": "Fel Mark"
+    },
+    "system.description.value": {
+      "fr": "<p>Une rune verte brûle sous votre peau. En plus des effets des Murmures, vous avez la <strong>résistance aux dégâts de feu</strong> et le <strong>désavantage</strong> aux jets de sauvegarde de <strong>Sagesse</strong>.</p><p><strong>Puiser dans la gangrène.</strong> Par une <strong>action bonus</strong>, vous gagnez <strong>1d6 + votre bonus de maîtrise</strong> points de vie temporaires. Nombre d'utilisations : une par repos long.</p><p><strong>Résister à l'appel.</strong> Chaque fois que vous puisez dans la gangrène, ou que le MJ vous expose au gangrefeu (rituel démoniaque, cristal gangrené, sang de démon bu), faites un jet de sauvegarde de <strong>Sagesse</strong> contre le DD du palier. En cas d'échec, le MJ note un pas de corruption ; au troisième pas, vous passez au palier suivant.</p><p><strong>Purification.</strong> Un rituel des naaru, l'eau d'un puits sacré ou une <em>Restauration supérieure</em> lancée par un prêtre ou un paladin d'au moins le niveau 9 vous fait redescendre d'un palier (une fois par mois).</p>",
+      "en": "<p>A green rune burns beneath your skin. In addition to the effects of the Whispers, you have <strong>Resistance to Fire damage</strong> and <strong>Disadvantage</strong> on <strong>Wisdom</strong> saving throws.</p><p><strong>Draw on the Fel.</strong> As a <strong>Bonus Action</strong>, you gain <strong>1d6 + your Proficiency Bonus</strong> Temporary Hit Points. Number of uses: one per Long Rest.</p><p><strong>Resist the Call.</strong> Each time you draw on the fel, or the GM exposes you to felfire (a demonic ritual, a fel crystal, demon blood drunk), make a <strong>Wisdom</strong> saving throw against the tier's DC. On a failure, the GM notes one step of corruption; on the third step, you move to the next tier.</p><p><strong>Purification.</strong> A ritual of the naaru, the water of a sacred well or a <em>Greater Restoration</em> cast by a priest or a paladin of at least level 9 brings you down one tier (once per month).</p>"
+    },
+    "system.requirements": {
+      "fr": "Corruption gangrenée — palier 2",
+      "en": "Fel corruption — tier 2"
+    },
+    "system.activities.8pnKEOZjchFT2tQB.name": {
+      "fr": "Puiser dans la gangrène",
+      "en": "Draw on the Fel"
+    }
+  },
+  "afflictions/VTatLCFVQ6CM97g9": {
+    "_nom": "Au seuil de la Légion",
+    "name": {
+      "fr": "Au seuil de la Légion",
+      "en": "At the Legion's Threshold"
+    },
+    "system.description.value": {
+      "fr": "<p>Les démons vous reconnaissent comme l'un des leurs. En plus des effets précédents, vous ne pouvez plus être <strong>effrayé</strong>, mais vous avez le <strong>désavantage</strong> aux jets de sauvegarde de <strong>Charisme</strong>. Sur un 1 naturel à un jet d'attaque, le MJ peut décider de votre prochaine action.</p><p><strong>Puiser dans la gangrène.</strong> Par une <strong>action bonus</strong>, vous gagnez <strong>3d6 + votre bonus de maîtrise</strong> points de vie temporaires. Nombre d'utilisations : trois par repos long.</p><p><strong>Résister à l'appel.</strong> Chaque fois que vous puisez dans la gangrène, ou que le MJ vous expose au gangrefeu (rituel démoniaque, cristal gangrené, sang de démon bu), faites un jet de sauvegarde de <strong>Sagesse</strong> contre le DD du palier. En cas d'échec, le MJ note un pas de corruption ; au troisième pas, vous passez au palier suivant.</p><p><strong>Purification.</strong> Un rituel des naaru, l'eau d'un puits sacré ou une <em>Restauration supérieure</em> lancée par un prêtre ou un paladin d'au moins le niveau 9 vous fait redescendre d'un palier (une fois par mois).</p>",
+      "en": "<p>Demons recognize you as one of their own. In addition to the previous effects, you can no longer be <strong>Frightened</strong>, but you have <strong>Disadvantage</strong> on <strong>Charisma</strong> saving throws. On a natural 1 on an attack roll, the GM may decide your next action.</p><p><strong>Draw on the Fel.</strong> As a <strong>Bonus Action</strong>, you gain <strong>3d6 + your Proficiency Bonus</strong> Temporary Hit Points. Number of uses: three per Long Rest.</p><p><strong>Resist the Call.</strong> Each time you draw on the fel, or the GM exposes you to felfire (a demonic ritual, a fel crystal, demon blood drunk), make a <strong>Wisdom</strong> saving throw against the tier's DC. On a failure, the GM notes one step of corruption; on the third step, you move to the next tier.</p><p><strong>Purification.</strong> A ritual of the naaru, the water of a sacred well or a <em>Greater Restoration</em> cast by a priest or a paladin of at least level 9 brings you down one tier (once per month).</p>"
+    },
+    "system.requirements": {
+      "fr": "Corruption gangrenée — palier 4",
+      "en": "Fel corruption — tier 4"
+    }
+  },
+  "afflictions/Xh8EEip8pizMSg3Y": {
+    "_nom": "Fièvre du Cauchemar",
+    "name": {
+      "fr": "Fièvre du Cauchemar",
+      "en": "Nightmare Fever"
+    },
+    "system.description.value": {
+      "fr": "<p>Une ombre du Cauchemar d'émeraude s'insinue dans les rêves de ceux qui dorment près d'un portail corrompu ou d'un arbre malade (jet de sauvegarde de Sagesse DD 14 par nuit). Les elfes de la nuit et les druides y sont aussi sensibles que les autres. Incubation : <strong>une nuit</strong>.</p><p><strong>Évolution.</strong> À la fin de chaque <strong>repos long</strong>, la créature malade fait un jet de sauvegarde de <strong>Sagesse DD 14</strong>. Après <strong>trois échecs</strong> (cumulés), la maladie passe au stade suivant : le MJ active l'effet de ce stade sur la fiche (les effets des stades précédents restent actifs). Après <strong>trois réussites</strong> (cumulées), la créature guérit et l'objet est retiré.</p><ul><li><strong>Stade 1 — Sommeil agité.</strong> Le malade se réveille épuisé de rêves qu'il ne raconte pas. Désavantage aux jets de sauvegarde de <strong>Sagesse</strong>.</li><li><strong>Stade 2 — Veille hantée.</strong> Le Cauchemar le suit jusque dans l'éveil. Désavantage aux tests de Sagesse (<strong>Intuition</strong>), malus de <strong>−5</strong> à la Perception passive et désavantage aux jets de sauvegarde d'<strong>Intelligence</strong>.</li></ul><p><strong>Remèdes.</strong> La maladie est magique : <em>Restauration partielle</em> ne fait que repousser l'évolution d'une semaine. Un sort de <em>Dissipation du mal et du bien</em>, ou une nuit de veille dans un bosquet consacré par un druide, la guérit.</p>",
+      "en": "<p>A shadow of the Emerald Nightmare creeps into the dreams of those who sleep near a corrupted portal or a sick tree (DC 14 Wisdom saving throw per night). Night elves and druids are as susceptible to it as anyone. Incubation: <strong>one night</strong>.</p><p><strong>Progression.</strong> At the end of each <strong>Long Rest</strong>, the sick creature makes a <strong>DC 14 Wisdom</strong> saving throw. After <strong>three failures</strong> (cumulative), the disease moves to the next stage: the GM enables that stage's effect on the sheet (the effects of previous stages remain active). After <strong>three successes</strong> (cumulative), the creature recovers and the item is removed.</p><ul><li><strong>Stage 1 — Restless Sleep.</strong> The sick wake exhausted from dreams they do not tell. Disadvantage on <strong>Wisdom</strong> saving throws.</li><li><strong>Stage 2 — Haunted Waking.</strong> The Nightmare follows them into waking. Disadvantage on Wisdom (<strong>Insight</strong>) checks, a <strong>−5</strong> penalty to Passive Perception and Disadvantage on <strong>Intelligence</strong> saving throws.</li></ul><p><strong>Remedies.</strong> The disease is magical: <em>Lesser Restoration</em> only delays its progression by a week. A <em>Dispel Evil and Good</em> spell, or a night of vigil in a grove consecrated by a druid, cures it.</p>"
+    },
+    "effects.zggbf0uzb5lWp9Rp.name": {
+      "fr": "Fièvre du Cauchemar — stade 1 : Sommeil agité",
+      "en": "Nightmare Fever — stage 1: Restless Sleep"
+    },
+    "effects.zggbf0uzb5lWp9Rp.description": {
+      "fr": "<p>Le malade se réveille épuisé de rêves qu'il ne raconte pas. Désavantage aux jets de sauvegarde de <strong>Sagesse</strong>.</p>",
+      "en": "<p>The sick wake exhausted from dreams they do not tell. Disadvantage on <strong>Wisdom</strong> saving throws.</p>"
+    },
+    "effects.jvvHjzdbKECP7NYr.name": {
+      "fr": "Fièvre du Cauchemar — stade 2 : Veille hantée",
+      "en": "Nightmare Fever — stage 2: Haunted Waking"
+    },
+    "effects.jvvHjzdbKECP7NYr.description": {
+      "fr": "<p>Le Cauchemar le suit jusque dans l'éveil. Désavantage aux tests de Sagesse (<strong>Intuition</strong>), malus de <strong>−5</strong> à la Perception passive et désavantage aux jets de sauvegarde d'<strong>Intelligence</strong>.</p>",
+      "en": "<p>The Nightmare follows them into waking. Disadvantage on Wisdom (<strong>Insight</strong>) checks, a <strong>−5</strong> penalty to Passive Perception and Disadvantage on <strong>Intelligence</strong> saving throws.</p>"
+    }
+  },
+  "afflictions/XojfPZFWdgUsgSOM": {
+    "_nom": "Main mutilée",
+    "name": {
+      "fr": "Main mutilée",
+      "en": "Maimed Hand"
+    },
+    "system.description.value": {
+      "fr": "<p>Il vous manque deux doigts. Vous avez le <strong>désavantage</strong> aux tests de Dextérité (<strong>Escamotage</strong>) et à tous les tests faits avec des <strong>outils</strong>.</p><p><strong>Guérison.</strong> Un sort de <em>Restauration supérieure</em> ou de <em>Régénération</em>, ou les soins d'un maître guérisseur (prêtre de haut rang, druide du Cercle cénarien, chaman de la Terre-Mère), fait disparaître cette blessure.</p>",
+      "en": "<p>You are missing two fingers. You have <strong>Disadvantage</strong> on Dexterity (<strong>Sleight of Hand</strong>) checks and on all checks made with <strong>tools</strong>.</p><p><strong>Healing.</strong> A <em>Greater Restoration</em> or <em>Regenerate</em> spell, or the care of a master healer (high-ranking priest, druid of the Cenarion Circle, shaman of the Earth Mother), removes this injury.</p>"
+    }
+  },
+  "afflictions/bOdpmI8yGpLrgKK3": {
+    "_nom": "Côtes brisées",
+    "name": {
+      "fr": "Côtes brisées",
+      "en": "Broken Ribs"
+    },
+    "system.description.value": {
+      "fr": "<p>Chaque inspiration vous rappelle le coup de masse. Vous avez le <strong>désavantage</strong> aux tests de Force (<strong>Athlétisme</strong>) et aux jets de sauvegarde pour maintenir votre <strong>concentration</strong>.</p><p><strong>Guérison.</strong> Les côtes se ressoudent après <strong>dix jours</strong> de repos complet (aucun combat, aucun voyage à pied) ; un sort de soins d'au moins le niveau 3 lancé chaque jour réduit ce délai à trois jours.</p>",
+      "en": "<p>Every breath reminds you of the mace blow. You have <strong>Disadvantage</strong> on Strength (<strong>Athletics</strong>) checks and on saving throws to maintain <strong>Concentration</strong>.</p><p><strong>Healing.</strong> The ribs knit after <strong>ten days</strong> of complete rest (no fighting, no travel on foot); a healing spell of at least level 3 cast each day reduces this to three days.</p>"
+    }
+  },
+  "afflictions/hbFz5WhHlmIOD88L": {
+    "_nom": "Crâne fêlé",
+    "name": {
+      "fr": "Crâne fêlé",
+      "en": "Cracked Skull"
+    },
+    "system.description.value": {
+      "fr": "<p>Depuis ce coup à la tête, les maux de crâne ne vous quittent plus. Vous avez le <strong>désavantage</strong> aux tests d'<strong>Intelligence</strong>, et un malus de <strong>−2</strong> aux jets de sauvegarde pour maintenir votre <strong>concentration</strong>.</p><p><strong>Guérison.</strong> Un sort de <em>Restauration supérieure</em> ou de <em>Régénération</em>, ou les soins d'un maître guérisseur (prêtre de haut rang, druide du Cercle cénarien, chaman de la Terre-Mère), fait disparaître cette blessure.</p>",
+      "en": "<p>Since that blow to the head, the headaches never leave you. You have <strong>Disadvantage</strong> on <strong>Intelligence</strong> checks, and a <strong>−2</strong> penalty to saving throws to maintain <strong>Concentration</strong>.</p><p><strong>Healing.</strong> A <em>Greater Restoration</em> or <em>Regenerate</em> spell, or the care of a master healer (high-ranking priest, druid of the Cenarion Circle, shaman of the Earth Mother), removes this injury.</p>"
+    }
+  },
+  "afflictions/iAeSEjvoP39qrJrH": {
+    "_nom": "Chair corrompue",
+    "name": {
+      "fr": "Chair corrompue",
+      "en": "Corrupted Flesh"
+    },
+    "system.description.value": {
+      "fr": "<p>Des cornes naissantes, des ongles noircis, une chaleur qui ne vous quitte plus. En plus des effets précédents, vous gagnez la <strong>vision dans le noir</strong> sur <strong>18 m</strong>, vous êtes <strong>vulnérable aux dégâts radiants</strong>, et vos points de vie maximum diminuent de <strong>1 par niveau</strong>.</p><p><strong>Puiser dans la gangrène.</strong> Par une <strong>action bonus</strong>, vous gagnez <strong>2d6 + votre bonus de maîtrise</strong> points de vie temporaires. Nombre d'utilisations : deux par repos long.</p><p><strong>Résister à l'appel.</strong> Chaque fois que vous puisez dans la gangrène, ou que le MJ vous expose au gangrefeu (rituel démoniaque, cristal gangrené, sang de démon bu), faites un jet de sauvegarde de <strong>Sagesse</strong> contre le DD du palier. En cas d'échec, le MJ note un pas de corruption ; au troisième pas, vous passez au palier suivant.</p><p><strong>Purification.</strong> Un rituel des naaru, l'eau d'un puits sacré ou une <em>Restauration supérieure</em> lancée par un prêtre ou un paladin d'au moins le niveau 9 vous fait redescendre d'un palier (une fois par mois).</p>",
+      "en": "<p>Budding horns, blackened nails, a heat that never leaves you. In addition to the previous effects, you gain <strong>Darkvision</strong> within <strong>60 feet</strong>, you are <strong>Vulnerable to Radiant damage</strong>, and your Hit Point maximum decreases by <strong>1 per level</strong>.</p><p><strong>Draw on the Fel.</strong> As a <strong>Bonus Action</strong>, you gain <strong>2d6 + your Proficiency Bonus</strong> Temporary Hit Points. Number of uses: two per Long Rest.</p><p><strong>Resist the Call.</strong> Each time you draw on the fel, or the GM exposes you to felfire (a demonic ritual, a fel crystal, demon blood drunk), make a <strong>Wisdom</strong> saving throw against the tier's DC. On a failure, the GM notes one step of corruption; on the third step, you move to the next tier.</p><p><strong>Purification.</strong> A ritual of the naaru, the water of a sacred well or a <em>Greater Restoration</em> cast by a priest or a paladin of at least level 9 brings you down one tier (once per month).</p>"
+    },
+    "system.requirements": {
+      "fr": "Corruption gangrenée — palier 3",
+      "en": "Fel corruption — tier 3"
+    }
+  },
+  "afflictions/j37a9EVZTlTjREWa": {
+    "_nom": "Toux noire",
+    "name": {
+      "fr": "Toux noire",
+      "en": "Black Cough"
+    },
+    "system.description.value": {
+      "fr": "<p>La poussière des mines de Rochenoire et des galeries de Forgefer se dépose dans les poumons de ceux qui y travaillent sans masque (jet de sauvegarde de Constitution DD 13 par semaine passée sous terre). Incubation : <strong>une semaine</strong>.</p><p><strong>Évolution.</strong> À la fin de chaque <strong>repos long</strong>, la créature malade fait un jet de sauvegarde de <strong>Constitution DD 13</strong>. Après <strong>trois échecs</strong> (cumulés), la maladie passe au stade suivant : le MJ active l'effet de ce stade sur la fiche (les effets des stades précédents restent actifs). Après <strong>trois réussites</strong> (cumulées), la créature guérit et l'objet est retiré.</p><ul><li><strong>Stade 1 — Souffle court.</strong> Une toux sèche ponctue chaque effort. Désavantage aux tests de Force (<strong>Athlétisme</strong>).</li><li><strong>Stade 2 — Poumons de cendre.</strong> Le malade crache noir. Toutes ses vitesses diminuent de <strong>1,5 m</strong>, et il a le désavantage aux jets de sauvegarde de <strong>Constitution</strong>.</li></ul><p><strong>Remèdes.</strong> Un sort de <em>Restauration partielle</em> (ou toute magie qui met fin à une maladie) guérit la créature. Un mois au grand air sans descendre sous terre compte comme trois réussites.</p>",
+      "en": "<p>The dust of the Blackrock mines and the galleries of Ironforge settles in the lungs of those who work there without a mask (DC 13 Constitution saving throw per week spent underground). Incubation: <strong>one week</strong>.</p><p><strong>Progression.</strong> At the end of each <strong>Long Rest</strong>, the sick creature makes a <strong>DC 13 Constitution</strong> saving throw. After <strong>three failures</strong> (cumulative), the disease moves to the next stage: the GM enables that stage's effect on the sheet (the effects of previous stages remain active). After <strong>three successes</strong> (cumulative), the creature recovers and the item is removed.</p><ul><li><strong>Stage 1 — Short Breath.</strong> A dry cough punctuates every effort. Disadvantage on Strength (<strong>Athletics</strong>) checks.</li><li><strong>Stage 2 — Lungs of Ash.</strong> The sick cough up black. All their Speeds decrease by <strong>5 feet</strong>, and they have Disadvantage on <strong>Constitution</strong> saving throws.</li></ul><p><strong>Remedies.</strong> A <em>Lesser Restoration</em> spell (or any magic that ends a disease) cures the creature. A month in the open air without going underground counts as three successes.</p>"
+    },
+    "effects.YD5uIbVG9iLyPFiY.name": {
+      "fr": "Toux noire — stade 1 : Souffle court",
+      "en": "Black Cough — stage 1: Short Breath"
+    },
+    "effects.YD5uIbVG9iLyPFiY.description": {
+      "fr": "<p>Une toux sèche ponctue chaque effort. Désavantage aux tests de Force (<strong>Athlétisme</strong>).</p>",
+      "en": "<p>A dry cough punctuates every effort. Disadvantage on Strength (<strong>Athletics</strong>) checks.</p>"
+    },
+    "effects.v6fmexCrdhbRFAnw.name": {
+      "fr": "Toux noire — stade 2 : Poumons de cendre",
+      "en": "Black Cough — stage 2: Lungs of Ash"
+    },
+    "effects.v6fmexCrdhbRFAnw.description": {
+      "fr": "<p>Le malade crache noir. Toutes ses vitesses diminuent de <strong>1,5 m</strong>, et il a le désavantage aux jets de sauvegarde de <strong>Constitution</strong>.</p>",
+      "en": "<p>The sick cough up black. All their Speeds decrease by <strong>5 feet</strong>, and they have Disadvantage on <strong>Constitution</strong> saving throws.</p>"
+    }
+  },
+  "afflictions/mkUOXWHlimnJEbSX": {
+    "_nom": "Fièvre des marais",
+    "name": {
+      "fr": "Fièvre des marais",
+      "en": "Marsh Fever"
+    },
+    "system.description.value": {
+      "fr": "<p>Les moustiques du marécage d'Âprefange et des Paluns transmettent cette fièvre à quiconque y dort sans moustiquaire (jet de sauvegarde de Constitution DD 12 par nuit passée dans le marais). Incubation : <strong>2 jours</strong>.</p><p><strong>Évolution.</strong> À la fin de chaque <strong>repos long</strong>, la créature malade fait un jet de sauvegarde de <strong>Constitution DD 12</strong>. Après <strong>trois échecs</strong> (cumulés), la maladie passe au stade suivant : le MJ active l'effet de ce stade sur la fiche (les effets des stades précédents restent actifs). Après <strong>trois réussites</strong> (cumulées), la créature guérit et l'objet est retiré.</p><ul><li><strong>Stade 1 — Frissons.</strong> Sueurs froides et tremblements. Malus de <strong>−2</strong> à l'<strong>initiative</strong>.</li><li><strong>Stade 2 — Délire.</strong> Le malade voit des choses qui ne sont pas là. Désavantage aux tests de Sagesse (<strong>Perception</strong>) et aux jets de sauvegarde pour maintenir sa <strong>concentration</strong>.</li></ul><p><strong>Remèdes.</strong> Un sort de <em>Restauration partielle</em> (ou toute magie qui met fin à une maladie) guérit la créature. Une tisane d'écorce de saule des marais (test d'Intelligence (Médecine) DD 12 avec le matériel d'herboriste) donne l'avantage au prochain jet contre la fièvre.</p>",
+      "en": "<p>The mosquitoes of Dustwallow Marsh and the Wetlands pass this fever to anyone who sleeps there without a net (DC 12 Constitution saving throw per night spent in the marsh). Incubation: <strong>2 days</strong>.</p><p><strong>Progression.</strong> At the end of each <strong>Long Rest</strong>, the sick creature makes a <strong>DC 12 Constitution</strong> saving throw. After <strong>three failures</strong> (cumulative), the disease moves to the next stage: the GM enables that stage's effect on the sheet (the effects of previous stages remain active). After <strong>three successes</strong> (cumulative), the creature recovers and the item is removed.</p><ul><li><strong>Stage 1 — Chills.</strong> Cold sweats and shaking. <strong>−2</strong> penalty to <strong>Initiative</strong>.</li><li><strong>Stage 2 — Delirium.</strong> The sick see things that are not there. Disadvantage on Wisdom (<strong>Perception</strong>) checks and on saving throws to maintain <strong>Concentration</strong>.</li></ul><p><strong>Remedies.</strong> A <em>Lesser Restoration</em> spell (or any magic that ends a disease) cures the creature. A tea of marsh willow bark (DC 12 Intelligence (Medicine) check with an Herbalism Kit) grants Advantage on the next save against the fever.</p>"
+    },
+    "effects.A8zfiIzpJ5jkG6Yg.name": {
+      "fr": "Fièvre des marais — stade 1 : Frissons",
+      "en": "Marsh Fever — stage 1: Chills"
+    },
+    "effects.A8zfiIzpJ5jkG6Yg.description": {
+      "fr": "<p>Sueurs froides et tremblements. Malus de <strong>−2</strong> à l'<strong>initiative</strong>.</p>",
+      "en": "<p>Cold sweats and shaking. <strong>−2</strong> penalty to <strong>Initiative</strong>.</p>"
+    },
+    "effects.PwlqtOhKeF1gIDPL.name": {
+      "fr": "Fièvre des marais — stade 2 : Délire",
+      "en": "Marsh Fever — stage 2: Delirium"
+    },
+    "effects.PwlqtOhKeF1gIDPL.description": {
+      "fr": "<p>Le malade voit des choses qui ne sont pas là. Désavantage aux tests de Sagesse (<strong>Perception</strong>) et aux jets de sauvegarde pour maintenir sa <strong>concentration</strong>.</p>",
+      "en": "<p>The sick see things that are not there. Disadvantage on Wisdom (<strong>Perception</strong>) checks and on saving throws to maintain <strong>Concentration</strong>.</p>"
+    }
+  }
+}

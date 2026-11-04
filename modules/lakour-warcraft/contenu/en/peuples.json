@@ -1,0 +1,829 @@
+{
+  "peuples/1mP9e6j3sTuquJBA": {
+    "_nom": "Forme sauvage",
+    "name": {
+      "fr": "Forme sauvage",
+      "en": "Wild Form"
+    },
+    "system.description.value": {
+      "fr": "<p>La malédiction de Gilnéas sommeille sous votre peau. Par une <strong>action bonus</strong>, vous prenez votre forme de loup pendant 1 minute : vous gagnez des points de vie temporaires égaux à votre <strong>bonus de maîtrise</strong>, votre vitesse augmente de 3 m, et vous avez l'avantage aux tests de <strong>Force</strong>. Vous reprenez forme humaine par une action bonus, ou si vous tombez inconscient. Une utilisation par repos long.</p><p>Vous pouvez porter vos armes et votre armure sous les deux formes.</p>",
+      "en": "<p>The curse of Gilneas sleeps beneath your skin. As a <strong>Bonus Action</strong>, you take your wolf form for 1 minute: you gain Temporary Hit Points equal to your <strong>Proficiency Bonus</strong>, your Speed increases by 10 feet, and you have Advantage on <strong>Strength</strong> checks. You return to human form as a Bonus Action, or if you fall Unconscious. One use per Long Rest.</p><p>You can wear your weapons and armor in both forms.</p>"
+    },
+    "system.activities.JZpJOCJTYVSCorCN.name": {
+      "fr": "Libérer le loup",
+      "en": "Unleash the Wolf"
+    }
+  },
+  "peuples/2vdI7I0kq5EYFKnt": {
+    "_nom": "Don des naaru",
+    "name": {
+      "fr": "Don des naaru",
+      "en": "Gift of the Naaru"
+    },
+    "system.description.value": {
+      "fr": "<p>Les naaru ont guidé votre peuple à travers les étoiles, et un peu de leur lumière vous accompagne. Par une <strong>action</strong>, vous touchez une créature (vous compris) : elle récupère un nombre de points de vie égal à <strong>1d4 par point de votre bonus de maîtrise</strong>. Une utilisation par repos long.</p>",
+      "en": "<p>The naaru guided your people across the stars, and a little of their light travels with you. As an <strong>action</strong>, you touch a creature (yourself included): it regains a number of Hit Points equal to <strong>1d4 per point of your Proficiency Bonus</strong>. One use per Long Rest.</p>"
+    },
+    "system.activities.0BKHD6Dp9yiRb9Im.name": {
+      "fr": "Lumière des naaru",
+      "en": "Light of the Naaru"
+    }
+  },
+  "peuples/320fYkWoRNWQMLPn": {
+    "_nom": "Affinité arcanique",
+    "name": {
+      "fr": "Affinité arcanique",
+      "en": "Arcane Affinity"
+    },
+    "system.description.value": {
+      "fr": "<p>Quel'Thalas a vécu au rythme du Puits de soleil. Vous connaissez le tour de magie <strong>Prestidigitation</strong>. À partir du niveau 3, vous pouvez lancer <strong>Détection de la magie</strong> une fois sans emplacement de sort par repos long. Intelligence, Sagesse ou Charisme est votre caractéristique d'incantation pour ces sorts.</p>",
+      "en": "<p>Quel'Thalas lived to the rhythm of the Sunwell. You know the <strong>Prestidigitation</strong> cantrip. From level 3, you can cast <strong>Detect Magic</strong> once without a spell slot per Long Rest. Intelligence, Wisdom or Charisma is your spellcasting ability for these spells.</p>"
+    }
+  },
+  "peuples/3Ycrv2wEhz5DrXjB": {
+    "_nom": "Esprit retors",
+    "name": {
+      "fr": "Esprit retors",
+      "en": "Devious Mind"
+    },
+    "system.description.value": {
+      "fr": "<p>Un esprit qui calcule trois choses à la fois est difficile à tromper. Vous avez l'avantage aux jets de sauvegarde d'<strong>Intelligence</strong>, de <strong>Sagesse</strong> et de <strong>Charisme</strong>.</p>",
+      "en": "<p>A mind that calculates three things at once is hard to fool. You have Advantage on <strong>Intelligence</strong>, <strong>Wisdom</strong> and <strong>Charisma</strong> saving throws.</p>"
+    }
+  },
+  "peuples/3kW6vJPrisl7Z2sQ": {
+    "_nom": "Régénération",
+    "name": {
+      "fr": "Régénération",
+      "en": "Regeneration"
+    },
+    "system.description.value": {
+      "fr": "<p>Votre chair se referme à vue d'œil. Par une <strong>action bonus</strong>, vous récupérez <strong>1d6 + votre modificateur de Constitution</strong> points de vie (minimum 1). Cette régénération ne fonctionne pas si vous avez subi des dégâts de feu ou d'acide depuis le début de votre dernier tour. Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "en": "<p>Your flesh knits back before your eyes. As a <strong>Bonus Action</strong>, you regain <strong>1d6 + your Constitution modifier</strong> Hit Points (minimum 1). This regeneration does not work if you have taken Fire or Acid damage since the start of your last turn. Number of uses: your <strong>Proficiency Bonus</strong> per Long Rest.</p>"
+    },
+    "system.activities.IVhYHp2U4mNE7vZ3.name": {
+      "fr": "Se régénérer",
+      "en": "Regenerate"
+    }
+  },
+  "peuples/5GWvb7ve8z33Td2B": {
+    "_nom": "Écho de la pierre",
+    "name": {
+      "fr": "Écho de la pierre",
+      "en": "Echo of the Stone"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous sentez la roche vibrer comme un forgeron entend son enclume. Par une <strong>action bonus</strong>, vous gagnez la <strong>perception des vibrations</strong> sur 18 m pendant 10 minutes, tant que vous touchez la pierre ou le sol. Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "en": "<p>You feel the rock vibrate the way a smith hears his anvil. As a <strong>Bonus Action</strong>, you gain <strong>Tremorsense</strong> within 60 feet for 10 minutes, as long as you are touching stone or the ground. Number of uses: your <strong>Proficiency Bonus</strong> per Long Rest.</p>"
+    },
+    "system.activities.7nBQlJ6yhTB5xRer.name": {
+      "fr": "Écouter la pierre",
+      "en": "Listen to the Stone"
+    }
+  },
+  "peuples/6fEjlA8VpLOXfdyR": {
+    "_nom": "Mémoire de l'exil",
+    "name": {
+      "fr": "Mémoire de l'exil",
+      "en": "Memory of Exile"
+    },
+    "system.description.value": {
+      "fr": "<p>Votre peuple a traversé mille mondes et en a gardé les leçons. Vous maîtrisez <strong>Arcanes</strong>, <strong>Histoire</strong> ou <strong>Religion</strong> (au choix).</p>",
+      "en": "<p>Your people have crossed a thousand worlds and kept their lessons. You have proficiency in <strong>Arcana</strong>, <strong>History</strong> or <strong>Religion</strong> (your choice).</p>"
+    }
+  },
+  "peuples/71P9BgVWVk7tX7LH": {
+    "_nom": "Robustesse naine",
+    "name": {
+      "fr": "Robustesse naine",
+      "en": "Dwarven Toughness"
+    },
+    "system.description.value": {
+      "fr": "<p>Vos points de vie maximum augmentent de 1, puis de 1 à chaque niveau gagné.</p>",
+      "en": "<p>Your Hit Point maximum increases by 1, and by 1 again whenever you gain a level.</p>"
+    }
+  },
+  "peuples/7lbR9ARfrzT017yB": {
+    "_nom": "Paume tremblante",
+    "name": {
+      "fr": "Paume tremblante",
+      "en": "Quivering Palm"
+    },
+    "system.description.value": {
+      "fr": "<p>Un point de pression, une paume ouverte, et l'adversaire oublie un instant de se battre. Par une <strong>action</strong>, touchez une créature à 1,5 m : elle doit réussir un jet de sauvegarde de <strong>Constitution</strong> (DD 8 + votre modificateur de Sagesse + votre bonus de maîtrise) ou être <strong>neutralisée</strong> jusqu'à la fin de son prochain tour. Une utilisation par repos long.</p>",
+      "en": "<p>A pressure point, an open palm, and the opponent forgets to fight for a moment. As an <strong>action</strong>, touch a creature within 5 feet: it must succeed on a <strong>Constitution</strong> saving throw (DC 8 + your Wisdom modifier + your Proficiency Bonus) or be <strong>Incapacitated</strong> until the end of its next turn. One use per Long Rest.</p>"
+    },
+    "system.activities.yXhLK5nQsHyFUkGD.name": {
+      "fr": "Frapper le point",
+      "en": "Strike the Point"
+    }
+  },
+  "peuples/9A8cKpaIB6tjUuk3": {
+    "_nom": "Fureur sanguinaire",
+    "name": {
+      "fr": "Fureur sanguinaire",
+      "en": "Blood Fury"
+    },
+    "system.description.value": {
+      "fr": "<p>Le sang des orcs bout vite. Par une <strong>action bonus</strong>, vous gagnez des points de vie temporaires égaux à votre <strong>bonus de maîtrise</strong>, et la première attaque au corps à corps que vous réussissez avant la fin de ce tour inflige <strong>1d4</strong> dégâts supplémentaires. Nombre d'utilisations : votre bonus de maîtrise par <strong>repos court</strong>.</p>",
+      "en": "<p>Orcish blood runs hot. As a <strong>Bonus Action</strong>, you gain Temporary Hit Points equal to your <strong>Proficiency Bonus</strong>, and the first melee attack you hit with before the end of this turn deals <strong>1d4</strong> extra damage. Number of uses: your Proficiency Bonus per <strong>Short Rest</strong>.</p>"
+    },
+    "system.activities.gWcKe2QFmX5S5jwq.name": {
+      "fr": "Fureur",
+      "en": "Fury"
+    }
+  },
+  "peuples/9tFsavzHI9j3AS2g": {
+    "_nom": "Sang de la montagne",
+    "name": {
+      "fr": "Sang de la montagne",
+      "en": "Blood of the Mountain"
+    },
+    "system.description.value": {
+      "fr": "<p>Les nains de Forgefer boivent ce qui ferait tomber un ogre. Vous avez la <strong>résistance aux dégâts de poison</strong>, et l'avantage aux jets de sauvegarde pour éviter ou terminer l'état <strong>empoisonné</strong>.</p>",
+      "en": "<p>The dwarves of Ironforge drink what would floor an ogre. You have <strong>Resistance to Poison damage</strong>, and Advantage on saving throws to avoid or end the <strong>Poisoned</strong> condition.</p>"
+    }
+  },
+  "peuples/BY6rZFIvVSktiRo0": {
+    "_nom": "Cannibalisme",
+    "name": {
+      "fr": "Cannibalisme",
+      "en": "Cannibalism"
+    },
+    "system.description.value": {
+      "fr": "<p>Il faut bien entretenir la machine. Par une <strong>action</strong>, vous vous repaissez du cadavre d'un humanoïde ou d'une bête de taille Petite ou supérieure, mort depuis moins d'une heure et à 1,5 m de vous : vous récupérez <strong>1d8 + votre bonus de maîtrise</strong> points de vie. Les témoins vivants risquent fort de ne pas apprécier. Une utilisation par <strong>repos court</strong>.</p>",
+      "en": "<p>The machine must be kept running. As an <strong>action</strong>, you feed on the corpse of a Humanoid or Beast of size Small or larger, dead for less than an hour and within 5 feet of you: you regain <strong>1d8 + your Proficiency Bonus</strong> Hit Points. Living witnesses are unlikely to approve. One use per <strong>Short Rest</strong>.</p>"
+    },
+    "system.activities.Ay64DIf2AJArINZf.name": {
+      "fr": "Se repaître",
+      "en": "Feed"
+    },
+    "system.activities.Ay64DIf2AJArINZf.activation.condition": {
+      "fr": "Un cadavre frais à 1,5 m",
+      "en": "A fresh corpse within 5 feet"
+    }
+  },
+  "peuples/CmS7mchBPE9SQNHa": {
+    "_nom": "Volonté de fer",
+    "name": {
+      "fr": "Volonté de fer",
+      "en": "Iron Will"
+    },
+    "system.description.value": {
+      "fr": "<p>Libérés des chaînes des camps d'internement, les orcs ne plient plus. Vous avez l'avantage aux jets de sauvegarde pour éviter ou terminer les états <strong>effrayé</strong> et <strong>étourdi</strong>.</p>",
+      "en": "<p>Freed from the chains of the internment camps, the orcs bend no more. You have Advantage on saving throws to avoid or end the <strong>Frightened</strong> and <strong>Stunned</strong> conditions.</p>"
+    }
+  },
+  "peuples/CwrqmUeFKOhV1YLv": {
+    "_nom": "Pacte du cartel",
+    "name": {
+      "fr": "Pacte du cartel",
+      "en": "Cartel Pact"
+    },
+    "system.description.value": {
+      "fr": "<p>Tout se négocie, surtout ce qui ne devrait pas. Vous maîtrisez <strong>Persuasion</strong>, <strong>Tromperie</strong> ou <strong>Investigation</strong> (au choix), ainsi que les <strong>outils de bricoleur</strong>. Quand vous concluez un marché, vous savez d'instinct si l'autre partie compte le respecter.</p>",
+      "en": "<p>Everything is negotiable, especially what should not be. You have proficiency in <strong>Persuasion</strong>, <strong>Deception</strong> or <strong>Investigation</strong> (your choice), as well as <strong>Tinker's Tools</strong>. When you close a deal, you know by instinct whether the other party intends to honor it.</p>"
+    }
+  },
+  "peuples/Djgwt9JBJvrkHswv": {
+    "_nom": "Tauren",
+    "name": {
+      "fr": "Tauren",
+      "en": "Tauren"
+    },
+    "system.description.value": {
+      "fr": "<p><strong>Horde.</strong> Le grand chef Cairne Sabot-de-Sang a conduit les tribus taurènes, harcelées par les centaures, jusqu'aux plaines de Mulgore, où elles bâtissent Les Pitons-du-Tonnerre. En échange de l'aide de Thrall, les taurens ont rejoint la Horde.</p><p>Calmes, patients, profondément liés à la Terre-Mère, ils sont des chasseurs, des druides et des chamans. Leur colère est rare, et terrible.</p><p><strong>Traits.</strong> Charge, Carrure des plaines, Robustesse taurène, Enfant de la Terre-Mère. Taille Moyenne (mais puissante), vitesse 9 m, pas de vision dans le noir.</p>",
+      "en": "<p><strong>Horde.</strong> High Chieftain Cairne Bloodhoof led the tauren tribes, harried by the centaur, to the plains of Mulgore, where they are building Thunder Bluff. In return for Thrall's help, the tauren joined the Horde.</p><p>Calm, patient, deeply bound to the Earth Mother, they are hunters, druids and shamans. Their anger is rare, and terrible.</p><p><strong>Traits.</strong> Charge, Build of the Plains, Tauren Toughness, Child of the Earth Mother. Size Medium (but mighty), Speed 30 feet, no Darkvision.</p>"
+    },
+    "system.advancement.zHfEdIv3SNuNOUHK.hint": {
+      "fr": "Moyen (2,40 à 2,70 m, très massif).",
+      "en": "Medium (8 to 9 feet, very massive)."
+    },
+    "system.advancement.x2ae4JYZd07NuZWz.title": {
+      "fr": "Traits : Tauren",
+      "en": "Traits: Tauren"
+    },
+    "system.advancement.17Vt3Q9OEAhLLQC8.title": {
+      "fr": "Enfant de la Terre-Mère",
+      "en": "Child of the Earth Mother"
+    }
+  },
+  "peuples/GKRWnuYYTokH0JCH": {
+    "_nom": "Draeneï",
+    "name": {
+      "fr": "Draeneï",
+      "en": "Draenei"
+    },
+    "system.description.value": {
+      "fr": "<p><strong>Alliance (exilés).</strong> Les draeneï fuient la Légion ardente depuis des millénaires, de monde en monde, guidés par le prophète Velen et par les naaru, êtres de pure Lumière. Leur peuple a été massacré sur Draenor par les orcs corrompus.</p><p>Dans cette campagne, un petit groupe d'exilés a déjà atteint Azeroth en avance sur le gros de leur peuple : peu de gens ont vu un draeneï, et presque personne ne sait d'où ils viennent.</p><p><strong>Traits.</strong> Don des naaru, Marque de la Lumière, Mémoire de l'exil. Taille Moyenne, vitesse 9 m, vision dans le noir 18 m.</p>",
+      "en": "<p><strong>Alliance (exiles).</strong> The draenei have fled the Burning Legion for millennia, from world to world, guided by the prophet Velen and by the naaru, beings of pure Light. Their people were massacred on Draenor by the corrupted orcs.</p><p>In this campaign, a small band of exiles has already reached Azeroth ahead of the bulk of their people: few have ever seen a draenei, and almost no one knows where they come from.</p><p><strong>Traits.</strong> Gift of the Naaru, Mark of the Light, Memory of Exile. Size Medium, Speed 30 feet, Darkvision 60 feet.</p>"
+    },
+    "system.advancement.69jkiBofYurbEZ7u.hint": {
+      "fr": "Moyen (2 à 2,40 m).",
+      "en": "Medium (6½ to 8 feet)."
+    },
+    "system.advancement.p0LdNI9rvU27BYTu.title": {
+      "fr": "Traits : Draeneï",
+      "en": "Traits: Draenei"
+    },
+    "system.advancement.w1YhXowr32oUOpVw.title": {
+      "fr": "Marque de la Lumière",
+      "en": "Mark of the Light"
+    },
+    "system.advancement.GmjflLUKZKGpewCB.title": {
+      "fr": "Mémoire de l'exil",
+      "en": "Memory of Exile"
+    }
+  },
+  "peuples/IBL7bvjVFoaGSTIh": {
+    "_nom": "Rebond",
+    "name": {
+      "fr": "Rebond",
+      "en": "Bounce"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous roulez plus que vous ne tombez. Vous subissez <strong>moitié moins de dégâts de chute</strong>, et vous ne tombez pas à terre à cause d'une chute de moins de 6 m.</p>",
+      "en": "<p>You roll more than you fall. You take <strong>half damage from falling</strong>, and a fall of less than 20 feet does not knock you Prone.</p>"
+    }
+  },
+  "peuples/KYfvlnOEgJYWivG2": {
+    "_nom": "Elfe de sang",
+    "name": {
+      "fr": "Elfe de sang",
+      "en": "Blood Elf"
+    },
+    "system.description.value": {
+      "fr": "<p><strong>Horde (dans cette campagne).</strong> Le Fléau a ravagé Quel'Thalas et souillé le Puits de soleil. Les survivants ont pris le nom de sin'dorei, les elfes de sang, en mémoire de leurs morts. Privés de leur source de magie, beaucoup souffrent d'une faim arcanique qui les ronge.</p><p>Leur alliance avec la Horde est encore une négociation : nous jouons qu'un petit groupe de magistères a déjà tendu la main à Orgrimmar et aux Réprouvés, faute de soutien de l'Alliance.</p><p><strong>Traits.</strong> Torrent arcanique, Affinité arcanique, Regard de Quel'Thalas. Taille Moyenne, vitesse 9 m, vision dans le noir 18 m.</p>",
+      "en": "<p><strong>Horde (in this campaign).</strong> The Scourge ravaged Quel'Thalas and defiled the Sunwell. The survivors took the name sin'dorei, the blood elves, in memory of their dead. Cut off from their source of magic, many suffer from an arcane hunger that gnaws at them.</p><p>Their alliance with the Horde is still a negotiation: we play that a small group of magisters has already reached out to Orgrimmar and the Forsaken, for want of support from the Alliance.</p><p><strong>Traits.</strong> Arcane Torrent, Arcane Affinity, Eye of Quel'Thalas. Size Medium, Speed 30 feet, Darkvision 60 feet.</p>"
+    },
+    "system.advancement.PunZjKTNxUQTU6GY.hint": {
+      "fr": "Moyen (1,70 à 1,90 m).",
+      "en": "Medium (5½ to 6 feet)."
+    },
+    "system.advancement.1RsBTd3MGWeNnFkO.title": {
+      "fr": "Traits : Elfe de sang",
+      "en": "Traits: Blood Elf"
+    },
+    "system.advancement.zHTf8QefAlOqi4rq.title": {
+      "fr": "Affinité arcanique",
+      "en": "Arcane Affinity"
+    },
+    "system.advancement.ofTOoBJFWp4lRW43.title": {
+      "fr": "Regard de Quel'Thalas",
+      "en": "Eye of Quel'Thalas"
+    }
+  },
+  "peuples/NCj9mpZjWjE6merB": {
+    "_nom": "Worgen",
+    "name": {
+      "fr": "Worgen",
+      "en": "Worgen"
+    },
+    "system.description.value": {
+      "fr": "<p><strong>Alliance (en secret).</strong> Derrière le mur de Grisetête, le royaume de Gilnéas s'est coupé du monde. Mais une malédiction venue de la forêt des Pins-Argentés s'y répand : des hommes et des femmes deviennent loups.</p><p>Un worgen de cette époque est un réfugié maudit, chassé par les siens comme par les Réprouvés, qui garde tant bien que mal sa raison. Son appartenance à l'Alliance reste à écrire.</p><p><strong>Traits.</strong> Forme sauvage, Griffes, Flair du chasseur. Taille Moyenne, vitesse 9 m, vision dans le noir 18 m.</p>",
+      "en": "<p><strong>Alliance (in secret).</strong> Behind the Greymane Wall, the kingdom of Gilneas has cut itself off from the world. But a curse out of Silverpine Forest is spreading there: men and women are turning into wolves.</p><p>A worgen of this era is a cursed refugee, hunted by their own kind and by the Forsaken alike, who clings to their reason as best they can. Their place in the Alliance remains to be written.</p><p><strong>Traits.</strong> Wild Form, Claws, Hunter's Nose. Size Medium, Speed 30 feet, Darkvision 60 feet.</p>"
+    },
+    "system.advancement.ni6bkJGT7do6CV9w.hint": {
+      "fr": "Moyen (1,70 à 2,10 m sous forme de loup).",
+      "en": "Medium (5½ to 7 feet in wolf form)."
+    },
+    "system.advancement.SNa5ER9YKUDlH6fN.title": {
+      "fr": "Traits : Worgen",
+      "en": "Traits: Worgen"
+    },
+    "system.advancement.SVD45vbviMRWHFGf.title": {
+      "fr": "Flair du chasseur",
+      "en": "Hunter's Nose"
+    }
+  },
+  "peuples/NRoJbuswaEjEEqKp": {
+    "_nom": "Carrure des plaines",
+    "name": {
+      "fr": "Carrure des plaines",
+      "en": "Build of the Plains"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous êtes de taille Moyenne, mais bâti comme un taureau. Vous avez l'avantage aux tests pour mettre fin à l'état <strong>agrippé</strong>, et vous comptez comme une taille de plus pour la charge que vous pouvez porter, pousser, tirer ou soulever.</p>",
+      "en": "<p>You are Medium, but built like a bull. You have Advantage on checks to end the <strong>Grappled</strong> condition, and you count as one size larger for the weight you can carry, push, drag or lift.</p>"
+    }
+  },
+  "peuples/O6LxljC7itHJYfw0": {
+    "_nom": "Rêve vigilant",
+    "name": {
+      "fr": "Rêve vigilant",
+      "en": "Watchful Dream"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous ne dormez pas comme les mortels : vous méditez au bord du Rêve d'émeraude, conscient de ce qui vous entoure. Un <strong>repos long</strong> ne vous demande que 4 heures de cette transe, et aucune magie ne peut vous endormir.</p>",
+      "en": "<p>You do not sleep as mortals do: you meditate on the edge of the Emerald Dream, aware of your surroundings. A <strong>Long Rest</strong> requires only 4 hours of this trance from you, and no magic can put you to sleep.</p>"
+    }
+  },
+  "peuples/OdZk2QMXSyUucDkr": {
+    "_nom": "Bricoleur de Gnomeregan",
+    "name": {
+      "fr": "Bricoleur de Gnomeregan",
+      "en": "Tinker of Gnomeregan"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous avez grandi parmi les engrenages. Vous maîtrisez les <strong>outils de bricoleur</strong> et connaissez le tour de magie <strong>Réparation</strong> (Intelligence). En une heure et avec 10 po de pièces, vous pouvez assembler un petit mécanisme (jouet, briquet, boîte à musique, réveil) qui fonctionne jusqu'à ce que vous en fabriquiez un autre.</p>",
+      "en": "<p>You grew up among the gears. You have proficiency with <strong>Tinker's Tools</strong> and know the <strong>Mending</strong> cantrip (Intelligence). In one hour and with 10 gp of parts, you can assemble a small device (toy, lighter, music box, alarm clock) that works until you build another one.</p>"
+    }
+  },
+  "peuples/PYUC4hTjwIALe3cq": {
+    "_nom": "Humain",
+    "name": {
+      "fr": "Humain",
+      "en": "Human"
+    },
+    "system.description.value": {
+      "fr": "<p><strong>Alliance.</strong> Hurlevent rebâtie, Kul Tiras et les restes de Lordaeron : les humains sont le cœur de l'Alliance, nombreux, obstinés, divisés en royaumes qui se méfient les uns des autres autant que de la Horde.</p><p>Les humains sont ceux qui ont le plus perdu pendant la Troisième Guerre et ceux qui reconstruisent le plus vite. Paysans devenus soldats, prêtres de la Lumière, mages de Dalaran, marins kultirassiens : on trouve des humains partout et dans tous les métiers.</p><p><strong>Traits.</strong> Ténacité humaine, Touche-à-tout, Polyvalence (un don d'origine au choix). Taille Moyenne, vitesse 9 m, pas de vision dans le noir.</p>",
+      "en": "<p><strong>Alliance.</strong> Rebuilt Stormwind, Kul Tiras and the remains of Lordaeron: humans are the heart of the Alliance, numerous, stubborn, divided into kingdoms that distrust one another as much as they distrust the Horde.</p><p>Humans lost the most during the Third War, and they are rebuilding the fastest. Farmers turned soldiers, priests of the Light, mages of Dalaran, Kul Tiran sailors: you find humans everywhere and in every trade.</p><p><strong>Traits.</strong> Human Tenacity, Jack of All Trades, Versatility (one Origin feat of your choice). Size Medium, Speed 30 feet, no Darkvision.</p>"
+    },
+    "system.source.custom": {
+      "fr": "La Kour Warcraft",
+      "en": "La Kour Warcraft"
+    },
+    "system.advancement.1mQHKnosKRJ6GCJK.hint": {
+      "fr": "Moyen (1,50 à 1,90 m) ou Petit pour un enfant ou un adolescent.",
+      "en": "Medium (5 to 6 feet) or Small for a child or a teenager."
+    },
+    "system.advancement.BWlH4JDAUkzR48bH.title": {
+      "fr": "Traits : Humain",
+      "en": "Traits: Human"
+    },
+    "system.advancement.iDJ1OQIPF15G0fDp.title": {
+      "fr": "Touche-à-tout",
+      "en": "Jack of All Trades"
+    },
+    "system.advancement.iDJ1OQIPF15G0fDp.hint": {
+      "fr": "Une compétence au choix.",
+      "en": "One skill of your choice."
+    },
+    "system.advancement.st5U2bsfZ5IcqAyr.title": {
+      "fr": "Don d'origine au choix",
+      "en": "Origin feat of your choice"
+    }
+  },
+  "peuples/QHYEHm5r5vx4ZQBk": {
+    "_nom": "Sens aiguisés",
+    "name": {
+      "fr": "Sens aiguisés",
+      "en": "Keen Senses"
+    },
+    "system.description.value": {
+      "fr": "<p>Dix mille ans de veille ont affiné vos sens. Vous maîtrisez <strong>Intuition</strong>, <strong>Perception</strong> ou <strong>Survie</strong> (au choix).</p>",
+      "en": "<p>Ten thousand years of vigil have sharpened your senses. You have proficiency in <strong>Insight</strong>, <strong>Perception</strong> or <strong>Survival</strong> (your choice).</p>"
+    }
+  },
+  "peuples/RhVKWFOfbOGZRzJQ": {
+    "_nom": "Elfe de la nuit",
+    "name": {
+      "fr": "Elfe de la nuit",
+      "en": "Night Elf"
+    },
+    "system.description.value": {
+      "fr": "<p><strong>Alliance (récente).</strong> Les kaldorei ont veillé dix mille ans sur les forêts de Kalimdor. La Troisième Guerre les a forcés à sortir de leur isolement : le Mont Hyjal a brûlé, Nordrassil a été sacrifié pour vaincre Archimonde, et leur immortalité s'est envolée avec lui.</p><p>Sentinelles de Tyrande, druides de Malfurion : un peuple ancien qui découvre la mortalité et des voisins bruyants.</p><p><strong>Traits.</strong> Fondu dans l'ombre, Sens aiguisés, Rêve vigilant. Taille Moyenne, vitesse 10,5 m, vision dans le noir 18 m.</p>",
+      "en": "<p><strong>Alliance (recent).</strong> The kaldorei watched over the forests of Kalimdor for ten thousand years. The Third War forced them out of their isolation: Mount Hyjal burned, Nordrassil was sacrificed to defeat Archimonde, and their immortality went with it.</p><p>Tyrande's Sentinels, Malfurion's druids: an ancient people discovering mortality and noisy neighbors.</p><p><strong>Traits.</strong> Shadowmeld, Keen Senses, Watchful Dream. Size Medium, Speed 35 feet, Darkvision 60 feet.</p>"
+    },
+    "system.advancement.OPi8Cq7avd2YF1DO.hint": {
+      "fr": "Moyen (2 à 2,30 m).",
+      "en": "Medium (6½ to 7½ feet)."
+    },
+    "system.advancement.ZIsD8I7kZ5GSXagK.title": {
+      "fr": "Traits : Elfe de la nuit",
+      "en": "Traits: Night Elf"
+    },
+    "system.advancement.yxzUwgDvVmbRxJfL.title": {
+      "fr": "Sens aiguisés",
+      "en": "Keen Senses"
+    }
+  },
+  "peuples/TjAk9rh1BZqkDIDT": {
+    "_nom": "Griffes",
+    "name": {
+      "fr": "Griffes",
+      "en": "Claws"
+    },
+    "system.description.value": {
+      "fr": "<p>Sous vos deux formes, vos ongles sont durs comme de la corne. Vos frappes à mains nues infligent <strong>1d6 + modificateur de Force</strong> dégâts tranchants au lieu des dégâts habituels.</p>",
+      "en": "<p>In both your forms, your nails are hard as horn. Your Unarmed Strikes deal <strong>1d6 + Strength modifier</strong> Slashing damage instead of the usual damage.</p>"
+    },
+    "system.activities.b0bpzoDxBv48zUSh.name": {
+      "fr": "Coup de griffes",
+      "en": "Claw Strike"
+    }
+  },
+  "peuples/W6sOOzXabhJNbmQZ": {
+    "_nom": "Charge",
+    "name": {
+      "fr": "Charge",
+      "en": "Charge"
+    },
+    "system.description.value": {
+      "fr": "<p>Une tonne de muscles lancée au galop ne s'arrête pas facilement. Si vous vous déplacez d'au moins 6 m en ligne droite vers une créature et la touchez avec une attaque au corps à corps dans le même tour, elle doit réussir un jet de sauvegarde de <strong>Force</strong> (DD 8 + votre modificateur de Constitution + votre bonus de maîtrise) ou tomber <strong>à terre</strong>. La cible doit être de taille Grande ou inférieure. Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "en": "<p>A ton of muscle at full gallop does not stop easily. If you move at least 20 feet in a straight line toward a creature and hit it with a melee attack in the same turn, it must succeed on a <strong>Strength</strong> saving throw (DC 8 + your Constitution modifier + your Proficiency Bonus) or be knocked <strong>Prone</strong>. The target must be Large or smaller. Number of uses: your <strong>Proficiency Bonus</strong> per Long Rest.</p>"
+    },
+    "system.activities.gJL31gj2exojqDV0.name": {
+      "fr": "Renverser",
+      "en": "Knock Down"
+    },
+    "system.activities.gJL31gj2exojqDV0.activation.condition": {
+      "fr": "Après 6 m en ligne droite et une attaque au corps à corps réussie",
+      "en": "After 20 feet in a straight line and a successful melee attack"
+    },
+    "effects.agoGjnUDJX473uYV.name": {
+      "fr": "Renversé par la charge",
+      "en": "Knocked down by the charge"
+    }
+  },
+  "peuples/WNHRZrDHPCxqEy64": {
+    "_nom": "Torrent arcanique",
+    "name": {
+      "fr": "Torrent arcanique",
+      "en": "Arcane Torrent"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous libérez d'un coup la magie qui vous ronge. Par une <strong>action</strong>, chaque créature de votre choix dans un rayon de 3 m doit réussir un jet de sauvegarde de <strong>Constitution</strong> (DD 8 + votre modificateur de Constitution + votre bonus de maîtrise) ou ne plus pouvoir lancer de sort à composante verbale jusqu'à la fin de son prochain tour. Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "en": "<p>You release in one burst the magic that gnaws at you. As an <strong>action</strong>, each creature of your choice within 10 feet must succeed on a <strong>Constitution</strong> saving throw (DC 8 + your Constitution modifier + your Proficiency Bonus) or be unable to cast spells with a Verbal component until the end of its next turn. Number of uses: your <strong>Proficiency Bonus</strong> per Long Rest.</p>"
+    },
+    "system.activities.RogINaemkrBoSyir.name": {
+      "fr": "Libérer le torrent",
+      "en": "Unleash the Torrent"
+    }
+  },
+  "peuples/XahUz2BHEIG6EeFv": {
+    "_nom": "Instinct de la jungle",
+    "name": {
+      "fr": "Instinct de la jungle",
+      "en": "Jungle Instinct"
+    },
+    "system.description.value": {
+      "fr": "<p>Les Sombrelance ont survécu aux raptors, aux murlocs et aux trolls rivaux. Vous maîtrisez <strong>Dressage</strong>, <strong>Nature</strong> ou <strong>Survie</strong> (au choix), et le terrain difficile naturel (broussailles, marais, éboulis) ne ralentit pas votre déplacement.</p>",
+      "en": "<p>The Darkspear survived raptors, murlocs and rival trolls. You have proficiency in <strong>Animal Handling</strong>, <strong>Nature</strong> or <strong>Survival</strong> (your choice), and natural Difficult Terrain (brush, marsh, scree) does not slow your movement.</p>"
+    }
+  },
+  "peuples/Y1HQtw7xYPCFRjZF": {
+    "_nom": "Gourmet",
+    "name": {
+      "fr": "Gourmet",
+      "en": "Gourmet"
+    },
+    "system.description.value": {
+      "fr": "<p>Un bon repas répare plus qu'un sort. Vous maîtrisez les <strong>ustensiles de cuisinier</strong>. À la fin d'un <strong>repos court</strong> où vous avez cuisiné pour le groupe, vous et jusqu'à cinq alliés qui ont partagé le repas récupérez des points de vie supplémentaires égaux à votre <strong>bonus de maîtrise</strong> chacun.</p>",
+      "en": "<p>A good meal mends more than a spell does. You have proficiency with <strong>Cook's Utensils</strong>. At the end of a <strong>Short Rest</strong> during which you cooked for the party, you and up to five allies who shared the meal each regain extra Hit Points equal to your <strong>Proficiency Bonus</strong>.</p>"
+    }
+  },
+  "peuples/YEdIfKTwUfwve3fA": {
+    "_nom": "Volonté des Réprouvés",
+    "name": {
+      "fr": "Volonté des Réprouvés",
+      "en": "Will of the Forsaken"
+    },
+    "system.description.value": {
+      "fr": "<p>Personne ne possédera plus jamais votre esprit. Au début de votre tour, si vous êtes <strong>charmé</strong> ou <strong>effrayé</strong>, vous pouvez mettre fin à cet état (aucune action requise). Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "en": "<p>No one will ever own your mind again. At the start of your turn, if you are <strong>Charmed</strong> or <strong>Frightened</strong>, you can end that condition (no action required). Number of uses: your <strong>Proficiency Bonus</strong> per Long Rest.</p>"
+    },
+    "system.activities.REKBBjbGBXHYbuXp.name": {
+      "fr": "Briser l'emprise",
+      "en": "Break the Hold"
+    },
+    "system.activities.REKBBjbGBXHYbuXp.activation.condition": {
+      "fr": "Au début de votre tour, si vous êtes charmé ou effrayé",
+      "en": "At the start of your turn, if you are Charmed or Frightened"
+    }
+  },
+  "peuples/a7CcnORwEvBqR6Ji": {
+    "_nom": "Saut de fusée",
+    "name": {
+      "fr": "Saut de fusée",
+      "en": "Rocket Jump"
+    },
+    "system.description.value": {
+      "fr": "<p>Vos bottes cachent deux fusées de poche bricolées. Par une <strong>action bonus</strong>, vous bondissez jusqu'à 6 m dans la direction de votre choix (y compris vers le haut), sans provoquer d'attaque d'opportunité, et vous retombez sans dégâts. Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "en": "<p>Your boots hide two jury-rigged pocket rockets. As a <strong>Bonus Action</strong>, you leap up to 20 feet in a direction of your choice (including upward), without provoking Opportunity Attacks, and you land without damage. Number of uses: your <strong>Proficiency Bonus</strong> per Long Rest.</p>"
+    },
+    "system.activities.PEKz9soMj0siNEIE.name": {
+      "fr": "Allumer les fusées",
+      "en": "Light the Rockets"
+    }
+  },
+  "peuples/bnGvP1CESISHmMXh": {
+    "_nom": "Filer à l'anglaise",
+    "name": {
+      "fr": "Filer à l'anglaise",
+      "en": "Slip Away"
+    },
+    "system.description.value": {
+      "fr": "<p>Quand ça tourne mal, un gobelin est déjà ailleurs. Vous pouvez effectuer l'action <strong>Se désengager</strong> ou <strong>Se cacher</strong> par une <strong>action bonus</strong>, à chacun de vos tours.</p>",
+      "en": "<p>When things go wrong, a goblin is already elsewhere. You can take the <strong>Disengage</strong> or <strong>Hide</strong> action as a <strong>Bonus Action</strong> on each of your turns.</p>"
+    }
+  },
+  "peuples/cFcpGlfSJp2v7YNR": {
+    "_nom": "Réprouvé",
+    "name": {
+      "fr": "Réprouvé",
+      "en": "Forsaken"
+    },
+    "system.description.value": {
+      "fr": "<p><strong>Horde (alliance de raison).</strong> Des morts-vivants du Fléau ont retrouvé leur libre arbitre quand l'emprise du Roi-liche a faibli. Menés par la Dame noire Sylvanas Coursevent, ils ont pris les ruines de Lordaeron et creusent leur Fossoyeuse sous la capitale.</p><p>Rejetés par les vivants qu'ils ont été, ils ne sont dans la Horde que par intérêt. On parle bas de leurs apothicaires.</p><p><strong>Traits.</strong> Corps sans vie, Volonté des Réprouvés, Cannibalisme. Taille Moyenne, vitesse 9 m, vision dans le noir 18 m. Type : humanoïde (mort-vivant, pour le récit ; les sorts le traitent comme un humanoïde).</p>",
+      "en": "<p><strong>Horde (alliance of convenience).</strong> Undead of the Scourge regained their free will when the Lich King's grip weakened. Led by the Dark Lady Sylvanas Windrunner, they took the ruins of Lordaeron and are digging their Undercity beneath the capital.</p><p>Rejected by the living they once were, they are in the Horde out of interest alone. People speak in low voices of their apothecaries.</p><p><strong>Traits.</strong> Lifeless Body, Will of the Forsaken, Cannibalism. Size Medium, Speed 30 feet, Darkvision 60 feet. Type: Humanoid (undead for the story; spells treat them as Humanoids).</p>"
+    },
+    "system.advancement.7DSUUOJLDVHnWkFV.hint": {
+      "fr": "Moyen (taille humaine, un peu tassé).",
+      "en": "Medium (human height, somewhat hunched)."
+    },
+    "system.advancement.lb6ORs70a6Io8Chu.title": {
+      "fr": "Traits : Réprouvé",
+      "en": "Traits: Forsaken"
+    },
+    "system.advancement.5q9s0OVwO22FbkPz.title": {
+      "fr": "Corps sans vie",
+      "en": "Lifeless Body"
+    }
+  },
+  "peuples/chdwEzCa2Hrw5mdB": {
+    "_nom": "Endurance de Draenor",
+    "name": {
+      "fr": "Endurance de Draenor",
+      "en": "Draenor Endurance"
+    },
+    "system.description.value": {
+      "fr": "<p>Les orcs se relèvent quand d'autres restent à terre. Quand vous tombez à 0 point de vie sans être tué sur le coup, vous pouvez revenir à <strong>1 point de vie</strong> à la place. Une utilisation par repos long.</p>",
+      "en": "<p>Orcs get back up where others stay down. When you drop to 0 Hit Points without being killed outright, you can drop to <strong>1 Hit Point</strong> instead. One use per Long Rest.</p>"
+    },
+    "system.activities.DcRYUPkWUExIR4Tv.name": {
+      "fr": "Refuser la chute",
+      "en": "Refuse to Fall"
+    },
+    "system.activities.DcRYUPkWUExIR4Tv.activation.condition": {
+      "fr": "Quand vous tombez à 0 point de vie sans être tué",
+      "en": "When you drop to 0 Hit Points without being killed"
+    }
+  },
+  "peuples/fdQXgWSC1uenb0W8": {
+    "_nom": "Faveur des loa",
+    "name": {
+      "fr": "Faveur des loa",
+      "en": "Favor of the Loa"
+    },
+    "system.description.value": {
+      "fr": "<p>Les esprits de la jungle répondent à ceux qui leur parlent. Vous connaissez le tour de magie <strong>Thaumaturgie</strong>. À partir du niveau 3, vous pouvez lancer <strong>Lumière</strong> une fois sans emplacement de sort par repos long… sous la forme de feux follets verts autour d'un masque de vaudou. Intelligence, Sagesse ou Charisme est votre caractéristique d'incantation pour ces sorts (choisie quand vous prenez ce peuple).</p>",
+      "en": "<p>The spirits of the jungle answer those who speak to them. You know the <strong>Thaumaturgy</strong> cantrip. From level 3, you can cast <strong>Light</strong> once without a spell slot per Long Rest… in the form of green will-o'-wisps around a voodoo mask. Intelligence, Wisdom or Charisma is your spellcasting ability for these spells (chosen when you take this species).</p>"
+    }
+  },
+  "peuples/gPfFFu3enYB8rE8F": {
+    "_nom": "Gnome",
+    "name": {
+      "fr": "Gnome",
+      "en": "Gnome"
+    },
+    "system.description.value": {
+      "fr": "<p><strong>Alliance.</strong> Les gnomes ont perdu Gnomeregan, leur cité-machine, inondée de radiations quand ils ont tenté d'en chasser les troggs. Réfugiés chez les nains de Forgefer, ils inventent sans relâche ce qui leur permettra de rentrer chez eux.</p><p>Brillants, bavards et souvent trop sûrs de leurs calculs, ils fournissent à l'Alliance ses ingénieurs, ses mages et ses espions de petite taille.</p><p><strong>Traits.</strong> Esprit retors, Bricoleur de Gnomeregan. Taille Petite, vitesse 9 m, vision dans le noir 18 m.</p>",
+      "en": "<p><strong>Alliance.</strong> The gnomes lost Gnomeregan, their machine-city, flooded with radiation when they tried to drive out the troggs. Refugees among the dwarves of Ironforge, they tirelessly invent whatever might let them go home.</p><p>Brilliant, talkative and often too sure of their calculations, they supply the Alliance with its engineers, its mages and its small-sized spies.</p><p><strong>Traits.</strong> Devious Mind, Tinker of Gnomeregan. Size Small, Speed 30 feet, Darkvision 60 feet.</p>"
+    },
+    "system.advancement.bItpYzdCwHbQLnkr.hint": {
+      "fr": "Petit (environ 1 m).",
+      "en": "Small (about 3 feet)."
+    },
+    "system.advancement.PpoHEi8OSFCm0W5J.title": {
+      "fr": "Traits : Gnome",
+      "en": "Traits: Gnome"
+    },
+    "system.advancement.QEtTCFnpZAdNplCh.title": {
+      "fr": "Bricoleur de Gnomeregan",
+      "en": "Tinker of Gnomeregan"
+    }
+  },
+  "peuples/hkNmbzAxYloHokbI": {
+    "_nom": "Nain",
+    "name": {
+      "fr": "Nain",
+      "en": "Dwarf"
+    },
+    "system.description.value": {
+      "fr": "<p><strong>Alliance.</strong> Les nains de Forgefer tiennent Dun Morogh et Khaz Modan depuis leur capitale creusée dans la montagne. Mineurs, forgerons, artilleurs et archéologues, ils sont les plus anciens alliés des humains.</p><p>Ils cherchent dans les ruines des Titans la vérité sur leurs origines de pierre, et se battent à coups de marteau, de fusil et de bière brune.</p><p><strong>Traits.</strong> Sang de la montagne, Robustesse naine, Écho de la pierre. Taille Moyenne, vitesse 9 m, vision dans le noir 36 m.</p>",
+      "en": "<p><strong>Alliance.</strong> The dwarves of Ironforge hold Dun Morogh and Khaz Modan from their capital carved into the mountain. Miners, smiths, riflemen and archaeologists, they are the humans' oldest allies.</p><p>They search the ruins of the Titans for the truth about their stone origins, and fight with hammer, rifle and brown ale.</p><p><strong>Traits.</strong> Blood of the Mountain, Dwarven Toughness, Echo of the Stone. Size Medium, Speed 30 feet, Darkvision 120 feet.</p>"
+    },
+    "system.advancement.Y0JOrNZKzoyOkmfB.hint": {
+      "fr": "Moyen (1,20 à 1,50 m, mais aussi lourd qu'un humain).",
+      "en": "Medium (4 to 5 feet, but as heavy as a human)."
+    },
+    "system.advancement.u0shQgNRv9WxBfeC.title": {
+      "fr": "Traits : Nain",
+      "en": "Traits: Dwarf"
+    },
+    "system.advancement.RfUJmPm0fwJ36qSr.title": {
+      "fr": "Sang de la montagne",
+      "en": "Blood of the Mountain"
+    }
+  },
+  "peuples/iGJBEZuZXzuUKws5": {
+    "_nom": "Enfant de la Terre-Mère",
+    "name": {
+      "fr": "Enfant de la Terre-Mère",
+      "en": "Child of the Earth Mother"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous avez appris les herbes et les bêtes des Mulgore. Vous maîtrisez <strong>Nature</strong> ou <strong>Survie</strong> (au choix), ainsi que le <strong>matériel d'herboriste</strong>.</p>",
+      "en": "<p>You learned the herbs and beasts of Mulgore. You have proficiency in <strong>Nature</strong> or <strong>Survival</strong> (your choice), as well as with the <strong>Herbalism Kit</strong>.</p>"
+    }
+  },
+  "peuples/iemqNdebyADVEhAL": {
+    "_nom": "Robustesse taurène",
+    "name": {
+      "fr": "Robustesse taurène",
+      "en": "Tauren Toughness"
+    }
+  },
+  "peuples/kpbjMxMAuEJOTHI2": {
+    "_nom": "Troll",
+    "name": {
+      "fr": "Troll",
+      "en": "Troll"
+    },
+    "system.description.value": {
+      "fr": "<p><strong>Horde.</strong> La tribu Sombrelance, chassée de ses îles par les murlocs et les humains de Kul Tiras, a juré fidélité à Thrall qui l'a sauvée. Ses guerriers, chasseurs et féticheurs vivent aujourd'hui aux îles de l'Écho, au large de Durotar.</p><p>Les Sombrelance honorent les loa, les esprits-animaux de leur peuple, et se méfient des autres tribus trolles, restées hostiles à tout le monde.</p><p><strong>Traits.</strong> Régénération, Faveur des loa, Instinct de la jungle. Taille Moyenne, vitesse 9 m, vision dans le noir 18 m.</p>",
+      "en": "<p><strong>Horde.</strong> The Darkspear tribe, driven from its islands by murlocs and the humans of Kul Tiras, swore loyalty to Thrall, who saved it. Its warriors, hunters and witch doctors now live on the Echo Isles, off the coast of Durotar.</p><p>The Darkspear honor the loa, the animal spirits of their people, and distrust the other troll tribes, still hostile to everyone.</p><p><strong>Traits.</strong> Regeneration, Favor of the Loa, Jungle Instinct. Size Medium, Speed 30 feet, Darkvision 60 feet.</p>"
+    },
+    "system.advancement.7HCPVUC6XmWQOXzX.hint": {
+      "fr": "Moyen (2 à 2,30 m, voûté).",
+      "en": "Medium (6½ to 7½ feet, stooped)."
+    },
+    "system.advancement.mXCnjPLbr16Vehnc.title": {
+      "fr": "Traits : Troll",
+      "en": "Traits: Troll"
+    },
+    "system.advancement.6gRxeO47nAhAU3j2.title": {
+      "fr": "Faveur des loa",
+      "en": "Favor of the Loa"
+    },
+    "system.advancement.RKipuIiRDgwSvMT4.title": {
+      "fr": "Instinct de la jungle",
+      "en": "Jungle Instinct"
+    }
+  },
+  "peuples/lYNQZEtYGRplBaiK": {
+    "_nom": "Corps sans vie",
+    "name": {
+      "fr": "Corps sans vie",
+      "en": "Lifeless Body"
+    },
+    "system.description.value": {
+      "fr": "<p>Libéré du Roi-liche mais pas de la mort, vous n'avez <strong>pas besoin de respirer, de manger, de boire ni de dormir</strong>. Vous avez la <strong>résistance aux dégâts de poison</strong> et l'avantage aux jets de sauvegarde contre les maladies. Les soins magiques fonctionnent normalement sur vous.</p>",
+      "en": "<p>Freed from the Lich King but not from death, you <strong>need neither to breathe, eat, drink nor sleep</strong>. You have <strong>Resistance to Poison damage</strong> and Advantage on saving throws against disease. Magical healing works on you normally.</p>"
+    }
+  },
+  "peuples/mU42De1Vr73uMRl9": {
+    "_nom": "Polyvalence",
+    "name": {
+      "fr": "Polyvalence",
+      "en": "Versatility"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous gagnez un <strong>don d'origine</strong> de votre choix (ceux du SRD ou ceux de La Kour Warcraft).</p>",
+      "en": "<p>You gain an <strong>Origin feat</strong> of your choice (from the SRD or from La Kour Warcraft).</p>"
+    }
+  },
+  "peuples/mj9Kan8gl8wpRja3": {
+    "_nom": "Paix intérieure",
+    "name": {
+      "fr": "Paix intérieure",
+      "en": "Inner Peace"
+    },
+    "system.description.value": {
+      "fr": "<p>La sérénité de la Pandarie vous accompagne. Vous avez l'avantage aux jets de sauvegarde pour éviter ou terminer l'état <strong>effrayé</strong>, et une nuit troublée ne vous empêche jamais de bénéficier d'un repos long.</p>",
+      "en": "<p>The serenity of Pandaria travels with you. You have Advantage on saving throws to avoid or end the <strong>Frightened</strong> condition, and a troubled night never prevents you from benefiting from a Long Rest.</p>"
+    }
+  },
+  "peuples/nnnUHOnqAVGWABBc": {
+    "_nom": "Touche-à-tout",
+    "name": {
+      "fr": "Touche-à-tout",
+      "en": "Jack of All Trades"
+    },
+    "system.description.value": {
+      "fr": "<p>Fermier devenu milicien, apprenti devenu soldat : vous avez appris un peu de tout. Vous gagnez la maîtrise d'une <strong>compétence</strong> de votre choix.</p>",
+      "en": "<p>Farmer turned militiaman, apprentice turned soldier: you have learned a little of everything. You gain proficiency in one <strong>skill</strong> of your choice.</p>"
+    }
+  },
+  "peuples/omGP8OFxGPHOtwtA": {
+    "_nom": "Marque de la Lumière",
+    "name": {
+      "fr": "Marque de la Lumière",
+      "en": "Mark of the Light"
+    },
+    "system.description.value": {
+      "fr": "<p>Ceux qui ont fui la Légion ardente pendant vingt-cinq mille ans portent en eux de quoi repousser les ténèbres. Vous avez la <strong>résistance aux dégâts nécrotiques</strong>.</p>",
+      "en": "<p>Those who fled the Burning Legion for twenty-five thousand years carry within them what it takes to push back the darkness. You have <strong>Resistance to Necrotic damage</strong>.</p>"
+    }
+  },
+  "peuples/p3X2oZ4VYmJ0eoYh": {
+    "_nom": "Pandaren",
+    "name": {
+      "fr": "Pandaren",
+      "en": "Pandaren"
+    },
+    "system.description.value": {
+      "fr": "<p><strong>Sans faction.</strong> La Pandarie est cachée dans les brumes depuis la Grande Fracture. Quelques vagabonds pandarens parcourent pourtant le monde, comme Chen Brune d'Orage, maître brasseur qui a combattu aux côtés de Rexxar et de la Horde naissante.</p><p>Un pandaren joueur est un voyageur curieux, gourmand et redoutable à mains nues, que les deux factions accueillent avec étonnement.</p><p><strong>Traits.</strong> Paume tremblante, Rebond, Gourmet, Paix intérieure. Taille Moyenne, vitesse 9 m, pas de vision dans le noir.</p>",
+      "en": "<p><strong>No faction.</strong> Pandaria has been hidden in the mists since the Great Sundering. Yet a few pandaren wanderers roam the world, like Chen Stormstout, the master brewer who fought beside Rexxar and the fledgling Horde.</p><p>A pandaren player character is a curious traveler, fond of food and fearsome with bare hands, whom both factions greet with astonishment.</p><p><strong>Traits.</strong> Quivering Palm, Bounce, Gourmet, Inner Peace. Size Medium, Speed 30 feet, no Darkvision.</p>"
+    },
+    "system.advancement.mZXZ2jdfZGlqFIwd.hint": {
+      "fr": "Moyen (1,80 à 2,10 m, rond et souple).",
+      "en": "Medium (6 to 7 feet, round and supple)."
+    },
+    "system.advancement.KHeUfsHFGKyq6jOV.title": {
+      "fr": "Traits : Pandaren",
+      "en": "Traits: Pandaren"
+    },
+    "system.advancement.ZAwvODv736eHG9EA.title": {
+      "fr": "Gourmet",
+      "en": "Gourmet"
+    }
+  },
+  "peuples/rmn90qGCsz2MR07d": {
+    "_nom": "Orc",
+    "name": {
+      "fr": "Orc",
+      "en": "Orc"
+    },
+    "system.description.value": {
+      "fr": "<p><strong>Horde.</strong> Libérés des camps d'internement par Thrall, les orcs ont traversé la mer jusqu'à Kalimdor et fondé Orgrimmar dans les terres rouges de Durotar. Ils ont renoncé à la magie démoniaque qui les avait corrompus et renouent avec le chamanisme de leurs ancêtres.</p><p>Fiers, directs, attachés à l'honneur du clan, ils doivent prouver au monde, et à eux-mêmes, qu'ils ne sont plus les monstres de la Première Guerre.</p><p><strong>Traits.</strong> Fureur sanguinaire, Endurance de Draenor, Volonté de fer. Taille Moyenne, vitesse 9 m, vision dans le noir 18 m.</p>",
+      "en": "<p><strong>Horde.</strong> Freed from the internment camps by Thrall, the orcs crossed the sea to Kalimdor and founded Orgrimmar in the red lands of Durotar. They have renounced the demonic magic that corrupted them and are returning to the shamanism of their ancestors.</p><p>Proud, direct, devoted to the honor of the clan, they must prove to the world, and to themselves, that they are no longer the monsters of the First War.</p><p><strong>Traits.</strong> Blood Fury, Draenor Endurance, Iron Will. Size Medium, Speed 30 feet, Darkvision 60 feet.</p>"
+    },
+    "system.advancement.Ejqyk6Gn2Mpvg6GQ.hint": {
+      "fr": "Moyen (1,80 à 2 m).",
+      "en": "Medium (6 to 6½ feet)."
+    },
+    "system.advancement.kHDZqeFWGlq2wBeY.title": {
+      "fr": "Traits : Orc",
+      "en": "Traits: Orc"
+    }
+  },
+  "peuples/tT1pPhiCwzGE5wYh": {
+    "_nom": "Ténacité humaine",
+    "name": {
+      "fr": "Ténacité humaine",
+      "en": "Human Tenacity"
+    },
+    "system.description.value": {
+      "fr": "<p>Les royaumes humains ont survécu aux trolls, aux orcs et au Fléau : ils ne savent pas renoncer. Chaque fois que vous terminez un <strong>repos long</strong>, vous gagnez l'<strong>Inspiration héroïque</strong>.</p>",
+      "en": "<p>The human kingdoms survived the trolls, the orcs and the Scourge: they do not know how to give up. Whenever you finish a <strong>Long Rest</strong>, you gain <strong>Heroic Inspiration</strong>.</p>"
+    }
+  },
+  "peuples/uOzpGwVCxD6XTBOC": {
+    "_nom": "Fondu dans l'ombre",
+    "name": {
+      "fr": "Fondu dans l'ombre",
+      "en": "Shadowmeld"
+    },
+    "system.description.value": {
+      "fr": "<p>Les sentinelles de Kalimdor disparaissent dans la pénombre en un battement de cœur. Par une <strong>action bonus</strong>, si vous ne vous êtes pas déplacé ce tour-ci, vous devenez <strong>invisible</strong> jusqu'à ce que vous bougiez, attaquiez, lanciez un sort ou subissiez des dégâts, ou jusqu'à la fin de votre tour suivant. Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "en": "<p>The sentinels of Kalimdor vanish into the gloom in a heartbeat. As a <strong>Bonus Action</strong>, if you have not moved this turn, you become <strong>Invisible</strong> until you move, attack, cast a spell or take damage, or until the end of your next turn. Number of uses: your <strong>Proficiency Bonus</strong> per Long Rest.</p>"
+    },
+    "system.activities.vCQGsKnxFuNMINFD.name": {
+      "fr": "Se fondre dans l'ombre",
+      "en": "Meld into the Shadows"
+    }
+  },
+  "peuples/v0FdA1YhAesuwFBr": {
+    "_nom": "Regard de Quel'Thalas",
+    "name": {
+      "fr": "Regard de Quel'Thalas",
+      "en": "Eye of Quel'Thalas"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous savez reconnaître la vraie beauté, et le mensonge qui s'en drape. Vous maîtrisez <strong>Arcanes</strong>, <strong>Intuition</strong> ou <strong>Perception</strong> (au choix).</p>",
+      "en": "<p>You know true beauty when you see it, and the lie that drapes itself in it. You have proficiency in <strong>Arcana</strong>, <strong>Insight</strong> or <strong>Perception</strong> (your choice).</p>"
+    }
+  },
+  "peuples/whyeKsnnJIDf5V8m": {
+    "_nom": "Gobelin",
+    "name": {
+      "fr": "Gobelin",
+      "en": "Goblin"
+    },
+    "system.description.value": {
+      "fr": "<p><strong>Horde ou cartels.</strong> Les gobelins vendent à tout le monde. Le cartel Gentepression tient Baie-du-Butin, Gadgetzan et Cabestan, ports neutres où Horde et Alliance commercent sous la menace des videurs.</p><p>Un gobelin de cette époque est un marchand, un ingénieur ou un mercenaire qui travaille pour la Horde parce qu'elle paie, et qui le rappelle volontiers.</p><p><strong>Traits.</strong> Filer à l'anglaise, Pacte du cartel, Saut de fusée. Taille Petite, vitesse 9 m, vision dans le noir 18 m.</p>",
+      "en": "<p><strong>Horde or cartels.</strong> Goblins sell to everyone. The Steamwheedle Cartel holds Booty Bay, Gadgetzan and Ratchet, neutral ports where Horde and Alliance trade under the watchful eye of the bruisers.</p><p>A goblin of this era is a merchant, an engineer or a mercenary who works for the Horde because it pays, and who is happy to say so.</p><p><strong>Traits.</strong> Slip Away, Cartel Pact, Rocket Jump. Size Small, Speed 30 feet, Darkvision 60 feet.</p>"
+    },
+    "system.advancement.rTd4ZWLU6f03BMbz.title": {
+      "fr": "Traits : Gobelin",
+      "en": "Traits: Goblin"
+    },
+    "system.advancement.mkYGaM5iXgFMZaPc.title": {
+      "fr": "Pacte du cartel",
+      "en": "Cartel Pact"
+    }
+  },
+  "peuples/z14VS2tTqGfhg6TE": {
+    "_nom": "Flair du chasseur",
+    "name": {
+      "fr": "Flair du chasseur",
+      "en": "Hunter's Nose"
+    },
+    "system.description.value": {
+      "fr": "<p>Votre nez vous dit qui est passé ici et quand. Vous maîtrisez <strong>Perception</strong> ou <strong>Survie</strong> (au choix), et vous avez l'avantage aux tests qui reposent sur l'odorat.</p>",
+      "en": "<p>Your nose tells you who passed through here and when. You have proficiency in <strong>Perception</strong> or <strong>Survival</strong> (your choice), and Advantage on checks that rely on smell.</p>"
+    }
+  }
+}

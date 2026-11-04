@@ -1,0 +1,218 @@
+{
+  "historiques/62NR9Fa6dOnIeYlG": {
+    "_nom": "Gardien cénarien",
+    "name": {
+      "fr": "Gardien cénarien",
+      "en": "Cenarion Warden"
+    },
+    "system.description.value": {
+      "fr": "<p>Le Cercle cénarien accueille elfes de la nuit, taurens et quiconque protège l'équilibre de la nature, au-dessus des querelles de faction. Vous avez veillé sur un bosquet de Reflet-de-Lune, du Frêneval ou des Mulgore.</p><ul><li><strong>Caractéristiques :</strong> Constitution, Intelligence, Sagesse</li><li><strong>Compétences :</strong> Dressage, Nature</li><li><strong>Outil :</strong> matériel d'herboriste</li><li><strong>Don d'origine :</strong> Lien sylvestre</li><li><strong>Langues :</strong> trois au choix (le darnassien ou l'orc selon votre peuple)</li><li><strong>Équipement :</strong> bâton, focaliseur druidique, matériel d'herboriste, couverture, 5 rations, 9 po, <em>ou</em> 50 po</li></ul>",
+      "en": "<p>The Cenarion Circle welcomes night elves, tauren and anyone who protects the balance of nature, above the quarrels of faction. You have watched over a grove in Moonglade, Ashenvale or Mulgore.</p><ul><li><strong>Ability Scores:</strong> Constitution, Intelligence, Wisdom</li><li><strong>Skills:</strong> Animal Handling, Nature</li><li><strong>Tool:</strong> Herbalism Kit</li><li><strong>Origin feat:</strong> Sylvan Bond</li><li><strong>Languages:</strong> three of your choice (Darnassian or Orcish depending on your species)</li><li><strong>Equipment:</strong> Quarterstaff, Druidic Focus, Herbalism Kit, blanket, 5 rations, 9 gp, <em>or</em> 50 gp</li></ul>"
+    }
+  },
+  "historiques/93zFkG32WmhLFP2d": {
+    "_nom": "Initié de la Lumière",
+    "name": {
+      "fr": "Initié de la Lumière",
+      "en": "Initiate of the Light"
+    },
+    "system.description.value": {
+      "fr": "<p>Novice d'une abbaye, acolyte de la cathédrale de Hurlevent ou survivant de la Main d'argent, vous croyez que la Lumière vit en chaque cœur. Vous avez soigné des pestiférés et enterré des amis.</p><ul><li><strong>Caractéristiques :</strong> Intelligence, Sagesse, Charisme</li><li><strong>Compétences :</strong> Intuition, Religion</li><li><strong>Outil :</strong> matériel d'herboriste</li><li><strong>Don d'origine :</strong> Grâce de la Lumière</li><li><strong>Langues :</strong> commun, plus deux au choix</li><li><strong>Équipement :</strong> masse, symbole sacré, trousse de soins, robe, potion de soins, 7 po, <em>ou</em> 50 po</li></ul>",
+      "en": "<p>Novice of an abbey, acolyte of Stormwind's cathedral or survivor of the Silver Hand, you believe the Light lives in every heart. You have tended plague victims and buried friends.</p><ul><li><strong>Ability Scores:</strong> Intelligence, Wisdom, Charisma</li><li><strong>Skills:</strong> Insight, Religion</li><li><strong>Tool:</strong> Herbalism Kit</li><li><strong>Origin feat:</strong> Grace of the Light</li><li><strong>Languages:</strong> Common, plus two of your choice</li><li><strong>Equipment:</strong> Mace, Holy Symbol, Healer's Kit, robe, Potion of Healing, 7 gp, <em>or</em> 50 gp</li></ul>"
+    }
+  },
+  "historiques/9bcwoVO1MkN23WUB": {
+    "_nom": "Chasseur des Mulgore",
+    "name": {
+      "fr": "Chasseur des Mulgore",
+      "en": "Mulgore Hunter"
+    },
+    "system.description.value": {
+      "fr": "<p>Dans les plaines dorées des Mulgore, on ne prend à la terre que ce dont on a besoin, et on remercie l'animal. Vous avez chassé le kodo et le trotteur des plaines, et repoussé les gnolls et les centaures qui menacent les campements.</p><ul><li><strong>Caractéristiques :</strong> Force, Dextérité, Sagesse</li><li><strong>Compétences :</strong> Dressage, Nature</li><li><strong>Outil :</strong> outils de maroquinier</li><li><strong>Don d'origine :</strong> Pisteur des plaines</li><li><strong>Langues :</strong> orc, plus deux au choix (le taur-ahe s'écrit avec la langue « géant »)</li><li><strong>Équipement :</strong> lance des Sombrelance, 4 javelines, piège à mâchoires, outils de maroquinier, couverture, 4 po, <em>ou</em> 50 po</li></ul>",
+      "en": "<p>On the golden plains of Mulgore, you take from the land only what you need, and you thank the animal. You have hunted kodo and plainstriders, and driven back the gnolls and centaur that threaten the camps.</p><ul><li><strong>Ability Scores:</strong> Strength, Dexterity, Wisdom</li><li><strong>Skills:</strong> Animal Handling, Nature</li><li><strong>Tool:</strong> Leatherworker's Tools</li><li><strong>Origin feat:</strong> Plains Tracker</li><li><strong>Languages:</strong> Orcish, plus two of your choice (Taur-ahe is written with the \"Giant\" language)</li><li><strong>Equipment:</strong> Darkspear Spear, 4 Javelins, bear trap, Leatherworker's Tools, blanket, 4 gp, <em>or</em> 50 gp</li></ul>"
+    }
+  },
+  "historiques/IfeaehegnOGiFeOV": {
+    "_nom": "Rôdeur de Lune-d'argent",
+    "name": {
+      "fr": "Rôdeur de Lune-d'argent",
+      "en": "Silvermoon Ranger"
+    },
+    "system.description.value": {
+      "fr": "<p>Les Pérégrins de Quel'Thalas gardaient les bois des Chants éternels. Le Fléau est passé, et vos frères d'armes sont morts ou partis. Vous traquez désormais les goules dans les bois brûlés autour de Lune-d'argent.</p><ul><li><strong>Caractéristiques :</strong> Dextérité, Constitution, Sagesse</li><li><strong>Compétences :</strong> Discrétion, Survie</li><li><strong>Outil :</strong> outils de sculpteur sur bois</li><li><strong>Don d'origine :</strong> Vigilant (SRD)</li><li><strong>Langues :</strong> thalassien (elfique), plus deux au choix</li><li><strong>Équipement :</strong> arc long, carquois, 20 flèches, armure de cuir, outils de sculpteur, 3 po, <em>ou</em> 50 po</li></ul>",
+      "en": "<p>The Farstriders of Quel'Thalas guarded Eversong Woods. The Scourge came through, and your brothers-in-arms are dead or gone. You now hunt ghouls in the burnt woods around Silvermoon.</p><ul><li><strong>Ability Scores:</strong> Dexterity, Constitution, Wisdom</li><li><strong>Skills:</strong> Stealth, Survival</li><li><strong>Tool:</strong> Woodcarver's Tools</li><li><strong>Origin feat:</strong> Alert (SRD)</li><li><strong>Languages:</strong> Thalassian (Elvish), plus two of your choice</li><li><strong>Equipment:</strong> Longbow, Quiver, 20 Arrows, Leather Armor, Woodcarver's Tools, 3 gp, <em>or</em> 50 gp</li></ul>"
+    }
+  },
+  "historiques/LYbXTCrVqkcbgXeK": {
+    "_nom": "Cartel gobelin",
+    "name": {
+      "fr": "Cartel gobelin",
+      "en": "Goblin Cartel"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous avez travaillé pour le cartel Gentepression à Baie-du-Butin ou à Cabestan : comptable, démarcheur, ingénieur ou collecteur de dettes. Un contrat vous lie encore, et quelqu'un, quelque part, attend sa commission.</p><ul><li><strong>Caractéristiques :</strong> Dextérité, Intelligence, Charisme</li><li><strong>Compétences :</strong> Tromperie, Persuasion</li><li><strong>Outil :</strong> outils de bricoleur</li><li><strong>Don d'origine :</strong> Doué (SRD)</li><li><strong>Langues :</strong> gobelin, plus deux au choix</li><li><strong>Équipement :</strong> dague, outils de bricoleur, vêtements fins, lettre de change, 2 bombes gobelines, 5 po, <em>ou</em> 50 po</li></ul>",
+      "en": "<p>You worked for the Steamwheedle Cartel in Booty Bay or Ratchet: bookkeeper, salesman, engineer or debt collector. A contract still binds you, and someone, somewhere, is waiting for their commission.</p><ul><li><strong>Ability Scores:</strong> Dexterity, Intelligence, Charisma</li><li><strong>Skills:</strong> Deception, Persuasion</li><li><strong>Tool:</strong> Tinker's Tools</li><li><strong>Origin feat:</strong> Skilled (SRD)</li><li><strong>Languages:</strong> Goblin, plus two of your choice</li><li><strong>Equipment:</strong> Dagger, Tinker's Tools, Fine Clothes, letter of credit, 2 Goblin Bombs, 5 gp, <em>or</em> 50 gp</li></ul>"
+    }
+  },
+  "historiques/P7zc00fIVs2UYgTR": {
+    "_nom": "Apprenti de Dalaran",
+    "name": {
+      "fr": "Apprenti de Dalaran",
+      "en": "Apprentice of Dalaran"
+    },
+    "system.description.value": {
+      "fr": "<p>Dalaran a été rasée par Archimonde, et le Kirin Tor rebâtit sa cité dans le secret. Vous étiez apprenti quand les tours sont tombées : vous avez sauvé un grimoire, quelques sorts et une dette envers vos maîtres dispersés.</p><ul><li><strong>Caractéristiques :</strong> Intelligence, Sagesse, Charisme</li><li><strong>Compétences :</strong> Arcanes, Histoire</li><li><strong>Outil :</strong> matériel de calligraphe</li><li><strong>Don d'origine :</strong> Initié à la magie (SRD, magicien conseillé)</li><li><strong>Langues :</strong> commun, plus deux au choix</li><li><strong>Équipement :</strong> bâton, livre, 10 feuilles de parchemin, encre, plume, robe, potion de mana mineure, 8 po, <em>ou</em> 50 po</li></ul>",
+      "en": "<p>Dalaran was razed by Archimonde, and the Kirin Tor are rebuilding their city in secret. You were an apprentice when the towers fell: you saved a spellbook, a few spells and a debt to your scattered masters.</p><ul><li><strong>Ability Scores:</strong> Intelligence, Wisdom, Charisma</li><li><strong>Skills:</strong> Arcana, History</li><li><strong>Tool:</strong> Calligrapher's Supplies</li><li><strong>Origin feat:</strong> Magic Initiate (SRD, Wizard recommended)</li><li><strong>Languages:</strong> Common, plus two of your choice</li><li><strong>Equipment:</strong> Quarterstaff, Book, 10 sheets of Parchment, Ink, Ink Pen, robe, Minor Mana Potion, 8 gp, <em>or</em> 50 gp</li></ul>"
+    }
+  },
+  "historiques/P9AeBA5Jyt8hSRFj": {
+    "_nom": "Pied marin",
+    "name": {
+      "fr": "Pied marin",
+      "en": "Sea Legs"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous avez grandi sur un pont qui roule. Vous gagnez une <strong>vitesse de nage de 9 m</strong>, la maîtrise des <strong>véhicules marins</strong>, et l'avantage aux tests de Force (Athlétisme) et de Dextérité (Acrobaties) pour garder l'équilibre sur un sol mouvant (pont, gréement, glace, radeau).</p>",
+      "en": "<p>You grew up on a rolling deck. You gain a <strong>Swim Speed of 30 feet</strong>, proficiency with <strong>water vehicles</strong>, and Advantage on Strength (Athletics) and Dexterity (Acrobatics) checks to keep your balance on a moving surface (deck, rigging, ice, raft).</p>"
+    }
+  },
+  "historiques/Sa4xMvBt3uulgX56": {
+    "_nom": "Réfugié de Lordaeron",
+    "name": {
+      "fr": "Réfugié de Lordaeron",
+      "en": "Refugee of Lordaeron"
+    },
+    "system.description.value": {
+      "fr": "<p>Le royaume de Lordaeron est tombé en un an : grain empoisonné, morts qui se relèvent, prince devenu bourreau. Vous avez fui vers le sud avec ce que vous portiez. Vous ne faites plus confiance aux bannières, seulement aux gens.</p><ul><li><strong>Caractéristiques :</strong> Constitution, Sagesse, Charisme</li><li><strong>Compétences :</strong> Intuition, Survie</li><li><strong>Outil :</strong> ustensiles de cuisinier</li><li><strong>Don d'origine :</strong> Coriace</li><li><strong>Langues :</strong> commun, plus deux au choix</li><li><strong>Équipement :</strong> dague, couverture, 5 rations, outre, ustensiles de cuisinier, 12 po, <em>ou</em> 50 po</li></ul>",
+      "en": "<p>The kingdom of Lordaeron fell in a year: poisoned grain, the dead rising, a prince turned executioner. You fled south with what you carried. You no longer trust banners, only people.</p><ul><li><strong>Ability Scores:</strong> Constitution, Wisdom, Charisma</li><li><strong>Skills:</strong> Insight, Survival</li><li><strong>Tool:</strong> Cook's Utensils</li><li><strong>Origin feat:</strong> Hardy</li><li><strong>Languages:</strong> Common, plus two of your choice</li><li><strong>Equipment:</strong> Dagger, blanket, 5 rations, Waterskin, Cook's Utensils, 12 gp, <em>or</em> 50 gp</li></ul>"
+    }
+  },
+  "historiques/YDwuEjLACxQU0UZk": {
+    "_nom": "Lien sylvestre",
+    "name": {
+      "fr": "Lien sylvestre",
+      "en": "Sylvan Bond"
+    },
+    "system.description.value": {
+      "fr": "<p>Les Anciens de la forêt vous ont appris à écouter avant de parler. Vous connaissez le tour de magie <strong>Druidisme</strong>, et vous pouvez lancer <strong>Communication avec les animaux</strong> une fois sans emplacement de sort par repos long. Sagesse est votre caractéristique d'incantation pour ces sorts.</p>",
+      "en": "<p>The Ancients of the forest taught you to listen before speaking. You know the <strong>Druidcraft</strong> cantrip, and you can cast <strong>Speak with Animals</strong> once without a spell slot per Long Rest. Wisdom is your spellcasting ability for these spells.</p>"
+    }
+  },
+  "historiques/YuxLTqx90fu6lDla": {
+    "_nom": "Grunt d'Orgrimmar",
+    "name": {
+      "fr": "Grunt d'Orgrimmar",
+      "en": "Orgrimmar Grunt"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous avez creusé les remparts d'Orgrimmar, chassé les centaures de Durotar et monté la garde aux Tarides. Grunt de la nouvelle Horde, vous vous battez pour prouver que les orcs ont retrouvé leur honneur.</p><ul><li><strong>Caractéristiques :</strong> Force, Constitution, Sagesse</li><li><strong>Compétences :</strong> Athlétisme, Survie</li><li><strong>Outil :</strong> outils de forgeron</li><li><strong>Don d'origine :</strong> Attaquant sauvage (SRD)</li><li><strong>Langues :</strong> orc, plus deux au choix</li><li><strong>Équipement :</strong> hache d'Orgrimmar, 4 javelines, outils de forgeron, 5 rations, outre, 6 po, <em>ou</em> 50 po</li></ul>",
+      "en": "<p>You dug the ramparts of Orgrimmar, hunted the centaur out of Durotar and stood guard in the Barrens. A grunt of the new Horde, you fight to prove that the orcs have regained their honor.</p><ul><li><strong>Ability Scores:</strong> Strength, Constitution, Wisdom</li><li><strong>Skills:</strong> Athletics, Survival</li><li><strong>Tool:</strong> Smith's Tools</li><li><strong>Origin feat:</strong> Savage Attacker (SRD)</li><li><strong>Languages:</strong> Orcish, plus two of your choice</li><li><strong>Equipment:</strong> Orgrimmar Axe, 4 Javelins, Smith's Tools, 5 rations, Waterskin, 6 gp, <em>or</em> 50 gp</li></ul>"
+    }
+  },
+  "historiques/ZKKBLWZXZXcKNxFF": {
+    "_nom": "Grâce de la Lumière",
+    "name": {
+      "fr": "Grâce de la Lumière",
+      "en": "Grace of the Light"
+    },
+    "system.description.value": {
+      "fr": "<p>La Lumière n'appartient à personne, mais elle vous écoute. Vous connaissez le tour de magie <strong>Lumière</strong> (Sagesse). Par une <strong>action</strong>, vous pouvez toucher une créature : elle récupère <strong>1d6 + votre bonus de maîtrise</strong> points de vie.</p><p>Nombre d'utilisations de l'imposition des mains : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "en": "<p>The Light belongs to no one, but it listens to you. You know the <strong>Light</strong> cantrip (Wisdom). As an <strong>action</strong>, you can touch a creature: it regains <strong>1d6 + your Proficiency Bonus</strong> Hit Points.</p><p>Number of uses of the laying on of hands: your <strong>Proficiency Bonus</strong> per Long Rest.</p>"
+    },
+    "system.activities.uw4HueIQ9jSJrpgk.name": {
+      "fr": "Imposer les mains",
+      "en": "Lay on Hands"
+    }
+  },
+  "historiques/gdH6pHCvE5J5VYme": {
+    "_nom": "Coriace",
+    "name": {
+      "fr": "Coriace",
+      "en": "Hardy"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous avez survécu au Fléau, à la faim et à l'hiver sur les routes. Vos points de vie maximum augmentent de <strong>2 par niveau</strong> de personnage (2 maintenant, puis 2 à chaque niveau gagné).</p>",
+      "en": "<p>You survived the Scourge, hunger and winter on the roads. Your Hit Point maximum increases by <strong>2 per character level</strong> (2 now, then 2 whenever you gain a level).</p>"
+    }
+  },
+  "historiques/hXpluqna51mS1sM0": {
+    "_nom": "Pisteur des plaines",
+    "name": {
+      "fr": "Pisteur des plaines",
+      "en": "Plains Tracker"
+    },
+    "system.description.value": {
+      "fr": "<p>Une herbe couchée, une odeur de musc, un caillou retourné : vous lisez la terre. Vous gagnez la maîtrise de <strong>Nature</strong>, <strong>Perception</strong> ou <strong>Survie</strong> (au choix). Vous avez l'avantage aux tests faits pour suivre une piste, et votre groupe peut voyager à allure rapide sans subir de malus de Perception passive quand vous menez la marche.</p>",
+      "en": "<p>Flattened grass, a scent of musk, an overturned stone: you read the land. You gain proficiency in <strong>Nature</strong>, <strong>Perception</strong> or <strong>Survival</strong> (your choice). You have Advantage on checks made to follow a trail, and your party can travel at a Fast pace without the penalty to Passive Perception while you lead the way.</p>"
+    }
+  },
+  "historiques/kIGHvAOOAAWJsDEK": {
+    "_nom": "Marin de Kul Tiras",
+    "name": {
+      "fr": "Marin de Kul Tiras",
+      "en": "Kul Tiran Sailor"
+    },
+    "system.description.value": {
+      "fr": "<p>La flotte de l'amiral Portvaillant a suivi Jaina jusqu'à Theramore, et elle y a sombré en partie. Matelot, gabier ou contrebandier de Boralus, vous avez survécu aux tempêtes de la Grande Mer et aux rumeurs de la Horde.</p><ul><li><strong>Caractéristiques :</strong> Force, Dextérité, Sagesse</li><li><strong>Compétences :</strong> Athlétisme, Perception</li><li><strong>Outil :</strong> instruments de navigateur</li><li><strong>Don d'origine :</strong> Pied marin</li><li><strong>Langues :</strong> commun, plus deux au choix</li><li><strong>Équipement :</strong> cimeterre, dague, instruments de navigateur, corde, vêtements de voyage, 10 po, <em>ou</em> 50 po</li></ul>",
+      "en": "<p>Admiral Proudmoore's fleet followed Jaina to Theramore, and part of it sank there. Deckhand, topman or smuggler out of Boralus, you survived the storms of the Great Sea and the rumors of the Horde.</p><ul><li><strong>Ability Scores:</strong> Strength, Dexterity, Wisdom</li><li><strong>Skills:</strong> Athletics, Perception</li><li><strong>Tool:</strong> Navigator's Tools</li><li><strong>Origin feat:</strong> Sea Legs</li><li><strong>Languages:</strong> Common, plus two of your choice</li><li><strong>Equipment:</strong> Scimitar, Dagger, Navigator's Tools, Rope, Traveler's Clothes, 10 gp, <em>or</em> 50 gp</li></ul>"
+    }
+  },
+  "historiques/mwrMDnozzKJrOIMo": {
+    "_nom": "Rempart du rang",
+    "name": {
+      "fr": "Rempart du rang",
+      "en": "Shield of the Line"
+    },
+    "system.description.value": {
+      "fr": "<p>On vous a appris à tenir la ligne, coude contre coude. Quand une créature que vous voyez touche un allié situé à 1,5 m de vous, vous pouvez utiliser votre <strong>réaction</strong> pour vous interposer : les dégâts qu'il subit sont réduits de <strong>1d8 + votre bonus de maîtrise</strong>. Vous devez porter un bouclier ou une arme de corps à corps.</p><p>Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "en": "<p>You were taught to hold the line, shoulder to shoulder. When a creature you can see hits an ally within 5 feet of you, you can use your <strong>Reaction</strong> to step in: the damage the ally takes is reduced by <strong>1d8 + your Proficiency Bonus</strong>. You must be wielding a Shield or a melee weapon.</p><p>Number of uses: your <strong>Proficiency Bonus</strong> per Long Rest.</p>"
+    },
+    "system.activities.euruzKYN97fBBgzI.name": {
+      "fr": "S'interposer",
+      "en": "Step In"
+    },
+    "system.activities.euruzKYN97fBBgzI.activation.condition": {
+      "fr": "Un allié à 1,5 m est touché",
+      "en": "An ally within 5 feet is hit"
+    },
+    "system.activities.euruzKYN97fBBgzI.roll.name": {
+      "fr": "Dégâts évités",
+      "en": "Damage prevented"
+    }
+  },
+  "historiques/t3q2IK3XNCPbGOWg": {
+    "_nom": "Soldat de Hurlevent",
+    "name": {
+      "fr": "Soldat de Hurlevent",
+      "en": "Stormwind Soldier"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous avez porté le lion d'or de Hurlevent sur votre tabard : garde de la cité reconstruite, milicien de Comté-de-l'Or ou vétéran des Marches de l'Ouest. Vous connaissez les rangs, les corvées et les ordres criés sous la pluie.</p><ul><li><strong>Caractéristiques :</strong> Force, Dextérité, Constitution</li><li><strong>Compétences :</strong> Athlétisme, Intimidation</li><li><strong>Outil :</strong> un jeu de dés</li><li><strong>Don d'origine :</strong> Rempart du rang</li><li><strong>Langues :</strong> commun, plus deux au choix</li><li><strong>Équipement :</strong> épée de la Garde de Hurlevent, bouclier, trousse de soins, vêtements de voyage, 5 rations, 9 po, <em>ou</em> 50 po</li></ul>",
+      "en": "<p>You wore the golden lion of Stormwind on your tabard: guard of the rebuilt city, militiaman of Goldshire or veteran of Westfall. You know the ranks, the chores and the orders shouted in the rain.</p><ul><li><strong>Ability Scores:</strong> Strength, Dexterity, Constitution</li><li><strong>Skills:</strong> Athletics, Intimidation</li><li><strong>Tool:</strong> Dice Set</li><li><strong>Origin feat:</strong> Shield of the Line</li><li><strong>Languages:</strong> Common, plus two of your choice</li><li><strong>Equipment:</strong> Stormwind Guard Sword, Shield, Healer's Kit, Traveler's Clothes, 5 rations, 9 gp, <em>or</em> 50 gp</li></ul>"
+    },
+    "system.advancement.33CNFW5XVA6hRZ1E.title": {
+      "fr": "Amélioration de caractéristiques de l'historique",
+      "en": "Background Ability Score Improvement"
+    },
+    "system.advancement.33CNFW5XVA6hRZ1E.hint": {
+      "fr": "Augmentez l'une des trois caractéristiques de 2 et une autre de 1, ou les trois de 1, sans dépasser 20.",
+      "en": "Increase one of the three ability scores by 2 and another by 1, or all three by 1, to a maximum of 20."
+    },
+    "system.advancement.qA6PpYb9uVYmve5b.title": {
+      "fr": "Maîtrises de l'historique",
+      "en": "Background Proficiencies"
+    },
+    "system.advancement.OAbvzZz5rDWsYsW3.title": {
+      "fr": "Don d'origine",
+      "en": "Origin Feat"
+    },
+    "system.advancement.wwB63fDxi9je3hbG.title": {
+      "fr": "Langues",
+      "en": "Languages"
+    },
+    "system.advancement.wwB63fDxi9je3hbG.hint": {
+      "fr": "Le commun de votre faction, plus deux langues au choix (voir le guide du joueur).",
+      "en": "Your faction's common tongue, plus two languages of your choice (see the player's guide)."
+    }
+  }
+}

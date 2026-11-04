@@ -1,0 +1,1258 @@
+{
+  "tables/0C7GDUAyigkK1yyc": {
+    "_nom": "Contrats de fête — La Nuit des Calebasses",
+    "name": {
+      "fr": "Contrats de fête — La Nuit des Calebasses",
+      "en": "Festival Contracts — The Night of the Gourds"
+    },
+    "description": {
+      "fr": "<p>Les affiches de La Nuit des Calebasses, punaisées sur les tableaux des contrats pendant la fête (du 25 octobre au 2 novembre, la nuit du 31 octobre surtout). Le MJ IA en ajoute une aux trois contrats du jour, ou les propose toutes le jour le plus fort de la fête.</p>",
+      "en": "<p>The posters of The Night of the Gourds, pinned to the contract boards during the festival (from October 25 to November 2, the night of October 31 above all). The AI GM adds one to the day's three contracts, or offers them all on the festival's biggest day.</p>"
+    },
+    "results.vsyB3DxaCqeANA1W.name": {
+      "fr": "Avis de recherche — Le semeur de calebasses noires",
+      "en": "Wanted — The sower of black gourds"
+    },
+    "results.vsyB3DxaCqeANA1W.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Sœur Linnea Clairmatin, de l'Aube d'argent.</p><p>Quelqu'un dépose des calebasses noires, peintes de runes, au bord des pistes ; là où elles brûlent, les morts se relèvent. Débusquer ce @UUID[Compendium.lakour-warcraft.bestiaire.Actor.ztoJXQwhFHGZcx2J]{nécromancien du Culte des Damnés} et le ramener vivant pour qu'il soit jugé.</p><p><strong>Récompense :</strong> 70 po et <strong>+4</strong> de réputation auprès de : Aube d'argent.</p>",
+      "en": "<p><strong>Client:</strong> Sister Linnea Brightmorn, of the Argent Dawn.</p><p>Someone is leaving black gourds, painted with runes, along the trails; where they burn, the dead rise. Flush out this @UUID[Compendium.lakour-warcraft.bestiaire.Actor.ztoJXQwhFHGZcx2J]{necromancer of the Cult of the Damned} and bring him back alive to be judged.</p><p><strong>Reward:</strong> 70 gp and <strong>+4</strong> reputation with: Argent Dawn.</p>"
+    },
+    "results.QT7MnQJK74POdBBI.name": {
+      "fr": "Récolte — Calebasses de l'oasis",
+      "en": "Harvest — Gourds of the oasis"
+    },
+    "results.QT7MnQJK74POdBBI.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Gornak Croc-Gris, intendant du Carrefour.</p><p>Le Carrefour manque de calebasses : rapporter vingt grosses calebasses des jardins de l'oasis du Bosquet-aux-Saules, où des @UUID[Compendium.lakour-warcraft.bestiaire.Actor.qTTqGBYn4AqsQwVN]{hurans} ont fait leur bauge ([[/check skill=ath dc=12]]{Athlétisme DD 12} pour charger le chariot avant leur retour).</p><p><strong>Récompense :</strong> 25 po et <strong>+2</strong> de réputation auprès de : Horde (Le Carrefour).</p>",
+      "en": "<p><strong>Client:</strong> Gornak Greyfang, quartermaster of the Crossroads.</p><p>The Crossroads is short of gourds: bring back twenty big gourds from the gardens of the Willow Grove oasis, where @UUID[Compendium.lakour-warcraft.bestiaire.Actor.qTTqGBYn4AqsQwVN]{quilboar} have made their wallow ([[/check skill=ath dc=12]]{DC 12 Athletics} to load the wagon before they return).</p><p><strong>Reward:</strong> 25 gp and <strong>+2</strong> reputation with: Horde (The Crossroads).</p>"
+    },
+    "results.vq3pqTt4keKuKhZB.name": {
+      "fr": "Escorte — La procession des Rescapés",
+      "en": "Escort — The Survivors' procession"
+    },
+    "results.vq3pqTt4keKuKhZB.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Frère Odric Pierrelune, de la Main d'argent.</p><p>Escorter une procession de réfugiés de Lordaeron, calebasses allumées, de Theramore au cimetière des Rescapés. Les @UUID[Compendium.lakour-warcraft.bestiaire.Actor.QsFYC2AB4WaEidqA]{goules} du marais suivent les lumières comme des papillons.</p><p><strong>Récompense :</strong> 45 po et <strong>+3</strong> de réputation auprès de : Chevaliers de la Main d'argent.</p>",
+      "en": "<p><strong>Client:</strong> Brother Odric Moonstone, of the Silver Hand.</p><p>Escort a procession of Lordaeron refugees, gourds lit, from Theramore to the Survivors' graveyard. The @UUID[Compendium.lakour-warcraft.bestiaire.Actor.QsFYC2AB4WaEidqA]{ghouls} of the marsh follow the lights like moths.</p><p><strong>Reward:</strong> 45 gp and <strong>+3</strong> reputation with: Knights of the Silver Hand.</p>"
+    }
+  },
+  "tables/6zu15ES8qO7Pn3El": {
+    "_nom": "Paquets-surprises du Cartel",
+    "name": {
+      "fr": "Paquets-surprises du Cartel",
+      "en": "Cartel Surprise Packages"
+    },
+    "description": {
+      "fr": "<p>À tirer quand un personnage ouvre un paquet-surprise du Cartel pendant la Trêve des Présents.</p>",
+      "en": "<p>Roll when a character opens a Cartel surprise package during the Truce of Presents.</p>"
+    },
+    "results.ig8suPSbwFSZLbEH.name": {
+      "fr": "Rien",
+      "en": "Nothing"
+    },
+    "results.ig8suPSbwFSZLbEH.description": {
+      "fr": "<p>Du papier froissé, un ruban et un petit mot : « Merci de votre confiance. — Le Cartel ».</p>",
+      "en": "<p>Crumpled paper, a ribbon and a little note: \"Thank you for your trust. — The Cartel\".</p>"
+    },
+    "results.CFF39xrMVl2cEISo.name": {
+      "fr": "Un écrou en or",
+      "en": "A golden nut"
+    },
+    "results.CFF39xrMVl2cEISo.description": {
+      "fr": "<p>Un écrou de cuivre doré, sans aucune valeur, poli comme un bijou. Un gobelin quelque part trouve ça très drôle.</p>",
+      "en": "<p>A gilded copper nut, worthless, polished like a jewel. A goblin somewhere finds this very funny.</p>"
+    },
+    "results.4Js6C9U9NqtWOKiA.name": {
+      "fr": "Un jouet mécanique",
+      "en": "A mechanical toy"
+    },
+    "results.4Js6C9U9NqtWOKiA.description": {
+      "fr": "<p>Un petit kodo de fer-blanc à remontoir qui avance de 3 m en meuglant, puis tombe sur le flanc. Les enfants du Carrefour le paieraient 5 pa.</p>",
+      "en": "<p>A small wind-up tin kodo that trundles 10 feet while lowing, then falls on its side. The children of the Crossroads would pay 5 sp for it.</p>"
+    },
+    "results.MJlTHYfPYChkm0Ba.name": {
+      "fr": "Une lettre de change",
+      "en": "A letter of credit"
+    },
+    "results.MJlTHYfPYChkm0Ba.description": {
+      "fr": "<p>Un bon de 10 po à faire valoir chez Nixi Pèse-Juste, à Cabestan, « sous réserve de frais de dossier » (3 po).</p>",
+      "en": "<p>A voucher for 10 gp to be redeemed with Nixi Fairweight, in Ratchet, \"subject to a processing fee\" (3 gp).</p>"
+    }
+  },
+  "tables/75HMSNV1jRaP0xB4": {
+    "_nom": "Rares et élites — Côte des Tarides",
+    "name": {
+      "fr": "Rares et élites — Côte des Tarides",
+      "en": "Rares and Elites — Barrens Coast"
+    },
+    "description": {
+      "fr": "<p>Entre Cabestan, les marais salés et la crique d'Eldrassal. Une fois par jour de voyage dans la zone, sur 1 sur 1d6, tirez sur cette table. Chaque créature nommée porte un butin garanti (voir sa note du MJ) ; une créature vaincue ne revient pas : relancez si elle sort de nouveau.</p>",
+      "en": "<p>Between Ratchet, the salt marshes and the cove of Eldrassal. Once per day of travel in the area, on a 1 on 1d6, roll on this table. Each named creature carries guaranteed loot (see its GM note); a defeated creature does not come back: reroll if it comes up again.</p>"
+    },
+    "results.ctn6bjudriDd2cXh.name": {
+      "fr": "Des nouvelles du port",
+      "en": "News from the harbor"
+    },
+    "results.ctn6bjudriDd2cXh.description": {
+      "fr": "<p>Pas de rare aujourd'hui, mais un pêcheur, un docker ou un marin raconte ce qu'il a vu, et où. Le lendemain, la rencontre est assurée (tirez de nouveau 1d3).</p>",
+      "en": "<p>No rare today, but a fisherman, a docker or a sailor tells what he saw, and where. The next day, the encounter is certain (roll 1d3 again).</p>"
+    }
+  },
+  "tables/Dc0oNoBlthbgd1JP": {
+    "_nom": "Contrats de fête — Les Tambours du Long Jour",
+    "name": {
+      "fr": "Contrats de fête — Les Tambours du Long Jour",
+      "en": "Festival Contracts — The Drums of the Long Day"
+    },
+    "description": {
+      "fr": "<p>Les affiches de Les Tambours du Long Jour, punaisées sur les tableaux des contrats pendant la fête (du 20 au 22 juin, le jour du solstice surtout). Le MJ IA en ajoute une aux trois contrats du jour, ou les propose toutes le jour le plus fort de la fête.</p>",
+      "en": "<p>The posters of The Drums of the Long Day, pinned to the contract boards during the festival (from June 20 to 22, the day of the solstice above all). The AI GM adds one to the day's three contracts, or offers them all on the festival's biggest day.</p>"
+    },
+    "results.iyeLGLI8jtN0Vlyl.name": {
+      "fr": "Livraison — La flamme de la Chaîne",
+      "en": "Delivery — The flame of the Chain"
+    },
+    "results.iyeLGLI8jtN0Vlyl.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Gornak Croc-Gris, intendant du Carrefour.</p><p>Porter la torche du feu du Carrefour jusqu'au feu de Gué-de-Sel avant le coucher du soleil, sans qu'elle s'éteigne. Les cavaliers de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.QUScvpfLBVyjpYzE]{Khan Ventrouge} trouvent drôle de voler la flamme ; [[/check skill=ath dc=13]]{Athlétisme DD 13} pour tenir le rythme de la course.</p><p><strong>Récompense :</strong> 40 po et <strong>+3</strong> de réputation auprès de : Horde (Le Carrefour).</p>",
+      "en": "<p><strong>Client:</strong> Gornak Greyfang, quartermaster of the Crossroads.</p><p>Carry the torch from the fire of the Crossroads to the fire of Saltford before sunset, without letting it go out. The riders of @UUID[Compendium.lakour-warcraft.bestiaire.Actor.QUScvpfLBVyjpYzE]{Khan Redbelly} think it funny to steal the flame; [[/check skill=ath dc=13]]{DC 13 Athletics} to keep up the pace of the run.</p><p><strong>Reward:</strong> 40 gp and <strong>+3</strong> reputation with: Horde (The Crossroads).</p>"
+    },
+    "results.syAMFQDWmY6jNhMs.name": {
+      "fr": "Récolte — Poudre pour les fusées",
+      "en": "Harvest — Powder for the rockets"
+    },
+    "results.syAMFQDWmY6jNhMs.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Grizzla Tordeboulon, intendante du Cartel.</p><p>Rapporter dix sacs de soufre des collines rouges pour les fusées de Cabestan ([[/check skill=sur dc=12]]{Survie DD 12} pour trouver les bons filons), avant que les @UUID[Compendium.lakour-warcraft.bestiaire.Actor.hOTVQNbVXommXjaP]{harpies} n'emportent les sacs pour en garnir leurs nids.</p><p><strong>Récompense :</strong> 30 po et <strong>+2</strong> de réputation auprès de : Cartel Gentepression.</p>",
+      "en": "<p><strong>Client:</strong> Grizzla Boltwrench, Cartel quartermaster.</p><p>Bring back ten sacks of sulfur from the red hills for the rockets of Ratchet ([[/check skill=sur dc=12]]{DC 12 Survival} to find the right seams), before the @UUID[Compendium.lakour-warcraft.bestiaire.Actor.hOTVQNbVXommXjaP]{harpies} carry the sacks off to line their nests.</p><p><strong>Reward:</strong> 30 gp and <strong>+2</strong> reputation with: Steamwheedle Cartel.</p>"
+    },
+    "results.NdUaZC6wkRrerOJV.name": {
+      "fr": "Traque — Les feux qui s'éteignent",
+      "en": "Hunt — The fires that go out"
+    },
+    "results.NdUaZC6wkRrerOJV.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Tahko Vent-Clair, gardien du Cercle cénarien.</p><p>Sur trois collines, les feux du Long Jour s'éteignent d'un coup, étouffés par la terre. Les géomanciens de Ronceroc ont éveillé un @UUID[Compendium.lakour-warcraft.bestiaire.Actor.2iMr3wfHStHPZ63v]{élémentaire de terre} pour garder les hauteurs. L'apaiser ou le briser, et que les feux reprennent avant minuit.</p><p><strong>Récompense :</strong> 50 po et <strong>+3</strong> de réputation auprès de : Cercle cénarien.</p>",
+      "en": "<p><strong>Client:</strong> Tahko Clearwind, warden of the Cenarion Circle.</p><p>On three hills, the fires of the Long Day go out all at once, smothered by the earth. The geomancers of Thornrock have woken an @UUID[Compendium.lakour-warcraft.bestiaire.Actor.2iMr3wfHStHPZ63v]{earth elemental} to guard the heights. Appease it or break it, and have the fires burning again before midnight.</p><p><strong>Reward:</strong> 50 gp and <strong>+3</strong> reputation with: Cenarion Circle.</p>"
+    }
+  },
+  "tables/FzbACQsPtmIARtiR": {
+    "_nom": "Missions des suivants",
+    "name": {
+      "fr": "Missions des suivants",
+      "en": "Followers' Missions"
+    },
+    "description": {
+      "fr": "<p>Pour un suivant envoyé en mission par la table des missions (un tour de bastion). Ajoutez 1 au jet si la garnison est Honorée ou mieux auprès de sa faction.</p>",
+      "en": "<p>For a follower sent on a mission by the mission table (one Bastion turn). Add 1 to the roll if the garrison is Honored or better with its faction.</p>"
+    },
+    "results.bC7uKKapv7YPkPmR.name": {
+      "fr": "Embuscade",
+      "en": "Ambush"
+    },
+    "results.bC7uKKapv7YPkPmR.description": {
+      "fr": "<p>Le suivant revient blessé et sans rien. Il ne repart pas avant deux tours.</p>",
+      "en": "<p>The follower returns wounded and empty-handed. They do not set out again for two turns.</p>"
+    },
+    "results.qBbCbAwWSpeSpRKy.name": {
+      "fr": "Fausse piste",
+      "en": "False lead"
+    },
+    "results.qBbCbAwWSpeSpRKy.description": {
+      "fr": "<p>Rien trouvé, mais le suivant rapporte une rumeur : tirez sur la table des rumeurs de taverne.</p>",
+      "en": "<p>Nothing found, but the follower brings back a rumor: roll on the tavern rumors table.</p>"
+    },
+    "results.yDg8EO7Cnw2nEq6u.name": {
+      "fr": "Ravitaillement",
+      "en": "Supplies"
+    },
+    "results.yDg8EO7Cnw2nEq6u.description": {
+      "fr": "<p>Le suivant rapporte 2d6 composants communs du biome le plus proche (table de récolte du biome).</p>",
+      "en": "<p>The follower brings back 2d6 common components from the nearest biome (that biome's harvest table).</p>"
+    },
+    "results.0NLFqaNlEF1lYEZH.name": {
+      "fr": "Escorte payée",
+      "en": "Paid escort"
+    },
+    "results.0NLFqaNlEF1lYEZH.description": {
+      "fr": "<p>Le suivant a escorté une caravane : 3d10 po pour la garnison.</p>",
+      "en": "<p>The follower escorted a caravan: 3d10 gp for the garrison.</p>"
+    },
+    "results.efq2ObTt7nuYzS04.name": {
+      "fr": "Service rendu",
+      "en": "Service rendered"
+    },
+    "results.efq2ObTt7nuYzS04.description": {
+      "fr": "<p>Le suivant a aidé une patrouille de la faction : +2 de réputation auprès d'elle.</p>",
+      "en": "<p>The follower helped a patrol of the faction: +2 reputation with it.</p>"
+    },
+    "results.G7ZJqFA3JLQsyWko.name": {
+      "fr": "Trouvaille",
+      "en": "Find"
+    },
+    "results.G7ZJqFA3JLQsyWko.description": {
+      "fr": "<p>Le suivant rapporte une pépite d'argent (ou, si la garnison est près d'Âprefange, une mousse d'Âprefange) et 2d6 po.</p>",
+      "en": "<p>The follower brings back a silver nugget (or, if the garrison is near Dustwallow, a Dustwallow moss) and 2d6 gp.</p>"
+    },
+    "results.JNNghiwhqD00EBsD.name": {
+      "fr": "Exploit",
+      "en": "Feat"
+    },
+    "results.JNNghiwhqD00EBsD.description": {
+      "fr": "<p>Le suivant a vu un rare de la région : la garnison sait où il se trouve (tirez sur la table des rares de la zone ; un contrat de traque l'attend au tableau). +3 de réputation.</p>",
+      "en": "<p>The follower saw a rare of the region: the garrison knows where it is (roll on the rares table of the area; a hunt contract awaits on the board). +3 reputation.</p>"
+    }
+  },
+  "tables/GpNPBpZ0Cqz1PouH": {
+    "_nom": "Récolte — Plaines des Tarides",
+    "name": {
+      "fr": "Récolte — Plaines des Tarides",
+      "en": "Harvest — Barrens Plains"
+    },
+    "description": {
+      "fr": "<p>Autour du Carrefour, de Fort-Rivet et du kraal de Ronceroc. Une heure de récolte : tirez une fois, puis faites le test du métier du composant (matériel d'herboriste ou Nature, outils de forgeron ou Athlétisme, outils de maroquinier ou Survie) : DD 10 pour un composant commun, 13 peu commun, 16 rare. Réussite : 1d4 unités ; échec : une seule. Un personnage récolte au plus quatre heures par jour.</p>",
+      "en": "<p>Around the Crossroads, Fort Rivet and the Thornrock kraal. One hour of harvesting: roll once, then make the check for the component's profession (Herbalism Kit or Nature, Smith's Tools or Athletics, Leatherworker's Tools or Survival): DC 10 for a common component, 13 uncommon, 16 rare. Success: 1d4 units; failure: only one. A character harvests at most four hours per day.</p>"
+    },
+    "results.hcaNtIWUJXWr7CFH.name": {
+      "fr": "Un témoin gênant",
+      "en": "An unwelcome witness"
+    },
+    "results.hcaNtIWUJXWr7CFH.description": {
+      "fr": "<p>Une bête défend son territoire, ou une patrouille se demande ce que vous faites là. Tirez sur la table des rencontres sur la route ; la récolte reprend après.</p>",
+      "en": "<p>A beast defends its territory, or a patrol wonders what you are doing there. Roll on the road encounters table; harvesting resumes afterward.</p>"
+    }
+  },
+  "tables/LkTFIlylwvlzuTtp": {
+    "_nom": "Visages d'Azeroth",
+    "name": {
+      "fr": "Visages d'Azeroth",
+      "en": "Faces of Azeroth"
+    },
+    "description": {
+      "fr": "<p>Un PNJ au pied levé : son allure, sa manie, ce qu'il veut et ce qu'il cache. Changez le peuple au besoin.</p>",
+      "en": "<p>An NPC on the spot: their look, their quirk, what they want and what they hide. Change the species as needed.</p>"
+    },
+    "results.ROuDfQwv0erZlsVb.name": {
+      "fr": "Odile, passeuse humaine",
+      "en": "Odile, human ferrywoman"
+    },
+    "results.ROuDfQwv0erZlsVb.description": {
+      "fr": "<p>Mains calleuses, chapeau de paille trempé. Compte tout à voix haute. Veut racheter la barque de son défunt mari. Cache qu'elle fait passer des réfugiés sans papiers.</p>",
+      "en": "<p>Calloused hands, soaked straw hat. Counts everything out loud. Wants to buy back her late husband's boat. Hides that she ferries refugees without papers.</p>"
+    },
+    "results.ayZaHRtvmuybYQZd.name": {
+      "fr": "Brannok, mineur nain",
+      "en": "Brannok, dwarf miner"
+    },
+    "results.ayZaHRtvmuybYQZd.description": {
+      "fr": "<p>Barbe roussie, une lampe éteinte à la ceinture. Tape deux fois sur le bois avant de parler. Veut retrouver son frère, perdu sous la montagne. Cache qu'il a scellé la galerie lui-même.</p>",
+      "en": "<p>Singed beard, an unlit lamp at his belt. Knocks twice on wood before speaking. Wants to find his brother, lost beneath the mountain. Hides that he sealed the gallery himself.</p>"
+    },
+    "results.7C4jwdwUKkJA5lLu.name": {
+      "fr": "Gazzle, intermédiaire gobelin",
+      "en": "Gazzle, goblin middleman"
+    },
+    "results.7C4jwdwUKkJA5lLu.description": {
+      "fr": "<p>Monocle fêlé, sourire trop large. Cite des taux d'intérêt comme des proverbes. Veut une signature, n'importe laquelle. Cache qu'il doit de l'argent au mauvais cartel.</p>",
+      "en": "<p>Cracked monocle, too-wide smile. Quotes interest rates like proverbs. Wants a signature, any signature. Hides that he owes money to the wrong cartel.</p>"
+    },
+    "results.uNeLJ7jsvYtYZLVt.name": {
+      "fr": "Ysera-lune, sentinelle elfe de la nuit",
+      "en": "Yseramoon, night elf sentinel"
+    },
+    "results.uNeLJ7jsvYtYZLVt.description": {
+      "fr": "<p>Arc au dos, regard qui ne cligne jamais. Parle aux arbres avant de parler aux gens. Veut qu'on quitte sa forêt avant la nuit. Cache qu'elle a laissé passer un ennemi, une fois.</p>",
+      "en": "<p>Bow on her back, a gaze that never blinks. Talks to the trees before talking to people. Wants you out of her forest before nightfall. Hides that she once let an enemy through.</p>"
+    },
+    "results.8QW0qV6BmlLvwROf.name": {
+      "fr": "Kurgash, vétéran orc",
+      "en": "Kurgash, orc veteran"
+    },
+    "results.8QW0qV6BmlLvwROf.description": {
+      "fr": "<p>Une défense cassée, cicatrices de chaînes aux poignets. Rit fort et tard. Veut une mort honorable, pas une vieillesse. Cache qu'il fait encore des cauchemars des camps.</p>",
+      "en": "<p>A broken tusk, chain scars on the wrists. Laughs loud and late. Wants an honorable death, not an old age. Hides that he still has nightmares about the camps.</p>"
+    },
+    "results.ApD7iNDk0Gr0tqeH.name": {
+      "fr": "Mama Zebu, herboriste troll",
+      "en": "Mama Zebu, troll herbalist"
+    },
+    "results.ApD7iNDk0Gr0tqeH.description": {
+      "fr": "<p>Colliers d'os, pipe éteinte. Répond aux questions par d'autres questions. Veut une plante qui ne pousse que sur une tombe précise. Cache qu'elle parle aux loas d'un mort récent.</p>",
+      "en": "<p>Bone necklaces, unlit pipe. Answers questions with other questions. Wants a plant that grows only on one particular grave. Hides that she talks to the loa of a recent dead.</p>"
+    },
+    "results.HDAIwZTcmEaRBE76.name": {
+      "fr": "Ahote, chasseur tauren",
+      "en": "Ahote, tauren hunter"
+    },
+    "results.HDAIwZTcmEaRBE76.description": {
+      "fr": "<p>Énorme et silencieux, une plume blanche à la corne. S'excuse auprès de chaque bête qu'il abat. Veut venger un troupeau massacré. Cache qu'il soupçonne un membre de sa propre tribu.</p>",
+      "en": "<p>Huge and silent, a white feather on his horn. Apologizes to every beast he brings down. Wants to avenge a slaughtered herd. Hides that he suspects a member of his own tribe.</p>"
+    },
+    "results.aMnzGRTuuD3nNQKM.name": {
+      "fr": "Silas Grisemine, apothicaire réprouvé",
+      "en": "Silas Greymien, Forsaken apothecary"
+    },
+    "results.aMnzGRTuuD3nNQKM.description": {
+      "fr": "<p>Mâchoire recousue, gants toujours propres. Note tout dans un carnet. Veut un échantillon « frais ». Cache qu'il cherche un remède, pas une arme.</p>",
+      "en": "<p>Stitched jaw, gloves always clean. Writes everything in a notebook. Wants a \"fresh\" sample. Hides that he is looking for a cure, not a weapon.</p>"
+    },
+    "results.KBVadkUkEnI2xVzy.name": {
+      "fr": "Lady Caelith, émissaire elfe de sang",
+      "en": "Lady Caelith, blood elf emissary"
+    },
+    "results.KBVadkUkEnI2xVzy.description": {
+      "fr": "<p>Robe impeccable malgré la boue, gemme verte au cou. Ne touche jamais rien sans gants. Veut un artefact pour sa maison. Cache que la gemme lui murmure la nuit.</p>",
+      "en": "<p>Immaculate gown despite the mud, green gem at her neck. Never touches anything without gloves. Wants an artifact for her house. Hides that the gem whispers to her at night.</p>"
+    },
+    "results.z28ok00l7PAUGZQZ.name": {
+      "fr": "Frère Aldous, prêtre en route",
+      "en": "Brother Aldous, priest on the road"
+    },
+    "results.z28ok00l7PAUGZQZ.description": {
+      "fr": "<p>Robe usée, chaussures neuves. Bénit tout, même la soupe. Veut escorter des orphelins jusqu'à Hurlevent. Cache que l'un d'eux est un worgen qui s'ignore.</p>",
+      "en": "<p>Worn robe, new shoes. Blesses everything, even the soup. Wants to escort orphans to Stormwind. Hides that one of them is a worgen who does not know it.</p>"
+    },
+    "results.98PsxGLW9a2tCJmr.name": {
+      "fr": "Tibbi Rouage-Fou, ingénieuse gnome",
+      "en": "Tibbi Madcog, gnome engineer"
+    },
+    "results.98PsxGLW9a2tCJmr.description": {
+      "fr": "<p>Lunettes à six verres, sourcils brûlés. Démonte ce qu'on lui prête. Veut tester un prototype « presque sûr ». Cache que le précédent a rasé une grange.</p>",
+      "en": "<p>Six-lensed goggles, burnt eyebrows. Takes apart whatever she is lent. Wants to test an \"almost safe\" prototype. Hides that the last one flattened a barn.</p>"
+    },
+    "results.Q6pvAuLIQKdWD9R7.name": {
+      "fr": "Shen Pas-de-Brume, brasseur pandaren",
+      "en": "Shen Nomist, pandaren brewer"
+    },
+    "results.Q6pvAuLIQKdWD9R7.description": {
+      "fr": "<p>Ventre rond, gourde à la hanche, calme absolu. Offre à boire avant de parler affaires. Veut une recette perdue dans des ruines. Cache qu'il fuit une dette de jeu envers un ogre.</p>",
+      "en": "<p>Round belly, gourd at the hip, absolute calm. Offers a drink before talking business. Wants a recipe lost in some ruins. Hides that he is fleeing a gambling debt to an ogre.</p>"
+    }
+  },
+  "tables/O1ZlanNamo70PwFt": {
+    "_nom": "Rumeurs de taverne",
+    "name": {
+      "fr": "Rumeurs de taverne",
+      "en": "Tavern Rumors"
+    },
+    "description": {
+      "fr": "<p>Ce qu'on entend au comptoir. Vrai, faux ou à moitié vrai : au MJ de décider.</p>",
+      "en": "<p>What you hear at the bar. True, false or half true: the GM decides.</p>"
+    },
+    "results.3Z4nq5xtsGalTzgP.description": {
+      "fr": "<p>Des bûcherons orcs ont été retrouvés pendus aux arbres de Frêneval. Les Sentinelles nient, Orgrimmar gronde.</p>",
+      "en": "<p>Orc lumberjacks were found hanged from the trees of Ashenvale. The Sentinels deny it, Orgrimmar growls.</p>"
+    },
+    "results.x3O47MDTP17hOdqf.description": {
+      "fr": "<p>Un fermier d'Elwynn jure avoir vu un murloc porter une couronne. Les autres murlocs s'inclinaient.</p>",
+      "en": "<p>A farmer from Elwynn swears he saw a murloc wearing a crown. The other murlocs were bowing.</p>"
+    },
+    "results.4N3lRp0bU9Y6vTfX.description": {
+      "fr": "<p>Le Kirin Tor paie bien qui rapporte des livres sauvés des ruines de Dalaran. Et il ne demande pas d'où ils viennent.</p>",
+      "en": "<p>The Kirin Tor pays well for books salvaged from the ruins of Dalaran. And does not ask where they come from.</p>"
+    },
+    "results.FORDYAXPUK41bD0R.description": {
+      "fr": "<p>Une caravane gobeline a disparu dans les Tarides avec une cargaison « qui ne doit surtout pas être ouverte ».</p>",
+      "en": "<p>A goblin caravan vanished in the Barrens with a cargo \"that must absolutely not be opened\".</p>"
+    },
+    "results.Vxm6snJ2Ilh3EfJp.description": {
+      "fr": "<p>La Croisade écarlate brûle des villages entiers au nord de la Maleterre. Elle dit que la peste se cache dans le grain.</p>",
+      "en": "<p>The Scarlet Crusade is burning whole villages north of the Plaguelands. It says the plague hides in the grain.</p>"
+    },
+    "results.ozsmOWq6YG4KT4Ij.description": {
+      "fr": "<p>Un vieux grunt affirme que des orcs refusent toujours de quitter les camps d'internement, et que des gardiens les y aident.</p>",
+      "en": "<p>An old grunt claims that some orcs still refuse to leave the internment camps, and that guards are helping them stay.</p>"
+    },
+    "results.U6NOsRhfDoxODnHg.description": {
+      "fr": "<p>On aurait vu un loup qui marche debout près du mur de Gilnéas. Il parlait comme un noble.</p>",
+      "en": "<p>A wolf walking upright was supposedly seen near the wall of Gilneas. It spoke like a nobleman.</p>"
+    },
+    "results.pxZuwNz71wcTcPQ4.description": {
+      "fr": "<p>Les nains de Forgefer ont trouvé sous Uldaman une porte que personne n'arrive à ouvrir. Ils cherchent des gens qui rentrent par les petits trous.</p>",
+      "en": "<p>The dwarves of Ironforge have found beneath Uldaman a door that no one can open. They are looking for people who can fit through small holes.</p>"
+    },
+    "results.y4RSR1hJq3uUU0Xv.description": {
+      "fr": "<p>Les apothicaires de la Fossoyeuse achètent des cadavres frais. Bon prix.</p>",
+      "en": "<p>The apothecaries of the Undercity are buying fresh corpses. Good price.</p>"
+    },
+    "results.P3ayJwHbMEAYtqvv.description": {
+      "fr": "<p>Un brasseur pandaren voyagerait avec une bière qui « fait voir les esprits ». Les taurens le cherchent, les nains aussi.</p>",
+      "en": "<p>A pandaren brewer is said to travel with a beer that \"makes you see spirits\". The tauren are looking for him, the dwarves too.</p>"
+    },
+    "results.8aFw3EKIWrFBfIje.description": {
+      "fr": "<p>Theramore manque de bois ; Jaina en achèterait aux orcs. Des nobles de Hurlevent parlent de trahison.</p>",
+      "en": "<p>Theramore is short of timber; Jaina would buy some from the orcs. Nobles of Stormwind speak of treason.</p>"
+    },
+    "results.CxuHsIud35NQwJSv.description": {
+      "fr": "<p>Des feux verts brillent la nuit sur les pentes du Hyjal. Les démons seraient revenus… ou quelqu'un les appelle.</p>",
+      "en": "<p>Green fires shine at night on the slopes of Hyjal. The demons may have returned… or someone is calling them.</p>"
+    }
+  },
+  "tables/OfKnGM40LOE9x50Q": {
+    "_nom": "Rares et élites — Frontière du sud",
+    "name": {
+      "fr": "Rares et élites — Frontière du sud",
+      "en": "Rares and Elites — Southern Frontier"
+    },
+    "description": {
+      "fr": "<p>Entre Gué-de-Sel, les collines rouges et le cratère de Brasegouffre. Une fois par jour de voyage dans la zone, sur 1 sur 1d6, tirez sur cette table. Chaque créature nommée porte un butin garanti (voir sa note du MJ) ; une créature vaincue ne revient pas : relancez si elle sort de nouveau.</p>",
+      "en": "<p>Between Saltford, the red hills and the crater of Emberchasm. Once per day of travel in the area, on a 1 on 1d6, roll on this table. Each named creature carries guaranteed loot (see its GM note); a defeated creature does not come back: reroll if it comes up again.</p>"
+    },
+    "results.x9XwIIXA77YGUYxh.name": {
+      "fr": "Le rire dans les collines",
+      "en": "The laughter in the hills"
+    },
+    "results.x9XwIIXA77YGUYxh.description": {
+      "fr": "<p>Pas de rare aujourd'hui, mais un rire de chèvre la nuit, des sabots dans le lointain, ou un éclat de verre noir sur la piste. Le lendemain, la rencontre est assurée (tirez de nouveau 1d3).</p>",
+      "en": "<p>No rare today, but a goat's laugh in the night, hooves in the distance, or a shard of black glass on the trail. The next day, the encounter is certain (roll 1d3 again).</p>"
+    }
+  },
+  "tables/RSBhBDeioyO2ibMQ": {
+    "_nom": "Contrats — Le Carrefour",
+    "name": {
+      "fr": "Contrats — Le Carrefour",
+      "en": "Contracts — The Crossroads"
+    },
+    "description": {
+      "fr": "<p>Un poteau de bois au pied de la tour de guet, couvert d'affiches en orc, en taurahe et en commun. Le MJ IA tire trois contrats par jour de jeu sur cette table (relancez les doublons et les contrats déjà pris) ; voir le journal « Tableau des contrats ».</p>",
+      "en": "<p>A wooden post at the foot of the watchtower, covered in posters in Orcish, Taur-ahe and Common. The AI GM draws three contracts per game day from this table (reroll duplicates and contracts already taken); see the \"Contract Board\" journal.</p>"
+    },
+    "results.p21ghuuVtblqeqEp.name": {
+      "fr": "Traque — La bête aux yeux verts",
+      "en": "Hunt — The Green-Eyed Beast"
+    },
+    "results.p21ghuuVtblqeqEp.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Gornak Croc-Gris, intendant du Carrefour.</p><p>Un loup gangrené, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.kkJpRCb1TYvyoexd]{Crocs-de-Cendre}, attaque les caravanes la nuit avec une meute qu'il a pervertie. Rapporter sa tête. Les chamans voudraient aussi savoir à quelle oasis il a bu.</p><p><strong>Récompense :</strong> 60 po et <strong>+4</strong> de réputation auprès de : Horde (Le Carrefour).</p>",
+      "en": "<p><strong>Client:</strong> Gornak Greyfang, quartermaster of the Crossroads.</p><p>A fel wolf, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.kkJpRCb1TYvyoexd]{Ashfang}, attacks the caravans at night with a pack it has perverted. Bring back its head. The shamans would also like to know at which oasis it drank.</p><p><strong>Reward:</strong> 60 gp and <strong>+4</strong> reputation with: Horde (The Crossroads).</p>"
+    },
+    "results.F2FCkh6dPH2TxBBo.name": {
+      "fr": "Traque — Le fer qui marche",
+      "en": "Hunt — The iron that walks"
+    },
+    "results.F2FCkh6dPH2TxBBo.description": {
+      "fr": "<p><strong>Commanditaire :</strong> les éclaireurs de la route de Fort-Rivet.</p><p>Une machine gobeline sans pilote, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.MSzbsS8RNDhbCU6K]{Rouille-Cœur}, a découpé deux kodos et une tente. L'arrêter. Vizzik Tirelire, à Fort-Rivet, paierait cher pour en récupérer le moteur.</p><p><strong>Récompense :</strong> 70 po et <strong>+3</strong> de réputation auprès de : Horde (Le Carrefour).</p>",
+      "en": "<p><strong>Client:</strong> the scouts of the Fort Rivet road.</p><p>A pilotless goblin machine, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.MSzbsS8RNDhbCU6K]{Rustheart}, has cut up two kodos and a tent. Stop it. Vizzik Coinbox, at Fort Rivet, would pay dearly to recover its engine.</p><p><strong>Reward:</strong> 70 gp and <strong>+3</strong> reputation with: Horde (The Crossroads).</p>"
+    },
+    "results.vTDKXCa2stEYDGdp.name": {
+      "fr": "Récolte — Lichen de sang",
+      "en": "Harvest — Blood lichen"
+    },
+    "results.vTDKXCa2stEYDGdp.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Tahko Vent-Clair, gardien du Cercle cénarien.</p><p>Gratter dix brins de lichen rouge sur les rochers autour du kraal de Ronceroc ([[/check skill=nat dc=12]]{Nature DD 12} pour ne pas abîmer la souche), sans provoquer les hurans. Les chamans en font un onguent contre la fièvre de gangrène.</p><p><strong>Récompense :</strong> 30 po et <strong>+2</strong> de réputation auprès de : Cercle cénarien.</p>",
+      "en": "<p><strong>Client:</strong> Tahko Clearwind, warden of the Cenarion Circle.</p><p>Scrape ten strands of red lichen from the rocks around the Thornrock kraal ([[/check skill=nat dc=12]]{DC 12 Nature} not to damage the stock), without provoking the quilboar. The shamans make an ointment from it against fel fever.</p><p><strong>Reward:</strong> 30 gp and <strong>+2</strong> reputation with: Cenarion Circle.</p>"
+    },
+    "results.H6mT7wVWl1qy3j8U.name": {
+      "fr": "Récolte — Plumes pour les flèches",
+      "en": "Harvest — Feathers for the arrows"
+    },
+    "results.H6mT7wVWl1qy3j8U.description": {
+      "fr": "<p><strong>Commanditaire :</strong> la fléchière du Carrefour, une troll.</p><p>Rapporter douze longues plumes de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.hOTVQNbVXommXjaP]{harpie}, prises sur les pitons de la piste de Fort-Rivet. Les harpies chantent ; on dit que leur vieille matriarche chante mieux que toutes.</p><p><strong>Récompense :</strong> 35 po et <strong>+2</strong> de réputation auprès de : Horde (Le Carrefour).</p>",
+      "en": "<p><strong>Client:</strong> the fletcher of the Crossroads, a troll.</p><p>Bring back twelve long @UUID[Compendium.lakour-warcraft.bestiaire.Actor.hOTVQNbVXommXjaP]{harpy} feathers, taken on the spires of the Fort Rivet trail. The harpies sing; they say their old matriarch sings better than all of them.</p><p><strong>Reward:</strong> 35 gp and <strong>+2</strong> reputation with: Horde (The Crossroads).</p>"
+    },
+    "results.kH3uNx8KJKfgt2x7.name": {
+      "fr": "Escorte — Le vieil homme et l'oasis",
+      "en": "Escort — The old man and the oasis"
+    },
+    "results.kH3uNx8KJKfgt2x7.description": {
+      "fr": "<p><strong>Commanditaire :</strong> le Cercle cénarien.</p><p>Escorter Ahote Corne-Lente, druide tauren très âgé, jusqu'à une oasis souillée où il veut chanter trois nuits pour la purifier. Il marche lentement et refuse qu'on tue les bêtes malades qui y boivent.</p><p><strong>Récompense :</strong> 50 po et <strong>+3</strong> de réputation auprès de : Cercle cénarien.</p>",
+      "en": "<p><strong>Client:</strong> the Cenarion Circle.</p><p>Escort Ahote Slowhorn, a very old tauren druid, to a tainted oasis where he wants to sing three nights to purify it. He walks slowly and refuses to let the sick beasts that drink there be killed.</p><p><strong>Reward:</strong> 50 gp and <strong>+3</strong> reputation with: Cenarion Circle.</p>"
+    },
+    "results.jAf5x09143f0ZFk8.name": {
+      "fr": "Escorte — La caravane de sel",
+      "en": "Escort — The salt caravan"
+    },
+    "results.jAf5x09143f0ZFk8.description": {
+      "fr": "<p><strong>Commanditaire :</strong> un marchand orc du Carrefour.</p><p>Escorter quatre kodos chargés de sel jusqu'à Gué-de-Sel, trois jours de piste. Les Kolkar rôdent, et l'un des conducteurs vend la route aux pillards.</p><p><strong>Récompense :</strong> 60 po et <strong>+3</strong> de réputation auprès de : Horde (Le Carrefour).</p>",
+      "en": "<p><strong>Client:</strong> an orc merchant of the Crossroads.</p><p>Escort four kodos loaded with salt to Saltford, three days of trail. The Kolkar prowl, and one of the drivers is selling the route to the raiders.</p><p><strong>Reward:</strong> 60 gp and <strong>+3</strong> reputation with: Horde (The Crossroads).</p>"
+    },
+    "results.TejdoOTKQ3pDK9b3.name": {
+      "fr": "Avis de recherche — Le déserteur",
+      "en": "Wanted — The deserter"
+    },
+    "results.TejdoOTKQ3pDK9b3.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Grizzak Œil-Fendu, pour les Kor'kron.</p><p>Ramener vivant le grunt Rakhar Dent-Fendue, qui a quitté son poste en volant six haches de guerre pour les vendre aux quilboars. Il se cache chez les hurans de Ronceroc. Les Kor'kron veulent les noms de ses acheteurs.</p><p><strong>Récompense :</strong> 70 po et <strong>+4</strong> de réputation auprès de : Garde kor'kron.</p>",
+      "en": "<p><strong>Client:</strong> Grizzak Slit-Eye, for the Kor'kron.</p><p>Bring back alive the grunt Rakhar Splittooth, who left his post stealing six battleaxes to sell to the quilboar. He is hiding among the quilboar of Thornrock. The Kor'kron want the names of his buyers.</p><p><strong>Reward:</strong> 70 gp and <strong>+4</strong> reputation with: Kor'kron Guard.</p>"
+    },
+    "results.sf0JaElmuUJw6lI0.name": {
+      "fr": "Avis de recherche — Les pillards kolkar",
+      "en": "Wanted — The Kolkar raiders"
+    },
+    "results.sf0JaElmuUJw6lI0.description": {
+      "fr": "<p><strong>Commanditaire :</strong> le chef de guerre du Carrefour.</p><p>Mort ou vif : @UUID[Compendium.lakour-warcraft.bestiaire.Actor.QUScvpfLBVyjpYzE]{Khan Ventrouge}, seigneur kolkar, qui pille les deux côtés de la frontière. Theramore offre la même prime : il ne faut pas que l'Alliance la touche avant nous.</p><p><strong>Récompense :</strong> 80 po et <strong>+4</strong> de réputation auprès de : Horde (Le Carrefour).</p>",
+      "en": "<p><strong>Client:</strong> the war leader of the Crossroads.</p><p>Dead or alive: @UUID[Compendium.lakour-warcraft.bestiaire.Actor.QUScvpfLBVyjpYzE]{Khan Redbelly}, Kolkar lord, who raids both sides of the frontier. Theramore is offering the same bounty: the Alliance must not collect it before we do.</p><p><strong>Reward:</strong> 80 gp and <strong>+4</strong> reputation with: Horde (The Crossroads).</p>"
+    },
+    "results.T1eibiILvgOCQSHR.name": {
+      "fr": "Livraison — Ordres scellés",
+      "en": "Delivery — Sealed orders"
+    },
+    "results.T1eibiILvgOCQSHR.description": {
+      "fr": "<p><strong>Commanditaire :</strong> un messager kor'kron.</p><p>Porter des ordres scellés au porte-voix de la Horde à Gué-de-Sel, en mains propres et en deux jours. Un espion de la Lame ardente suit le groupe depuis le départ.</p><p><strong>Récompense :</strong> 40 po et <strong>+3</strong> de réputation auprès de : Garde kor'kron.</p>",
+      "en": "<p><strong>Client:</strong> a Kor'kron messenger.</p><p>Carry sealed orders to the Horde's mouthpiece at Saltford, by hand and within two days. A Burning Blade spy has been following the party since it set out.</p><p><strong>Reward:</strong> 40 gp and <strong>+3</strong> reputation with: Kor'kron Guard.</p>"
+    },
+    "results.1h3cJYqw354Kf8Nf.name": {
+      "fr": "Livraison — Graines d'oasis",
+      "en": "Delivery — Oasis seeds"
+    },
+    "results.1h3cJYqw354Kf8Nf.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Tahko Vent-Clair.</p><p>Porter un sac de graines bénies par les druides à l'oasis du Bosquet-aux-Saules et les semer à la pleine lune. Les quilboars ont fait leur bauge près de l'eau.</p><p><strong>Récompense :</strong> 25 po et <strong>+2</strong> de réputation auprès de : Cercle cénarien.</p>",
+      "en": "<p><strong>Client:</strong> Tahko Clearwind.</p><p>Carry a sack of seeds blessed by the druids to the Willow Grove oasis and sow them at the full moon. The quilboar have made their wallow near the water.</p><p><strong>Reward:</strong> 25 gp and <strong>+2</strong> reputation with: Cenarion Circle.</p>"
+    }
+  },
+  "tables/UZuebiV03AckjAAz": {
+    "_nom": "Contrats de fête — La Mascarade de Cabestan",
+    "name": {
+      "fr": "Contrats de fête — La Mascarade de Cabestan",
+      "en": "Festival Contracts — The Ratchet Masquerade"
+    },
+    "description": {
+      "fr": "<p>Les affiches de La Mascarade de Cabestan, punaisées sur les tableaux des contrats pendant la fête (du jeudi gras au mardi gras (dates mobiles)). Le MJ IA en ajoute une aux trois contrats du jour, ou les propose toutes le jour le plus fort de la fête.</p>",
+      "en": "<p>The posters of The Ratchet Masquerade, pinned to the contract boards during the festival (from Fat Thursday to Shrove Tuesday (moveable dates)). The AI GM adds one to the day's three contracts, or offers them all on the festival's biggest day.</p>"
+    },
+    "results.8wmf7Sn7Dwwwu8Jd.name": {
+      "fr": "Avis de recherche — Le masque qui vole",
+      "en": "Wanted — The mask that steals"
+    },
+    "results.8wmf7Sn7Dwwwu8Jd.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Nixi Pèse-Juste, comptable du Cartel à Cabestan.</p><p>Un pickpocket au masque serti dépouille les danseurs sur les barges et disparaît dans une gerbe de confettis. C'est un employé du Cartel Baille-Fonds : le ramener vivant, avec sa bourse, et sans ôter le masque d'un innocent ([[/check skill=prc dc=13]]{Perception DD 13} pour le repérer dans la foule).</p><p><strong>Récompense :</strong> 50 po et <strong>+3</strong> de réputation auprès de : Cartel Gentepression.</p>",
+      "en": "<p><strong>Client:</strong> Nixi Fairweight, Cartel bookkeeper in Ratchet.</p><p>A pickpocket in a jeweled mask is robbing the dancers on the barges and vanishing in a spray of confetti. He is an employee of the Bilgewater Cartel: bring him back alive, with his purse, and without pulling the mask off an innocent ([[/check skill=prc dc=13]]{DC 13 Perception} to spot him in the crowd).</p><p><strong>Reward:</strong> 50 gp and <strong>+3</strong> reputation with: Steamwheedle Cartel.</p>"
+    },
+    "results.o9x3LQjXmxCbUKvs.name": {
+      "fr": "Escorte — Un ambassadeur sans visage",
+      "en": "Escort — An ambassador without a face"
+    },
+    "results.o9x3LQjXmxCbUKvs.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Grizzak Œil-Fendu, intendant kor'kron.</p><p>Escorter, masqué, un envoyé de la Horde jusqu'à une barge où l'attend un officier de Theramore, masqué lui aussi. Personne ne doit savoir qui parle à qui ; un @UUID[Compendium.lakour-warcraft.bestiaire.Actor.jeU8rFouecAiQFVO]{cultiste de la Lame ardente} déguisé en danseur le sait déjà.</p><p><strong>Récompense :</strong> 60 po et <strong>+4</strong> de réputation auprès de : Garde kor'kron.</p>",
+      "en": "<p><strong>Client:</strong> Grizzak Slit-Eye, Kor'kron quartermaster.</p><p>Escort, masked, an envoy of the Horde to a barge where an officer of Theramore, masked too, awaits him. No one must know who is talking to whom; a @UUID[Compendium.lakour-warcraft.bestiaire.Actor.jeU8rFouecAiQFVO]{Burning Blade cultist} disguised as a dancer already knows.</p><p><strong>Reward:</strong> 60 gp and <strong>+4</strong> reputation with: Kor'kron Guard.</p>"
+    },
+    "results.D3iM69e8jdBSUXp6.name": {
+      "fr": "Livraison — Le Baron de paille",
+      "en": "Delivery — The Straw Baron"
+    },
+    "results.D3iM69e8jdBSUXp6.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Grizzla Tordeboulon, intendante du Cartel.</p><p>Tirer le Baron de paille, un pantin de six mètres sur un chariot, des entrepôts jusqu'au bout de la jetée avant le soir du mardi gras. Les hommes du baron Nizzel Baille-Fonds, vexés par la ressemblance, veulent le brûler trop tôt et au mauvais endroit ([[/check skill=prc dc=12]]{Perception DD 12} pour voir venir les torches).</p><p><strong>Récompense :</strong> 30 po et <strong>+2</strong> de réputation auprès de : Cartel Gentepression.</p>",
+      "en": "<p><strong>Client:</strong> Grizzla Boltwrench, Cartel quartermaster.</p><p>Haul the Straw Baron, a twenty-foot puppet on a wagon, from the warehouses to the end of the jetty before the evening of Shrove Tuesday. The men of Baron Nizzel Bilgewater, stung by the likeness, want to burn it too early and in the wrong place ([[/check skill=prc dc=12]]{DC 12 Perception} to see the torches coming).</p><p><strong>Reward:</strong> 30 gp and <strong>+2</strong> reputation with: Steamwheedle Cartel.</p>"
+    }
+  },
+  "tables/VYJOG5qwWO6TsCmg": {
+    "_nom": "Noms d'Azeroth par peuple",
+    "name": {
+      "fr": "Noms d'Azeroth par peuple",
+      "en": "Names of Azeroth by People"
+    },
+    "description": {
+      "fr": "<p>Tirez le peuple, ou choisissez-le, puis prenez un prénom et un nom dans la ligne.</p>",
+      "en": "<p>Roll the people, or choose it, then take a first name and a last name from the line.</p>"
+    },
+    "results.C2ccOw2YZBFFeGII.description": {
+      "fr": "<p>Aldric, Maëlle, Corwin, Isolde, Gareth, Brune. Noms : Fauchebois, Pierreval, Hautepierre, Moissonneur.</p>",
+      "en": "<p>Aldric, Maëlle, Corwin, Isolde, Gareth, Brune. Surnames: Woodscythe, Stonedale, Highstone, Harvester.</p>"
+    },
+    "results.PcyRXdO63ObsweN7.description": {
+      "fr": "<p>Borin, Hilda, Dunmar, Grimna, Thorgar, Kelda. Noms : Barbe-de-Cuivre, Brasse-Fer, Martelfort, Roc-Profond.</p>",
+      "en": "<p>Borin, Hilda, Dunmar, Grimna, Thorgar, Kelda. Surnames: Copperbeard, Ironbrew, Strongmallet, Deeprock.</p>"
+    },
+    "results.QUGCVE2T0yQpeBJn.description": {
+      "fr": "<p>Fizzle, Nibbin, Tinkla, Gizmo, Pippa, Sprocket. Noms : Rouage-Fou, Clé-Torse, Pétard, Écrou-d'Argent.</p>",
+      "en": "<p>Fizzle, Nibbin, Tinkla, Gizmo, Pippa, Sprocket. Surnames: Madcog, Twistwrench, Firecracker, Silverbolt.</p>"
+    },
+    "results.VFvEMxNcLKltkqVu.description": {
+      "fr": "<p>Aelyn, Thalindra, Ilyrion, Shaelis, Vaeran, Myrelle. Noms : Chant-de-Lune, Feuille-d'Ombre, Brise-Étoile, Veilleur-du-Bois.</p>",
+      "en": "<p>Aelyn, Thalindra, Ilyrion, Shaelis, Vaeran, Myrelle. Surnames: Moonsong, Shadowleaf, Starbreeze, Woodwarden.</p>"
+    },
+    "results.a976958KOaedF0CW.description": {
+      "fr": "<p>Iruun, Malaara, Torvos, Eshia, Kaavon, Noraal. Noms : (pas de nom de famille ; on cite le maître ou le vaisseau d'origine).</p>",
+      "en": "<p>Iruun, Malaara, Torvos, Eshia, Kaavon, Noraal. Surnames: (no family name; the master or the vessel of origin is cited).</p>"
+    },
+    "results.5AuTyrceF0sQcIuo.description": {
+      "fr": "<p>Edmund, Rowena, Silas, Agatha, Percival, Lenore. Noms : Blackwald, Hollowmere, Thornbury, Greywick.</p>",
+      "en": "<p>Edmund, Rowena, Silas, Agatha, Percival, Lenore. Surnames: Blackwald, Hollowmere, Thornbury, Greywick.</p>"
+    },
+    "results.CWa0QAdjOaF3GxzT.description": {
+      "fr": "<p>Grokk, Durza, Ragash, Mok'ra, Thogar, Kazgra. Clans : Loup-de-Givre, Chanteguerre, Rochenoire, Lame-Ardente.</p>",
+      "en": "<p>Grokk, Durza, Ragash, Mok'ra, Thogar, Kazgra. Clans: Frostwolf, Warsong, Blackrock, Burning Blade.</p>"
+    },
+    "results.tWeo0k8ASzpWC6fX.description": {
+      "fr": "<p>Zul'jen, Mazuna, Rokhan, Tah'zi, Jun'ka, Vashi. Surnoms : Œil-de-Raptor, Rit-Fort, Lance-Rapide.</p>",
+      "en": "<p>Zul'jen, Mazuna, Rokhan, Tah'zi, Jun'ka, Vashi. Nicknames: Raptoreye, Laughsloud, Quickspear.</p>"
+    },
+    "results.8Ddo7AiCC2hiehyA.description": {
+      "fr": "<p>Haruk, Muna, Tahko, Ahanu, Kerra, Orunta. Noms : Pas-de-Pluie, Corne-Sauvage, Grand-Sabot, Vent-des-Plaines.</p>",
+      "en": "<p>Haruk, Muna, Tahko, Ahanu, Kerra, Orunta. Surnames: Norain, Wildhorn, Greathoof, Plainswind.</p>"
+    },
+    "results.gr7FsC8DiElAVgTu.description": {
+      "fr": "<p>Mortimer, Ophelia, Gideon, Cordelia, Ambrose, Vesper. Nom : celui d'avant, ou un surnom choisi (le Pâle, Sans-Souffle).</p>",
+      "en": "<p>Mortimer, Ophelia, Gideon, Cordelia, Ambrose, Vesper. Surname: the one from before, or a chosen nickname (the Pale, Breathless).</p>"
+    },
+    "results.x74ZdBFxwTs5U9yU.description": {
+      "fr": "<p>Caeleth, Saelora, Lorthiel, Vaelith, Dariel, Ithelia. Maisons : Soleil-d'Aube, Brasier-d'Or, Plume-Rouge, Lame-Écarlate.</p>",
+      "en": "<p>Caeleth, Saelora, Lorthiel, Vaelith, Dariel, Ithelia. Houses: Dawnsun, Goldblaze, Redfeather, Scarletblade.</p>"
+    },
+    "results.EUlMkzsp9maIYSJS.description": {
+      "fr": "<p>Grizzik, Noggle, Zappa, Krix, Fizzbit, Vexi. Surnoms : Poche-Pleine, Grand-Profit, Deux-Doigts, l'Allumette.</p>",
+      "en": "<p>Grizzik, Noggle, Zappa, Krix, Fizzbit, Vexi. Nicknames: Fullpocket, Bigprofit, Two-Fingers, the Match.</p>"
+    },
+    "results.oRTWsL99mQPaB6Au.description": {
+      "fr": "<p>Li Bao, Mei Tan, Shun, Lun Wei, Pao, Ying. Noms de famille : Feuille-de-Thé, Ventre-Rond, Pas-de-Brume, Chope-Pleine.</p>",
+      "en": "<p>Li Bao, Mei Tan, Shun, Lun Wei, Pao, Ying. Family names: Tealeaf, Roundbelly, Nomist, Fullmug.</p>"
+    }
+  },
+  "tables/VdzdzwzHctZAc8TV": {
+    "_nom": "Contrats de fête — La Veille des Aïeux",
+    "name": {
+      "fr": "Contrats de fête — La Veille des Aïeux",
+      "en": "Festival Contracts — Ancestors' Eve"
+    },
+    "description": {
+      "fr": "<p>Les affiches de La Veille des Aïeux, punaisées sur les tableaux des contrats pendant la fête (du 31 décembre au 2 janvier, la nuit du 31 surtout). Le MJ IA en ajoute une aux trois contrats du jour, ou les propose toutes le jour le plus fort de la fête.</p>",
+      "en": "<p>The posters of Ancestors' Eve, pinned to the contract boards during the festival (from December 31 to January 2, the night of the 31st above all). The AI GM adds one to the day's three contracts, or offers them all on the festival's biggest day.</p>"
+    },
+    "results.ihbRMpK0MaQC2WsN.name": {
+      "fr": "Escorte — Le dernier voyage d'Ahote",
+      "en": "Escort — Ahote's last journey"
+    },
+    "results.ihbRMpK0MaQC2WsN.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Tahko Vent-Clair, gardien du Cercle cénarien.</p><p>Ahote Corne-Lente, le plus vieux druide des Tarides, veut monter une dernière fois sur la colline des cairns pour allumer ses lampes. Le porter, le soutenir, le défendre : la nuit, des @UUID[Compendium.lakour-warcraft.bestiaire.Actor.gMmWKENeUcQssiBy]{Kolkar} rôdent autour des cairns pour les piller.</p><p><strong>Récompense :</strong> 40 po et <strong>+3</strong> de réputation auprès de : Cercle cénarien.</p>",
+      "en": "<p><strong>Client:</strong> Tahko Clearwind, warden of the Cenarion Circle.</p><p>Ahote Slowhorn, the oldest druid of the Barrens, wants to climb the hill of the cairns one last time to light his lamps. Carry him, support him, defend him: at night, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.gMmWKENeUcQssiBy]{Kolkar} prowl around the cairns to plunder them.</p><p><strong>Reward:</strong> 40 gp and <strong>+3</strong> reputation with: Cenarion Circle.</p>"
+    },
+    "results.1pgQ8TLFLaP8cmre.name": {
+      "fr": "Récolte — L'huile des lampes",
+      "en": "Harvest — Oil for the lamps"
+    },
+    "results.1pgQ8TLFLaP8cmre.description": {
+      "fr": "<p><strong>Commanditaire :</strong> les gardiens des cairns du Carrefour.</p><p>Rapporter six gourdes de graines-étoiles, ces graines huileuses qui poussent dans les éboulis du nord des Tarides ([[/check skill=nat dc=12]]{Nature DD 12} pour ne cueillir que les mûres). Sans elles, pas d'huile, et des ancêtres dans le noir.</p><p><strong>Récompense :</strong> 30 po et <strong>+2</strong> de réputation auprès de : Horde (Le Carrefour).</p>",
+      "en": "<p><strong>Client:</strong> the keepers of the cairns of the Crossroads.</p><p>Bring back six gourds of starseeds, the oily seeds that grow in the scree of the northern Barrens ([[/check skill=nat dc=12]]{DC 12 Nature} to pick only the ripe ones). Without them, no oil, and ancestors in the dark.</p><p><strong>Reward:</strong> 30 gp and <strong>+2</strong> reputation with: Horde (The Crossroads).</p>"
+    },
+    "results.cGIe67fLcnqihEPT.name": {
+      "fr": "Livraison — Les noms des disparus",
+      "en": "Delivery — The names of the lost"
+    },
+    "results.cGIe67fLcnqihEPT.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Maëlis Hautepierre, intendante du port de Theramore.</p><p>Porter le registre des noms lus à minuit à Theramore jusqu'au cimetière des Rescapés, au bord du marécage d'Âprefange, et le déposer sur l'autel avant l'aube du premier jour de l'année. Il pleut, la piste est noyée et @UUID[Compendium.lakour-warcraft.bestiaire.Actor.QsFYC2AB4WaEidqA]{quelque chose} rôde entre les tombes.</p><p><strong>Récompense :</strong> 35 po et <strong>+3</strong> de réputation auprès de : Alliance (Theramore).</p>",
+      "en": "<p><strong>Client:</strong> Maelis Highstone, quartermaster of the port of Theramore.</p><p>Carry the register of the names read at midnight in Theramore to the Survivors' graveyard, at the edge of Dustwallow Marsh, and lay it on the altar before dawn on the first day of the year. It is raining, the trail is flooded and @UUID[Compendium.lakour-warcraft.bestiaire.Actor.QsFYC2AB4WaEidqA]{something} prowls among the graves.</p><p><strong>Reward:</strong> 35 gp and <strong>+3</strong> reputation with: Alliance (Theramore).</p>"
+    }
+  },
+  "tables/WtnajfAuJUIYAx9E": {
+    "_nom": "Temps et chemins",
+    "name": {
+      "fr": "Temps et chemins",
+      "en": "Weather and Roads"
+    },
+    "description": {
+      "fr": "<p>Le temps qu'il fait et l'état de la route pour une journée de voyage. Effets en règles 2024 : à appliquer si la scène s'y prête.</p>",
+      "en": "<p>The weather and the state of the road for a day's travel. Effects under the 2024 rules: apply them if the scene calls for it.</p>"
+    },
+    "results.0QU8FZyHF6QWtKdT.name": {
+      "fr": "Beau temps",
+      "en": "Fair weather"
+    },
+    "results.0QU8FZyHF6QWtKdT.description": {
+      "fr": "<p>Ciel clair, route sèche. Le voyage se passe bien : une rencontre sociale plutôt qu'un danger, si vous en tirez une.</p>",
+      "en": "<p>Clear sky, dry road. The journey goes well: a social encounter rather than a danger, if you roll one.</p>"
+    },
+    "results.2vuBOgpfNhvxMlmh.name": {
+      "fr": "Brouillard",
+      "en": "Fog"
+    },
+    "results.2vuBOgpfNhvxMlmh.description": {
+      "fr": "<p>Visibilité réduite à une trentaine de mètres : désavantage aux tests de Sagesse (Perception) basés sur la vue, et s'orienter demande un test de Sagesse (Survie) DD 12.</p>",
+      "en": "<p>Visibility reduced to about a hundred feet: Disadvantage on Wisdom (Perception) checks that rely on sight, and finding your way requires a DC 12 Wisdom (Survival) check.</p>"
+    },
+    "results.5mDkKTz41bu106Lz.name": {
+      "fr": "Pluie battante",
+      "en": "Driving rain"
+    },
+    "results.5mDkKTz41bu106Lz.description": {
+      "fr": "<p>Feux difficiles à allumer, cordes d'arc détrempées : désavantage aux tests de Sagesse (Perception) basés sur l'ouïe ; la journée parcourt un tiers de distance en moins.</p>",
+      "en": "<p>Fires hard to light, bowstrings soaked: Disadvantage on Wisdom (Perception) checks that rely on hearing; the day covers a third less distance.</p>"
+    },
+    "results.HZUX2xkxOixyYPTq.name": {
+      "fr": "Chaleur écrasante",
+      "en": "Crushing heat"
+    },
+    "results.HZUX2xkxOixyYPTq.description": {
+      "fr": "<p>Sans eau en abondance, chaque voyageur fait un jet de sauvegarde de Constitution DD 10 en fin de journée ; un échec donne un niveau d'Épuisement.</p>",
+      "en": "<p>Without water in abundance, each traveler makes a DC 10 Constitution saving throw at the end of the day; a failure gives one level of Exhaustion.</p>"
+    },
+    "results.Ud9Mw3QZsGg2FB8T.name": {
+      "fr": "Froid mordant",
+      "en": "Biting cold"
+    },
+    "results.Ud9Mw3QZsGg2FB8T.description": {
+      "fr": "<p>Sans vêtements chauds, jet de sauvegarde de Constitution DD 10 à la tombée de la nuit ; un échec donne un niveau d'Épuisement. Le gel rend les pentes glissantes.</p>",
+      "en": "<p>Without warm clothes, DC 10 Constitution saving throw at nightfall; a failure gives one level of Exhaustion. The frost makes the slopes slippery.</p>"
+    },
+    "results.B09130lzuaauVnb3.name": {
+      "fr": "Pont effondré",
+      "en": "Collapsed bridge"
+    },
+    "results.B09130lzuaauVnb3.description": {
+      "fr": "<p>La rivière en crue a emporté le pont. Trouver un gué (Sagesse (Survie) DD 13), construire un passage, ou perdre une demi-journée à contourner.</p>",
+      "en": "<p>The river in flood has carried off the bridge. Find a ford (DC 13 Wisdom (Survival)), build a crossing, or lose half a day going around.</p>"
+    },
+    "results.2NEmfoJekYpr4nCx.name": {
+      "fr": "Route gardée",
+      "en": "Guarded road"
+    },
+    "results.2NEmfoJekYpr4nCx.description": {
+      "fr": "<p>Un poste de péage ou de faction barre le chemin. Payer, négocier (Charisme (Persuasion) DD 12), ou chercher un autre passage.</p>",
+      "en": "<p>A toll post or a faction post bars the way. Pay, negotiate (DC 12 Charisma (Persuasion)), or look for another passage.</p>"
+    },
+    "results.047dmbgFcjupQdVI.name": {
+      "fr": "Orage élémentaire",
+      "en": "Elemental storm"
+    },
+    "results.047dmbgFcjupQdVI.description": {
+      "fr": "<p>La foudre frappe trop souvent au même endroit. Vite, un abri : dehors, chaque heure, jet de sauvegarde de Dextérité DD 12 ou 2d6 dégâts de foudre. Un chaman y verrait des esprits en colère.</p>",
+      "en": "<p>Lightning strikes the same spot too often. Quick, shelter: outside, every hour, DC 12 Dexterity saving throw or 2d6 Lightning damage. A shaman would see angry spirits in it.</p>"
+    },
+    "results.CNAgIonP1YJRG4yV.name": {
+      "fr": "Ciel de gangrène",
+      "en": "Fel sky"
+    },
+    "results.CNAgIonP1YJRG4yV.description": {
+      "fr": "<p>Une lueur verte à l'horizon, une pluie qui sent le soufre. Rien n'arrive aujourd'hui, mais les bêtes sont nerveuses et quelqu'un, quelque part, invoque quelque chose.</p>",
+      "en": "<p>A green glow on the horizon, rain that smells of sulfur. Nothing happens today, but the beasts are nervous and someone, somewhere, is summoning something.</p>"
+    }
+  },
+  "tables/cQvTkAAcP7SKGDTs": {
+    "_nom": "Contrats de fête — La Trêve des Présents",
+    "name": {
+      "fr": "Contrats de fête — La Trêve des Présents",
+      "en": "Festival Contracts — The Truce of Presents"
+    },
+    "description": {
+      "fr": "<p>Les affiches de La Trêve des Présents, punaisées sur les tableaux des contrats pendant la fête (tout le mois de décembre, au plus fort du 24 au 26). Le MJ IA en ajoute une aux trois contrats du jour, ou les propose toutes le jour le plus fort de la fête.</p>",
+      "en": "<p>The posters of The Truce of Presents, pinned to the contract boards during the festival (all of December, at its height from the 24th to the 26th). The AI GM adds one to the day's three contracts, or offers them all on the festival's biggest day.</p>"
+    },
+    "flags.lakour-warcraft.aventure": {
+      "fr": "Fêtes des Tarides",
+      "en": "Festivals of the Barrens"
+    },
+    "results.2ORRsj0Q8VMw0wJ0.name": {
+      "fr": "Livraison — Le sapin du capitaine",
+      "en": "Delivery — The captain's fir tree"
+    },
+    "results.2ORRsj0Q8VMw0wJ0.description": {
+      "fr": "<p><strong>Commanditaire :</strong> le capitaine Corwen Haldis, envoyé de Theramore.</p><p>Un sapin du nord attend sur le quai de Cabestan : le porter jusqu'à la place du port de Theramore avant la veille du 24, droit, vert et entier. Une sentinelle jure qu'il a été coupé sans permission en Orneval et veut le saisir ; [[/check skill=per dc=13]]{Persuasion DD 13} pour la convaincre d'attendre que Theramore paie l'amende.</p><p><strong>Récompense :</strong> 50 po et <strong>+3</strong> de réputation auprès de : Alliance (Theramore).</p>",
+      "en": "<p><strong>Client:</strong> Captain Corwen Haldis, envoy of Theramore.</p><p>A fir tree from the north is waiting on the quay of Ratchet: carry it to the harbor square of Theramore before the eve of the 24th, upright, green and whole. A sentinel swears it was cut without permission in Ashenvale and wants to seize it; [[/check skill=per dc=13]]{DC 13 Persuasion} to convince her to wait until Theramore pays the fine.</p><p><strong>Reward:</strong> 50 gp and <strong>+3</strong> reputation with: Alliance (Theramore).</p>"
+    },
+    "results.VDRlPvJWBU4tEcvG.name": {
+      "fr": "Escorte — La Vieille aux Grelots",
+      "en": "Escort — Old Mother Bells"
+    },
+    "results.VDRlPvJWBU4tEcvG.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Hanuk Pas-de-Pluie, guide caravanier.</p><p>Hanuk, déguisé en Vieille aux Grelots, mène un kodo blanc chargé de présents vers les fermes et les campements des Tarides, jusqu'aux abords du kraal de Ronceroc. L'escorter trois nuits, sans gâcher la surprise des enfants ni laisser les hurans piller le chariot ([[/check skill=ste dc=12]]{Discrétion DD 12} pour passer devant une tente sans réveiller personne).</p><p><strong>Récompense :</strong> 45 po et <strong>+3</strong> de réputation auprès de : Horde (Le Carrefour).</p>",
+      "en": "<p><strong>Client:</strong> Hanuk Norain, caravan guide.</p><p>Hanuk, disguised as Old Mother Bells, leads a white kodo loaded with presents to the farms and camps of the Barrens, as far as the outskirts of the Thornrock kraal. Escort him for three nights, without spoiling the children's surprise or letting the quilboar plunder the wagon ([[/check skill=ste dc=12]]{DC 12 Stealth} to pass in front of a tent without waking anyone).</p><p><strong>Reward:</strong> 45 gp and <strong>+3</strong> reputation with: Horde (The Crossroads).</p>"
+    },
+    "results.yTjW3I8pBQGsBvbE.name": {
+      "fr": "Traque — Le voleur de grelots",
+      "en": "Hunt — The bell thief"
+    },
+    "results.yTjW3I8pBQGsBvbE.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Gornak Croc-Gris, intendant du Carrefour.</p><p>Chaque matin, des grelots manquent à l'Épineux du relais. Les coupables sont les harpies de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.91PomlVIbUiHDDMn]{Vieille Plume-Fiel}, qui en tapissent leur nid sur les pitons de la piste de Fort-Rivet. Rapporter douze grelots ; la matriarche, elle, ne les rendra pas de bon gré.</p><p><strong>Récompense :</strong> 40 po et <strong>+2</strong> de réputation auprès de : Horde (Le Carrefour).</p>",
+      "en": "<p><strong>Client:</strong> Gornak Greyfang, quartermaster of the Crossroads.</p><p>Every morning, bells are missing from the Thorntree of the waystation. The culprits are the harpies of @UUID[Compendium.lakour-warcraft.bestiaire.Actor.91PomlVIbUiHDDMn]{Old Gallfeather}, who line their nest with them on the spires of the Fort Rivet trail. Bring back twelve bells; the matriarch, for her part, will not give them back willingly.</p><p><strong>Reward:</strong> 40 gp and <strong>+2</strong> reputation with: Horde (The Crossroads).</p>"
+    }
+  },
+  "tables/hwGD7Ngm4yzU54cq": {
+    "_nom": "Butin — Mère-Brasier (Mèche-Noire)",
+    "name": {
+      "fr": "Butin — Mère-Brasier (Mèche-Noire)",
+      "en": "Loot — Mother Ember (Blackwick)"
+    },
+    "description": {
+      "fr": "<p>Quand Mère-Brasier s'éteint, tirez une fois. Si elle a été libérée sans être tuée, ne tirez pas : le groupe reçoit le Cœur de braise captif.</p>",
+      "en": "<p>When Mother Ember goes out, roll once. If she was freed without being killed, do not roll: the party receives the Captive Ember Heart.</p>"
+    }
+  },
+  "tables/iOGQpbmnvaq9MXpC": {
+    "_nom": "Complications",
+    "name": {
+      "fr": "Complications",
+      "en": "Complications"
+    },
+    "description": {
+      "fr": "<p>Quand tout se passe trop bien. Une seule à la fois.</p>",
+      "en": "<p>When everything is going too well. One at a time.</p>"
+    },
+    "results.EOPf1KBjprlUYuFU.description": {
+      "fr": "<p>Un témoin reconnaît un personnage, ou croit le reconnaître, et crie un nom.</p>",
+      "en": "<p>A witness recognizes a character, or thinks they do, and shouts a name.</p>"
+    },
+    "results.EfFdT2UoNoirBjdx.description": {
+      "fr": "<p>La pierre de foyer de quelqu'un est volée, ou liée à la mauvaise auberge.</p>",
+      "en": "<p>Someone's hearthstone is stolen, or bound to the wrong inn.</p>"
+    },
+    "results.wsd0MMPBhyiSzSlL.description": {
+      "fr": "<p>Un allié de l'autre faction est arrêté par des gardes zélés. Il faut le sortir de là, légalement ou non.</p>",
+      "en": "<p>An ally from the other faction is arrested by zealous guards. They must be gotten out, legally or not.</p>"
+    },
+    "results.IOAAEL2rvvgPHnw0.description": {
+      "fr": "<p>L'équipement gnome ou gobelin du groupe fait des étincelles, puis de la fumée, puis…</p>",
+      "en": "<p>The party's gnomish or goblin equipment sparks, then smokes, then…</p>"
+    },
+    "results.7rKDXr4aEHb7U4gw.description": {
+      "fr": "<p>Le contrat qu'on vient de signer comporte une clause en très petits caractères.</p>",
+      "en": "<p>The contract just signed has a clause in very small print.</p>"
+    },
+    "results.lyKwGZFhVrnc6fgY.description": {
+      "fr": "<p>La météo tourne : tempête de sable, brume du marécage ou neige de Dun Morogh.</p>",
+      "en": "<p>The weather turns: sandstorm, marsh mist or Dun Morogh snow.</p>"
+    },
+    "results.DxPquRKo7Ct6GkCk.description": {
+      "fr": "<p>Un ennemi vaincu revient, avec des amis et une bonne raison.</p>",
+      "en": "<p>A defeated enemy returns, with friends and a good reason.</p>"
+    },
+    "results.v2LtGmt9aNZ3PZPf.description": {
+      "fr": "<p>Une rumeur sur le groupe le précède dans la prochaine ville, très exagérée.</p>",
+      "en": "<p>A rumor about the party precedes it into the next town, greatly exaggerated.</p>"
+    },
+    "results.EWdKc0NSF1frov28.description": {
+      "fr": "<p>Un PNJ ami demande un service urgent, qui tombe très mal.</p>",
+      "en": "<p>A friendly NPC asks for an urgent favor, at a very bad time.</p>"
+    },
+    "results.sO3rACtqul5vanjZ.description": {
+      "fr": "<p>Un signe de la Légion (gangrène, cultiste, démon mineur) apparaît là où on ne l'attendait pas.</p>",
+      "en": "<p>A sign of the Legion (fel, a cultist, a minor demon) appears where no one expected it.</p>"
+    }
+  },
+  "tables/lTCn7NQqcOD8H1wz": {
+    "_nom": "Récolte — Marais d'Âprefange",
+    "name": {
+      "fr": "Récolte — Marais d'Âprefange",
+      "en": "Harvest — Dustwallow Marsh"
+    },
+    "description": {
+      "fr": "<p>Autour de Theramore et du Gué-Brumeux. Une heure de récolte : tirez une fois, puis faites le test du métier du composant (matériel d'herboriste ou Nature, outils de forgeron ou Athlétisme, outils de maroquinier ou Survie) : DD 10 pour un composant commun, 13 peu commun, 16 rare. Réussite : 1d4 unités ; échec : une seule. Un personnage récolte au plus quatre heures par jour.</p>",
+      "en": "<p>Around Theramore and Mistford. One hour of harvesting: roll once, then make the check for the component's profession (Herbalism Kit or Nature, Smith's Tools or Athletics, Leatherworker's Tools or Survival): DC 10 for a common component, 13 uncommon, 16 rare. Success: 1d4 units; failure: only one. A character harvests at most four hours per day.</p>"
+    },
+    "results.GyI0jeiA6jW73OSU.name": {
+      "fr": "Sables mouvants",
+      "en": "Quicksand"
+    },
+    "results.GyI0jeiA6jW73OSU.description": {
+      "fr": "<p>La berge s'enfonce sous les pieds : jet de sauvegarde de Force DD 12 ou entravé jusqu'à ce qu'un allié vous tire de là (action, Athlétisme DD 12).</p>",
+      "en": "<p>The bank gives way underfoot: DC 12 Strength saving throw or Restrained until an ally pulls you out (action, DC 12 Athletics).</p>"
+    }
+  },
+  "tables/nOWHgqtfYdyKFHcI": {
+    "_nom": "Trouvailles de voyage",
+    "name": {
+      "fr": "Trouvailles de voyage",
+      "en": "Travel Finds"
+    },
+    "description": {
+      "fr": "<p>Ce qu'on trouve dans un sac abandonné, un coffre de caravane ou la poche d'un bandit.</p>",
+      "en": "<p>What is found in an abandoned bag, a caravan chest or a bandit's pocket.</p>"
+    },
+    "results.4C1t6uXbuAb75T2w.name": {
+      "fr": "Une pierre de foyer",
+      "en": "A hearthstone"
+    },
+    "results.4C1t6uXbuAb75T2w.description": {
+      "fr": "<p>Une pierre de foyer liée à une auberge lointaine. À qui appartenait-elle, et qui l'attend là-bas ?</p>",
+      "en": "<p>A hearthstone bound to a distant inn. Who did it belong to, and who is waiting there?</p>"
+    }
+  },
+  "tables/o9A3IHBcJZOkQ8L4": {
+    "_nom": "Récolte — Collines rouges et cratère",
+    "name": {
+      "fr": "Récolte — Collines rouges et cratère",
+      "en": "Harvest — Red Hills and Crater"
+    },
+    "description": {
+      "fr": "<p>Entre Rouge-Veine, Gué-de-Sel et le cratère de Brasegouffre. Une heure de récolte : tirez une fois, puis faites le test du métier du composant (matériel d'herboriste ou Nature, outils de forgeron ou Athlétisme, outils de maroquinier ou Survie) : DD 10 pour un composant commun, 13 peu commun, 16 rare. Réussite : 1d4 unités ; échec : une seule. Un personnage récolte au plus quatre heures par jour.</p>",
+      "en": "<p>Between Redvein, Saltford and the crater of Emberchasm. One hour of harvesting: roll once, then make the check for the component's profession (Herbalism Kit or Nature, Smith's Tools or Athletics, Leatherworker's Tools or Survival): DC 10 for a common component, 13 uncommon, 16 rare. Success: 1d4 units; failure: only one. A character harvests at most four hours per day.</p>"
+    },
+    "results.XEnHlZsjiFKyetG5.name": {
+      "fr": "Gangrène",
+      "en": "Fel"
+    },
+    "results.XEnHlZsjiFKyetG5.description": {
+      "fr": "<p>Le filon ou la plante est souillé : une lueur verte, une odeur de soufre. Qui le touche fait un jet de sauvegarde de Constitution DD 12 ou gagne un niveau d'Épuisement. La Lame ardente n'est peut-être pas loin.</p>",
+      "en": "<p>The seam or the plant is tainted: a green glow, a smell of sulfur. Whoever touches it makes a DC 12 Constitution saving throw or gains one level of Exhaustion. The Burning Blade may not be far.</p>"
+    }
+  },
+  "tables/sJNBMZ7wUAUwqkxp": {
+    "_nom": "Contrats — Cabestan",
+    "name": {
+      "fr": "Contrats — Cabestan",
+      "en": "Contracts — Ratchet"
+    },
+    "description": {
+      "fr": "<p>Le panneau de liège à l'entrée du comptoir du Cartel, sur le quai : affiches tamponnées de la roue dentée, notes griffonnées, primes. Le MJ IA tire trois contrats par jour de jeu sur cette table (relancez les doublons et les contrats déjà pris) ; voir le journal « Tableau des contrats ».</p>",
+      "en": "<p>The cork board at the entrance of the Cartel trading post, on the quay: posters stamped with the cogwheel, scribbled notes, bounties. The AI GM draws three contracts per game day from this table (reroll duplicates and contracts already taken); see the \"Contract Board\" journal.</p>"
+    },
+    "results.iRrWNBWIcy396LW4.name": {
+      "fr": "Traque — La bouche de fer des marais",
+      "en": "Hunt — The iron maw of the marshes"
+    },
+    "results.iRrWNBWIcy396LW4.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Nixi Pèse-Juste, au nom des bateliers du Cartel.</p><p>Un crocilisque énorme, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.lLwQLxs3tufdW6rd]{Gueule-de-Fer}, coule les barques dans les marais salés au sud du port. Rapporter une de ses écailles dorsales. Les contrebandiers qui passent par là préfèreraient qu'on ne voie pas leur cargaison.</p><p><strong>Récompense :</strong> 80 po et <strong>+4</strong> de réputation auprès de : Cartel Gentepression.</p>",
+      "en": "<p><strong>Client:</strong> Nixi Fairweight, on behalf of the Cartel's boatmen.</p><p>An enormous crocolisk, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.lLwQLxs3tufdW6rd]{Ironjaw}, is sinking boats in the salt marshes south of the port. Bring back one of its back scales. The smugglers who pass through there would rather their cargo not be seen.</p><p><strong>Reward:</strong> 80 gp and <strong>+4</strong> reputation with: Steamwheedle Cartel.</p>"
+    },
+    "results.CjtusG0CQ7z2vXEr.name": {
+      "fr": "Traque — Le roi aux coquillages",
+      "en": "Hunt — The king with the shells"
+    },
+    "results.CjtusG0CQ7z2vXEr.description": {
+      "fr": "<p><strong>Commanditaire :</strong> la guilde des pêcheurs de Cabestan.</p><p>Un murloc couronné, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.RCBp8OUPgTUpSH8n]{Glouglou Premier}, lève « l'impôt » sur les filets de trois villages de la côte. Le chasser, le tuer ou obtenir une trêve écrite (le Cartel accepte une empreinte de nageoire).</p><p><strong>Récompense :</strong> 60 po et <strong>+3</strong> de réputation auprès de : Cartel Gentepression.</p>",
+      "en": "<p><strong>Client:</strong> the fishermen's guild of Ratchet.</p><p>A crowned murloc, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.RCBp8OUPgTUpSH8n]{Glubglub the First}, is levying \"the tax\" on the nets of three villages on the coast. Drive him off, kill him or obtain a written truce (the Cartel accepts a fin print).</p><p><strong>Reward:</strong> 60 gp and <strong>+3</strong> reputation with: Steamwheedle Cartel.</p>"
+    },
+    "results.xSUaSm9MIyvzhz4U.name": {
+      "fr": "Récolte — Sel blanc pour la saumure",
+      "en": "Harvest — White salt for the brine"
+    },
+    "results.xSUaSm9MIyvzhz4U.description": {
+      "fr": "<p><strong>Commanditaire :</strong> le saleur du quai, un gobelin pressé.</p><p>Rapporter vingt sacs de sel des marais salés avant la marée haute. Il faut un chariot, et chasser les crabes et les murlocs qui gardent les meilleurs bancs ([[/check skill=sur dc=12]]{Survie DD 12} pour trouver les bancs propres).</p><p><strong>Récompense :</strong> 30 po et <strong>+2</strong> de réputation auprès de : Cartel Gentepression.</p>",
+      "en": "<p><strong>Client:</strong> the quay's salter, a goblin in a hurry.</p><p>Bring back twenty sacks of salt from the salt marshes before high tide. It takes a wagon, and driving off the crabs and murlocs that guard the best beds ([[/check skill=sur dc=12]]{DC 12 Survival} to find the clean beds).</p><p><strong>Reward:</strong> 30 gp and <strong>+2</strong> reputation with: Steamwheedle Cartel.</p>"
+    },
+    "results.P6trdN2cwWTBytIV.name": {
+      "fr": "Récolte — Tessons pour la Ligue",
+      "en": "Harvest — Shards for the League"
+    },
+    "results.P6trdN2cwWTBytIV.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Bruni Martelfort, archiviste de la Ligue des explorateurs.</p><p>Rapporter cinq fragments gravés des ruines d'Eldrassal, intacts et avec l'endroit exact où chacun a été trouvé ([[/check skill=his dc=13]]{Histoire DD 13} pour reconnaître les bons). Les nagas y fouillent aussi.</p><p><strong>Récompense :</strong> 45 po et <strong>+3</strong> de réputation auprès de : Ligue des explorateurs.</p>",
+      "en": "<p><strong>Client:</strong> Bruni Strongmallet, archivist of the Explorers' League.</p><p>Bring back five engraved fragments from the ruins of Eldrassal, intact and with the exact spot where each was found ([[/check skill=his dc=13]]{DC 13 History} to recognize the right ones). The naga are digging there too.</p><p><strong>Reward:</strong> 45 gp and <strong>+3</strong> reputation with: Explorers' League.</p>"
+    },
+    "results.VLEqGcVODWqAkd6i.name": {
+      "fr": "Escorte — Le cartographe nerveux",
+      "en": "Escort — The nervous cartographer"
+    },
+    "results.VLEqGcVODWqAkd6i.description": {
+      "fr": "<p><strong>Commanditaire :</strong> la Ligue des explorateurs.</p><p>Accompagner Pip Écrou-d'Argent, cartographe gnome qui sursaute à chaque bruit, jusqu'à la crique d'Eldrassal et le ramener avec ses relevés, en deux jours. Il veut tout mesurer, surtout là où il ne faut pas.</p><p><strong>Récompense :</strong> 50 po et <strong>+3</strong> de réputation auprès de : Ligue des explorateurs.</p>",
+      "en": "<p><strong>Client:</strong> the Explorers' League.</p><p>Accompany Pip Silverbolt, a gnome cartographer who jumps at every sound, to the cove of Eldrassal and bring him back with his surveys, within two days. He wants to measure everything, especially where he should not.</p><p><strong>Reward:</strong> 50 gp and <strong>+3</strong> reputation with: Explorers' League.</p>"
+    },
+    "results.UTztU5steLqARNzR.name": {
+      "fr": "Escorte — La caisse qu'on n'ouvre pas",
+      "en": "Escort — The crate that stays shut"
+    },
+    "results.UTztU5steLqARNzR.description": {
+      "fr": "<p><strong>Commanditaire :</strong> un intermédiaire du Cartel qui ne donne pas son nom.</p><p>Escorter un chariot jusqu'au Carrefour sans ouvrir la caisse plombée. Elle est tiède, elle bouge, et elle a faim la nuit (c'est un petit de wyverne promis à un dresseur). Les Kolkar en ont entendu parler.</p><p><strong>Récompense :</strong> 60 po et <strong>+3</strong> de réputation auprès de : Cartel Gentepression.</p>",
+      "en": "<p><strong>Client:</strong> a Cartel middleman who gives no name.</p><p>Escort a wagon to the Crossroads without opening the lead-sealed crate. It is warm, it moves, and it is hungry at night (it is a wyvern whelp promised to a trainer). The Kolkar have heard about it.</p><p><strong>Reward:</strong> 60 gp and <strong>+3</strong> reputation with: Steamwheedle Cartel.</p>"
+    },
+    "results.fG080MlB5njaTngG.name": {
+      "fr": "Avis de recherche — Le capitaine au chapeau rouge",
+      "en": "Wanted — The captain in the red hat"
+    },
+    "results.fG080MlB5njaTngG.description": {
+      "fr": "<p><strong>Commanditaire :</strong> le Cartel Gentepression, par affiche officielle.</p><p>Mort ou vif : @UUID[Compendium.lakour-warcraft.bestiaire.Actor.MxwnrGN15l3gbGvg]{Capitaine Sel-Rouge}, corsaire du Cartel Baille-Fonds, pour le pillage de trois navires. Vivant, il rapporte 30 po de plus : le Cartel veut l'interroger.</p><p><strong>Récompense :</strong> 90 po et <strong>+4</strong> de réputation auprès de : Cartel Gentepression.</p>",
+      "en": "<p><strong>Client:</strong> the Steamwheedle Cartel, by official poster.</p><p>Dead or alive: @UUID[Compendium.lakour-warcraft.bestiaire.Actor.MxwnrGN15l3gbGvg]{Captain Redsalt}, Bilgewater Cartel privateer, for the plunder of three ships. Alive, he is worth 30 gp more: the Cartel wants to question him.</p><p><strong>Reward:</strong> 90 gp and <strong>+4</strong> reputation with: Steamwheedle Cartel.</p>"
+    },
+    "results.ZtsB8POFAakEGA4V.name": {
+      "fr": "Avis de recherche — La raffinerie qui fume",
+      "en": "Wanted — The smoking refinery"
+    },
+    "results.ZtsB8POFAakEGA4V.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Grizzla Tordeboulon, en personne.</p><p>Fermer la raffinerie du baron Nizzel Baille-Fonds, au nord du port, et saisir ses comptes : voir @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.c0tGHcTPLMP8ggpZ]{le donjon de Mèche-Noire}. La prime de l'affiche revient au groupe ; à la fermeture, Grizzla y ajoute 150 po par personnage, et 100 po pour le registre du baron.</p><p><strong>Récompense :</strong> 150 po et <strong>+5</strong> de réputation auprès de : Cartel Gentepression.</p>",
+      "en": "<p><strong>Client:</strong> Grizzla Boltwrench, in person.</p><p>Shut down the refinery of Baron Nizzel Bilgewater, north of the port, and seize his accounts: see @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.c0tGHcTPLMP8ggpZ]{the Blackwick dungeon}. The poster's bounty goes to the party; on closure, Grizzla adds 150 gp per character, and 100 gp for the baron's ledger.</p><p><strong>Reward:</strong> 150 gp and <strong>+5</strong> reputation with: Steamwheedle Cartel.</p>"
+    },
+    "results.6RJgCnG2vJyT3FiN.name": {
+      "fr": "Livraison — Bandages pour l'Aube",
+      "en": "Delivery — Bandages for the Dawn"
+    },
+    "results.6RJgCnG2vJyT3FiN.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Sœur Linnea Clairmatin, de l'Aube d'argent.</p><p>Porter une caisse de @UUID[Compendium.lakour-warcraft.objets.Item.ir70JZS8pByBzcgW]{bandages} et d'eau bénite à une ferme en quarantaine sur la route du Carrefour. Les fermiers ont peur de tout le monde, et l'un d'eux cache un parent qui « ne va pas bien du tout ».</p><p><strong>Récompense :</strong> 25 po et <strong>+2</strong> de réputation auprès de : Aube d'argent.</p>",
+      "en": "<p><strong>Client:</strong> Sister Linnea Brightmorn, of the Argent Dawn.</p><p>Carry a crate of @UUID[Compendium.lakour-warcraft.objets.Item.ir70JZS8pByBzcgW]{bandages} and holy water to a farm under quarantine on the Crossroads road. The farmers are afraid of everyone, and one of them is hiding a relative who is \"not well at all\".</p><p><strong>Reward:</strong> 25 gp and <strong>+2</strong> reputation with: Argent Dawn.</p>"
+    },
+    "results.mvuCjUe02usmahLo.name": {
+      "fr": "Livraison — Le pli du Kirin Tor",
+      "en": "Delivery — The Kirin Tor's letter"
+    },
+    "results.mvuCjUe02usmahLo.description": {
+      "fr": "<p><strong>Commanditaire :</strong> un mage de passage, pressé de reprendre le bateau.</p><p>Porter un pli scellé à la tour des mages de Theramore sans l'ouvrir. Quelqu'un le veut : un voleur à la tire au port, puis un faux garde à l'arrivée. Ouvert, le pli ne contient qu'une liste d'artefacts, et le sceau brisé se voit.</p><p><strong>Récompense :</strong> 35 po et <strong>+3</strong> de réputation auprès de : Kirin Tor.</p>",
+      "en": "<p><strong>Client:</strong> a passing mage, in a hurry to catch his boat.</p><p>Carry a sealed letter to the mages' tower of Theramore without opening it. Someone wants it: a pickpocket at the harbor, then a fake guard on arrival. Opened, the letter contains only a list of artifacts, and the broken seal shows.</p><p><strong>Reward:</strong> 35 gp and <strong>+3</strong> reputation with: Kirin Tor.</p>"
+    }
+  },
+  "tables/uHs3owEV50iyMo6b": {
+    "_nom": "Rares et élites — Nord des Tarides",
+    "name": {
+      "fr": "Rares et élites — Nord des Tarides",
+      "en": "Rares and Elites — Northern Barrens"
+    },
+    "description": {
+      "fr": "<p>Entre le Carrefour, Fort-Rivet, le kraal de Ronceroc et la mine de Rouge-Veine. Une fois par jour de voyage dans la zone, sur 1 sur 1d6, tirez sur cette table. Chaque créature nommée porte un butin garanti (voir sa note du MJ) ; une créature vaincue ne revient pas : relancez si elle sort de nouveau.</p>",
+      "en": "<p>Between the Crossroads, Fort Rivet, the Thornrock kraal and the Redvein mine. Once per day of travel in the area, on a 1 on 1d6, roll on this table. Each named creature carries guaranteed loot (see its GM note); a defeated creature does not come back: reroll if it comes up again.</p>"
+    },
+    "flags.lakour-warcraft.aventure": {
+      "fr": "Les Tarides vivantes",
+      "en": "The Living Barrens"
+    },
+    "results.5qsIljIUdZJ1pjk5.name": {
+      "fr": "Une piste fraîche",
+      "en": "A fresh trail"
+    },
+    "results.5qsIljIUdZJ1pjk5.description": {
+      "fr": "<p>Pas de rare aujourd'hui, mais une trace : des herbes brûlées en cercle, des plumes vert-de-gris ou des traînées de rouille. Le lendemain, la rencontre est assurée (tirez de nouveau 1d3).</p>",
+      "en": "<p>No rare today, but a trace: grass burned in a circle, verdigris feathers or trails of rust. The next day, the encounter is certain (roll 1d3 again).</p>"
+    }
+  },
+  "tables/ucNQfx3RE78yE0T6": {
+    "_nom": "Rencontres sur la route",
+    "name": {
+      "fr": "Rencontres sur la route",
+      "en": "Road Encounters"
+    },
+    "description": {
+      "fr": "<p>Une rencontre par demi-journée de voyage en terrain sauvage, si le MJ le souhaite. Adaptez le nombre au groupe.</p>",
+      "en": "<p>One encounter per half day of travel in wild terrain, if the GM wishes. Adjust the numbers to the party.</p>"
+    },
+    "results.qzNp3b53sIo6eWuX.description": {
+      "fr": "<p>Une famille de réfugiés de Lordaeron, un chariot cassé, un enfant malade. Ils ont peur de vous.</p>",
+      "en": "<p>A family of Lordaeron refugees, a broken wagon, a sick child. They are afraid of you.</p>"
+    },
+    "results.wojyXqbE95iBibiV.description": {
+      "fr": "<p>Une patrouille de l'autre faction, aussi surprise que vous. Personne ne veut commencer.</p>",
+      "en": "<p>A patrol of the other faction, as surprised as you are. Nobody wants to start.</p>"
+    },
+    "results.cFz2hEiZ0VQHY5dC.description": {
+      "fr": "<p>Trois murlocs qui gardent un tas de poissons pourris comme un trésor. Il y a peut-être vraiment quelque chose dessous.</p>",
+      "en": "<p>Three murlocs guarding a heap of rotten fish like a treasure. There may really be something underneath.</p>"
+    },
+    "results.BzghMbGKqSnvUXNe.description": {
+      "fr": "<p>Un gnome dans un appareil volant en panne, accroché à un arbre. Il propose un « partenariat ».</p>",
+      "en": "<p>A gnome in a broken-down flying machine, caught in a tree. He proposes a \"partnership\".</p>"
+    },
+    "results.ltvpZ1HsuagjEro1.description": {
+      "fr": "<p>Une meute de loups affamés, menée par une louve énorme aux yeux trop intelligents.</p>",
+      "en": "<p>A pack of starving wolves, led by an enormous she-wolf with eyes too intelligent.</p>"
+    },
+    "results.SfxIKBngRJGkHFUR.description": {
+      "fr": "<p>Des quilboars ou des gnolls qui rançonnent le passage. Négociables, avec de la viande.</p>",
+      "en": "<p>Quilboar or gnolls shaking down travelers for passage. Negotiable, with meat.</p>"
+    },
+    "results.eDRyPgnODV3xTdUo.description": {
+      "fr": "<p>Un marchand gobelin et ses deux gardes ogres. Il vend tout, très cher, et achète tout, très peu cher.</p>",
+      "en": "<p>A goblin merchant and his two ogre guards. He sells everything, very dear, and buys everything, very cheap.</p>"
+    },
+    "results.mMUuEtMFb516EP7K.description": {
+      "fr": "<p>Une poignée de goules qui fouillent une ferme abandonnée. Le Fléau n'est pas loin.</p>",
+      "en": "<p>A handful of ghouls rummaging through an abandoned farm. The Scourge is not far.</p>"
+    },
+    "results.GwL0kE5GTSpQG1qF.description": {
+      "fr": "<p>Un druide cénarien qui exige de savoir pourquoi vous traversez sa forêt.</p>",
+      "en": "<p>A Cenarion druid who demands to know why you are crossing his forest.</p>"
+    },
+    "results.UbhSWCwEQyYR76NA.description": {
+      "fr": "<p>Un orage élémentaire : la foudre frappe trois fois au même endroit. Un chaman dirait que les esprits sont en colère.</p>",
+      "en": "<p>An elemental storm: lightning strikes three times in the same spot. A shaman would say the spirits are angry.</p>"
+    },
+    "results.kAzfjs4RGxOatqJr.description": {
+      "fr": "<p>Un croisé écarlate blessé, seul. Il demande de l'aide et vous juge déjà.</p>",
+      "en": "<p>A wounded Scarlet crusader, alone. He asks for help and is already judging you.</p>"
+    },
+    "results.irwEPt3DBA9zZCGU.description": {
+      "fr": "<p>Un cultiste en fuite qui serre un livre relié de peau verte. Ses poursuivants arrivent.</p>",
+      "en": "<p>A fleeing cultist clutching a book bound in green skin. His pursuers are coming.</p>"
+    }
+  },
+  "tables/umpu4Hu719TnMdAO": {
+    "_nom": "Bruits de la nuit aux Deux Lanternes",
+    "name": {
+      "fr": "Bruits de la nuit aux Deux Lanternes",
+      "en": "Noises of the Night at the Two Lanterns"
+    },
+    "description": {
+      "fr": "<p>Entre deux scènes de l'acte 1, ou quand la table s'endort : un événement de la nuit d'orage au relais. Chacun peut servir d'indice, de fausse piste ou de prétexte à une dispute.</p>",
+      "en": "<p>Between two scenes of act 1, or when the table is dozing off: an event of the stormy night at the waystation. Each can serve as a clue, a red herring or a pretext for a quarrel.</p>"
+    },
+    "flags.lakour-warcraft.aventure": {
+      "fr": "Une nuit aux Deux Lanternes",
+      "en": "A Night at the Two Lanterns"
+    },
+    "results.pWKZ6sG8tVYOH6ZL.name": {
+      "fr": "Le coup de tonnerre",
+      "en": "The thunderclap"
+    },
+    "results.pWKZ6sG8tVYOH6ZL.description": {
+      "fr": "<p>Toutes les chandelles de la salle commune s'éteignent d'un coup. Quand on les rallume, Kazra s'est postée entre Vesper et la porte, la main sur sa hache.</p>",
+      "en": "<p>All the candles in the common room go out at once. When they are relit, Kazra has planted herself between Vesper and the door, her hand on her axe.</p>"
+    },
+    "results.ALN7S3ej4llOGMSn.name": {
+      "fr": "Le loup qui gronde",
+      "en": "The growling wolf"
+    },
+    "results.ALN7S3ej4llOGMSn.description": {
+      "fr": "<p>À l'écurie, Cendre, le loup de Kazra, gronde vers la cuisine, poils hérissés, et refuse de s'éloigner du mur. Juste derrière se trouve la trappe de la cave.</p>",
+      "en": "<p>In the stable, Ash, Kazra's wolf, growls toward the kitchen, hackles raised, and refuses to move away from the wall. Right behind it is the cellar trapdoor.</p>"
+    },
+    "results.vXdoLRkecyKnw23O.name": {
+      "fr": "On frappe à la porte",
+      "en": "A knock at the door"
+    },
+    "results.vXdoLRkecyKnw23O.description": {
+      "fr": "<p>Trois coups. Personne dehors. Dans la boue, des traces de pieds nus viennent de la rivière jusqu'au seuil, puis y retournent.</p>",
+      "en": "<p>Three knocks. No one outside. In the mud, bare footprints come from the river to the threshold, then go back.</p>"
+    },
+    "results.5yQ7AEQegJEPxZnP.name": {
+      "fr": "Talismans anti-revenants",
+      "en": "Anti-revenant talismans"
+    },
+    "results.5yQ7AEQegJEPxZnP.description": {
+      "fr": "<p>Pip Zinguette fait le tour des tables avec ses talismans anti-revenants, deux pièces d'or l'un. Il en a déjà vendu six. Aucun ne marche, mais Pip y croit un peu.</p>",
+      "en": "<p>Pip Zinklet goes around the tables with his anti-revenant talismans, two gold pieces each. He has already sold six. None of them works, but Pip believes in them a little.</p>"
+    },
+    "results.oxqURUCYB3WNaOXM.name": {
+      "fr": "La cloche qui répond",
+      "en": "The bell that answers"
+    },
+    "results.oxqURUCYB3WNaOXM.description": {
+      "fr": "<p>La clochette du bac tinte seule au bout de sa corde. Très loin sur le marais, une cloche plus grave lui répond, une seule fois.</p>",
+      "en": "<p>The ferry's little bell rings on its own at the end of its rope. Far off across the marsh, a deeper bell answers it, just once.</p>"
+    },
+    "results.fJBA4cWAPwgAuLfC.name": {
+      "fr": "La berceuse",
+      "en": "The lullaby"
+    },
+    "results.fJBA4cWAPwgAuLfC.description": {
+      "fr": "<p>Fenna fredonne en dormant une berceuse du nord de Lordaeron. Vesper, qui ne dort jamais, la connaît, et la termine à voix basse.</p>",
+      "en": "<p>Fenna hums a lullaby from the north of Lordaeron in her sleep. Vesper, who never sleeps, knows it, and finishes it under her breath.</p>"
+    },
+    "results.yWIWdpKFFXd6saQ9.name": {
+      "fr": "Le râtelier",
+      "en": "The weapon rack"
+    },
+    "results.yWIWdpKFFXd6saQ9.description": {
+      "fr": "<p>Le sergent Pell et Kazra s'accusent l'un l'autre d'avoir touché à leurs armes. Personne n'y a touché : l'eau monte sous le plancher et fait pencher le râtelier.</p>",
+      "en": "<p>Sergeant Pell and Kazra accuse each other of having touched their weapons. Nobody touched them: the water is rising under the floorboards and tilting the rack.</p>"
+    },
+    "results.bruB2RkdcMo6LNsU.name": {
+      "fr": "L'odeur sucrée",
+      "en": "The sweet smell"
+    },
+    "results.bruB2RkdcMo6LNsU.description": {
+      "fr": "<p>Une odeur de miel tourné monte entre les lattes de la cuisine. Durgan jure qu'il a muré la vieille cave des contrebandiers il y a deux ans.</p>",
+      "en": "<p>A smell of turned honey rises between the boards of the kitchen. Durgan swears he walled up the old smugglers' cellar two years ago.</p>"
+    }
+  },
+  "tables/w0SQN2xuHnkAl6sY": {
+    "_nom": "Récolte — Côte et criques",
+    "name": {
+      "fr": "Récolte — Côte et criques",
+      "en": "Harvest — Coast and Coves"
+    },
+    "description": {
+      "fr": "<p>De Cabestan à la crique d'Eldrassal. Une heure de récolte : tirez une fois, puis faites le test du métier du composant (matériel d'herboriste ou Nature, outils de forgeron ou Athlétisme, outils de maroquinier ou Survie) : DD 10 pour un composant commun, 13 peu commun, 16 rare. Réussite : 1d4 unités ; échec : une seule. Un personnage récolte au plus quatre heures par jour.</p>",
+      "en": "<p>From Ratchet to the cove of Eldrassal. One hour of harvesting: roll once, then make the check for the component's profession (Herbalism Kit or Nature, Smith's Tools or Athletics, Leatherworker's Tools or Survival): DC 10 for a common component, 13 uncommon, 16 rare. Success: 1d4 units; failure: only one. A character harvests at most four hours per day.</p>"
+    },
+    "results.8tvksPVcsu6TWSyh.name": {
+      "fr": "La marée monte",
+      "en": "The tide rises"
+    },
+    "results.8tvksPVcsu6TWSyh.description": {
+      "fr": "<p>La mer remonte plus vite que prévu : il faut sortir des rochers (Athlétisme DD 12) ou perdre l'heure et son sac de récolte.</p>",
+      "en": "<p>The sea comes back faster than expected: get off the rocks (DC 12 Athletics) or lose the hour and your harvest bag.</p>"
+    }
+  },
+  "tables/wFOdn4WPlAPvdEOR": {
+    "_nom": "Butin — Grokka Deux-Clés (Mèche-Noire)",
+    "name": {
+      "fr": "Butin — Grokka Deux-Clés (Mèche-Noire)",
+      "en": "Loot — Grokka Two-Keys (Blackwick)"
+    },
+    "description": {
+      "fr": "<p>Une fois Grokka vaincu (ou rendu), tirez une fois. Ajoutez toujours ses deux clés (grille du Puits, coffre des paies : 60 po) et 2d10 po dans ses poches.</p>",
+      "en": "<p>Once Grokka is defeated (or has surrendered), roll once. Always add his two keys (Shaft grate, payroll chest: 60 gp) and 2d10 gp in his pockets.</p>"
+    },
+    "flags.lakour-warcraft.aventure": {
+      "fr": "La Raffinerie de Mèche-Noire",
+      "en": "The Blackwick Refinery"
+    }
+  },
+  "tables/xLGnHbXKzzIajN6o": {
+    "_nom": "Contrats — Theramore",
+    "name": {
+      "fr": "Contrats — Theramore",
+      "en": "Contracts — Theramore"
+    },
+    "description": {
+      "fr": "<p>Le tableau d'affichage du Guet, sous l'arche du port de Theramore, aux affiches bien alignées et tamponnées du lion. Le MJ IA tire trois contrats par jour de jeu sur cette table (relancez les doublons et les contrats déjà pris) ; voir le journal « Tableau des contrats ».</p>",
+      "en": "<p>The Watch's notice board, under the arch of Theramore's harbor, its posters neatly aligned and stamped with the lion. The AI GM draws three contracts per game day from this table (reroll duplicates and contracts already taken); see the \"Contract Board\" journal.</p>"
+    },
+    "results.Pz2dgnC6UDLcHj6b.name": {
+      "fr": "Traque — Le rire dans les collines",
+      "en": "Hunt — The laughter in the hills"
+    },
+    "results.Pz2dgnC6UDLcHj6b.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Maëlis Hautepierre, au nom du Guet de Theramore.</p><p>Une chasseresse satyre, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.2DZv3K0IpC4pN4q4]{Vexxa la Rieuse}, abat les éclaireurs de Theramore sur la route de Gué-de-Sel. La tuer, ou la faire fuir pour de bon. Pour des aventuriers aguerris (niveau 5 ou plus).</p><p><strong>Récompense :</strong> 90 po et <strong>+4</strong> de réputation auprès de : Alliance (Theramore).</p>",
+      "en": "<p><strong>Client:</strong> Maelis Highstone, on behalf of the Theramore Watch.</p><p>A satyr huntress, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.2DZv3K0IpC4pN4q4]{Vexxa the Laughing}, is picking off Theramore's scouts on the Saltford road. Kill her, or drive her off for good. For seasoned adventurers (level 5 or higher).</p><p><strong>Reward:</strong> 90 gp and <strong>+4</strong> reputation with: Alliance (Theramore).</p>"
+    },
+    "results.BzjFxZkFAyRGqHsP.name": {
+      "fr": "Traque — Le monstre de la route du sud",
+      "en": "Hunt — The monster of the south road"
+    },
+    "results.BzjFxZkFAyRGqHsP.description": {
+      "fr": "<p><strong>Commanditaire :</strong> un convoyeur de Theramore qui a tout perdu.</p><p>Un kodo couvert de verre noir, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.UtyMTirY1LFaq5GB]{Sabot-de-Verre}, a renversé deux chariots sur la route de Gué-de-Sel. L'abattre ; les taurens demandent qu'on le fasse sans le faire souffrir, et le diront à qui voudra l'entendre.</p><p><strong>Récompense :</strong> 80 po et <strong>+3</strong> de réputation auprès de : Alliance (Theramore).</p>",
+      "en": "<p><strong>Client:</strong> a Theramore carter who has lost everything.</p><p>A kodo covered in black glass, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.UtyMTirY1LFaq5GB]{Glasshoof}, has overturned two wagons on the Saltford road. Put it down; the tauren ask that it be done without making it suffer, and will tell anyone who will listen.</p><p><strong>Reward:</strong> 80 gp and <strong>+3</strong> reputation with: Alliance (Theramore).</p>"
+    },
+    "results.wrogElo0gUNK7kTo.name": {
+      "fr": "Récolte — Fleurs-de-brume",
+      "en": "Harvest — Mistblooms"
+    },
+    "results.wrogElo0gUNK7kTo.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Magistère Aldren Vif-Argent, pour le Kirin Tor.</p><p>Cueillir huit fleurs-de-brume dans le marécage d'Âprefange, à l'aube et pas après ([[/check skill=nat dc=13]]{Nature DD 13} pour les reconnaître). Les alchimistes de la tour en font des potions de mana.</p><p><strong>Récompense :</strong> 30 po et <strong>+2</strong> de réputation auprès de : Kirin Tor.</p>",
+      "en": "<p><strong>Client:</strong> Magister Aldren Quicksilver, for the Kirin Tor.</p><p>Pick eight mistblooms in Dustwallow Marsh, at dawn and not after ([[/check skill=nat dc=13]]{DC 13 Nature} to recognize them). The alchemists of the tower make mana potions from them.</p><p><strong>Reward:</strong> 30 gp and <strong>+2</strong> reputation with: Kirin Tor.</p>"
+    },
+    "results.Ggh1yzOuUvC8ZFxS.name": {
+      "fr": "Récolte — Échantillons de gangrène",
+      "en": "Harvest — Fel samples"
+    },
+    "results.Ggh1yzOuUvC8ZFxS.description": {
+      "fr": "<p><strong>Commanditaire :</strong> le Kirin Tor.</p><p>Prélever l'eau de trois oasis souillées des Tarides dans des fioles scellées ([[/check skill=arc dc=13]]{Arcanes DD 13} pour le faire sans se contaminer). Le Kirin Tor veut comprendre d'où vient la gangrène. La Lame ardente préfèrerait qu'il ne le comprenne pas.</p><p><strong>Récompense :</strong> 45 po et <strong>+3</strong> de réputation auprès de : Kirin Tor.</p>",
+      "en": "<p><strong>Client:</strong> the Kirin Tor.</p><p>Draw the water of three tainted oases of the Barrens into sealed vials ([[/check skill=arc dc=13]]{DC 13 Arcana} to do it without contaminating yourself). The Kirin Tor wants to understand where the fel comes from. The Burning Blade would rather it did not.</p><p><strong>Reward:</strong> 45 gp and <strong>+3</strong> reputation with: Kirin Tor.</p>"
+    },
+    "results.i8NjCTYaf2mNxJWW.name": {
+      "fr": "Escorte — Les réfugiés de Lordaeron",
+      "en": "Escort — The refugees of Lordaeron"
+    },
+    "results.i8NjCTYaf2mNxJWW.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Frère Odric Pierrelune, de la Main d'argent.</p><p>Escorter une douzaine de réfugiés jusqu'aux terres qu'on leur a promises au bord du marais, en évitant les patrouilles de la Horde nerveuses. L'un d'eux a été mordu par une goule et ne l'a dit à personne.</p><p><strong>Récompense :</strong> 40 po et <strong>+3</strong> de réputation auprès de : Chevaliers de la Main d'argent.</p>",
+      "en": "<p><strong>Client:</strong> Brother Odric Moonstone, of the Silver Hand.</p><p>Escort a dozen refugees to the lands they were promised at the edge of the marsh, avoiding the nervous Horde patrols. One of them was bitten by a ghoul and has told no one.</p><p><strong>Reward:</strong> 40 gp and <strong>+3</strong> reputation with: Knights of the Silver Hand.</p>"
+    },
+    "results.z3fo1npItI4bJuIf.name": {
+      "fr": "Escorte — La sentinelle blessée",
+      "en": "Escort — The wounded sentinel"
+    },
+    "results.z3fo1npItI4bJuIf.description": {
+      "fr": "<p><strong>Commanditaire :</strong> les Sentinelles.</p><p>Ramener l'éclaireuse Ilaria Feuille-Sombre, blessée et fiévreuse, jusqu'au poste de la Lisière au nord des Tarides. Elle a vu quelque chose dans les collines rouges et ne le dira qu'à son intendante.</p><p><strong>Récompense :</strong> 50 po et <strong>+3</strong> de réputation auprès de : Sentinelles.</p>",
+      "en": "<p><strong>Client:</strong> the Sentinels.</p><p>Bring the scout Ilaria Darkleaf, wounded and feverish, back to the Forest's Edge post in the northern Barrens. She saw something in the red hills and will tell only her quartermaster.</p><p><strong>Reward:</strong> 50 gp and <strong>+3</strong> reputation with: Sentinels.</p>"
+    },
+    "results.Svh1rZYCsIP84rN8.name": {
+      "fr": "Avis de recherche — Le khan des collines rouges",
+      "en": "Wanted — The khan of the red hills"
+    },
+    "results.Svh1rZYCsIP84rN8.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Maëlis Hautepierre.</p><p>Mort ou vif : @UUID[Compendium.lakour-warcraft.bestiaire.Actor.QUScvpfLBVyjpYzE]{Khan Ventrouge}, seigneur kolkar. Le Carrefour offre la même prime ; le Guet tient à ce que ce soit l'Alliance qui la touche.</p><p><strong>Récompense :</strong> 80 po et <strong>+4</strong> de réputation auprès de : Alliance (Theramore).</p>",
+      "en": "<p><strong>Client:</strong> Maelis Highstone.</p><p>Dead or alive: @UUID[Compendium.lakour-warcraft.bestiaire.Actor.QUScvpfLBVyjpYzE]{Khan Redbelly}, Kolkar lord. The Crossroads is offering the same bounty; the Watch is keen that it be the Alliance that collects it.</p><p><strong>Reward:</strong> 80 gp and <strong>+4</strong> reputation with: Alliance (Theramore).</p>"
+    },
+    "results.uneC0mn1cVZw5vif.name": {
+      "fr": "Avis de recherche — Le docteur des marais",
+      "en": "Wanted — The marsh doctor"
+    },
+    "results.uneC0mn1cVZw5vif.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Sœur Linnea Clairmatin, pour l'Aube d'argent.</p><p>Débusquer un @UUID[Compendium.lakour-warcraft.bestiaire.Actor.ztoJXQwhFHGZcx2J]{nécromancien du Culte des Damnés} qui s'est installé dans une ferme abandonnée d'Âprefange et y « soigne » les mourants. Le ramener vivant pour qu'il soit jugé.</p><p><strong>Récompense :</strong> 70 po et <strong>+4</strong> de réputation auprès de : Aube d'argent.</p>",
+      "en": "<p><strong>Client:</strong> Sister Linnea Brightmorn, for the Argent Dawn.</p><p>Flush out a @UUID[Compendium.lakour-warcraft.bestiaire.Actor.ztoJXQwhFHGZcx2J]{necromancer of the Cult of the Damned} who has settled in an abandoned farm in Dustwallow and \"treats\" the dying there. Bring him back alive to be judged.</p><p><strong>Reward:</strong> 70 gp and <strong>+4</strong> reputation with: Argent Dawn.</p>"
+    },
+    "results.cJr16xoiwtbVp9Kf.name": {
+      "fr": "Livraison — Le courrier du capitaine",
+      "en": "Delivery — The captain's mail"
+    },
+    "results.cJr16xoiwtbVp9Kf.description": {
+      "fr": "<p><strong>Commanditaire :</strong> un officier de Theramore.</p><p>Porter une lettre du capitaine Corwen Haldis au Bureau de la Trêve de Cabestan, avant le soir du troisième jour. La lettre parle de la Horde en termes peu diplomatiques : mieux vaut qu'elle ne tombe pas dans les mauvaises mains.</p><p><strong>Récompense :</strong> 25 po et <strong>+2</strong> de réputation auprès de : Alliance (Theramore).</p>",
+      "en": "<p><strong>Client:</strong> an officer of Theramore.</p><p>Carry a letter from Captain Corwen Haldis to the Truce Office of Ratchet, before the evening of the third day. The letter speaks of the Horde in undiplomatic terms: better that it not fall into the wrong hands.</p><p><strong>Reward:</strong> 25 gp and <strong>+2</strong> reputation with: Alliance (Theramore).</p>"
+    },
+    "results.jf5RU2rEvHLSEZ0L.name": {
+      "fr": "Livraison — La caisse de mithril",
+      "en": "Delivery — The crate of mithril"
+    },
+    "results.jf5RU2rEvHLSEZ0L.description": {
+      "fr": "<p><strong>Commanditaire :</strong> Bruni Martelfort, par lettre.</p><p>Porter une petite caisse de mithril brut, très lourde, du port de Theramore au comptoir de la Ligue à Cabestan. Le Cartel Baille-Fonds a payé quelqu'un pour la détourner en route.</p><p><strong>Récompense :</strong> 40 po et <strong>+3</strong> de réputation auprès de : Ligue des explorateurs.</p>",
+      "en": "<p><strong>Client:</strong> Bruni Strongmallet, by letter.</p><p>Carry a small crate of raw mithril, very heavy, from the port of Theramore to the League's office in Ratchet. The Bilgewater Cartel has paid someone to divert it on the way.</p><p><strong>Reward:</strong> 40 gp and <strong>+3</strong> reputation with: Explorers' League.</p>"
+    }
+  },
+  "tables/z3E7n0j8KL83Jp6M": {
+    "_nom": "Butin — Baron Nizzel Baille-Fonds (Mèche-Noire)",
+    "name": {
+      "fr": "Butin — Baron Nizzel Baille-Fonds (Mèche-Noire)",
+      "en": "Loot — Baron Nizzel Bilgewater (Blackwick)"
+    },
+    "description": {
+      "fr": "<p>Dans la carcasse du Grand Déchiqueteur et la cabine du baron : tirez deux fois (relancez un doublon). Le Registre du Cartel Baille-Fonds est toujours dans la cabine, en plus du tirage.</p>",
+      "en": "<p>In the hulk of the Great Shredder and the baron's cabin: roll twice (reroll a duplicate). The Bilgewater Cartel Ledger is always in the cabin, in addition to the roll.</p>"
+    }
+  }
+}

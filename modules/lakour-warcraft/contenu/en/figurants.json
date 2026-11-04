@@ -1,0 +1,18 @@
+{
+  "_commentaire": "Libellés anglais des figurants (assets/jetons/figurants.json, champ « libelle », lu par le MJ IA) : appliqués à la copie des assets dans lakour-warcraft-en par outils/fabriquer-warcraft.mjs --langue en. Clé : le type de figurant.",
+  "paysan": "Peasant",
+  "garde-alliance": "Alliance guard",
+  "grunt": "Horde grunt",
+  "marchand": "Merchant",
+  "pelerin": "Pilgrim",
+  "mineur": "Miner",
+  "marin": "Sailor",
+  "enfant": "Child",
+  "pretre": "Priest of the Light",
+  "bandit": "Bandit",
+  "kobold": "Kobold",
+  "murloc": "Murloc",
+  "gobelin": "Goblin",
+  "cultiste": "Cultist",
+  "mort-vivant": "Undead"
+}

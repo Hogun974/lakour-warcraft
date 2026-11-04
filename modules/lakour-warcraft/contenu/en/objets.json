@@ -1,0 +1,1851 @@
+{
+  "objets/01FqMSTuhh4RI7sF": {
+    "_nom": "Lettre de change du cartel Gentepression",
+    "name": {
+      "fr": "Lettre de change du cartel Gentepression",
+      "en": "Steamwheedle Cartel Letter of Credit"
+    },
+    "system.description.value": {
+      "fr": "<p>Un papier scellé à la cire verte, payable à vue dans n'importe quel comptoir gobelin (Baie-du-Butin, Gadgetzan, Cabestan), moins une commission « raisonnable » de 10 %.</p>",
+      "en": "<p>A paper sealed with green wax, payable on sight at any goblin trading post (Booty Bay, Gadgetzan, Ratchet), minus a \"reasonable\" 10% commission.</p>"
+    }
+  },
+  "objets/05y9X0DPrzmmIeSP": {
+    "_nom": "Dague d'apothicaire de Fossoyeuse",
+    "name": {
+      "fr": "Dague d'apothicaire de Fossoyeuse",
+      "en": "Undercity Apothecary's Dagger"
+    },
+    "system.description.value": {
+      "fr": "<p>Une dague étroite dont la gouttière creuse peut recevoir une dose de poison sans qu'il coule. La Société royale des apothicaires en équipe ses agents de terrain. Enduire la lame d'un poison déjà préparé ne demande qu'une <strong>action bonus</strong>.</p>",
+      "en": "<p>A narrow dagger whose hollow groove can hold a dose of poison without it running. The Royal Apothecary Society issues it to its field agents. Coating the blade with an already prepared poison takes only a <strong>Bonus Action</strong>.</p>"
+    }
+  },
+  "objets/0F1inv3elmHoi0bT": {
+    "_nom": "Pique du Guet de Theramore",
+    "name": {
+      "fr": "Pique du Guet de Theramore",
+      "en": "Theramore Watch Pike"
+    },
+    "system.description.value": {
+      "fr": "<p>Une longue hampe de frêne et un fer en feuille de saule. Sur les quais de Theramore, le Guet en dresse un mur face aux marais : un assaillant qui touche la pointe est repoussé dans la vase.</p>",
+      "en": "<p>A long ash shaft and a willow-leaf head. On the quays of Theramore, the Watch raises a wall of them facing the marshes: an attacker who meets the point is shoved back into the mud.</p>"
+    }
+  },
+  "objets/0Lb8TdNr7TardQq1": {
+    "_nom": "Talisman de verre noir",
+    "name": {
+      "fr": "Talisman de verre noir",
+      "en": "Black Glass Talisman"
+    },
+    "system.description.value": {
+      "fr": "<p>Un éclat du verre noir qui recouvrait le dos de Sabot-de-Verre, poli par le vent du cratère et monté sur une chaîne. Il est froid même au soleil. Tant que vous le portez, vous avez <strong>+1</strong> aux jets de sauvegarde de Constitution.</p>",
+      "en": "<p>A shard of the black glass that covered Glasshoof's back, polished by the wind of the crater and set on a chain. It is cold even in the sun. While you wear it, you have <strong>+1</strong> to Constitution saving throws.</p>"
+    },
+    "effects.hSNXdGv6O1nkyZ0a.description": {
+      "fr": "<p>+1 aux jets de sauvegarde de Constitution.</p>",
+      "en": "<p>+1 to Constitution saving throws.</p>"
+    }
+  },
+  "objets/0gPjWrmgPDQfnMHl": {
+    "_nom": "Brassards du gladiateur d'Orgrimmar",
+    "name": {
+      "fr": "Brassards du gladiateur d'Orgrimmar",
+      "en": "Orgrimmar Gladiator's Bracers"
+    },
+    "system.description.value": {
+      "fr": "<p>Des brassards cabossés, gagnés dans l'arène de la Vallée de l'Honneur et jamais redressés. Tant que vous y êtes <strong>lié</strong>, vous gagnez <strong>+1 à la classe d'armure</strong> et <strong>+1 aux jets d'initiative</strong>.</p>",
+      "en": "<p>Dented bracers, won in the arena of the Valley of Honor and never straightened. While you are <strong>attuned</strong> to them, you gain <strong>+1 to Armor Class</strong> and <strong>+1 to Initiative rolls</strong>.</p>"
+    },
+    "effects.OzQvD08Cdd8F2w6W.name": {
+      "fr": "Brassards du gladiateur",
+      "en": "Gladiator's Bracers"
+    }
+  },
+  "objets/1J6UNnF5tADPanFe": {
+    "_nom": "Demi-plate en mithril de Khaz Modan",
+    "name": {
+      "fr": "Demi-plate en mithril de Khaz Modan",
+      "en": "Khaz Modan Mithril Half Plate"
+    },
+    "system.description.value": {
+      "fr": "<p>Des plaques de mithril aussi légères que du cuir, que les forgerons nains ne vendent qu'à leurs amis. Contrairement à une demi-plate ordinaire, elle <strong>n'impose pas de désavantage</strong> aux tests de Dextérité (Discrétion).</p>",
+      "en": "<p>Plates of mithril as light as leather, which dwarven smiths sell only to their friends. Unlike ordinary Half Plate, it <strong>imposes no Disadvantage</strong> on Dexterity (Stealth) checks.</p>"
+    }
+  },
+  "objets/1bJwR87W2QnmICHM": {
+    "_nom": "Carreaux d'acier gnomes",
+    "name": {
+      "fr": "Carreaux d'acier gnomes",
+      "en": "Gnomish Steel Bolts"
+    },
+    "system.description.value": {
+      "fr": "<p>Vingt carreaux à empennage de cuivre, calibrés pour les chargeurs des arbalètes de Gnomeregan (et pour n'importe quelle autre arbalète).</p>",
+      "en": "<p>Twenty copper-fletched bolts, calibrated for the magazines of Gnomeregan crossbows (and for any other crossbow).</p>"
+    }
+  },
+  "objets/1ypEKSCGDzILPDsh": {
+    "_nom": "Brochettes de raptor au piment",
+    "name": {
+      "fr": "Brochettes de raptor au piment",
+      "en": "Spicy Raptor Skewers"
+    },
+    "system.description.value": {
+      "fr": "<p>Des lanières de raptor marinées dans le jus de cactus et roulées dans un piment qui fait pleurer les trolls eux-mêmes. On les mange avec les doigts, et on regarde autour de soi avec des yeux tout neufs.</p><p>Six portions. Il faut <strong>10 minutes</strong> pour manger une portion ; la créature qui la mange est <strong>bien nourrie</strong> : +2 à l'initiative et +1 aux jets de sauvegarde de Dextérité.</p><p>Un seul repas « bien nourri » à la fois : un nouveau repas remplace le précédent. L'effet prend fin au prochain <strong>repos long</strong>.</p>",
+      "en": "<p>Strips of raptor marinated in cactus juice and rolled in a pepper that makes even trolls cry. You eat them with your fingers, and look around you with brand-new eyes.</p><p>Six servings. It takes <strong>10 minutes</strong> to eat a serving; the creature that eats it is <strong>Well Fed</strong>: +2 to Initiative and +1 to Dexterity saving throws.</p><p>Only one \"Well Fed\" meal at a time: a new meal replaces the previous one. The effect ends at the next <strong>Long Rest</strong>.</p>"
+    },
+    "effects.YVwJAjeXxBo6dNzi.name": {
+      "fr": "Bien nourri — brochettes de raptor",
+      "en": "Well Fed — raptor skewers"
+    },
+    "effects.YVwJAjeXxBo6dNzi.description": {
+      "fr": "<p>Bien nourri jusqu'au prochain repos long : +2 à l'initiative et +1 aux jets de sauvegarde de Dextérité.</p>",
+      "en": "<p>Well Fed until the next Long Rest: +2 to Initiative and +1 to Dexterity saving throws.</p>"
+    }
+  },
+  "objets/2NwsIYGrWZzc7sJA": {
+    "_nom": "Filet de poisson",
+    "name": {
+      "fr": "Filet de poisson",
+      "en": "Fish Fillet"
+    },
+    "system.description.value": {
+      "fr": "<p>Le filet d'un poisson de la baie, vidé et rincé à l'eau de mer. À manger le jour même, ou à cuire en tourte.</p>",
+      "en": "<p>The fillet of a fish from the bay, gutted and rinsed in seawater. To be eaten the same day, or baked into a pie.</p>"
+    }
+  },
+  "objets/4aaQCcIUTwszczSr": {
+    "_nom": "Sucre de cactus de la Nuit",
+    "name": {
+      "fr": "Sucre de cactus de la Nuit",
+      "en": "Cactus Sugar of the Night"
+    },
+    "system.description.value": {
+      "fr": "<p>Un bâtonnet de pulpe de cactus cuite au miel jusqu'à devenir dure et dorée, que l'on donne aux enfants qui viennent demander « une braise pour mes morts ». Les grands en gardent toujours un dans la poche cette nuit-là : on dit que le sucre chasse le froid des morts.</p><p>Par une <strong>action</strong>, vous croquez un bâtonnet et gagnez <strong>1d4 + 1</strong> points de vie temporaires. Le sucre de la Nuit se fait avec la pulpe d'un cactus rare des collines rouges : il se vend cher, sauf aux enfants.</p>",
+      "en": "<p>A stick of cactus pulp cooked in honey until it turns hard and golden, given to the children who come asking for \"an ember for my dead\". The grown-ups always keep one in their pocket that night: they say the sugar drives off the cold of the dead.</p><p>As an <strong>action</strong>, you bite into a stick and gain <strong>1d4 + 1</strong> Temporary Hit Points. Sugar of the Night is made from the pulp of a rare cactus of the red hills: it sells dear, except to children.</p>"
+    },
+    "system.activities.U0I7YV573UDG4Vjq.name": {
+      "fr": "Croquer un bâtonnet",
+      "en": "Bite into a stick"
+    }
+  },
+  "objets/4eEWnR4a3ypxfeBv": {
+    "_nom": "Grelot de l'Épineux",
+    "name": {
+      "fr": "Grelot de l'Épineux",
+      "en": "Thorntree Bell"
+    },
+    "system.description.value": {
+      "fr": "<p>Un grelot d'os poli décroché de l'Épineux du Carrefour à la fin de la Trêve des Présents, encore noué de son ruban de cuir rouge. Les anciens disent qu'il garde le son des rires de la fête.</p><p>Par une <strong>action bonus</strong>, vous agitez le grelot : pendant <strong>1 heure</strong>, vous avez l'avantage aux tests de Charisme (Persuasion).</p><p><strong>Une fois par jour</strong> : le grelot retrouve sa voix à l'aube.</p>",
+      "en": "<p>A polished bone bell unhooked from the Thorntree of the Crossroads at the end of the Truce of Presents, still tied with its red leather ribbon. The elders say it keeps the sound of the festival's laughter.</p><p>As a <strong>Bonus Action</strong>, you shake the bell: for <strong>1 hour</strong>, you have Advantage on Charisma (Persuasion) checks.</p><p><strong>Once per day</strong>: the bell finds its voice again at dawn.</p>"
+    },
+    "system.activities.otiejOALboApZJhQ.name": {
+      "fr": "Agiter le grelot",
+      "en": "Shake the bell"
+    },
+    "effects.mhMG7IjXlkmpwxXW.name": {
+      "fr": "Bon cœur de la Trêve",
+      "en": "Good heart of the Truce"
+    },
+    "effects.mhMG7IjXlkmpwxXW.description": {
+      "fr": "<p>Pendant 1 heure : avantage aux tests de Charisme (Persuasion).</p>",
+      "en": "<p>For 1 hour: Advantage on Charisma (Persuasion) checks.</p>"
+    }
+  },
+  "objets/4r5DtbHkvTlAPXIZ": {
+    "_nom": "Glaive de Sentinelle",
+    "name": {
+      "fr": "Glaive de Sentinelle",
+      "en": "Sentinel Glaive"
+    },
+    "system.description.value": {
+      "fr": "<p>Une lame courbe montée sur une hampe de bois de fer, gravée de croissants. Les Sentinelles de Darnassus s'en servent pour tenir à distance les satyres et les orcs qui pénètrent dans les forêts d'Ashenvale : même une parade arrachée laisse une entaille.</p>",
+      "en": "<p>A curved blade mounted on an ironwood shaft, engraved with crescents. The Sentinels of Darnassus use it to keep at bay the satyrs and orcs who enter the forests of Ashenvale: even a parry wrenched aside leaves a gash.</p>"
+    }
+  },
+  "objets/57vqdiD4EVoSrh4Y": {
+    "_nom": "Corne de guerre de la Horde",
+    "name": {
+      "fr": "Corne de guerre de la Horde",
+      "en": "Horde War Horn"
+    },
+    "system.description.value": {
+      "fr": "<p>Une corne de bélier cerclée de fer, où un shaman a enfermé le premier cri de guerre de Durotar. Une fois par jour, par une <strong>action</strong>, vous y soufflez : chaque allié dans un rayon de <strong>9 m</strong> qui l'entend gagne <strong>2d6</strong> points de vie temporaires. Elle retrouve sa voix à l'aube.</p>",
+      "en": "<p>A ram's horn ringed with iron, in which a shaman sealed the first war cry of Durotar. Once per day, as an <strong>action</strong>, you blow it: each ally within <strong>30 feet</strong> who hears it gains <strong>2d6</strong> Temporary Hit Points. It finds its voice again at dawn.</p>"
+    },
+    "system.activities.362TsE7rwEdDftyG.name": {
+      "fr": "Sonner la charge",
+      "en": "Sound the charge"
+    }
+  },
+  "objets/5Ts9VNSfpAw1Mj61": {
+    "_nom": "Balles d'argent de Gilnéas",
+    "name": {
+      "fr": "Balles d'argent de Gilnéas",
+      "en": "Gilnean Silver Bullets"
+    },
+    "system.description.value": {
+      "fr": "<p>Dix balles coulées dans un alliage d'argent, gravées d'une croix par les chasseurs de Gilnéas. Elles sont <strong>argentées</strong> : elles passent les défenses des worgens et des créatures que seul l'argent blesse.</p>",
+      "en": "<p>Ten bullets cast in a silver alloy, engraved with a cross by the hunters of Gilneas. They are <strong>silvered</strong>: they pass the defenses of worgen and of creatures that only silver can wound.</p>"
+    }
+  },
+  "objets/6Mu3gjHZrmbM5Z8D": {
+    "_nom": "Forge de garnison",
+    "name": {
+      "fr": "Forge de garnison",
+      "en": "Garrison Forge"
+    },
+    "system.description.value": {
+      "fr": "<p>Une forge de pierre et un soufflet de cuir de kodo, tenus par deux forgerons de la faction. <strong>Ordre : fabriquer.</strong> Elle forge une arme, une armure ou un outil ordinaire ; dnd5e calcule le coût et le délai de l'ordre selon l'objet choisi (pour un objet ordinaire : la moitié de son prix en po, et un jour par tranche de 10 po de prix ; pour un objet magique, son propre barème) ; pas de test, pas de recette à suivre. Par exemple @UUID[Compendium.lakour-warcraft.objets.Item.Vh8xj1loPd6h7UBw]{Épée de la Garde de Hurlevent} : 10 po et 2 jours, @UUID[Compendium.lakour-warcraft.objets.Item.KG0AhPmTDVfOusRV]{Harnois de grunt} : 25 po et 5 jours, @UUID[Compendium.lakour-warcraft.objets.Item.v2iFRecHPXFq07w7]{Pierre à aiguiser de Rouge-Veine} : 2 po et 1 jour.</p>",
+      "en": "<p>A stone forge and a kodo-leather bellows, run by two smiths of the faction. <strong>Order: Craft.</strong> It forges an ordinary weapon, armor or tool; dnd5e works out the cost and the time of the order from the chosen item (for an ordinary item: half its price in gp, and one day per 10 gp of price; for a magic item, its own scale); no check, no recipe to follow. For example @UUID[Compendium.lakour-warcraft.objets.Item.Vh8xj1loPd6h7UBw]{Stormwind Guard Sword}: 10 gp and 2 days, @UUID[Compendium.lakour-warcraft.objets.Item.KG0AhPmTDVfOusRV]{Grunt's Harness}: 25 gp and 5 days, @UUID[Compendium.lakour-warcraft.objets.Item.v2iFRecHPXFq07w7]{Redvein Whetstone}: 2 gp and 1 day.</p>"
+    }
+  },
+  "objets/6iGuNvvhR1ChaY5O": {
+    "_nom": "Infusion de fleur-de-braise",
+    "name": {
+      "fr": "Infusion de fleur-de-braise",
+      "en": "Emberbloom Infusion"
+    },
+    "system.description.value": {
+      "fr": "<p>Une infusion rouge et tiède de fleurs-de-braise, ces fleurs des collines rouges qui ne s'ouvrent qu'au solstice. Les coureurs de la Chaîne des feux en boivent une gorgée avant de sauter les braises.</p><p>Par une <strong>action bonus</strong>, vous buvez l'infusion : pendant <strong>1 heure</strong>, vous avez la <strong>résistance aux dégâts de feu</strong>.</p>",
+      "en": "<p>A warm red infusion of emberblooms, the flowers of the red hills that open only at the solstice. The runners of the Chain of Fires drink a sip before leaping the embers.</p><p>As a <strong>Bonus Action</strong>, you drink the infusion: for <strong>1 hour</strong>, you have <strong>Resistance to Fire damage</strong>.</p>"
+    },
+    "effects.r351z5SiTtAR8U6D.name": {
+      "fr": "Peau de braise",
+      "en": "Ember skin"
+    },
+    "effects.r351z5SiTtAR8U6D.description": {
+      "fr": "<p>Pendant 1 heure : résistance aux dégâts de feu.</p>",
+      "en": "<p>For 1 hour: Resistance to Fire damage.</p>"
+    }
+  },
+  "objets/76qAdME0kPDRdtUx": {
+    "_nom": "Pain de cendre des aïeux",
+    "name": {
+      "fr": "Pain de cendre des aïeux",
+      "en": "Ancestors' Ash Bread"
+    },
+    "system.description.value": {
+      "fr": "<p>Une miche ronde cuite sous la cendre du feu des anciens, où chaque convive a jeté une poignée de grains de son pays. On la rompt à minuit en écoutant les histoires des vieux, et l'on se souvient mieux de tout, même de ce qu'on n'a jamais su.</p><p>Six parts. Il faut <strong>10 minutes</strong> pour manger une part ; la créature qui la mange est <strong>bien nourrie</strong> jusqu'à son prochain <strong>repos long</strong> : +2 aux tests d'Intelligence (Histoire) et +1 aux tests de Sagesse (Intuition).</p><p>Un seul repas « bien nourri » à la fois : un nouveau repas remplace le précédent.</p>",
+      "en": "<p>A round loaf baked beneath the ashes of the elders' fire, into which every guest has thrown a handful of grain from their homeland. It is broken at midnight while listening to the old folk's stories, and you remember everything better, even what you never knew.</p><p>Six portions. It takes <strong>10 minutes</strong> to eat a portion; the creature that eats it is <strong>Well Fed</strong> until its next <strong>Long Rest</strong>: +2 to Intelligence (History) checks and +1 to Wisdom (Insight) checks.</p><p>Only one \"Well Fed\" meal at a time: a new meal replaces the previous one.</p>"
+    },
+    "system.activities.MBUNyqIV1XJgj4Vn.name": {
+      "fr": "Rompre une part",
+      "en": "Break a portion"
+    },
+    "effects.p2aHgOxbm4K0QGaJ.name": {
+      "fr": "Bien nourri — pain des aïeux",
+      "en": "Well Fed — ancestors' bread"
+    },
+    "effects.p2aHgOxbm4K0QGaJ.description": {
+      "fr": "<p>Bien nourri jusqu'au prochain repos long : +2 aux tests d'Intelligence (Histoire), +1 aux tests de Sagesse (Intuition).</p>",
+      "en": "<p>Well Fed until the next Long Rest: +2 to Intelligence (History) checks, +1 to Wisdom (Insight) checks.</p>"
+    }
+  },
+  "objets/8DJxnlCzmomKSFmS": {
+    "_nom": "Hachette de lancer sombrelance",
+    "name": {
+      "fr": "Hachette de lancer sombrelance",
+      "en": "Darkspear Throwing Hatchet"
+    },
+    "system.description.value": {
+      "fr": "<p>Un fer dentelé ligaturé sur un manche court et décoré de plumes. Les chasseurs de têtes sombrelance en portent toujours trois à la ceinture : la première fait se retourner, la deuxième fait reculer, la troisième fait tomber.</p>",
+      "en": "<p>A serrated head lashed to a short handle and decorated with feathers. Darkspear headhunters always carry three on their belt: the first makes you turn around, the second makes you step back, the third makes you fall.</p>"
+    }
+  },
+  "objets/93WRzDRuYXlBFXWU": {
+    "_nom": "Masse de tonnerre de Forgefer",
+    "name": {
+      "fr": "Masse de tonnerre de Forgefer",
+      "en": "Ironforge Thunder Maul"
+    },
+    "system.description.value": {
+      "fr": "<p>Une tête de marteau en acier de Forgefer grosse comme une enclume de voyage, sur un manche cerclé de bronze. Les clans des Barbe-de-Bronze racontent qu'un bon coup s'entend jusqu'au lac de Loch Modan.</p>",
+      "en": "<p>A hammer head of Ironforge steel as big as a traveling anvil, on a bronze-ringed handle. The Bronzebeard clans say a good blow can be heard as far as the lake of Loch Modan.</p>"
+    }
+  },
+  "objets/AJCsPW8NFBDSXcCE": {
+    "_nom": "Veine de mithril",
+    "name": {
+      "fr": "Veine de mithril",
+      "en": "Mithril Vein"
+    },
+    "system.description.value": {
+      "fr": "<p>Un morceau de roche où court un fil de mithril, léger comme une plume et plus dur que l'acier. Un forgeron nain vous embrasserait pour moins que ça.</p>",
+      "en": "<p>A chunk of rock threaded with a strand of mithril, light as a feather and harder than steel. A dwarven smith would kiss you for less.</p>"
+    }
+  },
+  "objets/AMV0unlVbi8J5snB": {
+    "_nom": "Écailles de crocilisque",
+    "name": {
+      "fr": "Écailles de crocilisque",
+      "en": "Crocolisk Scales"
+    },
+    "system.description.value": {
+      "fr": "<p>Une poignée d'écailles dorsales de crocilisque, dures comme de la corne. Les armuriers les cousent en écailles de protection.</p>",
+      "en": "<p>A handful of crocolisk back scales, hard as horn. Armorers sew them into protective scale.</p>"
+    }
+  },
+  "objets/AUU2sP0uwaiQsfxV": {
+    "_nom": "Couronne de coquillages du roi Glouglou",
+    "name": {
+      "fr": "Couronne de coquillages du roi Glouglou",
+      "en": "Shell Crown of King Glubglub"
+    },
+    "system.description.value": {
+      "fr": "<p>Un cercle de coquillages dorés et de dents de requin, enfilés sur un fil de cuivre verdi. Tant que vous la portez, vous avez une vitesse de nage de 9 m, et les murlocs vous prennent pour un roi : ils ne vous attaquent pas les premiers, et se disputent pour vous apporter du poisson pourri.</p>",
+      "en": "<p>A circle of golden shells and shark teeth, strung on a green-tarnished copper wire. While you wear it, you have a Swim Speed of 30 feet, and murlocs take you for a king: they never attack you first, and squabble to bring you rotten fish.</p>"
+    },
+    "effects.1q8KbT5EG8fRiAgb.name": {
+      "fr": "Couronne du roi Glouglou",
+      "en": "Crown of King Glubglub"
+    },
+    "effects.1q8KbT5EG8fRiAgb.description": {
+      "fr": "<p>Vitesse de nage 9 m.</p>",
+      "en": "<p>Swim Speed 30 feet.</p>"
+    }
+  },
+  "objets/BIOYq4YKtLSKwBGU": {
+    "_nom": "Bras mécanique gnome",
+    "name": {
+      "fr": "Bras mécanique gnome",
+      "en": "Gnomish Mechanical Arm"
+    },
+    "system.description.value": {
+      "fr": "<p>Un bras de laiton, de pistons et de ressorts qui se fixe sur le moignon par un harnais de cuir. Il faut un <strong>lien</strong> (une heure de réglages) pour qu'il obéisse aux nerfs.</p><p>Tant qu'il est réglé, vous avez l'avantage aux tests de <strong>Force (Athlétisme)</strong>. Par une action, il peut frapper d'un <strong>poing-piston</strong> (attaque au corps à corps avec la Force, <strong>1d8</strong> dégâts contondants).</p>",
+      "en": "<p>An arm of brass, pistons and springs that straps onto the stump with a leather harness. It takes <strong>attunement</strong> (an hour of adjustments) for it to obey the nerves.</p><p>While it is adjusted, you have Advantage on <strong>Strength (Athletics)</strong> checks. As an action, it can strike with a <strong>piston fist</strong> (melee attack using Strength, <strong>1d8</strong> Bludgeoning damage).</p>"
+    },
+    "system.activities.5zxZIx2MCbRRHiOa.name": {
+      "fr": "Poing-piston",
+      "en": "Piston fist"
+    }
+  },
+  "objets/BvZspGvDW0qgkWYh": {
+    "_nom": "Bottes-fusées gobelines",
+    "name": {
+      "fr": "Bottes-fusées gobelines",
+      "en": "Goblin Rocket Boots"
+    },
+    "system.description.value": {
+      "fr": "<p>Des bottes cloutées équipées de deux petites fusées au talon. Elles ont <strong>3 charges</strong>. Par une <strong>action bonus</strong>, vous en dépensez une : votre vitesse augmente de <strong>6 m</strong> pendant 1 minute. Elles regagnent <strong>1d3</strong> charges à l'aube.</p><p><em>Garantie : aucune. Sur un 1 au d6 lancé après usage, une fusée part seule et vous tombez à terre.</em></p>",
+      "en": "<p>Hobnailed boots fitted with two small rockets at the heel. They have <strong>3 charges</strong>. As a <strong>Bonus Action</strong>, you expend one: your Speed increases by <strong>20 feet</strong> for 1 minute. They regain <strong>1d3</strong> charges at dawn.</p><p><em>Warranty: none. On a 1 on the d6 rolled after use, a rocket fires on its own and you fall Prone.</em></p>"
+    },
+    "effects.CHnPleaPZsk8dSJz.name": {
+      "fr": "Fusées allumées",
+      "en": "Rockets lit"
+    }
+  },
+  "objets/D2jD8VN39EjXu6ZT": {
+    "_nom": "Potion de soins",
+    "name": {
+      "fr": "Potion de soins",
+      "en": "Potion of Healing"
+    },
+    "system.description.value": {
+      "fr": "<p>Une fiole rouge au goût de cerise amère, brassée par les alchimistes de toutes les capitales. Par une <strong>action bonus</strong>, vous la buvez ou la faites boire à une créature à portée de main : elle récupère <strong>2d4 + 2</strong> points de vie.</p>",
+      "en": "<p>A red vial tasting of bitter cherry, brewed by the alchemists of every capital. As a <strong>Bonus Action</strong>, you drink it or give it to a creature within reach: it regains <strong>2d4 + 2</strong> Hit Points.</p>"
+    },
+    "system.activities.7zNE72mmiGl8HjvR.name": {
+      "fr": "Boire",
+      "en": "Drink"
+    }
+  },
+  "objets/DUTBe5MhGXNhmG4w": {
+    "_nom": "Pistolet-fusée du baron",
+    "name": {
+      "fr": "Pistolet-fusée du baron",
+      "en": "Baron's Flare Pistol"
+    },
+    "system.description.value": {
+      "fr": "<p>Un pistolet à canon doré, gravé du sceau du Cartel Baille-Fonds : une bourse percée. C'est une <strong>arme +1</strong> (pistolet). Sous le canon, un second tube tire une fusée éclairante : une fois par jour, par une <strong>action bonus</strong>, vous l'envoyez jusqu'à 90 m ; elle éclaire en lumière vive un rayon de 18 m pendant 1 minute, et on la voit à des kilomètres. Le tube se recharge à l'aube.</p>",
+      "en": "<p>A gold-barreled pistol engraved with the seal of the Bilgewater Cartel: a purse with a hole in it. It is a <strong>+1 weapon</strong> (pistol). Beneath the barrel, a second tube fires a flare: once per day, as a <strong>Bonus Action</strong>, you send it up to 300 feet; it sheds Bright Light in a 60-foot radius for 1 minute, and can be seen for miles. The tube reloads at dawn.</p>"
+    },
+    "system.activities.XsoF6EbEfMQdweTa.name": {
+      "fr": "Fusée éclairante",
+      "en": "Flare"
+    }
+  },
+  "objets/DnuAjolIuMjbG2Y6": {
+    "_nom": "Élixir de la mangouste",
+    "name": {
+      "fr": "Élixir de la mangouste",
+      "en": "Elixir of the Mongoose"
+    },
+    "system.description.value": {
+      "fr": "<p>Une décoction verte et nerveuse, appréciée des voleurs de Hurlevent et des chasseurs trolls. Après l'avoir bue (<strong>action bonus</strong>), vous avez pendant <strong>1 heure</strong> l'avantage aux tests de <strong>Dextérité</strong> et votre vitesse augmente de 1,5 m.</p>",
+      "en": "<p>A green, jittery decoction, favored by the thieves of Stormwind and troll hunters. After drinking it (<strong>Bonus Action</strong>), for <strong>1 hour</strong> you have Advantage on <strong>Dexterity</strong> checks and your Speed increases by 5 feet.</p>"
+    }
+  },
+  "objets/E5C85wneDdtrYvvy": {
+    "_nom": "Mante de plumes de fiel",
+    "name": {
+      "fr": "Mante de plumes de fiel",
+      "en": "Gallfeather Mantle"
+    },
+    "system.description.value": {
+      "fr": "<p>Une cape cousue des longues plumes vert-de-gris de la vieille harpie, qui bruissent au moindre souffle. Une fois par jour, quand vous tombez, vous pouvez par une <strong>réaction</strong> ouvrir la mante : vous descendez de 18 m par round pendant 1 minute et ne subissez aucun dégât de chute. Elle se regonfle à l'aube.</p>",
+      "en": "<p>A cloak sewn from the long verdigris feathers of the old harpy, which rustle at the slightest breath. Once per day, when you fall, you can use a <strong>Reaction</strong> to open the mantle: you descend 60 feet per round for 1 minute and take no damage from the fall. It fills out again at dawn.</p>"
+    },
+    "system.activities.rVfaxcv4DSsf02va.name": {
+      "fr": "Planer",
+      "en": "Glide"
+    },
+    "system.activities.rVfaxcv4DSsf02va.activation.condition": {
+      "fr": "Vous tombez",
+      "en": "You fall"
+    }
+  },
+  "objets/EEDEayXLoCLvrM3Y": {
+    "_nom": "Bouclier en écailles de Gueule-de-Fer",
+    "name": {
+      "fr": "Bouclier en écailles de Gueule-de-Fer",
+      "en": "Ironjaw Scale Shield"
+    },
+    "system.description.value": {
+      "fr": "<p>Un écu taillé dans une seule écaille dorsale du vieux crocilisque, dure comme le fer et marbrée de vert. C'est un <strong>bouclier +1</strong> (+3 à la CA en tout). Il flotte : un naufragé qui s'y agrippe ne coule pas.</p>",
+      "en": "<p>A shield cut from a single back scale of the old crocolisk, hard as iron and marbled with green. It is a <strong>+1 Shield</strong> (+3 to AC in all). It floats: a castaway who clings to it does not sink.</p>"
+    }
+  },
+  "objets/EVwHyz2AkECxete8": {
+    "_nom": "Cuir léger",
+    "name": {
+      "fr": "Cuir léger",
+      "en": "Light Leather"
+    },
+    "system.description.value": {
+      "fr": "<p>Des peaux de petit gibier tannées à la hâte. Bonnes pour les poignées, les sangles et les gants.</p>",
+      "en": "<p>Hastily tanned hides of small game. Good for grips, straps and gloves.</p>"
+    }
+  },
+  "objets/F5rIuGiIcZeMyRf4": {
+    "_nom": "Flacon de peau-de-pierre",
+    "name": {
+      "fr": "Flacon de peau-de-pierre",
+      "en": "Stoneskin Flask"
+    },
+    "system.description.value": {
+      "fr": "<p>Un liquide gris et pâteux qui laisse sur la langue un goût de silex. Pendant des heures, la peau prend le grain du granit et sonne mat quand on la frappe.</p><p>Par une <strong>action bonus</strong>, vous buvez le flacon : <strong>+1</strong> à la classe d'armure.</p><p>Un seul flacon à la fois : en boire un second met fin à l'effet du premier. L'effet dure <strong>8 heures</strong>.</p>",
+      "en": "<p>A grey, pasty liquid that leaves a taste of flint on the tongue. For hours, the skin takes on the grain of granite and sounds dull when struck.</p><p>As a <strong>Bonus Action</strong>, you drink the flask: <strong>+1</strong> to Armor Class.</p><p>Only one flask at a time: drinking a second one ends the effect of the first. The effect lasts <strong>8 hours</strong>.</p>"
+    },
+    "effects.YQjFhEnyCzdf4td6.description": {
+      "fr": "<p>Pendant 8 heures : <strong>+1</strong> à la classe d'armure.</p>",
+      "en": "<p>For 8 hours: <strong>+1</strong> to Armor Class.</p>"
+    }
+  },
+  "objets/FAJxlvoFN9FA6JM8": {
+    "_nom": "Lunette de visée gnome",
+    "name": {
+      "fr": "Lunette de visée gnome",
+      "en": "Gnomish Scope"
+    },
+    "system.description.value": {
+      "fr": "<p>Une petite lunette de cuivre à double lentille, aux verres taillés par un mage gnome, vissée sur un arc, une arbalète ou un fusil. Tant que vous y êtes <strong>lié</strong>, vous avez <strong>+1</strong> aux jets d'attaque à distance avec une arme. Plusieurs lunettes ne se cumulent pas : on ne vise qu'à travers une seule.</p>",
+      "en": "<p>A small double-lensed copper scope, its glass cut by a gnome mage, screwed onto a bow, a crossbow or a rifle. While you are <strong>attuned</strong> to it, you have <strong>+1</strong> to ranged weapon attack rolls. Several scopes do not stack: you only aim through one.</p>"
+    },
+    "effects.ii5arZXYiROxmLxE.name": {
+      "fr": "Lunette de visée",
+      "en": "Scope"
+    },
+    "effects.ii5arZXYiROxmLxE.description": {
+      "fr": "<p>+1 aux jets d'attaque à distance avec une arme.</p>",
+      "en": "<p>+1 to ranged weapon attack rolls.</p>"
+    }
+  },
+  "objets/FkzYwXfJlC3FWUy9": {
+    "_nom": "Cotte de mailles de la Garde",
+    "name": {
+      "fr": "Cotte de mailles de la Garde",
+      "en": "Guard's Chain Mail"
+    },
+    "system.description.value": {
+      "fr": "<p>Mailles serrées, tabard bleu et or : l'équipement réglementaire des fantassins de Hurlevent.</p>",
+      "en": "<p>Tight mail, blue and gold tabard: the regulation kit of Stormwind's footmen.</p>"
+    }
+  },
+  "objets/FqMDCb6K2DfNZqvq": {
+    "_nom": "Jardin d'herboriste",
+    "name": {
+      "fr": "Jardin d'herboriste",
+      "en": "Herbalist's Garden"
+    },
+    "system.description.value": {
+      "fr": "<p>Des plates-bandes irriguées par une source, à l'abri d'une palissade. <strong>Ordre : récolter.</strong> En un tour de bastion, le jardinier rapporte 1d4 + 2 @UUID[Compendium.lakour-warcraft.objets.Item.Kb533hoo2qZoFAv2]{Herbe-à-fièvre} et 1d4 @UUID[Compendium.lakour-warcraft.objets.Item.ndEiNXzBHz8KCR71]{Lys des oasis} ; un jardin bien gardé donne en plus une @UUID[Compendium.lakour-warcraft.objets.Item.tQQ6ZDrlT0TkoeBp]{Mousse d'Âprefange} par tour.</p>",
+      "en": "<p>Beds irrigated by a spring, sheltered by a palisade. <strong>Order: Harvest.</strong> In one Bastion turn, the gardener brings back 1d4 + 2 @UUID[Compendium.lakour-warcraft.objets.Item.Kb533hoo2qZoFAv2]{Feverweed} and 1d4 @UUID[Compendium.lakour-warcraft.objets.Item.ndEiNXzBHz8KCR71]{Oasis Lily}; a well-guarded garden also yields one @UUID[Compendium.lakour-warcraft.objets.Item.tQQ6ZDrlT0TkoeBp]{Dustwallow Moss} per turn.</p>"
+    }
+  },
+  "objets/GDe6cEY4DJDPtylp": {
+    "_nom": "Rapière de Lune-d'argent",
+    "name": {
+      "fr": "Rapière de Lune-d'argent",
+      "en": "Silvermoon Rapier"
+    },
+    "system.description.value": {
+      "fr": "<p>Une lame fine et souple à la garde ajourée de feuilles d'or, l'arme de cour des magistères et des chevaliers de sang. Chaque touche ouvre la garde de l'adversaire pour le coup suivant.</p>",
+      "en": "<p>A thin, supple blade with a guard pierced in gold-leaf patterns, the court weapon of magisters and blood knights. Each hit opens the opponent's guard for the next blow.</p>"
+    }
+  },
+  "objets/GFemXxIIrYb1J69e": {
+    "_nom": "Flèches à pointe de thorium",
+    "name": {
+      "fr": "Flèches à pointe de thorium",
+      "en": "Thorium-Tipped Arrows"
+    },
+    "system.description.value": {
+      "fr": "<p>Dix flèches à pointe de thorium, ce métal bleuté qu'on extrait des failles de Gangrebois et du Cratère d'Un'Goro. Elles sont <strong>+1</strong> au jet d'attaque et aux dégâts.</p>",
+      "en": "<p>Ten arrows tipped with thorium, the bluish metal mined from the rifts of Felwood and Un'Goro Crater. They are <strong>+1</strong> to attack and damage rolls.</p>"
+    }
+  },
+  "objets/Gb9sLJdkHzOhbLfs": {
+    "_nom": "Chardon-cendre",
+    "name": {
+      "fr": "Chardon-cendre",
+      "en": "Ashthistle"
+    },
+    "system.description.value": {
+      "fr": "<p>Un chardon gris aux fleurs orangées qui pousse sur les pentes noircies autour du cratère de Brasegouffre. Il sent la poudre ; les gobelins en mettent dans leurs bombes.</p>",
+      "en": "<p>A grey thistle with orange flowers that grows on the blackened slopes around the crater of Emberchasm. It smells of gunpowder; goblins put it in their bombs.</p>"
+    }
+  },
+  "objets/GpOKpzQQfosEO3J8": {
+    "_nom": "Lance des Sombrelance",
+    "name": {
+      "fr": "Lance des Sombrelance",
+      "en": "Darkspear Spear"
+    },
+    "system.description.value": {
+      "fr": "<p>Une lance de chasse à pointe barbelée, ornée de plumes et de petites défenses. Les trolls Sombrelance la lancent aussi bien qu'ils la manient.</p>",
+      "en": "<p>A hunting spear with a barbed point, decorated with feathers and small tusks. Darkspear trolls throw it as well as they wield it.</p>"
+    }
+  },
+  "objets/Gt5t9pJnL51MOB9O": {
+    "_nom": "Javeline barbelée gurubashi",
+    "name": {
+      "fr": "Javeline barbelée gurubashi",
+      "en": "Gurubashi Barbed Javelin"
+    },
+    "system.description.value": {
+      "fr": "<p>Une hampe de bambou et une pointe d'os taillée en harpon, à la manière des chasseurs de la jungle de Strangleronce. La barbelure reste dans la plaie et gêne chaque pas de la proie.</p>",
+      "en": "<p>A bamboo shaft and a bone point carved like a harpoon, in the manner of the hunters of the Stranglethorn jungle. The barb stays in the wound and hinders the prey's every step.</p>"
+    }
+  },
+  "objets/H64r0GYfxNEZdzuN": {
+    "_nom": "Jambe de bois ferrée de Forgefer",
+    "name": {
+      "fr": "Jambe de bois ferrée de Forgefer",
+      "en": "Ironforge Iron-Shod Peg Leg"
+    },
+    "system.description.value": {
+      "fr": "<p>Une jambe de chêne cerclée de fer, terminée par un embout à crampons que l'on visse ou dévisse selon le terrain. Un nain qui en porte une ne ralentit ni sur la neige ni sur la glace de Dun Morogh : vous <strong>ignorez le terrain difficile dû à la neige et à la glace</strong>.</p>",
+      "en": "<p>An oak leg ringed with iron, ending in a spiked tip that screws on or off depending on the terrain. A dwarf who wears one slows down neither on the snow nor on the ice of Dun Morogh: you <strong>ignore Difficult Terrain due to snow and ice</strong>.</p>"
+    },
+    "effects.CfTKcxHNXm31TWMX.name": {
+      "fr": "Jambe de bois ferrée",
+      "en": "Iron-shod peg leg"
+    }
+  },
+  "objets/HfEf1Sb1c8aYVnYp": {
+    "_nom": "Collier de Crocs-de-Cendre",
+    "name": {
+      "fr": "Collier de Crocs-de-Cendre",
+      "en": "Ashfang Necklace"
+    },
+    "system.description.value": {
+      "fr": "<p>Un lacet de cuir où pendent les crocs noircis du loup gangrené, encore tièdes. Tant que vous le portez, vous avez l'avantage aux tests de Sagesse (Survie) pour suivre une piste, et vous sentez la gangrène à 9 m ou moins (sans en connaître la source exacte).</p>",
+      "en": "<p>A leather cord strung with the blackened fangs of the fel wolf, still warm. While you wear it, you have Advantage on Wisdom (Survival) checks to follow a trail, and you can sense the fel within 30 feet (without knowing its exact source).</p>"
+    },
+    "effects.8PI9P63lZLbxIqLu.description": {
+      "fr": "<p>Avantage aux tests de Sagesse (Survie).</p>",
+      "en": "<p>Advantage on Wisdom (Survival) checks.</p>"
+    }
+  },
+  "objets/J5njSJUKfoAdTJw5": {
+    "_nom": "Bombe gobeline",
+    "name": {
+      "fr": "Bombe gobeline",
+      "en": "Goblin Bomb"
+    },
+    "system.description.value": {
+      "fr": "<p>Une sphère de fonte, une mèche trop courte et un autocollant « garanti ou remboursé ». Par une <strong>action</strong>, vous la lancez jusqu'à 9 m : chaque créature dans un rayon de 1,5 m autour du point d'impact fait un jet de sauvegarde de <strong>Dextérité DD 12</strong>, et subit <strong>2d6</strong> dégâts de feu en cas d'échec, moitié moins en cas de réussite.</p><p>Sur un 1 au jet d'attaque improvisé (si le MJ en demande un), elle explose dans votre main.</p>",
+      "en": "<p>A cast-iron sphere, a too-short fuse and a sticker reading \"satisfaction guaranteed or your money back\". As an <strong>action</strong>, you throw it up to 30 feet: each creature within 5 feet of the point of impact makes a <strong>DC 12 Dexterity</strong> saving throw, and takes <strong>2d6</strong> Fire damage on a failure, half as much on a success.</p><p>On a 1 on the improvised attack roll (if the GM asks for one), it explodes in your hand.</p>"
+    },
+    "system.activities.6dwlznA54XCGG7RA.name": {
+      "fr": "Lancer",
+      "en": "Throw"
+    }
+  },
+  "objets/JpC7YtpnD69HcMEL": {
+    "_nom": "Potion de soins majeure",
+    "name": {
+      "fr": "Potion de soins majeure",
+      "en": "Potion of Greater Healing"
+    },
+    "system.description.value": {
+      "fr": "<p>Le même remède, concentré au sang de dragon dilué. Par une <strong>action bonus</strong>, la créature qui la boit récupère <strong>4d4 + 4</strong> points de vie.</p>",
+      "en": "<p>The same remedy, concentrated with diluted dragon's blood. As a <strong>Bonus Action</strong>, the creature that drinks it regains <strong>4d4 + 4</strong> Hit Points.</p>"
+    }
+  },
+  "objets/K40fHzYjihsiKYhA": {
+    "_nom": "Fusée de détresse gobeline",
+    "name": {
+      "fr": "Fusée de détresse gobeline",
+      "en": "Goblin Distress Flare"
+    },
+    "system.description.value": {
+      "fr": "<p>Un tube de carton ciré et une mèche. Par une <strong>action</strong>, vous l'allumez : elle monte à 90 m et éclate en une gerbe bleue visible à des kilomètres, puis éclaire en lumière vive un rayon de 18 m pendant 1 minute. Les maîtres de vol du Cartel y répondent, contre paiement.</p>",
+      "en": "<p>A waxed cardboard tube and a fuse. As an <strong>action</strong>, you light it: it climbs 300 feet and bursts in a blue spray visible for miles, then sheds Bright Light in a 60-foot radius for 1 minute. The Cartel's flight masters answer it, for a fee.</p>"
+    },
+    "system.activities.2XcSKlQ6AbAmbFUQ.name": {
+      "fr": "Allumer",
+      "en": "Light"
+    }
+  },
+  "objets/KG0AhPmTDVfOusRV": {
+    "_nom": "Harnois de grunt",
+    "name": {
+      "fr": "Harnois de grunt",
+      "en": "Grunt's Harness"
+    },
+    "system.description.value": {
+      "fr": "<p>Plaques de fer rivetées sur du cuir de kodo, épaulières à pointes : l'armure du grunt de la nouvelle Horde, plus solide qu'élégante.</p>",
+      "en": "<p>Iron plates riveted onto kodo leather, spiked shoulder guards: the armor of the new Horde's grunt, sturdier than it is elegant.</p>"
+    }
+  },
+  "objets/KPChWgeRVZjlgjT2": {
+    "_nom": "Cuir gangrené",
+    "name": {
+      "fr": "Cuir gangrené",
+      "en": "Fel Leather"
+    },
+    "system.description.value": {
+      "fr": "<p>Le cuir d'une bête touchée par la gangrène, tiède et légèrement verdâtre. Il résiste au feu, mais un druide vous demandera de le brûler.</p>",
+      "en": "<p>The hide of a beast touched by the fel, warm and slightly greenish. It resists fire, but a druid will ask you to burn it.</p>"
+    }
+  },
+  "objets/KU3SmSvUx0N53FCJ": {
+    "_nom": "Cœur de braise captif",
+    "name": {
+      "fr": "Cœur de braise captif",
+      "en": "Captive Ember Heart"
+    },
+    "system.description.value": {
+      "fr": "<p>Un noyau de flamme vivante gros comme un poing, prisonnier d'une cage de cuivre où battait le cœur de Mère-Brasier. Il est tiède et pulse au rythme de votre pouls. Tant que vous y êtes <strong>lié</strong>, vous avez la <strong>résistance aux dégâts de feu</strong>.</p><p>Une fois par jour, par une <strong>action</strong>, vous ouvrez la cage : un souffle de feu jaillit en cône de 4,5 m. Chaque créature dans la zone fait un jet de sauvegarde de <strong>Dextérité DD 13</strong> et subit <strong>3d6 dégâts de feu</strong> en cas d'échec, la moitié en cas de réussite. Il se rallume à l'aube.</p><p><em>Si vous le plongez dans l'eau d'un bassin lunaire, l'élémentaire est libéré et retourne aux Terres de feu ; le Cercle cénarien saura vous en remercier.</em></p>",
+      "en": "<p>A core of living flame as big as a fist, prisoner of a copper cage where Mother Ember's heart once beat. It is warm and pulses in time with your pulse. While you are <strong>attuned</strong> to it, you have <strong>Resistance to Fire damage</strong>.</p><p>Once per day, as an <strong>action</strong>, you open the cage: a gout of fire bursts out in a 15-foot cone. Each creature in the area makes a <strong>DC 13 Dexterity</strong> saving throw and takes <strong>3d6 Fire damage</strong> on a failure, half as much on a success. It rekindles at dawn.</p><p><em>If you plunge it into the water of a moonwell, the elemental is freed and returns to the Firelands; the Cenarion Circle will know how to thank you.</em></p>"
+    },
+    "system.activities.NrbFtAGS7ycKjxfT.name": {
+      "fr": "Ouvrir la cage",
+      "en": "Open the cage"
+    },
+    "effects.LuatnWCPoTfriKOj.name": {
+      "fr": "Cœur de braise",
+      "en": "Ember Heart"
+    },
+    "effects.LuatnWCPoTfriKOj.description": {
+      "fr": "<p>Résistance aux dégâts de feu.</p>",
+      "en": "<p>Resistance to Fire damage.</p>"
+    }
+  },
+  "objets/Kb533hoo2qZoFAv2": {
+    "_nom": "Herbe-à-fièvre",
+    "name": {
+      "fr": "Herbe-à-fièvre",
+      "en": "Feverweed"
+    },
+    "system.description.value": {
+      "fr": "<p>Une herbe sèche aux petites fleurs vert pâle, qui pousse en touffes au pied des rochers des Tarides. Mâchée, elle fait tomber la fièvre ; distillée, elle entre dans toutes les potions de soins.</p>",
+      "en": "<p>A dry herb with small pale-green flowers, growing in tufts at the foot of the rocks of the Barrens. Chewed, it brings a fever down; distilled, it goes into every healing potion.</p>"
+    }
+  },
+  "objets/MqviUAcJjTLhNpLk": {
+    "_nom": "Bouclier du lion",
+    "name": {
+      "fr": "Bouclier du lion",
+      "en": "Lion Shield"
+    },
+    "system.description.value": {
+      "fr": "<p>Un écu peint d'un lion d'or sur fond bleu. Ceux qui le portent ont juré de défendre Hurlevent.</p>",
+      "en": "<p>A shield painted with a golden lion on a blue field. Those who carry it have sworn to defend Stormwind.</p>"
+    }
+  },
+  "objets/NkGBhoNq44yd2JSU": {
+    "_nom": "Table des missions des suivants",
+    "name": {
+      "fr": "Table des missions des suivants",
+      "en": "Followers' Mission Table"
+    },
+    "system.description.value": {
+      "fr": "<p>Une grande table couverte d'une carte des Tarides, de pions de bois et de rapports griffonnés. C'est la caserne de la garnison : un officier y loge les suivants et les envoie en mission. <strong>Ordre : recruter.</strong> En un tour de bastion, la table recrute des défenseurs (douze au plus), ou envoie un suivant en mission : tirez sur la table « Missions des suivants » pour son résultat. Un suivant blessé en mission ne repart pas avant deux tours.</p>",
+      "en": "<p>A large table covered with a map of the Barrens, wooden tokens and scribbled reports. This is the garrison's barracks: an officer lodges the followers here and sends them on missions. <strong>Order: Recruit.</strong> In one Bastion turn, the table recruits defenders (twelve at most), or sends a follower on a mission: roll on the \"Followers' Missions\" table for the outcome. A follower wounded on a mission does not set out again for two turns.</p>"
+    }
+  },
+  "objets/NrePXf1GWBL4FFAr": {
+    "_nom": "Galettes aux dattes de la Trêve",
+    "name": {
+      "fr": "Galettes aux dattes de la Trêve",
+      "en": "Truce Date Cakes"
+    },
+    "system.description.value": {
+      "fr": "<p>Des galettes rondes de farine de maïs, fourrées de dattes de l'oasis et de miel de cactus, que les cuisinières du Carrefour cuisent par centaines pendant la Trêve, avec des dattes qui viennent de loin, et que les gobelins revendent au prix fort à Cabestan. On en glisse une dans chaque présent.</p><p>Par une <strong>action</strong>, vous mangez une galette et récupérez <strong>1d4 + 1</strong> points de vie.</p>",
+      "en": "<p>Round cornmeal cakes stuffed with oasis dates and cactus honey, which the cooks of the Crossroads bake by the hundreds during the Truce, with dates that come from far away, and which the goblins resell at a steep price in Ratchet. One is slipped into every present.</p><p>As an <strong>action</strong>, you eat a cake and regain <strong>1d4 + 1</strong> Hit Points.</p>"
+    },
+    "system.activities.MQDupLencESPXWSp.name": {
+      "fr": "Manger une galette",
+      "en": "Eat a cake"
+    }
+  },
+  "objets/OudTDoQc31V2pfhQ": {
+    "_nom": "Arbalète gnome à répétition",
+    "name": {
+      "fr": "Arbalète gnome à répétition",
+      "en": "Gnomish Repeating Crossbow"
+    },
+    "system.description.value": {
+      "fr": "<p>Un chargeur de six carreaux vissé sur le fût, un levier qui réarme la corde : l'arbalète que les ingénieurs de Gnomeregan ont dessinée pour tirer plus vite qu'un nain ne recharge.</p><p><strong>Spécial.</strong> Elle n'a pas la propriété Chargement tant que son chargeur contient des carreaux ; remplir le chargeur demande une <strong>action</strong>. Sur un 1 naturel au jet d'attaque, le mécanisme se coince : il faut une action et un test d'Intelligence DD 10 avec des outils de bricoleur pour le décoincer.</p>",
+      "en": "<p>A six-bolt magazine screwed onto the stock, a lever that re-cocks the string: the crossbow the engineers of Gnomeregan designed to shoot faster than a dwarf can reload.</p><p><strong>Special.</strong> It does not have the Loading property while its magazine holds bolts; refilling the magazine takes an <strong>action</strong>. On a natural 1 on the attack roll, the mechanism jams: it takes an action and a DC 10 Intelligence check with Tinker's Tools to unjam it.</p>"
+    }
+  },
+  "objets/PLzQlgKPpkq77FdK": {
+    "_nom": "Régulateur cardiaque gnome",
+    "name": {
+      "fr": "Régulateur cardiaque gnome",
+      "en": "Gnomish Heart Regulator"
+    },
+    "system.description.value": {
+      "fr": "<p>Une bobine de cuivre et une pile arcanique logées sous le sternum, qui tapotent le cœur quand il hésite. Il faut un <strong>lien</strong> pour qu'elle suive son rythme. Vous avez l'avantage aux <strong>jets de sauvegarde contre la mort</strong>.</p><p>Une fois par repos long, quand vous tombez à 0 point de vie sans être tué, la bobine décharge : vous récupérez <strong>2d4 + 2</strong> points de vie.</p>",
+      "en": "<p>A copper coil and an arcane battery lodged beneath the breastbone, which tap the heart when it falters. It takes <strong>attunement</strong> for it to follow your rhythm. You have Advantage on <strong>Death Saving Throws</strong>.</p><p>Once per Long Rest, when you drop to 0 Hit Points without being killed, the coil discharges: you regain <strong>2d4 + 2</strong> Hit Points.</p>"
+    },
+    "system.activities.TYz0LaOBt8HTQNKy.name": {
+      "fr": "Décharge de relance",
+      "en": "Restart discharge"
+    },
+    "system.activities.TYz0LaOBt8HTQNKy.activation.condition": {
+      "fr": "Vous tombez à 0 point de vie sans être tué",
+      "en": "You drop to 0 Hit Points without being killed"
+    },
+    "effects.m1dxF57V9iCBurVk.name": {
+      "fr": "Régulateur cardiaque",
+      "en": "Heart regulator"
+    }
+  },
+  "objets/PbPhgB8CMVf1lOmi": {
+    "_nom": "Lunettes de sûreté du contremaître",
+    "name": {
+      "fr": "Lunettes de sûreté du contremaître",
+      "en": "Foreman's Safety Goggles"
+    },
+    "system.description.value": {
+      "fr": "<p>Des lunettes de soudeur aux verres fumés, sanglées de cuir, que le baron faisait porter à ses contremaîtres (il les leur retenait sur la paie). Tant que vous les portez, vous voyez dans le noir jusqu'à 18 m, et vous avez l'avantage aux jets de sauvegarde contre l'état aveuglé causé par une lumière vive ou une explosion.</p><p><strong>Ensemble « Tenue réglementaire de Mèche-Noire » (2 pièces)</strong> : avec les Gantelets ignifugés du contremaître, équipés tous les deux, vous avez la <strong>résistance aux dégâts de feu</strong> et <strong>+2</strong> aux jets de sauvegarde de Dextérité. Le bonus est l'effet « Tenue réglementaire de Mèche-Noire (2 pièces) » des lunettes, éteint par défaut : allumez-le sur votre fiche quand les deux pièces sont portées, éteignez-le quand l'une est retirée.</p>",
+      "en": "<p>Welder's goggles with smoked lenses, strapped with leather, which the baron made his foremen wear (and docked from their pay). While you wear them, you have Darkvision out to 60 feet, and Advantage on saving throws against the Blinded condition caused by bright light or an explosion.</p><p><strong>Set \"Blackwick Regulation Outfit\" (2 pieces)</strong>: with the Foreman's Fireproof Gauntlets, both equipped, you have <strong>Resistance to Fire damage</strong> and <strong>+2</strong> to Dexterity saving throws. The bonus is the goggles' \"Blackwick Regulation Outfit (2 pieces)\" effect, disabled by default: enable it on your sheet when both pieces are worn, disable it when one is removed.</p>"
+    },
+    "effects.aU8FmXfA99mQ1k52.name": {
+      "fr": "Lunettes de sûreté",
+      "en": "Safety goggles"
+    },
+    "effects.aU8FmXfA99mQ1k52.description": {
+      "fr": "<p>Vision dans le noir 18 m.</p>",
+      "en": "<p>Darkvision 60 feet.</p>"
+    },
+    "effects.pRWohKbHYCz3itKQ.name": {
+      "fr": "Tenue réglementaire de Mèche-Noire (2 pièces)",
+      "en": "Blackwick Regulation Outfit (2 pieces)"
+    },
+    "effects.pRWohKbHYCz3itKQ.description": {
+      "fr": "<p>Bonus d'ensemble, à allumer quand les gantelets et les lunettes sont portés tous les deux : résistance au feu et +2 aux jets de sauvegarde de Dextérité.</p>",
+      "en": "<p>Set bonus, to enable when the gauntlets and the goggles are both worn: Resistance to Fire and +2 to Dexterity saving throws.</p>"
+    }
+  },
+  "objets/PjSkJfImDBbSnc3A": {
+    "_nom": "Éclat de cristal de mana",
+    "name": {
+      "fr": "Éclat de cristal de mana",
+      "en": "Mana Crystal Shard"
+    },
+    "system.description.value": {
+      "fr": "<p>Un fragment de cristal violet qui bourdonne doucement. Les elfes de sang en paient le double de sa valeur, sans poser de questions.</p>",
+      "en": "<p>A fragment of violet crystal that hums softly. Blood elves pay twice its value for it, no questions asked.</p>"
+    }
+  },
+  "objets/PqlBDenJxfPGsb7s": {
+    "_nom": "Servomoteur de Rouille-Cœur",
+    "name": {
+      "fr": "Servomoteur de Rouille-Cœur",
+      "en": "Rustheart Servomotor"
+    },
+    "system.description.value": {
+      "fr": "<p>Le moteur d'épaule du déchiqueteur fou, un bloc de pignons et de ressorts qui tressaute encore. Vizzik Tirelire en paie 400 po (c'était son prototype) ; un ingénieur gnome en tire de quoi fabriquer un bras mécanique à moitié prix.</p>",
+      "en": "<p>The shoulder motor of the mad shredder, a block of gears and springs that still twitches. Vizzik Coinbox pays 400 gp for it (it was his prototype); a gnome engineer can get enough out of it to build a mechanical arm at half price.</p>"
+    }
+  },
+  "objets/QCQO8txrQq1KUHs9": {
+    "_nom": "Moteur à huile de feu miniature",
+    "name": {
+      "fr": "Moteur à huile de feu miniature",
+      "en": "Miniature Fire Oil Engine"
+    },
+    "system.description.value": {
+      "fr": "<p>Le petit moteur de secours du Grand Déchiqueteur, encore chaud. Un ingénieur gnome ou gobelin en donnerait un bon prix ; Vizzik Tirelire, s'il est encore en affaires, le double.</p>",
+      "en": "<p>The Great Shredder's small backup engine, still warm. A gnome or goblin engineer would give a good price for it; Vizzik Coinbox, if he is still in business, doubles it.</p>"
+    }
+  },
+  "objets/QRo4DNmnICFAXTgN": {
+    "_nom": "Flacon de rage du kodo",
+    "name": {
+      "fr": "Flacon de rage du kodo",
+      "en": "Kodo Rage Flask"
+    },
+    "system.description.value": {
+      "fr": "<p>Une mixture rouge sombre au fumet de musc, que les chasseurs taurens refusent de boire et que les gladiateurs orcs adorent. Elle fait gonfler les veines du cou.</p><p>Par une <strong>action bonus</strong>, vous buvez le flacon : <strong>+1</strong> aux jets de dégâts des armes et avantage aux tests de Force.</p><p>Un seul flacon à la fois : en boire un second met fin à l'effet du premier. L'effet dure <strong>8 heures</strong>.</p>",
+      "en": "<p>A dark red mixture smelling of musk, which tauren hunters refuse to drink and orc gladiators adore. It makes the veins of the neck swell.</p><p>As a <strong>Bonus Action</strong>, you drink the flask: <strong>+1</strong> to weapon damage rolls and Advantage on Strength checks.</p><p>Only one flask at a time: drinking a second one ends the effect of the first. The effect lasts <strong>8 hours</strong>.</p>"
+    },
+    "effects.AXEq7ebNj6NNTFO9.description": {
+      "fr": "<p>Pendant 8 heures : <strong>+1</strong> aux jets de dégâts des armes et avantage aux tests de Force.</p>",
+      "en": "<p>For 8 hours: <strong>+1</strong> to weapon damage rolls and Advantage on Strength checks.</p>"
+    }
+  },
+  "objets/QcsER7Hkn73ldHff": {
+    "_nom": "Crochet-pince gobelin",
+    "name": {
+      "fr": "Crochet-pince gobelin",
+      "en": "Goblin Hook-Claw"
+    },
+    "system.description.value": {
+      "fr": "<p>Un crochet d'acier qui s'ouvre en pince d'une pression du poignet, remplaçant bon marché d'une main perdue. Il mord comme une arme (attaque au corps à corps avec la Force, <strong>1d4</strong> dégâts perforants), mais il est maladroit : vous avez le désavantage aux tests de <strong>Dextérité (Escamotage)</strong>.</p>",
+      "en": "<p>A steel hook that opens into a claw with a squeeze of the wrist, a cheap replacement for a lost hand. It bites like a weapon (melee attack using Strength, <strong>1d4</strong> Piercing damage), but it is clumsy: you have Disadvantage on <strong>Dexterity (Sleight of Hand)</strong> checks.</p>"
+    },
+    "system.activities.gK7pB8O9CbDItNvy.name": {
+      "fr": "Coup de crochet",
+      "en": "Hook strike"
+    }
+  },
+  "objets/RSJq3oORPKQk3hRQ": {
+    "_nom": "Pépite d'argent",
+    "name": {
+      "fr": "Pépite d'argent",
+      "en": "Silver Nugget"
+    },
+    "system.description.value": {
+      "fr": "<p>Une pépite d'argent natif, tirée d'un filon mince. L'argent mord les morts-vivants et retient la magie des flacons.</p>",
+      "en": "<p>A nugget of native silver, taken from a thin seam. Silver bites the undead and holds the magic of flasks.</p>"
+    }
+  },
+  "objets/RkyHhnteoPkAwrsX": {
+    "_nom": "Poigne de Forgefer",
+    "name": {
+      "fr": "Poigne de Forgefer",
+      "en": "Grip of Ironforge"
+    },
+    "system.description.value": {
+      "fr": "<p>Des gantelets forgés dans la Grande Forge, dont les jointures portent les runes des Terrestres. Tant que vous y êtes <strong>lié</strong>, vous avez l'avantage aux <strong>tests de Force</strong> et vos attaques d'arme au corps à corps infligent <strong>1</strong> dégât de plus.</p>",
+      "en": "<p>Gauntlets forged in the Great Forge, their knuckles bearing the runes of the earthen. While you are <strong>attuned</strong> to them, you have Advantage on <strong>Strength checks</strong> and your melee weapon attacks deal <strong>1</strong> extra damage.</p>"
+    }
+  },
+  "objets/TtyEZzHdraWaFyZJ": {
+    "_nom": "Potion de mana mineure",
+    "name": {
+      "fr": "Potion de mana mineure",
+      "en": "Minor Mana Potion"
+    },
+    "system.description.value": {
+      "fr": "<p>Une fiole bleue qui pétille sur la langue. Par une <strong>action bonus</strong>, vous la buvez et récupérez <strong>un emplacement de sort dépensé de niveau 1</strong>. Une créature qui ne lance pas de sorts ressent seulement un léger vertige.</p><p><em>Au plus une potion de mana par repos court : la seconde ne fait aucun effet.</em></p>",
+      "en": "<p>A blue vial that fizzes on the tongue. As a <strong>Bonus Action</strong>, you drink it and regain <strong>one expended level 1 spell slot</strong>. A creature that does not cast spells only feels slightly dizzy.</p><p><em>At most one mana potion per Short Rest: the second has no effect.</em></p>"
+    }
+  },
+  "objets/U0e6bEwvV2IClFGl": {
+    "_nom": "Tambours de Furie sanguinaire",
+    "name": {
+      "fr": "Tambours de Furie sanguinaire",
+      "en": "Drums of Bloodlust"
+    },
+    "system.description.value": {
+      "fr": "<p>Un tambour de peau de kodo tendue sur un cerceau d'os, peint de mains rouges. Les chamans du Carrefour y battent le rythme que leurs ancêtres frappaient avant la charge ; ceux qui l'entendent sentent leur sang bouillir et le monde ralentir autour d'eux.</p><p>Par une <strong>action bonus</strong>, vous déclenchez l'objet : chaque allié de votre choix dans un rayon de <strong>9 m</strong> autour de vous, vous compris, reçoit <strong>Furie sanguinaire</strong> pendant 1 minute (vitesse +3 m, +1d4 aux jets d'attaque, avantage aux sauvegardes de Dextérité).</p><p><strong>Une fois par combat.</strong> L'objet se recharge quand le combat suivant commence (jet d'initiative). Chaque créature qui reçoit la fureur gagne aussi <strong>Épuisement de la fureur</strong> jusqu'à la fin du combat (10 minutes au plus) : tant qu'elle le porte, ni Furie sanguinaire ni Héroïsme ne lui font plus d'effet, d'où qu'ils viennent.</p>",
+      "en": "<p>A drum of kodo hide stretched over a bone hoop, painted with red hands. The shamans of the Crossroads beat on it the rhythm their ancestors struck before the charge; those who hear it feel their blood boil and the world slow down around them.</p><p>As a <strong>Bonus Action</strong>, you trigger the item: each ally of your choice within <strong>30 feet</strong> of you, yourself included, receives <strong>Bloodlust</strong> for 1 minute (Speed +10 feet, +1d4 to attack rolls, Advantage on Dexterity saves).</p><p><strong>Once per combat.</strong> The item recharges when the next combat begins (Initiative roll). Each creature that receives the fury also gains <strong>Fury Exhaustion</strong> until the end of the combat (10 minutes at most): while it bears it, neither Bloodlust nor Heroism affects it any more, whatever their source.</p>"
+    },
+    "system.activities.gGBgOhFjsj8Cp02n.name": {
+      "fr": "Battre la Furie sanguinaire",
+      "en": "Beat the Bloodlust"
+    },
+    "effects.eArr9Dyln7v0r7Sd.name": {
+      "fr": "Furie sanguinaire",
+      "en": "Bloodlust"
+    },
+    "effects.eArr9Dyln7v0r7Sd.description": {
+      "fr": "<p>Pendant 1 minute : vitesse augmentée de 3 m, <strong>+1d4</strong> aux jets d'attaque, avantage aux jets de sauvegarde de Dextérité.</p>",
+      "en": "<p>For 1 minute: Speed increased by 10 feet, <strong>+1d4</strong> to attack rolls, Advantage on Dexterity saving throws.</p>"
+    },
+    "effects.boge5dqdJx2ARIpv.name": {
+      "fr": "Épuisement de la fureur",
+      "en": "Fury Exhaustion"
+    },
+    "effects.boge5dqdJx2ARIpv.description": {
+      "fr": "<p>Le corps a brûlé ses réserves. Jusqu'à la fin du combat (10 minutes au plus), la créature ne peut plus profiter de <strong>Furie sanguinaire</strong> ni d'<strong>Héroïsme</strong> : si l'un d'eux lui est appliqué, retirez-le aussitôt.</p>",
+      "en": "<p>The body has burned through its reserves. Until the end of the combat (10 minutes at most), the creature can no longer benefit from <strong>Bloodlust</strong> or <strong>Heroism</strong>: if either is applied to it, remove it at once.</p>"
+    }
+  },
+  "objets/UBU5U0FcxL36RfLI": {
+    "_nom": "Hallebarde de la Garde de Lordaeron",
+    "name": {
+      "fr": "Hallebarde de la Garde de Lordaeron",
+      "en": "Lordaeron Guard Halberd"
+    },
+    "system.description.value": {
+      "fr": "<p>Une hallebarde à croissant gravé, rescapée des armureries de la capitale tombée. Les derniers gardes de Lordaeron l'ont gardée pour la Croisade écarlate ou pour l'Aube d'argent : son large fer tranche un goule et emporte celle qui la suit.</p>",
+      "en": "<p>A halberd with an engraved crescent, salvaged from the armories of the fallen capital. The last guards of Lordaeron kept it for the Scarlet Crusade or for the Argent Dawn: its broad blade cuts down a ghoul and takes the one behind it too.</p>"
+    }
+  },
+  "objets/VZcn4yVHakxr92pi": {
+    "_nom": "Registre du Cartel Baille-Fonds",
+    "name": {
+      "fr": "Registre du Cartel Baille-Fonds",
+      "en": "Bilgewater Cartel Ledger"
+    },
+    "system.description.value": {
+      "fr": "<p>Le livre de comptes du baron : livraisons d'huile de feu, pots-de-vin versés à des gardes de Cabestan, et une commande de vingt barils « à livrer à la Lame ardente, paiement en pièces anciennes ». Remis à Grizzla Tordeboulon, il vaut une prime de 100 po et <strong>+5</strong> de réputation auprès du Cartel Gentepression.</p>",
+      "en": "<p>The baron's account book: deliveries of fire oil, bribes paid to Ratchet guards, and an order for twenty barrels \"to be delivered to the Burning Blade, payment in ancient coins\". Handed to Grizzla Boltwrench, it is worth a 100 gp reward and <strong>+5</strong> reputation with the Steamwheedle Cartel.</p>"
+    }
+  },
+  "objets/VZpVXdtVbHdZKhRr": {
+    "_nom": "Marmite de ragoût de kodo épicé",
+    "name": {
+      "fr": "Marmite de ragoût de kodo épicé",
+      "en": "Pot of Spicy Kodo Stew"
+    },
+    "system.description.value": {
+      "fr": "<p>Un ragoût noir et brûlant de viande de kodo, de racines des Tarides et de piment de Durotar, mijoté toute une nuit dans une marmite cabossée. Les grunts du Carrefour jurent qu'il tient debout un orc blessé jusqu'au lendemain.</p><p>Six portions. Il faut <strong>10 minutes</strong> pour manger une portion ; la créature qui la mange est <strong>bien nourrie</strong> : +1 aux jets de sauvegarde de Constitution et aux tests de Force.</p><p>Un seul repas « bien nourri » à la fois : un nouveau repas remplace le précédent. L'effet prend fin au prochain <strong>repos long</strong>.</p>",
+      "en": "<p>A black, scalding stew of kodo meat, Barrens roots and Durotar pepper, simmered all night in a dented pot. The grunts of the Crossroads swear it keeps a wounded orc on his feet until the next day.</p><p>Six servings. It takes <strong>10 minutes</strong> to eat a serving; the creature that eats it is <strong>Well Fed</strong>: +1 to Constitution saving throws and Strength checks.</p><p>Only one \"Well Fed\" meal at a time: a new meal replaces the previous one. The effect ends at the next <strong>Long Rest</strong>.</p>"
+    },
+    "system.activities.Coqc2rPbov0HYdYe.name": {
+      "fr": "Manger une portion",
+      "en": "Eat a serving"
+    },
+    "effects.Ke96r2cf5PL5NpSn.name": {
+      "fr": "Bien nourri — ragoût de kodo",
+      "en": "Well Fed — kodo stew"
+    },
+    "effects.Ke96r2cf5PL5NpSn.description": {
+      "fr": "<p>Bien nourri jusqu'au prochain repos long : +1 aux jets de sauvegarde de Constitution et aux tests de Force.</p>",
+      "en": "<p>Well Fed until the next Long Rest: +1 to Constitution saving throws and Strength checks.</p>"
+    }
+  },
+  "objets/VgjcohZu6CVLtYgr": {
+    "_nom": "Paquet-surprise du Cartel",
+    "name": {
+      "fr": "Paquet-surprise du Cartel",
+      "en": "Cartel Surprise Package"
+    },
+    "system.description.value": {
+      "fr": "<p>Une boîte de carton ciré, ficelée d'un ruban vert et tamponnée de la roue dentée du Cartel Gentepression : « Contenu garanti surprenant ». Les gobelins de Cabestan en vendent des piles entières pendant la Trêve des Présents, et personne n'a jamais su ce qu'il y aurait dedans.</p><p>Par une <strong>action</strong>, vous ouvrez le paquet : lancez <strong>1d8</strong> sur la table <strong>Paquets-surprises du Cartel</strong> (le MJ l'a sous la main).</p>",
+      "en": "<p>A waxed cardboard box, tied with a green ribbon and stamped with the cogwheel of the Steamwheedle Cartel: \"Contents guaranteed surprising\". The goblins of Ratchet sell whole stacks of them during the Truce of Presents, and nobody has ever known what would be inside.</p><p>As an <strong>action</strong>, you open the package: roll <strong>1d8</strong> on the <strong>Cartel Surprise Packages</strong> table (the GM has it at hand).</p>"
+    },
+    "system.activities.DvOv8a9U0EVf7n4j.name": {
+      "fr": "Ouvrir le paquet",
+      "en": "Open the package"
+    },
+    "system.activities.DvOv8a9U0EVf7n4j.roll.name": {
+      "fr": "Contenu du paquet",
+      "en": "Contents of the package"
+    }
+  },
+  "objets/Vh8xj1loPd6h7UBw": {
+    "_nom": "Épée de la Garde de Hurlevent",
+    "name": {
+      "fr": "Épée de la Garde de Hurlevent",
+      "en": "Stormwind Guard Sword"
+    },
+    "system.description.value": {
+      "fr": "<p>Une épée longue droite au pommeau frappé du lion de Hurlevent, forgée en série pour la Garde après la reconstruction. Sobre, bien équilibrée, facile à remplacer.</p>",
+      "en": "<p>A straight longsword with a pommel stamped with the lion of Stormwind, mass-forged for the Guard after the rebuilding. Plain, well balanced, easy to replace.</p>"
+    }
+  },
+  "objets/VrpW4E2Bl9wYDBdc": {
+    "_nom": "Fouet-chaîne de l'Enchaînée",
+    "name": {
+      "fr": "Fouet-chaîne de l'Enchaînée",
+      "en": "Chain-Whip of the Chained One"
+    },
+    "system.description.value": {
+      "fr": "<p>Un maillon des chaînes qui retenaient Mère-Brasier, forgé en fouet par un ouvrier qui n'a pas survécu à son œuvre. Il reste rouge sombre et sent la forge. C'est une <strong>arme +1</strong> (fouet) : chaque coup qui touche inflige <strong>1d4 dégâts de feu</strong> supplémentaires.</p>",
+      "en": "<p>A link of the chains that held Mother Ember, forged into a whip by a worker who did not survive his work. It stays dark red and smells of the forge. It is a <strong>+1 weapon</strong> (whip): each hit deals an extra <strong>1d4 Fire damage</strong>.</p>"
+    },
+    "system.activities.37KzCwclif6P3MFB.name": {
+      "fr": "Chaîne brûlante",
+      "en": "Burning chain"
+    },
+    "system.activities.37KzCwclif6P3MFB.activation.condition": {
+      "fr": "La cible est touchée par le fouet",
+      "en": "The target is hit by the whip"
+    }
+  },
+  "objets/VsKTVEAjxDUd5oAw": {
+    "_nom": "Dague de gangrecorne",
+    "name": {
+      "fr": "Dague de gangrecorne",
+      "en": "Felhorn Dagger"
+    },
+    "system.description.value": {
+      "fr": "<p>Une dague taillée dans la corne de Vexxa la Rieuse, nervurée de veines vertes qui luisent dans le noir. C'est une <strong>arme +1</strong> (dague) : chaque coup qui touche inflige <strong>1d4 dégâts de feu</strong> supplémentaires (flammes vertes). La nuit, on croit l'entendre rire ; un paladin ou un druide voudra la détruire.</p>",
+      "en": "<p>A dagger carved from the horn of Vexxa the Laughing, veined with green that glows in the dark. It is a <strong>+1 weapon</strong> (dagger): each hit deals an extra <strong>1d4 Fire damage</strong> (green flames). At night, you could swear you hear it laugh; a paladin or a druid will want it destroyed.</p>"
+    },
+    "system.activities.v4IwK8rtPuQoHyLj.name": {
+      "fr": "Flamme verte",
+      "en": "Green flame"
+    },
+    "system.activities.v4IwK8rtPuQoHyLj.activation.condition": {
+      "fr": "La cible est touchée par la dague",
+      "en": "The target is hit by the dagger"
+    }
+  },
+  "objets/VzZjYMRYLxVzTyVT": {
+    "_nom": "Bouclier de guerre kor'kron",
+    "name": {
+      "fr": "Bouclier de guerre kor'kron",
+      "en": "Kor'kron War Shield"
+    },
+    "system.description.value": {
+      "fr": "<p>Un écu d'acier noir à l'umbo pointu, peint du sceau rouge de la Horde. Les Kor'kron s'en servent autant pour frapper que pour parer.</p>",
+      "en": "<p>A black steel shield with a pointed boss, painted with the red seal of the Horde. The Kor'kron use it as much to strike as to parry.</p>"
+    }
+  },
+  "objets/W1mu6Fgluoow1gG8": {
+    "_nom": "Viande de gibier",
+    "name": {
+      "fr": "Viande de gibier",
+      "en": "Game Meat"
+    },
+    "system.description.value": {
+      "fr": "<p>Un quartier de viande de sanglier, de zhévra ou de loup, salé pour la route. Il tient trois jours.</p>",
+      "en": "<p>A quarter of boar, zhevra or wolf meat, salted for the road. It keeps for three days.</p>"
+    }
+  },
+  "objets/W8GJ32evgwLcCHfF": {
+    "_nom": "Fusée gobeline du Long Jour",
+    "name": {
+      "fr": "Fusée gobeline du Long Jour",
+      "en": "Goblin Rocket of the Long Day"
+    },
+    "system.description.value": {
+      "fr": "<p>Un tube de carton rouge et or, une mèche courte, et la mention « Ne pas tenir par le mauvais bout » en trois langues. Le Cartel en tire des centaines au-dessus de la baie de Cabestan le soir du Long Jour ; une fusée détournée de son but éclate en gerbe d'étincelles aveuglantes.</p><p>Par une <strong>action</strong>, vous allumez la fusée et la lancez vers un point situé à <strong>18 m</strong> au plus : chaque créature dans une sphère de <strong>3 m</strong> de rayon centrée sur ce point fait un <strong>jet de sauvegarde de Dextérité DD 12</strong>. En cas d'échec, elle subit <strong>1d6 dégâts de feu</strong> et elle est <strong>aveuglée</strong> jusqu'à la fin de votre prochain tour ; en cas de réussite, elle subit la moitié de ces dégâts et n'est pas aveuglée.</p>",
+      "en": "<p>A red and gold cardboard tube, a short fuse, and the words \"Do not hold by the wrong end\" in three languages. The Cartel fires hundreds of them over the bay of Ratchet on the evening of the Long Day; a rocket diverted from its purpose bursts in a spray of blinding sparks.</p><p>As an <strong>action</strong>, you light the rocket and throw it toward a point within <strong>60 feet</strong>: each creature in a <strong>10-foot</strong>-radius Sphere centered on that point makes a <strong>DC 12 Dexterity saving throw</strong>. On a failure, it takes <strong>1d6 Fire damage</strong> and is <strong>Blinded</strong> until the end of your next turn; on a success, it takes half that damage and is not blinded.</p>"
+    },
+    "system.activities.s16uuPsHDLmqEfk6.name": {
+      "fr": "Lancer la fusée",
+      "en": "Throw the rocket"
+    },
+    "effects.DABmrIayKImvUB6c.name": {
+      "fr": "Ébloui par la fusée",
+      "en": "Dazzled by the rocket"
+    },
+    "effects.DABmrIayKImvUB6c.description": {
+      "fr": "<p>Aveuglé jusqu'à la fin du prochain tour du lanceur.</p>",
+      "en": "<p>Blinded until the end of the thrower's next turn.</p>"
+    }
+  },
+  "objets/WLGtfE9ohGrByhkS": {
+    "_nom": "Autel des esprits",
+    "name": {
+      "fr": "Autel des esprits",
+      "en": "Altar of the Spirits"
+    },
+    "system.description.value": {
+      "fr": "<p>Un cercle de pierres levées, un totem et un feu qui ne s'éteint jamais, veillé par un chaman, un prêtre ou une prêtresse d'Élune. <strong>Ordre : fabriquer.</strong> L'autel prépare une @UUID[Compendium.lakour-warcraft.objets.Item.D2jD8VN39EjXu6ZT]{Potion de soins} ; dnd5e calcule le coût et le délai de l'ordre selon l'objet choisi (pour un objet ordinaire : la moitié de son prix en po, et un jour par tranche de 10 po de prix ; pour un objet magique, son propre barème) ; pas de test, pas de recette à suivre. Tant que l'autel est entretenu, un personnage de la garnison qui y finit un repos long perd <strong>un niveau d'Épuisement de plus</strong> que ne le prévoit le repos.</p>",
+      "en": "<p>A circle of standing stones, a totem and a fire that never goes out, tended by a shaman, a priest or a priestess of Elune. <strong>Order: Craft.</strong> The altar prepares a @UUID[Compendium.lakour-warcraft.objets.Item.D2jD8VN39EjXu6ZT]{Potion of Healing}; dnd5e works out the cost and the time of the order from the chosen item (for an ordinary item: half its price in gp, and one day per 10 gp of price; for a magic item, its own scale); no check, no recipe to follow. While the altar is maintained, a character of the garrison who finishes a Long Rest there removes <strong>one more level of Exhaustion</strong> than the rest provides.</p>"
+    }
+  },
+  "objets/WuKpm3tIwtMopEdg": {
+    "_nom": "Arc long des Rôdeurs de Quel'Thalas",
+    "name": {
+      "fr": "Arc long des Rôdeurs de Quel'Thalas",
+      "en": "Longbow of the Rangers of Quel'Thalas"
+    },
+    "system.description.value": {
+      "fr": "<p>Un arc à double courbure en bois de la forêt d'Éternelchant, laqué de rouge et d'or. Les Rôdeurs l'apprennent dès l'enfance ; ils disent qu'une flèche bien tirée n'arrête pas l'ennemi, elle le cloue sur place. Il tire des <strong>flèches</strong>.</p>",
+      "en": "<p>A recurve bow of Eversong Forest wood, lacquered in red and gold. The Rangers learn it from childhood; they say a well-shot arrow does not stop the enemy, it pins him in place. It shoots <strong>arrows</strong>.</p>"
+    }
+  },
+  "objets/YPfb0mtY5GIAoPkO": {
+    "_nom": "Lampe-étoile des aïeux",
+    "name": {
+      "fr": "Lampe-étoile des aïeux",
+      "en": "Ancestors' Star Lamp"
+    },
+    "system.description.value": {
+      "fr": "<p>Une petite lampe d'argile en forme d'étoile, emplie d'huile de graine-étoile pressée par les druides. Les taurens en allument une pour chaque ancêtre la nuit de la Veille des Aïeux ; on dit que la flamme ne vacille pas quand un aïeul écoute.</p><p>Par une <strong>action</strong>, vous allumez la lampe et murmurez le nom d'un ancêtre : pendant <strong>1 heure</strong>, vous ajoutez <strong>1d4</strong> à vos jets de sauvegarde de Sagesse et de Charisme. Puis la lampe s'éteint, vide.</p>",
+      "en": "<p>A small clay lamp shaped like a star, filled with starseed oil pressed by the druids. The tauren light one for each ancestor on the night of Ancestors' Eve; they say the flame does not flicker when a forebear is listening.</p><p>As an <strong>action</strong>, you light the lamp and whisper an ancestor's name: for <strong>1 hour</strong>, you add <strong>1d4</strong> to your Wisdom and Charisma saving throws. Then the lamp goes out, empty.</p>"
+    },
+    "system.activities.038Ltrku2EOPowKP.name": {
+      "fr": "Allumer la lampe",
+      "en": "Light the lamp"
+    },
+    "effects.0vODRyEoe7NYFSG9.name": {
+      "fr": "Veille des aïeux",
+      "en": "Ancestors' vigil"
+    },
+    "effects.0vODRyEoe7NYFSG9.description": {
+      "fr": "<p>Pendant 1 heure : +1d4 aux jets de sauvegarde de Sagesse et de Charisme.</p>",
+      "en": "<p>For 1 hour: +1d4 to Wisdom and Charisma saving throws.</p>"
+    }
+  },
+  "objets/Z0W7UgodX2wAmxlT": {
+    "_nom": "Gourdin totémique de Mulgore",
+    "name": {
+      "fr": "Gourdin totémique de Mulgore",
+      "en": "Mulgore Totem Club"
+    },
+    "system.description.value": {
+      "fr": "<p>Un tronc de jeune chêne sculpté de visages d'ancêtres et cerclé de cuir de kodo. Les braves taurens le manient comme un bélier : on ne frappe pas l'ennemi, on l'écarte du troupeau.</p>",
+      "en": "<p>The trunk of a young oak carved with the faces of ancestors and ringed with kodo leather. Tauren braves wield it like a battering ram: you do not strike the enemy, you shove him away from the herd.</p>"
+    }
+  },
+  "objets/a8lnV8qn64Glgrtr": {
+    "_nom": "Flasque d'huile de feu",
+    "name": {
+      "fr": "Flasque d'huile de feu",
+      "en": "Flask of Fire Oil"
+    },
+    "system.description.value": {
+      "fr": "<p>Une flasque de terre cuite bouchée à la cire, pleine de l'huile noire et grasse que distille la raffinerie. Par une <strong>action</strong>, vous la lancez jusqu'à 9 m : elle éclate et s'enflamme. Chaque créature dans un rayon de 1,5 m fait un jet de sauvegarde de <strong>Dextérité DD 12</strong> et subit <strong>2d6 dégâts de feu</strong> en cas d'échec, la moitié en cas de réussite. Les flammes brûlent <strong>1 minute</strong> sur ce cercle : une créature qui y entre ou y commence son tour subit 1d6 dégâts de feu.</p>",
+      "en": "<p>An earthenware flask stoppered with wax, full of the black, greasy oil the refinery distills. As an <strong>action</strong>, you throw it up to 30 feet: it shatters and ignites. Each creature within 5 feet makes a <strong>DC 12 Dexterity</strong> saving throw and takes <strong>2d6 Fire damage</strong> on a failure, half as much on a success. The flames burn for <strong>1 minute</strong> on that circle: a creature that enters it or starts its turn there takes 1d6 Fire damage.</p>"
+    }
+  },
+  "objets/acOoYyOa8zrqWyED": {
+    "_nom": "Balles de plomb de Forgefer",
+    "name": {
+      "fr": "Balles de plomb de Forgefer",
+      "en": "Ironforge Lead Bullets"
+    },
+    "system.description.value": {
+      "fr": "<p>Dix balles de plomb coulées dans les moules de la guilde des fusiliers, avec leur charge de poudre noire dans des cornets de papier huilé.</p>",
+      "en": "<p>Ten lead bullets cast in the molds of the riflemen's guild, with their charge of black powder in oiled paper cones.</p>"
+    }
+  },
+  "objets/aeZ9wnAkoJLpNt6g": {
+    "_nom": "Sachet de confettis gobelins",
+    "name": {
+      "fr": "Sachet de confettis gobelins",
+      "en": "Bag of Goblin Confetti"
+    },
+    "system.description.value": {
+      "fr": "<p>Un petit sac de papier peint, bourré de confettis de métal brillant et d'une pincée de poudre qui pétille. À la Mascarade, on s'en lance des poignées à la figure ; les pickpockets s'en servent pour disparaître.</p><p>Par une <strong>action</strong>, vous lancez le sachet vers un point situé à <strong>9 m</strong> au plus : chaque créature dans une sphère de <strong>1,5 m</strong> de rayon centrée sur ce point fait un <strong>jet de sauvegarde de Dextérité DD 11</strong> ; en cas d'échec, elle est <strong>aveuglée</strong> jusqu'au début de votre prochain tour.</p>",
+      "en": "<p>A small painted paper bag, stuffed with shiny metal confetti and a pinch of powder that fizzes. At the Masquerade, people throw handfuls of it in each other's faces; pickpockets use it to disappear.</p><p>As an <strong>action</strong>, you throw the bag toward a point within <strong>30 feet</strong>: each creature in a <strong>5-foot</strong>-radius Sphere centered on that point makes a <strong>DC 11 Dexterity saving throw</strong>; on a failure, it is <strong>Blinded</strong> until the start of your next turn.</p>"
+    },
+    "system.activities.2hiyPO3YceHh6epR.name": {
+      "fr": "Lancer le sachet",
+      "en": "Throw the bag"
+    },
+    "effects.aVAZXoUl0eN5zQCJ.name": {
+      "fr": "Plein les yeux",
+      "en": "Eyes full of it"
+    },
+    "effects.aVAZXoUl0eN5zQCJ.description": {
+      "fr": "<p>Aveuglé jusqu'au début du prochain tour du lanceur.</p>",
+      "en": "<p>Blinded until the start of the thrower's next turn.</p>"
+    }
+  },
+  "objets/b5mbNGAfK8pUV4CW": {
+    "_nom": "Œil-lunette gobelin",
+    "name": {
+      "fr": "Œil-lunette gobelin",
+      "en": "Goblin Eye-Scope"
+    },
+    "system.description.value": {
+      "fr": "<p>Une lentille cerclée de cuivre, vissée sur l'orbite et munie d'une molette de mise au point. Il faut un <strong>lien</strong> pour l'accorder au regard. Tant qu'il est accordé, vous gagnez un bonus de <strong>+2</strong> aux tests de <strong>Sagesse (Perception)</strong> et vous voyez dans le noir jusqu'à <strong>18 m</strong>.</p>",
+      "en": "<p>A copper-rimmed lens screwed into the eye socket and fitted with a focusing wheel. It takes <strong>attunement</strong> to attune it to your sight. While it is attuned, you gain a <strong>+2</strong> bonus to <strong>Wisdom (Perception)</strong> checks and you have Darkvision out to <strong>60 feet</strong>.</p>"
+    }
+  },
+  "objets/bErSKybgmEufEOWE": {
+    "_nom": "Cuirasse de la Garde de Hurlevent",
+    "name": {
+      "fr": "Cuirasse de la Garde de Hurlevent",
+      "en": "Stormwind Guard Breastplate"
+    },
+    "system.description.value": {
+      "fr": "<p>Un plastron d'acier bleui frappé du lion d'or, porté sur une cotte légère. Assez souple pour les rondes du quartier des Mages, assez solide pour les escarmouches de la Marche de l'Ouest.</p>",
+      "en": "<p>A blued steel breastplate stamped with the golden lion, worn over a light mail shirt. Supple enough for patrols of the Mage Quarter, sturdy enough for the skirmishes of Westfall.</p>"
+    }
+  },
+  "objets/bTlZCs4uTLxsWWGk": {
+    "_nom": "Pétale de lune",
+    "name": {
+      "fr": "Pétale de lune",
+      "en": "Moon Petal"
+    },
+    "system.description.value": {
+      "fr": "<p>Un pétale blanc qui luit doucement la nuit, cueilli dans les jardins noyés des ruines elfiques. Les prêtresses d'Élune disent qu'il garde un peu de la lumière de la Dame blanche.</p>",
+      "en": "<p>A white petal that glows softly at night, picked in the drowned gardens of the elven ruins. The priestesses of Elune say it keeps a little of the White Lady's light.</p>"
+    }
+  },
+  "objets/book8vnvNwtLaA3r": {
+    "_nom": "Peaux de kodo tannées",
+    "name": {
+      "fr": "Peaux de kodo tannées",
+      "en": "Tanned Kodo Hides"
+    },
+    "system.description.value": {
+      "fr": "<p>Plusieurs épaisseurs de cuir de kodo cousues au tendon, telles que les portent les éclaireurs des Tarides. Lourdes, chaudes, et presque impossibles à percer d'une flèche tirée de loin.</p>",
+      "en": "<p>Several layers of kodo leather sewn with sinew, as worn by the scouts of the Barrens. Heavy, warm, and almost impossible to pierce with an arrow shot from afar.</p>"
+    }
+  },
+  "objets/cmzugqT3XLvcSc0x": {
+    "_nom": "Tambourin du Long Jour",
+    "name": {
+      "fr": "Tambourin du Long Jour",
+      "en": "Tambourine of the Long Day"
+    },
+    "system.description.value": {
+      "fr": "<p>Un petit tambour de peau de kodo peint d'un soleil rouge, battu de l'aube au couchant le jour le plus long. Son rythme passe dans les jambes de ceux qui l'entendent.</p><p>Par une <strong>action bonus</strong>, vous battez le rythme : chaque allié de votre choix dans un rayon de <strong>9 m</strong> autour de vous, vous compris, gagne <strong>Rythme du Long Jour</strong> pendant <strong>10 minutes</strong> (vitesse augmentée de 1,5 m, avantage aux tests de Charisme (Représentation)).</p><p><strong>Une fois par jour</strong> : la peau se retend à l'aube.</p>",
+      "en": "<p>A small kodo-hide drum painted with a red sun, beaten from dawn to dusk on the longest day. Its rhythm gets into the legs of those who hear it.</p><p>As a <strong>Bonus Action</strong>, you beat the rhythm: each ally of your choice within <strong>30 feet</strong> of you, yourself included, gains <strong>Rhythm of the Long Day</strong> for <strong>10 minutes</strong> (Speed increased by 5 feet, Advantage on Charisma (Performance) checks).</p><p><strong>Once per day</strong>: the hide tightens again at dawn.</p>"
+    },
+    "system.activities.LINrg01B8ItCYZCh.name": {
+      "fr": "Battre le rythme",
+      "en": "Beat the rhythm"
+    },
+    "effects.bpdipnfemV0I7XKl.name": {
+      "fr": "Rythme du Long Jour",
+      "en": "Rhythm of the Long Day"
+    },
+    "effects.bpdipnfemV0I7XKl.description": {
+      "fr": "<p>Pendant 10 minutes : vitesse augmentée de 1,5 m, avantage aux tests de Charisme (Représentation).</p>",
+      "en": "<p>For 10 minutes: Speed increased by 5 feet, Advantage on Charisma (Performance) checks.</p>"
+    }
+  },
+  "objets/d4CzjxL1Fxw00OiE": {
+    "_nom": "Calebasse-lanterne",
+    "name": {
+      "fr": "Calebasse-lanterne",
+      "en": "Gourd Lantern"
+    },
+    "system.description.value": {
+      "fr": "<p>Une calebasse creusée la Nuit des Calebasses, au visage taillé à la ressemblance d'un mort aimé, une chandelle bénie au cœur. Les morts qui ont oublié leur chemin n'en supportent pas le regard, et les vivants superstitieux guère mieux.</p><p>Par une <strong>action</strong>, vous brandissez la calebasse allumée : chaque créature de votre choix dans un rayon de <strong>3 m</strong> autour de vous (les créatures que vous ciblez) fait un <strong>jet de sauvegarde de Sagesse DD 12</strong> ; en cas d'échec, elle est <strong>effrayée</strong> jusqu'à la fin de votre prochain tour. La chandelle s'éteint alors, consumée.</p>",
+      "en": "<p>A gourd hollowed out on the Night of the Gourds, its face carved in the likeness of a beloved dead, a blessed candle at its heart. The dead who have forgotten their way cannot bear its gaze, and superstitious living folk hardly better.</p><p>As an <strong>action</strong>, you brandish the lit gourd: each creature of your choice within <strong>10 feet</strong> of you (the creatures you target) makes a <strong>DC 12 Wisdom saving throw</strong>; on a failure, it is <strong>Frightened</strong> until the end of your next turn. The candle then goes out, consumed.</p>"
+    },
+    "system.activities.VZVwZkAmaaQoaMk0.name": {
+      "fr": "Brandir la calebasse",
+      "en": "Brandish the gourd"
+    },
+    "effects.7LzFu9G8gHvNASev.name": {
+      "fr": "Le regard de la calebasse",
+      "en": "The gaze of the gourd"
+    },
+    "effects.7LzFu9G8gHvNASev.description": {
+      "fr": "<p>Effrayé jusqu'à la fin du prochain tour de celui qui brandit la calebasse.</p>",
+      "en": "<p>Frightened until the end of the next turn of whoever brandishes the gourd.</p>"
+    }
+  },
+  "objets/dC7nC8QHPLvBCVvK": {
+    "_nom": "Robe de bataille du Kirin Tor",
+    "name": {
+      "fr": "Robe de bataille du Kirin Tor",
+      "en": "Kirin Tor Battle Robe"
+    },
+    "system.description.value": {
+      "fr": "<p>Une robe violette matelassée, doublée de feutre sous les broderies d'argent. Les apprentis de Dalaran la portent en mission : elle n'arrête pas grand-chose, mais elle bruisse à chaque pas.</p>",
+      "en": "<p>A quilted violet robe, lined with felt beneath the silver embroidery. The apprentices of Dalaran wear it on missions: it does not stop much, but it rustles at every step.</p>"
+    }
+  },
+  "objets/dDeiKeUVOYgekIfD": {
+    "_nom": "Varech des criques",
+    "name": {
+      "fr": "Varech des criques",
+      "en": "Cove Kelp"
+    },
+    "system.description.value": {
+      "fr": "<p>Une algue brune et salée ramassée à marée basse sur la côte des Tarides. Les alchimistes en tirent un sel qui rend les muscles vifs.</p>",
+      "en": "<p>A brown, salty seaweed gathered at low tide on the coast of the Barrens. Alchemists extract from it a salt that makes the muscles quick.</p>"
+    }
+  },
+  "objets/fWTUIaBzX7TFdcjM": {
+    "_nom": "Enclos à montures",
+    "name": {
+      "fr": "Enclos à montures",
+      "en": "Mount Pen"
+    },
+    "system.description.value": {
+      "fr": "<p>Une palissade, un abreuvoir et des stalles pour trois montures (loups, kodos, béliers, raptors ou hippogriffes selon la faction). <strong>Ordre : commercer.</strong> En un tour de bastion, le palefrenier achète ou vend une monture au prix de l'éleveur, moins la remise de réputation de la faction. Les montures de l'enclos sont nourries et soignées : elles ne perdent pas de points de vie pendant l'absence du groupe.</p>",
+      "en": "<p>A palisade, a trough and stalls for three mounts (wolves, kodos, rams, raptors or hippogryphs depending on the faction). <strong>Order: Trade.</strong> In one Bastion turn, the stablehand buys or sells a mount at the breeder's price, minus the faction's reputation discount. The mounts in the pen are fed and cared for: they lose no Hit Points while the party is away.</p>"
+    }
+  },
+  "objets/hGE8PsZTAtnG0kwk": {
+    "_nom": "Bottes à ressorts Baille-Fonds",
+    "name": {
+      "fr": "Bottes à ressorts Baille-Fonds",
+      "en": "Bilgewater Spring Boots"
+    },
+    "system.description.value": {
+      "fr": "<p>Des bottes de laiton montées sur deux ressorts graissés, qui grincent à chaque pas. Votre vitesse augmente de 1,5 m tant que vous les portez. Trois fois par jour, par une <strong>action bonus</strong>, vous bondissez jusqu'à 6 m en longueur ou 3 m en hauteur, sans élan. Elles retrouvent leurs bonds à l'aube.</p>",
+      "en": "<p>Brass boots mounted on two greased springs, which squeak at every step. Your Speed increases by 5 feet while you wear them. Three times per day, as a <strong>Bonus Action</strong>, you leap up to 20 feet horizontally or 10 feet vertically, without a running start. They regain their bounces at dawn.</p>"
+    },
+    "system.activities.lnvx0WODt1rJvwUx.name": {
+      "fr": "Bond à ressorts",
+      "en": "Spring leap"
+    },
+    "effects.m2xHkX0rOaFLiDFx.name": {
+      "fr": "Bottes à ressorts",
+      "en": "Spring boots"
+    },
+    "effects.m2xHkX0rOaFLiDFx.description": {
+      "fr": "<p>Vitesse +1,5 m.</p>",
+      "en": "<p>Speed +5 feet.</p>"
+    }
+  },
+  "objets/hMD4lbHVMHxYEHQe": {
+    "_nom": "Larme d'Élune",
+    "name": {
+      "fr": "Larme d'Élune",
+      "en": "Tear of Elune"
+    },
+    "system.description.value": {
+      "fr": "<p>Une perle d'eau de lune solidifiée, montée sur une chaîne d'argent. Tant que vous y êtes <strong>lié</strong>, vous gagnez <strong>+1 à tous vos jets de sauvegarde</strong>.</p><p>Une fois par jour, par une <strong>action</strong>, vous appelez un rayon de lune sur un point à 36 m ou moins : chaque créature dans un cylindre de 1,5 m de rayon fait un jet de sauvegarde de <strong>Constitution DD 15</strong> et subit <strong>2d10</strong> dégâts radiants en cas d'échec, moitié moins en cas de réussite. La perle retrouve ce pouvoir à l'aube.</p>",
+      "en": "<p>A pearl of solidified moonwater, set on a silver chain. While you are <strong>attuned</strong> to it, you gain <strong>+1 to all your saving throws</strong>.</p><p>Once per day, as an <strong>action</strong>, you call down a moonbeam on a point within 120 feet: each creature in a 5-foot-radius Cylinder makes a <strong>DC 15 Constitution</strong> saving throw and takes <strong>2d10</strong> Radiant damage on a failure, half as much on a success. The pearl regains this power at dawn.</p>"
+    },
+    "system.activities.N8vBY1pHOCooX5Qe.name": {
+      "fr": "Rayon de lune",
+      "en": "Moonbeam"
+    }
+  },
+  "objets/hW9V4wonb2lamZTL": {
+    "_nom": "Flèches incendiaires de Quel'Thalas",
+    "name": {
+      "fr": "Flèches incendiaires de Quel'Thalas",
+      "en": "Quel'Thalas Incendiary Arrows"
+    },
+    "system.description.value": {
+      "fr": "<p>Dix flèches dont la pointe est enveloppée d'étoupe enduite d'huile de mana. Elles s'enflamment à l'encoche et infligent <strong>1d4 dégâts de feu</strong> en plus des dégâts de l'arme.</p>",
+      "en": "<p>Ten arrows whose heads are wrapped in tow soaked in mana oil. They ignite at the nock and deal <strong>1d4 Fire damage</strong> in addition to the weapon's damage.</p>"
+    }
+  },
+  "objets/hw03vyid2Xpb2fp1": {
+    "_nom": "Totem de foudre",
+    "name": {
+      "fr": "Totem de foudre",
+      "en": "Lightning Totem"
+    },
+    "system.description.value": {
+      "fr": "<p>Un petit totem de bois sculpté de nuages, où un chaman a lié un esprit de l'air. Il faut un <strong>lien</strong> pour que l'esprit vous écoute.</p><p>Il a <strong>3 charges</strong>. Par une <strong>action</strong>, vous en dépensez une et désignez un point à 18 m ou moins : la foudre y tombe. Chaque créature dans un rayon de 3 m fait un jet de sauvegarde de <strong>Dextérité DD 15</strong> ; elle subit <strong>4d6</strong> dégâts de foudre en cas d'échec, moitié moins en cas de réussite. Le totem regagne <strong>1d3</strong> charges à l'aube.</p>",
+      "en": "<p>A small wooden totem carved with clouds, in which a shaman bound a spirit of the air. It takes <strong>attunement</strong> for the spirit to listen to you.</p><p>It has <strong>3 charges</strong>. As an <strong>action</strong>, you expend one and designate a point within 60 feet: lightning strikes there. Each creature within 10 feet makes a <strong>DC 15 Dexterity</strong> saving throw; it takes <strong>4d6</strong> Lightning damage on a failure, half as much on a success. The totem regains <strong>1d3</strong> charges at dawn.</p>"
+    },
+    "system.activities.VRBdMyicQLHFYiOy.name": {
+      "fr": "Appel de la foudre",
+      "en": "Call of the lightning"
+    }
+  },
+  "objets/hziTHSAthW4OM4Tg": {
+    "_nom": "Cristal chantant d'Héroïsme",
+    "name": {
+      "fr": "Cristal chantant d'Héroïsme",
+      "en": "Singing Crystal of Heroism"
+    },
+    "system.description.value": {
+      "fr": "<p>Un éclat de cristal draeneï serti dans une monture d'argent. Frappé du doigt, il rend une note claire qui ne s'éteint pas : le courage y résonne comme une cloche. Les vindicateurs de l'Exodar le confient aux compagnies qui partent loin de chez elles.</p><p>Par une <strong>action bonus</strong>, vous déclenchez l'objet : chaque allié de votre choix dans un rayon de <strong>9 m</strong> autour de vous, vous compris, reçoit <strong>Héroïsme</strong> pendant 1 minute (vitesse +3 m, +1d4 aux jets d'attaque, avantage aux sauvegardes de Dextérité).</p><p><strong>Une fois par combat.</strong> L'objet se recharge quand le combat suivant commence (jet d'initiative). Chaque créature qui reçoit la fureur gagne aussi <strong>Épuisement de la fureur</strong> jusqu'à la fin du combat (10 minutes au plus) : tant qu'elle le porte, ni Furie sanguinaire ni Héroïsme ne lui font plus d'effet, d'où qu'ils viennent.</p>",
+      "en": "<p>A shard of draenei crystal set in a silver mount. Struck with a finger, it gives a clear note that does not fade: courage rings in it like a bell. The vindicators of the Exodar entrust it to companies setting out far from home.</p><p>As a <strong>Bonus Action</strong>, you trigger the item: each ally of your choice within <strong>30 feet</strong> of you, yourself included, receives <strong>Heroism</strong> for 1 minute (Speed +10 feet, +1d4 to attack rolls, Advantage on Dexterity saves).</p><p><strong>Once per combat.</strong> The item recharges when the next combat begins (Initiative roll). Each creature that receives the fury also gains <strong>Fury Exhaustion</strong> until the end of the combat (10 minutes at most): while it bears it, neither Bloodlust nor Heroism affects it any more, whatever their source.</p>"
+    },
+    "system.activities.7zUXEkCsHAXAwdec.name": {
+      "fr": "Faire chanter le cristal",
+      "en": "Make the crystal sing"
+    },
+    "effects.oMiUQ6Xp3e8RiWy1.name": {
+      "fr": "Héroïsme",
+      "en": "Heroism"
+    }
+  },
+  "objets/iAz4smkqv66E9u16": {
+    "_nom": "Anneau d'apprenti du Kirin Tor",
+    "name": {
+      "fr": "Anneau d'apprenti du Kirin Tor",
+      "en": "Kirin Tor Apprentice's Ring"
+    },
+    "system.description.value": {
+      "fr": "<p>Un anneau d'argent gravé de l'œil violet du Kirin Tor, remis aux apprentis prometteurs. Tant que vous y êtes <strong>lié</strong>, le <strong>DD de sauvegarde de vos sorts augmente de 1</strong>. Une fois par repos long, vous pouvez par une <strong>action bonus</strong> l'interroger : il vous indique la direction de Dalaran, ou de l'archimage le plus proche.</p>",
+      "en": "<p>A silver ring engraved with the violet eye of the Kirin Tor, given to promising apprentices. While you are <strong>attuned</strong> to it, the <strong>save DC of your spells increases by 1</strong>. Once per Long Rest, as a <strong>Bonus Action</strong>, you can question it: it points you toward Dalaran, or toward the nearest archmage.</p>"
+    },
+    "system.activities.VFvQt5WHoCP9xODJ.name": {
+      "fr": "Interroger l'anneau",
+      "en": "Question the ring"
+    },
+    "effects.EIu8HQ8kEZe2qQMJ.name": {
+      "fr": "Anneau du Kirin Tor",
+      "en": "Kirin Tor Ring"
+    }
+  },
+  "objets/iOAyDgeKrYc0QqtC": {
+    "_nom": "Éclat de gangrène",
+    "name": {
+      "fr": "Éclat de gangrène",
+      "en": "Fel Shard"
+    },
+    "system.description.value": {
+      "fr": "<p>Un éclat de cristal vert, tiède, arraché à une pierre de la Légion ardente. Il murmure dès qu'on le touche. Tant que vous y êtes <strong>lié</strong>, le <strong>DD de sauvegarde de vos sorts</strong> et vos <strong>attaques de sort</strong> gagnent <strong>+1</strong>.</p><p>Une fois par repos long, par une <strong>action</strong>, vous pouvez libérer sa flamme sur une créature à 18 m ou moins : elle fait un jet de sauvegarde de <strong>Dextérité DD 13</strong> et subit <strong>3d6</strong> dégâts de feu en cas d'échec, moitié moins en cas de réussite.</p><p><strong>Malédiction.</strong> Une fois lié, vous ne pouvez pas rompre le lien de vous-même ; il faut une délivrance de malédiction. Tant que le lien dure, vous êtes <strong>vulnérable aux dégâts radiants</strong> et vous avez le <strong>désavantage aux jets de sauvegarde de Sagesse</strong>.</p>",
+      "en": "<p>A shard of green crystal, warm, torn from a stone of the Burning Legion. It whispers as soon as you touch it. While you are <strong>attuned</strong> to it, the <strong>save DC of your spells</strong> and your <strong>spell attacks</strong> gain <strong>+1</strong>.</p><p>Once per Long Rest, as an <strong>action</strong>, you can release its flame on a creature within 60 feet: it makes a <strong>DC 13 Dexterity</strong> saving throw and takes <strong>3d6</strong> Fire damage on a failure, half as much on a success.</p><p><strong>Curse.</strong> Once attuned, you cannot break the attunement yourself; it takes a Remove Curse. While the attunement lasts, you are <strong>Vulnerable to Radiant damage</strong> and you have <strong>Disadvantage on Wisdom saving throws</strong>.</p>"
+    },
+    "system.activities.YtLd6rINZhQGzREK.name": {
+      "fr": "Flamme gangrenée",
+      "en": "Fel flame"
+    }
+  },
+  "objets/ir70JZS8pByBzcgW": {
+    "_nom": "Bandage de lin",
+    "name": {
+      "fr": "Bandage de lin",
+      "en": "Linen Bandage"
+    },
+    "system.description.value": {
+      "fr": "<p>Des bandes de lin propres et une poignée d'herbes. Par une <strong>action</strong>, vous pansez une créature à portée de main qui a au moins 1 point de vie : elle récupère <strong>1d4 + votre modificateur de Sagesse</strong> points de vie. Une même créature ne profite que d'un bandage par repos court.</p>",
+      "en": "<p>Clean linen strips and a handful of herbs. As an <strong>action</strong>, you dress the wounds of a creature within reach that has at least 1 Hit Point: it regains <strong>1d4 + your Wisdom modifier</strong> Hit Points. A given creature benefits from only one bandage per Short Rest.</p>"
+    },
+    "system.activities.VZ7PZAqDDp2oZCXh.name": {
+      "fr": "Panser",
+      "en": "Dress wounds"
+    }
+  },
+  "objets/izTlgtk7EPEfFOO4": {
+    "_nom": "Gantelets ignifugés du contremaître",
+    "name": {
+      "fr": "Gantelets ignifugés du contremaître",
+      "en": "Foreman's Fireproof Gauntlets"
+    },
+    "system.description.value": {
+      "fr": "<p>Des gantelets de cuir épais doublés d'amiante et cerclés d'acier, noircis par les conduites brûlantes. Tant que vous les portez, vous pouvez saisir un objet brûlant sans vous blesser, et vous avez <strong>+1</strong> aux jets de dégâts de vos attaques d'arme au corps à corps.</p><p><strong>Ensemble « Tenue réglementaire de Mèche-Noire » (2 pièces)</strong> : avec les Lunettes de sûreté du contremaître, équipés tous les deux, vous avez la <strong>résistance aux dégâts de feu</strong> et <strong>+2</strong> aux jets de sauvegarde de Dextérité. Le bonus est l'effet « Tenue réglementaire de Mèche-Noire (2 pièces) » des lunettes, éteint par défaut : allumez-le sur votre fiche quand les deux pièces sont portées, éteignez-le quand l'une est retirée.</p>",
+      "en": "<p>Thick leather gauntlets lined with asbestos and ringed with steel, blackened by the scalding pipes. While you wear them, you can grab a burning object without hurting yourself, and you have <strong>+1</strong> to the damage rolls of your melee weapon attacks.</p><p><strong>Set \"Blackwick Regulation Outfit\" (2 pieces)</strong>: with the Foreman's Safety Goggles, both equipped, you have <strong>Resistance to Fire damage</strong> and <strong>+2</strong> to Dexterity saving throws. The bonus is the goggles' \"Blackwick Regulation Outfit (2 pieces)\" effect, disabled by default: enable it on your sheet when both pieces are worn, disable it when one is removed.</p>"
+    },
+    "effects.VBmxZQDIS5jdKPNI.name": {
+      "fr": "Gantelets ignifugés",
+      "en": "Fireproof gauntlets"
+    },
+    "effects.VBmxZQDIS5jdKPNI.description": {
+      "fr": "<p>+1 aux dégâts des attaques d'arme au corps à corps.</p>",
+      "en": "<p>+1 to the damage of melee weapon attacks.</p>"
+    }
+  },
+  "objets/joIM6GbyDB2o5gpO": {
+    "_nom": "Cuir clouté des Sentinelles",
+    "name": {
+      "fr": "Cuir clouté des Sentinelles",
+      "en": "Sentinel Studded Leather"
+    },
+    "system.description.value": {
+      "fr": "<p>Du cuir de sabre-de-nuit teint en violet sombre, renforcé de rivets d'argent et de plaques en forme de feuilles. Il ne fait aucun bruit sous la lune.</p>",
+      "en": "<p>Nightsaber leather dyed dark violet, reinforced with silver rivets and leaf-shaped plates. It makes no sound beneath the moon.</p>"
+    }
+  },
+  "objets/kKU1DgREnb0OHQKy": {
+    "_nom": "Glaive lunaire",
+    "name": {
+      "fr": "Glaive lunaire",
+      "en": "Moonglaive"
+    },
+    "system.description.value": {
+      "fr": "<p>Une lame circulaire à trois branches, l'arme des Sentinelles elfes de la nuit. C'est une <strong>arme +1</strong>. Quand vous la lancez, elle revient dans votre main juste après l'attaque, en traçant un arc argenté.</p>",
+      "en": "<p>A circular three-bladed weapon, the arm of the night elf Sentinels. It is a <strong>+1 weapon</strong>. When you throw it, it returns to your hand right after the attack, tracing a silver arc.</p>"
+    }
+  },
+  "objets/kVrdN7ED5Tqsj51E": {
+    "_nom": "Flacon des Titans de pierre",
+    "name": {
+      "fr": "Flacon des Titans de pierre",
+      "en": "Flask of the Stone Titans"
+    },
+    "system.description.value": {
+      "fr": "<p>Une flasque trapue au liquide doré et lourd, distillée par les alchimistes nains d'après une recette gravée dans les salles d'Uldaman. On dit qu'une gorgée fait sentir le poids de la montagne derrière soi.</p><p>Par une <strong>action bonus</strong>, vous buvez le flacon : vos points de vie maximaux augmentent de <strong>10</strong> et vous récupérez <strong>10</strong> points de vie.</p><p>Un seul flacon à la fois : en boire un second met fin à l'effet du premier. L'effet dure <strong>8 heures</strong>.</p>",
+      "en": "<p>A squat flask of heavy golden liquid, distilled by dwarven alchemists from a recipe engraved in the halls of Uldaman. They say one sip makes you feel the weight of the mountain at your back.</p><p>As a <strong>Bonus Action</strong>, you drink the flask: your Hit Point maximum increases by <strong>10</strong> and you regain <strong>10</strong> Hit Points.</p><p>Only one flask at a time: drinking a second one ends the effect of the first. The effect lasts <strong>8 hours</strong>.</p>"
+    },
+    "effects.MhGCGDM1mdF2c2S0.description": {
+      "fr": "<p>Pendant 8 heures : vos points de vie maximaux augmentent de <strong>10</strong> et vous récupérez <strong>10</strong> points de vie.</p>",
+      "en": "<p>For 8 hours: your Hit Point maximum increases by <strong>10</strong> and you regain <strong>10</strong> Hit Points.</p>"
+    }
+  },
+  "objets/muBjluVk48ymr1AH": {
+    "_nom": "Pierre de foyer",
+    "name": {
+      "fr": "Pierre de foyer",
+      "en": "Hearthstone"
+    },
+    "system.description.value": {
+      "fr": "<p>Une pierre lisse et bleutée, gravée d'une rune d'aubergiste. On la <strong>lie</strong> à une auberge en la confiant une nuit à l'aubergiste (gratuit ou presque : l'aubergiste y gagne un client fidèle).</p><p>Par une <strong>action</strong> maintenue pendant <strong>10 minutes</strong> de concentration, vous êtes ramené, avec ce que vous portez, devant le foyer de l'auberge liée, où qu'elle soit sur le même continent. Si vous subissez des dégâts pendant ce temps, l'effet échoue et la pierre ne peut plus servir avant la prochaine aube. Elle se recharge à l'aube.</p>",
+      "en": "<p>A smooth, bluish stone engraved with an innkeeper's rune. You <strong>bind</strong> it to an inn by entrusting it to the innkeeper for a night (free or nearly so: the innkeeper gains a loyal customer).</p><p>As an <strong>action</strong> held for <strong>10 minutes</strong> of Concentration, you are brought back, with everything you carry, to the hearth of the bound inn, wherever it is on the same continent. If you take damage during that time, the effect fails and the stone cannot be used again before the next dawn. It recharges at dawn.</p>"
+    },
+    "system.activities.VLFVE2jH7fMmv5xD.name": {
+      "fr": "Rentrer à l'auberge",
+      "en": "Return to the inn"
+    },
+    "system.activities.VLFVE2jH7fMmv5xD.activation.condition": {
+      "fr": "10 minutes sans subir de dégâts",
+      "en": "10 minutes without taking damage"
+    }
+  },
+  "objets/ndEiNXzBHz8KCR71": {
+    "_nom": "Lys des oasis",
+    "name": {
+      "fr": "Lys des oasis",
+      "en": "Oasis Lily"
+    },
+    "system.description.value": {
+      "fr": "<p>Un lys blanc qui ne fleurit qu'au bord des oasis saines. Quand l'eau se gâte, il noircit : les caravaniers le regardent avant de boire.</p>",
+      "en": "<p>A white lily that blooms only at the edge of healthy oases. When the water goes bad, it turns black: caravaneers look at it before they drink.</p>"
+    }
+  },
+  "objets/o1X8rSvX8HBATOtt": {
+    "_nom": "Clé à tube de Grokka",
+    "name": {
+      "fr": "Clé à tube de Grokka",
+      "en": "Grokka's Pipe Wrench"
+    },
+    "system.description.value": {
+      "fr": "<p>Une clé à tube longue comme un humain, dont la mâchoire a serré les boulons de toutes les conduites de la raffinerie, et quelques crânes. C'est une <strong>arme +1</strong> (maillet d'armes). Les ouvriers kobolds de Mèche-Noire s'aplatissent en la voyant.</p>",
+      "en": "<p>A pipe wrench as long as a human, whose jaws have tightened the bolts of every pipe in the refinery, and a few skulls. It is a <strong>+1 weapon</strong> (maul). The kobold workers of Blackwick flatten themselves at the sight of it.</p>"
+    }
+  },
+  "objets/o6ZHsIPnMgbScVQr": {
+    "_nom": "Sabre d'abordage de Sel-Rouge",
+    "name": {
+      "fr": "Sabre d'abordage de Sel-Rouge",
+      "en": "Redsalt Boarding Saber"
+    },
+    "system.description.value": {
+      "fr": "<p>Un sabre court à la garde de laiton en forme de bourse percée, l'emblème du Cartel Baille-Fonds. C'est une <strong>arme +1</strong> (cimeterre). La lame est gravée de vingt-trois encoches : une par navire pillé.</p>",
+      "en": "<p>A short saber with a brass guard shaped like a purse with a hole in it, the emblem of the Bilgewater Cartel. It is a <strong>+1 weapon</strong> (scimitar). The blade is engraved with twenty-three notches: one per ship plundered.</p>"
+    }
+  },
+  "objets/oASJ43k3lBw6jsjG": {
+    "_nom": "Arc composite du khan Ventrouge",
+    "name": {
+      "fr": "Arc composite du khan Ventrouge",
+      "en": "Composite Bow of Khan Redbelly"
+    },
+    "system.description.value": {
+      "fr": "<p>Un arc de corne et de tendons peint en rouge, si puissant que seul un centaure le bandait sans peine. C'est une <strong>arme +1</strong> (arc long). Les Kolkar reconnaissent l'arc de leur khan : celui qui le porte est défié, ou craint.</p>",
+      "en": "<p>A bow of horn and sinew painted red, so powerful that only a centaur could draw it with ease. It is a <strong>+1 weapon</strong> (longbow). The Kolkar recognize their khan's bow: whoever carries it is challenged, or feared.</p>"
+    }
+  },
+  "objets/oQUen3FVYpTWNBs7": {
+    "_nom": "Voile des Gardiennes",
+    "name": {
+      "fr": "Voile des Gardiennes",
+      "en": "Veil of the Wardens"
+    },
+    "system.description.value": {
+      "fr": "<p>Un capuchon de soie sombre tissé pour les Gardiennes, les geôlières de la prison d'Illidan. Tant que vous y êtes <strong>lié</strong>, vous voyez dans le noir jusqu'à <strong>18 m</strong>.</p><p>Une fois par jour, par une <strong>action bonus</strong>, vous rabattez le capuchon et devenez <strong>invisible</strong> pendant 1 minute ou jusqu'à ce que vous attaquiez. Le voile retrouve ce pouvoir à l'aube.</p>",
+      "en": "<p>A hood of dark silk woven for the Wardens, the jailers of Illidan's prison. While you are <strong>attuned</strong> to it, you have Darkvision out to <strong>60 feet</strong>.</p><p>Once per day, as a <strong>Bonus Action</strong>, you pull down the hood and become <strong>Invisible</strong> for 1 minute or until you attack. The veil regains this power at dawn.</p>"
+    },
+    "system.activities.E8lhwJ0nU6wH7u9p.name": {
+      "fr": "Fondre dans l'ombre",
+      "en": "Melt into the shadows"
+    }
+  },
+  "objets/ovD4GSOtwBwQJg8k": {
+    "_nom": "Hache de bataille kor'kron",
+    "name": {
+      "fr": "Hache de bataille kor'kron",
+      "en": "Kor'kron Battle Axe"
+    },
+    "system.description.value": {
+      "fr": "<p>Une hache au fer noirci, large comme une main ouverte, que la garde d'élite d'Orgrimmar porte à une ou deux mains. Le revers du tranchant est lesté pour faucher les jambes : les Kor'kron apprennent à renverser avant d'achever.</p>",
+      "en": "<p>An axe with a blackened head as wide as an open hand, which Orgrimmar's elite guard wields one- or two-handed. The back of the edge is weighted to scythe the legs: the Kor'kron learn to knock down before they finish.</p>"
+    }
+  },
+  "objets/pAmh8RlTkBuJ38zf": {
+    "_nom": "Tromblon de Forgefer",
+    "name": {
+      "fr": "Tromblon de Forgefer",
+      "en": "Ironforge Blunderbuss"
+    },
+    "system.description.value": {
+      "fr": "<p>Un long fusil à poudre noire de la guilde des fusiliers de Forgefer, lourd et bruyant. Chaque coup réveille la vallée. Il faut de la poudre et des balles, que vend tout armurier nain.</p>",
+      "en": "<p>A long black-powder rifle from the Ironforge riflemen's guild, heavy and loud. Every shot wakes the valley. It needs powder and bullets, which any dwarven armorer sells.</p>"
+    }
+  },
+  "objets/pzYC56LFlcvQoajl": {
+    "_nom": "Carreaux explosifs gobelins",
+    "name": {
+      "fr": "Carreaux explosifs gobelins",
+      "en": "Goblin Explosive Bolts"
+    },
+    "system.description.value": {
+      "fr": "<p>Cinq carreaux dont la pointe est une capsule de poudre gobeline. Un carreau qui touche explose et inflige <strong>1d6 dégâts de feu</strong> en plus des dégâts de l'arme. Un carreau qui manque explose quand même, quelque part.</p>",
+      "en": "<p>Five bolts whose heads are capsules of goblin powder. A bolt that hits explodes and deals <strong>1d6 Fire damage</strong> in addition to the weapon's damage. A bolt that misses explodes anyway, somewhere.</p>"
+    }
+  },
+  "objets/q4nPH0xfdiJHhDM8": {
+    "_nom": "Casque de mineur à lanterne",
+    "name": {
+      "fr": "Casque de mineur à lanterne",
+      "en": "Miner's Lantern Helmet"
+    },
+    "system.description.value": {
+      "fr": "<p>Un casque de cuir bouilli surmonté d'une lanterne à huile de feu qui ne s'éteint pas sous la pluie. Par une <strong>action bonus</strong>, vous l'allumez ou l'éteignez : elle éclaire en lumière vive sur 9 m devant vous, et en lumière faible sur 9 m de plus. Une flasque d'huile la fait brûler 6 heures.</p>",
+      "en": "<p>A boiled-leather helmet topped with a fire-oil lantern that does not go out in the rain. As a <strong>Bonus Action</strong>, you light it or put it out: it sheds Bright Light for 30 feet in front of you, and Dim Light for 30 feet more. A flask of oil keeps it burning for 6 hours.</p>"
+    },
+    "system.activities.oo5ivXlfA2nKczVA.name": {
+      "fr": "Allumer la lanterne",
+      "en": "Light the lantern"
+    }
+  },
+  "objets/qx7bkD7JH5MV2miA": {
+    "_nom": "Masque de la Mascarade",
+    "name": {
+      "fr": "Masque de la Mascarade",
+      "en": "Masquerade Mask"
+    },
+    "system.description.value": {
+      "fr": "<p>Un demi-masque de cuivre doré, serti de verroterie, ouvragé par un illusionniste gobelin de Cabestan. Celui qui le porte a la voix un peu plus grave, la démarche un peu plus souple, et personne ne jurerait l'avoir déjà vu.</p><p>Tant que vous portez le masque (équipé) et que vous y êtes <strong>harmonisé</strong>, vous avez l'avantage aux tests de Charisme (Tromperie). Par une <strong>action</strong>, vous pouvez changer à volonté la couleur du masque et des pierres qui l'ornent.</p>",
+      "en": "<p>A gilded copper half-mask, set with glass beads, crafted by a goblin illusionist of Ratchet. Whoever wears it has a slightly deeper voice, a slightly smoother gait, and nobody would swear to having seen them before.</p><p>While you wear the mask (equipped) and are <strong>attuned</strong> to it, you have Advantage on Charisma (Deception) checks. As an <strong>action</strong>, you can change at will the color of the mask and of the stones that adorn it.</p>"
+    },
+    "effects.UXdJ68HTXOcgBCh1.description": {
+      "fr": "<p>Masque porté : avantage aux tests de Charisme (Tromperie).</p>",
+      "en": "<p>Mask worn: Advantage on Charisma (Deception) checks.</p>"
+    }
+  },
+  "objets/rAAYTUjSK6WLkMRm": {
+    "_nom": "Fusil à lunette de Dun Morogh",
+    "name": {
+      "fr": "Fusil à lunette de Dun Morogh",
+      "en": "Dun Morogh Scoped Rifle"
+    },
+    "system.description.value": {
+      "fr": "<p>Un long canon rayé, une crosse en noyer des montagnes et une lunette de cuivre réglée au millimètre par les fusiliers de la Garde de Forgefer. Il porte deux fois plus loin qu'un mousquet ordinaire. Il tire des <strong>balles de fusil</strong>, une seule à la fois.</p>",
+      "en": "<p>A long rifled barrel, a stock of mountain walnut and a copper scope adjusted to the millimeter by the riflemen of the Ironforge Guard. It carries twice as far as an ordinary musket. It fires <strong>rifle bullets</strong>, one at a time.</p>"
+    }
+  },
+  "objets/riJUdJWAnYCO8EF1": {
+    "_nom": "Cape de Sentinelle",
+    "name": {
+      "fr": "Cape de Sentinelle",
+      "en": "Sentinel Cloak"
+    },
+    "system.description.value": {
+      "fr": "<p>Une cape violette tissée par les prêtresses d'Élune. Tant que vous la portez et y êtes <strong>lié</strong>, vous avez l'avantage aux tests de <strong>Dextérité (Discrétion)</strong> faits dans la pénombre ou l'obscurité, et vous pouvez vous cacher quand vous n'êtes que dans une zone de lumière faible.</p>",
+      "en": "<p>A violet cloak woven by the priestesses of Elune. While you wear it and are <strong>attuned</strong> to it, you have Advantage on <strong>Dexterity (Stealth)</strong> checks made in dim light or darkness, and you can hide when you are merely in an area of Dim Light.</p>"
+    }
+  },
+  "objets/t7SVoj0O72IicoSq": {
+    "_nom": "Hache d'Orgrimmar",
+    "name": {
+      "fr": "Hache d'Orgrimmar",
+      "en": "Orgrimmar Axe"
+    },
+    "system.description.value": {
+      "fr": "<p>Une grande hache à double tranchant dentelé, au manche enveloppé de cuir rouge. Les forgerons de la Vallée de la Force la martèlent dans le fer noir de Durotar.</p>",
+      "en": "<p>A great axe with a serrated double edge, its handle wrapped in red leather. The smiths of the Valley of Strength hammer it out of the black iron of Durotar.</p>"
+    }
+  },
+  "objets/tErVskwRaDocz3Ca": {
+    "_nom": "Lame de givre de Norfendre",
+    "name": {
+      "fr": "Lame de givre de Norfendre",
+      "en": "Northrend Frost Blade"
+    },
+    "system.description.value": {
+      "fr": "<p>Une épée longue couverte de givre qui ne fond jamais, tirée des ruines d'une forteresse vrykule du Fjord Hurlant. C'est une <strong>arme +1</strong> qui nécessite un <strong>lien</strong>. Ses coups infligent <strong>1d6 dégâts de froid</strong> supplémentaires, et tant que vous y êtes lié, vous avez la <strong>résistance aux dégâts de froid</strong>.</p>",
+      "en": "<p>A longsword covered in frost that never melts, taken from the ruins of a vrykul fortress in the Howling Fjord. It is a <strong>+1 weapon</strong> that requires <strong>attunement</strong>. Its blows deal an extra <strong>1d6 Cold damage</strong>, and while you are attuned to it, you have <strong>Resistance to Cold damage</strong>.</p>"
+    },
+    "system.activities.PDTzqRipDeJmQ2UM.name": {
+      "fr": "Morsure du givre",
+      "en": "Bite of the frost"
+    },
+    "system.activities.PDTzqRipDeJmQ2UM.activation.condition": {
+      "fr": "Une attaque avec la lame touche",
+      "en": "An attack with the blade hits"
+    },
+    "effects.TyF9qJC22eesga2H.name": {
+      "fr": "Lame de givre",
+      "en": "Frost blade"
+    }
+  },
+  "objets/tKhjhOuHjsm8l7c9": {
+    "_nom": "Maille lamellée de Forgefer",
+    "name": {
+      "fr": "Maille lamellée de Forgefer",
+      "en": "Ironforge Splint Mail"
+    },
+    "system.description.value": {
+      "fr": "<p>Des bandes d'acier rivetées sur une cotte de mailles serrée, taillées à la mesure d'un nain puis rallongées pour les autres peuples moyennant supplément. Chaque lame porte le poinçon de la forge royale.</p>",
+      "en": "<p>Strips of steel riveted onto a tight mail shirt, cut to a dwarf's measure and then lengthened for the other peoples at an extra charge. Each strip bears the hallmark of the royal forge.</p>"
+    }
+  },
+  "objets/tQQ6ZDrlT0TkoeBp": {
+    "_nom": "Mousse d'Âprefange",
+    "name": {
+      "fr": "Mousse d'Âprefange",
+      "en": "Dustwallow Moss"
+    },
+    "system.description.value": {
+      "fr": "<p>Une mousse violette et spongieuse des souches du marécage d'Âprefange. Elle garde l'eau des semaines et calme les plaies les plus profondes.</p>",
+      "en": "<p>A violet, spongy moss from the stumps of Dustwallow Marsh. It holds water for weeks and soothes the deepest wounds.</p>"
+    }
+  },
+  "objets/tXz5Gb5yosB83Hqm": {
+    "_nom": "Peau de kodo épaisse",
+    "name": {
+      "fr": "Peau de kodo épaisse",
+      "en": "Thick Kodo Hide"
+    },
+    "system.description.value": {
+      "fr": "<p>Un pan de peau de kodo épais comme un doigt. Les taurens n'en prennent que sur les bêtes mortes de vieillesse, et demandent qu'on fasse de même.</p>",
+      "en": "<p>A piece of kodo hide as thick as a finger. The tauren take it only from beasts that died of old age, and ask that others do the same.</p>"
+    }
+  },
+  "objets/tmHdCg4DBlZQ6fRd": {
+    "_nom": "Canon-main gobelin",
+    "name": {
+      "fr": "Canon-main gobelin",
+      "en": "Goblin Hand Cannon"
+    },
+    "system.description.value": {
+      "fr": "<p>Un pistolet trapu au canon évasé, assemblé à Baie-du-Butin avec des pièces de trois armes différentes et vendu « en l'état ». Il tire des <strong>balles de fusil</strong>.</p><p><strong>Spécial.</strong> Sur un 1 naturel au jet d'attaque, la poudre fuse par la culasse : vous subissez 1d4 dégâts de feu et l'arme ne peut plus tirer avant d'avoir été nettoyée (une action).</p>",
+      "en": "<p>A stubby pistol with a flared barrel, assembled in Booty Bay from parts of three different weapons and sold \"as is\". It fires <strong>rifle bullets</strong>.</p><p><strong>Special.</strong> On a natural 1 on the attack roll, the powder flashes out of the breech: you take 1d4 Fire damage and the weapon cannot fire again until it has been cleaned (an action).</p>"
+    }
+  },
+  "objets/tvjslgMOwlg1Huhg": {
+    "_nom": "Flacon de sagesse distillée",
+    "name": {
+      "fr": "Flacon de sagesse distillée",
+      "en": "Flask of Distilled Wisdom"
+    },
+    "system.description.value": {
+      "fr": "<p>Un liquide bleu pâle où flottent des paillettes d'argent, que les mages de Theramore boivent avant les longues séances d'étude. Il a un goût d'encre et de neige.</p><p>Par une <strong>action bonus</strong>, vous buvez le flacon : <strong>+2</strong> aux jets de sauvegarde de concentration et avantage aux tests d'Intelligence (Arcanes).</p><p>Un seul flacon à la fois : en boire un second met fin à l'effet du premier. L'effet dure <strong>8 heures</strong>.</p>",
+      "en": "<p>A pale blue liquid with silver flakes floating in it, which the mages of Theramore drink before long study sessions. It tastes of ink and snow.</p><p>As a <strong>Bonus Action</strong>, you drink the flask: <strong>+2</strong> to Concentration saving throws and Advantage on Intelligence (Arcana) checks.</p><p>Only one flask at a time: drinking a second one ends the effect of the first. The effect lasts <strong>8 hours</strong>.</p>"
+    },
+    "effects.bFgwJ1WJEbL5oLjd.description": {
+      "fr": "<p>Pendant 8 heures : <strong>+2</strong> aux jets de sauvegarde de concentration et avantage aux tests d'Intelligence (Arcanes).</p>",
+      "en": "<p>For 8 hours: <strong>+2</strong> to Concentration saving throws and Advantage on Intelligence (Arcana) checks.</p>"
+    }
+  },
+  "objets/uKCUMZbAK9UISvRP": {
+    "_nom": "Minerai de cuivre",
+    "name": {
+      "fr": "Minerai de cuivre",
+      "en": "Copper Ore"
+    },
+    "system.description.value": {
+      "fr": "<p>Un bloc de roche veiné de cuivre, comme on en trouve dans toutes les collines. Le métal des bricoleurs et des chaudronniers.</p>",
+      "en": "<p>A block of rock veined with copper, such as is found in every hill. The metal of tinkers and coppersmiths.</p>"
+    }
+  },
+  "objets/uSKoAQ1BsXQ5i3nt": {
+    "_nom": "Tourte au poisson de Theramore",
+    "name": {
+      "fr": "Tourte au poisson de Theramore",
+      "en": "Theramore Fish Pie"
+    },
+    "system.description.value": {
+      "fr": "<p>Une tourte dorée farcie de poisson de la baie, d'herbes du marais et de beurre salé, telle qu'on la sert à l'auberge du port de Theramore. Elle réchauffe et donne l'esprit clair, ce qui n'est pas rien dans les brumes d'Âprefange.</p><p>Six portions. Il faut <strong>10 minutes</strong> pour manger une portion ; la créature qui la mange est <strong>bien nourrie</strong> : +1 aux jets de sauvegarde de Sagesse et +2 à la Sagesse (Perception) passive.</p><p>Un seul repas « bien nourri » à la fois : un nouveau repas remplace le précédent. L'effet prend fin au prochain <strong>repos long</strong>.</p>",
+      "en": "<p>A golden pie stuffed with fish from the bay, marsh herbs and salted butter, as served at the inn of Theramore's harbor. It warms you and clears the mind, which is no small thing in the mists of Dustwallow.</p><p>Six servings. It takes <strong>10 minutes</strong> to eat a serving; the creature that eats it is <strong>Well Fed</strong>: +1 to Wisdom saving throws and +2 to Passive Wisdom (Perception).</p><p>Only one \"Well Fed\" meal at a time: a new meal replaces the previous one. The effect ends at the next <strong>Long Rest</strong>.</p>"
+    },
+    "effects.oEzXvblIT6mkhhjQ.name": {
+      "fr": "Bien nourri — tourte de Theramore",
+      "en": "Well Fed — Theramore pie"
+    },
+    "effects.oEzXvblIT6mkhhjQ.description": {
+      "fr": "<p>Bien nourri jusqu'au prochain repos long : +1 aux jets de sauvegarde de Sagesse et +2 à la Sagesse (Perception) passive.</p>",
+      "en": "<p>Well Fed until the next Long Rest: +1 to Wisdom saving throws and +2 to Passive Wisdom (Perception).</p>"
+    }
+  },
+  "objets/v2iFRecHPXFq07w7": {
+    "_nom": "Pierre à aiguiser de Rouge-Veine",
+    "name": {
+      "fr": "Pierre à aiguiser de Rouge-Veine",
+      "en": "Redvein Whetstone"
+    },
+    "system.description.value": {
+      "fr": "<p>Une pierre grise taillée dans la roche de Rouge-Veine, où affleurent des grains de fer. En <strong>1 minute</strong>, vous affûtez une arme : pendant <strong>1 heure</strong>, elle inflige <strong>+1</strong> aux jets de dégâts au corps à corps. La pierre s'use en une fois, et deux affûtages ne se cumulent pas : le second remplace le premier.</p>",
+      "en": "<p>A grey stone cut from the rock of Redvein, where grains of iron show through. In <strong>1 minute</strong>, you sharpen a weapon: for <strong>1 hour</strong>, it deals <strong>+1</strong> to melee damage rolls. The stone wears out in one use, and two sharpenings do not stack: the second replaces the first.</p>"
+    },
+    "system.activities.u4r0oAVIiCTKL1fb.name": {
+      "fr": "Affûter",
+      "en": "Sharpen"
+    },
+    "effects.fWQDQk3jND5RAo25.name": {
+      "fr": "Lame affûtée",
+      "en": "Sharpened blade"
+    },
+    "effects.fWQDQk3jND5RAo25.description": {
+      "fr": "<p>+1 aux dégâts au corps à corps pendant 1 heure.</p>",
+      "en": "<p>+1 to melee damage for 1 hour.</p>"
+    }
+  },
+  "objets/wsWsboEY5DpiLBNS": {
+    "_nom": "Éclat de verre noir",
+    "name": {
+      "fr": "Éclat de verre noir",
+      "en": "Black Glass Shard"
+    },
+    "system.description.value": {
+      "fr": "<p>Un éclat de la roche fondue en verre par la chute de la Fournaise, ramassé sur les pentes du cratère. Tranchant comme un rasoir, froid même au soleil.</p>",
+      "en": "<p>A shard of the rock melted into glass by the fall of the Furnace, picked up on the slopes of the crater. Sharp as a razor, cold even in the sun.</p>"
+    }
+  },
+  "objets/wwwk7ZfSpXXVIZNN": {
+    "_nom": "Minerai de fer rouge",
+    "name": {
+      "fr": "Minerai de fer rouge",
+      "en": "Red Iron Ore"
+    },
+    "system.description.value": {
+      "fr": "<p>Le fer rouille-sang des collines de Rouge-Veine, lourd et cassant tant qu'il n'est pas forgé. Les forgerons d'Orgrimmar ne jurent que par lui.</p>",
+      "en": "<p>The blood-rust iron of the Redvein hills, heavy and brittle until it is forged. The smiths of Orgrimmar swear by it.</p>"
+    }
+  },
+  "objets/xG6WomutlBUZe1wp": {
+    "_nom": "Masque filtrant gnome",
+    "name": {
+      "fr": "Masque filtrant gnome",
+      "en": "Gnomish Filter Mask"
+    },
+    "system.description.value": {
+      "fr": "<p>Un masque de toile caoutchoutée, des lunettes et deux cartouches de charbon actif, conçu par les survivants de Gnomeregan pour retourner dans la cité irradiée. Tant que vous le portez, vous avez la <strong>résistance aux dégâts de poison</strong>.</p>",
+      "en": "<p>A mask of rubberized canvas, goggles and two cartridges of activated charcoal, designed by the survivors of Gnomeregan to return to the irradiated city. While you wear it, you have <strong>Resistance to Poison damage</strong>.</p>"
+    }
+  },
+  "objets/xxkmvrZscyLWpVNd": {
+    "_nom": "Marteau de la Main d'argent",
+    "name": {
+      "fr": "Marteau de la Main d'argent",
+      "en": "Hammer of the Silver Hand"
+    },
+    "system.description.value": {
+      "fr": "<p>Un marteau de guerre béni par l'ordre des paladins avant sa dissolution. C'est une <strong>arme +1</strong> qui nécessite un <strong>lien</strong>. Contre un mort-vivant ou un démon, elle inflige <strong>1d6 dégâts radiants</strong> supplémentaires.</p>",
+      "en": "<p>A warhammer blessed by the order of paladins before its dissolution. It is a <strong>+1 weapon</strong> that requires <strong>attunement</strong>. Against an Undead or a Fiend, it deals an extra <strong>1d6 Radiant damage</strong>.</p>"
+    },
+    "system.activities.9IurUnFEfB0kgJb7.name": {
+      "fr": "Lumière contre les impies",
+      "en": "Light against the unholy"
+    },
+    "system.activities.9IurUnFEfB0kgJb7.activation.condition": {
+      "fr": "La cible touchée est un mort-vivant ou un démon",
+      "en": "The target hit is an Undead or a Fiend"
+    }
+  },
+  "objets/yTqqjKemnaye9LcF": {
+    "_nom": "Talisman de la Lumière",
+    "name": {
+      "fr": "Talisman de la Lumière",
+      "en": "Talisman of the Light"
+    },
+    "system.description.value": {
+      "fr": "<p>Un disque de pierre blanche gravé d'un soleil, béni à la cathédrale de Hurlevent. Tant que vous y êtes <strong>lié</strong>, vous avez la <strong>résistance aux dégâts nécrotiques</strong>.</p><p>Il a <strong>3 charges</strong>. Par une <strong>action bonus</strong>, vous en dépensez une pour toucher une créature : elle récupère <strong>2d4 + 2</strong> points de vie. Il regagne <strong>1d3</strong> charges à l'aube.</p>",
+      "en": "<p>A disc of white stone engraved with a sun, blessed at the cathedral of Stormwind. While you are <strong>attuned</strong> to it, you have <strong>Resistance to Necrotic damage</strong>.</p><p>It has <strong>3 charges</strong>. As a <strong>Bonus Action</strong>, you expend one to touch a creature: it regains <strong>2d4 + 2</strong> Hit Points. It regains <strong>1d3</strong> charges at dawn.</p>"
+    },
+    "system.activities.ugWV7RbBeVBSzBSq.name": {
+      "fr": "Lumière salvatrice",
+      "en": "Saving Light"
+    }
+  },
+  "objets/yj0hmd84QMgTIbHl": {
+    "_nom": "Harnois de la Lumière",
+    "name": {
+      "fr": "Harnois de la Lumière",
+      "en": "Harness of the Light"
+    },
+    "system.description.value": {
+      "fr": "<p>Un harnois complet aux épaulières dorées, forgé pour les paladins de l'Aube d'argent. Des prières sont gravées à l'intérieur du plastron, là où seul celui qui le porte peut les lire.</p>",
+      "en": "<p>A full plate harness with gilded shoulder guards, forged for the paladins of the Argent Dawn. Prayers are engraved inside the breastplate, where only the wearer can read them.</p>"
+    }
+  },
+  "objets/zF4D30Ht2ACDel72": {
+    "_nom": "Atelier gobelin",
+    "name": {
+      "fr": "Atelier gobelin",
+      "en": "Goblin Workshop"
+    },
+    "system.description.value": {
+      "fr": "<p>Un hangar de tôle où trois apprentis gobelins (ou gnomes, selon la bannière) soudent, vissent et font sauter ce qu'ils ont soudé. <strong>Ordre : fabriquer.</strong> L'atelier produit un objet d'ingénierie ; dnd5e calcule le coût et le délai de l'ordre selon l'objet choisi (pour un objet ordinaire : la moitié de son prix en po, et un jour par tranche de 10 po de prix ; pour un objet magique, son propre barème) ; pas de test, pas de recette à suivre. Par exemple @UUID[Compendium.lakour-warcraft.objets.Item.J5njSJUKfoAdTJw5]{Bombe gobeline} : 12 po et 3 jours, @UUID[Compendium.lakour-warcraft.objets.Item.q4nPH0xfdiJHhDM8]{Casque de mineur à lanterne} : 7 po et 2 jours.</p>",
+      "en": "<p>A sheet-metal shed where three goblin apprentices (or gnomes, depending on the banner) weld, screw and blow up what they have welded. <strong>Order: Craft.</strong> The workshop produces an engineering item; dnd5e works out the cost and the time of the order from the chosen item (for an ordinary item: half its price in gp, and one day per 10 gp of price; for a magic item, its own scale); no check, no recipe to follow. For example @UUID[Compendium.lakour-warcraft.objets.Item.J5njSJUKfoAdTJw5]{Goblin Bomb}: 12 gp and 3 days, @UUID[Compendium.lakour-warcraft.objets.Item.q4nPH0xfdiJHhDM8]{Miner's Lantern Helmet}: 7 gp and 2 days.</p>"
+    }
+  }
+}

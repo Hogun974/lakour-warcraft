@@ -3,8 +3,11 @@
 // est écrite avec node:zlib (deflate + crc32). Lancé par .github/workflows/release.yml, utilisable à la main.
 //
 // Usage : node outils/empaqueter-module.mjs [--version 0.11.0] [--depot https://github.com/Hogun974/lakour-warcraft]
-//                                           [--sortie dist] [--verifier-version]
+//                                           [--sortie dist] [--verifier-version] [--module lakour-warcraft-en]
 // - sans --version : la version de modules/lakour-warcraft/module.json ;
+// - --module lakour-warcraft-en : emballe de la même façon le module anglais engendré par `npm run fabriquer-warcraft-en`
+//   (modules/lakour-warcraft-en/, non versionné) : archive lakour-warcraft-en.zip et manifeste publié lakour-warcraft-en.json
+//   (le nom « module.json » reste celui du module français ; Foundry lit un manifeste sous n'importe quel nom) ;
 // - --verifier-version : échoue si la version demandée n'est pas celle du module.json du dépôt (garde-fou du tag) ;
 // - packs/ doit avoir été compilé (npm run fabriquer-warcraft) : sinon l'empaquetage échoue au lieu de livrer un module vide.
 // Dans l'archive : module.json (publié), CREDITS.md, lang/, scripts/, templates/, assets/, packs/ ; jamais src/ ni contenu/
@@ -18,20 +21,25 @@ export const MODULE = "lakour-warcraft";
 export const DEPOT_PAR_DEFAUT = "https://github.com/Hogun974/lakour-warcraft";
 export const EXCLUS = new Set(["src", "contenu"]);
 export const ARCHIVE = `${MODULE}.zip`;
+// Archive et manifeste publié d'un module : module.json pour le module français, <id>.json pour un module dérivé (lakour-warcraft-en).
+export const nomArchive = (module = MODULE) => `${module}.zip`;
+export const nomManifeste = (module = MODULE) => (module === MODULE ? "module.json" : `${module}.json`);
 
 // ---------------------------------------------------------------- Options
 
 export function options(argv) {
-  const o = { version: null, depot: DEPOT_PAR_DEFAUT, sortie: "dist", verifierVersion: false };
+  const o = { version: null, depot: DEPOT_PAR_DEFAUT, sortie: "dist", verifierVersion: false, module: MODULE };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === "--version") o.version = argv[++i];
     else if (a === "--depot") o.depot = argv[++i];
     else if (a === "--sortie") o.sortie = argv[++i];
     else if (a === "--verifier-version") o.verifierVersion = true;
+    else if (a === "--module") o.module = argv[++i];
     else throw new Error(`Option inconnue : ${a}`);
   }
   if (o.version && !/^\d+\.\d+\.\d+$/.test(o.version)) throw new Error(`Version invalide : « ${o.version} » (attendu : X.Y.Z)`);
+  if (!o.module || !/^[a-z0-9-]+$/.test(o.module)) throw new Error(`Module invalide : « ${o.module} »`);
   o.depot = o.depot.replace(/\/+$/, "");
   return o;
 }
@@ -39,13 +47,13 @@ export function options(argv) {
 // ---------------------------------------------------------------- Manifeste publié
 
 // Le manifeste publié pointe toujours vers la dernière release (manifest) et vers l'archive de SA version (download).
-export function manifestePublie(manifeste, version, depot) {
+export function manifestePublie(manifeste, version, depot, module = manifeste.id ?? MODULE) {
   return {
     ...manifeste,
     version,
     url: depot,
-    manifest: `${depot}/releases/latest/download/module.json`,
-    download: `${depot}/releases/download/v${version}/${ARCHIVE}`
+    manifest: `${depot}/releases/latest/download/${nomManifeste(module)}`,
+    download: `${depot}/releases/download/v${version}/${nomArchive(module)}`
   };
 }
 
@@ -112,10 +120,13 @@ export function zip(entrees, dateParDefaut = new Date()) {
 
 // ---------------------------------------------------------------- Empaquetage
 
-export function empaqueter({ racineDepot = process.cwd(), version = null, depot = DEPOT_PAR_DEFAUT, sortie = "dist", verifierVersion = false, journal = console.log } = {}) {
-  const racineModule = resolve(racineDepot, "modules", MODULE);
+// module : identifiant du module à emballer (lakour-warcraft, ou lakour-warcraft-en engendré par `npm run fabriquer-warcraft-en`).
+export function empaqueter({ racineDepot = process.cwd(), version = null, depot = DEPOT_PAR_DEFAUT, sortie = "dist", verifierVersion = false, module = MODULE, journal = console.log } = {}) {
+  const racineModule = resolve(racineDepot, "modules", module);
+  const fabricant = `npm run fabriquer-warcraft${module === MODULE ? "" : "-en"}`;
+  if (!existsSync(join(racineModule, "module.json"))) throw new Error(`${racineModule} sans module.json — lancez « ${fabricant} » d'abord`);
   const manifeste = JSON.parse(readFileSync(join(racineModule, "module.json"), "utf8"));
-  if (manifeste.id !== MODULE) throw new Error(`module.json : id « ${manifeste.id} », attendu « ${MODULE} »`);
+  if (manifeste.id !== module) throw new Error(`module.json : id « ${manifeste.id} », attendu « ${module} »`);
   const versionPubliee = version ?? manifeste.version;
   if (verifierVersion && versionPubliee !== manifeste.version) {
     throw new Error(`Le tag demande la version ${versionPubliee} mais module.json est en ${manifeste.version} : mettez module.json à jour avant de poser le tag`);
@@ -123,9 +134,10 @@ export function empaqueter({ racineDepot = process.cwd(), version = null, depot 
   const packs = join(racineModule, "packs");
   const packsAttendus = manifeste.packs.map(p => p.path.replace(/^packs\//, ""));
   const manquants = packsAttendus.filter(p => !existsSync(join(packs, p)) || readdirSync(join(packs, p)).length === 0);
-  if (manquants.length) throw new Error(`Compendiums non compilés : ${manquants.join(", ")} — lancez « npm run fabriquer-warcraft » d'abord`);
+  if (manquants.length) throw new Error(`Compendiums non compilés : ${manquants.join(", ")} — lancez « ${fabricant} » d'abord`);
 
-  const publie = manifestePublie(manifeste, versionPubliee, depot);
+  const publie = manifestePublie(manifeste, versionPubliee, depot, module);
+  const archiveNom = nomArchive(module), manifesteNom = nomManifeste(module);
   const texteManifeste = `${JSON.stringify(publie, null, 2)}\n`;
   const fichiers = fichiersDuModule(racineModule).filter(f => f !== "module.json");
   const entrees = [
@@ -136,11 +148,11 @@ export function empaqueter({ racineDepot = process.cwd(), version = null, depot 
 
   const dossierSortie = resolve(racineDepot, sortie);
   mkdirSync(dossierSortie, { recursive: true });
-  writeFileSync(join(dossierSortie, ARCHIVE), archive);
-  writeFileSync(join(dossierSortie, "module.json"), texteManifeste);
+  writeFileSync(join(dossierSortie, archiveNom), archive);
+  writeFileSync(join(dossierSortie, manifesteNom), texteManifeste);
   const empreinte = createHash("sha256").update(archive).digest("hex");
-  journal(`${MODULE} ${versionPubliee} : ${entrees.length} fichiers, ${(archive.length / 1024 / 1024).toFixed(2)} Mo -> ${join(sortie, ARCHIVE)} (sha256 ${empreinte.slice(0, 12)}…)`);
-  journal(`manifeste publié -> ${join(sortie, "module.json")} (manifest ${publie.manifest}, download ${publie.download})`);
+  journal(`${module} ${versionPubliee} : ${entrees.length} fichiers, ${(archive.length / 1024 / 1024).toFixed(2)} Mo -> ${join(sortie, archiveNom)} (sha256 ${empreinte.slice(0, 12)}…)`);
+  journal(`manifeste publié -> ${join(sortie, manifesteNom)} (manifest ${publie.manifest}, download ${publie.download})`);
   return { version: versionPubliee, fichiers: entrees.length, octets: archive.length, sha256: empreinte, manifeste: publie };
 }
 

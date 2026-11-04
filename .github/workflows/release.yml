@@ -1,6 +1,10 @@
-# Publication d'une release GitHub à chaque tag « vX.Y.Z » : compendiums fabriqués, module empaqueté (outils/empaqueter-module.mjs),
-# monde empaqueté si le script « empaqueter-monde » existe dans package.json, puis release avec module.json, lakour-warcraft.zip,
-# world.json et l'archive du monde. Les manifestes publiés portent la version du tag (vérifiée contre module.json).
+# Publication d'une release GitHub à chaque tag « vX.Y.Z » : compendiums fabriqués (français, puis anglais : module
+# lakour-warcraft-en engendré à partir des mêmes sources et des dictionnaires contenu/en/), modules empaquetés
+# (outils/empaqueter-module.mjs), monde empaqueté si le script « empaqueter-monde » existe dans package.json, puis release avec
+# module.json, lakour-warcraft.zip, lakour-warcraft-en.json, lakour-warcraft-en.zip, world.json et l'archive du monde.
+# Les manifestes publiés portent la version du tag (vérifiée contre module.json). Adresses stables données aux joueurs :
+#   https://github.com/Hogun974/lakour-warcraft/releases/latest/download/module.json               (français)
+#   https://github.com/Hogun974/lakour-warcraft/releases/latest/download/lakour-warcraft-en.json   (anglais)
 # Prérequis : le sous-module modules/lakour-mj-ia doit être lisible par le jeton du workflow (dépôt public, ou PAT dans
 # le secret SOUS_MODULE_TOKEN si le moteur reste privé).
 name: Publication
@@ -43,11 +47,17 @@ jobs:
       - name: Fabriquer les compendiums
         run: npm run fabriquer-warcraft
 
+      - name: Module anglais lakour-warcraft-en (modules/lakour-warcraft-en/, hors git)
+        run: npm run fabriquer-warcraft-en
+
       - name: Essais
         run: npm run essais
 
       - name: Empaqueter le module
         run: node outils/empaqueter-module.mjs --version "${{ steps.version.outputs.version }}" --verifier-version --depot "https://github.com/${{ github.repository }}"
+
+      - name: Empaqueter le module anglais (lakour-warcraft-en.zip, manifeste lakour-warcraft-en.json)
+        run: node outils/empaqueter-module.mjs --module lakour-warcraft-en --version "${{ steps.version.outputs.version }}" --verifier-version --depot "https://github.com/${{ github.repository }}"
 
       - name: Empaqueter le monde (si le script existe)
         env:
@@ -65,6 +75,8 @@ jobs:
           ls -l dist/
           test -s dist/module.json
           test -s dist/lakour-warcraft.zip
+          test -s dist/lakour-warcraft-en.json
+          test -s dist/lakour-warcraft-en.zip
           node -e "const m=require('./dist/module.json'); if (m.version!=='${{ steps.version.outputs.version }}') { console.error('version du manifeste publié :', m.version); process.exit(1) }"
 
       - name: Notes de version (section du CHANGELOG)
@@ -89,5 +101,7 @@ jobs:
           files: |
             dist/module.json
             dist/lakour-warcraft.zip
+            dist/lakour-warcraft-en.json
+            dist/lakour-warcraft-en.zip
             dist/world.json
             dist/*.zip

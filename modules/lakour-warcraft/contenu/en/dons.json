@@ -1,0 +1,638 @@
+{
+  "dons/0NkZ7jBQC9DNFqIJ": {
+    "_nom": "Bricoleur gobelin",
+    "name": {
+      "fr": "Bricoleur gobelin",
+      "en": "Goblin Tinker"
+    },
+    "system.description.value": {
+      "fr": "<p>Ça marche une fois sur deux, et l'autre fois, ça fait encore plus de bruit. Vous maîtrisez les <strong>outils de bricoleur</strong>.</p><p><strong>Gadget instable.</strong> Par une <strong>action</strong>, vous lancez un engin bricolé en un point situé à 9 m au plus. Chaque créature dans un rayon de 1,5 m autour de ce point fait un jet de sauvegarde de <strong>Dextérité</strong> (DD 8 + votre modificateur d'Intelligence + votre bonus de maîtrise) : elle subit <strong>2d6 dégâts de feu</strong> en cas d'échec, la moitié en cas de réussite. Une utilisation par <strong>repos court</strong> ; assembler l'engin suppose d'avoir vos outils.</p>",
+      "en": "<p>It works every other time, and the other time it just makes more noise. You have proficiency with <strong>Tinker's Tools</strong>.</p><p><strong>Unstable Gadget.</strong> As an <strong>action</strong>, you throw a jury-rigged device at a point within 30 feet. Each creature within 5 feet of that point makes a <strong>Dexterity</strong> saving throw (DC 8 + your Intelligence modifier + your Proficiency Bonus): it takes <strong>2d6 Fire damage</strong> on a failure, half as much on a success. One use per <strong>Short Rest</strong>; assembling the device requires your tools.</p>"
+    },
+    "system.activities.XwPLEd6taiKe4CIO.name": {
+      "fr": "Lancer le gadget",
+      "en": "Throw the Gadget"
+    }
+  },
+  "dons/51569uJKfHXrQfZZ": {
+    "_nom": "Tête mise à prix",
+    "name": {
+      "fr": "Tête mise à prix",
+      "en": "Price on Your Head"
+    },
+    "system.description.value": {
+      "fr": "<p>Quelqu'un paie pour vous voir mort, ou ramené vivant : un baron gobelin, un capitaine écarlate, un chef de clan. La prime vaut <strong>100 po par niveau</strong> de personnage. Dans chaque ville d'une certaine taille, le MJ tire un d6 : sur 1, un chasseur de primes vous a trouvé.</p><p>La prime tombe si vous payez le commanditaire, s'il meurt, ou si vous prouvez votre innocence — ce qui fait souvent une bonne aventure.</p>",
+      "en": "<p>Someone is paying to see you dead, or brought back alive: a goblin baron, a Scarlet captain, a clan chieftain. The bounty is worth <strong>100 gp per character level</strong>. In every town of any size, the GM rolls a d6: on a 1, a bounty hunter has found you.</p><p>The bounty is lifted if you pay off the client, if they die, or if you prove your innocence — which often makes for a good adventure.</p>"
+    },
+    "system.requirements": {
+      "fr": "Handicap de faction",
+      "en": "Faction drawback"
+    }
+  },
+  "dons/6FQgopJcWkpeIsxp": {
+    "_nom": "Esprit d'acier",
+    "name": {
+      "fr": "Esprit d'acier",
+      "en": "Mind of Steel"
+    },
+    "system.description.value": {
+      "fr": "<p><em>Prérequis : Niveau 19 ou plus.</em></p><p><strong>Amélioration de caractéristique.</strong> Augmentez votre Force, Dextérité, Constitution, Intelligence, Sagesse ou Charisme de 1, jusqu'à un maximum de 30.</p><p>Le Roi-liche a tenté de vous briser, et il a échoué. Vous ne pouvez pas être <strong>charmé</strong> ni <strong>effrayé</strong>.</p>",
+      "en": "<p><em>Prerequisite: Level 19 or higher.</em></p><p><strong>Ability Score Improvement.</strong> Increase your Strength, Dexterity, Constitution, Intelligence, Wisdom or Charisma by 1, to a maximum of 30.</p><p>The Lich King tried to break you, and he failed. You cannot be <strong>Charmed</strong> or <strong>Frightened</strong>.</p>"
+    }
+  },
+  "dons/8ALHZqjdAVtJuSjU": {
+    "_nom": "Artilleur de Forgefer",
+    "name": {
+      "fr": "Artilleur de Forgefer",
+      "en": "Ironforge Rifleman"
+    },
+    "system.description.value": {
+      "fr": "<p><em>Prérequis : Niveau 4 ou plus.</em></p><p><strong>Amélioration de caractéristique.</strong> Augmentez votre Dextérité ou Intelligence de 1, jusqu'à un maximum de 20.</p><p>Les tromblons nains ne pardonnent rien, sauf à ceux qui les connaissent. Vous gagnez <strong>+1</strong> à vos jets d'attaque avec une <strong>arme à distance</strong>, et vous ignorez la propriété <strong>Chargement</strong> des armes à feu que vous maîtrisez.</p>",
+      "en": "<p><em>Prerequisite: Level 4 or higher.</em></p><p><strong>Ability Score Improvement.</strong> Increase your Dexterity or Intelligence by 1, to a maximum of 20.</p><p>Dwarven blunderbusses forgive nothing, except those who know them. You gain <strong>+1</strong> to your attack rolls with a <strong>Ranged weapon</strong>, and you ignore the <strong>Loading</strong> property of firearms you are proficient with.</p>"
+    }
+  },
+  "dons/8hS4NOZHHCXYpcCn": {
+    "_nom": "Affiliation : Ligue des explorateurs",
+    "name": {
+      "fr": "Affiliation : Ligue des explorateurs",
+      "en": "Affiliation: Explorers' League"
+    },
+    "system.description.value": {
+      "fr": "<p>Fondée par les nains de Forgefer pour percer le mystère de leurs origines titanesques, la Ligue des explorateurs envoie archéologues, cartographes et têtes brûlées dans toutes les ruines du monde. Elle accepte n'importe qui, pourvu qu'il rapporte des notes lisibles.</p><p><strong>Devoir.</strong> Rapporter au Hall des explorateurs de Forgefer vos cartes, découvertes et artefacts. Ne jamais vendre une relique titanesque. Tenir à jour votre carnet de terrain.</p><p><strong>Faveur par rang.</strong></p><ul><li><strong>Rang 1 — Membre correspondant.</strong> Accès aux archives du Hall des explorateurs ; on vous prête une longue-vue et une pelle de qualité.</li><li><strong>Rang 2 — Explorateur.</strong> Matériel d'expédition prêté (tente, cordes, lanternes, outils), et un guide nain pour une aventure en ruines.</li><li><strong>Rang 3 — Explorateur émérite.</strong> La Ligue finance une expédition de votre choix (jusqu'à 500 po), et votre nom figure dans le registre du Hall.</li></ul><p><strong>Avantage.</strong> <em>Carnet de la Ligue</em> : une fois par repos long, après avoir vu le résultat d'un de vos tests d'Intelligence (Histoire ou Investigation), ou d'un test pour désamorcer un piège dans des ruines, vous ajoutez <strong>1d6</strong> au résultat.</p><p><strong>Réputation.</strong> Les pilleurs de tombes et les marchands du Cartel voient en vous un concurrent. Les troggs, les gardiens titanesques et les ruines elles-mêmes ne font aucune différence entre un savant et un voleur.</p><p><strong>Monter en rang.</strong> Le MJ accorde le rang suivant après une mission d'importance accomplie pour l'ordre, ou au bout de quelques aventures de service loyal ; il le note dans le don (rang 1 à 3). Manquer gravement au devoir fait perdre un rang, ou l'affiliation entière.</p>",
+      "en": "<p>Founded by the dwarves of Ironforge to unravel the mystery of their titanic origins, the Explorers' League sends archaeologists, cartographers and hotheads into every ruin in the world. It accepts anyone, provided they bring back legible notes.</p><p><strong>Duty.</strong> Bring your maps, discoveries and artifacts back to the Hall of Explorers in Ironforge. Never sell a titan relic. Keep your field notebook up to date.</p><p><strong>Favor by rank.</strong></p><ul><li><strong>Rank 1 — Corresponding Member.</strong> Access to the archives of the Hall of Explorers; you are lent a spyglass and a quality shovel.</li><li><strong>Rank 2 — Explorer.</strong> Expedition gear on loan (tent, ropes, lanterns, tools), and a dwarven guide for one adventure in ruins.</li><li><strong>Rank 3 — Explorer Emeritus.</strong> The League funds an expedition of your choice (up to 500 gp), and your name is entered in the register of the Hall.</li></ul><p><strong>Benefit.</strong> <em>League Notebook</em>: once per Long Rest, after seeing the result of one of your Intelligence (History or Investigation) checks, or of a check to disarm a trap in ruins, you add <strong>1d6</strong> to the result.</p><p><strong>Reputation.</strong> Tomb robbers and Cartel merchants see you as a competitor. Troggs, titan keepers and the ruins themselves make no difference between a scholar and a thief.</p><p><strong>Rising in rank.</strong> The GM grants the next rank after an important mission accomplished for the order, or after a few adventures of loyal service; it is noted in the feat (rank 1 to 3). A serious failure of duty costs a rank, or the whole affiliation.</p>"
+    },
+    "system.activities.8TFvLSLv2RSvzJbc.name": {
+      "fr": "Carnet de la Ligue",
+      "en": "League Notebook"
+    },
+    "system.activities.8TFvLSLv2RSvzJbc.activation.condition": {
+      "fr": "Après un test d'Histoire, d'Investigation ou de désamorçage en ruines",
+      "en": "After a History, Investigation or trap-disarming check in ruins"
+    },
+    "system.activities.8TFvLSLv2RSvzJbc.roll.name": {
+      "fr": "Bonus du carnet",
+      "en": "Notebook bonus"
+    },
+    "system.requirements": {
+      "fr": "Affiliation — Ligue des explorateurs",
+      "en": "Affiliation — Explorers' League"
+    },
+    "flags.lakour-warcraft.organisation": {
+      "fr": "Ligue des explorateurs",
+      "en": "Explorers' League"
+    }
+  },
+  "dons/BczIP7lEKoKDvag9": {
+    "_nom": "Affiliation : Aube d'argent",
+    "name": {
+      "fr": "Affiliation : Aube d'argent",
+      "en": "Affiliation: Argent Dawn"
+    },
+    "system.description.value": {
+      "fr": "<p>Née des cendres de la Troisième Guerre, l'Aube d'argent n'a qu'un ennemi : le Fléau. Paladins sans ordre, prêtres, chasseurs, et même quelques orcs et Réprouvés y servent côte à côte, ce qui scandalise à peu près tout le monde. Ses bastions tiennent les Maleterres de l'Ouest et de l'Est.</p><p><strong>Devoir.</strong> Combattre le Fléau partout, sans regarder la faction de qui se bat à vos côtés. Rapporter les foyers de peste. Remettre à l'Aube les pierres du Fléau prises sur les morts-vivants.</p><p><strong>Faveur par rang.</strong></p><ul><li><strong>Rang 1 — Initié.</strong> Soins et ravitaillement dans les bastions de l'Aube ; on échange vos pierres du Fléau contre des fioles d'eau bénite.</li><li><strong>Rang 2 — Gardien.</strong> Potions de soins au prix coûtant ; un prêtre de l'Aube lève gratuitement une maladie ou une malédiction par aventure.</li><li><strong>Rang 3 — Champion.</strong> Vous commandez une patrouille de l'Aube (quatre gardes) le temps d'une mission, et vos rapports remontent jusqu'aux chefs des deux factions.</li></ul><p><strong>Avantage.</strong> <em>Frappe de l'Aube</em> : une fois par repos long, quand vous touchez un mort-vivant avec une attaque, il subit <strong>2d6</strong> dégâts radiants supplémentaires.</p><p><strong>Réputation.</strong> Les deux factions vous soupçonnent de pactiser avec l'autre. Les Réprouvés de Sylvanas sont des morts-vivants : l'Aube les tolère, eux vous tolèrent, et personne n'est dupe.</p><p><strong>Monter en rang.</strong> Le MJ accorde le rang suivant après une mission d'importance accomplie pour l'ordre, ou au bout de quelques aventures de service loyal ; il le note dans le don (rang 1 à 3). Manquer gravement au devoir fait perdre un rang, ou l'affiliation entière.</p>",
+      "en": "<p>Born from the ashes of the Third War, the Argent Dawn has only one enemy: the Scourge. Paladins without an order, priests, hunters, and even a few orcs and Forsaken serve there side by side, which scandalizes just about everyone. Its strongholds hold the Western and Eastern Plaguelands.</p><p><strong>Duty.</strong> Fight the Scourge everywhere, regardless of the faction of whoever fights beside you. Report outbreaks of plague. Hand over to the Dawn the Scourgestones taken from the undead.</p><p><strong>Favor by rank.</strong></p><ul><li><strong>Rank 1 — Initiate.</strong> Healing and supplies in the strongholds of the Dawn; your Scourgestones are exchanged for vials of holy water.</li><li><strong>Rank 2 — Warden.</strong> Potions of Healing at cost; a priest of the Dawn lifts one disease or curse per adventure for free.</li><li><strong>Rank 3 — Champion.</strong> You command a patrol of the Dawn (four guards) for the duration of a mission, and your reports reach the leaders of both factions.</li></ul><p><strong>Benefit.</strong> <em>Strike of the Dawn</em>: once per Long Rest, when you hit an Undead with an attack, it takes an extra <strong>2d6</strong> Radiant damage.</p><p><strong>Reputation.</strong> Both factions suspect you of dealing with the other. Sylvanas's Forsaken are undead: the Dawn tolerates them, they tolerate you, and nobody is fooled.</p><p><strong>Rising in rank.</strong> The GM grants the next rank after an important mission accomplished for the order, or after a few adventures of loyal service; it is noted in the feat (rank 1 to 3). A serious failure of duty costs a rank, or the whole affiliation.</p>"
+    },
+    "system.activities.RZnPL489AUhsh6pf.name": {
+      "fr": "Frappe de l'Aube",
+      "en": "Strike of the Dawn"
+    },
+    "system.activities.RZnPL489AUhsh6pf.activation.condition": {
+      "fr": "Vous touchez un mort-vivant avec une attaque",
+      "en": "You hit an Undead with an attack"
+    },
+    "system.requirements": {
+      "fr": "Affiliation — Aube d'argent",
+      "en": "Affiliation — Argent Dawn"
+    },
+    "flags.lakour-warcraft.organisation": {
+      "fr": "Aube d'argent",
+      "en": "Argent Dawn"
+    }
+  },
+  "dons/Bli9Kv4poc53Y8FV": {
+    "_nom": "Gardien du totem",
+    "name": {
+      "fr": "Gardien du totem",
+      "en": "Totem Warden"
+    },
+    "system.description.value": {
+      "fr": "<p><em>Prérequis : Capacité Style de combat.</em></p><p>Les braves taurens protègent les anciens et les enfants autour du totem. Quand une créature que vous voyez attaque une cible autre que vous située à 1,5 m de vous, vous pouvez utiliser votre <strong>réaction</strong> pour imposer le <strong>désavantage</strong> à ce jet d'attaque. Vous devez tenir un bouclier ou une arme de corps à corps.</p>",
+      "en": "<p><em>Prerequisite: Fighting Style feature.</em></p><p>Tauren braves protect the elders and the children around the totem. When a creature you can see attacks a target other than you within 5 feet of you, you can use your <strong>Reaction</strong> to impose <strong>Disadvantage</strong> on that attack roll. You must be wielding a Shield or a melee weapon.</p>"
+    }
+  },
+  "dons/COJCgTFX3PIjNTLW": {
+    "_nom": "Coureur des Hautes-terres",
+    "name": {
+      "fr": "Coureur des Hautes-terres",
+      "en": "Highlands Runner"
+    },
+    "system.description.value": {
+      "fr": "<p><em>Prérequis : Niveau 4 ou plus.</em></p><p><strong>Amélioration de caractéristique.</strong> Augmentez votre Dextérité ou Constitution de 1, jusqu'à un maximum de 20.</p><p>Messager d'Arathi ou éclaireur des Hinterlands, vous avez couru sur les crêtes plus souvent que sur les routes. Votre <strong>vitesse augmente de 3 m</strong>, et les <strong>broussailles</strong>, les <strong>éboulis</strong> et les <strong>pentes</strong> ne sont pas un terrain difficile pour vous.</p>",
+      "en": "<p><em>Prerequisite: Level 4 or higher.</em></p><p><strong>Ability Score Improvement.</strong> Increase your Dexterity or Constitution by 1, to a maximum of 20.</p><p>Messenger of Arathi or scout of the Hinterlands, you have run the ridges more often than the roads. Your <strong>Speed increases by 10 feet</strong>, and <strong>brush</strong>, <strong>scree</strong> and <strong>slopes</strong> are not Difficult Terrain for you.</p>"
+    }
+  },
+  "dons/GBwW43VGND0nvBQN": {
+    "_nom": "Mage de bataille du Kirin Tor",
+    "name": {
+      "fr": "Mage de bataille du Kirin Tor",
+      "en": "Kirin Tor Battle Mage"
+    },
+    "system.description.value": {
+      "fr": "<p><em>Prérequis : Niveau 4 ou plus, capacité Incantation ou Magie de pacte.</em></p><p><strong>Amélioration de caractéristique.</strong> Augmentez votre Intelligence, Sagesse ou Charisme de 1, jusqu'à un maximum de 20.</p><p>Les mages de Dalaran ont appris à lancer leurs sorts sous les flèches des trolls. Vous ajoutez <strong>+2</strong> à vos jets de sauvegarde de <strong>Constitution</strong> pour maintenir votre <strong>concentration</strong>, et vous pouvez accomplir les composantes somatiques de vos sorts même quand vous tenez une arme ou un bouclier dans chaque main.</p>",
+      "en": "<p><em>Prerequisite: Level 4 or higher, Spellcasting or Pact Magic feature.</em></p><p><strong>Ability Score Improvement.</strong> Increase your Intelligence, Wisdom or Charisma by 1, to a maximum of 20.</p><p>The mages of Dalaran learned to cast their spells under troll arrows. You add <strong>+2</strong> to your <strong>Constitution</strong> saving throws to maintain <strong>Concentration</strong>, and you can perform the Somatic components of your spells even while holding a weapon or a Shield in each hand.</p>"
+    },
+    "effects.4FB1Dv9YHHbzNADt.name": {
+      "fr": "Mage de bataille",
+      "en": "Battle Mage"
+    }
+  },
+  "dons/HSnCjJHfwI4k0TsP": {
+    "_nom": "Cuisinier de campagne",
+    "name": {
+      "fr": "Cuisinier de campagne",
+      "en": "Camp Cook"
+    },
+    "system.description.value": {
+      "fr": "<p>Un ragoût de sanglier des Carmines vaut mieux qu'un sermon. Vous maîtrisez les <strong>ustensiles de cuisinier</strong>.</p><p><strong>Ragoût réconfortant.</strong> À la fin d'un <strong>repos court</strong> où vous avez cuisiné, chaque créature de votre choix qui a partagé le repas récupère <strong>1d8 + votre bonus de maîtrise</strong> points de vie. Une utilisation par <strong>repos long</strong>.</p>",
+      "en": "<p>A Redridge boar stew is worth more than a sermon. You have proficiency with <strong>Cook's Utensils</strong>.</p><p><strong>Comforting Stew.</strong> At the end of a <strong>Short Rest</strong> during which you cooked, each creature of your choice that shared the meal regains <strong>1d8 + your Proficiency Bonus</strong> Hit Points. One use per <strong>Long Rest</strong>.</p>"
+    },
+    "system.activities.A1PQ9gO3WjjPx0BE.name": {
+      "fr": "Servir le ragoût",
+      "en": "Serve the Stew"
+    }
+  },
+  "dons/JPL1tg1XWIBCDgbP": {
+    "_nom": "Chasseur de démons de fortune",
+    "name": {
+      "fr": "Chasseur de démons de fortune",
+      "en": "Makeshift Demon Hunter"
+    },
+    "system.description.value": {
+      "fr": "<p><em>Prérequis : Niveau 4 ou plus.</em></p><p><strong>Amélioration de caractéristique.</strong> Augmentez votre Dextérité ou Sagesse de 1, jusqu'à un maximum de 20.</p><p>Pas d'yeux sacrifiés ni de tatouages gangrenés : juste des années à traquer les rejetons de la Légion avec ce qu'on avait sous la main. Vous avez la <strong>résistance aux dégâts de feu</strong>, et l'avantage aux tests de Sagesse (Intuition ou Perception) pour démasquer un démon déguisé ou possédant quelqu'un.</p><p><strong>Marque du traqueur.</strong> Par une <strong>action bonus</strong>, vous désignez une créature que vous voyez à 18 m au plus : pendant 1 minute, vos attaques avec une arme contre elle infligent <strong>1d6</strong> dégâts de force supplémentaires (une fois par tour). Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "en": "<p><em>Prerequisite: Level 4 or higher.</em></p><p><strong>Ability Score Improvement.</strong> Increase your Dexterity or Wisdom by 1, to a maximum of 20.</p><p>No sacrificed eyes, no fel tattoos: just years spent hunting the spawn of the Legion with whatever was at hand. You have <strong>Resistance to Fire damage</strong>, and Advantage on Wisdom (Insight or Perception) checks to unmask a demon in disguise or possessing someone.</p><p><strong>Hunter's Mark.</strong> As a <strong>Bonus Action</strong>, you designate a creature you can see within 60 feet: for 1 minute, your attacks with a weapon against it deal an extra <strong>1d6</strong> Force damage (once per turn). Number of uses: your <strong>Proficiency Bonus</strong> per Long Rest.</p>"
+    },
+    "system.activities.2cvVUnd0CHoOgwu5.name": {
+      "fr": "Marquer la proie",
+      "en": "Mark the Prey"
+    },
+    "system.activities.NzNPkMJNfm7nS5F0.name": {
+      "fr": "Frapper la proie",
+      "en": "Strike the Prey"
+    },
+    "system.activities.NzNPkMJNfm7nS5F0.activation.condition": {
+      "fr": "Une fois par tour, après une attaque avec une arme réussie contre la créature marquée",
+      "en": "Once per turn, after a successful weapon attack against the marked creature"
+    },
+    "effects.lUwoAdLYa2Wo8p5B.name": {
+      "fr": "Chasseur de démons",
+      "en": "Demon Hunter"
+    }
+  },
+  "dons/N2aChTucKeAYXp8P": {
+    "_nom": "Cavalier des steppes",
+    "name": {
+      "fr": "Cavalier des steppes",
+      "en": "Steppe Rider"
+    },
+    "system.description.value": {
+      "fr": "<p><em>Prérequis : Niveau 4 ou plus.</em></p><p><strong>Amélioration de caractéristique.</strong> Augmentez votre Force, Dextérité ou Sagesse de 1, jusqu'à un maximum de 20.</p><p>Loup de guerre, bélier, kodo ou destrier : vous et votre monture ne faites qu'un. Vous avez l'avantage aux tests de Sagesse (<strong>Dressage</strong>). Tant que vous êtes monté, vous avez l'avantage aux jets d'attaque au corps à corps contre une créature non montée plus petite que votre monture, et quand votre monture subit une attaque, vous pouvez décider que c'est vous qui êtes visé.</p>",
+      "en": "<p><em>Prerequisite: Level 4 or higher.</em></p><p><strong>Ability Score Improvement.</strong> Increase your Strength, Dexterity or Wisdom by 1, to a maximum of 20.</p><p>War wolf, ram, kodo or charger: you and your mount are one. You have Advantage on Wisdom (<strong>Animal Handling</strong>) checks. While mounted, you have Advantage on melee attack rolls against an unmounted creature smaller than your mount, and when your mount is attacked, you can decide that you are the target instead.</p>"
+    }
+  },
+  "dons/O8dznpzHuGD5YKbg": {
+    "_nom": "Souillure de la gangrène",
+    "name": {
+      "fr": "Souillure de la gangrène",
+      "en": "Fel Taint"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous avez touché la gangrène de trop près : un rituel, un artefact, un sang qui n'était pas le vôtre. Vos yeux virent au vert quand vous êtes en colère, et les démons sentent votre présence à un kilomètre.</p><p>Les paladins, les prêtres et les druides devinent la souillure au premier regard (test de Sagesse (Perspicacité) DD 10). Une fois par aventure, le MJ peut vous faire entendre une voix qui propose de l'aide — à un prix.</p>",
+      "en": "<p>You touched the fel too closely: a ritual, an artifact, blood that was not your own. Your eyes turn green when you are angry, and demons can sense your presence from a mile away.</p><p>Paladins, priests and druids guess the taint at first glance (DC 10 Wisdom (Insight) check). Once per adventure, the GM may let you hear a voice offering help — at a price.</p>"
+    }
+  },
+  "dons/OpTlmxLn3pVRr4ey": {
+    "_nom": "Rescapé du Fléau",
+    "name": {
+      "fr": "Rescapé du Fléau",
+      "en": "Scourge Survivor"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous avez mangé du grain de Stratholme, ou vu tomber les vôtres, et vous êtes encore là. Vous ajoutez <strong>1d4</strong> à vos <strong>jets de sauvegarde contre la mort</strong>, et vous avez l'avantage aux jets de sauvegarde contre les <strong>maladies</strong>.</p>",
+      "en": "<p>You ate the grain of Stratholme, or watched your own fall, and you are still here. You add <strong>1d4</strong> to your <strong>Death Saving Throws</strong>, and you have Advantage on saving throws against <strong>disease</strong>.</p>"
+    }
+  },
+  "dons/RdwWfEMB5uRz4qEK": {
+    "_nom": "Œil de la Légion vaincue",
+    "name": {
+      "fr": "Œil de la Légion vaincue",
+      "en": "Eye of the Vanquished Legion"
+    },
+    "system.description.value": {
+      "fr": "<p><em>Prérequis : Niveau 19 ou plus.</em></p><p><strong>Amélioration de caractéristique.</strong> Augmentez votre Force, Dextérité, Constitution, Intelligence, Sagesse ou Charisme de 1, jusqu'à un maximum de 30.</p><p>Vous avez regardé un seigneur de l'effroi dans les yeux, et il a cligné le premier. Vous gagnez la <strong>vision aveugle</strong> sur <strong>9 m</strong>, et vous ne pouvez pas être <strong>aveuglé</strong>.</p>",
+      "en": "<p><em>Prerequisite: Level 19 or higher.</em></p><p><strong>Ability Score Improvement.</strong> Increase your Strength, Dexterity, Constitution, Intelligence, Wisdom or Charisma by 1, to a maximum of 30.</p><p>You looked a dreadlord in the eye, and he blinked first. You gain <strong>Blindsight</strong> within <strong>30 feet</strong>, and you cannot be <strong>Blinded</strong>.</p>"
+    }
+  },
+  "dons/RnVwVIF5H7keFmPT": {
+    "_nom": "Affiliation : Cercle cénarien",
+    "name": {
+      "fr": "Affiliation : Cercle cénarien",
+      "en": "Affiliation: Cenarion Circle"
+    },
+    "system.description.value": {
+      "fr": "<p>Fondé par les druides elfes de la nuit au nom du demi-dieu Cénarius, le Cercle cénarien accueille aujourd'hui des druides taurens et quelques chamans. Il veille sur les bosquets sacrés et sur la frontière fragile entre Azeroth et le Rêve d'émeraude, depuis le refuge de Reflet-de-Lune.</p><p><strong>Devoir.</strong> Protéger les bosquets sacrés et les créatures du Rêve. Signaler toute corruption de la nature (gangrène, peste, satyres). Ne jamais abattre un arbre vivant sans le rite de demande.</p><p><strong>Faveur par rang.</strong></p><ul><li><strong>Rang 1 — Gardien des bois.</strong> Abri et soins dans les refuges cénariens ; les dryades et les esprits sylvestres vous laissent passer.</li><li><strong>Rang 2 — Druide-éclaireur.</strong> Une chouette messagère du Cercle vous trouve où que vous soyez. Si vous lancez des sorts, <em>Sève de jouvence</em> et <em>Sarments du Rêve</em> comptent comme des sorts de votre liste.</li><li><strong>Rang 3 — Voix du Cercle.</strong> Un archidruide écoute vos requêtes ; une fois par campagne, un Ancien de la forêt se déplace pour vous.</li></ul><p><strong>Avantage.</strong> <em>Veillée sous les Anciens</em> : une fois par repos long, à la fin d'un repos court pris en pleine nature, jusqu'à six créatures de votre choix qui se sont reposées avec vous récupèrent chacune <strong>1d6 + votre bonus de maîtrise</strong> points de vie.</p><p><strong>Réputation.</strong> Les bûcherons de la Horde en Orneval et les mineurs de toutes les factions voient en vous un empêcheur de travailler. Certains druides vous jugent trop jeune pour parler au nom du Cercle.</p><p><strong>Monter en rang.</strong> Le MJ accorde le rang suivant après une mission d'importance accomplie pour l'ordre, ou au bout de quelques aventures de service loyal ; il le note dans le don (rang 1 à 3). Manquer gravement au devoir fait perdre un rang, ou l'affiliation entière.</p>",
+      "en": "<p>Founded by the night elf druids in the name of the demigod Cenarius, the Cenarion Circle now welcomes tauren druids and a few shamans. It watches over the sacred groves and over the fragile border between Azeroth and the Emerald Dream, from the refuge of Moonglade.</p><p><strong>Duty.</strong> Protect the sacred groves and the creatures of the Dream. Report any corruption of nature (fel, plague, satyrs). Never fell a living tree without the rite of asking.</p><p><strong>Favor by rank.</strong></p><ul><li><strong>Rank 1 — Warden of the Woods.</strong> Shelter and healing in Cenarion refuges; dryads and sylvan spirits let you pass.</li><li><strong>Rank 2 — Druid Scout.</strong> A messenger owl of the Circle finds you wherever you are. If you cast spells, <em>Rejuvenating Sap</em> and <em>Vines of the Dream</em> count as spells on your list.</li><li><strong>Rank 3 — Voice of the Circle.</strong> An archdruid hears your requests; once per campaign, an Ancient of the forest comes to you in person.</li></ul><p><strong>Benefit.</strong> <em>Vigil beneath the Ancients</em>: once per Long Rest, at the end of a Short Rest taken in the wild, up to six creatures of your choice who rested with you each regain <strong>1d6 + your Proficiency Bonus</strong> Hit Points.</p><p><strong>Reputation.</strong> The Horde's lumberjacks in Ashenvale and the miners of every faction see you as someone who keeps them from working. Some druids judge you too young to speak in the Circle's name.</p><p><strong>Rising in rank.</strong> The GM grants the next rank after an important mission accomplished for the order, or after a few adventures of loyal service; it is noted in the feat (rank 1 to 3). A serious failure of duty costs a rank, or the whole affiliation.</p>"
+    },
+    "system.activities.ISvCNrPYkQGi9Bpn.name": {
+      "fr": "Veillée sous les Anciens",
+      "en": "Vigil beneath the Ancients"
+    },
+    "system.activities.ISvCNrPYkQGi9Bpn.activation.condition": {
+      "fr": "À la fin d'un repos court pris en pleine nature",
+      "en": "At the end of a Short Rest taken in the wild"
+    },
+    "system.requirements": {
+      "fr": "Affiliation — Cercle cénarien",
+      "en": "Affiliation — Cenarion Circle"
+    },
+    "flags.lakour-warcraft.organisation": {
+      "fr": "Cercle cénarien",
+      "en": "Cenarion Circle"
+    }
+  },
+  "dons/TATozLomEo0eMBK5": {
+    "_nom": "Hurlement de guerre orc",
+    "name": {
+      "fr": "Hurlement de guerre orc",
+      "en": "Orcish War Cry"
+    },
+    "system.description.value": {
+      "fr": "<p><em>Prérequis : Niveau 4 ou plus.</em></p><p><strong>Amélioration de caractéristique.</strong> Augmentez votre Force ou Charisme de 1, jusqu'à un maximum de 20.</p><p>Le cri qui a fait trembler les murailles de Lordaeron vit encore dans votre gorge. Par une <strong>action bonus</strong>, vous hurlez : chaque ennemi dans un rayon de 9 m qui peut vous entendre fait un jet de sauvegarde de <strong>Sagesse</strong> (DD 8 + votre modificateur de Charisme + votre bonus de maîtrise). En cas d'échec, il est <strong>effrayé</strong> jusqu'à la fin de votre prochain tour. Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "en": "<p><em>Prerequisite: Level 4 or higher.</em></p><p><strong>Ability Score Improvement.</strong> Increase your Strength or Charisma by 1, to a maximum of 20.</p><p>The cry that shook the walls of Lordaeron still lives in your throat. As a <strong>Bonus Action</strong>, you roar: each enemy within 30 feet who can hear you makes a <strong>Wisdom</strong> saving throw (DC 8 + your Charisma modifier + your Proficiency Bonus). On a failure, it is <strong>Frightened</strong> until the end of your next turn. Number of uses: your <strong>Proficiency Bonus</strong> per Long Rest.</p>"
+    },
+    "system.activities.SDVLAftAmX3ER9NF.name": {
+      "fr": "Hurler",
+      "en": "Roar"
+    },
+    "effects.SF6YDwv0jLnKVaY7.name": {
+      "fr": "Terrifié par le hurlement",
+      "en": "Terrified by the war cry"
+    }
+  },
+  "dons/U7G1PPJt5Y5bB6xr": {
+    "_nom": "Bénédiction de la Lieuse-de-vie",
+    "name": {
+      "fr": "Bénédiction de la Lieuse-de-vie",
+      "en": "Blessing of the Life-Binder"
+    },
+    "system.description.value": {
+      "fr": "<p><em>Prérequis : Niveau 19 ou plus.</em></p><p><strong>Amélioration de caractéristique.</strong> Augmentez votre Force, Dextérité, Constitution, Intelligence, Sagesse ou Charisme de 1, jusqu'à un maximum de 30.</p><p>Alexstrasza vous a jugé digne de son feu de vie. Vos points de vie maximum augmentent de <strong>30</strong>, et vous avez l'avantage aux <strong>jets de sauvegarde contre la mort</strong>.</p>",
+      "en": "<p><em>Prerequisite: Level 19 or higher.</em></p><p><strong>Ability Score Improvement.</strong> Increase your Strength, Dexterity, Constitution, Intelligence, Wisdom or Charisma by 1, to a maximum of 30.</p><p>Alexstrasza has judged you worthy of her fire of life. Your Hit Point maximum increases by <strong>30</strong>, and you have Advantage on <strong>Death Saving Throws</strong>.</p>"
+    },
+    "system.requirements": {
+      "fr": "Niveau 19 ou plus",
+      "en": "Level 19 or higher"
+    },
+    "system.advancement.F8Wtdbxlp9S2kaFY.hint": {
+      "fr": "+1 à une caractéristique parmi celles proposées (30 au plus).",
+      "en": "+1 to one of the listed ability scores (30 at most)."
+    }
+  },
+  "dons/UJg2jlHcJzVlj4H4": {
+    "_nom": "Pierre de foyer",
+    "name": {
+      "fr": "Pierre de foyer",
+      "en": "Hearthstone"
+    },
+    "system.description.value": {
+      "fr": "<p>Une pierre lisse gravée d'une rune, accordée à une auberge où l'on vous connaît. Une fois par repos long, vous pouvez la tenir et vous concentrer pendant <strong>10 minutes</strong> : à la fin, vous êtes transporté avec ce que vous portez dans la salle commune de cette auberge. Subir des dégâts pendant les 10 minutes interrompt le transfert sans dépenser l'utilisation.</p><p>Changer d'auberge demande une nuit sur place et la bénédiction de l'aubergiste (souvent payante).</p>",
+      "en": "<p>A smooth stone engraved with a rune, attuned to an inn where you are known. Once per Long Rest, you can hold it and concentrate for <strong>10 minutes</strong>: at the end, you are transported with everything you carry into the common room of that inn. Taking damage during the 10 minutes interrupts the transfer without expending the use.</p><p>Changing inns takes a night on the premises and the innkeeper's blessing (usually for a fee).</p>"
+    },
+    "system.requirements": {
+      "fr": "Atout de faction",
+      "en": "Faction asset"
+    }
+  },
+  "dons/UnadYfYiQMqKLstC": {
+    "_nom": "Brevet de vol",
+    "name": {
+      "fr": "Brevet de vol",
+      "en": "Flight Permit"
+    },
+    "system.description.value": {
+      "fr": "<p>Les maîtres de vol de votre faction (griffons de l'Alliance, coursiers des vents de la Horde, hippogriffes des elfes de la nuit) vous connaissent et vous font voler gratuitement entre deux relais déjà visités. Un trajet d'une semaine à pied se fait en une journée.</p><p>Le brevet ne vaut rien chez l'autre faction, et un maître de vol qui apprend que vous avez trahi les siens le déchire devant vous.</p>",
+      "en": "<p>The flight masters of your faction (gryphons of the Alliance, wind riders of the Horde, hippogryphs of the night elves) know you and fly you for free between two flight points you have already visited. A week's journey on foot takes a day.</p><p>The permit is worth nothing with the other faction, and a flight master who learns you have betrayed his own tears it up in front of you.</p>"
+    }
+  },
+  "dons/VqCEMJvfN2hvOocE": {
+    "_nom": "Marchandeur du Cartel",
+    "name": {
+      "fr": "Marchandeur du Cartel",
+      "en": "Cartel Haggler"
+    },
+    "system.description.value": {
+      "fr": "<p>Baie-du-Butin vous a appris que tout se négocie, surtout ce qui ne se vend pas. Quand vous achetez ou vendez dans une ville où un cartel gobelin a un comptoir, vous obtenez <strong>10 %</strong> de mieux que le prix courant. Une fois par jour, en une heure passée au marché, vous apprenez une rumeur commerciale vraie (une cargaison attendue, une pénurie, un acheteur discret) : le MJ vous la donne.</p>",
+      "en": "<p>Booty Bay taught you that everything is negotiable, especially what is not for sale. When you buy or sell in a town where a goblin cartel has a trading post, you get <strong>10%</strong> better than the going price. Once per day, in an hour spent at the market, you learn one true trade rumor (an expected cargo, a shortage, a discreet buyer): the GM gives it to you.</p>"
+    }
+  },
+  "dons/VuwrPnMPB5x0jC20": {
+    "_nom": "Tabard de héraut",
+    "name": {
+      "fr": "Tabard de héraut",
+      "en": "Herald's Tabard"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous portez le tabard d'une cité ou d'un ordre, et ceux qui le respectent vous traitent en envoyé. Une fois par repos long, vous avez l'<strong>avantage</strong> à un test de Charisme fait auprès de membres de cette cité ou de cet ordre.</p><p>Porté en territoire hostile, le tabard fait de vous une cible de choix.</p>",
+      "en": "<p>You wear the tabard of a city or an order, and those who respect it treat you as an envoy. Once per Long Rest, you have <strong>Advantage</strong> on a Charisma check made with members of that city or that order.</p><p>Worn in hostile territory, the tabard makes you a prime target.</p>"
+    },
+    "system.activities.CRghdMtR8nM9GgGc.name": {
+      "fr": "Parler au nom du tabard",
+      "en": "Speak for the Tabard"
+    },
+    "system.activities.CRghdMtR8nM9GgGc.activation.condition": {
+      "fr": "Un test de Charisme auprès des membres de votre cité ou de votre ordre",
+      "en": "A Charisma check with members of your city or your order"
+    }
+  },
+  "dons/W1l56Bc8SUy9Vtpq": {
+    "_nom": "Affiliation : Chevaliers de la Main d'argent",
+    "name": {
+      "fr": "Affiliation : Chevaliers de la Main d'argent",
+      "en": "Affiliation: Knights of the Silver Hand"
+    },
+    "system.description.value": {
+      "fr": "<p>Le premier ordre de paladins de Lordaeron a été dissous par son roi, et son fondateur est mort de la main d'Arthas. Pourtant ses chevaliers survivent : dans les abbayes, sur les routes des réfugiés, au service de ceux qui n'ont plus personne. Ils portent encore l'insigne, et ils attendent qu'on les rappelle.</p><p><strong>Devoir.</strong> Protéger les innocents, quelle que soit leur faction. Combattre le Fléau. Ne jamais frapper un ennemi qui se rend. Obéir aux anciens de l'ordre quand ils appellent.</p><p><strong>Faveur par rang.</strong></p><ul><li><strong>Rang 1 — Écuyer.</strong> Hospitalité des chapelles et des abbayes de l'Alliance ; un ancien chevalier vous forme et vous conseille.</li><li><strong>Rang 2 — Chevalier.</strong> Vous portez l'insigne de la Main ; les miliciens et les gardes de l'Alliance vous écoutent, et un destrier de l'ordre vous est prêté.</li><li><strong>Rang 3 — Seigneur paladin.</strong> Deux écuyers vous suivent (PNJ de niveau 1) et vous avez voix dans les conseils de guerre de l'Alliance.</li></ul><p><strong>Avantage.</strong> <em>Serment partagé</em> : une fois par repos long, quand un allié que vous voyez à 9 m ou moins rate un jet de sauvegarde, vous pouvez utiliser votre <strong>réaction</strong> pour lui faire relancer le dé ; il doit garder le nouveau résultat.</p><p><strong>Réputation.</strong> Depuis Stratholme, certains accusent l'ordre d'avoir formé Arthas. La Croisade écarlate vous juge tiède, et les Réprouvés reconnaissent l'insigne de loin.</p><p><strong>Monter en rang.</strong> Le MJ accorde le rang suivant après une mission d'importance accomplie pour l'ordre, ou au bout de quelques aventures de service loyal ; il le note dans le don (rang 1 à 3). Manquer gravement au devoir fait perdre un rang, ou l'affiliation entière.</p>",
+      "en": "<p>The first order of paladins of Lordaeron was dissolved by its king, and its founder died at Arthas's hand. Yet its knights survive: in the abbeys, on the refugee roads, in the service of those who have no one left. They still wear the insignia, and they are waiting to be called back.</p><p><strong>Duty.</strong> Protect the innocent, whatever their faction. Fight the Scourge. Never strike an enemy who surrenders. Obey the elders of the order when they call.</p><p><strong>Favor by rank.</strong></p><ul><li><strong>Rank 1 — Squire.</strong> Hospitality in the chapels and abbeys of the Alliance; a former knight trains and advises you.</li><li><strong>Rank 2 — Knight.</strong> You wear the insignia of the Hand; the militia and guards of the Alliance listen to you, and a charger of the order is lent to you.</li><li><strong>Rank 3 — Lord Paladin.</strong> Two squires follow you (level 1 NPCs) and you have a voice in the war councils of the Alliance.</li></ul><p><strong>Benefit.</strong> <em>Shared Oath</em>: once per Long Rest, when an ally you can see within 30 feet fails a saving throw, you can use your <strong>Reaction</strong> to let them reroll the die; they must keep the new result.</p><p><strong>Reputation.</strong> Since Stratholme, some accuse the order of having trained Arthas. The Scarlet Crusade judges you lukewarm, and the Forsaken recognize the insignia from afar.</p><p><strong>Rising in rank.</strong> The GM grants the next rank after an important mission accomplished for the order, or after a few adventures of loyal service; it is noted in the feat (rank 1 to 3). A serious failure of duty costs a rank, or the whole affiliation.</p>"
+    },
+    "system.activities.C50zsdgplR6ruVSM.name": {
+      "fr": "Serment partagé",
+      "en": "Shared Oath"
+    },
+    "system.activities.C50zsdgplR6ruVSM.activation.condition": {
+      "fr": "Un allié à 9 m ou moins rate un jet de sauvegarde",
+      "en": "An ally within 30 feet fails a saving throw"
+    },
+    "system.requirements": {
+      "fr": "Affiliation — Ordre de la Main d'argent",
+      "en": "Affiliation — Order of the Silver Hand"
+    },
+    "flags.lakour-warcraft.organisation": {
+      "fr": "Ordre de la Main d'argent",
+      "en": "Order of the Silver Hand"
+    }
+  },
+  "dons/aLrTUFNbeEkOCpl3": {
+    "_nom": "Lien avec un loa",
+    "name": {
+      "fr": "Lien avec un loa",
+      "en": "Loa Bond"
+    },
+    "system.description.value": {
+      "fr": "<p>Un esprit ancien de la jungle a posé les yeux sur vous : Bwonsamdi, Hir'eek, Shirvallah ou un loa plus obscur. Vous maîtrisez <strong>Médecine</strong>, <strong>Nature</strong> ou <strong>Religion</strong> (au choix).</p><p><strong>Invoquer le loa.</strong> Par une <strong>action bonus</strong>, vous appelez votre loa pendant <strong>1 minute</strong> : vous avez l'avantage aux jets de sauvegarde de <strong>Sagesse</strong> et de <strong>Charisme</strong>. Une utilisation par <strong>repos long</strong>. Le loa attend une offrande en retour, et le MJ sait s'en souvenir.</p>",
+      "en": "<p>An ancient spirit of the jungle has laid its eyes on you: Bwonsamdi, Hir'eek, Shirvallah or a more obscure loa. You have proficiency in <strong>Medicine</strong>, <strong>Nature</strong> or <strong>Religion</strong> (your choice).</p><p><strong>Invoke the Loa.</strong> As a <strong>Bonus Action</strong>, you call your loa for <strong>1 minute</strong>: you have Advantage on <strong>Wisdom</strong> and <strong>Charisma</strong> saving throws. One use per <strong>Long Rest</strong>. The loa expects an offering in return, and the GM knows how to remember it.</p>"
+    },
+    "system.activities.zEUnQABPvTLlEqGX.name": {
+      "fr": "Invoquer le loa",
+      "en": "Invoke the Loa"
+    },
+    "effects.AiuKrgnvJMcYCsnc.name": {
+      "fr": "Regard du loa",
+      "en": "Gaze of the Loa"
+    },
+    "effects.AiuKrgnvJMcYCsnc.description": {
+      "fr": "<p>Avantage aux jets de sauvegarde de Sagesse et de Charisme.</p>",
+      "en": "<p>Advantage on Wisdom and Charisma saving throws.</p>"
+    }
+  },
+  "dons/d1vEUPoN0KEak1qU": {
+    "_nom": "Affiliation : Cartel Gentepression",
+    "name": {
+      "fr": "Affiliation : Cartel Gentepression",
+      "en": "Affiliation: Steamwheedle Cartel"
+    },
+    "system.description.value": {
+      "fr": "<p>Le Cartel Gentepression tient les ports neutres de Kalimdor et des Mers du Sud : Cabestan, Gadgetzan, Baie-du-Butin. Ses gobelins vendent à tout le monde et ne combattent que pour leurs contrats. Y entrer, c'est signer un contrat ; en sortir, c'est payer.</p><p><strong>Devoir.</strong> Respecter la trêve des ports du Cartel : aucun combat dans leurs murs, quels que soient vos ennemis. Verser au Cartel un dixième de ce que vous gagnez dans ses ports. Tenir parole sur tout contrat signé.</p><p><strong>Faveur par rang.</strong></p><ul><li><strong>Rang 1 — Associé.</strong> Lit, entrepôt et écurie à prix d'ami dans les ports du Cartel ; un marchand vous prévient des arrivages intéressants.</li><li><strong>Rang 2 — Partenaire.</strong> Passage gratuit sur les navires et zeppelins du Cartel ; on vous rachète le butin à 60 % de sa valeur au lieu de la moitié.</li><li><strong>Rang 3 — Actionnaire.</strong> Une part dans une affaire : 50 po par mois de rente, et un baron du Cartel vous doit une faveur.</li></ul><p><strong>Avantage.</strong> <em>Ardoise du Cartel</em> : une fois par repos long, dans un port ou un comptoir du Cartel, vous obtenez à crédit un objet ou un service d'une valeur maximale de <strong>25 po × votre bonus de maîtrise</strong>, à rembourser dans le mois avec un dixième d'intérêt.</p><p><strong>Réputation.</strong> Le Cartel Baille-Fonds, rival de Gentepression, et les pirates des Mers du Sud vous connaissent. Une dette impayée devient une prime, et une prime finit toujours par trouver preneur.</p><p><strong>Monter en rang.</strong> Le MJ accorde le rang suivant après une mission d'importance accomplie pour l'ordre, ou au bout de quelques aventures de service loyal ; il le note dans le don (rang 1 à 3). Manquer gravement au devoir fait perdre un rang, ou l'affiliation entière.</p>",
+      "en": "<p>The Steamwheedle Cartel holds the neutral ports of Kalimdor and the South Seas: Ratchet, Gadgetzan, Booty Bay. Its goblins sell to everyone and fight only for their contracts. Joining means signing a contract; leaving means paying.</p><p><strong>Duty.</strong> Respect the truce of the Cartel's ports: no fighting within their walls, whoever your enemies are. Pay the Cartel a tenth of what you earn in its ports. Keep your word on every signed contract.</p><p><strong>Favor by rank.</strong></p><ul><li><strong>Rank 1 — Associate.</strong> Bed, warehouse and stable at a friendly price in the Cartel's ports; a merchant tips you off about interesting shipments.</li><li><strong>Rank 2 — Partner.</strong> Free passage on the Cartel's ships and zeppelins; your loot is bought back at 60% of its value instead of half.</li><li><strong>Rank 3 — Shareholder.</strong> A share in a business: 50 gp a month in income, and a Cartel baron owes you a favor.</li></ul><p><strong>Benefit.</strong> <em>Cartel Tab</em>: once per Long Rest, in a Cartel port or trading post, you obtain on credit an item or a service worth up to <strong>25 gp × your Proficiency Bonus</strong>, to be repaid within the month with a tenth in interest.</p><p><strong>Reputation.</strong> The Bilgewater Cartel, Steamwheedle's rival, and the pirates of the South Seas know you. An unpaid debt becomes a bounty, and a bounty always ends up finding a taker.</p><p><strong>Rising in rank.</strong> The GM grants the next rank after an important mission accomplished for the order, or after a few adventures of loyal service; it is noted in the feat (rank 1 to 3). A serious failure of duty costs a rank, or the whole affiliation.</p>"
+    },
+    "system.activities.3GOfh4SiKl3iKbhM.name": {
+      "fr": "Ardoise du Cartel",
+      "en": "Cartel Tab"
+    },
+    "system.activities.3GOfh4SiKl3iKbhM.activation.condition": {
+      "fr": "Dans un port ou un comptoir du Cartel",
+      "en": "In a Cartel port or trading post"
+    },
+    "system.activities.3GOfh4SiKl3iKbhM.roll.name": {
+      "fr": "Crédit accordé (po)",
+      "en": "Credit granted (gp)"
+    },
+    "system.requirements": {
+      "fr": "Affiliation — Cartel Gentepression",
+      "en": "Affiliation — Steamwheedle Cartel"
+    },
+    "flags.lakour-warcraft.organisation": {
+      "fr": "Cartel Gentepression",
+      "en": "Steamwheedle Cartel"
+    }
+  },
+  "dons/dKrzUqxdFP4zIyQ5": {
+    "_nom": "Sentinelle de la Muraille",
+    "name": {
+      "fr": "Sentinelle de la Muraille",
+      "en": "Sentinel of the Span"
+    },
+    "system.description.value": {
+      "fr": "<p><em>Prérequis : Capacité Style de combat.</em></p><p>Des nuits de garde sur la Muraille de Thandol ont aiguisé vos réflexes. Vous gagnez <strong>+2</strong> à l'<strong>initiative</strong> et <strong>+2</strong> à votre <strong>Sagesse (Perception) passive</strong>.</p>",
+      "en": "<p><em>Prerequisite: Fighting Style feature.</em></p><p>Nights on watch on the Thandol Span have sharpened your reflexes. You gain <strong>+2</strong> to <strong>Initiative</strong> and <strong>+2</strong> to your <strong>Passive Wisdom (Perception)</strong>.</p>"
+    }
+  },
+  "dons/kmLDG33vQUMjNLfF": {
+    "_nom": "Affiliation : Garde kor'kron",
+    "name": {
+      "fr": "Affiliation : Garde kor'kron",
+      "en": "Affiliation: Kor'kron Guard"
+    },
+    "system.description.value": {
+      "fr": "<p>Les Kor'kron sont la garde d'élite du chef de guerre. Ils veillent sur Orgrimmar, escortent les émissaires et règlent en silence les affaires que la Horde préfère ne pas voir. On n'y entre que sur recommandation d'un vétéran, et on n'en sort guère.</p><p><strong>Devoir.</strong> Servir le chef de guerre et protéger les dirigeants de la Horde. Garder secret ce que vous voyez et entendez au fort de Grommash. Exécuter un ordre avant de le discuter.</p><p><strong>Faveur par rang.</strong></p><ul><li><strong>Rang 1 — Recrue de la garde.</strong> Logement à la caserne d'Orgrimmar ; les grunts vous saluent et les marchands de la ville vous font crédit.</li><li><strong>Rang 2 — Garde kor'kron.</strong> Armure aux couleurs de la garde, loup de guerre fourni ; vous pouvez arrêter n'importe qui dans Orgrimmar.</li><li><strong>Rang 3 — Capitaine kor'kron.</strong> Vous commandez une escouade de quatre gardes et vous avez accès au chef de guerre pour les affaires de sécurité.</li></ul><p><strong>Avantage.</strong> <em>Vigilance kor'kron</em> : vous ajoutez <strong>1d4</strong> à vos jets d'initiative.</p><p><strong>Réputation.</strong> L'Alliance voit en vous un tueur de la Horde ; les orcs nostalgiques du sang démoniaque, eux, vous méprisent comme le chien de Thrall. Les Kor'kron ont une réputation de brutes : on vous craint plus qu'on ne vous aime.</p><p><strong>Monter en rang.</strong> Le MJ accorde le rang suivant après une mission d'importance accomplie pour l'ordre, ou au bout de quelques aventures de service loyal ; il le note dans le don (rang 1 à 3). Manquer gravement au devoir fait perdre un rang, ou l'affiliation entière.</p>",
+      "en": "<p>The Kor'kron are the Warchief's elite guard. They watch over Orgrimmar, escort emissaries and quietly settle the matters the Horde would rather not see. One enters only on a veteran's recommendation, and one hardly ever leaves.</p><p><strong>Duty.</strong> Serve the Warchief and protect the leaders of the Horde. Keep secret what you see and hear in Grommash Hold. Carry out an order before discussing it.</p><p><strong>Favor by rank.</strong></p><ul><li><strong>Rank 1 — Guard Recruit.</strong> Lodging in the Orgrimmar barracks; the grunts salute you and the city's merchants extend you credit.</li><li><strong>Rank 2 — Kor'kron Guard.</strong> Armor in the colors of the guard, a war wolf provided; you can arrest anyone in Orgrimmar.</li><li><strong>Rank 3 — Kor'kron Captain.</strong> You command a squad of four guards and you have access to the Warchief for matters of security.</li></ul><p><strong>Benefit.</strong> <em>Kor'kron Vigilance</em>: you add <strong>1d4</strong> to your Initiative rolls.</p><p><strong>Reputation.</strong> The Alliance sees you as a Horde killer; the orcs who miss the demon blood despise you as Thrall's dog. The Kor'kron have a reputation as brutes: you are feared more than you are liked.</p><p><strong>Rising in rank.</strong> The GM grants the next rank after an important mission accomplished for the order, or after a few adventures of loyal service; it is noted in the feat (rank 1 to 3). A serious failure of duty costs a rank, or the whole affiliation.</p>"
+    },
+    "system.requirements": {
+      "fr": "Affiliation — Kor'kron",
+      "en": "Affiliation — Kor'kron"
+    },
+    "effects.Y7h92RDkvp6QGjOX.name": {
+      "fr": "Vigilance kor'kron",
+      "en": "Kor'kron Vigilance"
+    },
+    "effects.Y7h92RDkvp6QGjOX.description": {
+      "fr": "<p>+1d4 aux jets d'initiative.</p>",
+      "en": "<p>+1d4 to Initiative rolls.</p>"
+    },
+    "flags.lakour-warcraft.organisation": {
+      "fr": "Kor'kron",
+      "en": "Kor'kron"
+    }
+  },
+  "dons/koPSfomHXIhVA6pK": {
+    "_nom": "Vétéran des Terres ingrates",
+    "name": {
+      "fr": "Vétéran des Terres ingrates",
+      "en": "Badlands Veteran"
+    },
+    "system.description.value": {
+      "fr": "<p><em>Prérequis : Niveau 4 ou plus.</em></p><p><strong>Amélioration de caractéristique.</strong> Augmentez votre Constitution ou Sagesse de 1, jusqu'à un maximum de 20.</p><p>Vous avez traversé les Terres ingrates, Tanaris ou les Désolations sans y laisser votre peau. Vous maîtrisez <strong>Survie</strong>, votre <strong>vitesse augmente de 1,5 m</strong>, et vous avez l'avantage aux jets de sauvegarde contre l'<strong>épuisement</strong> causé par la chaleur, la soif ou une marche forcée.</p>",
+      "en": "<p><em>Prerequisite: Level 4 or higher.</em></p><p><strong>Ability Score Improvement.</strong> Increase your Constitution or Wisdom by 1, to a maximum of 20.</p><p>You crossed the Badlands, Tanaris or Desolace without leaving your skin there. You have proficiency in <strong>Survival</strong>, your <strong>Speed increases by 5 feet</strong>, and you have Advantage on saving throws against <strong>Exhaustion</strong> caused by heat, thirst or a forced march.</p>"
+    },
+    "system.requirements": {
+      "fr": "Niveau 4 ou plus",
+      "en": "Level 4 or higher"
+    },
+    "system.advancement.c1fA0RDHTrym7lsm.title": {
+      "fr": "Amélioration de caractéristique",
+      "en": "Ability Score Improvement"
+    },
+    "system.advancement.c1fA0RDHTrym7lsm.hint": {
+      "fr": "+1 à une caractéristique parmi celles proposées (20 au plus).",
+      "en": "+1 to one of the listed ability scores (20 at most)."
+    }
+  },
+  "dons/lAIgVju2NPNoukwN": {
+    "_nom": "Affiliation : Kirin Tor",
+    "name": {
+      "fr": "Affiliation : Kirin Tor",
+      "en": "Affiliation: Kirin Tor"
+    },
+    "system.description.value": {
+      "fr": "<p>Les mages de Dalaran ont perdu leur cité volante sous les coups du Fléau et de la Légion, mais pas leur orgueil. Dispersés entre Theramore, Hurlevent et des tours cachées, ils recrutent quiconque sait tenir une langue et un grimoire — y compris, en théorie, dans la Horde.</p><p><strong>Devoir.</strong> Remettre au Kirin Tor tout artefact magique d'importance et signaler toute trace de gangrène ou de nécromancie. Ne jamais enseigner l'arcane sans autorisation. Ne jamais lever la main contre un mage de l'ordre.</p><p><strong>Faveur par rang.</strong></p><ul><li><strong>Rang 1 — Apprenti de la Violette.</strong> Accès aux bibliothèques de secours de Theramore et à la chambre d'un mage ami dans chaque grande ville ; copier un sort de magicien vous coûte moitié moins cher.</li><li><strong>Rang 2 — Magus.</strong> On vous confie une pierre de portail : une fois par aventure, un mage vous ramène par portail. Si vous êtes magicien, <em>Portail du Kirin Tor</em> s'ajoute à votre grimoire quand vous pouvez le lancer.</li><li><strong>Rang 3 — Membre de l'Assemblée.</strong> Vous siégez, sans voix, aux réunions de l'Assemblée. Une fois par campagne, un archimage intervient en personne pour une requête d'importance.</li></ul><p><strong>Avantage.</strong> <em>Formation de la Violette</em> : vous avez l'avantage aux tests d'Intelligence (Arcanes).</p><p><strong>Réputation.</strong> Le Kirin Tor surveille les siens : un sort interdit, une Métamorphose lancée sur un dignitaire ou un artefact vendu se savent en une semaine. Les Réprouvés et nombre d'orcs n'ont pas oublié que Dalaran a dressé les camps d'internement.</p><p><strong>Monter en rang.</strong> Le MJ accorde le rang suivant après une mission d'importance accomplie pour l'ordre, ou au bout de quelques aventures de service loyal ; il le note dans le don (rang 1 à 3). Manquer gravement au devoir fait perdre un rang, ou l'affiliation entière.</p>",
+      "en": "<p>The mages of Dalaran lost their city to the blows of the Scourge and the Legion, but not their pride. Scattered between Theramore, Stormwind and hidden towers, they recruit anyone who can hold their tongue and a spellbook — including, in theory, in the Horde.</p><p><strong>Duty.</strong> Hand over to the Kirin Tor any magical artifact of importance and report any trace of fel or necromancy. Never teach the arcane without authorization. Never raise a hand against a mage of the order.</p><p><strong>Favor by rank.</strong></p><ul><li><strong>Rank 1 — Apprentice of the Violet.</strong> Access to the emergency libraries of Theramore and to the room of a friendly mage in every major city; copying a wizard spell costs you half as much.</li><li><strong>Rank 2 — Magus.</strong> You are entrusted with a portal stone: once per adventure, a mage brings you back by portal. If you are a Wizard, <em>Kirin Tor Portal</em> is added to your spellbook once you can cast it.</li><li><strong>Rank 3 — Member of the Assembly.</strong> You sit, without a vote, at the meetings of the Assembly. Once per campaign, an archmage intervenes in person for a request of importance.</li></ul><p><strong>Benefit.</strong> <em>Training of the Violet</em>: you have Advantage on Intelligence (Arcana) checks.</p><p><strong>Reputation.</strong> The Kirin Tor keeps watch over its own: a forbidden spell, a Polymorph cast on a dignitary or an artifact sold is known within a week. The Forsaken and many orcs have not forgotten that Dalaran set up the internment camps.</p><p><strong>Rising in rank.</strong> The GM grants the next rank after an important mission accomplished for the order, or after a few adventures of loyal service; it is noted in the feat (rank 1 to 3). A serious failure of duty costs a rank, or the whole affiliation.</p>"
+    },
+    "system.requirements": {
+      "fr": "Affiliation — Kirin Tor",
+      "en": "Affiliation — Kirin Tor"
+    },
+    "effects.dXgt8jY7NUt9Dslk.name": {
+      "fr": "Formation de la Violette",
+      "en": "Training of the Violet"
+    },
+    "effects.dXgt8jY7NUt9Dslk.description": {
+      "fr": "<p>Avantage aux tests d'Intelligence (Arcanes).</p>",
+      "en": "<p>Advantage on Intelligence (Arcana) checks.</p>"
+    },
+    "flags.lakour-warcraft.organisation": {
+      "fr": "Kirin Tor",
+      "en": "Kirin Tor"
+    }
+  },
+  "dons/nv1CkfthuNRxaaPC": {
+    "_nom": "Tireur des Pérégrins",
+    "name": {
+      "fr": "Tireur des Pérégrins",
+      "en": "Farstrider Marksman"
+    },
+    "system.description.value": {
+      "fr": "<p><em>Prérequis : Capacité Style de combat.</em></p><p>Les archers de Quel'Thalas tirent vite et juste. Vous gagnez <strong>+1</strong> aux jets d'attaque et <strong>+1</strong> aux jets de dégâts de vos attaques avec une <strong>arme à distance</strong>.</p>",
+      "en": "<p><em>Prerequisite: Fighting Style feature.</em></p><p>The archers of Quel'Thalas shoot fast and true. You gain <strong>+1</strong> to attack rolls and <strong>+1</strong> to damage rolls of your attacks with a <strong>Ranged weapon</strong>.</p>"
+    },
+    "system.requirements": {
+      "fr": "Capacité Style de combat",
+      "en": "Fighting Style feature"
+    }
+  },
+  "dons/pjTxkUM2Nc174XKE": {
+    "_nom": "Garde de la Lumière",
+    "name": {
+      "fr": "Garde de la Lumière",
+      "en": "Lightwarden"
+    },
+    "system.description.value": {
+      "fr": "<p><em>Prérequis : Niveau 4 ou plus, capacité Incantation ou Magie de pacte.</em></p><p><strong>Amélioration de caractéristique.</strong> Augmentez votre Sagesse ou Charisme de 1, jusqu'à un maximum de 20.</p><p>Vous avez prêté serment devant la Main d'argent, la cathédrale de Hurlevent ou les Aldor : la Lumière vous traverse et protège ceux qui se tiennent près de vous. Vous avez la <strong>résistance aux dégâts nécrotiques</strong>.</p><p><strong>Rempart de Lumière.</strong> Quand une créature que vous voyez à 9 m au plus subit des dégâts, vous pouvez utiliser votre <strong>réaction</strong> pour réduire ces dégâts de <strong>1d10 + votre bonus de maîtrise</strong>. Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "en": "<p><em>Prerequisite: Level 4 or higher, Spellcasting or Pact Magic feature.</em></p><p><strong>Ability Score Improvement.</strong> Increase your Wisdom or Charisma by 1, to a maximum of 20.</p><p>You swore an oath before the Silver Hand, the cathedral of Stormwind or the Aldor: the Light flows through you and protects those who stand near you. You have <strong>Resistance to Necrotic damage</strong>.</p><p><strong>Bulwark of Light.</strong> When a creature you can see within 30 feet takes damage, you can use your <strong>Reaction</strong> to reduce that damage by <strong>1d10 + your Proficiency Bonus</strong>. Number of uses: your <strong>Proficiency Bonus</strong> per Long Rest.</p>"
+    },
+    "system.requirements": {
+      "fr": "Niveau 4 ou plus, capacité Incantation ou Magie de pacte",
+      "en": "Level 4 or higher, Spellcasting or Pact Magic feature"
+    },
+    "system.activities.5eWqOAAFN2HUuZjI.name": {
+      "fr": "Rempart de Lumière",
+      "en": "Bulwark of Light"
+    },
+    "system.activities.5eWqOAAFN2HUuZjI.activation.condition": {
+      "fr": "Une créature à 9 m subit des dégâts",
+      "en": "A creature within 30 feet takes damage"
+    }
+  },
+  "dons/tFtE3WPg8azEZl4I": {
+    "_nom": "Écho des Aspects",
+    "name": {
+      "fr": "Écho des Aspects",
+      "en": "Echo of the Aspects"
+    },
+    "system.description.value": {
+      "fr": "<p><em>Prérequis : Niveau 4 ou plus.</em></p><p><strong>Amélioration de caractéristique.</strong> Augmentez votre Constitution ou Charisme de 1, jusqu'à un maximum de 20.</p><p>Un vol draconique a déposé une étincelle en vous : la flamme d'Alexstrasza, la glace d'un dragon bleu, l'orage des protodragons. Vous avez la <strong>résistance</strong> à un type de dégâts au choix : <strong>acide</strong>, <strong>feu</strong>, <strong>foudre</strong>, <strong>froid</strong> ou <strong>poison</strong>.</p><p><strong>Souffle de l'Aspect.</strong> Par une <strong>action</strong>, vous soufflez un cône de 4,5 m : chaque créature dedans fait un jet de sauvegarde de <strong>Dextérité</strong> (DD 8 + votre modificateur de Constitution + votre bonus de maîtrise) et subit <strong>3d8</strong> dégâts du type choisi en cas d'échec, la moitié en cas de réussite. Une utilisation par <strong>repos court</strong>.</p>",
+      "en": "<p><em>Prerequisite: Level 4 or higher.</em></p><p><strong>Ability Score Improvement.</strong> Increase your Constitution or Charisma by 1, to a maximum of 20.</p><p>A dragonflight has left a spark in you: the flame of Alexstrasza, the ice of a blue dragon, the storm of the proto-dragons. You have <strong>Resistance</strong> to one damage type of your choice: <strong>Acid</strong>, <strong>Fire</strong>, <strong>Lightning</strong>, <strong>Cold</strong> or <strong>Poison</strong>.</p><p><strong>Breath of the Aspect.</strong> As an <strong>action</strong>, you breathe a 15-foot cone: each creature in it makes a <strong>Dexterity</strong> saving throw (DC 8 + your Constitution modifier + your Proficiency Bonus) and takes <strong>3d8</strong> damage of the chosen type on a failure, half as much on a success. One use per <strong>Short Rest</strong>.</p>"
+    },
+    "system.activities.oHjBvkYoBe6mhjYi.name": {
+      "fr": "Souffler",
+      "en": "Breathe"
+    }
+  },
+  "dons/tUZwMNktrEswHDTi": {
+    "_nom": "Dette envers le Cartel",
+    "name": {
+      "fr": "Dette envers le Cartel",
+      "en": "Debt to the Cartel"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous devez <strong>300 po</strong> à un comptoir du Cartel Gentepression, intérêts compris. À chaque aventure sans remboursement, la dette grossit d'un dixième et les méthodes de recouvrement se durcissent : d'abord des lettres polies, puis des collecteurs, puis des ogres.</p><p>Un gobelin accepte parfois un service à la place de l'or. C'est rarement une bonne affaire.</p>",
+      "en": "<p>You owe <strong>300 gp</strong> to a trading post of the Steamwheedle Cartel, interest included. With each adventure that goes by without repayment, the debt grows by a tenth and the collection methods harden: first polite letters, then collectors, then ogres.</p><p>A goblin sometimes accepts a service instead of gold. It is rarely a good deal.</p>"
+    }
+  },
+  "dons/tdRNE6AxvALhDBv6": {
+    "_nom": "Brise-rangs",
+    "name": {
+      "fr": "Brise-rangs",
+      "en": "Line-Breaker"
+    },
+    "system.description.value": {
+      "fr": "<p><em>Prérequis : Capacité Style de combat.</em></p><p>Vous frappez pour enfoncer une ligne, pas pour faire un duel. Vos attaques au <strong>corps à corps avec une arme</strong> infligent <strong>1</strong> dégât supplémentaire.</p>",
+      "en": "<p><em>Prerequisite: Fighting Style feature.</em></p><p>You strike to break a line, not to fight a duel. Your <strong>melee weapon</strong> attacks deal <strong>1</strong> extra damage.</p>"
+    }
+  },
+  "dons/zJbI9mUQMgcAL9N9": {
+    "_nom": "Agent du SI:7",
+    "name": {
+      "fr": "Agent du SI:7",
+      "en": "SI:7 Agent"
+    },
+    "system.description.value": {
+      "fr": "<p><em>Prérequis : Niveau 4 ou plus.</em></p><p><strong>Amélioration de caractéristique.</strong> Augmentez votre Dextérité ou Intelligence de 1, jusqu'à un maximum de 20.</p><p>Le service de renseignement de Hurlevent forme ses agents à disparaître dans une ruelle éclairée. Dans une zone de <strong>lumière faible</strong> ou d'<strong>obscurité</strong>, vous pouvez effectuer l'action <strong>Se cacher</strong> par une <strong>action bonus</strong>. De plus, vous sentez quand on vous file : une créature qui vous suit discrètement depuis au moins une minute ne gagne pas l'avantage d'une attaque surprise contre vous, sauf si elle est invisible.</p>",
+      "en": "<p><em>Prerequisite: Level 4 or higher.</em></p><p><strong>Ability Score Improvement.</strong> Increase your Dexterity or Intelligence by 1, to a maximum of 20.</p><p>Stormwind's intelligence service trains its agents to vanish in a well-lit alley. In an area of <strong>Dim Light</strong> or <strong>Darkness</strong>, you can take the <strong>Hide</strong> action as a <strong>Bonus Action</strong>. Moreover, you can feel when you are being tailed: a creature that has been discreetly following you for at least a minute does not gain the benefit of a surprise attack against you, unless it is Invisible.</p>"
+    }
+  },
+  "dons/zMZbZydzcl0hQp6W": {
+    "_nom": "Affiliation : Sentinelles",
+    "name": {
+      "fr": "Affiliation : Sentinelles",
+      "en": "Affiliation: Sentinels"
+    },
+    "system.description.value": {
+      "fr": "<p>L'armée des elfes de la nuit, presque entièrement composée de femmes, garde les forêts de Kalimdor depuis dix mille ans. Ses éclaireuses montent des sabres-de-nuit et parlent par cris de chouette. Elles acceptent quelques étrangers, à l'essai, pour le temps qu'il faudra.</p><p><strong>Devoir.</strong> Défendre l'Orneval et les forêts de Kalimdor contre les bûcherons, les démons et les satyres. Ne jamais révéler les sentiers des Sentinelles. Rendre compte à votre capitaine.</p><p><strong>Faveur par rang.</strong></p><ul><li><strong>Rang 1 — Éclaireur.</strong> Accès aux postes de garde de l'Orneval ; les chouettes des Sentinelles portent vos messages.</li><li><strong>Rang 2 — Sentinelle.</strong> Un sabre-de-nuit vous est confié, et vous connaissez les sentiers cachés : vos voyages en forêt prennent deux fois moins de temps.</li><li><strong>Rang 3 — Capitaine.</strong> Vous commandez un poste de garde et une escouade de cinq Sentinelles, et la générale lit vos rapports.</li></ul><p><strong>Avantage.</strong> <em>Œil de la Sentinelle</em> : vous ajoutez <strong>1d4</strong> à vos tests de Sagesse (Perception).</p><p><strong>Réputation.</strong> Les orcs qui coupent du bois en Orneval ont des comptes à régler avec quiconque porte l'insigne. Les hauts-elfes et les elfes de sang vous rappellent l'Exil, à mots couverts.</p><p><strong>Monter en rang.</strong> Le MJ accorde le rang suivant après une mission d'importance accomplie pour l'ordre, ou au bout de quelques aventures de service loyal ; il le note dans le don (rang 1 à 3). Manquer gravement au devoir fait perdre un rang, ou l'affiliation entière.</p>",
+      "en": "<p>The army of the night elves, made up almost entirely of women, has guarded the forests of Kalimdor for ten thousand years. Its scouts ride nightsabers and speak in owl calls. They accept a few outsiders, on trial, for as long as it takes.</p><p><strong>Duty.</strong> Defend Ashenvale and the forests of Kalimdor against lumberjacks, demons and satyrs. Never reveal the paths of the Sentinels. Report to your captain.</p><p><strong>Favor by rank.</strong></p><ul><li><strong>Rank 1 — Scout.</strong> Access to the guard posts of Ashenvale; the owls of the Sentinels carry your messages.</li><li><strong>Rank 2 — Sentinel.</strong> A nightsaber is entrusted to you, and you know the hidden paths: your journeys through the forest take half as long.</li><li><strong>Rank 3 — Captain.</strong> You command a guard post and a squad of five Sentinels, and the general reads your reports.</li></ul><p><strong>Benefit.</strong> <em>Eye of the Sentinel</em>: you add <strong>1d4</strong> to your Wisdom (Perception) checks.</p><p><strong>Reputation.</strong> The orcs cutting wood in Ashenvale have scores to settle with anyone who wears the insignia. High elves and blood elves remind you of the Exile, in veiled terms.</p><p><strong>Rising in rank.</strong> The GM grants the next rank after an important mission accomplished for the order, or after a few adventures of loyal service; it is noted in the feat (rank 1 to 3). A serious failure of duty costs a rank, or the whole affiliation.</p>"
+    },
+    "system.requirements": {
+      "fr": "Affiliation — Sentinelles",
+      "en": "Affiliation — Sentinels"
+    },
+    "effects.qnU5y2b9GEDm6gy2.name": {
+      "fr": "Œil de la Sentinelle",
+      "en": "Eye of the Sentinel"
+    },
+    "effects.qnU5y2b9GEDm6gy2.description": {
+      "fr": "<p>+1d4 aux tests de Sagesse (Perception).</p>",
+      "en": "<p>+1d4 to Wisdom (Perception) checks.</p>"
+    },
+    "flags.lakour-warcraft.organisation": {
+      "fr": "Sentinelles",
+      "en": "Sentinels"
+    }
+  }
+}

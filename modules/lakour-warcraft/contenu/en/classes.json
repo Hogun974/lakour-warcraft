@@ -1,0 +1,1475 @@
+{
+  "classes/1aE1b3EO9nbpPpSN": {
+    "_nom": "Souffle de feu",
+    "name": {
+      "fr": "Souffle de feu",
+      "en": "Breath of Fire"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action</strong>, vous recrachez une gorgée d'alcool fort sur une flamme : chaque créature dans un cône de <strong>4,5 m</strong> fait un jet de sauvegarde de <strong>Dextérité</strong> (DD 8 + votre modificateur de Sagesse + votre bonus de maîtrise) et subit <strong>2d6 dégâts de feu</strong> (moitié en cas de réussite). Ces dés passent à <strong>3d6</strong> au niveau 11 et à <strong>4d6</strong> au niveau 17. Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "en": "<p>As an <strong>action</strong>, you spit a mouthful of strong liquor over a flame: each creature in a <strong>15-foot</strong> cone makes a <strong>Dexterity</strong> saving throw (DC 8 + your Wisdom modifier + your Proficiency Bonus) and takes <strong>2d6 Fire damage</strong> (half on a success). These dice become <strong>3d6</strong> at level 11 and <strong>4d6</strong> at level 17. Number of uses: your <strong>Proficiency Bonus</strong> per Long Rest.</p>"
+    },
+    "system.activities.GZ7GJcrDBz3Q5xVT.name": {
+      "fr": "Cracher le feu",
+      "en": "Spit fire"
+    }
+  },
+  "classes/1kcIu8fFJwfTB4xx": {
+    "_nom": "Peau de gangrène",
+    "name": {
+      "fr": "Peau de gangrène",
+      "en": "Fel Skin"
+    },
+    "system.description.value": {
+      "fr": "<p>La gangrène affleure sous votre peau. Vous avez la <strong>résistance aux dégâts de feu</strong>.</p><p><strong>Retour de flamme.</strong> Quand une créature que vous voyez à <strong>18 m</strong> ou moins vous inflige des dégâts, vous pouvez utiliser votre <strong>réaction</strong> pour lui infliger <strong>2d8 + votre modificateur de Charisme</strong> dégâts de feu. Une utilisation par <strong>repos court</strong>.</p>",
+      "en": "<p>The fel shows beneath your skin. You have <strong>Resistance to Fire damage</strong>.</p><p><strong>Backfire.</strong> When a creature you can see within <strong>60 feet</strong> deals damage to you, you can use your <strong>Reaction</strong> to deal it <strong>2d8 + your Charisma modifier</strong> Fire damage. One use per <strong>Short Rest</strong>.</p>"
+    },
+    "system.activities.sedWKgkxJOXM5yE4.name": {
+      "fr": "Retour de flamme",
+      "en": "Backfire"
+    },
+    "system.activities.sedWKgkxJOXM5yE4.activation.condition": {
+      "fr": "Une créature à 18 m vous inflige des dégâts",
+      "en": "A creature within 60 feet deals damage to you"
+    }
+  },
+  "classes/2NkxLxYYXZpeiPjx": {
+    "_nom": "Colère des éléments",
+    "name": {
+      "fr": "Colère des éléments",
+      "en": "Wrath of the Elements"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action</strong> (Magie), vous dépensez une utilisation de votre <strong>Conduit divin</strong> et appelez un esprit en colère. Chaque créature de votre choix dans un rayon de <strong>4,5 m</strong> autour de vous fait un jet de sauvegarde de <strong>Dextérité</strong> contre votre DD de sauvegarde des sorts. Elle subit <strong>2d8 + votre modificateur de Sagesse</strong> dégâts de feu, de froid, de foudre ou de tonnerre (au choix, un seul type pour toutes) en cas d'échec, la moitié en cas de réussite.</p>",
+      "en": "<p>As an <strong>action</strong> (Magic), you expend one use of your <strong>Channel Divinity</strong> and call an angry spirit. Each creature of your choice within <strong>15 feet</strong> of you makes a <strong>Dexterity</strong> saving throw against your spell save DC. It takes <strong>2d8 + your Wisdom modifier</strong> Fire, Cold, Lightning or Thunder damage (your choice, a single type for all) on a failure, half as much on a success.</p>"
+    },
+    "system.activities.rCMPQCQaOUE0nZUC.name": {
+      "fr": "Déchaîner l'esprit",
+      "en": "Unleash the spirit"
+    }
+  },
+  "classes/2Xc1h9klaCx37Kkd": {
+    "_nom": "Pluie de feu gangrené",
+    "name": {
+      "fr": "Pluie de feu gangrené",
+      "en": "Rain of Fel Fire"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action</strong> (Magie), vous ouvrez une brèche vers les flammes de la Légion au-dessus d'un point que vous voyez à <strong>36 m</strong> ou moins. Chaque créature dans une sphère de <strong>6 m</strong> de rayon centrée sur ce point fait un jet de sauvegarde de <strong>Dextérité</strong> contre votre DD de sauvegarde des sorts : elle subit <strong>8d8 dégâts de feu</strong> en cas d'échec, la moitié en cas de réussite. Une créature qui échoue prend feu et est <strong>en feu</strong> pendant 1 minute ou jusqu'à ce qu'elle éteigne les flammes. Une utilisation par <strong>repos long</strong>.</p>",
+      "en": "<p>As an <strong>action</strong> (Magic), you open a rift to the flames of the Legion above a point you can see within <strong>120 feet</strong>. Each creature in a <strong>20-foot</strong>-radius Sphere centered on that point makes a <strong>Dexterity</strong> saving throw against your spell save DC: it takes <strong>8d8 Fire damage</strong> on a failure, half as much on a success. A creature that fails catches fire and is <strong>Burning</strong> for 1 minute or until it puts out the flames. One use per <strong>Long Rest</strong>.</p>"
+    },
+    "system.activities.reUv8iXvt91nOtBA.name": {
+      "fr": "Ouvrir la brèche",
+      "en": "Open the rift"
+    },
+    "effects.CW26AanRrGlgXqnl.name": {
+      "fr": "Flammes de la Légion",
+      "en": "Flames of the Legion"
+    }
+  },
+  "classes/2hZHASvSr3lhy7eB": {
+    "_nom": "Sorts du chasseur illidari",
+    "name": {
+      "fr": "Sorts du chasseur illidari",
+      "en": "Illidari Hunter Spells"
+    },
+    "system.description.value": {
+      "fr": "<p>Votre traque vous a appris quelques protections. Quand vous atteignez les niveaux de rôdeur indiqués, ces sorts vous sont accordés ; ils sont <strong>toujours préparés</strong>.</p><ul><li>Niveau 3 : Protection contre le mal et le bien</li><li>Niveau 5 : Détection de l'invisibilité</li><li>Niveau 9 : Cercle magique</li><li>Niveau 13 : Bannissement</li><li>Niveau 17 : Dissipation du mal et du bien</li></ul>",
+      "en": "<p>Your hunt has taught you a few protections. When you reach the Ranger levels listed, these spells are granted to you; they are <strong>always prepared</strong>.</p><ul><li>Level 3: Protection from Evil and Good</li><li>Level 5: See Invisibility</li><li>Level 9: Magic Circle</li><li>Level 13: Banishment</li><li>Level 17: Dispel Evil and Good</li></ul>"
+    }
+  },
+  "classes/3wFBT9iTEQEGejCo": {
+    "_nom": "Pas dans le Rêve",
+    "name": {
+      "fr": "Pas dans le Rêve",
+      "en": "Dreamstep"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action bonus</strong>, vous traversez un instant le Rêve d'émeraude : vous vous téléportez dans un espace inoccupé que vous voyez à <strong>9 m</strong> ou moins et gagnez un nombre de <strong>points de vie temporaires</strong> égal à votre niveau de druide. Nombre d'utilisations : votre <strong>modificateur de Sagesse</strong> (minimum 1) par repos long.</p>",
+      "en": "<p>As a <strong>Bonus Action</strong>, you pass for an instant through the Emerald Dream: you teleport to an unoccupied space you can see within <strong>30 feet</strong> and gain a number of <strong>Temporary Hit Points</strong> equal to your Druid level. Number of uses: your <strong>Wisdom modifier</strong> (minimum 1) per Long Rest.</p>"
+    },
+    "system.activities.baPlE3kAmmA5XRIh.name": {
+      "fr": "Traverser le Rêve",
+      "en": "Cross the Dream"
+    }
+  },
+  "classes/4eGRyN9bjzZwxqeq": {
+    "_nom": "Serment de la Main d'argent",
+    "name": {
+      "fr": "Serment de la Main d'argent",
+      "en": "Oath of the Silver Hand"
+    },
+    "system.description.value": {
+      "fr": "<p>La Main d'argent est née dans les cendres de la Deuxième Guerre, quand les premiers paladins de Lordaeron ont juré de protéger les vivants. Elle a vu tomber Uther et s'est relevée contre le Fléau. Ses membres prêtent un serment simple :</p><ul><li><strong>Nul ne tombe seul.</strong> Aucun compagnon n'est abandonné, vivant ou mort.</li><li><strong>La Lumière pour tous.</strong> Le paysan, l'orc repenti et le roi méritent la même protection.</li><li><strong>Les morts reposent.</strong> Ce qui a été relevé contre sa volonté doit retrouver la paix.</li><li><strong>L'humilité.</strong> Le serment ne sert ni une couronne ni un ordre, mais ceux qui souffrent.</li></ul><p><em>Sous-classe du Paladin, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Sorts du serment de la Main d'argent, Frère d'armes de la Main, Châtiment du Fléau</li><li><strong>Niveau 7</strong> : Aura de pureté</li><li><strong>Niveau 15</strong> : Nul ne tombe seul</li><li><strong>Niveau 20</strong> : Champion de la Lumière</li></ul><h2>Sorts du serment de la Main d'argent</h2><ul><li><strong>Niveau 3</strong> : Égide de la Lumière, Protection contre le mal et le bien</li><li><strong>Niveau 5</strong> : Marteau de justice, Restauration partielle</li><li><strong>Niveau 9</strong> : Psaume de la Lumière, Lumière du jour</li><li><strong>Niveau 13</strong> : Protection contre la mort, Bannissement</li><li><strong>Niveau 17</strong> : Dissipation du mal et du bien, Sanctification</li></ul>",
+      "en": "<p>The Silver Hand was born in the ashes of the Second War, when the first paladins of Lordaeron swore to protect the living. It saw Uther fall and rose again against the Scourge. Its members swear a simple oath:</p><ul><li><strong>No one falls alone.</strong> No companion is abandoned, living or dead.</li><li><strong>The Light for all.</strong> The peasant, the repentant orc and the king deserve the same protection.</li><li><strong>The dead rest.</strong> What was raised against its will must find peace again.</li><li><strong>Humility.</strong> The oath serves neither a crown nor an order, but those who suffer.</li></ul><p><em>Paladin subclass, chosen at level 3.</em></p><h2>Features</h2><ul><li><strong>Level 3</strong>: Oath of the Silver Hand Spells, Brother-in-Arms of the Hand, Scourge Smite</li><li><strong>Level 7</strong>: Aura of Purity</li><li><strong>Level 15</strong>: No One Falls Alone</li><li><strong>Level 20</strong>: Champion of the Light</li></ul><h2>Oath of the Silver Hand Spells</h2><ul><li><strong>Level 3</strong>: Aegis of the Light, Protection from Evil and Good</li><li><strong>Level 5</strong>: Hammer of Justice, Lesser Restoration</li><li><strong>Level 9</strong>: Psalm of the Light, Daylight</li><li><strong>Level 13</strong>: Death Ward, Banishment</li><li><strong>Level 17</strong>: Dispel Evil and Good, Hallow</li></ul>"
+    },
+    "system.advancement.G4IKdlrEde7z2tuS.name": {
+      "fr": "Capacités : Serment de la Main d'argent",
+      "en": "Features: Oath of the Silver Hand"
+    },
+    "system.advancement.lpliQQGDrGYUf0PZ.name": {
+      "fr": "Frère d'armes de la Main",
+      "en": "Brother-in-Arms of the Hand"
+    },
+    "system.advancement.lpliQQGDrGYUf0PZ.hint": {
+      "fr": "Médecine ou Religion.",
+      "en": "Medicine or Religion."
+    },
+    "system.advancement.n5oxXpuYxEBWGBW4.name": {
+      "fr": "Sorts du serment de la Main d'argent",
+      "en": "Oath of the Silver Hand Spells"
+    }
+  },
+  "classes/5uJIDRQxsSNJYpm9": {
+    "_nom": "Fût roulant",
+    "name": {
+      "fr": "Fût roulant",
+      "en": "Rolling Keg"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action</strong>, vous fracassez votre tonneau au sol et le faites rouler : chaque créature dans un cube de <strong>3 m</strong> que vous touchez à 9 m ou moins fait un jet de sauvegarde de <strong>Dextérité</strong> (DD de votre Sagesse) et subit <strong>3d8 dégâts contondants</strong> en cas d'échec (moitié en cas de réussite) ; en cas d'échec, elle tombe aussi <strong>à terre</strong>. Une utilisation par <strong>repos court</strong>.</p>",
+      "en": "<p>As an <strong>action</strong>, you smash your keg on the ground and send it rolling: each creature in a <strong>10-foot</strong> Cube you touch within 30 feet makes a <strong>Dexterity</strong> saving throw (your Wisdom DC) and takes <strong>3d8 Bludgeoning damage</strong> on a failure (half on a success); on a failure, it also falls <strong>Prone</strong>. One use per <strong>Short Rest</strong>.</p>"
+    },
+    "system.activities.oUdhDeikhThgQXDn.name": {
+      "fr": "Faire rouler le fût",
+      "en": "Roll the keg"
+    }
+  },
+  "classes/6j3UV4GhSefkBSpC": {
+    "_nom": "Gardien du Rêve",
+    "name": {
+      "fr": "Gardien du Rêve",
+      "en": "Dream Warden"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous avez affronté les visions du Cauchemar sans y céder. Vous avez la <strong>résistance aux dégâts psychiques</strong> et vous ne pouvez pas être <strong>effrayé</strong>.</p>",
+      "en": "<p>You have faced the visions of the Nightmare without yielding. You have <strong>Resistance to Psychic damage</strong> and you cannot be <strong>Frightened</strong>.</p>"
+    }
+  },
+  "classes/74qv4lRjPOfnrxn8": {
+    "_nom": "Totems élémentaires",
+    "name": {
+      "fr": "Totems élémentaires",
+      "en": "Elemental Totems"
+    },
+    "system.description.value": {
+      "fr": "<p>Pendant votre <strong>Rage</strong>, par une <strong>action bonus</strong>, vous plantez un totem dans un espace libre à 3 m ou moins de vous ; il reste jusqu'à la fin de votre Rage. Choisissez :</p><ul><li><strong>Totem de peau de pierre</strong> : vous et vos alliés à 3 m ou moins du totem gagnez <strong>+1 à la classe d'armure</strong> pendant 1 minute.</li><li><strong>Totem des vents</strong> : vous et vos alliés à 3 m ou moins du totem gagnez <strong>3 m de vitesse</strong> pendant 1 minute.</li><li><strong>Totem de magma</strong> : chaque créature hostile à 3 m ou moins du totem fait un jet de sauvegarde de <strong>Dextérité</strong> (DD 8 + votre modificateur de Constitution + votre bonus de maîtrise) et subit <strong>1d6 dégâts de feu</strong> (moitié en cas de réussite) ; <strong>2d6</strong> au niveau 10.</li></ul><p>Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "en": "<p>During your <strong>Rage</strong>, as a <strong>Bonus Action</strong>, you plant a totem in an unoccupied space within 10 feet of you; it remains until the end of your Rage. Choose:</p><ul><li><strong>Stoneskin Totem</strong>: you and your allies within 10 feet of the totem gain <strong>+1 to Armor Class</strong> for 1 minute.</li><li><strong>Windfury Totem</strong>: you and your allies within 10 feet of the totem gain <strong>10 feet of Speed</strong> for 1 minute.</li><li><strong>Magma Totem</strong>: each hostile creature within 10 feet of the totem makes a <strong>Dexterity</strong> saving throw (DC 8 + your Constitution modifier + your Proficiency Bonus) and takes <strong>1d6 Fire damage</strong> (half on a success); <strong>2d6</strong> at level 10.</li></ul><p>Number of uses: your <strong>Proficiency Bonus</strong> per Long Rest.</p>"
+    },
+    "system.activities.AoWJG32jUTPL1yUM.name": {
+      "fr": "Planter le totem de peau de pierre",
+      "en": "Plant the Stoneskin Totem"
+    },
+    "system.activities.OJ7BNFr4PYqIMCPU.name": {
+      "fr": "Planter le totem des vents",
+      "en": "Plant the Windfury Totem"
+    },
+    "system.activities.KPRM6WIultht99ne.name": {
+      "fr": "Planter le totem de magma",
+      "en": "Plant the Magma Totem"
+    },
+    "effects.HyKmSYaob2bFnn1c.name": {
+      "fr": "Totem de peau de pierre",
+      "en": "Stoneskin Totem"
+    },
+    "effects.jzYD8gb048H4fWu0.name": {
+      "fr": "Totem des vents",
+      "en": "Windfury Totem"
+    }
+  },
+  "classes/8xYkVDBXcvAuCt6u": {
+    "_nom": "Tradition du Kirin Tor",
+    "name": {
+      "fr": "Tradition du Kirin Tor",
+      "en": "Kirin Tor Tradition"
+    },
+    "system.description.value": {
+      "fr": "<p>Le Kirin Tor gouverne Dalaran, la cité des mages, depuis les premiers jours d'Arathor. Ses membres en robe violette ont vu leur ville rasée par Arthas, relevée, puis arrachée au sol pour flotter au-dessus de Norfendre et des Îles brisées. Ils en ont tiré une discipline : la magie doit protéger, se déplacer vite et ne jamais céder à la tentation de la gangrène. Un magicien de cette tradition a étudié dans la Citadelle pourpre et porte un anneau du Kirin Tor, que le Conseil peut rappeler à tout moment.</p><p><em>Sous-classe du Magicien, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Archives de Dalaran, Égide du Violet</li><li><strong>Niveau 6</strong> : Érudit de la Citadelle pourpre</li><li><strong>Niveau 10</strong> : Transfert tactique</li><li><strong>Niveau 14</strong> : Maître du Kirin Tor</li></ul><h2>Archives de Dalaran</h2><ul><li><strong>Niveau 3</strong> : Nova de givre</li><li><strong>Niveau 5</strong> : Métamorphose ovine</li><li><strong>Niveau 7</strong> : Blizzard</li><li><strong>Niveau 9</strong> : Portail du Kirin Tor</li><li><strong>Niveau 14</strong> : Contresort</li></ul>",
+      "en": "<p>The Kirin Tor has governed Dalaran, the city of mages, since the earliest days of Arathor. Its violet-robed members have seen their city razed by Arthas, raised again, then torn from the ground to float above Northrend and the Broken Isles. From it they drew a discipline: magic must protect, move fast, and never give in to the temptation of the fel. A wizard of this tradition studied in the Violet Citadel and wears a Kirin Tor ring, which the Council can recall at any time.</p><p><em>Wizard subclass, chosen at level 3.</em></p><h2>Features</h2><ul><li><strong>Level 3</strong>: Archives of Dalaran, Aegis of the Violet</li><li><strong>Level 6</strong>: Scholar of the Violet Citadel</li><li><strong>Level 10</strong>: Tactical Blink</li><li><strong>Level 14</strong>: Master of the Kirin Tor</li></ul><h2>Archives of Dalaran</h2><ul><li><strong>Level 3</strong>: Frost Nova</li><li><strong>Level 5</strong>: Polymorph: Sheep</li><li><strong>Level 7</strong>: Blizzard</li><li><strong>Level 9</strong>: Kirin Tor Portal</li><li><strong>Level 14</strong>: Counterspell</li></ul>"
+    },
+    "system.advancement.8hqeFCw4uXmi1AH6.name": {
+      "fr": "Capacités : Tradition du Kirin Tor",
+      "en": "Features: Kirin Tor Tradition"
+    },
+    "system.advancement.C7kdXzFGG4ABjomm.name": {
+      "fr": "Archives de Dalaran",
+      "en": "Archives of Dalaran"
+    },
+    "system.advancement.VwPH7oRLZfHdNYAP.name": {
+      "fr": "Maître du Kirin Tor : Contresort",
+      "en": "Master of the Kirin Tor: Counterspell"
+    },
+    "system.advancement.dxaf4jnB2aezcE8O.name": {
+      "fr": "Dés de l'Égide du Violet",
+      "en": "Aegis of the Violet dice"
+    }
+  },
+  "classes/9cIgTQ6HWH2ur82z": {
+    "_nom": "Aspect de la meute",
+    "name": {
+      "fr": "Aspect de la meute",
+      "en": "Aspect of the Pack"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action bonus</strong>, vous et votre familier chassez comme une seule bête pendant <strong>1 minute</strong> : vous avez l'<strong>avantage</strong> à vos jets d'attaque, et votre familier aussi. Une utilisation par <strong>repos long</strong>.</p>",
+      "en": "<p>As a <strong>Bonus Action</strong>, you and your companion hunt as a single beast for <strong>1 minute</strong>: you have <strong>Advantage</strong> on your attack rolls, and so does your companion. One use per <strong>Long Rest</strong>.</p>"
+    },
+    "system.activities.QfsIGjsXDvPpIyEV.name": {
+      "fr": "Chasser en meute",
+      "en": "Hunt as a pack"
+    }
+  },
+  "classes/9qbaGHN6gFaae3kv": {
+    "_nom": "Affinité du Vol",
+    "name": {
+      "fr": "Affinité du Vol",
+      "en": "Flight Affinity"
+    },
+    "system.description.value": {
+      "fr": "<p>Quand vous lancez un sort qui inflige le type de dégâts de votre Vol, vous ajoutez votre <strong>modificateur de Charisme</strong> à l'un des jets de dégâts de ce sort.</p>",
+      "en": "<p>When you cast a spell that deals the damage type of your Flight, you add your <strong>Charisma modifier</strong> to one of that spell's damage rolls.</p>"
+    },
+    "system.activities.VW1aUlS2FGGEJrcX.name": {
+      "fr": "Souffle de l'ancêtre",
+      "en": "Breath of the ancestor"
+    },
+    "system.activities.VW1aUlS2FGGEJrcX.activation.condition": {
+      "fr": "Un de vos sorts inflige le type de dégâts de votre Vol",
+      "en": "One of your spells deals the damage type of your Flight"
+    }
+  },
+  "classes/AEnyv9nOBGonVXSy": {
+    "_nom": "Sorts du cercle du Rêve d'émeraude",
+    "name": {
+      "fr": "Sorts du cercle du Rêve d'émeraude",
+      "en": "Circle of the Emerald Dream Spells"
+    },
+    "system.description.value": {
+      "fr": "<p>Le Rêve vous murmure ses secrets. Quand vous atteignez les niveaux de druide indiqués, ces sorts vous sont accordés ; ils sont <strong>toujours préparés</strong>.</p><ul><li>Niveau 3 : Sarments du Rêve, Sommeil, Torpeur d'émeraude</li><li>Niveau 5 : Croissance végétale, Communication avec les plantes</li><li>Niveau 7 : Invocation d'êtres sylvestres, Liberté de mouvement</li><li>Niveau 9 : Rêve, Voyage par les arbres</li></ul>",
+      "en": "<p>The Dream whispers its secrets to you. When you reach the Druid levels listed, these spells are granted to you; they are <strong>always prepared</strong>.</p><ul><li>Level 3: Vines of the Dream, Sleep, Emerald Slumber</li><li>Level 5: Plant Growth, Speak with Plants</li><li>Level 7: Conjure Woodland Beings, Freedom of Movement</li><li>Level 9: Dream, Tree Stride</li></ul>"
+    }
+  },
+  "classes/B6li9QTCpATkMfd1": {
+    "_nom": "Aspect des Vols draconiques",
+    "name": {
+      "fr": "Aspect des Vols draconiques",
+      "en": "Aspect of the Dragonflights"
+    },
+    "system.description.value": {
+      "fr": "<p>Les grands Vols de dragons d'Azeroth ont longtemps marché parmi les mortels sous des visages d'emprunt. De ces rencontres sont nés des enfants dont le sang garde un éclat d'écaille : un don pour la flamme chez ceux du Vol rouge, le givre arcanique chez ceux du Vol bleu, le souffle du Rêve chez ceux du Vol vert, le poids du temps chez ceux du Vol de bronze. Ces ensorceleurs ne choisissent pas leur Vol : ils le découvrent, souvent à leurs dépens.</p><p><em>Sous-classe du Ensorceleur, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Élu d'un Vol, Écailles de l'ancêtre</li><li><strong>Niveau 6</strong> : Affinité du Vol</li><li><strong>Niveau 14</strong> : Ailes de l'Aspect</li><li><strong>Niveau 18</strong> : Présence de l'Aspect</li></ul>",
+      "en": "<p>The great dragonflights of Azeroth long walked among mortals under borrowed faces. From those encounters were born children whose blood keeps a glint of scale: a gift for flame among those of the red flight, arcane frost among those of the blue, the breath of the Dream among those of the green, the weight of time among those of the bronze. These sorcerers do not choose their Flight: they discover it, often at their own expense.</p><p><em>Sorcerer subclass, chosen at level 3.</em></p><h2>Features</h2><ul><li><strong>Level 3</strong>: Chosen of a Flight, Scales of the Ancestor</li><li><strong>Level 6</strong>: Flight Affinity</li><li><strong>Level 14</strong>: Wings of the Aspect</li><li><strong>Level 18</strong>: Presence of the Aspect</li></ul>"
+    },
+    "system.advancement.HBbVMDBCmSZXn3Fm.name": {
+      "fr": "Capacités : Aspect des Vols draconiques",
+      "en": "Features: Aspect of the Dragonflights"
+    },
+    "system.advancement.DnXbBP2x00VI8PCi.name": {
+      "fr": "Élu d'un Vol",
+      "en": "Chosen of a Flight"
+    },
+    "system.advancement.DnXbBP2x00VI8PCi.hint": {
+      "fr": "Draconique, et la résistance du Vol choisi : rouge (feu), bleu (froid), vert (poison), bronze (force).",
+      "en": "Draconic, and the Resistance of the chosen Flight: red (Fire), blue (Cold), green (Poison), bronze (Force)."
+    }
+  },
+  "classes/C0CC4eceL9Y2Csi9": {
+    "_nom": "Légende d'Orgrimmar",
+    "name": {
+      "fr": "Légende d'Orgrimmar",
+      "en": "Legend of Orgrimmar"
+    },
+    "system.description.value": {
+      "fr": "<p>Votre nom est scandé dans les tavernes de la Vallée de l'Honneur. Vous avez l'<strong>avantage</strong> aux jets de sauvegarde contre la mort. Au début de chacun de vos tours, si vous avez au moins 1 point de vie et au plus la moitié de vos points de vie, vous récupérez <strong>votre bonus de maîtrise + votre modificateur de Constitution</strong> points de vie.</p>",
+      "en": "<p>Your name is chanted in the taverns of the Valley of Honor. You have <strong>Advantage</strong> on Death Saving Throws. At the start of each of your turns, if you have at least 1 Hit Point and no more than half your Hit Points, you regain <strong>your Proficiency Bonus + your Constitution modifier</strong> Hit Points.</p>"
+    },
+    "system.activities.a6eWWWPNHcf5kgTK.name": {
+      "fr": "Refuser de tomber",
+      "en": "Refuse to fall"
+    },
+    "system.activities.a6eWWWPNHcf5kgTK.activation.condition": {
+      "fr": "Au début de votre tour, entre 1 point de vie et la moitié de vos points de vie",
+      "en": "At the start of your turn, between 1 Hit Point and half your Hit Points"
+    }
+  },
+  "classes/DjeT54zsD1FYsFAb": {
+    "_nom": "Archives de Dalaran",
+    "name": {
+      "fr": "Archives de Dalaran",
+      "en": "Archives of Dalaran"
+    },
+    "system.description.value": {
+      "fr": "<p>La bibliothèque de la Citadelle pourpre vous est ouverte. Quand vous atteignez les niveaux de magicien indiqués, ces sorts s'ajoutent gratuitement à votre <strong>grimoire</strong> ; vous les préparez comme vos autres sorts de magicien.</p><ul><li>Niveau 3 : Nova de givre</li><li>Niveau 5 : Métamorphose ovine</li><li>Niveau 7 : Blizzard</li><li>Niveau 9 : Portail du Kirin Tor</li></ul>",
+      "en": "<p>The library of the Violet Citadel is open to you. When you reach the Wizard levels listed, these spells are added to your <strong>spellbook</strong> for free; you prepare them like your other Wizard spells.</p><ul><li>Level 3: Frost Nova</li><li>Level 5: Polymorph: Sheep</li><li>Level 7: Blizzard</li><li>Level 9: Kirin Tor Portal</li></ul>"
+    }
+  },
+  "classes/EJ7Fil7LsdnPYN0M": {
+    "_nom": "Champion de la Lumière",
+    "name": {
+      "fr": "Champion de la Lumière",
+      "en": "Champion of the Light"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action bonus</strong>, vous devenez pendant <strong>10 minutes</strong> l'image de ce que la Main d'argent a été de plus noble. Vous émettez une lumière vive sur 9 m, vous gagnez <strong>+2 à la classe d'armure</strong> et vous avez l'avantage aux jets de sauvegarde de <strong>Sagesse</strong> et de <strong>Charisme</strong>. Chaque ennemi qui commence son tour à 3 m ou moins de vous subit des dégâts radiants égaux à <strong>votre modificateur de Charisme + votre bonus de maîtrise</strong>. Une utilisation par <strong>repos long</strong>.</p>",
+      "en": "<p>As a <strong>Bonus Action</strong>, for <strong>10 minutes</strong> you become the image of the noblest the Silver Hand has ever been. You shed Bright Light for 30 feet, you gain <strong>+2 to Armor Class</strong> and you have Advantage on <strong>Wisdom</strong> and <strong>Charisma</strong> saving throws. Each enemy that starts its turn within 10 feet of you takes Radiant damage equal to <strong>your Charisma modifier + your Proficiency Bonus</strong>. One use per <strong>Long Rest</strong>.</p>"
+    },
+    "system.activities.RMY32SRxD8OFNUp3.name": {
+      "fr": "Devenir champion",
+      "en": "Become champion"
+    },
+    "system.activities.0o76y6qWpF2nqHOt.name": {
+      "fr": "Rayonnement",
+      "en": "Radiance"
+    },
+    "system.activities.0o76y6qWpF2nqHOt.activation.condition": {
+      "fr": "Un ennemi commence son tour à 3 m ou moins de vous",
+      "en": "An enemy starts its turn within 10 feet of you"
+    },
+    "effects.v7iRpGgCk7izBvhW.description": {
+      "fr": "<p>+2 à la CA ; avantage aux jets de sauvegarde de Sagesse et de Charisme.</p>",
+      "en": "<p>+2 to AC; Advantage on Wisdom and Charisma saving throws.</p>"
+    }
+  },
+  "classes/EJOqGZrGBXXGSNAT": {
+    "_nom": "Frénésie bestiale",
+    "name": {
+      "fr": "Frénésie bestiale",
+      "en": "Bestial Frenzy"
+    },
+    "system.description.value": {
+      "fr": "<p>Quand vous faites l'action Attaquer, votre familier peut faire <strong>deux attaques</strong> au lieu d'une. Une fois par tour, quand l'une de ses attaques touche, elle inflige <strong>1d8 dégâts perforants</strong> supplémentaires.</p>",
+      "en": "<p>When you take the Attack action, your companion can make <strong>two attacks</strong> instead of one. Once per turn, when one of its attacks hits, it deals an extra <strong>1d8 Piercing damage</strong>.</p>"
+    },
+    "system.activities.hmEF30es8DiGyQvG.name": {
+      "fr": "Morsure enragée",
+      "en": "Frenzied bite"
+    },
+    "system.activities.hmEF30es8DiGyQvG.activation.condition": {
+      "fr": "Une fois par tour, quand une attaque de votre familier touche",
+      "en": "Once per turn, when an attack of your companion hits"
+    }
+  },
+  "classes/ETK57Aj0ONxEQbDq": {
+    "_nom": "Vol plané",
+    "name": {
+      "fr": "Vol plané",
+      "en": "Glide"
+    },
+    "system.description.value": {
+      "fr": "<p>Des ailes d'ombre se déploient un instant dans votre dos. Par une <strong>action bonus</strong>, vous gagnez une <strong>vitesse de vol de 9 m</strong> jusqu'à la fin de ce tour. Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "en": "<p>Wings of shadow unfold for an instant at your back. As a <strong>Bonus Action</strong>, you gain a <strong>Fly Speed of 30 feet</strong> until the end of this turn. Number of uses: your <strong>Proficiency Bonus</strong> per Long Rest.</p>"
+    },
+    "system.activities.TDKeErEyxADiRhD2.name": {
+      "fr": "Déployer les ailes",
+      "en": "Unfold the wings"
+    },
+    "effects.4giOIm3Dezj6o3NH.name": {
+      "fr": "Ailes d'ombre",
+      "en": "Wings of shadow"
+    }
+  },
+  "classes/FCo9RSLUpzni6zvr": {
+    "_nom": "Ordre de chasse",
+    "name": {
+      "fr": "Ordre de chasse",
+      "en": "Hunting Command"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action bonus</strong>, vous ordonnez à votre familier d'attaquer, de se replier ou de protéger un allié ; sans ordre, il se défend et esquive. Quand votre familier et vous touchez la même créature pendant le même tour, elle subit <strong>1d6 dégâts perforants</strong> supplémentaires.</p>",
+      "en": "<p>As a <strong>Bonus Action</strong>, you order your companion to attack, to fall back or to protect an ally; without an order, it defends itself and dodges. When your companion and you hit the same creature during the same turn, it takes an extra <strong>1d6 Piercing damage</strong>.</p>"
+    },
+    "system.activities.1TBZlSbDUwQUWSbz.name": {
+      "fr": "Donner l'ordre",
+      "en": "Give the command"
+    },
+    "system.activities.As2Fnhrl5LJpBRfj.name": {
+      "fr": "Curée",
+      "en": "Quarry"
+    },
+    "system.activities.As2Fnhrl5LJpBRfj.activation.condition": {
+      "fr": "Votre familier et vous touchez la même créature pendant le même tour",
+      "en": "Your companion and you hit the same creature during the same turn"
+    }
+  },
+  "classes/FNlDARNulfz8vnAy": {
+    "_nom": "Élu d'un Vol",
+    "name": {
+      "fr": "Élu d'un Vol",
+      "en": "Chosen of a Flight"
+    },
+    "system.description.value": {
+      "fr": "<p>Choisissez le Vol de votre ancêtre : <strong>rouge</strong> (feu), <strong>bleu</strong> (froid), <strong>vert</strong> (poison) ou <strong>de bronze</strong> (force). Vous gagnez la <strong>résistance</strong> au type de dégâts de votre Vol, et vous parlez le <strong>draconique</strong>.</p>",
+      "en": "<p>Choose your ancestor's Flight: <strong>red</strong> (Fire), <strong>blue</strong> (Cold), <strong>green</strong> (Poison) or <strong>bronze</strong> (Force). You gain <strong>Resistance</strong> to your Flight's damage type, and you speak <strong>Draconic</strong>.</p>"
+    }
+  },
+  "classes/FZbko3m66HGAYyTj": {
+    "_nom": "Flammes gangrenées",
+    "name": {
+      "fr": "Flammes gangrenées",
+      "en": "Fel Flames"
+    },
+    "system.description.value": {
+      "fr": "<p>Une fois par tour, quand vous touchez une créature avec un jet d'attaque de sort d'occultiste, vous pouvez lui infliger <strong>1d6</strong> dégâts de feu supplémentaires. Ces dés passent à <strong>2d6</strong> au niveau 10.</p>",
+      "en": "<p>Once per turn, when you hit a creature with a Warlock spell attack roll, you can deal it an extra <strong>1d6</strong> Fire damage. These dice become <strong>2d6</strong> at level 10.</p>"
+    },
+    "system.activities.gGmE8YEKrMwJxZlq.name": {
+      "fr": "Attiser la gangrène",
+      "en": "Stoke the fel"
+    },
+    "system.activities.gGmE8YEKrMwJxZlq.activation.condition": {
+      "fr": "Une fois par tour, après une attaque de sort d'occultiste réussie",
+      "en": "Once per turn, after a successful Warlock spell attack"
+    }
+  },
+  "classes/GBiEhJquLdzDHgB1": {
+    "_nom": "Chasseur et son familier",
+    "name": {
+      "fr": "Chasseur et son familier",
+      "en": "Hunter and Companion"
+    },
+    "system.description.value": {
+      "fr": "<p>Des plaines des Tarides aux forêts des Grisonnes, les chasseurs les plus redoutés ne chassent jamais seuls. Un loup, un raptor, un grand félin ou un ours les suit, apprivoisé à force de patience et de viande partagée. Le lien qui les unit tient de la meute plus que du dressage : la bête devine l'intention avant le geste, et le chasseur sent la proie à travers ses yeux.</p><p><em>Sous-classe du Rôdeur, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Compagnon de chasse, Ordre de chasse</li><li><strong>Niveau 7</strong> : Sens partagés</li><li><strong>Niveau 11</strong> : Frénésie bestiale</li><li><strong>Niveau 15</strong> : Aspect de la meute</li></ul>",
+      "en": "<p>From the plains of the Barrens to the forests of Grizzly Hills, the most feared hunters never hunt alone. A wolf, a raptor, a great cat or a bear follows them, tamed by dint of patience and shared meat. The bond between them owes more to the pack than to training: the beast guesses the intent before the gesture, and the hunter senses the prey through its eyes.</p><p><em>Ranger subclass, chosen at level 3.</em></p><h2>Features</h2><ul><li><strong>Level 3</strong>: Hunting Companion, Hunting Command</li><li><strong>Level 7</strong>: Shared Senses</li><li><strong>Level 11</strong>: Bestial Frenzy</li><li><strong>Level 15</strong>: Aspect of the Pack</li></ul>"
+    },
+    "system.advancement.DZMqWCwRBWDQRrnl.name": {
+      "fr": "Capacités : Chasseur et son familier",
+      "en": "Features: Hunter and Companion"
+    }
+  },
+  "classes/H19cwBD8nGNqAElm": {
+    "_nom": "Formation du SI:7",
+    "name": {
+      "fr": "Formation du SI:7",
+      "en": "SI:7 Training"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous maîtrisez la <strong>trousse de déguisement</strong> et la <strong>trousse de contrefaçon</strong>. Vous avez aussi l'<strong>avantage</strong> aux jets d'<strong>initiative</strong> : un agent n'est jamais pris de court.</p>",
+      "en": "<p>You have proficiency with the <strong>Disguise Kit</strong> and the <strong>Forgery Kit</strong>. You also have <strong>Advantage</strong> on <strong>Initiative</strong> rolls: an agent is never caught off guard.</p>"
+    }
+  },
+  "classes/HM5W65QuDBrjIh3N": {
+    "_nom": "Aura de froid",
+    "name": {
+      "fr": "Aura de froid",
+      "en": "Aura of Cold"
+    },
+    "system.description.value": {
+      "fr": "<p>Un froid de tombe vous entoure dans un rayon de <strong>3 m</strong>. Vous et les créatures de votre choix dans l'aura avez la <strong>résistance aux dégâts de froid</strong>. Une créature hostile qui commence son tour dans l'aura voit sa vitesse réduite de <strong>3 m</strong> jusqu'au début de son tour suivant.</p>",
+      "en": "<p>A grave-cold surrounds you in a <strong>10-foot</strong> radius. You and the creatures of your choice in the aura have <strong>Resistance to Cold damage</strong>. A hostile creature that starts its turn in the aura has its Speed reduced by <strong>10 feet</strong> until the start of its next turn.</p>"
+    }
+  },
+  "classes/HQPIcs2gQR9RCmQU": {
+    "_nom": "Chasseur de démons illidari",
+    "name": {
+      "fr": "Chasseur de démons illidari",
+      "en": "Illidari Demon Hunter"
+    },
+    "system.description.value": {
+      "fr": "<p>Les illidari ont donné leurs yeux pour voir ce que la Légion ardente cache, et laissé la gangrène marquer leur chair pour la retourner contre elle. Ces chasseurs ne sont pas les élus d'Illidan : ce sont des rôdeurs qui ont suivi la même voie à leur mesure, traquant les démons dans les forêts de Gangrebois ou sur les falaises d'Outreterre. On les craint, on les évite, et on les appelle quand un seigneur de l'effroi s'installe au village.</p><p><em>Sous-classe du Rôdeur, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Sorts du chasseur illidari, Vue spectrale, Lames gangrenées</li><li><strong>Niveau 7</strong> : Vol plané</li><li><strong>Niveau 11</strong> : Âme du chasseur</li><li><strong>Niveau 15</strong> : Métamorphose</li></ul><h2>Sorts du chasseur illidari</h2><ul><li><strong>Niveau 3</strong> : Protection contre le mal et le bien</li><li><strong>Niveau 5</strong> : Détection de l'invisibilité</li><li><strong>Niveau 9</strong> : Cercle magique</li><li><strong>Niveau 13</strong> : Bannissement</li><li><strong>Niveau 17</strong> : Dissipation du mal et du bien</li></ul>",
+      "en": "<p>The illidari gave their eyes to see what the Burning Legion hides, and let the fel mark their flesh to turn it against the Legion. These hunters are not Illidan's chosen: they are rangers who followed the same path in their own measure, hunting demons in the forests of Felwood or on the cliffs of Outland. They are feared, they are avoided, and they are called when a dreadlord settles in the village.</p><p><em>Ranger subclass, chosen at level 3.</em></p><h2>Features</h2><ul><li><strong>Level 3</strong>: Illidari Hunter Spells, Spectral Sight, Fel Blades</li><li><strong>Level 7</strong>: Glide</li><li><strong>Level 11</strong>: Soul of the Hunter</li><li><strong>Level 15</strong>: Metamorphosis</li></ul><h2>Illidari Hunter Spells</h2><ul><li><strong>Level 3</strong>: Protection from Evil and Good</li><li><strong>Level 5</strong>: See Invisibility</li><li><strong>Level 9</strong>: Magic Circle</li><li><strong>Level 13</strong>: Banishment</li><li><strong>Level 17</strong>: Dispel Evil and Good</li></ul>"
+    },
+    "system.advancement.l3C437A17sDEvXl9.name": {
+      "fr": "Capacités : Chasseur de démons illidari",
+      "en": "Features: Illidari Demon Hunter"
+    },
+    "system.advancement.IBMqFParniZ2bfL6.name": {
+      "fr": "Sorts du chasseur illidari",
+      "en": "Illidari Hunter Spells"
+    },
+    "system.advancement.iQQUYVqLGZlBUQjx.name": {
+      "fr": "Dés des lames gangrenées",
+      "en": "Fel Blades dice"
+    }
+  },
+  "classes/ICemliImEMFMTxft": {
+    "_nom": "Serment du chevalier de la mort",
+    "name": {
+      "fr": "Serment du chevalier de la mort",
+      "en": "Oath of the Death Knight"
+    },
+    "system.description.value": {
+      "fr": "<p>Certains chevaliers sont revenus du froid. Relevés par un maître qui n'est plus, ou par une malédiction qu'ils ont fini par dompter, ils ont gardé de leur mort une lame qui gèle, des runes gravées dans la chair et un serment d'un genre nouveau : protéger les vivants avec les armes des morts. On les craint dans les deux factions, on les appelle quand le Fléau se réveille, et on ne leur offre jamais de s'asseoir près du feu.</p><p><em>Sous-classe du Paladin, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Sorts du chevalier de la mort, Rune de givre, Poigne de la mort</li><li><strong>Niveau 7</strong> : Aura de froid</li><li><strong>Niveau 15</strong> : Carapace anti-magie</li><li><strong>Niveau 20</strong> : Armée des morts</li></ul><h2>Sorts du chevalier de la mort</h2><ul><li><strong>Niveau 3</strong> : Flétrissure gangrenée, Protection contre le mal et le bien</li><li><strong>Niveau 5</strong> : Nova de givre, Rayon affaiblissant</li><li><strong>Niveau 9</strong> : Caresse du vampire, Malédiction</li><li><strong>Niveau 13</strong> : Blizzard, Flétrissement</li><li><strong>Niveau 17</strong> : Brume mortelle, Contagion</li></ul>",
+      "en": "<p>Some knights came back from the cold. Raised by a master who is no more, or by a curse they finally tamed, they kept from their death a blade that freezes, runes carved into the flesh and an oath of a new kind: to protect the living with the weapons of the dead. They are feared in both factions, they are called when the Scourge stirs, and they are never offered a seat by the fire.</p><p><em>Paladin subclass, chosen at level 3.</em></p><h2>Features</h2><ul><li><strong>Level 3</strong>: Death Knight Spells, Frost Rune, Death Grip</li><li><strong>Level 7</strong>: Aura of Cold</li><li><strong>Level 15</strong>: Anti-Magic Shell</li><li><strong>Level 20</strong>: Army of the Dead</li></ul><h2>Death Knight Spells</h2><ul><li><strong>Level 3</strong>: Fel Wither, Protection from Evil and Good</li><li><strong>Level 5</strong>: Frost Nova, Ray of Enfeeblement</li><li><strong>Level 9</strong>: Vampiric Touch, Bestow Curse</li><li><strong>Level 13</strong>: Blizzard, Blight</li><li><strong>Level 17</strong>: Cloudkill, Contagion</li></ul>"
+    },
+    "system.advancement.teoIsNmYNWadj5MX.name": {
+      "fr": "Capacités : Serment du chevalier de la mort",
+      "en": "Features: Oath of the Death Knight"
+    },
+    "system.advancement.GygrThWULDk5YY70.name": {
+      "fr": "Sorts du chevalier de la mort",
+      "en": "Death Knight Spells"
+    },
+    "system.advancement.tBFzn2CSztXG1KLk.name": {
+      "fr": "Dés de la rune de givre",
+      "en": "Frost Rune dice"
+    }
+  },
+  "classes/IFg7v73QFhZLoun8": {
+    "_nom": "Domaine des Éléments",
+    "name": {
+      "fr": "Domaine des Éléments",
+      "en": "Elements Domain"
+    },
+    "system.description.value": {
+      "fr": "<p>Sur Azeroth, la terre, l'air, le feu et l'eau ont une volonté. Les chamans orcs, taurens, trolls et nains du Marteau-Hardi ne prient pas des dieux lointains : ils négocient avec les esprits des éléments, apaisent leur colère et la dirigent quand le monde est menacé. Les clercs de ce domaine sont les médiateurs de l'Anneau terrestre ; ils parlent pour les esprits, et les esprits répondent par la foudre, la pierre ou la vague.</p><p><em>Sous-classe du Clerc, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Sorts du domaine des Éléments, Voix des esprits, Colère des éléments</li><li><strong>Niveau 6</strong> : Harmonie élémentaire</li><li><strong>Niveau 17</strong> : Avatar des éléments</li></ul><h2>Sorts du domaine des Éléments</h2><ul><li><strong>Niveau 3</strong> : Égide d'orage, Vague tonnante, Totem du flot guérisseur, Bourrasque</li><li><strong>Niveau 5</strong> : Éclair bondissant, Mur de vent</li><li><strong>Niveau 7</strong> : Façonnage de la pierre, Invocation d'élémentaires mineurs</li><li><strong>Niveau 9</strong> : Invocation d'élémentaire, Mur de pierre</li></ul>",
+      "en": "<p>On Azeroth, earth, air, fire and water have a will. The shamans of the orcs, the tauren, the trolls and the Wildhammer dwarves do not pray to distant gods: they negotiate with the spirits of the elements, soothe their anger and direct it when the world is threatened. The clerics of this domain are the mediators of the Earthen Ring; they speak for the spirits, and the spirits answer with lightning, stone or wave.</p><p><em>Cleric subclass, chosen at level 3.</em></p><h2>Features</h2><ul><li><strong>Level 3</strong>: Elements Domain Spells, Voice of the Spirits, Wrath of the Elements</li><li><strong>Level 6</strong>: Elemental Harmony</li><li><strong>Level 17</strong>: Avatar of the Elements</li></ul><h2>Elements Domain Spells</h2><ul><li><strong>Level 3</strong>: Storm Aegis, Thunderwave, Healing Stream Totem, Gust of Wind</li><li><strong>Level 5</strong>: Chain Lightning, Wind Wall</li><li><strong>Level 7</strong>: Stone Shape, Conjure Minor Elementals</li><li><strong>Level 9</strong>: Conjure Elemental, Wall of Stone</li></ul>"
+    },
+    "system.advancement.KdphdyWa9M5U3Wdq.name": {
+      "fr": "Capacités : Domaine des Éléments",
+      "en": "Features: Elements Domain"
+    },
+    "system.advancement.19D1kmHEhOSLlCCm.name": {
+      "fr": "Voix des esprits",
+      "en": "Voice of the Spirits"
+    },
+    "system.advancement.19D1kmHEhOSLlCCm.hint": {
+      "fr": "Primordial, plus Nature ou Survie.",
+      "en": "Primordial, plus Nature or Survival."
+    },
+    "system.advancement.M0xSsvXmBI3OUuRc.name": {
+      "fr": "Harmonie élémentaire",
+      "en": "Elemental Harmony"
+    },
+    "system.advancement.M0xSsvXmBI3OUuRc.hint": {
+      "fr": "Résistance au feu, au froid, à la foudre ou au tonnerre.",
+      "en": "Resistance to Fire, Cold, Lightning or Thunder."
+    },
+    "system.advancement.M5VbLa0VSpZGM8qJ.name": {
+      "fr": "Sorts du domaine des Éléments",
+      "en": "Elements Domain Spells"
+    }
+  },
+  "classes/IL93d3DJFjCcMU4K": {
+    "_nom": "Sorts du pacte de la Gangrène",
+    "name": {
+      "fr": "Sorts du pacte de la Gangrène",
+      "en": "Pact of the Fel Spells"
+    },
+    "system.description.value": {
+      "fr": "<p>Votre patron vous ouvre son grimoire. Quand vous atteignez les niveaux d'occultiste indiqués, ces sorts vous sont accordés ; ils sont <strong>toujours préparés</strong>.</p><ul><li>Niveau 3 : Flétrissure gangrenée, Représailles infernales, Ténèbres, Rayon affaiblissant</li><li>Niveau 5 : Caresse du vampire, Malédiction</li><li>Niveau 7 : Hurlement de terreur, Flétrissement</li><li>Niveau 9 : Contagion, Brume mortelle</li></ul>",
+      "en": "<p>Your patron opens its grimoire to you. When you reach the Warlock levels listed, these spells are granted to you; they are <strong>always prepared</strong>.</p><ul><li>Level 3: Fel Wither, Hellish Rebuke, Darkness, Ray of Enfeeblement</li><li>Level 5: Vampiric Touch, Bestow Curse</li><li>Level 7: Howl of Terror, Blight</li><li>Level 9: Contagion, Cloudkill</li></ul>"
+    }
+  },
+  "classes/JKfOu414ayfOtmH6": {
+    "_nom": "Tonnelier de la pagode",
+    "name": {
+      "fr": "Tonnelier de la pagode",
+      "en": "Cooper of the Pagoda"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous maîtrisez le <strong>matériel de brasseur</strong>. Par une <strong>action bonus</strong>, vous offrez une gorgée de votre tonneau à une créature à portée de main (vous compris) : elle gagne <strong>1d8 + votre modificateur de Sagesse</strong> points de vie temporaires. Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "en": "<p>You have proficiency with <strong>Brewer's Supplies</strong>. As a <strong>Bonus Action</strong>, you offer a sip from your keg to a creature within reach (yourself included): it gains <strong>1d8 + your Wisdom modifier</strong> Temporary Hit Points. Number of uses: your <strong>Proficiency Bonus</strong> per Long Rest.</p>"
+    },
+    "system.activities.aRnbmSQFKPecMCRN.name": {
+      "fr": "Une gorgée",
+      "en": "A sip"
+    }
+  },
+  "classes/JRHLNXFfkjERZ8ri": {
+    "_nom": "Sorts du domaine des Éléments",
+    "name": {
+      "fr": "Sorts du domaine des Éléments",
+      "en": "Elements Domain Spells"
+    },
+    "system.description.value": {
+      "fr": "<p>Les esprits vous confient leurs prières. Quand vous atteignez les niveaux de clerc indiqués, les sorts suivants vous sont accordés ; ils sont <strong>toujours préparés</strong> et ne comptent pas dans votre nombre de sorts préparés.</p><ul><li>Niveau 3 : Égide d'orage, Vague tonnante, Totem du flot guérisseur, Bourrasque</li><li>Niveau 5 : Éclair bondissant, Mur de vent</li><li>Niveau 7 : Façonnage de la pierre, Invocation d'élémentaires mineurs</li><li>Niveau 9 : Invocation d'élémentaire, Mur de pierre</li></ul>",
+      "en": "<p>The spirits entrust you with their prayers. When you reach the Cleric levels listed, the following spells are granted to you; they are <strong>always prepared</strong> and do not count against your number of prepared spells.</p><ul><li>Level 3: Storm Aegis, Thunderwave, Healing Stream Totem, Gust of Wind</li><li>Level 5: Chain Lightning, Wind Wall</li><li>Level 7: Stone Shape, Conjure Minor Elementals</li><li>Level 9: Conjure Elemental, Wall of Stone</li></ul>"
+    }
+  },
+  "classes/KcBk4ZSAsaUgPeaD": {
+    "_nom": "Avatar des éléments",
+    "name": {
+      "fr": "Avatar des éléments",
+      "en": "Avatar of the Elements"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action bonus</strong>, vous laissez les quatre esprits vous habiter pendant <strong>1 minute</strong> : vous gagnez une <strong>vitesse de vol de 9 m</strong> et vous avez la <strong>résistance</strong> aux dégâts de feu, de froid, de foudre et de tonnerre. Une utilisation par <strong>repos long</strong> ; vous pouvez aussi la regagner en dépensant un emplacement de sort de niveau 5.</p>",
+      "en": "<p>As a <strong>Bonus Action</strong>, you let the four spirits dwell in you for <strong>1 minute</strong>: you gain a <strong>Fly Speed of 30 feet</strong> and you have <strong>Resistance</strong> to Fire, Cold, Lightning and Thunder damage. One use per <strong>Long Rest</strong>; you can also regain it by expending a level 5 spell slot.</p>"
+    },
+    "system.activities.SfcfcIdAADjKQExj.name": {
+      "fr": "Incarner les éléments",
+      "en": "Embody the elements"
+    },
+    "system.activities.hEIiV3VteqB8Ql26.name": {
+      "fr": "Regagner l'avatar",
+      "en": "Regain the avatar"
+    },
+    "system.activities.hEIiV3VteqB8Ql26.activation.condition": {
+      "fr": "Utilisation dépensée : regagnez-la en dépensant un emplacement de sort de niveau 5",
+      "en": "Use expended: regain it by expending a level 5 spell slot"
+    },
+    "effects.MOFmc70dTzDo6yOP.name": {
+      "fr": "Incarnation des éléments",
+      "en": "Incarnation of the elements"
+    },
+    "effects.MOFmc70dTzDo6yOP.description": {
+      "fr": "<p>Vol 9 m ; résistance au feu, au froid, à la foudre et au tonnerre.</p>",
+      "en": "<p>Fly 30 feet; Resistance to Fire, Cold, Lightning and Thunder.</p>"
+    }
+  },
+  "classes/LWQxpxM9xnIVQs9q": {
+    "_nom": "Gladiateur d'Orgrimmar",
+    "name": {
+      "fr": "Gladiateur d'Orgrimmar",
+      "en": "Orgrimmar Gladiator"
+    },
+    "system.description.value": {
+      "fr": "<p>Dans l'Anneau du Valeur d'Orgrimmar, on ne se bat pas seulement pour vaincre, mais pour être vu. Les gladiateurs, orcs, trolls, ogres ou anciens esclaves des camps d'internement, ont appris que la foule est une arme : son rugissement les tient debout, son silence les tue. Hors de l'arène, ils gardent ce goût du spectacle et cette endurance qui étonnent jusqu'aux Kor'kron.</p><p><em>Sous-classe du Guerrier, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Faveur de la foule, Salut à la foule</li><li><strong>Niveau 7</strong> : Endurci par le sable</li><li><strong>Niveau 10</strong> : Coup de grâce</li><li><strong>Niveau 15</strong> : Clameur de l'arène</li><li><strong>Niveau 18</strong> : Légende d'Orgrimmar</li></ul>",
+      "en": "<p>In the Ring of Valor of Orgrimmar, you fight not only to win, but to be seen. The gladiators, orcs, trolls, ogres or former slaves of the internment camps, have learned that the crowd is a weapon: its roar keeps them standing, its silence kills them. Outside the arena, they keep that taste for spectacle and that endurance which astonishes even the Kor'kron.</p><p><em>Fighter subclass, chosen at level 3.</em></p><h2>Features</h2><ul><li><strong>Level 3</strong>: Crowd Favor, Salute to the Crowd</li><li><strong>Level 7</strong>: Hardened by the Sand</li><li><strong>Level 10</strong>: Finishing Blow</li><li><strong>Level 15</strong>: Roar of the Arena</li><li><strong>Level 18</strong>: Legend of Orgrimmar</li></ul>"
+    },
+    "system.advancement.rw0V7XKIU5sAxrjX.name": {
+      "fr": "Capacités : Gladiateur d'Orgrimmar",
+      "en": "Features: Orgrimmar Gladiator"
+    },
+    "system.advancement.KPU9RS1Nzds0ofiR.name": {
+      "fr": "Dés du coup de grâce",
+      "en": "Finishing Blow dice"
+    }
+  },
+  "classes/M8dfALs0i4h3ePMq": {
+    "_nom": "Lames enduites",
+    "name": {
+      "fr": "Lames enduites",
+      "en": "Coated Blades"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action bonus</strong>, vous enduisez vos armes d'un poison du SI:7 pour <strong>1 minute</strong>. Pendant cette durée, la première fois à chacun de vos tours que vous touchez une créature avec une arme, elle fait un jet de sauvegarde de <strong>Constitution</strong> (DD 8 + votre modificateur de Dextérité + votre bonus de maîtrise). En cas d'échec, elle subit <strong>1d6 dégâts de poison</strong> et est <strong>empoisonnée</strong> jusqu'à la fin de votre prochain tour. Ces dés passent à <strong>2d6</strong> au niveau 9 et à <strong>3d6</strong> au niveau 17. Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "en": "<p>As a <strong>Bonus Action</strong>, you coat your weapons with an SI:7 poison for <strong>1 minute</strong>. During that time, the first time on each of your turns that you hit a creature with a weapon, it makes a <strong>Constitution</strong> saving throw (DC 8 + your Dexterity modifier + your Proficiency Bonus). On a failure, it takes <strong>1d6 Poison damage</strong> and is <strong>Poisoned</strong> until the end of your next turn. These dice become <strong>2d6</strong> at level 9 and <strong>3d6</strong> at level 17. Number of uses: your <strong>Proficiency Bonus</strong> per Long Rest.</p>"
+    },
+    "system.activities.hvHwClX22uHGr5TA.name": {
+      "fr": "Enduire les lames",
+      "en": "Coat the blades"
+    },
+    "system.activities.BzvVpzSe1lVupKq0.name": {
+      "fr": "Poison du SI:7",
+      "en": "SI:7 poison"
+    },
+    "system.activities.BzvVpzSe1lVupKq0.activation.condition": {
+      "fr": "La première fois à chacun de vos tours que vous touchez avec une arme enduite",
+      "en": "The first time on each of your turns that you hit with a coated weapon"
+    }
+  },
+  "classes/MCTV1g0jgqEBawrb": {
+    "_nom": "Vue spectrale",
+    "name": {
+      "fr": "Vue spectrale",
+      "en": "Spectral Sight"
+    },
+    "system.description.value": {
+      "fr": "<p>Vos yeux bandés ou brûlés ne voient plus la lumière, mais la magie et les âmes. Vous gagnez la <strong>vision aveugle</strong> sur <strong>3 m</strong>.</p>",
+      "en": "<p>Your blindfolded or burned eyes no longer see light, but magic and souls. You gain <strong>Blindsight</strong> within <strong>10 feet</strong>.</p>"
+    }
+  },
+  "classes/P3maSrj3gh2via1Q": {
+    "_nom": "Égide du Violet",
+    "name": {
+      "fr": "Égide du Violet",
+      "en": "Aegis of the Violet"
+    },
+    "system.description.value": {
+      "fr": "<p>Quand vous ou une créature que vous voyez à <strong>9 m</strong> ou moins subissez des dégâts, vous pouvez utiliser votre <strong>réaction</strong> pour tisser un bouclier violet qui réduit ces dégâts de <strong>2d6 + votre modificateur d'Intelligence</strong>. Les dés passent à <strong>3d6</strong> au niveau 6, <strong>4d6</strong> au niveau 10 et <strong>5d6</strong> au niveau 14. Nombre d'utilisations : votre <strong>modificateur d'Intelligence</strong> (minimum 1) par repos long.</p>",
+      "en": "<p>When you or a creature you can see within <strong>30 feet</strong> takes damage, you can use your <strong>Reaction</strong> to weave a violet shield that reduces that damage by <strong>2d6 + your Intelligence modifier</strong>. The dice become <strong>3d6</strong> at level 6, <strong>4d6</strong> at level 10 and <strong>5d6</strong> at level 14. Number of uses: your <strong>Intelligence modifier</strong> (minimum 1) per Long Rest.</p>"
+    },
+    "system.activities.R8uthcwefOtIEX7P.name": {
+      "fr": "Tisser l'égide",
+      "en": "Weave the aegis"
+    },
+    "system.activities.R8uthcwefOtIEX7P.activation.condition": {
+      "fr": "Vous ou une créature à 9 m subissez des dégâts",
+      "en": "You or a creature within 30 feet takes damage"
+    }
+  },
+  "classes/R4BnsNMD7qCPBUPG": {
+    "_nom": "Ivresse du sage",
+    "name": {
+      "fr": "Ivresse du sage",
+      "en": "Drunken Wisdom"
+    },
+    "system.description.value": {
+      "fr": "<p>Votre corps a tant bu qu'il ne craint plus rien de ce qu'on boit. Vous avez la <strong>résistance aux dégâts de poison</strong>, vous ne pouvez plus être <strong>empoisonné</strong>, et vous avez l'<strong>avantage</strong> aux jets de sauvegarde de <strong>Constitution</strong>.</p><p><strong>Ivresse insondable.</strong> Par une <strong>action bonus</strong>, vous videz votre tonneau d'un trait. Pendant <strong>1 minute</strong>, vous avez la <strong>résistance aux dégâts contondants, perforants et tranchants</strong>, et chaque fois qu'une créature vous rate avec une attaque au corps à corps, vous pouvez par votre <strong>réaction</strong> la faire tomber <strong>à terre</strong> (sans jet). Une utilisation par <strong>repos long</strong>.</p>",
+      "en": "<p>Your body has drunk so much that it no longer fears anything that can be drunk. You have <strong>Resistance to Poison damage</strong>, you can no longer be <strong>Poisoned</strong>, and you have <strong>Advantage</strong> on <strong>Constitution</strong> saving throws.</p><p><strong>Bottomless Drunkenness.</strong> As a <strong>Bonus Action</strong>, you drain your keg in one go. For <strong>1 minute</strong>, you have <strong>Resistance to Bludgeoning, Piercing and Slashing damage</strong>, and each time a creature misses you with a melee attack, you can use your <strong>Reaction</strong> to knock it <strong>Prone</strong> (no roll). One use per <strong>Long Rest</strong>.</p>"
+    },
+    "system.activities.cWqn95MMEkkYRutw.name": {
+      "fr": "Vider le tonneau",
+      "en": "Drain the keg"
+    },
+    "system.activities.sPaBp4MiNqI3kLYa.name": {
+      "fr": "Renverser l'assaillant",
+      "en": "Topple the attacker"
+    },
+    "system.activities.sPaBp4MiNqI3kLYa.activation.condition": {
+      "fr": "Pendant l'Ivresse insondable, une créature vous rate avec une attaque au corps à corps",
+      "en": "During Bottomless Drunkenness, a creature misses you with a melee attack"
+    },
+    "effects.mEpvB515WKCFQvMB.name": {
+      "fr": "Ivresse insondable",
+      "en": "Bottomless Drunkenness"
+    }
+  },
+  "classes/S3FQRPcpTBJwkSdT": {
+    "_nom": "Rosée du Rêve",
+    "name": {
+      "fr": "Rosée du Rêve",
+      "en": "Dew of the Dream"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action</strong> (Magie), vous dépensez une utilisation de votre <strong>Forme sauvage</strong> et faites tomber la rosée du Rêve dans une sphère de <strong>3 m</strong> de rayon centrée sur un point situé à <strong>18 m</strong> ou moins. Chaque créature de votre choix dans la sphère récupère <strong>2d6 + votre modificateur de Sagesse</strong> points de vie. Les dés passent à <strong>3d6</strong> au niveau 10 et à <strong>4d6</strong> au niveau 14.</p>",
+      "en": "<p>As an <strong>action</strong> (Magic), you expend one use of your <strong>Wild Shape</strong> and let the dew of the Dream fall in a <strong>10-foot</strong>-radius Sphere centered on a point within <strong>60 feet</strong>. Each creature of your choice in the Sphere regains <strong>2d6 + your Wisdom modifier</strong> Hit Points. The dice become <strong>3d6</strong> at level 10 and <strong>4d6</strong> at level 14.</p>"
+    },
+    "system.activities.kRUF8WzPDmQYlHuB.name": {
+      "fr": "Faire tomber la rosée",
+      "en": "Let the dew fall"
+    }
+  },
+  "classes/TTNVUonnBKNkUKGj": {
+    "_nom": "Ailes de l'Aspect",
+    "name": {
+      "fr": "Ailes de l'Aspect",
+      "en": "Wings of the Aspect"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action bonus</strong>, vous déployez des ailes d'écailles aux couleurs de votre Vol : vous gagnez une <strong>vitesse de vol de 18 m</strong> pendant <strong>1 heure</strong>, ou jusqu'à ce que vous les repliiez (action bonus).</p>",
+      "en": "<p>As a <strong>Bonus Action</strong>, you unfold scaled wings in the colors of your Flight: you gain a <strong>Fly Speed of 60 feet</strong> for <strong>1 hour</strong>, or until you fold them away (Bonus Action).</p>"
+    }
+  },
+  "classes/VA7aFR17gSQfk2X9": {
+    "_nom": "Frère d'armes de la Main",
+    "name": {
+      "fr": "Frère d'armes de la Main",
+      "en": "Brother-in-Arms of the Hand"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous avez soigné des réfugiés et enterré des frères d'armes. Vous maîtrisez <strong>Médecine</strong> ou <strong>Religion</strong> (au choix).</p>",
+      "en": "<p>You have tended refugees and buried brothers-in-arms. You have proficiency in <strong>Medicine</strong> or <strong>Religion</strong> (your choice).</p>"
+    }
+  },
+  "classes/WDmN8y1bg0Ax8ZC5": {
+    "_nom": "Salut à la foule",
+    "name": {
+      "fr": "Salut à la foule",
+      "en": "Salute to the Crowd"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action bonus</strong>, vous levez votre arme vers les gradins, réels ou imaginaires : jusqu'à la fin de ce tour, vous avez l'<strong>avantage</strong> à vos jets d'attaque au corps à corps avec une arme. Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "en": "<p>As a <strong>Bonus Action</strong>, you raise your weapon toward the stands, real or imagined: until the end of this turn, you have <strong>Advantage</strong> on your melee weapon attack rolls. Number of uses: your <strong>Proficiency Bonus</strong> per Long Rest.</p>"
+    },
+    "system.activities.Xc1N9Tlq6BRFZhzf.name": {
+      "fr": "Saluer la foule",
+      "en": "Salute the crowd"
+    }
+  },
+  "classes/WVrVvEOsNfELyFPr": {
+    "_nom": "Endurci par le sable",
+    "name": {
+      "fr": "Endurci par le sable",
+      "en": "Hardened by the Sand"
+    },
+    "system.description.value": {
+      "fr": "<p>Des années de combats sous le soleil de Durotar vous ont endurci. Vos points de vie maximum augmentent de <strong>1 par niveau</strong>, et vous avez l'<strong>avantage</strong> aux tests de <strong>Force</strong>.</p>",
+      "en": "<p>Years of fighting under the sun of Durotar have hardened you. Your Hit Point maximum increases by <strong>1 per level</strong>, and you have <strong>Advantage</strong> on <strong>Strength</strong> checks.</p>"
+    }
+  },
+  "classes/X7TNjmVzP6IqOFv4": {
+    "_nom": "Titubement",
+    "name": {
+      "fr": "Titubement",
+      "en": "Stagger"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>réaction</strong>, quand une attaque vous touche, vous chancelez dans le bon sens : vous gagnez <strong>1d8 + votre modificateur de Constitution</strong> points de vie temporaires avant de subir les dégâts. Ce dé passe à <strong>2d8</strong> au niveau 11 et à <strong>3d8</strong> au niveau 17. Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "en": "<p>As a <strong>Reaction</strong>, when an attack hits you, you stagger the right way: you gain <strong>1d8 + your Constitution modifier</strong> Temporary Hit Points before taking the damage. This die becomes <strong>2d8</strong> at level 11 and <strong>3d8</strong> at level 17. Number of uses: your <strong>Proficiency Bonus</strong> per Long Rest.</p>"
+    },
+    "system.activities.JKjCe8Q2lYZCh4lg.name": {
+      "fr": "Tituber",
+      "en": "Stagger"
+    },
+    "system.activities.JKjCe8Q2lYZCh4lg.activation.condition": {
+      "fr": "Quand une attaque vous touche",
+      "en": "When an attack hits you"
+    }
+  },
+  "classes/XATkWLhtCbsG2qp9": {
+    "_nom": "Évasion d'agent",
+    "name": {
+      "fr": "Évasion d'agent",
+      "en": "Agent's Escape"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action bonus</strong>, vous devenez <strong>invisible</strong> jusqu'au début de votre prochain tour. L'invisibilité cesse si vous attaquez ou lancez un sort. Une utilisation par <strong>repos court</strong>.</p>",
+      "en": "<p>As a <strong>Bonus Action</strong>, you become <strong>Invisible</strong> until the start of your next turn. The invisibility ends if you attack or cast a spell. One use per <strong>Short Rest</strong>.</p>"
+    },
+    "system.activities.ANHaMXCRtDDLwA5f.name": {
+      "fr": "Disparaître",
+      "en": "Vanish"
+    }
+  },
+  "classes/ZT0lGIUfmxeNkQrd": {
+    "_nom": "Châtiment du Fléau",
+    "name": {
+      "fr": "Châtiment du Fléau",
+      "en": "Scourge Smite"
+    },
+    "system.description.value": {
+      "fr": "<p>Quand vous touchez une créature avec une attaque d'arme au corps à corps, vous pouvez dépenser une utilisation de votre <strong>Conduit divin</strong> pour lui infliger <strong>2d10</strong> dégâts radiants supplémentaires. Si la cible est un <strong>mort-vivant</strong> ou un <strong>fiélon</strong>, elle fait aussi un jet de sauvegarde de <strong>Sagesse</strong> contre votre DD de sauvegarde des sorts ; en cas d'échec, elle est <strong>effrayée</strong> jusqu'à la fin de votre prochain tour.</p>",
+      "en": "<p>When you hit a creature with a melee weapon attack, you can expend one use of your <strong>Channel Divinity</strong> to deal it an extra <strong>2d10</strong> Radiant damage. If the target is an <strong>Undead</strong> or a <strong>Fiend</strong>, it also makes a <strong>Wisdom</strong> saving throw against your spell save DC; on a failure, it is <strong>Frightened</strong> until the end of your next turn.</p>"
+    },
+    "system.activities.Kab9gd2VdKSAX6d9.name": {
+      "fr": "Frapper le Fléau",
+      "en": "Smite the Scourge"
+    },
+    "system.activities.Kab9gd2VdKSAX6d9.activation.condition": {
+      "fr": "Quand vous touchez avec une attaque d'arme au corps à corps",
+      "en": "When you hit with a melee weapon attack"
+    },
+    "system.activities.tkTWQls1E6opdbWF.name": {
+      "fr": "Terreur sacrée",
+      "en": "Holy terror"
+    },
+    "system.activities.tkTWQls1E6opdbWF.activation.condition": {
+      "fr": "Si la cible du châtiment est un mort-vivant ou un fiélon",
+      "en": "If the target of the smite is an Undead or a Fiend"
+    }
+  },
+  "classes/ZV7qwhSMXvWtd70U": {
+    "_nom": "Faveur de la foule",
+    "name": {
+      "fr": "Faveur de la foule",
+      "en": "Crowd Favor"
+    },
+    "system.description.value": {
+      "fr": "<p>Quand vous réduisez une créature hostile à 0 point de vie ou réussissez un coup critique contre elle, vous gagnez un nombre de <strong>points de vie temporaires</strong> égal à <strong>votre modificateur de Constitution + votre niveau de guerrier</strong> (minimum 1).</p>",
+      "en": "<p>When you reduce a hostile creature to 0 Hit Points or score a Critical Hit against it, you gain a number of <strong>Temporary Hit Points</strong> equal to <strong>your Constitution modifier + your Fighter level</strong> (minimum 1).</p>"
+    },
+    "system.activities.VY3oX4btGPY2F8TD.name": {
+      "fr": "Ovation",
+      "en": "Ovation"
+    },
+    "system.activities.VY3oX4btGPY2F8TD.activation.condition": {
+      "fr": "Vous réduisez une créature hostile à 0 point de vie ou réussissez un coup critique",
+      "en": "You reduce a hostile creature to 0 Hit Points or score a Critical Hit"
+    }
+  },
+  "classes/ZVDK73mGwvhx8g42": {
+    "_nom": "Bouclier de foudre",
+    "name": {
+      "fr": "Bouclier de foudre",
+      "en": "Lightning Shield"
+    },
+    "system.description.value": {
+      "fr": "<p>Pendant votre <strong>Rage</strong>, des éclairs courent sur votre peau. Quand une créature à 1,5 m ou moins vous touche avec une attaque au corps à corps, elle subit <strong>1d6 dégâts de foudre</strong>. Ces dés passent à <strong>2d6</strong> au niveau 14.</p>",
+      "en": "<p>During your <strong>Rage</strong>, lightning runs over your skin. When a creature within 5 feet hits you with a melee attack, it takes <strong>1d6 Lightning damage</strong>. These dice become <strong>2d6</strong> at level 14.</p>"
+    },
+    "system.activities.MPzQrh1DkzjxhayR.name": {
+      "fr": "Riposte de foudre",
+      "en": "Lightning riposte"
+    },
+    "system.activities.MPzQrh1DkzjxhayR.activation.condition": {
+      "fr": "Pendant votre Rage, quand une créature à 1,5 m vous touche au corps à corps",
+      "en": "During your Rage, when a creature within 5 feet hits you in melee"
+    }
+  },
+  "classes/ZyYy9Egkekc2vlTM": {
+    "_nom": "Pacte de la Gangrène",
+    "name": {
+      "fr": "Pacte de la Gangrène",
+      "en": "Pact of the Fel"
+    },
+    "system.description.value": {
+      "fr": "<p>La gangrène est la magie de la Légion ardente : un feu vert qui dévore la vie pour nourrir la puissance. Les démonistes du Conseil des Ombres, les cultistes du Marteau du Crépuscule et quelques érudits trop curieux de Dalaran ont signé avec un démon, un seigneur de l'effroi ou la gangrène elle-même. Le pacte donne beaucoup, et réclame davantage ; les occultistes qui y survivent apprennent à boire la vie de leurs ennemis avant que la flamme ne boive la leur.</p><p><em>Sous-classe du Occultiste, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Sorts du pacte de la Gangrène, Flammes gangrenées, Siphon de vie</li><li><strong>Niveau 6</strong> : Peau de gangrène</li><li><strong>Niveau 10</strong> : Œil du Néant</li><li><strong>Niveau 14</strong> : Pluie de feu gangrené</li></ul><h2>Sorts du pacte de la Gangrène</h2><ul><li><strong>Niveau 3</strong> : Flétrissure gangrenée, Représailles infernales, Ténèbres, Rayon affaiblissant</li><li><strong>Niveau 5</strong> : Caresse du vampire, Malédiction</li><li><strong>Niveau 7</strong> : Hurlement de terreur, Flétrissement</li><li><strong>Niveau 9</strong> : Contagion, Brume mortelle</li></ul>",
+      "en": "<p>The fel is the magic of the Burning Legion: a green fire that devours life to feed power. The warlocks of the Shadow Council, the cultists of the Twilight's Hammer and a few overly curious scholars of Dalaran have signed with a demon, a dreadlord or the fel itself. The pact gives much, and demands more; the warlocks who survive it learn to drink the life of their enemies before the flame drinks theirs.</p><p><em>Warlock subclass, chosen at level 3.</em></p><h2>Features</h2><ul><li><strong>Level 3</strong>: Pact of the Fel Spells, Fel Flames, Siphon Life</li><li><strong>Level 6</strong>: Fel Skin</li><li><strong>Level 10</strong>: Eye of the Nether</li><li><strong>Level 14</strong>: Rain of Fel Fire</li></ul><h2>Pact of the Fel Spells</h2><ul><li><strong>Level 3</strong>: Fel Wither, Hellish Rebuke, Darkness, Ray of Enfeeblement</li><li><strong>Level 5</strong>: Vampiric Touch, Bestow Curse</li><li><strong>Level 7</strong>: Howl of Terror, Blight</li><li><strong>Level 9</strong>: Contagion, Cloudkill</li></ul>"
+    },
+    "system.advancement.jjyFzYtSJcpDbRRF.name": {
+      "fr": "Capacités : Pacte de la Gangrène",
+      "en": "Features: Pact of the Fel"
+    },
+    "system.advancement.BS0cDTgOyGQreY9Q.name": {
+      "fr": "Sorts du pacte de la Gangrène",
+      "en": "Pact of the Fel Spells"
+    },
+    "system.advancement.I0Z7KSvEi0inHUUj.name": {
+      "fr": "Dés des flammes gangrenées",
+      "en": "Fel Flames dice"
+    }
+  },
+  "classes/aB0H3k3XmEWVdRxl": {
+    "_nom": "Dossier complet",
+    "name": {
+      "fr": "Dossier complet",
+      "en": "Full Dossier"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous savez où frapper. Quand vous touchez une créature avec votre <strong>Attaque sournoise</strong>, elle fait un jet de sauvegarde de <strong>Constitution</strong> (DD 8 + votre modificateur de Dextérité + votre bonus de maîtrise) ; en cas d'échec, elle est <strong>étourdie</strong> jusqu'à la fin de votre prochain tour. Une utilisation par <strong>repos court</strong>.</p>",
+      "en": "<p>You know where to strike. When you hit a creature with your <strong>Sneak Attack</strong>, it makes a <strong>Constitution</strong> saving throw (DC 8 + your Dexterity modifier + your Proficiency Bonus); on a failure, it is <strong>Stunned</strong> until the end of your next turn. One use per <strong>Short Rest</strong>.</p>"
+    },
+    "system.activities.oUjDmxZcagePtD6A.name": {
+      "fr": "Frapper le point faible",
+      "en": "Strike the weak point"
+    },
+    "system.activities.oUjDmxZcagePtD6A.activation.condition": {
+      "fr": "Quand vous touchez avec votre Attaque sournoise",
+      "en": "When you hit with your Sneak Attack"
+    },
+    "effects.ae0FUWPA4WUDsLwF.name": {
+      "fr": "Point faible",
+      "en": "Weak point"
+    }
+  },
+  "classes/aOYUlG16feCdmmjB": {
+    "_nom": "Le Rêve se referme",
+    "name": {
+      "fr": "Le Rêve se referme",
+      "en": "The Dream Closes"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action</strong> (Magie), vous entrouvrez le Rêve autour de vous. Chaque ennemi dans un rayon de <strong>9 m</strong> fait un jet de sauvegarde de <strong>Sagesse</strong> contre votre DD de sauvegarde des sorts. En cas d'échec, il subit <strong>4d10 dégâts psychiques</strong> et est <strong>neutralisé</strong> jusqu'à la fin de votre prochain tour ; en cas de réussite, il subit la moitié de ces dégâts seulement. Une utilisation par <strong>repos long</strong>.</p>",
+      "en": "<p>As an <strong>action</strong> (Magic), you open the Dream a crack around you. Each enemy within <strong>30 feet</strong> makes a <strong>Wisdom</strong> saving throw against your spell save DC. On a failure, it takes <strong>4d10 Psychic damage</strong> and is <strong>Incapacitated</strong> until the end of your next turn; on a success, it takes only half that damage. One use per <strong>Long Rest</strong>.</p>"
+    },
+    "system.activities.zWDHphArNswvnYdO.name": {
+      "fr": "Refermer le Rêve",
+      "en": "Close the Dream"
+    },
+    "effects.jwLNw2YRsXSmLltc.name": {
+      "fr": "Happé par le Rêve",
+      "en": "Snatched by the Dream"
+    }
+  },
+  "classes/aU212jdMDF1os7zC": {
+    "_nom": "Harmonie élémentaire",
+    "name": {
+      "fr": "Harmonie élémentaire",
+      "en": "Elemental Harmony"
+    },
+    "system.description.value": {
+      "fr": "<p>Un esprit a choisi de veiller sur vous. Vous avez la <strong>résistance</strong> à un type de dégâts au choix : <strong>feu</strong>, <strong>froid</strong>, <strong>foudre</strong> ou <strong>tonnerre</strong>.</p><p><strong>Écho de l'esprit.</strong> Une fois par tour, quand un sort de clerc que vous lancez inflige des dégâts de feu, de froid, de foudre ou de tonnerre, vous ajoutez votre <strong>modificateur de Sagesse</strong> à l'un des jets de dégâts de ce sort.</p>",
+      "en": "<p>A spirit has chosen to watch over you. You have <strong>Resistance</strong> to one damage type of your choice: <strong>Fire</strong>, <strong>Cold</strong>, <strong>Lightning</strong> or <strong>Thunder</strong>.</p><p><strong>Echo of the Spirit.</strong> Once per turn, when a Cleric spell you cast deals Fire, Cold, Lightning or Thunder damage, you add your <strong>Wisdom modifier</strong> to one of that spell's damage rolls.</p>"
+    },
+    "system.activities.MxqH0mNdbCSBuTyW.name": {
+      "fr": "Écho de l'esprit",
+      "en": "Echo of the spirit"
+    },
+    "system.activities.MxqH0mNdbCSBuTyW.activation.condition": {
+      "fr": "Une fois par tour, quand un sort de clerc inflige des dégâts élémentaires",
+      "en": "Once per turn, when a Cleric spell deals elemental damage"
+    }
+  },
+  "classes/cRc2pguynwOymb3d": {
+    "_nom": "Érudit de la Citadelle pourpre",
+    "name": {
+      "fr": "Érudit de la Citadelle pourpre",
+      "en": "Scholar of the Violet Citadel"
+    },
+    "system.description.value": {
+      "fr": "<p>Les examens du Conseil ne pardonnent rien. Vous avez l'<strong>expertise</strong> en <strong>Arcanes</strong> (votre bonus de maîtrise est doublé), et l'<strong>avantage</strong> aux jets de sauvegarde de Constitution pour maintenir votre <strong>concentration</strong>.</p>",
+      "en": "<p>The Council's examinations forgive nothing. You have <strong>Expertise</strong> in <strong>Arcana</strong> (your Proficiency Bonus is doubled), and <strong>Advantage</strong> on Constitution saving throws to maintain <strong>Concentration</strong>.</p>"
+    }
+  },
+  "classes/clnGnzomBSoIDYBW": {
+    "_nom": "Maître du Kirin Tor",
+    "name": {
+      "fr": "Maître du Kirin Tor",
+      "en": "Master of the Kirin Tor"
+    },
+    "system.description.value": {
+      "fr": "<p>Le Conseil des Six vous compte parmi ses égaux. Vous avez la <strong>résistance aux dégâts de force</strong>, et le sort <strong>Contresort</strong> est toujours préparé pour vous ; une fois par <strong>repos long</strong>, vous pouvez le lancer sans dépenser d'emplacement de sort.</p>",
+      "en": "<p>The Council of Six counts you among its equals. You have <strong>Resistance to Force damage</strong>, and the <strong>Counterspell</strong> spell is always prepared for you; once per <strong>Long Rest</strong>, you can cast it without expending a spell slot.</p>"
+    }
+  },
+  "classes/fxgvG0NUg4FekmIZ": {
+    "_nom": "Écailles de l'ancêtre",
+    "name": {
+      "fr": "Écailles de l'ancêtre",
+      "en": "Scales of the Ancestor"
+    },
+    "system.description.value": {
+      "fr": "<p>De fines écailles affleurent sous votre peau quand vous êtes en danger. Vos points de vie maximum augmentent de <strong>1 par niveau</strong> d'ensorceleur.</p>",
+      "en": "<p>Fine scales show beneath your skin when you are in danger. Your Hit Point maximum increases by <strong>1 per Sorcerer level</strong>.</p>"
+    }
+  },
+  "classes/gG1YU65CWRdVJ0vN": {
+    "_nom": "Sorts du serment de la Main d'argent",
+    "name": {
+      "fr": "Sorts du serment de la Main d'argent",
+      "en": "Oath of the Silver Hand Spells"
+    },
+    "system.description.value": {
+      "fr": "<p>Votre serment vous ouvre ces prières. Quand vous atteignez les niveaux de paladin indiqués, ces sorts vous sont accordés ; ils sont <strong>toujours préparés</strong>.</p><ul><li>Niveau 3 : Égide de la Lumière, Protection contre le mal et le bien</li><li>Niveau 5 : Marteau de justice, Restauration partielle</li><li>Niveau 9 : Psaume de la Lumière, Lumière du jour</li><li>Niveau 13 : Protection contre la mort, Bannissement</li><li>Niveau 17 : Dissipation du mal et du bien, Sanctification</li></ul>",
+      "en": "<p>Your oath opens these prayers to you. When you reach the Paladin levels listed, these spells are granted to you; they are <strong>always prepared</strong>.</p><ul><li>Level 3: Aegis of the Light, Protection from Evil and Good</li><li>Level 5: Hammer of Justice, Lesser Restoration</li><li>Level 9: Psalm of the Light, Daylight</li><li>Level 13: Death Ward, Banishment</li><li>Level 17: Dispel Evil and Good, Hallow</li></ul>"
+    }
+  },
+  "classes/gMAJg8EvsftqLvRf": {
+    "_nom": "Carapace anti-magie",
+    "name": {
+      "fr": "Carapace anti-magie",
+      "en": "Anti-Magic Shell"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>réaction</strong>, quand vous devez faire un jet de sauvegarde, vous vous enveloppez d'une carapace verdâtre qui boit la magie : jusqu'à la fin de votre prochain tour, vous avez l'<strong>avantage</strong> à tous vos jets de sauvegarde. Une utilisation par <strong>repos court</strong>.</p>",
+      "en": "<p>As a <strong>Reaction</strong>, when you must make a saving throw, you wrap yourself in a greenish shell that drinks magic: until the end of your next turn, you have <strong>Advantage</strong> on all your saving throws. One use per <strong>Short Rest</strong>.</p>"
+    },
+    "system.activities.tTxfCrZtXUlfolMy.name": {
+      "fr": "Dresser la carapace",
+      "en": "Raise the shell"
+    },
+    "system.activities.tTxfCrZtXUlfolMy.activation.condition": {
+      "fr": "Quand vous devez faire un jet de sauvegarde",
+      "en": "When you must make a saving throw"
+    }
+  },
+  "classes/ihLUfgf76LMDLVEM": {
+    "_nom": "Incarnation des éléments",
+    "name": {
+      "fr": "Incarnation des éléments",
+      "en": "Incarnation of the Elements"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action bonus</strong>, pendant votre <strong>Rage</strong>, vous laissez les quatre éléments vous habiter pour <strong>1 minute</strong> : vous avez la <strong>résistance aux dégâts de feu, de froid, de foudre et de tonnerre</strong>, et votre vitesse augmente de <strong>3 m</strong>. Une utilisation par <strong>repos long</strong>.</p>",
+      "en": "<p>As a <strong>Bonus Action</strong>, during your <strong>Rage</strong>, you let the four elements dwell in you for <strong>1 minute</strong>: you have <strong>Resistance to Fire, Cold, Lightning and Thunder damage</strong>, and your Speed increases by <strong>10 feet</strong>. One use per <strong>Long Rest</strong>.</p>"
+    }
+  },
+  "classes/jDhaJ9S5XVVJVURx": {
+    "_nom": "Maître du déguisement",
+    "name": {
+      "fr": "Maître du déguisement",
+      "en": "Master of Disguise"
+    },
+    "system.description.value": {
+      "fr": "<p>En <strong>1 minute</strong> et sans matériel, vous changez d'allure au point de passer pour une autre personne de votre taille. Vous avez l'<strong>avantage</strong> aux tests de Charisme (<strong>Tromperie</strong>) et de Sagesse (<strong>Intuition</strong>).</p>",
+      "en": "<p>In <strong>1 minute</strong> and without equipment, you change your appearance enough to pass for another person of your size. You have <strong>Advantage</strong> on Charisma (<strong>Deception</strong>) and Wisdom (<strong>Insight</strong>) checks.</p>"
+    }
+  },
+  "classes/jQJsj3OfsAAd3LDH": {
+    "_nom": "Sorts du chevalier de la mort",
+    "name": {
+      "fr": "Sorts du chevalier de la mort",
+      "en": "Death Knight Spells"
+    },
+    "system.description.value": {
+      "fr": "<p>Le froid et la mort répondent à votre serment. Quand vous atteignez les niveaux de paladin indiqués, ces sorts vous sont accordés ; ils sont <strong>toujours préparés</strong>.</p><ul><li>Niveau 3 : Flétrissure gangrenée, Protection contre le mal et le bien</li><li>Niveau 5 : Nova de givre, Rayon affaiblissant</li><li>Niveau 9 : Caresse du vampire, Malédiction</li><li>Niveau 13 : Blizzard, Flétrissement</li><li>Niveau 17 : Brume mortelle, Contagion</li></ul>",
+      "en": "<p>Cold and death answer your oath. When you reach the Paladin levels listed, these spells are granted to you; they are <strong>always prepared</strong>.</p><ul><li>Level 3: Fel Wither, Protection from Evil and Good</li><li>Level 5: Frost Nova, Ray of Enfeeblement</li><li>Level 9: Vampiric Touch, Bestow Curse</li><li>Level 13: Blizzard, Blight</li><li>Level 17: Cloudkill, Contagion</li></ul>"
+    }
+  },
+  "classes/jdH7norqy2YGtMAH": {
+    "_nom": "Poigne de la mort",
+    "name": {
+      "fr": "Poigne de la mort",
+      "en": "Death Grip"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action</strong>, vous dépensez une utilisation de votre <strong>Conduit divin</strong> : une main de brume glacée saisit une créature que vous voyez à <strong>9 m</strong> ou moins. Elle fait un jet de sauvegarde de <strong>Force</strong> (DD de vos sorts de paladin). En cas d'échec, elle est attirée en ligne droite jusqu'à un espace libre à côté de vous et <strong>entravée</strong> jusqu'à la fin de votre prochain tour.</p>",
+      "en": "<p>As an <strong>action</strong>, you expend one use of your <strong>Channel Divinity</strong>: a hand of icy mist seizes a creature you can see within <strong>30 feet</strong>. It makes a <strong>Strength</strong> saving throw (your Paladin spell DC). On a failure, it is pulled in a straight line to an unoccupied space next to you and <strong>Restrained</strong> until the end of your next turn.</p>"
+    },
+    "system.activities.yZAuAdnI6G8hS5h6.name": {
+      "fr": "Saisir",
+      "en": "Grip"
+    }
+  },
+  "classes/jmqFA52GTbEXuVhf": {
+    "_nom": "Totem du flot",
+    "name": {
+      "fr": "Totem du flot",
+      "en": "Stream Totem"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action bonus</strong>, vous plantez un totem d'où ruisselle une eau claire : vous et chaque allié dans un rayon de <strong>9 m</strong> autour de lui récupérez <strong>2d8 + votre modificateur de Constitution</strong> points de vie. Une utilisation par <strong>repos court</strong>.</p>",
+      "en": "<p>As a <strong>Bonus Action</strong>, you plant a totem from which clear water streams: you and each ally within <strong>30 feet</strong> of it regain <strong>2d8 + your Constitution modifier</strong> Hit Points. One use per <strong>Short Rest</strong>.</p>"
+    },
+    "system.activities.b73LeG57GcBDPFGn.name": {
+      "fr": "Planter le totem du flot",
+      "en": "Plant the Stream Totem"
+    }
+  },
+  "classes/k03ukJMUlym8ADV9": {
+    "_nom": "Nul ne tombe seul",
+    "name": {
+      "fr": "Nul ne tombe seul",
+      "en": "No One Falls Alone"
+    },
+    "system.description.value": {
+      "fr": "<p>Quand une créature alliée que vous voyez à <strong>9 m</strong> ou moins tombe à 0 point de vie, vous pouvez utiliser votre <strong>réaction</strong> pour lui rendre un nombre de points de vie égal à <strong>deux fois votre niveau de paladin</strong>. Une utilisation par <strong>repos long</strong>.</p>",
+      "en": "<p>When an allied creature you can see within <strong>30 feet</strong> drops to 0 Hit Points, you can use your <strong>Reaction</strong> to restore to it a number of Hit Points equal to <strong>twice your Paladin level</strong>. One use per <strong>Long Rest</strong>.</p>"
+    },
+    "system.activities.1xvyNHMt5pZ7knKy.name": {
+      "fr": "Relever le compagnon",
+      "en": "Raise the companion"
+    },
+    "system.activities.1xvyNHMt5pZ7knKy.activation.condition": {
+      "fr": "Une créature alliée à 9 m tombe à 0 point de vie",
+      "en": "An allied creature within 30 feet drops to 0 Hit Points"
+    }
+  },
+  "classes/l4uqYDv2rXkaG2hP": {
+    "_nom": "Rune de givre",
+    "name": {
+      "fr": "Rune de givre",
+      "en": "Frost Rune"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action bonus</strong>, vous dépensez une utilisation de votre <strong>Conduit divin</strong> pour graver une rune de givre sur votre arme, pour <strong>1 minute</strong>. Pendant cette durée, une fois par tour, quand vous touchez une créature avec cette arme, elle subit <strong>1d6 dégâts de froid</strong> supplémentaires. Ces dés passent à <strong>2d6</strong> au niveau 15.</p>",
+      "en": "<p>As a <strong>Bonus Action</strong>, you expend one use of your <strong>Channel Divinity</strong> to carve a frost rune on your weapon for <strong>1 minute</strong>. During that time, once per turn, when you hit a creature with that weapon, it takes an extra <strong>1d6 Cold damage</strong>. These dice become <strong>2d6</strong> at level 15.</p>"
+    },
+    "system.activities.NUABE11OEPdSd6LJ.name": {
+      "fr": "Graver la rune",
+      "en": "Carve the rune"
+    },
+    "system.activities.y78TlG5cskHYhhit.activation.condition": {
+      "fr": "Une fois par tour, en touchant avec l'arme runée",
+      "en": "Once per turn, on hitting with the runed weapon"
+    }
+  },
+  "classes/lDJbqTOdUmBO9YbY": {
+    "_nom": "Sens partagés",
+    "name": {
+      "fr": "Sens partagés",
+      "en": "Shared Senses"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous percevez ce que perçoit votre familier tant qu'il est à <strong>30 m</strong> ou moins de vous. Vous avez l'<strong>avantage</strong> aux tests de Sagesse (<strong>Perception</strong>) et (<strong>Survie</strong>).</p>",
+      "en": "<p>You perceive what your companion perceives while it is within <strong>100 feet</strong> of you. You have <strong>Advantage</strong> on Wisdom (<strong>Perception</strong>) and (<strong>Survival</strong>) checks.</p>"
+    }
+  },
+  "classes/le6Vq99XBnwv4twH": {
+    "_nom": "Métamorphose",
+    "name": {
+      "fr": "Métamorphose",
+      "en": "Metamorphosis"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action bonus</strong>, vous laissez le démon que vous avez enchaîné prendre forme pendant <strong>1 minute</strong> : vous gagnez <strong>+2 à la classe d'armure</strong>, une <strong>vitesse de vol de 9 m</strong>, et vos attaques au corps à corps avec une arme infligent <strong>1d6</strong> dégâts supplémentaires. Une utilisation par <strong>repos long</strong>.</p>",
+      "en": "<p>As a <strong>Bonus Action</strong>, you let the demon you have chained take shape for <strong>1 minute</strong>: you gain <strong>+2 to Armor Class</strong>, a <strong>Fly Speed of 30 feet</strong>, and your melee weapon attacks deal an extra <strong>1d6</strong> damage. One use per <strong>Long Rest</strong>.</p>"
+    },
+    "system.activities.nOepz2h1bCC5rcKb.name": {
+      "fr": "Se métamorphoser",
+      "en": "Transform"
+    },
+    "effects.FIKwEBvT2QLESVOj.description": {
+      "fr": "<p>+2 à la CA, vol 9 m, +1d6 aux dégâts des attaques d'arme au corps à corps.</p>",
+      "en": "<p>+2 to AC, fly 30 feet, +1d6 to the damage of melee weapon attacks.</p>"
+    }
+  },
+  "classes/n7MrChlMNcFH03ts": {
+    "_nom": "Voix des esprits",
+    "name": {
+      "fr": "Voix des esprits",
+      "en": "Voice of the Spirits"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous parlez, lisez et écrivez le <strong>primordial</strong>, la langue des esprits élémentaires. Vous maîtrisez en outre <strong>Nature</strong> ou <strong>Survie</strong> (au choix) : les esprits vous montrent où passe l'eau et où gronde la pierre.</p>",
+      "en": "<p>You speak, read and write <strong>Primordial</strong>, the language of the elemental spirits. You also have proficiency in <strong>Nature</strong> or <strong>Survival</strong> (your choice): the spirits show you where the water runs and where the stone rumbles.</p>"
+    }
+  },
+  "classes/nlKCkAAxSbRayLqG": {
+    "_nom": "Compagnon de chasse",
+    "name": {
+      "fr": "Compagnon de chasse",
+      "en": "Hunting Companion"
+    },
+    "system.description.value": {
+      "fr": "<p>Une bête vous accompagne : utilisez la fiche « Familier du chasseur » du bestiaire (le MJ la pose sur la carte). Elle agit juste après vous dans l'ordre d'initiative, ajoute votre <strong>bonus de maîtrise</strong> à sa classe d'armure, à ses jets d'attaque et à ses dégâts, et a <strong>5 + cinq fois votre niveau de rôdeur</strong> points de vie. Si elle meurt, vous pouvez la ramener par un rituel d'<strong>une heure</strong> au chevet de son corps, une fois par <strong>repos long</strong>.</p><p><strong>Lier le familier.</strong> Ciblez son jeton et utilisez l'activité « Lier le familier » : sa fiche suit ensuite votre niveau (points de vie, bonus de maîtrise), recopiée par le MJ.</p>",
+      "en": "<p>A beast accompanies you: use the \"Hunter's Companion\" sheet from the bestiary (the GM places it on the map). It acts right after you in the Initiative order, adds your <strong>Proficiency Bonus</strong> to its Armor Class, its attack rolls and its damage, and has <strong>5 + five times your Ranger level</strong> Hit Points. If it dies, you can bring it back with a <strong>one-hour</strong> ritual at the side of its body, once per <strong>Long Rest</strong>.</p><p><strong>Bind the companion.</strong> Target its token and use the \"Bind the companion\" activity: its sheet then follows your level (Hit Points, Proficiency Bonus), copied by the GM.</p>"
+    },
+    "system.activities.SOsR8DettoenevY0.name": {
+      "fr": "Ramener le familier",
+      "en": "Bring back the companion"
+    },
+    "system.activities.SOsR8DettoenevY0.activation.condition": {
+      "fr": "Au chevet du corps du familier",
+      "en": "At the side of the companion's body"
+    },
+    "system.activities.tWnEZ1HC06gBJ4pk.name": {
+      "fr": "Lier le familier",
+      "en": "Bind the companion"
+    },
+    "system.activities.tWnEZ1HC06gBJ4pk.activation.condition": {
+      "fr": "Ciblez le jeton de votre familier",
+      "en": "Target your companion's token"
+    }
+  },
+  "classes/pQvPIEuaWSPT4GJf": {
+    "_nom": "Œil du Néant",
+    "name": {
+      "fr": "Œil du Néant",
+      "en": "Eye of the Nether"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous avez contemplé le Néant distordu sans détourner les yeux. Votre <strong>vision dans le noir</strong> porte à <strong>36 m</strong>, et vous ne pouvez pas être <strong>effrayé</strong>.</p>",
+      "en": "<p>You have gazed into the Twisting Nether without looking away. Your <strong>Darkvision</strong> reaches <strong>120 feet</strong>, and you cannot be <strong>Frightened</strong>.</p>"
+    }
+  },
+  "classes/pkIWTdbl8HyiLNe2": {
+    "_nom": "Coup de grâce",
+    "name": {
+      "fr": "Coup de grâce",
+      "en": "Finishing Blow"
+    },
+    "system.description.value": {
+      "fr": "<p>Une fois par tour, quand vous touchez avec une arme une créature qui a <strong>la moitié de ses points de vie ou moins</strong>, vous lui infligez <strong>2d8</strong> dégâts supplémentaires du type de l'arme. Ces dés passent à <strong>3d8</strong> au niveau 15.</p>",
+      "en": "<p>Once per turn, when you hit with a weapon a creature that has <strong>half its Hit Points or fewer</strong>, you deal it an extra <strong>2d8</strong> damage of the weapon's type. These dice become <strong>3d8</strong> at level 15.</p>"
+    },
+    "system.activities.WSlUAvhufkGttHWT.name": {
+      "fr": "Achever",
+      "en": "Finish"
+    },
+    "system.activities.WSlUAvhufkGttHWT.activation.condition": {
+      "fr": "Une fois par tour, en touchant une créature à la moitié de ses points de vie ou moins",
+      "en": "Once per turn, on hitting a creature at half its Hit Points or fewer"
+    }
+  },
+  "classes/q1zONAw16tNj44eX": {
+    "_nom": "Aura de pureté",
+    "name": {
+      "fr": "Aura de pureté",
+      "en": "Aura of Purity"
+    },
+    "system.description.value": {
+      "fr": "<p>Vous et les créatures alliées dans votre <strong>Aura de protection</strong> avez la <strong>résistance aux dégâts nécrotiques</strong> et ne pouvez pas tomber <strong>malades</strong>. La peste du Fléau elle-même recule devant vous.</p>",
+      "en": "<p>You and the allied creatures in your <strong>Aura of Protection</strong> have <strong>Resistance to Necrotic damage</strong> and cannot fall <strong>ill</strong>. The plague of the Scourge itself recoils before you.</p>"
+    }
+  },
+  "classes/q8fbOYNwPDHh1UQH": {
+    "_nom": "Lames gangrenées",
+    "name": {
+      "fr": "Lames gangrenées",
+      "en": "Fel Blades"
+    },
+    "system.description.value": {
+      "fr": "<p>Une fois par tour, quand vous touchez une créature avec une attaque d'arme, vous pouvez lui infliger <strong>1d6</strong> dégâts de feu supplémentaires : une flamme verte gangrenée court sur la lame. Ces dés passent à <strong>2d6</strong> au niveau 11.</p>",
+      "en": "<p>Once per turn, when you hit a creature with a weapon attack, you can deal it an extra <strong>1d6</strong> Fire damage: a green fel flame runs along the blade. These dice become <strong>2d6</strong> at level 11.</p>"
+    },
+    "system.activities.yA8PeERv5XpZAVNN.name": {
+      "fr": "Embraser la lame",
+      "en": "Ignite the blade"
+    },
+    "system.activities.yA8PeERv5XpZAVNN.activation.condition": {
+      "fr": "Une fois par tour, après une attaque d'arme réussie",
+      "en": "Once per turn, after a successful weapon attack"
+    }
+  },
+  "classes/rFL0piptWlfnA3nS": {
+    "_nom": "Siphon de vie",
+    "name": {
+      "fr": "Siphon de vie",
+      "en": "Siphon Life"
+    },
+    "system.description.value": {
+      "fr": "<p>Une fois par tour, quand un sort d'occultiste que vous lancez inflige des dégâts de feu ou nécrotiques à une créature hostile, vous récupérez un nombre de points de vie égal à votre <strong>modificateur de Charisme</strong> (minimum 1).</p>",
+      "en": "<p>Once per turn, when a Warlock spell you cast deals Fire or Necrotic damage to a hostile creature, you regain a number of Hit Points equal to your <strong>Charisma modifier</strong> (minimum 1).</p>"
+    },
+    "system.activities.SogAtxBGr6b9fCxZ.name": {
+      "fr": "Siphonner",
+      "en": "Siphon"
+    },
+    "system.activities.SogAtxBGr6b9fCxZ.activation.condition": {
+      "fr": "Une fois par tour, quand votre sort inflige des dégâts de feu ou nécrotiques à une créature hostile",
+      "en": "Once per turn, when your spell deals Fire or Necrotic damage to a hostile creature"
+    }
+  },
+  "classes/roAS0WYaRarxvifC": {
+    "_nom": "Parole des esprits",
+    "name": {
+      "fr": "Parole des esprits",
+      "en": "Speech of the Spirits"
+    },
+    "system.description.value": {
+      "fr": "<p>Les esprits vous ont appris leur langue à force de cris. Vous parlez le <strong>primordial</strong>, et vous maîtrisez <strong>Nature</strong> ou <strong>Survie</strong>, au choix.</p>",
+      "en": "<p>The spirits taught you their language by dint of shouting. You speak <strong>Primordial</strong>, and you have proficiency in <strong>Nature</strong> or <strong>Survival</strong>, your choice.</p>"
+    }
+  },
+  "classes/sWxzXJ4VyTUqpDQA": {
+    "_nom": "Présence de l'Aspect",
+    "name": {
+      "fr": "Présence de l'Aspect",
+      "en": "Presence of the Aspect"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action</strong>, vous laissez paraître la majesté de votre ancêtre. Chaque créature de votre choix dans un rayon de <strong>18 m</strong> fait un jet de sauvegarde de <strong>Sagesse</strong> (DD de vos sorts d'ensorceleur) ; en cas d'échec, elle est <strong>effrayée</strong> ou <strong>charmée</strong> (au choix, le même effet pour toutes) pendant <strong>1 minute</strong>. Une utilisation par <strong>repos long</strong>.</p>",
+      "en": "<p>As an <strong>action</strong>, you let the majesty of your ancestor show. Each creature of your choice within <strong>60 feet</strong> makes a <strong>Wisdom</strong> saving throw (your Sorcerer spell DC); on a failure, it is <strong>Frightened</strong> or <strong>Charmed</strong> (your choice, the same effect for all) for <strong>1 minute</strong>. One use per <strong>Long Rest</strong>.</p>"
+    },
+    "system.activities.LOxAAv1rZg8gkJJF.name": {
+      "fr": "Inspirer l'effroi",
+      "en": "Inspire dread"
+    },
+    "system.activities.pYrvzasCwLiTF7Nb.name": {
+      "fr": "Fasciner",
+      "en": "Fascinate"
+    },
+    "effects.WNBUjZgdmta6zjpL.name": {
+      "fr": "Effroi de l'Aspect",
+      "en": "Dread of the Aspect"
+    },
+    "effects.7A5xsdLR7DRlxxJw.name": {
+      "fr": "Fascination de l'Aspect",
+      "en": "Fascination of the Aspect"
+    }
+  },
+  "classes/sg0I1tNoMF0kwLyh": {
+    "_nom": "Espion du SI:7",
+    "name": {
+      "fr": "Espion du SI:7",
+      "en": "SI:7 Spy"
+    },
+    "system.description.value": {
+      "fr": "<p>Le SI:7 est le service de renseignement de Hurlevent, fondé sous le roi Llane et longtemps dirigé par Mathias Shaw. Ses agents ne portent pas d'uniforme : ce sont des domestiques, des marchands, des ivrognes de la Vieille ville. Ils empoisonnent leurs lames d'extraits des marais du Bois de la Pénombre, changent de visage en une minute et disparaissent avant qu'on ait compris qu'ils étaient là.</p><p><em>Sous-classe du Roublard, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Formation du SI:7, Lames enduites</li><li><strong>Niveau 9</strong> : Maître du déguisement</li><li><strong>Niveau 13</strong> : Évasion d'agent</li><li><strong>Niveau 17</strong> : Dossier complet</li></ul>",
+      "en": "<p>SI:7 is Stormwind's intelligence service, founded under King Llane and long led by Mathias Shaw. Its agents wear no uniform: they are servants, merchants, drunkards of Old Town. They poison their blades with extracts from the marshes of Duskwood, change faces in a minute and vanish before anyone has understood they were there.</p><p><em>Rogue subclass, chosen at level 3.</em></p><h2>Features</h2><ul><li><strong>Level 3</strong>: SI:7 Training, Coated Blades</li><li><strong>Level 9</strong>: Master of Disguise</li><li><strong>Level 13</strong>: Agent's Escape</li><li><strong>Level 17</strong>: Full Dossier</li></ul>"
+    },
+    "system.advancement.goK1thnf0YGvJJa6.name": {
+      "fr": "Capacités : Espion du SI:7",
+      "en": "Features: SI:7 Spy"
+    },
+    "system.advancement.jluv8xUyjxq8MWyT.name": {
+      "fr": "Formation du SI:7",
+      "en": "SI:7 Training"
+    },
+    "system.advancement.jluv8xUyjxq8MWyT.hint": {
+      "fr": "Trousse de déguisement et trousse de contrefaçon.",
+      "en": "Disguise Kit and Forgery Kit."
+    },
+    "system.advancement.1AL0bZyVsoKyuFgy.name": {
+      "fr": "Dés du poison du SI:7",
+      "en": "SI:7 poison dice"
+    }
+  },
+  "classes/tsJqGxh3OxmfbGOX": {
+    "_nom": "Transfert tactique",
+    "name": {
+      "fr": "Transfert tactique",
+      "en": "Tactical Blink"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action bonus</strong>, vous vous téléportez dans un espace inoccupé que vous voyez à <strong>9 m</strong> ou moins, et un voile de force vous entoure : vous gagnez <strong>+2 à la classe d'armure</strong> jusqu'au début de votre prochain tour. Nombre d'utilisations : votre <strong>bonus de maîtrise</strong> par repos long.</p>",
+      "en": "<p>As a <strong>Bonus Action</strong>, you teleport to an unoccupied space you can see within <strong>30 feet</strong>, and a veil of force surrounds you: you gain <strong>+2 to Armor Class</strong> until the start of your next turn. Number of uses: your <strong>Proficiency Bonus</strong> per Long Rest.</p>"
+    },
+    "system.activities.DV5E1NCHaqy330WX.name": {
+      "fr": "Se transférer",
+      "en": "Blink"
+    },
+    "effects.6RlscYTLUOZNhXV8.name": {
+      "fr": "Voile de transfert",
+      "en": "Blink veil"
+    }
+  },
+  "classes/ufeNlNPBCVes95lo": {
+    "_nom": "Âme du chasseur",
+    "name": {
+      "fr": "Âme du chasseur",
+      "en": "Soul of the Hunter"
+    },
+    "system.description.value": {
+      "fr": "<p>La gangrène que vous portez ne vous brûle plus. Votre <strong>vision aveugle</strong> s'étend à <strong>9 m</strong>, et vous avez la <strong>résistance aux dégâts de feu</strong>.</p>",
+      "en": "<p>The fel you carry no longer burns you. Your <strong>Blindsight</strong> extends to <strong>30 feet</strong>, and you have <strong>Resistance to Fire damage</strong>.</p>"
+    }
+  },
+  "classes/v0TzF6Qru9kic0EJ": {
+    "_nom": "Cercle du Rêve d'émeraude",
+    "name": {
+      "fr": "Cercle du Rêve d'émeraude",
+      "en": "Circle of the Emerald Dream"
+    },
+    "system.description.value": {
+      "fr": "<p>Le Rêve d'émeraude est le monde tel qu'il aurait été sans l'empreinte des mortels, veillé par Ysera et le vol vert. Les druides de ce cercle, héritiers de Malfurion et du Cénarion, dorment des siècles dans les tertres de Reflet-de-Lune pour y marcher. Ils en rapportent la rosée qui guérit, les sentiers qui traversent les lieues en un pas, et la vigilance contre le Cauchemar qui ronge le Rêve de l'intérieur.</p><p><em>Sous-classe du Druide, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Sorts du cercle du Rêve d'émeraude, Rosée du Rêve</li><li><strong>Niveau 6</strong> : Pas dans le Rêve</li><li><strong>Niveau 10</strong> : Gardien du Rêve</li><li><strong>Niveau 14</strong> : Le Rêve se referme</li></ul><h2>Sorts du cercle du Rêve d'émeraude</h2><ul><li><strong>Niveau 3</strong> : Sarments du Rêve, Sommeil, Torpeur d'émeraude</li><li><strong>Niveau 5</strong> : Croissance végétale, Communication avec les plantes</li><li><strong>Niveau 7</strong> : Invocation d'êtres sylvestres, Liberté de mouvement</li><li><strong>Niveau 9</strong> : Rêve, Voyage par les arbres</li></ul>",
+      "en": "<p>The Emerald Dream is the world as it would have been without the mark of mortals, watched over by Ysera and the green flight. The druids of this circle, heirs of Malfurion and of Cenarius, sleep for centuries in the barrows of Moonglade to walk there. They bring back from it the dew that heals, the paths that cross leagues in a step, and the vigilance against the Nightmare that gnaws at the Dream from within.</p><p><em>Druid subclass, chosen at level 3.</em></p><h2>Features</h2><ul><li><strong>Level 3</strong>: Circle of the Emerald Dream Spells, Dew of the Dream</li><li><strong>Level 6</strong>: Dreamstep</li><li><strong>Level 10</strong>: Dream Warden</li><li><strong>Level 14</strong>: The Dream Closes</li></ul><h2>Circle of the Emerald Dream Spells</h2><ul><li><strong>Level 3</strong>: Vines of the Dream, Sleep, Emerald Slumber</li><li><strong>Level 5</strong>: Plant Growth, Speak with Plants</li><li><strong>Level 7</strong>: Conjure Woodland Beings, Freedom of Movement</li><li><strong>Level 9</strong>: Dream, Tree Stride</li></ul>"
+    },
+    "system.advancement.uQWfwAOuHlAaiX4p.name": {
+      "fr": "Capacités : Cercle du Rêve d'émeraude",
+      "en": "Features: Circle of the Emerald Dream"
+    },
+    "system.advancement.1zMO3W5JDMENhf1R.name": {
+      "fr": "Sorts du cercle du Rêve d'émeraude",
+      "en": "Circle of the Emerald Dream Spells"
+    },
+    "system.advancement.fmrmVSZK40qj75UY.name": {
+      "fr": "Dés de la Rosée du Rêve",
+      "en": "Dew of the Dream dice"
+    }
+  },
+  "classes/wBP0KvaBLaF6MBAo": {
+    "_nom": "Armée des morts",
+    "name": {
+      "fr": "Armée des morts",
+      "en": "Army of the Dead"
+    },
+    "system.description.value": {
+      "fr": "<p>Par une <strong>action</strong>, vous frappez le sol et quatre goules (profil de goule du bestiaire) se relèvent dans des espaces libres à <strong>9 m</strong> ou moins de vous. Elles agissent juste après vous, obéissent à vos ordres et retombent en poussière au bout de <strong>1 minute</strong>. Pendant cette minute, vous avez la <strong>résistance aux dégâts nécrotiques et de froid</strong> et <strong>+2 à la classe d'armure</strong>. Une utilisation par <strong>repos long</strong>.</p>",
+      "en": "<p>As an <strong>action</strong>, you strike the ground and four ghouls (ghoul stat block from the bestiary) rise in unoccupied spaces within <strong>30 feet</strong> of you. They act right after you, obey your orders and crumble to dust after <strong>1 minute</strong>. During that minute, you have <strong>Resistance to Necrotic and Cold damage</strong> and <strong>+2 to Armor Class</strong>. One use per <strong>Long Rest</strong>.</p>"
+    },
+    "system.activities.Khfx1lsJDnyyJos0.name": {
+      "fr": "Lever l'armée",
+      "en": "Raise the army"
+    }
+  },
+  "classes/y2Om3no5AARP7Xa0": {
+    "_nom": "Voie du maître brasseur",
+    "name": {
+      "fr": "Voie du maître brasseur",
+      "en": "Way of the Brewmaster"
+    },
+    "system.description.value": {
+      "fr": "<p>Les maîtres brasseurs pandarens ont fait d'un art de taverne une discipline de combat. Ils tanguent, titubent et semblent toujours sur le point de tomber ; c'est pourtant leur adversaire qui finit par terre. Leur souffle sent le grain et le piment, leur tonneau ne quitte jamais leur dos, et ils répètent volontiers qu'une bonne bière et une bonne garde ont le même secret : le temps.</p><p><em>Sous-classe du Moine, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Tonnelier de la pagode, Titubement</li><li><strong>Niveau 6</strong> : Souffle de feu</li><li><strong>Niveau 11</strong> : Fût roulant</li><li><strong>Niveau 17</strong> : Ivresse du sage</li></ul>",
+      "en": "<p>The pandaren brewmasters turned a tavern art into a fighting discipline. They sway, stagger and always seem about to fall; yet it is their opponent who ends up on the ground. Their breath smells of grain and pepper, their keg never leaves their back, and they are fond of repeating that a good beer and a good guard share the same secret: time.</p><p><em>Monk subclass, chosen at level 3.</em></p><h2>Features</h2><ul><li><strong>Level 3</strong>: Cooper of the Pagoda, Stagger</li><li><strong>Level 6</strong>: Breath of Fire</li><li><strong>Level 11</strong>: Rolling Keg</li><li><strong>Level 17</strong>: Drunken Wisdom</li></ul>"
+    },
+    "system.advancement.FiiKdxGG6FQdkxKw.name": {
+      "fr": "Capacités : Voie du maître brasseur",
+      "en": "Features: Way of the Brewmaster"
+    },
+    "system.advancement.XGrxVDRDVHFRFKQ4.name": {
+      "fr": "Tonnelier de la pagode",
+      "en": "Cooper of the Pagoda"
+    },
+    "system.advancement.XGrxVDRDVHFRFKQ4.hint": {
+      "fr": "Matériel de brasseur.",
+      "en": "Brewer's Supplies."
+    },
+    "system.advancement.5Y5dSX9RFBsu7C3H.name": {
+      "fr": "Dés du titubement",
+      "en": "Stagger dice"
+    },
+    "system.advancement.7Edmbxgkt0kPCkdR.name": {
+      "fr": "Dés du souffle de feu",
+      "en": "Breath of Fire dice"
+    }
+  },
+  "classes/zHXjUE3hpZIXEf1x": {
+    "_nom": "Voie du chaman des totems",
+    "name": {
+      "fr": "Voie du chaman des totems",
+      "en": "Path of the Totem Shaman"
+    },
+    "system.description.value": {
+      "fr": "<p>Dans les tribus des Tarides et de Durotar, certains guerriers n'entrent pas en rage : ils appellent. Leur colère réveille les esprits de la pierre, du vent et du magma, qui jaillissent du sol sous la forme de totems grossiers plantés au milieu de la mêlée. Ces chamans de guerre ne connaissent pas les longues prières des anciens ; ils parlent aux éléments en criant, et les éléments, qui aiment le bruit, leur répondent.</p><p><em>Sous-classe du Barbare, choisie au niveau 3.</em></p><h2>Capacités</h2><ul><li><strong>Niveau 3</strong> : Totems élémentaires, Parole des esprits</li><li><strong>Niveau 6</strong> : Bouclier de foudre</li><li><strong>Niveau 10</strong> : Totem du flot</li><li><strong>Niveau 14</strong> : Incarnation des éléments</li></ul>",
+      "en": "<p>In the tribes of the Barrens and Durotar, some warriors do not fly into a rage: they call. Their anger wakes the spirits of stone, wind and magma, which burst from the ground as crude totems planted in the middle of the melee. These war shamans do not know the long prayers of the elders; they speak to the elements by shouting, and the elements, which love noise, answer them.</p><p><em>Barbarian subclass, chosen at level 3.</em></p><h2>Features</h2><ul><li><strong>Level 3</strong>: Elemental Totems, Speech of the Spirits</li><li><strong>Level 6</strong>: Lightning Shield</li><li><strong>Level 10</strong>: Stream Totem</li><li><strong>Level 14</strong>: Incarnation of the Elements</li></ul>"
+    },
+    "system.advancement.hLrGROgYUfkgCwjs.name": {
+      "fr": "Capacités : Voie du chaman des totems",
+      "en": "Features: Path of the Totem Shaman"
+    },
+    "system.advancement.Y13DEPtClWY9Z3rR.name": {
+      "fr": "Parole des esprits",
+      "en": "Speech of the Spirits"
+    },
+    "system.advancement.ci8KOt0c8aM9sCdl.name": {
+      "fr": "Dés du totem de magma",
+      "en": "Magma Totem dice"
+    },
+    "system.advancement.Ju0rElfYjLgw4Gmk.name": {
+      "fr": "Dés du bouclier de foudre",
+      "en": "Lightning Shield dice"
+    }
+  },
+  "classes/zXm0Lu68o9tfrvpI": {
+    "_nom": "Clameur de l'arène",
+    "name": {
+      "fr": "Clameur de l'arène",
+      "en": "Roar of the Arena"
+    },
+    "system.description.value": {
+      "fr": "<p>Le bruit d'un combat vous porte comme une foule. Vous avez l'<strong>avantage</strong> aux jets d'<strong>initiative</strong>, et quand vous lancez l'initiative, vous gagnez un nombre de <strong>points de vie temporaires</strong> égal à votre niveau de guerrier.</p>",
+      "en": "<p>The noise of a fight carries you like a crowd. You have <strong>Advantage</strong> on <strong>Initiative</strong> rolls, and when you roll Initiative, you gain a number of <strong>Temporary Hit Points</strong> equal to your Fighter level.</p>"
+    },
+    "system.activities.nqSkVlFHNqn96M1F.name": {
+      "fr": "Entendre la clameur",
+      "en": "Hear the roar"
+    },
+    "system.activities.nqSkVlFHNqn96M1F.activation.condition": {
+      "fr": "Quand vous lancez l'initiative",
+      "en": "When you roll Initiative"
+    }
+  }
+}

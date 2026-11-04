@@ -1,0 +1,2099 @@
+{
+  "scenes/3C89JBzkzHg0uRZm": {
+    "_nom": "Lieu — Ruines elfiques",
+    "name": {
+      "fr": "Lieu — Ruines elfiques",
+      "en": "Location — Elven Ruins"
+    },
+    "drawings.wxy1jj1jZZaYWJuD.text": {
+      "fr": "Bosquet",
+      "en": "Grove"
+    },
+    "drawings.Sd0503k2ApQ4CWOC.text": {
+      "fr": "Parvis",
+      "en": "Forecourt"
+    },
+    "drawings.5Jvw4XlTJmw0VYSM.text": {
+      "fr": "Sanctuaire de la Lune",
+      "en": "Sanctuary of the Moon"
+    },
+    "drawings.V59H99apyT9kbWCF.text": {
+      "fr": "Cache des prêtresses",
+      "en": "Priestesses' Cache"
+    },
+    "flags.lakour-warcraft.description": {
+      "fr": "Les vestiges d'un temple elfe de la nuit envahi par la végétation (Orneval, Sombrivage, Féralas) : bosquet, parvis aux colonnes brisées, sanctuaire de la Lune avec sa fontaine et une cache derrière une porte secrète. Pour une relique ancienne, des satyres ou des nagas, un esprit à apaiser, une rencontre avec des druides ou une exploration d'avant l'Exil.",
+      "en": "The remains of a night elf temple overrun by vegetation (Ashenvale, Darkshore, Feralas): grove, forecourt with broken columns, sanctuary of the Moon with its fountain and a cache behind a secret door. For an ancient relic, satyrs or naga, a spirit to appease, a meeting with druids or an exploration from before the Exile."
+    },
+    "flags.lakour-warcraft.plan.elements.0.nom": {
+      "fr": "Fontaine de lune",
+      "en": "Moon fountain"
+    },
+    "flags.lakour-warcraft.plan.elements.1.nom": {
+      "fr": "Statue de prêtresse",
+      "en": "Priestess statue"
+    },
+    "flags.lakour-warcraft.plan.elements.3.nom": {
+      "fr": "Autel lunaire",
+      "en": "Lunar altar"
+    },
+    "flags.lakour-warcraft.plan.elements.4.nom": {
+      "fr": "Coffre ancien",
+      "en": "Ancient chest"
+    },
+    "flags.lakour-warcraft.plan.elements.5.nom": {
+      "fr": "Colonne brisée",
+      "en": "Broken column"
+    },
+    "flags.lakour-warcraft.plan.elements.13.nom": {
+      "fr": "Racines",
+      "en": "Roots"
+    },
+    "flags.lakour-warcraft.plan.elements.14.nom": {
+      "fr": "Bloc effondré",
+      "en": "Collapsed block"
+    }
+  },
+  "scenes/8uyCl9mZZjTYg4EZ": {
+    "_nom": "Lieu — Crypte",
+    "name": {
+      "fr": "Lieu — Crypte",
+      "en": "Location — Crypt"
+    },
+    "drawings.IOUh0JlYDPysTJUM.text": {
+      "fr": "Escalier",
+      "en": "Stairs"
+    },
+    "drawings.6T6yQxha9RnqyUTg.text": {
+      "fr": "Vestibule",
+      "en": "Vestibule"
+    },
+    "drawings.rIJ4RuAr3sj1EqdW.text": {
+      "fr": "Nef des tombeaux",
+      "en": "Nave of the Tombs"
+    },
+    "drawings.iqMsiN93qqHgalmD.text": {
+      "fr": "Ossuaire",
+      "en": "Ossuary"
+    },
+    "drawings.RqyzDq9dJ4P2u3sZ.text": {
+      "fr": "Caveau scellé",
+      "en": "Sealed Vault"
+    },
+    "drawings.8dB9JKitPDo6vlB8.text": {
+      "fr": "Chapelle funéraire",
+      "en": "Funerary Chapel"
+    },
+    "sounds.I1G2XEjk0rX7hzVQ.name": {
+      "fr": "grotte — Ossuaire",
+      "en": "grotte — Ossuary"
+    },
+    "sounds.G9YqS154IIPlPz34.name": {
+      "fr": "grotte — Caveau scellé",
+      "en": "grotte — Sealed Vault"
+    },
+    "flags.lakour-warcraft.description": {
+      "fr": "La crypte sous une chapelle ou un cimetière : escalier d'accès, vestibule, nef des tombeaux à piliers, ossuaire, chapelle funéraire et caveau scellé (porte secrète). Pour des morts qui se relèvent, un nécromancien du Culte des Damnés, une relique à récupérer, un tombeau profané ou une veillée qui tourne mal.",
+      "en": "The crypt beneath a chapel or a graveyard: access stairs, vestibule, pillared nave of the tombs, ossuary, funerary chapel and sealed vault (secret door). For the dead rising, a necromancer of the Cult of the Damned, a relic to recover, a desecrated tomb or a wake that goes wrong."
+    },
+    "flags.lakour-warcraft.plan.elements.4.nom": {
+      "fr": "Sarcophage",
+      "en": "Sarcophagus"
+    },
+    "flags.lakour-warcraft.plan.elements.8.nom": {
+      "fr": "Niches à ossements",
+      "en": "Bone niches"
+    },
+    "flags.lakour-warcraft.plan.elements.9.nom": {
+      "fr": "Autel funéraire",
+      "en": "Funerary altar"
+    },
+    "flags.lakour-warcraft.plan.elements.10.nom": {
+      "fr": "Tombeau du seigneur",
+      "en": "Lord's tomb"
+    },
+    "flags.lakour-warcraft.plan.elements.11.nom": {
+      "fr": "Statue de gardien",
+      "en": "Guardian statue"
+    }
+  },
+  "scenes/DE0CKqcjQKI3JM6p": {
+    "_nom": "Gué-de-Sel — Camp du sommet de la Trêve",
+    "name": {
+      "fr": "Gué-de-Sel — Camp du sommet de la Trêve",
+      "en": "Saltford — Truce Summit Camp"
+    },
+    "drawings.6fmuAa45o5QfoLw5.text": {
+      "fr": "Rive nord",
+      "en": "North bank"
+    },
+    "drawings.cb4Tks6SW556ilS7.text": {
+      "fr": "Rivière",
+      "en": "River"
+    },
+    "drawings.FABHsP3cGszbt5CR.text": {
+      "fr": "Rive sud",
+      "en": "South bank"
+    },
+    "drawings.cSQSEoYXJjMpDC8J.text": {
+      "fr": "Gué",
+      "en": "Ford"
+    },
+    "drawings.6w69T12nqBTEOI4m.text": {
+      "fr": "Tente de l'Alliance",
+      "en": "Alliance tent"
+    },
+    "drawings.GrbVuMWb0k3gBE5s.text": {
+      "fr": "Pavillon du sommet",
+      "en": "Summit pavilion"
+    },
+    "drawings.sSdhOPMtcIUqG1sM.text": {
+      "fr": "Vieux moulin",
+      "en": "Old mill"
+    },
+    "drawings.K8vmepFALkIkWl73.text": {
+      "fr": "Tente des scribes",
+      "en": "Scribes' tent"
+    },
+    "drawings.DxtyPMBcx3yfgmAx.text": {
+      "fr": "Tente de la Horde",
+      "en": "Horde tent"
+    },
+    "sounds.B1SS6fxlUAuvteDj.name": {
+      "fr": "feu — Brasero d'alarme",
+      "en": "feu — Alarm brazier"
+    },
+    "sounds.mZCi2okWsAO8NUvW.name": {
+      "fr": "foule — Pavillon du sommet",
+      "en": "foule — Summit pavilion"
+    },
+    "sounds.vopmGMDC387zVgvz.name": {
+      "fr": "nuit — Gué",
+      "en": "nuit — Ford"
+    },
+    "regions.0envydTUpLCL6rV8.behaviors.SArhufYRSlzFYBVm.system.text": {
+      "fr": "Toile dorée, tapis épais. La roue dentée du Cartel est brodée partout où se pose le regard.",
+      "en": "Golden canvas, thick carpets. The Cartel's cogwheel is embroidered everywhere the eye lands."
+    },
+    "regions.qAgEwlAZVZ5Tfz0t.behaviors.0ZJyiDzW06zrhL3W.system.text": {
+      "fr": "Des pierres plates sous une eau qui pique les chevilles. Sur la borne neuve, la place d'une date.",
+      "en": "Flat stones beneath water that stings the ankles. On the new boundary stone, the place for a date."
+    },
+    "regions.sPjxX8iP0b8SPRRQ.behaviors.GR5hXijER3apqr2W.system.text": {
+      "fr": "La meule dort depuis des années. Pourtant, quelqu'un a balayé la poussière du plancher.",
+      "en": "The millstone has slept for years. Yet someone has swept the dust from the floor."
+    },
+    "regions.5O0MU4sHLBBk6uBA.name": {
+      "fr": "Trappe du moulin",
+      "en": "Mill trapdoor"
+    },
+    "notes.kPwsO8SdD4KkrEC4.text": {
+      "fr": "Sauf-conduit : armes à l'entrée",
+      "en": "Safe-conduct: weapons at the entrance"
+    },
+    "notes.HbFEYwdeOIvOiAnI.text": {
+      "fr": "Table des négociations — la bombe",
+      "en": "Negotiating table — the bomb"
+    },
+    "notes.Y4lbYGhUSEkXuopv.text": {
+      "fr": "Iselle Marchebrume",
+      "en": "Iselle Mistwalker"
+    },
+    "notes.AJBiMDcw7fFItPKZ.text": {
+      "fr": "Coffre des traités (indice)",
+      "en": "Treaty chest (clue)"
+    },
+    "notes.OwZ1HNnMvTqBh4JT.text": {
+      "fr": "Trappe : la cave des cultistes",
+      "en": "Trapdoor: the cultists' cellar"
+    },
+    "notes.J97NViGDhOZMOm7M.text": {
+      "fr": "Incident : les montures",
+      "en": "Incident: the mounts"
+    },
+    "notes.utTOB1rbEi9q5mnA.text": {
+      "fr": "Incident : la flèche dans le totem",
+      "en": "Incident: the arrow in the totem"
+    },
+    "flags.lakour-warcraft.description": {
+      "fr": "Chapitre 3 : le gué où l'Alliance et la Horde négocient sous l'arbitrage du Cartel, le pavillon du sommet, les tentes des deux délégations et le vieux moulin où la Lame ardente cache sa bombe.",
+      "en": "Chapter 3: the ford where the Alliance and the Horde negotiate under the Cartel's arbitration, the summit pavilion, the tents of the two delegations and the old mill where the Burning Blade hides its bomb."
+    },
+    "flags.lakour-warcraft.plan.elements.0.nom": {
+      "fr": "Bannière au lion",
+      "en": "Lion banner"
+    },
+    "flags.lakour-warcraft.plan.elements.1.nom": {
+      "fr": "Lits de camp",
+      "en": "Camp beds"
+    },
+    "flags.lakour-warcraft.plan.elements.3.nom": {
+      "fr": "Bannière de l'Alliance",
+      "en": "Alliance banner"
+    },
+    "flags.lakour-warcraft.plan.elements.5.nom": {
+      "fr": "Buffet",
+      "en": "Buffet"
+    },
+    "flags.lakour-warcraft.plan.elements.6.nom": {
+      "fr": "Échelle",
+      "en": "Ladder"
+    },
+    "flags.lakour-warcraft.plan.elements.7.nom": {
+      "fr": "Brasero d'alarme",
+      "en": "Alarm brazier"
+    },
+    "flags.lakour-warcraft.plan.elements.8.nom": {
+      "fr": "Enclos des montures",
+      "en": "Mount pen"
+    },
+    "flags.lakour-warcraft.plan.elements.9.nom": {
+      "fr": "Chariots",
+      "en": "Wagons"
+    },
+    "flags.lakour-warcraft.plan.elements.10.nom": {
+      "fr": "Borne de la Trêve",
+      "en": "Truce boundary stone"
+    },
+    "flags.lakour-warcraft.plan.elements.11.nom": {
+      "fr": "Meule",
+      "en": "Millstone"
+    },
+    "flags.lakour-warcraft.plan.elements.12.nom": {
+      "fr": "Sacs de grain",
+      "en": "Grain sacks"
+    },
+    "flags.lakour-warcraft.plan.elements.13.nom": {
+      "fr": "Trappe",
+      "en": "Trapdoor"
+    },
+    "flags.lakour-warcraft.plan.elements.14.nom": {
+      "fr": "Écritoire",
+      "en": "Writing desk"
+    },
+    "flags.lakour-warcraft.plan.elements.15.nom": {
+      "fr": "Coffre des traités",
+      "en": "Treaty chest"
+    },
+    "flags.lakour-warcraft.plan.elements.17.nom": {
+      "fr": "Totem de guerre",
+      "en": "War totem"
+    }
+  },
+  "scenes/EQnMHvSC38RGR1AM": {
+    "_nom": "Tarides — Mine de Rouge-Veine",
+    "name": {
+      "fr": "Tarides — Mine de Rouge-Veine",
+      "en": "Barrens — Redvein Mine"
+    },
+    "drawings.qTDEaXc0RUml4iOI.text": {
+      "fr": "Entrée de la mine",
+      "en": "Mine entrance"
+    },
+    "drawings.36s43OSIRi21gtJk.text": {
+      "fr": "Galerie principale",
+      "en": "Main gallery"
+    },
+    "drawings.i36PJ8rNsGvjrhG7.text": {
+      "fr": "Baraquement des kobolds",
+      "en": "Kobold barracks"
+    },
+    "drawings.HEdAwPrRPUQUI0EG.text": {
+      "fr": "Puits d'extraction",
+      "en": "Extraction shaft"
+    },
+    "drawings.5eJPJ5cL2Ap0GCyS.text": {
+      "fr": "Réserve de poudre",
+      "en": "Powder store"
+    },
+    "drawings.KBWuHwNkqQpLgsXu.text": {
+      "fr": "Galerie basse",
+      "en": "Lower gallery"
+    },
+    "drawings.riuWEdOiOHedIM5p.text": {
+      "fr": "Caverne de la Source",
+      "en": "Cavern of the Spring"
+    },
+    "sounds.xRfXmF4yBQzXkajc.name": {
+      "fr": "feu — Marmite",
+      "en": "feu — Cooking pot"
+    },
+    "sounds.Tqb1qlKfJNsrDaEP.name": {
+      "fr": "feu — Brasero",
+      "en": "feu — Brazier"
+    },
+    "sounds.mzVsEC9xcYiJv2uf.name": {
+      "fr": "grotte — Galerie principale",
+      "en": "grotte — Main gallery"
+    },
+    "sounds.Hn8hxUb5yqC6Tts6.name": {
+      "fr": "grotte — Caverne de la Source",
+      "en": "grotte — Cavern of the Spring"
+    },
+    "regions.3OhVvEbbcY16mUx2.behaviors.9IdiZpMwp2T7XPZQ.system.text": {
+      "fr": "Le vieux panneau du Cartel grince au vent. Plus bas, des pioches cognent sans jamais s'arrêter.",
+      "en": "The Cartel's old sign creaks in the wind. Further down, pickaxes knock without ever stopping."
+    },
+    "regions.HUJkrz4RW8DHw9fM.behaviors.PjEMZmXJSKXPXE99.system.text": {
+      "fr": "De petites voix reniflent dans le noir. Une chaîne tinte à chaque sanglot.",
+      "en": "Small voices sniffle in the dark. A chain clinks with every sob."
+    },
+    "notes.s1MbRZ6HWYGjnfzX.text": {
+      "fr": "Cultistes aux dés — l'alerte",
+      "en": "Cultists at dice — the alarm"
+    },
+    "notes.VcYZmHAIeADGuST4.text": {
+      "fr": "Kobolds enchaînés",
+      "en": "Chained kobolds"
+    },
+    "notes.a8VReYxmmdklIVUl.text": {
+      "fr": "Tonneaux de poudre",
+      "en": "Powder barrels"
+    },
+    "notes.F19EWnKYbA42nKnw.text": {
+      "fr": "Passage dérobé vers la caverne",
+      "en": "Hidden passage to the cavern"
+    },
+    "notes.dzXAHgVPbJ4HoFAA.text": {
+      "fr": "Drogha — le rituel",
+      "en": "Drogha — the ritual"
+    },
+    "notes.ZWq7D7FP2TYV1P2E.text": {
+      "fr": "Éclat gangrené — l'arrêter",
+      "en": "Fel Shard — stopping it"
+    },
+    "flags.lakour-warcraft.description": {
+      "fr": "Scène 4 : la mine abandonnée, les kobolds enchaînés et le rituel de la Lame ardente autour de l'Éclat gangrené.",
+      "en": "Scene 4: the abandoned mine, the chained kobolds and the Burning Blade's ritual around the Fel Shard."
+    },
+    "flags.lakour-warcraft.plan.elements.0.nom": {
+      "fr": "Tas de minerai",
+      "en": "Ore heap"
+    },
+    "flags.lakour-warcraft.plan.elements.1.nom": {
+      "fr": "Wagonnet",
+      "en": "Mine cart"
+    },
+    "flags.lakour-warcraft.plan.elements.4.nom": {
+      "fr": "Chaînes",
+      "en": "Chains"
+    },
+    "flags.lakour-warcraft.plan.elements.5.nom": {
+      "fr": "Marmite",
+      "en": "Cooking pot"
+    },
+    "flags.lakour-warcraft.plan.elements.6.nom": {
+      "fr": "Treuil",
+      "en": "Winch"
+    },
+    "flags.lakour-warcraft.plan.elements.9.nom": {
+      "fr": "Étayage effondré",
+      "en": "Collapsed shoring"
+    },
+    "flags.lakour-warcraft.plan.elements.10.nom": {
+      "fr": "Puits de la source noire",
+      "en": "Black spring well"
+    },
+    "flags.lakour-warcraft.plan.elements.11.nom": {
+      "fr": "Éclat gangrené",
+      "en": "Fel Shard"
+    },
+    "flags.lakour-warcraft.plan.elements.12.nom": {
+      "fr": "Autel de la Lame ardente",
+      "en": "Burning Blade altar"
+    },
+    "flags.lakour-warcraft.plan.elements.13.nom": {
+      "fr": "Pilier",
+      "en": "Pillar"
+    },
+    "flags.lakour-warcraft.plan.elements.16.nom": {
+      "fr": "Brasero",
+      "en": "Brazier"
+    }
+  },
+  "scenes/G2fZkUWf8Xu5rrqk": {
+    "_nom": "Gué-Brumeux — Relais des Deux Lanternes",
+    "name": {
+      "fr": "Gué-Brumeux — Relais des Deux Lanternes",
+      "en": "Mistford — Two Lanterns Waystation"
+    },
+    "drawings.mLfx23O9VgXHRkma.text": {
+      "fr": "Cour du relais",
+      "en": "Waystation yard"
+    },
+    "drawings.IobcDX34MYAdFEz3.text": {
+      "fr": "Rivière en crue",
+      "en": "River in flood"
+    },
+    "drawings.kCQyATKDO4F3HP6f.text": {
+      "fr": "Chambre du docteur",
+      "en": "Doctor's room"
+    },
+    "drawings.YIpEHcCes2RQR69B.text": {
+      "fr": "Chambre des voyageurs",
+      "en": "Travelers' room"
+    },
+    "drawings.9Q2ccQgL9gMri58n.text": {
+      "fr": "Remise du passeur",
+      "en": "Ferryman's shed"
+    },
+    "sounds.fy1805SIoSUyFzf6.name": {
+      "fr": "pluie — Cour sous la pluie",
+      "en": "pluie — Yard in the rain"
+    },
+    "sounds.PqRzLfIDFEOZxEOm.name": {
+      "fr": "orage — Orage sur la rivière",
+      "en": "orage — Storm over the river"
+    },
+    "regions.29Ltzyyxj2rFNkEG.name": {
+      "fr": "Accueil de la salle commune",
+      "en": "Common room entrance"
+    },
+    "regions.29Ltzyyxj2rFNkEG.behaviors.wmUpGlweMQrxsUui.system.text": {
+      "fr": "Laine mouillée, soupe de poisson, fumée de tourbe. Les conversations baissent d'un ton à chaque nouvel arrivant.",
+      "en": "Wet wool, fish soup, peat smoke. The conversations drop a notch with every newcomer."
+    },
+    "regions.CkgwrXHcBYkT1ymK.name": {
+      "fr": "Ponton du bac",
+      "en": "Ferry landing"
+    },
+    "regions.CkgwrXHcBYkT1ymK.behaviors.HZndP4IeckYTAewO.system.text": {
+      "fr": "La rivière gronde, grosse de pluie. Le bac tire sur sa corde comme un chien sur sa laisse.",
+      "en": "The river roars, swollen with rain. The ferry pulls on its rope like a dog on its leash."
+    },
+    "regions.8ZyMG08MC5pnt4V7.behaviors.KQBpFOQbbLxD2ODj.system.text": {
+      "fr": "Le lit n'est pas défait. Ça sent le vinaigre, et dessous, quelque chose de sucré qui a tourné.",
+      "en": "The bed has not been slept in. It smells of vinegar, and beneath it, something sweet that has turned."
+    },
+    "regions.ZQYd10Via4horliD.name": {
+      "fr": "Trappe de la cave",
+      "en": "Cellar trapdoor"
+    },
+    "notes.P9OrKtPzQRvEv22m.text": {
+      "fr": "Hilde et Durgan, les hôtes",
+      "en": "Hilde and Durgan, the hosts"
+    },
+    "notes.7iulE13wMOAnPxzp.text": {
+      "fr": "Les voyageurs bloqués par l'orage",
+      "en": "The travelers stranded by the storm"
+    },
+    "notes.r9GfUt4RGDgCdUOL.text": {
+      "fr": "Chambre vide du docteur (indice)",
+      "en": "Doctor's empty room (clue)"
+    },
+    "notes.7Nqz5YRZqKpXBSaF.text": {
+      "fr": "Minuit : la trappe de la cave",
+      "en": "Midnight: the cellar trapdoor"
+    },
+    "notes.VlfT18GKlqcXDCnX.text": {
+      "fr": "Le bac, et Bram qui manque",
+      "en": "The ferry, and Bram who is missing"
+    },
+    "flags.lakour-warcraft.description": {
+      "fr": "Acte 1 : le relais du bac au bord du marécage d'Âprefange, une nuit d'orage. Salle commune, cuisine et trappe de la cave, chambres, écurie, remise du passeur et rivière en crue.",
+      "en": "Act 1: the ferry waystation at the edge of Dustwallow Marsh, on a stormy night. Common room, kitchen and cellar trapdoor, bedrooms, stable, ferryman's shed and river in flood."
+    },
+    "flags.lakour-warcraft.plan.elements.2.nom": {
+      "fr": "Grande table",
+      "en": "Big table"
+    },
+    "flags.lakour-warcraft.plan.elements.3.nom": {
+      "fr": "Table du coin",
+      "en": "Corner table"
+    },
+    "flags.lakour-warcraft.plan.elements.6.nom": {
+      "fr": "Billot",
+      "en": "Chopping block"
+    },
+    "flags.lakour-warcraft.plan.elements.7.nom": {
+      "fr": "Sacs de farine",
+      "en": "Flour sacks"
+    },
+    "flags.lakour-warcraft.plan.elements.9.nom": {
+      "fr": "Lit du docteur",
+      "en": "Doctor's bed"
+    },
+    "flags.lakour-warcraft.plan.elements.10.nom": {
+      "fr": "Malle du docteur",
+      "en": "Doctor's trunk"
+    },
+    "flags.lakour-warcraft.plan.elements.11.nom": {
+      "fr": "Lits superposés",
+      "en": "Bunk beds"
+    },
+    "flags.lakour-warcraft.plan.elements.12.nom": {
+      "fr": "Coffre",
+      "en": "Chest"
+    },
+    "flags.lakour-warcraft.plan.elements.13.nom": {
+      "fr": "Stalles",
+      "en": "Stalls"
+    },
+    "flags.lakour-warcraft.plan.elements.15.nom": {
+      "fr": "Filets et cordages",
+      "en": "Nets and ropes"
+    },
+    "flags.lakour-warcraft.plan.elements.16.nom": {
+      "fr": "Barque retournée",
+      "en": "Overturned boat"
+    },
+    "flags.lakour-warcraft.plan.elements.17.nom": {
+      "fr": "Poteau des deux lanternes",
+      "en": "Two lanterns post"
+    },
+    "flags.lakour-warcraft.plan.elements.18.nom": {
+      "fr": "Chariot de Pip",
+      "en": "Pip's wagon"
+    },
+    "flags.lakour-warcraft.plan.elements.20.nom": {
+      "fr": "Tas de bois",
+      "en": "Woodpile"
+    },
+    "flags.lakour-warcraft.plan.elements.22.nom": {
+      "fr": "Saule",
+      "en": "Willow"
+    },
+    "flags.lakour-warcraft.plan.elements.23.nom": {
+      "fr": "Bac de Bram",
+      "en": "Bram's ferry"
+    },
+    "flags.lakour-warcraft.plan.elements.24.nom": {
+      "fr": "Roseaux",
+      "en": "Reeds"
+    },
+    "flags.lakour-warcraft.plan.sons.2.nom": {
+      "fr": "Cour sous la pluie",
+      "en": "Yard in the rain"
+    },
+    "flags.lakour-warcraft.plan.sons.3.nom": {
+      "fr": "Orage sur la rivière",
+      "en": "Storm over the river"
+    },
+    "drawings.bB6IH21Pzj4te9PA.text": {
+      "fr": "Cuisine",
+      "en": "Kitchen"
+    },
+    "flags.lakour-warcraft.plan.pieces.3.nom": {
+      "fr": "Cuisine",
+      "en": "Kitchen"
+    }
+  },
+  "scenes/G8Kf58ByEaYPKJug": {
+    "_nom": "Côte des Tarides — Ruines englouties d'Eldrassal",
+    "name": {
+      "fr": "Côte des Tarides — Ruines englouties d'Eldrassal",
+      "en": "Barrens Coast — Drowned Ruins of Eldrassal"
+    },
+    "drawings.2QDLnvsJrbSSvoVV.text": {
+      "fr": "Plage",
+      "en": "Beach"
+    },
+    "drawings.TyEtrtGqu7gLElj2.text": {
+      "fr": "Lagon",
+      "en": "Lagoon"
+    },
+    "drawings.OPHGIgWOOK5Ha7sk.text": {
+      "fr": "Parvis effondré",
+      "en": "Collapsed forecourt"
+    },
+    "drawings.ZpkXDmWzMozSnerj.text": {
+      "fr": "Galerie des statues",
+      "en": "Gallery of the Statues"
+    },
+    "drawings.FLG2qksE04Ddxjn8.text": {
+      "fr": "Salle du bassin lunaire",
+      "en": "Moonwell Hall"
+    },
+    "drawings.7rFD5xJ5Q5KYmF7d.text": {
+      "fr": "Bibliothèque engloutie",
+      "en": "Drowned Library"
+    },
+    "drawings.hGcIMNeI2u5ScGvQ.text": {
+      "fr": "Camp des nagas",
+      "en": "Naga camp"
+    },
+    "drawings.RxG5kVIp6kv87hxo.text": {
+      "fr": "Crypte des Bien-Nés",
+      "en": "Crypt of the Highborne"
+    },
+    "sounds.psPnQJyDK2QjWtqz.name": {
+      "fr": "mer — Lagon",
+      "en": "mer — Lagoon"
+    },
+    "sounds.EDGo9rsocmMKtSuA.name": {
+      "fr": "mer — Camp des nagas",
+      "en": "mer — Naga camp"
+    },
+    "sounds.L8XCmaoThmB9BBMg.name": {
+      "fr": "grotte — Crypte des Bien-Nés",
+      "en": "grotte — Crypt of the Highborne"
+    },
+    "regions.WUprUTi72FaU5ds2.behaviors.X9V1kARPu56fdoRr.system.text": {
+      "fr": "Des statues sans visage. Sous chacune, une ligne d'écriture elfique que le sel a presque effacée.",
+      "en": "Faceless statues. Beneath each, a line of elven script the salt has almost worn away."
+    },
+    "regions.4EudXtAQjCf3kHre.behaviors.KrS9sBx74aJi7fjE.system.text": {
+      "fr": "Une eau grise et immobile, qui ne renvoie ni vos visages ni vos torches.",
+      "en": "Grey, still water, which reflects neither your faces nor your torches."
+    },
+    "regions.VlvkKFeh7L8CFeei.behaviors.1dJwLYKafefDDHfF.system.text": {
+      "fr": "Un chant glisse sur l'eau, trop pur pour une gorge humaine. Les murlocs, eux, se taisent.",
+      "en": "A song glides over the water, too pure for a human throat. The murlocs, for their part, fall silent."
+    },
+    "regions.2rNMtaXzT7ihT6vQ.name": {
+      "fr": "Ombre de la crypte",
+      "en": "Shadow of the crypt"
+    },
+    "notes.HFuJy8UYyu3EKrYW.text": {
+      "fr": "Scaphandres de Fort-Rivet (indice)",
+      "en": "Fort Rivet diving suits (clue)"
+    },
+    "notes.fnKHIJKELKKOWq9I.text": {
+      "fr": "Inscription sous la statue (indice)",
+      "en": "Inscription beneath the statue (clue)"
+    },
+    "notes.DFnCpxLRlGQN4CqC.text": {
+      "fr": "Pupitre de cristal (indice)",
+      "en": "Crystal lectern (clue)"
+    },
+    "notes.EkzgyVHjFUrgoNP2.text": {
+      "fr": "Bassin lunaire — le réveiller",
+      "en": "Moonwell — waking it"
+    },
+    "notes.6c8utF9mKfcFo1Sz.text": {
+      "fr": "Passage secret du bassin",
+      "en": "Secret passage of the moonwell"
+    },
+    "notes.aEf8euso3OafB5ha.text": {
+      "fr": "Aelyra Ombrefeuille, captive",
+      "en": "Aelyra Shadowleaf, captive"
+    },
+    "notes.VYlZWn9Nhdfit99q.text": {
+      "fr": "Autel de la Braise — Sss'thera et Ezzavel",
+      "en": "Altar of the Ember — Sss'thera and Ezzavel"
+    },
+    "flags.lakour-warcraft.description": {
+      "fr": "Chapitre 2 : les ruines à demi noyées d'une cité des Bien-Nés, le bassin lunaire, la bibliothèque engloutie, le camp des nagas et la crypte où dort la deuxième Braise.",
+      "en": "Chapter 2: the half-drowned ruins of a Highborne city, the moonwell, the drowned library, the naga camp and the crypt where the second Ember sleeps."
+    },
+    "flags.lakour-warcraft.plan.elements.0.nom": {
+      "fr": "Barque échouée",
+      "en": "Beached boat"
+    },
+    "flags.lakour-warcraft.plan.elements.2.nom": {
+      "fr": "Rochers",
+      "en": "Rocks"
+    },
+    "flags.lakour-warcraft.plan.elements.3.nom": {
+      "fr": "Colonne immergée",
+      "en": "Submerged column"
+    },
+    "flags.lakour-warcraft.plan.elements.5.nom": {
+      "fr": "Statue renversée",
+      "en": "Toppled statue"
+    },
+    "flags.lakour-warcraft.plan.elements.7.nom": {
+      "fr": "Statue d'une prêtresse",
+      "en": "Statue of a priestess"
+    },
+    "flags.lakour-warcraft.plan.elements.8.nom": {
+      "fr": "Statue d'un mage",
+      "en": "Statue of a mage"
+    },
+    "flags.lakour-warcraft.plan.elements.9.nom": {
+      "fr": "Bassin lunaire",
+      "en": "Moonwell"
+    },
+    "flags.lakour-warcraft.plan.elements.10.nom": {
+      "fr": "Rayonnages effondrés",
+      "en": "Collapsed shelves"
+    },
+    "flags.lakour-warcraft.plan.elements.11.nom": {
+      "fr": "Pupitre de cristal",
+      "en": "Crystal lectern"
+    },
+    "flags.lakour-warcraft.plan.elements.13.nom": {
+      "fr": "Hutte de corail",
+      "en": "Coral hut"
+    },
+    "flags.lakour-warcraft.plan.elements.14.nom": {
+      "fr": "Cage de corail",
+      "en": "Coral cage"
+    },
+    "flags.lakour-warcraft.plan.elements.15.nom": {
+      "fr": "Trône de corail",
+      "en": "Coral throne"
+    },
+    "flags.lakour-warcraft.plan.elements.18.nom": {
+      "fr": "Autel de la Braise",
+      "en": "Altar of the Ember"
+    },
+    "flags.lakour-warcraft.plan.elements.19.nom": {
+      "fr": "Puits de fouille",
+      "en": "Excavation pit"
+    }
+  },
+  "scenes/HGfPcvSfoHt2jw9y": {
+    "_nom": "Tarides — Fonderie de Fort-Rivet",
+    "name": {
+      "fr": "Tarides — Fonderie de Fort-Rivet",
+      "en": "Barrens — Fort Rivet Foundry"
+    },
+    "drawings.ZIDKP0h4XsLqNhK6.text": {
+      "fr": "Cour de la fonderie",
+      "en": "Foundry yard"
+    },
+    "drawings.cPRvH8GQzwfgRanp.text": {
+      "fr": "Bureau de Vizzik",
+      "en": "Vizzik's office"
+    },
+    "drawings.6R38PWGtcNKlQfdC.text": {
+      "fr": "Halle des machines",
+      "en": "Machine hall"
+    },
+    "drawings.az7rbgxBlQUSJ8xB.text": {
+      "fr": "Haut-fourneau",
+      "en": "Blast furnace"
+    },
+    "drawings.VsM26WK4DUyh7VGN.text": {
+      "fr": "Entrepôt des minerais",
+      "en": "Ore warehouse"
+    },
+    "drawings.BbCEQGxhAslg12AB.text": {
+      "fr": "Atelier des déchiqueteurs",
+      "en": "Shredder workshop"
+    },
+    "drawings.WnTl0hFhsOi059Ht.text": {
+      "fr": "Quai du zeppelin",
+      "en": "Zeppelin dock"
+    },
+    "sounds.QF9NTaHxHYbuulyu.name": {
+      "fr": "forge — Moteur à éclat",
+      "en": "forge — Shard engine"
+    },
+    "sounds.aVjqZApA419oFITs.name": {
+      "fr": "forge — Creuset",
+      "en": "forge — Crucible"
+    },
+    "regions.IRKL6k5K9mXCjGCo.behaviors.sJ37iyz5aE67jvul.system.text": {
+      "fr": "Sur la porte, une plaque de cuivre bien astiquée : « Tout se négocie. Sauf mon temps. »",
+      "en": "On the door, a well-polished copper plate: \"Everything is negotiable. Except my time.\""
+    },
+    "regions.cBbVw1Qm2iMzLEVa.behaviors.UhhhsobMdXCv8CHZ.system.text": {
+      "fr": "Le sol tremble sous les bottes. Ça sent le cuivre chaud et l'orage.",
+      "en": "The ground trembles under your boots. It smells of hot copper and thunderstorm."
+    },
+    "regions.LSXBNRkKrS4mFOVS.name": {
+      "fr": "Près du moteur",
+      "en": "Near the engine"
+    },
+    "regions.HGSAaQN2aOGldEzp.behaviors.ILJv1ROr3txJN5DG.system.text": {
+      "fr": "Une chaleur à cuire le pain. La fonte file dans sa rigole comme un ruisseau orange.",
+      "en": "Heat enough to bake bread. The molten iron runs down its channel like an orange stream."
+    },
+    "notes.QpLJ50E8fg8rOwIh.text": {
+      "fr": "Vizzik Tirelire — le retourner",
+      "en": "Vizzik Coinbox — turning him"
+    },
+    "notes.mTYAuVVnlfDabKTE.text": {
+      "fr": "Étagère de registres (indice)",
+      "en": "Shelf of ledgers (clue)"
+    },
+    "notes.5cLkGtdaL2kFVQt1.text": {
+      "fr": "Coffre-fort (indice)",
+      "en": "Safe (clue)"
+    },
+    "notes.PlLirFUfPlBb6E5x.text": {
+      "fr": "Moteur à éclat — la Braise",
+      "en": "Shard engine — the Ember"
+    },
+    "notes.CuyQ6WstFwPMYJxi.text": {
+      "fr": "Ouvriers malades (indice)",
+      "en": "Sick workers (clue)"
+    },
+    "notes.Vib6e4At9gMNytvB.text": {
+      "fr": "Caisses scellées (indice)",
+      "en": "Sealed crates (clue)"
+    },
+    "notes.QM437P4rDmhhM5jV.text": {
+      "fr": "Déchiqueteur et sifflet",
+      "en": "Shredder and whistle"
+    },
+    "notes.0fagZn7mR7kYC3LQ.text": {
+      "fr": "Minuit : le courrier du zeppelin",
+      "en": "Midnight: the zeppelin's mail"
+    },
+    "flags.lakour-warcraft.description": {
+      "fr": "Chapitre 1 : la fonderie gobeline qui brûle des éclats gangrenés dans ses machines, le bureau du patron, l'atelier des déchiqueteurs et le quai du zeppelin.",
+      "en": "Chapter 1: the goblin foundry that burns fel shards in its machines, the boss's office, the shredder workshop and the zeppelin dock."
+    },
+    "flags.lakour-warcraft.plan.elements.0.nom": {
+      "fr": "Bureau",
+      "en": "Desk"
+    },
+    "flags.lakour-warcraft.plan.elements.2.nom": {
+      "fr": "Étagère de registres",
+      "en": "Shelf of ledgers"
+    },
+    "flags.lakour-warcraft.plan.elements.4.nom": {
+      "fr": "Chaudière",
+      "en": "Boiler"
+    },
+    "flags.lakour-warcraft.plan.elements.6.nom": {
+      "fr": "Tapis roulant",
+      "en": "Conveyor belt"
+    },
+    "flags.lakour-warcraft.plan.elements.7.nom": {
+      "fr": "Creuset",
+      "en": "Crucible"
+    },
+    "flags.lakour-warcraft.plan.elements.8.nom": {
+      "fr": "Coulée de fonte",
+      "en": "Iron pour"
+    },
+    "flags.lakour-warcraft.plan.elements.9.nom": {
+      "fr": "Tas de scories",
+      "en": "Slag heap"
+    },
+    "flags.lakour-warcraft.plan.elements.10.nom": {
+      "fr": "Wagonnets",
+      "en": "Mine carts"
+    },
+    "flags.lakour-warcraft.plan.elements.11.nom": {
+      "fr": "Tour de guet",
+      "en": "Watchtower"
+    },
+    "flags.lakour-warcraft.plan.elements.12.nom": {
+      "fr": "Caisses de minerai",
+      "en": "Ore crates"
+    },
+    "flags.lakour-warcraft.plan.elements.13.nom": {
+      "fr": "Caisses scellées",
+      "en": "Sealed crates"
+    },
+    "flags.lakour-warcraft.plan.elements.14.nom": {
+      "fr": "Balance",
+      "en": "Scales"
+    },
+    "flags.lakour-warcraft.plan.elements.15.nom": {
+      "fr": "Déchiqueteur en réparation",
+      "en": "Shredder under repair"
+    },
+    "flags.lakour-warcraft.plan.elements.16.nom": {
+      "fr": "Pièces détachées",
+      "en": "Spare parts"
+    },
+    "flags.lakour-warcraft.plan.elements.17.nom": {
+      "fr": "Palan",
+      "en": "Hoist"
+    },
+    "flags.lakour-warcraft.plan.elements.18.nom": {
+      "fr": "Zeppelin de livraison",
+      "en": "Delivery zeppelin"
+    },
+    "flags.lakour-warcraft.aventure": {
+      "fr": "Les Braises de la Légion",
+      "en": "Embers of the Legion"
+    }
+  },
+  "scenes/JWpbieGolEaei6IV": {
+    "_nom": "Tarides — Relais de l'Oasis",
+    "name": {
+      "fr": "Tarides — Relais de l'Oasis",
+      "en": "Barrens — Oasis Waystation"
+    },
+    "drawings.7gCA6q1FmXGPB1PQ.text": {
+      "fr": "Savane",
+      "en": "Savanna"
+    },
+    "drawings.ErdvefjQoLzpyJuy.text": {
+      "fr": "Relais",
+      "en": "Waystation"
+    },
+    "drawings.y3cQJd3du2imiuN4.text": {
+      "fr": "Écurie",
+      "en": "Stable"
+    },
+    "drawings.sS2Tr8K0lNM8oOpW.text": {
+      "fr": "Oasis",
+      "en": "Oasis"
+    },
+    "sounds.NSQhhdnpam5pAbLx.name": {
+      "fr": "feu — Feu de camp",
+      "en": "feu — Campfire"
+    },
+    "sounds.rY1iGV80WS0sxHqS.name": {
+      "fr": "nuit — Savane",
+      "en": "nuit — Savanna"
+    },
+    "sounds.E3wkwjm2mAYiMBfn.name": {
+      "fr": "vent — Épineux",
+      "en": "vent — Thorntree"
+    },
+    "regions.n1LJlfxr9us7UT6h.behaviors.epCvXBlrXDEPDnHR.system.text": {
+      "fr": "Gonds arrachés, couchettes renversées. Le vent rabat ici l'odeur du kodo mort.",
+      "en": "Hinges torn off, bunks overturned. The wind drives the smell of the dead kodo in here."
+    },
+    "regions.ER2VDvHplKDRdX4M.behaviors.fa5CayE3UOWIqEQH.system.text": {
+      "fr": "Derrière la mangeoire, un souffle lourd, retenu.",
+      "en": "Behind the manger, a heavy breath, held back."
+    },
+    "regions.S9xP6zGshxBABfMY.name": {
+      "fr": "Cachette de Hanuk",
+      "en": "Hanuk's hiding place"
+    },
+    "regions.Ky3WRIzq7y7ckExo.behaviors.r71u0P5F18ypxopR.system.text": {
+      "fr": "L'eau a la teinte d'une vieille bouteille. Aucune bête n'y boit, pas même les mouches.",
+      "en": "The water has the tint of an old bottle. No beast drinks from it, not even the flies."
+    },
+    "notes.XLU41hEon4FdCApR.text": {
+      "fr": "Hanuk Pas-de-Pluie, blessé",
+      "en": "Hanuk Norain, wounded"
+    },
+    "notes.iGDxSqcnQu4O25dz.text": {
+      "fr": "Puits du relais (indice)",
+      "en": "Waystation well (clue)"
+    },
+    "notes.nVqqj3ZyeSfY5Xot.text": {
+      "fr": "Registre de la caravane (indice)",
+      "en": "Caravan register (clue)"
+    },
+    "notes.LCt8FTdCNbWat67e.text": {
+      "fr": "Traces de l'attaque (indice)",
+      "en": "Traces of the attack (clue)"
+    },
+    "notes.LQ4jC0OOr9QKej8u.text": {
+      "fr": "Minuit : hurans par l'oasis",
+      "en": "Midnight: quilboar through the oasis"
+    },
+    "flags.lakour-warcraft.description": {
+      "fr": "Scène 2 : le relais pillé, le puits empoisonné et l'attaque nocturne des hurans.",
+      "en": "Scene 2: the looted waystation, the poisoned well and the quilboar's night attack."
+    },
+    "flags.lakour-warcraft.plan.elements.1.nom": {
+      "fr": "Couchettes",
+      "en": "Bunks"
+    },
+    "flags.lakour-warcraft.plan.elements.2.nom": {
+      "fr": "Mangeoire",
+      "en": "Manger"
+    },
+    "flags.lakour-warcraft.plan.elements.3.nom": {
+      "fr": "Puits",
+      "en": "Well"
+    },
+    "flags.lakour-warcraft.plan.elements.4.nom": {
+      "fr": "Feu de camp",
+      "en": "Campfire"
+    },
+    "flags.lakour-warcraft.plan.elements.6.nom": {
+      "fr": "Caisses éventrées",
+      "en": "Gutted crates"
+    },
+    "flags.lakour-warcraft.plan.elements.7.nom": {
+      "fr": "Chariot renversé",
+      "en": "Overturned wagon"
+    },
+    "flags.lakour-warcraft.plan.elements.8.nom": {
+      "fr": "Kodo mort",
+      "en": "Dead kodo"
+    },
+    "flags.lakour-warcraft.plan.elements.9.nom": {
+      "fr": "Abreuvoir",
+      "en": "Trough"
+    },
+    "flags.lakour-warcraft.plan.elements.10.nom": {
+      "fr": "Palmier",
+      "en": "Palm tree"
+    },
+    "flags.lakour-warcraft.plan.elements.14.nom": {
+      "fr": "Épineux",
+      "en": "Thorntree"
+    }
+  },
+  "scenes/LBFCzoPBgK2w2oM9": {
+    "_nom": "Gué-Brumeux — Caves et boyau des contrebandiers",
+    "name": {
+      "fr": "Gué-Brumeux — Caves et boyau des contrebandiers",
+      "en": "Mistford — Cellars and Smugglers' Tunnel"
+    },
+    "drawings.GgzeBbMzM04noTqD.text": {
+      "fr": "Cave du relais",
+      "en": "Waystation cellar"
+    },
+    "drawings.ZOtytJi5ZNZYSbrH.text": {
+      "fr": "Réserve",
+      "en": "Storeroom"
+    },
+    "drawings.EwD0CW9hMfPukstd.text": {
+      "fr": "Boyau des contrebandiers",
+      "en": "Smugglers' tunnel"
+    },
+    "drawings.oh82tvQ5raojtZk1.text": {
+      "fr": "Laboratoire",
+      "en": "Laboratory"
+    },
+    "drawings.IQzJqbSNkAIF2qAg.text": {
+      "fr": "Cachot",
+      "en": "Cell"
+    },
+    "drawings.UOECGsgT6rUIqoJC.text": {
+      "fr": "Galerie noyée",
+      "en": "Flooded gallery"
+    },
+    "drawings.iEM95NxDJFNzjmcQ.text": {
+      "fr": "Embarcadère caché",
+      "en": "Hidden landing"
+    },
+    "drawings.NCgsMXMgNQ1C9Cp4.text": {
+      "fr": "Bras du marais",
+      "en": "Arm of the marsh"
+    },
+    "sounds.X2QEHing5o4YJBZe.name": {
+      "fr": "grotte — Boyau des contrebandiers",
+      "en": "grotte — Smugglers' tunnel"
+    },
+    "sounds.Go9JEUbZsWdVtXuH.name": {
+      "fr": "tension — Laboratoire",
+      "en": "tension — Laboratory"
+    },
+    "sounds.Pyiu216uWl2pkjAV.name": {
+      "fr": "feu — Chaudron de peste",
+      "en": "feu — Plague cauldron"
+    },
+    "sounds.papB7ftBzdVEZaA5.name": {
+      "fr": "pluie — Pluie sur le marais",
+      "en": "pluie — Rain over the marsh"
+    },
+    "regions.wokvLJPvH3Shfr1H.behaviors.VeFr9AGzqC3JhQOG.system.text": {
+      "fr": "Sous l'odeur de bière renversée, une autre, sucrée, qui colle au fond de la gorge.",
+      "en": "Beneath the smell of spilled beer, another, sweet, that sticks to the back of the throat."
+    },
+    "regions.fCT90FWi79DGy8Eu.behaviors.xp2OUZP5FY0c2zjJ.system.text": {
+      "fr": "Des bocaux alignés comme à la parade. Dans certains, quelque chose bouge encore.",
+      "en": "Jars lined up as if on parade. In some, something still moves."
+    },
+    "notes.nDQLVsJ3VqO0pF0F.text": {
+      "fr": "Farine marquée (indice)",
+      "en": "Marked flour (clue)"
+    },
+    "notes.O1e0uuO5PN8To4Mh.text": {
+      "fr": "L'étai piégé",
+      "en": "The booby-trapped prop"
+    },
+    "notes.wBvadLIvKGZk1H2L.text": {
+      "fr": "Laboratoire : acolytes et table vide",
+      "en": "Laboratory: acolytes and empty table"
+    },
+    "notes.DcyMoEL6ER9O6F9n.text": {
+      "fr": "Le carnet du docteur",
+      "en": "The doctor's notebook"
+    },
+    "notes.yhdfFTaFpQ5MEg8M.text": {
+      "fr": "Bram, enchaîné",
+      "en": "Bram, in chains"
+    },
+    "notes.d9gGIL0CTrk1jCW7.text": {
+      "fr": "Ossuaire : les squelettes",
+      "en": "Ossuary: the skeletons"
+    },
+    "notes.C1bEmwPOek3rhYIp.text": {
+      "fr": "La barque du passeur",
+      "en": "The ferryman's boat"
+    },
+    "flags.lakour-warcraft.description": {
+      "fr": "Acte 2 : sous le relais, la cave, le vieux boyau de contrebandiers rouvert, le laboratoire du nécromancien, le cachot du passeur, l'ossuaire, la galerie noyée et l'embarcadère caché sur le marais.",
+      "en": "Act 2: beneath the waystation, the cellar, the old smugglers' tunnel reopened, the necromancer's laboratory, the ferryman's cell, the ossuary, the flooded gallery and the hidden landing on the marsh."
+    },
+    "flags.lakour-warcraft.plan.elements.0.nom": {
+      "fr": "Escalier de la trappe",
+      "en": "Trapdoor stairs"
+    },
+    "flags.lakour-warcraft.plan.elements.1.nom": {
+      "fr": "Tonneaux de bière",
+      "en": "Beer barrels"
+    },
+    "flags.lakour-warcraft.plan.elements.2.nom": {
+      "fr": "Sacs de farine marqués",
+      "en": "Marked flour sacks"
+    },
+    "flags.lakour-warcraft.plan.elements.3.nom": {
+      "fr": "Gravats du mur",
+      "en": "Rubble from the wall"
+    },
+    "flags.lakour-warcraft.plan.elements.4.nom": {
+      "fr": "Jambons fumés",
+      "en": "Smoked hams"
+    },
+    "flags.lakour-warcraft.plan.elements.5.nom": {
+      "fr": "Caisses de contrebande",
+      "en": "Smuggled crates"
+    },
+    "flags.lakour-warcraft.plan.elements.6.nom": {
+      "fr": "Étai pourri",
+      "en": "Rotten prop"
+    },
+    "flags.lakour-warcraft.plan.elements.7.nom": {
+      "fr": "Flaque",
+      "en": "Puddle"
+    },
+    "flags.lakour-warcraft.plan.elements.8.nom": {
+      "fr": "Étagère de bocaux",
+      "en": "Shelf of jars"
+    },
+    "flags.lakour-warcraft.plan.elements.9.nom": {
+      "fr": "Alambics",
+      "en": "Stills"
+    },
+    "flags.lakour-warcraft.plan.elements.10.nom": {
+      "fr": "Table de dissection",
+      "en": "Dissection table"
+    },
+    "flags.lakour-warcraft.plan.elements.11.nom": {
+      "fr": "Pupitre du docteur",
+      "en": "Doctor's lectern"
+    },
+    "flags.lakour-warcraft.plan.elements.12.nom": {
+      "fr": "Chaudron de peste",
+      "en": "Plague cauldron"
+    },
+    "flags.lakour-warcraft.plan.elements.13.nom": {
+      "fr": "Sacs prêts à partir",
+      "en": "Sacks ready to go"
+    },
+    "flags.lakour-warcraft.plan.elements.15.nom": {
+      "fr": "Paille",
+      "en": "Straw"
+    },
+    "flags.lakour-warcraft.plan.elements.16.nom": {
+      "fr": "Niches d'ossements",
+      "en": "Bone niches"
+    },
+    "flags.lakour-warcraft.plan.elements.17.nom": {
+      "fr": "Tas de crânes",
+      "en": "Pile of skulls"
+    },
+    "flags.lakour-warcraft.plan.elements.18.nom": {
+      "fr": "Vieux coffre",
+      "en": "Old chest"
+    },
+    "flags.lakour-warcraft.plan.elements.20.nom": {
+      "fr": "Pieux d'amarrage",
+      "en": "Mooring stakes"
+    },
+    "flags.lakour-warcraft.plan.elements.21.nom": {
+      "fr": "Barque du passeur",
+      "en": "Ferryman's boat"
+    },
+    "flags.lakour-warcraft.plan.elements.22.nom": {
+      "fr": "Lanterne éteinte",
+      "en": "Unlit lantern"
+    },
+    "flags.lakour-warcraft.plan.elements.24.nom": {
+      "fr": "Souche noyée",
+      "en": "Drowned stump"
+    },
+    "flags.lakour-warcraft.plan.sons.3.nom": {
+      "fr": "Pluie sur le marais",
+      "en": "Rain over the marsh"
+    }
+  },
+  "scenes/MlGXuczX7HtSy7D4": {
+    "_nom": "Lieu — Mine",
+    "name": {
+      "fr": "Lieu — Mine",
+      "en": "Location — Mine"
+    },
+    "drawings.dXTpdg4eHzAOV2LU.text": {
+      "fr": "Carreau de la mine",
+      "en": "Pithead"
+    },
+    "drawings.KGjHCoTxo13tqstK.text": {
+      "fr": "Front de taille",
+      "en": "Working face"
+    },
+    "drawings.ojrK9OplVixxR69y.text": {
+      "fr": "Réserve d'outils",
+      "en": "Tool store"
+    },
+    "drawings.NgSgpjO0fYU07H2d.text": {
+      "fr": "Puits de descente",
+      "en": "Descent shaft"
+    },
+    "drawings.CPNH7LZSjD6yuyX9.text": {
+      "fr": "Galerie effondrée",
+      "en": "Collapsed gallery"
+    },
+    "flags.lakour-warcraft.description": {
+      "fr": "Une mine de cuivre ou de fer, active ou abandonnée : carreau à l'entrée, galerie principale, front de taille, réserve d'outils, puits de descente et galerie effondrée. Pour des kobolds à déloger, des mineurs disparus, une contrebande, un trésor enfoui, un éboulement ou un repaire de bandits défias.",
+      "en": "A copper or iron mine, working or abandoned: pithead at the entrance, main gallery, working face, tool store, descent shaft and collapsed gallery. For kobolds to dislodge, missing miners, smuggling, buried treasure, a cave-in or a Defias bandit hideout."
+    },
+    "flags.lakour-warcraft.plan.elements.0.nom": {
+      "fr": "Établi",
+      "en": "Workbench"
+    },
+    "flags.lakour-warcraft.plan.elements.3.nom": {
+      "fr": "Étai",
+      "en": "Prop"
+    },
+    "flags.lakour-warcraft.plan.elements.4.nom": {
+      "fr": "Filon de cuivre",
+      "en": "Copper seam"
+    },
+    "flags.lakour-warcraft.plan.elements.5.nom": {
+      "fr": "Pilier de roche",
+      "en": "Rock pillar"
+    },
+    "flags.lakour-warcraft.plan.elements.10.nom": {
+      "fr": "Éboulis",
+      "en": "Scree"
+    },
+    "flags.lakour-warcraft.plan.elements.12.nom": {
+      "fr": "Squelette de mineur",
+      "en": "Miner's skeleton"
+    }
+  },
+  "scenes/NuKH3uGmrD5aAD6A": {
+    "_nom": "Lieu — Village humain",
+    "name": {
+      "fr": "Lieu — Village humain",
+      "en": "Location — Human Village"
+    },
+    "drawings.a2cVVjClP4fznlXd.text": {
+      "fr": "Place du village",
+      "en": "Village square"
+    },
+    "drawings.D6oXn6dEmsRqD1OB.text": {
+      "fr": "Forge",
+      "en": "Smithy"
+    },
+    "drawings.YbSKB6IwwEcsAGSX.text": {
+      "fr": "Maison du bourgmestre",
+      "en": "Magistrate's house"
+    },
+    "drawings.tmWRZOaVBpOsjwMW.text": {
+      "fr": "Chapelle de la Lumière",
+      "en": "Chapel of the Light"
+    },
+    "drawings.SGbpZ2y6oeFyAurQ.text": {
+      "fr": "Maison du meunier",
+      "en": "Miller's house"
+    },
+    "drawings.eCw2glRnG4nYiDDf.text": {
+      "fr": "Échoppe",
+      "en": "Shop"
+    },
+    "drawings.44HGCqGFk4XrEHHG.text": {
+      "fr": "Grange",
+      "en": "Barn"
+    },
+    "sounds.MSnLz9gHyHZQEuyq.name": {
+      "fr": "feu — Foyer de forge",
+      "en": "feu — Forge hearth"
+    },
+    "sounds.ABCH5aSBldYQYxGA.name": {
+      "fr": "forge — Enclume",
+      "en": "forge — Anvil"
+    },
+    "sounds.0QD1hCMlRGRScKVX.name": {
+      "fr": "foule — Place du village",
+      "en": "foule — Village square"
+    },
+    "flags.lakour-warcraft.description": {
+      "fr": "Un village de l'Alliance (Comté d'Elwynn, Marche de l'Ouest, Carmines) : place herbeuse et puits, forge, maison du bourgmestre, chapelle de la Lumière, échoppe, maison et grange. Pour une fête, un marché, un appel à l'aide, une attaque de bandits ou de gnolls, une enquête de voisinage ou un départ d'aventure.",
+      "en": "An Alliance village (Elwynn Forest, Westfall, Redridge): grassy square and well, smithy, magistrate's house, chapel of the Light, shop, house and barn. For a festival, a market, a call for help, an attack by bandits or gnolls, a neighborhood investigation or the start of an adventure."
+    },
+    "flags.lakour-warcraft.plan.elements.1.nom": {
+      "fr": "Foyer de forge",
+      "en": "Forge hearth"
+    },
+    "flags.lakour-warcraft.plan.elements.2.nom": {
+      "fr": "Enclume",
+      "en": "Anvil"
+    },
+    "flags.lakour-warcraft.plan.elements.4.nom": {
+      "fr": "Autel de la Lumière",
+      "en": "Altar of the Light"
+    },
+    "flags.lakour-warcraft.plan.elements.5.nom": {
+      "fr": "Bancs",
+      "en": "Benches"
+    },
+    "flags.lakour-warcraft.plan.elements.9.nom": {
+      "fr": "Bottes de foin",
+      "en": "Hay bales"
+    },
+    "flags.lakour-warcraft.plan.elements.11.nom": {
+      "fr": "Étal",
+      "en": "Stall"
+    },
+    "flags.lakour-warcraft.plan.elements.13.nom": {
+      "fr": "Arbre",
+      "en": "Tree"
+    },
+    "flags.lakour-warcraft.plan.elements.15.nom": {
+      "fr": "Clôture",
+      "en": "Fence"
+    },
+    "flags.lakour-warcraft.plan.pieces.1.nom": {
+      "fr": "Forge",
+      "en": "Smithy"
+    }
+  },
+  "scenes/RlyX3Yz5pMpfyHgY": {
+    "_nom": "Tarides — Cratère de Brasegouffre",
+    "name": {
+      "fr": "Tarides — Cratère de Brasegouffre",
+      "en": "Barrens — Emberchasm Crater"
+    },
+    "drawings.GIf6KMsXbkzvFEnl.text": {
+      "fr": "Pentes du cratère",
+      "en": "Crater slopes"
+    },
+    "drawings.eBBnZkDOQeNLkTOl.text": {
+      "fr": "Camp de la Lame ardente",
+      "en": "Burning Blade camp"
+    },
+    "drawings.sDNiUj32xFHAxmPc.text": {
+      "fr": "Fosse aux captifs",
+      "en": "Captives' pit"
+    },
+    "drawings.Yq4KrlbBKBxLcS5u.text": {
+      "fr": "Cercle du rituel",
+      "en": "Ritual circle"
+    },
+    "drawings.3FPRxSeSI2bRJgx7.text": {
+      "fr": "Ruines de la forge",
+      "en": "Forge ruins"
+    },
+    "drawings.JAc56bG4iRmOvGuh.text": {
+      "fr": "Puits de la Fournaise",
+      "en": "Pit of the Furnace"
+    },
+    "sounds.3GiGolO9QoHIwdal.name": {
+      "fr": "feu — Gouffre de lave",
+      "en": "feu — Lava chasm"
+    },
+    "sounds.aikkmK1VKWcemtDP.name": {
+      "fr": "tension — Cercle du rituel",
+      "en": "tension — Ritual circle"
+    },
+    "sounds.pzDE9rfSMuh2Hfe5.name": {
+      "fr": "vent — Bord du cratère",
+      "en": "vent — Crater rim"
+    },
+    "regions.N1J0i8o0YeiMv2a2.behaviors.PpXw0BYjMfrZQqhp.system.text": {
+      "fr": "Une enclume grande comme un autel, froide depuis dix mille ans. Ou presque.",
+      "en": "An anvil as big as an altar, cold for ten thousand years. Or nearly."
+    },
+    "regions.h7D1Ki67K0afbWex.behaviors.EJzan4zmN9egeYPO.system.text": {
+      "fr": "Des voix en trois langues demandent la même chose : de l'eau.",
+      "en": "Voices in three languages ask for the same thing: water."
+    },
+    "regions.EBDMjXyujBkSxziD.behaviors.cYEw3goybTG5adYe.system.text": {
+      "fr": "Un battement sourd monte du fond, si lent qu'on le sent dans les dents avant de l'entendre.",
+      "en": "A dull beat rises from the depths, so slow you feel it in your teeth before you hear it."
+    },
+    "notes.MetGfl5sLdQeoqtu.text": {
+      "fr": "Captifs à libérer",
+      "en": "Captives to free"
+    },
+    "notes.So9xBZH8Ps3qrMD3.text": {
+      "fr": "Autel des Braises — Drogha l'Embrasé",
+      "en": "Altar of the Embers — Drogha the Burning"
+    },
+    "notes.MWw1wjmdegYC9QDK.text": {
+      "fr": "Portail de la Fournaise",
+      "en": "Portal of the Furnace"
+    },
+    "notes.ysxk65yxHp3WMypZ.text": {
+      "fr": "Ezzavel, spectateur",
+      "en": "Ezzavel, spectator"
+    },
+    "notes.XqKOtZc95iLe4B9Z.text": {
+      "fr": "Fissure secrète vers le puits",
+      "en": "Secret fissure to the pit"
+    },
+    "notes.RD9E8cVjPgUT9hoF.text": {
+      "fr": "Cœur de la Fournaise",
+      "en": "Heart of the Furnace"
+    },
+    "flags.lakour-warcraft.description": {
+      "fr": "Chapitre 4 : le cratère où sont tombées les Braises il y a dix mille ans, le camp de la Lame ardente, le cercle du rituel, les ruines de la forge démoniaque et le puits où bat le Cœur de la Fournaise.",
+      "en": "Chapter 4: the crater where the Embers fell ten thousand years ago, the Burning Blade camp, the ritual circle, the ruins of the demonic forge and the pit where the Heart of the Furnace beats."
+    },
+    "flags.lakour-warcraft.plan.elements.0.nom": {
+      "fr": "Tentes",
+      "en": "Tents"
+    },
+    "flags.lakour-warcraft.plan.elements.3.nom": {
+      "fr": "Caisses d'armes",
+      "en": "Weapon crates"
+    },
+    "flags.lakour-warcraft.plan.elements.4.nom": {
+      "fr": "Cages",
+      "en": "Cages"
+    },
+    "flags.lakour-warcraft.plan.elements.6.nom": {
+      "fr": "Autel des Braises",
+      "en": "Altar of the Embers"
+    },
+    "flags.lakour-warcraft.plan.elements.8.nom": {
+      "fr": "Obélisque",
+      "en": "Obelisk"
+    },
+    "flags.lakour-warcraft.plan.elements.12.nom": {
+      "fr": "Enclume démoniaque",
+      "en": "Demonic anvil"
+    },
+    "flags.lakour-warcraft.plan.elements.13.nom": {
+      "fr": "Forge éteinte",
+      "en": "Dead forge"
+    },
+    "flags.lakour-warcraft.plan.elements.16.nom": {
+      "fr": "Chaînes de fer gangrené",
+      "en": "Fel iron chains"
+    },
+    "flags.lakour-warcraft.plan.elements.17.nom": {
+      "fr": "Météorite",
+      "en": "Meteorite"
+    },
+    "flags.lakour-warcraft.plan.elements.20.nom": {
+      "fr": "Gouffre de lave",
+      "en": "Lava chasm"
+    },
+    "flags.lakour-warcraft.plan.sons.3.nom": {
+      "fr": "Bord du cratère",
+      "en": "Crater rim"
+    }
+  },
+  "scenes/g35W7BBQYa9IrYSU": {
+    "_nom": "Lieu — Auberge de bord de route",
+    "name": {
+      "fr": "Lieu — Auberge de bord de route",
+      "en": "Location — Roadside Inn"
+    },
+    "drawings.dC5CF9qYzpqmCxsJ.text": {
+      "fr": "Salle commune",
+      "en": "Common room"
+    },
+    "drawings.KCPTBmKYNo25lBYe.text": {
+      "fr": "Cuisine",
+      "en": "Kitchen"
+    },
+    "drawings.4qbDKECyBo20CCbz.text": {
+      "fr": "Cellier",
+      "en": "Cellar"
+    },
+    "drawings.BpCi4X95qPZ86kTT.text": {
+      "fr": "Couloir des chambres",
+      "en": "Bedroom corridor"
+    },
+    "drawings.q3DzmKnFQ6ukYUVD.text": {
+      "fr": "Chambre du levant",
+      "en": "East room"
+    },
+    "drawings.vC0VNWGzNukHV1Ht.text": {
+      "fr": "Chambre du milieu",
+      "en": "Middle room"
+    },
+    "drawings.l5NPSRk2NIUkzxIR.text": {
+      "fr": "Chambre du couchant",
+      "en": "West room"
+    },
+    "sounds.uoPaTap3A03Ccjzp.name": {
+      "fr": "feu — Cheminée",
+      "en": "feu — Fireplace"
+    },
+    "sounds.AKiKEYJ2ZVjWHGPg.name": {
+      "fr": "feu — Fourneau",
+      "en": "feu — Stove"
+    },
+    "sounds.R9mZrry4We22hLOp.name": {
+      "fr": "foule — Salle commune",
+      "en": "foule — Common room"
+    },
+    "flags.lakour-warcraft.description": {
+      "fr": "Une auberge de village ou de carrefour : grande salle avec cheminée et comptoir, cuisine, cellier (trappe secrète), couloir de trois chambres et écurie. Pour une rencontre avec un PNJ, une rumeur, une bagarre de comptoir, un vol dans les chambres, un rendez-vous discret ou une nuit interrompue par des intrus.",
+      "en": "A village or crossroads inn: great room with fireplace and bar, kitchen, cellar (secret trapdoor), corridor of three bedrooms and stable. For a meeting with an NPC, a rumor, a bar brawl, a theft in the rooms, a discreet rendezvous or a night interrupted by intruders."
+    },
+    "flags.lakour-warcraft.plan.elements.0.nom": {
+      "fr": "Cheminée",
+      "en": "Fireplace"
+    },
+    "flags.lakour-warcraft.plan.elements.6.nom": {
+      "fr": "Fourneau",
+      "en": "Stove"
+    },
+    "flags.lakour-warcraft.plan.elements.7.nom": {
+      "fr": "Table de cuisine",
+      "en": "Kitchen table"
+    },
+    "flags.lakour-warcraft.plan.elements.10.nom": {
+      "fr": "Lit",
+      "en": "Bed"
+    },
+    "flags.lakour-warcraft.plan.pieces.1.nom": {
+      "fr": "Cuisine",
+      "en": "Kitchen"
+    }
+  },
+  "scenes/g5R6ceiFmzXYjr3m": {
+    "_nom": "Lieu — Campement orc",
+    "name": {
+      "fr": "Lieu — Campement orc",
+      "en": "Location — Orc Camp"
+    },
+    "drawings.IrZNcvAXg5gZ8Xs3.text": {
+      "fr": "Camp",
+      "en": "Camp"
+    },
+    "drawings.CGgDdOjHJ3VQpVZG.text": {
+      "fr": "Tente du chef",
+      "en": "Chief's tent"
+    },
+    "drawings.2BxBl4SKpIg4ZfF3.text": {
+      "fr": "Tente des grunts",
+      "en": "Grunts' tent"
+    },
+    "drawings.oVW9NpEz9vJ1hxn0.text": {
+      "fr": "Tente du chaman",
+      "en": "Shaman's tent"
+    },
+    "drawings.EF6Vk0UCPErH75Uf.text": {
+      "fr": "Enclos des loups",
+      "en": "Wolf pen"
+    },
+    "drawings.oMjysByzrFjxyN40.text": {
+      "fr": "Forge de campagne",
+      "en": "Field forge"
+    },
+    "sounds.q1gqnaqX09InB5pa.name": {
+      "fr": "feu — Chaudron",
+      "en": "feu — Cauldron"
+    },
+    "flags.lakour-warcraft.description": {
+      "fr": "Un avant-poste de la Horde en pleine nature (Tarides, Durotar, Orneval) : tente du chef, tente des grunts, tente du chaman, enclos des loups, forge de campagne et grand feu central. Pour une audience auprès d'un chef orc, un défi d'honneur, une mission confiée par la Horde, une attaque de centaures ou une infiltration côté Alliance.",
+      "en": "A Horde outpost in the wild (the Barrens, Durotar, Ashenvale): chief's tent, grunts' tent, shaman's tent, wolf pen, field forge and great central fire. For an audience with an orc chief, a challenge of honor, a mission entrusted by the Horde, a centaur attack or an infiltration from the Alliance side."
+    },
+    "flags.lakour-warcraft.plan.elements.1.nom": {
+      "fr": "Trône du chef",
+      "en": "Chief's throne"
+    },
+    "flags.lakour-warcraft.plan.elements.2.nom": {
+      "fr": "Table de guerre",
+      "en": "War table"
+    },
+    "flags.lakour-warcraft.plan.elements.3.nom": {
+      "fr": "Paillasses",
+      "en": "Straw mattresses"
+    },
+    "flags.lakour-warcraft.plan.elements.4.nom": {
+      "fr": "Totem",
+      "en": "Totem"
+    },
+    "flags.lakour-warcraft.plan.elements.5.nom": {
+      "fr": "Chaudron",
+      "en": "Cauldron"
+    },
+    "flags.lakour-warcraft.plan.elements.9.nom": {
+      "fr": "Tambour de guerre",
+      "en": "War drum"
+    },
+    "flags.lakour-warcraft.plan.elements.10.nom": {
+      "fr": "Bannière de la Horde",
+      "en": "Horde banner"
+    },
+    "flags.lakour-warcraft.plan.elements.11.nom": {
+      "fr": "Palissade",
+      "en": "Palisade"
+    }
+  },
+  "scenes/l7wbvfPi6CvNekal": {
+    "_nom": "Lieu — Port",
+    "name": {
+      "fr": "Lieu — Port",
+      "en": "Location — Harbor"
+    },
+    "drawings.0Rja0XXZbYJpmMNm.text": {
+      "fr": "Rue du port",
+      "en": "Harbor street"
+    },
+    "drawings.gwnqf3TWp1j0b7XQ.text": {
+      "fr": "Capitainerie",
+      "en": "Harbormaster's office"
+    },
+    "drawings.DsoHhrFeOtC2Z5eq.text": {
+      "fr": "Entrepôt",
+      "en": "Warehouse"
+    },
+    "drawings.qsI4n6Vdr1RueLGs.text": {
+      "fr": "Taverne du port",
+      "en": "Harbor tavern"
+    },
+    "drawings.vZVcqv3MegOy46g3.text": {
+      "fr": "Bassin",
+      "en": "Basin"
+    },
+    "drawings.CVd6UxisnikY8rHD.text": {
+      "fr": "Jetée",
+      "en": "Jetty"
+    },
+    "sounds.T3cUe8oFaLzxghJt.name": {
+      "fr": "foule — Taverne du port",
+      "en": "foule — Harbor tavern"
+    },
+    "sounds.CKZMw8b8dDGfykDx.name": {
+      "fr": "mer — Bassin",
+      "en": "mer — Basin"
+    },
+    "flags.lakour-warcraft.description": {
+      "fr": "Le port d'une ville côtière (Hurlevent, Theramore, Cabestan, Baie-du-Butin) : rue du port avec capitainerie, entrepôt et taverne, quai pavé, jetée de bois et bassin où mouillent un navire et des barques. Pour un embarquement, une contrebande, un marché aux poissons, une rixe de marins, une attaque de murlocs ou de nagas, ou une filature entre les caisses.",
+      "en": "The harbor of a coastal town (Stormwind, Theramore, Ratchet, Booty Bay): harbor street with harbormaster's office, warehouse and tavern, paved quay, wooden jetty and basin where a ship and rowboats lie at anchor. For an embarkation, smuggling, a fish market, a sailors' brawl, an attack by murlocs or naga, or a tail between the crates."
+    },
+    "flags.lakour-warcraft.plan.elements.0.nom": {
+      "fr": "Bureau du capitaine",
+      "en": "Harbormaster's desk"
+    },
+    "flags.lakour-warcraft.plan.elements.8.nom": {
+      "fr": "Filets de pêche",
+      "en": "Fishing nets"
+    },
+    "flags.lakour-warcraft.plan.elements.9.nom": {
+      "fr": "Navire marchand",
+      "en": "Merchant ship"
+    },
+    "flags.lakour-warcraft.plan.elements.11.nom": {
+      "fr": "Bitte d'amarrage",
+      "en": "Mooring bollard"
+    }
+  },
+  "scenes/luDaXY4uh7ekndDq": {
+    "_nom": "Lieu — Clairière en forêt",
+    "name": {
+      "fr": "Lieu — Clairière en forêt",
+      "en": "Location — Forest Clearing"
+    },
+    "drawings.j4jZU1ZXGO1iGZ5X.text": {
+      "fr": "Sous-bois",
+      "en": "Undergrowth"
+    },
+    "drawings.NaF2TmINNkFQjiMP.text": {
+      "fr": "Cabane du trappeur",
+      "en": "Trapper's cabin"
+    },
+    "drawings.PVtdvOa0VwOcM7E0.text": {
+      "fr": "Ruisseau",
+      "en": "Stream"
+    },
+    "sounds.u2UNWGMTBFmbCCA8.name": {
+      "fr": "mer — Ruisseau",
+      "en": "mer — Stream"
+    },
+    "flags.lakour-warcraft.description": {
+      "fr": "Une clairière au cœur d'une forêt (Elwynn, Orneval, Bois de la Pénombre) : grand chêne, cercle de pierres, cabane de trappeur et ruisseau franchi par un pont de rondins. Pour un bivouac, une embuscade de loups ou de bandits, un rendez-vous secret, un rituel druidique ou un satyre qui corrompt les bois.",
+      "en": "A clearing in the heart of a forest (Elwynn, Ashenvale, Duskwood): great oak, stone circle, trapper's cabin and stream crossed by a log bridge. For a bivouac, an ambush by wolves or bandits, a secret meeting, a druidic ritual or a satyr corrupting the woods."
+    },
+    "flags.lakour-warcraft.plan.elements.0.nom": {
+      "fr": "Grand chêne",
+      "en": "Great oak"
+    },
+    "flags.lakour-warcraft.plan.elements.2.nom": {
+      "fr": "Cercle de pierres",
+      "en": "Stone circle"
+    },
+    "flags.lakour-warcraft.plan.elements.3.nom": {
+      "fr": "Pont de rondins",
+      "en": "Log bridge"
+    },
+    "flags.lakour-warcraft.plan.elements.4.nom": {
+      "fr": "Lit de camp",
+      "en": "Camp bed"
+    },
+    "flags.lakour-warcraft.plan.elements.11.nom": {
+      "fr": "Souche",
+      "en": "Stump"
+    },
+    "flags.lakour-warcraft.plan.elements.13.nom": {
+      "fr": "Buissons",
+      "en": "Bushes"
+    }
+  },
+  "scenes/nrJ0CD4bPLx0WCt2": {
+    "_nom": "Tarides — Kraal de Ronceroc",
+    "name": {
+      "fr": "Tarides — Kraal de Ronceroc",
+      "en": "Barrens — Thornrock Kraal"
+    },
+    "drawings.VBrGpUePXq3k0LxR.text": {
+      "fr": "Ronceraie",
+      "en": "Bramble field"
+    },
+    "drawings.cv0yJ1FNhMxwBoDY.text": {
+      "fr": "Kraal",
+      "en": "Kraal"
+    },
+    "drawings.N8XBOgFEFC7N0uuD.text": {
+      "fr": "Hutte de la cheffe",
+      "en": "Chieftainess's hut"
+    },
+    "drawings.AFop6w8jCYbFhLrl.text": {
+      "fr": "Hutte du géomancien",
+      "en": "Geomancer's hut"
+    },
+    "drawings.JxsxcrxYk3ytE2os.text": {
+      "fr": "Enclos à sangliers",
+      "en": "Boar pen"
+    },
+    "regions.oLqpsniYksiit2pB.name": {
+      "fr": "Entrée du kraal",
+      "en": "Kraal entrance"
+    },
+    "regions.oLqpsniYksiit2pB.behaviors.YAdmKUria0vcaJrB.system.text": {
+      "fr": "Un cor de corne beugle derrière le grand totem. Dans l'enclos, des groins se dressent.",
+      "en": "A horn bellows behind the great totem. In the pen, snouts rise."
+    },
+    "regions.aAUB3MAIItqwFB3P.behaviors.Uz1B8yzaI2aunbBe.system.text": {
+      "fr": "Des pierres plates gravées de spirales, posées en cercle. L'air y sent la pluie qui ne vient plus.",
+      "en": "Flat stones carved with spirals, laid in a circle. The air there smells of rain that no longer comes."
+    },
+    "regions.X4qzZILDw4oHXdQK.name": {
+      "fr": "Mare gangrenée",
+      "en": "Fel pool"
+    },
+    "regions.X4qzZILDw4oHXdQK.behaviors.heuUTl8yQShnmmCQ.system.text": {
+      "fr": "L'eau verte fume sans chaleur. Le soufre colle à la gorge.",
+      "en": "The green water steams without heat. The sulfur sticks to the throat."
+    },
+    "notes.PRJ3xFJ5qi6Arjf1.text": {
+      "fr": "Entrée sud : l'assaut",
+      "en": "South entrance: the assault"
+    },
+    "notes.fbqaNlsLZrQM46Vt.text": {
+      "fr": "Passage secret dans les ronces",
+      "en": "Secret passage through the brambles"
+    },
+    "notes.tE6qSI7LgKCiqODh.text": {
+      "fr": "Grommel Défense-Grise",
+      "en": "Grommel Greytusk"
+    },
+    "notes.OkLNJjvmdpX5c2es.text": {
+      "fr": "Gorra — duel d'honneur",
+      "en": "Gorra — duel of honor"
+    },
+    "notes.7uXxPpeyiQIjmbpf.text": {
+      "fr": "Mare gangrenée — la guérison",
+      "en": "Fel pool — the healing"
+    },
+    "notes.kOA2NVTHzgumyWRs.text": {
+      "fr": "Tobias Merle et Uzga, captifs",
+      "en": "Tobias Merle and Uzga, captives"
+    },
+    "flags.lakour-warcraft.description": {
+      "fr": "Scène 3 : le kraal huran, le géomancien dissident et la cheffe corrompue par l'eau gangrenée.",
+      "en": "Scene 3: the quilboar kraal, the dissident geomancer and the chieftainess corrupted by the fel water."
+    },
+    "flags.lakour-warcraft.plan.elements.0.nom": {
+      "fr": "Grand totem",
+      "en": "Great totem"
+    },
+    "flags.lakour-warcraft.plan.elements.3.nom": {
+      "fr": "Trône d'os",
+      "en": "Bone throne"
+    },
+    "flags.lakour-warcraft.plan.elements.4.nom": {
+      "fr": "Râtelier d'armes",
+      "en": "Weapon rack"
+    },
+    "flags.lakour-warcraft.plan.elements.5.nom": {
+      "fr": "Autel de pierre",
+      "en": "Stone altar"
+    },
+    "flags.lakour-warcraft.plan.elements.7.nom": {
+      "fr": "Cage des prisonniers",
+      "en": "Prisoners' cage"
+    },
+    "flags.lakour-warcraft.plan.elements.8.nom": {
+      "fr": "Tas d'ossements",
+      "en": "Pile of bones"
+    },
+    "flags.lakour-warcraft.plan.elements.10.nom": {
+      "fr": "Ronces",
+      "en": "Brambles"
+    }
+  },
+  "scenes/qUzfmGA4egtL845y": {
+    "_nom": "Marécage d'Âprefange — Cimetière des Rescapés",
+    "name": {
+      "fr": "Marécage d'Âprefange — Cimetière des Rescapés",
+      "en": "Dustwallow Marsh — Survivors' Graveyard"
+    },
+    "drawings.TArKEXNBON5ZUy3R.text": {
+      "fr": "Marais",
+      "en": "Marsh"
+    },
+    "drawings.8X3lFCipEFa9EbRp.text": {
+      "fr": "Îlot des Rescapés",
+      "en": "Survivors' Islet"
+    },
+    "drawings.BiP8Rdh9Hjtbh7AG.text": {
+      "fr": "Chapelle en ruine",
+      "en": "Ruined chapel"
+    },
+    "drawings.px4CsAeJdbbKhPSC.text": {
+      "fr": "Mausolée",
+      "en": "Mausoleum"
+    },
+    "drawings.zTTTYQ182fDDc5SN.text": {
+      "fr": "Ponton",
+      "en": "Landing stage"
+    },
+    "sounds.buP2HXEN4ZLKWjUz.name": {
+      "fr": "pluie — Pluie sur l'îlot",
+      "en": "pluie — Rain over the islet"
+    },
+    "sounds.0cKdwgU2qy792vko.name": {
+      "fr": "tension — Cloche des Rescapés",
+      "en": "tension — Survivors' Bell"
+    },
+    "sounds.Z32NmuPKogBYgqno.name": {
+      "fr": "vent — Vent du marais",
+      "en": "vent — Marsh wind"
+    },
+    "regions.rDHqc2DRS0yS3X2A.name": {
+      "fr": "Débarquement",
+      "en": "Landing"
+    },
+    "regions.rDHqc2DRS0yS3X2A.behaviors.Bhq468uqyM3lQ3BL.system.text": {
+      "fr": "Planté dans la vase, un panneau de bois : « Ils ont fui la peste. Qu'elle ne les trouve pas ici. »",
+      "en": "Planted in the mud, a wooden sign: \"They fled the plague. May it not find them here.\""
+    },
+    "regions.LbXF5zD2lpqhHGgk.name": {
+      "fr": "Cercle de la cloche",
+      "en": "Circle of the bell"
+    },
+    "regions.Bi8Is9BJtC5lnm6y.behaviors.WlFEjSFddJwmC5XT.system.text": {
+      "fr": "Le toit s'est effondré. La pluie tombe sur l'autel comme on jette de la terre sur un cercueil.",
+      "en": "The roof has caved in. The rain falls on the altar the way earth is thrown on a coffin."
+    },
+    "notes.d8QExAejvLvREcBk.text": {
+      "fr": "Le ponton des Rescapés",
+      "en": "The Survivors' landing stage"
+    },
+    "notes.Lnj6m18C2j58kA0C.text": {
+      "fr": "Aldwin et la cloche — le rituel",
+      "en": "Aldwin and the bell — the ritual"
+    },
+    "notes.gRuWGxMf1cua3L8U.text": {
+      "fr": "Tombe de Joren Brunval",
+      "en": "Grave of Joren Brunval"
+    },
+    "notes.9xQRwNQI444eQCmp.text": {
+      "fr": "Le Recousu, dans le mausolée",
+      "en": "The Stitched One, in the mausoleum"
+    },
+    "notes.gHUg3wSpxZawBRgz.text": {
+      "fr": "Chapelle : Vesper attend",
+      "en": "Chapel: Vesper is waiting"
+    },
+    "flags.lakour-warcraft.description": {
+      "fr": "Acte 3 : l'îlot où dorment les réfugiés de Lordaeron morts le premier hiver, sa chapelle en ruine, le mausolée et la cloche des Rescapés, où le nécromancien mène son rituel à l'heure morte.",
+      "en": "Act 3: the islet where the refugees of Lordaeron who died the first winter sleep, its ruined chapel, the mausoleum and the Survivors' Bell, where the necromancer conducts his ritual at the dead hour."
+    },
+    "flags.lakour-warcraft.plan.elements.0.nom": {
+      "fr": "Cloche des Rescapés",
+      "en": "Survivors' Bell"
+    },
+    "flags.lakour-warcraft.plan.elements.1.nom": {
+      "fr": "Brasero de peste",
+      "en": "Plague brazier"
+    },
+    "flags.lakour-warcraft.plan.elements.3.nom": {
+      "fr": "Tombes fraîchement ouvertes",
+      "en": "Freshly opened graves"
+    },
+    "flags.lakour-warcraft.plan.elements.4.nom": {
+      "fr": "Rangée de tombes",
+      "en": "Row of graves"
+    },
+    "flags.lakour-warcraft.plan.elements.5.nom": {
+      "fr": "Croix de bois penchées",
+      "en": "Leaning wooden crosses"
+    },
+    "flags.lakour-warcraft.plan.elements.6.nom": {
+      "fr": "Panneau des Rescapés",
+      "en": "Survivors' sign"
+    },
+    "flags.lakour-warcraft.plan.elements.7.nom": {
+      "fr": "Saule mort",
+      "en": "Dead willow"
+    },
+    "flags.lakour-warcraft.plan.elements.8.nom": {
+      "fr": "Autel brisé",
+      "en": "Broken altar"
+    },
+    "flags.lakour-warcraft.plan.elements.9.nom": {
+      "fr": "Bancs renversés",
+      "en": "Overturned benches"
+    },
+    "flags.lakour-warcraft.plan.elements.10.nom": {
+      "fr": "Sarcophage vide",
+      "en": "Empty sarcophagus"
+    },
+    "flags.lakour-warcraft.plan.elements.11.nom": {
+      "fr": "Barque d'Aldwin",
+      "en": "Aldwin's boat"
+    },
+    "flags.lakour-warcraft.plan.sons.0.nom": {
+      "fr": "Pluie sur l'îlot",
+      "en": "Rain over the islet"
+    },
+    "flags.lakour-warcraft.plan.sons.2.nom": {
+      "fr": "Vent du marais",
+      "en": "Marsh wind"
+    }
+  },
+  "scenes/y58dyqMG0VFrRAAI": {
+    "_nom": "Cabestan — Quai des Comptoirs",
+    "name": {
+      "fr": "Cabestan — Quai des Comptoirs",
+      "en": "Ratchet — Trading Post Quay"
+    },
+    "levels.defaultLevel0000.name": {
+      "fr": "Niveau principal",
+      "en": "Main level"
+    },
+    "drawings.MZiXlBMu5K1kd86s.text": {
+      "fr": "Rue des Comptoirs",
+      "en": "Trading Post Street"
+    },
+    "drawings.mw0oCIQ51K6rwWMf.text": {
+      "fr": "Comptoir du Cartel",
+      "en": "Cartel trading post"
+    },
+    "drawings.gsVvgccMhHTbmEM8.text": {
+      "fr": "Taverne de la Clé tordue",
+      "en": "Crooked Key Tavern"
+    },
+    "drawings.vS0RoRgXo42WFc7a.text": {
+      "fr": "Entrepôt du Cartel",
+      "en": "Cartel warehouse"
+    },
+    "drawings.c6EQ2onLsaY0UQ5r.text": {
+      "fr": "Bureau de la Trêve",
+      "en": "Truce Office"
+    },
+    "drawings.d6T2iEt8dr7yH0K2.text": {
+      "fr": "Quai",
+      "en": "Quay"
+    },
+    "drawings.S0R1qDHhwLJgp6E7.text": {
+      "fr": "Port",
+      "en": "Harbor"
+    },
+    "sounds.OOZZTzPU56sxqa5g.name": {
+      "fr": "foule — Taverne de la Clé tordue",
+      "en": "foule — Crooked Key Tavern"
+    },
+    "sounds.ZxaEV952ulIgmRUJ.name": {
+      "fr": "mer — Port",
+      "en": "mer — Harbor"
+    },
+    "regions.EXCmp6ondRWqLAA7.behaviors.GzGFzN68WvMpBwMe.system.text": {
+      "fr": "Chopes qui claquent, dés qui roulent. Gravé au couteau sur le comptoir : « Ici, les épées dorment. »",
+      "en": "Clinking tankards, rolling dice. Carved with a knife into the bar: \"Here, swords sleep.\""
+    },
+    "regions.d6kVDt7ygHxTCIYq.behaviors.fNzFltiG3jYuTJp0.system.text": {
+      "fr": "Deux voix se coupent la parole, l'une en commun, l'autre en orc. Aucune ne cède.",
+      "en": "Two voices cut each other off, one in Common, the other in Orcish. Neither gives way."
+    },
+    "regions.ozT1NjI2JsI1Iert.behaviors.pyz5SH0Im6iRPQDX.system.text": {
+      "fr": "Sel, goudron et poisson grillé. À chaque poteau, la même affiche : PAR ORDRE DU CARTEL.",
+      "en": "Salt, tar and grilled fish. On every post, the same poster: BY ORDER OF THE CARTEL."
+    },
+    "regions.aSrRSTSuvnAlNZnQ.name": {
+      "fr": "Tonneaux du porteur d'eau",
+      "en": "Water carrier's barrels"
+    },
+    "notes.zREiqk7HwVrSsqhS.text": {
+      "fr": "Grizzla — le contrat",
+      "en": "Grizzla — the contract"
+    },
+    "notes.f8avsUv7L0nxsr5f.text": {
+      "fr": "Haldis et Garrok",
+      "en": "Haldis and Garrok"
+    },
+    "notes.adwkSolKBENBQbbs.text": {
+      "fr": "Docker malade (indice)",
+      "en": "Sick docker (clue)"
+    },
+    "notes.HJrZf0wdG7KjPHc4.text": {
+      "fr": "Tonneau qui luit — le cultiste",
+      "en": "Glowing barrel — the cultist"
+    },
+    "notes.9jd08HLq8FIbJLF7.text": {
+      "fr": "Nervis cachés, puis murlocs",
+      "en": "Hidden thugs, then murlocs"
+    },
+    "flags.lakour-warcraft.description": {
+      "fr": "Scène 1 : le contrat du Cartel, la Trêve de Cabestan et l'embuscade des tonneaux empoisonnés.",
+      "en": "Scene 1: the Cartel's contract, the Truce of Ratchet and the ambush of the poisoned barrels."
+    },
+    "flags.lakour-warcraft.plan.elements.0.nom": {
+      "fr": "Comptoir",
+      "en": "Counter"
+    },
+    "flags.lakour-warcraft.plan.elements.1.nom": {
+      "fr": "Coffre-fort",
+      "en": "Safe"
+    },
+    "flags.lakour-warcraft.plan.elements.2.nom": {
+      "fr": "Comptoir de la taverne",
+      "en": "Tavern bar"
+    },
+    "flags.lakour-warcraft.plan.elements.3.nom": {
+      "fr": "Table",
+      "en": "Table"
+    },
+    "flags.lakour-warcraft.plan.elements.5.nom": {
+      "fr": "Caisses",
+      "en": "Crates"
+    },
+    "flags.lakour-warcraft.plan.elements.6.nom": {
+      "fr": "Tonneaux",
+      "en": "Barrels"
+    },
+    "flags.lakour-warcraft.plan.elements.7.nom": {
+      "fr": "Table des négociations",
+      "en": "Negotiating table"
+    },
+    "flags.lakour-warcraft.plan.elements.8.nom": {
+      "fr": "Puits du Cartel",
+      "en": "Cartel well"
+    },
+    "flags.lakour-warcraft.plan.elements.9.nom": {
+      "fr": "Chariot",
+      "en": "Wagon"
+    },
+    "flags.lakour-warcraft.plan.elements.10.nom": {
+      "fr": "Tonneaux d'eau",
+      "en": "Water barrels"
+    },
+    "flags.lakour-warcraft.plan.elements.11.nom": {
+      "fr": "Grue de chargement",
+      "en": "Loading crane"
+    },
+    "flags.lakour-warcraft.plan.elements.14.nom": {
+      "fr": "Navire de la Compagnie",
+      "en": "Company ship"
+    },
+    "flags.lakour-warcraft.plan.elements.15.nom": {
+      "fr": "Barque",
+      "en": "Rowboat"
+    },
+    "flags.lakour-warcraft.aventure": {
+      "fr": "Les Puits de cendre",
+      "en": "The Ash Wells"
+    }
+  }
+}

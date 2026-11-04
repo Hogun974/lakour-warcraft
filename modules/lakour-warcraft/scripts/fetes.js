@@ -10,7 +10,8 @@
 // Liens (contenu) : la carte est publique, et un document de compendium prend les droits du compendium (journaux : OBSERVER
 // pour les joueurs) ; elle ne lie donc que ce que les joueurs peuvent lire : les objets et les contrats de la fête, jamais
 // le journal du MJ (lié depuis la page « Fêtes de saison (MJ) » du guide du MJ).
-const ID = "lakour-warcraft";
+import { ID } from "./identite.js"; // « lakour-warcraft » ou « lakour-warcraft-en » (version anglaise), selon le dossier du module
+const C = `Compendium.${ID}`;
 
 // Illustration d'une fête, en tête de la première page de son journal : assets/fetes/<fête du calendrier>.jpg.
 export const illustrationDeFete = fete => `modules/${ID}/assets/fetes/${fete}.jpg`;
@@ -22,11 +23,11 @@ export const FETES_WARCRAFT = Object.freeze([
     consigne: "C'est la Trêve des Présents dans les Tarides : l'Épineux du Carrefour porte des grelots, Theramore a son sapin du nord, et Horde et Alliance échangent des cadeaux au Bureau de la Trêve de Cabestan",
     decor: { palette: "sapin", ornements: ["guirlandes", "bougies"] },
     contenu: [
-      { uuid: "Compendium.lakour-warcraft.objets.Item.4eEWnR4a3ypxfeBv", nom: "Grelot de l'Épineux" },
-      { uuid: "Compendium.lakour-warcraft.objets.Item.NrePXf1GWBL4FFAr", nom: "Galettes aux dattes de la Trêve" },
-      { uuid: "Compendium.lakour-warcraft.objets.Item.VgjcohZu6CVLtYgr", nom: "Paquet-surprise du Cartel" },
-      { uuid: "Compendium.lakour-warcraft.tables.RollTable.cQvTkAAcP7SKGDTs", nom: "Contrats de fête — La Trêve des Présents" },
-      { uuid: "Compendium.lakour-warcraft.tables.RollTable.6zu15ES8qO7Pn3El", nom: "Paquets-surprises du Cartel" }
+      { uuid: `${C}.objets.Item.4eEWnR4a3ypxfeBv`, nom: "Grelot de l'Épineux" },
+      { uuid: `${C}.objets.Item.NrePXf1GWBL4FFAr`, nom: "Galettes aux dattes de la Trêve" },
+      { uuid: `${C}.objets.Item.VgjcohZu6CVLtYgr`, nom: "Paquet-surprise du Cartel" },
+      { uuid: `${C}.tables.RollTable.cQvTkAAcP7SKGDTs`, nom: "Contrats de fête — La Trêve des Présents" },
+      { uuid: `${C}.tables.RollTable.6zu15ES8qO7Pn3El`, nom: "Paquets-surprises du Cartel" }
     ]
   },
   {
@@ -35,9 +36,9 @@ export const FETES_WARCRAFT = Object.freeze([
     consigne: "C'est la Veille des Aïeux : des lampes-étoiles brillent sur la colline des cairns du Carrefour, les anciens racontent jusqu'à l'aube, Theramore sonne la cloche de minuit et Cabestan solde ses dettes avant la nouvelle année",
     decor: { palette: "nuit", ornements: ["etoiles", "bougies"] },
     contenu: [
-      { uuid: "Compendium.lakour-warcraft.objets.Item.YPfb0mtY5GIAoPkO", nom: "Lampe-étoile des aïeux" },
-      { uuid: "Compendium.lakour-warcraft.objets.Item.76qAdME0kPDRdtUx", nom: "Pain de cendre des aïeux" },
-      { uuid: "Compendium.lakour-warcraft.tables.RollTable.VdzdzwzHctZAc8TV", nom: "Contrats de fête — La Veille des Aïeux" }
+      { uuid: `${C}.objets.Item.YPfb0mtY5GIAoPkO`, nom: "Lampe-étoile des aïeux" },
+      { uuid: `${C}.objets.Item.76qAdME0kPDRdtUx`, nom: "Pain de cendre des aïeux" },
+      { uuid: `${C}.tables.RollTable.VdzdzwzHctZAc8TV`, nom: "Contrats de fête — La Veille des Aïeux" }
     ]
   },
   {
@@ -46,9 +47,9 @@ export const FETES_WARCRAFT = Object.freeze([
     consigne: "C'est la Nuit des Calebasses : des calebasses creusées, une chandelle au cœur, bordent les pistes des Tarides pour guider les morts, les enfants réclament une braise pour leurs morts et l'Aube d'argent veille au bord du marais",
     decor: { palette: "braise", ornements: ["lanternes", "citrouilles", "feuilles"] },
     contenu: [
-      { uuid: "Compendium.lakour-warcraft.objets.Item.d4CzjxL1Fxw00OiE", nom: "Calebasse-lanterne" },
-      { uuid: "Compendium.lakour-warcraft.objets.Item.4aaQCcIUTwszczSr", nom: "Sucre de cactus de la Nuit" },
-      { uuid: "Compendium.lakour-warcraft.tables.RollTable.0C7GDUAyigkK1yyc", nom: "Contrats de fête — La Nuit des Calebasses" }
+      { uuid: `${C}.objets.Item.d4CzjxL1Fxw00OiE`, nom: "Calebasse-lanterne" },
+      { uuid: `${C}.objets.Item.4aaQCcIUTwszczSr`, nom: "Sucre de cactus de la Nuit" },
+      { uuid: `${C}.tables.RollTable.0C7GDUAyigkK1yyc`, nom: "Contrats de fête — La Nuit des Calebasses" }
     ]
   },
   {
@@ -57,10 +58,10 @@ export const FETES_WARCRAFT = Object.freeze([
     consigne: "Ce sont les Tambours du Long Jour : les tambours taurens battent du matin au soir, des feux s'allument sur les collines des Tarides, on saute les braises pour faire un vœu et le Cartel tire des fusées sur la baie de Cabestan",
     decor: { palette: "soleil", ornements: ["notes", "lanternes"] },
     contenu: [
-      { uuid: "Compendium.lakour-warcraft.objets.Item.cmzugqT3XLvcSc0x", nom: "Tambourin du Long Jour" },
-      { uuid: "Compendium.lakour-warcraft.objets.Item.W8GJ32evgwLcCHfF", nom: "Fusée gobeline du Long Jour" },
-      { uuid: "Compendium.lakour-warcraft.objets.Item.6iGuNvvhR1ChaY5O", nom: "Infusion de fleur-de-braise" },
-      { uuid: "Compendium.lakour-warcraft.tables.RollTable.Dc0oNoBlthbgd1JP", nom: "Contrats de fête — Les Tambours du Long Jour" }
+      { uuid: `${C}.objets.Item.cmzugqT3XLvcSc0x`, nom: "Tambourin du Long Jour" },
+      { uuid: `${C}.objets.Item.W8GJ32evgwLcCHfF`, nom: "Fusée gobeline du Long Jour" },
+      { uuid: `${C}.objets.Item.6iGuNvvhR1ChaY5O`, nom: "Infusion de fleur-de-braise" },
+      { uuid: `${C}.tables.RollTable.Dc0oNoBlthbgd1JP`, nom: "Contrats de fête — Les Tambours du Long Jour" }
     ]
   },
   {
@@ -69,9 +70,9 @@ export const FETES_WARCRAFT = Object.freeze([
     consigne: "C'est la Mascarade de Cabestan : sous un masque, on n'est ni Horde ni Alliance, les barges dansent, le Grand Bazar bat son plein et le Baron de paille brûlera dans la baie le soir du mardi gras",
     decor: { palette: "carnaval", ornements: ["masques", "confettis"] },
     contenu: [
-      { uuid: "Compendium.lakour-warcraft.objets.Item.qx7bkD7JH5MV2miA", nom: "Masque de la Mascarade" },
-      { uuid: "Compendium.lakour-warcraft.objets.Item.aeZ9wnAkoJLpNt6g", nom: "Sachet de confettis gobelins" },
-      { uuid: "Compendium.lakour-warcraft.tables.RollTable.UZuebiV03AckjAAz", nom: "Contrats de fête — La Mascarade de Cabestan" }
+      { uuid: `${C}.objets.Item.qx7bkD7JH5MV2miA`, nom: "Masque de la Mascarade" },
+      { uuid: `${C}.objets.Item.aeZ9wnAkoJLpNt6g`, nom: "Sachet de confettis gobelins" },
+      { uuid: `${C}.tables.RollTable.UZuebiV03AckjAAz`, nom: "Contrats de fête — La Mascarade de Cabestan" }
     ]
   }
 ]);

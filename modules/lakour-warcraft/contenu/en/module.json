@@ -1,0 +1,28 @@
+{
+  "_commentaire": "Manifeste du module anglais lakour-warcraft-en (engendré par outils/fabriquer-warcraft.mjs --langue en) : ce qui change par rapport à modules/lakour-warcraft/module.json. Le reste (version, auteurs, adresses, compatibilité, système, scripts, langues, packs et leurs droits, quickstart et listes de sorts récrits) est repris du manifeste français.",
+  "title": "La Kour Warcraft — Azeroth for 5th edition",
+  "description": "Azeroth for 5th edition (dnd5e system, 2024 rules), in English: thirteen playable species, ten backgrounds, thirteen subclasses, feats, affiliations, spells, an arsenal, afflictions, professions and a crafting bench, a faction garrison, reputations and contracts, mounts, a bestiary of seventy stat blocks. A starter adventure (levels 1 to 3), a four-chapter campaign (3 to 6), an investigation one-shot, a three-boss dungeon and ready-to-play maps, each importable in one click. The house rules are automated (auras, the ranger's companion, totems, boss phase 2, fury, item sets) and five seasonal festivals bring the Barrens to life with the companion AI GM module. Original texts; unofficial fan work, not affiliated with Blizzard Entertainment. — English edition of the French module lakour-warcraft: same documents, same identifiers; do not enable both at once. Any text not yet translated appears in French.",
+  "media": {
+    "Écran d'accueil du monde La Kour Warcraft": "Welcome screen of the La Kour Warcraft world",
+    "Cabestan — Quai des Comptoirs, carte vivante de l'aventure de départ": "Ratchet — Trading Post Quay, living map of the starter adventure",
+    "Une sous-classe d'Azeroth et ses avancements dnd5e": "An Azeroth subclass and its dnd5e advancements",
+    "L'établi d'artisanat ouvert depuis la fiche d'un personnage": "The crafting bench opened from a character sheet"
+  },
+  "packs": {
+    "peuples": "La Kour Warcraft — Species",
+    "historiques": "La Kour Warcraft — Backgrounds and feats",
+    "objets": "La Kour Warcraft — Items",
+    "dons": "La Kour Warcraft — Feats and affiliations",
+    "classes": "La Kour Warcraft — Subclasses",
+    "sorts": "La Kour Warcraft — Spells",
+    "afflictions": "La Kour Warcraft — Afflictions",
+    "bestiaire": "La Kour Warcraft — Bestiary",
+    "tables": "La Kour Warcraft — Tables",
+    "journaux": "La Kour Warcraft — Guides and adventures",
+    "scenes": "La Kour Warcraft — Scenes",
+    "aventures": "La Kour Warcraft — Ready-to-play adventures"
+  },
+  "packFolders": {
+    "La Kour Warcraft": "La Kour Warcraft (English)"
+  }
+}
