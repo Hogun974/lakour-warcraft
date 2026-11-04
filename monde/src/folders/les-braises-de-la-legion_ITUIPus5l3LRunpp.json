@@ -1,0 +1,27 @@
+{
+  "name": "Les Braises de la Légion",
+  "type": "Scene",
+  "color": "#1a3a5a",
+  "flags": {
+    "lakour-warcraft": {
+      "dossier": "Les Braises de la Légion"
+    }
+  },
+  "_id": "ITUIPus5l3LRunpp",
+  "description": "",
+  "folder": null,
+  "sorting": "a",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793512298686,
+    "modifiedTime": 1793512298686,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!ITUIPus5l3LRunpp"
+}

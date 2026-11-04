@@ -1,0 +1,146 @@
+{
+  "_id": "pJE7MwYKStBKajJH",
+  "name": "Fête — La Trêve des Présents (MJ)",
+  "folder": "wNtgGHYLJnHwTJwh",
+  "categories": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "fete-treve-des-presents",
+      "fete": "treve-des-presents",
+      "collection": "fetes",
+      "version": "0.10.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793696359424,
+    "modifiedTime": 1793703375910,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.lakour-warcraft.journaux.JournalEntry.pJE7MwYKStBKajJH",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "pages": [
+    {
+      "_id": "dAIdSIoPaLeHYduo",
+      "name": "La fête",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<figure class=\"lakour-warcraft-fete\"><img src=\"modules/lakour-warcraft/assets/fetes/noel.jpg\" alt=\"L'Épineux du Carrefour couvert de grelots, la nuit de la Trêve des Présents\"></figure><p>Quand les pluies s'arrêtent et que les nuits fraîchissent sur la savane, les Tarides entrent dans la <strong>Trêve des Présents</strong>. Rien d'officiel au départ : des caravaniers taurens qui laissaient un sac de grain devant la tente d'un voisin, des grunts qui échangeaient du tabac avec les fermiers de Theramore aux gués. Depuis la Trêve de Cabestan, le <strong>Bureau de la Trêve</strong> en a fait une coutume : pendant tout le mois, chaque camp peut déposer au Bureau un présent pour l'autre, et l'on se promet de ne verser le sang sur aucune grande route.</p><p><strong>L'Épineux.</strong> Au Carrefour, un vieil acacia mort, au pied de la tour de guet, porte les présents de la Horde : grelots d'os, rubans de cuir rouge, calebasses peintes, dents de raptor percées. Chacun y accroche quelque chose ; on décroche un grelot le dernier jour pour se porter chance.</p><p><strong>La Vieille aux Grelots.</strong> Une légende taurène : une vieille femme marche la nuit à côté d'un kodo blanc et laisse un présent devant chaque tente où dort un enfant, quel que soit son peuple. Cette année, Hanuk Pas-de-Pluie a promis de jouer son rôle.</p><p><strong>Quand.</strong> tout le mois de décembre, au plus fort du 24 au 26, d'après la date du jour (le MJ IA pose la carte de la fête au chat et peut y faire allusion). Hors saison, le MJ peut forcer la fête dans les réglages du MJ IA, « Fête de saison ».</p><p><strong>Réputation.</strong> En plus des contrats, une fois par fête et par personnage (voir le @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.uIWkSgn7SjyOj8nd]{Guide de la réputation}, plafond de 10 points par jour) :<br>- <strong>+2</strong> auprès de : Alliance (Theramore), pour un présent remis en main propre à l'intendante de Theramore par un personnage de la Horde.<br>- <strong>+2</strong> auprès de : Horde (Le Carrefour), pour un présent remis à l'intendant du Carrefour par un personnage de l'Alliance.</p><p><strong>Objets de la fête</strong>, en vente chez les marchands des trois villes tant qu'elle dure : @UUID[Compendium.lakour-warcraft.objets.Item.4eEWnR4a3ypxfeBv]{Grelot de l'Épineux}, @UUID[Compendium.lakour-warcraft.objets.Item.NrePXf1GWBL4FFAr]{Galettes aux dattes de la Trêve}, @UUID[Compendium.lakour-warcraft.objets.Item.VgjcohZu6CVLtYgr]{Paquet-surprise du Cartel}.</p><p><strong>Contrats et tables</strong> : @UUID[Compendium.lakour-warcraft.tables.RollTable.cQvTkAAcP7SKGDTs]{Contrats de fête — La Trêve des Présents}, @UUID[Compendium.lakour-warcraft.tables.RollTable.6zu15ES8qO7Pn3El]{Paquets-surprises du Cartel}. Le MJ IA ajoute un contrat de fête aux trois affiches du jour.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375895,
+        "modifiedTime": 1793703375898,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!pJE7MwYKStBKajJH.dAIdSIoPaLeHYduo"
+    },
+    {
+      "_id": "XXWXrhT8YFs89x1l",
+      "name": "Ambiance",
+      "type": "text",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Au Carrefour.</strong> Les cuisinières cuisent des galettes aux dattes par centaines ; les grunts de garde ont un ruban rouge au manche de leur hache. Gornak Croc-Gris compte les présents comme des impôts et grogne qu'il n'y en a jamais assez. Le soir, on chante autour de l'Épineux des chants de marche orcs ralentis jusqu'à devenir doux.</p><p><strong>À Theramore.</strong> Un sapin venu du nord par bateau trône sur la place du port, couvert de rubans bleus et de petites lanternes. Le Guet distribue du vin chaud aux réfugiés ; la chapelle sonne le soir. On parle trop fort de « l'arbre volé » : les Sentinelles réclament une amende pour la coupe.</p><p><strong>À Cabestan.</strong> Le Cartel vend de tout : paquets-surprises, rubans, grelots de fer-blanc, sapins en carton. Le Bureau de la Trêve, encombré de caisses, tient le registre des présents échangés ; Nixi Pèse-Juste en touche 2 % de frais d'écriture.</p><p><strong>Dans les kraals.</strong> Les hurans de Ronceroc ne fêtent rien, mais les petits imitent : ils pendent des os aux ronces autour du kraal. Les plus hardis guettent les caravanes de présents, qui ne sont jamais aussi bien gardées qu'elles le devraient.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375897,
+        "modifiedTime": 1793703375899,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!pJE7MwYKStBKajJH.XXWXrhT8YFs89x1l"
+    },
+    {
+      "_id": "AMFPD1RWHhHLGA6u",
+      "name": "Accroches",
+      "type": "text",
+      "sort": 300,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<ul><li><strong>Le présent piégé.</strong> Au Bureau de la Trêve, une caisse adressée à @UUID[Compendium.lakour-warcraft.bestiaire.Actor.TDY7YqkoJZZKJsHp]{Corwen Haldis} « de la part de la Horde » fait tic-tac. Un gobelin du Cartel Baille-Fonds veut faire sauter la Trêve ; [[/check skill=inv dc=14]]{Investigation DD 14} pour remonter jusqu'à l'expéditeur avant que Theramore et le Carrefour ne s'accusent. Réussite : +2 auprès de l'Alliance et de la Horde.</li><li><strong>Le kodo blanc a disparu.</strong> La veille de la grande nuit, le kodo blanc de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.Hy3EZ9O9zgnyuGam]{Hanuk} s'est échappé vers les collines. Le retrouver avant que les @UUID[Compendium.lakour-warcraft.bestiaire.Actor.gMmWKENeUcQssiBy]{Kolkar} ne le prennent ; [[/check skill=sur dc=13]]{Survie DD 13} pour suivre ses traces dans la poussière.</li><li><strong>L'amende de l'Orneval.</strong> Une éclaireuse des Sentinelles, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.IvK7GWpnAHS8YErn]{Aelyra Ombrefeuille}, exige que le sapin de Theramore soit rendu à la forêt, ou payé. Négocier un accord ([[/check skill=per dc=15]]{Persuasion DD 15}) rapporte +3 auprès des Sentinelles ; laisser l'arbre brûler par dépit coûte −3.</li><li><strong>Les présents du kraal.</strong> Une petite huranne apporte au Carrefour un présent maladroit : une défense de sanglier gravée. @UUID[Compendium.lakour-warcraft.bestiaire.Actor.MNGFVYbGrQa9AaLm]{Gorra Fiel-d'Épine} demande, par elle, une trêve de sept jours pour enterrer ses morts. Si le groupe porte la réponse au kraal et la fait respecter, +2 auprès de la Horde.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375898,
+        "modifiedTime": 1793703375900,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!pJE7MwYKStBKajJH.AMFPD1RWHhHLGA6u"
+    }
+  ],
+  "sort": 0,
+  "_key": "!journal!pJE7MwYKStBKajJH"
+}

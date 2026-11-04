@@ -1,0 +1,27 @@
+{
+  "name": "La Kour Warcraft",
+  "type": "JournalEntry",
+  "color": "#1a3a5a",
+  "flags": {
+    "lakour-warcraft": {
+      "dossier": "La Kour Warcraft"
+    }
+  },
+  "_id": "wNtgGHYLJnHwTJwh",
+  "description": "",
+  "folder": null,
+  "sorting": "a",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793512295114,
+    "modifiedTime": 1793512295114,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!wNtgGHYLJnHwTJwh"
+}

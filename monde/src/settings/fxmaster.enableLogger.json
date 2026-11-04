@@ -1,0 +1,18 @@
+{
+  "key": "fxmaster.enableLogger",
+  "user": null,
+  "value": "false",
+  "_id": "wPlBKVsKQKqtdmwg",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793592372699,
+    "modifiedTime": 1793592372699,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!wPlBKVsKQKqtdmwg"
+}

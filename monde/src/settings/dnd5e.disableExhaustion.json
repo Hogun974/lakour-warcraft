@@ -1,0 +1,18 @@
+{
+  "key": "dnd5e.disableExhaustion",
+  "user": null,
+  "value": "false",
+  "_id": "kzou2qKMoM1p5wJr",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467827767,
+    "modifiedTime": 1793467827767,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!kzou2qKMoM1p5wJr"
+}

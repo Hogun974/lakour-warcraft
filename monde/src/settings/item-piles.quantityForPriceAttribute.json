@@ -1,0 +1,18 @@
+{
+  "key": "item-piles.quantityForPriceAttribute",
+  "user": null,
+  "value": "\"flags.item-piles.system.quantityForPrice\"",
+  "_id": "jU8wGOpGwh3CPoEk",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793591653935,
+    "modifiedTime": 1793591653935,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!jU8wGOpGwh3CPoEk"
+}

@@ -1,0 +1,2655 @@
+{
+  "name": "Gué-Brumeux — Caves et boyau des contrebandiers",
+  "navName": "Gué-Brumeux — Caves et boyau des contrebandiers",
+  "navigation": false,
+  "width": 2800,
+  "height": 2000,
+  "padding": 0,
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "distance": 1.5,
+    "units": "m",
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0.2
+  },
+  "tokenVision": true,
+  "environment": {
+    "darknessLevel": 0.85,
+    "globalLight": {
+      "enabled": false,
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "luminosity": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "darknessLock": false,
+    "cycle": true,
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "levels": [
+    {
+      "_id": "defaultLevel0000",
+      "name": "Niveau principal",
+      "elevation": {
+        "bottom": 0,
+        "top": null
+      },
+      "background": {
+        "color": "#18181b",
+        "src": "modules/lakour-warcraft/assets/cartes/3d/gue-brumeux-caves.svg",
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "flags": {},
+      "foreground": {
+        "src": null,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "fog": {
+        "src": null
+      },
+      "textures": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0
+      },
+      "visibility": {
+        "levels": []
+      },
+      "sort": 0,
+      "_key": "!scenes.levels!9iXsTIxtmEQ1A2bv.defaultLevel0000"
+    }
+  ],
+  "initialLevel": "defaultLevel0000",
+  "walls": [
+    {
+      "c": [
+        100,
+        100,
+        900,
+        100
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "neND74kMZpyAgho2",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.neND74kMZpyAgho2"
+    },
+    {
+      "c": [
+        2100,
+        100,
+        2700,
+        100
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "S2TcjwoIEWvzadQA",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.S2TcjwoIEWvzadQA"
+    },
+    {
+      "c": [
+        900,
+        300,
+        2100,
+        300
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "wK5YPRZoxwdh0BWk",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.wK5YPRZoxwdh0BWk"
+    },
+    {
+      "c": [
+        900,
+        500,
+        1600,
+        500
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "I4omsEnDWLoSr1xs",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.I4omsEnDWLoSr1xs"
+    },
+    {
+      "c": [
+        1700,
+        500,
+        2100,
+        500
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "KKyrUWLDegFV1oCf",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.KKyrUWLDegFV1oCf"
+    },
+    {
+      "c": [
+        100,
+        700,
+        300,
+        700
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "iFWGEfXdrvEK1L5W",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.iFWGEfXdrvEK1L5W"
+    },
+    {
+      "c": [
+        400,
+        700,
+        1300,
+        700
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "Vx3eoDAPBMSaTNJ2",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.Vx3eoDAPBMSaTNJ2"
+    },
+    {
+      "c": [
+        2100,
+        700,
+        2200,
+        700
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "FNuyttv4YWfSZTr7",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.FNuyttv4YWfSZTr7"
+    },
+    {
+      "c": [
+        2400,
+        700,
+        2700,
+        700
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "5wiPvoMhnfREWlzH",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.5wiPvoMhnfREWlzH"
+    },
+    {
+      "c": [
+        100,
+        1100,
+        600,
+        1100
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "rZFbHPGKgCvhT8Pa",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.rZFbHPGKgCvhT8Pa"
+    },
+    {
+      "c": [
+        900,
+        1100,
+        2000,
+        1100
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "DX4sL6Ad1lTsi9ss",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.DX4sL6Ad1lTsi9ss"
+    },
+    {
+      "c": [
+        0,
+        1500,
+        2100,
+        1500
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "GgDwHrISoyYm5ACM",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.GgDwHrISoyYm5ACM"
+    },
+    {
+      "c": [
+        1500,
+        1900,
+        2500,
+        1900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "1nz1kseyanFEABFD",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.1nz1kseyanFEABFD"
+    },
+    {
+      "c": [
+        0,
+        2000,
+        1500,
+        2000
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "Dos9ZWKBeV4DrQiC",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.Dos9ZWKBeV4DrQiC"
+    },
+    {
+      "c": [
+        0,
+        1500,
+        0,
+        2000
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "MMDoyHk7PivHfL8V",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.MMDoyHk7PivHfL8V"
+    },
+    {
+      "c": [
+        100,
+        100,
+        100,
+        1100
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "A4Pu6VCMA8Nx4ivD",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.A4Pu6VCMA8Nx4ivD"
+    },
+    {
+      "c": [
+        600,
+        700,
+        600,
+        1100
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "cR3rhdeAUeIM94GR",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.cR3rhdeAUeIM94GR"
+    },
+    {
+      "c": [
+        900,
+        100,
+        900,
+        300
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "gfUe0kaTh3jDbLSx",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.gfUe0kaTh3jDbLSx"
+    },
+    {
+      "c": [
+        900,
+        500,
+        900,
+        1100
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "JuGnemGWcg6p5x4D",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.JuGnemGWcg6p5x4D"
+    },
+    {
+      "c": [
+        1300,
+        500,
+        1300,
+        800
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "BZkELNzfpzWWS1PQ",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.BZkELNzfpzWWS1PQ"
+    },
+    {
+      "c": [
+        1300,
+        900,
+        1300,
+        1100
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "1HAvcZM1JNseDv9V",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.1HAvcZM1JNseDv9V"
+    },
+    {
+      "c": [
+        1500,
+        1900,
+        1500,
+        2000
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "kXQgnI0h4KhoYOPm",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.kXQgnI0h4KhoYOPm"
+    },
+    {
+      "c": [
+        2000,
+        500,
+        2000,
+        1100
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "4s3J04Yzlqf9U0y8",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.4s3J04Yzlqf9U0y8"
+    },
+    {
+      "c": [
+        2100,
+        100,
+        2100,
+        300
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "q0jy7LDFBtzjYR6v",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.q0jy7LDFBtzjYR6v"
+    },
+    {
+      "c": [
+        2100,
+        500,
+        2100,
+        1500
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "EHPSgSC5ZtV7CetK",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.EHPSgSC5ZtV7CetK"
+    },
+    {
+      "c": [
+        2500,
+        700,
+        2500,
+        1900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "EonGcwUHYFHis6My",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.EonGcwUHYFHis6My"
+    },
+    {
+      "c": [
+        2700,
+        100,
+        2700,
+        700
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "ZuNnT2OSo6BCktb8",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.ZuNnT2OSo6BCktb8"
+    },
+    {
+      "c": [
+        1600,
+        500,
+        1700,
+        500
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 1,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "kKRTpEWDraKDupX1",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.kKRTpEWDraKDupX1"
+    },
+    {
+      "c": [
+        300,
+        700,
+        400,
+        700
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 1,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "osOJUU1oyOeGDhAy",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.osOJUU1oyOeGDhAy"
+    },
+    {
+      "c": [
+        1300,
+        800,
+        1300,
+        900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 1,
+      "ds": 2,
+      "dir": 0,
+      "levels": [],
+      "_id": "bs2BGHB5CxjE5Uux",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!9iXsTIxtmEQ1A2bv.bs2BGHB5CxjE5Uux"
+    }
+  ],
+  "drawings": [
+    {
+      "x": 100,
+      "y": 100,
+      "shape": {
+        "type": "r",
+        "width": 800,
+        "height": 600,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Cave du relais",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1000,
+      "_id": "GgzeBbMzM04noTqD",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!9iXsTIxtmEQ1A2bv.GgzeBbMzM04noTqD"
+    },
+    {
+      "x": 100,
+      "y": 700,
+      "shape": {
+        "type": "r",
+        "width": 500,
+        "height": 400,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Réserve",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1001,
+      "_id": "ZOtytJi5ZNZYSbrH",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!9iXsTIxtmEQ1A2bv.ZOtytJi5ZNZYSbrH"
+    },
+    {
+      "x": 900,
+      "y": 300,
+      "shape": {
+        "type": "r",
+        "width": 1200,
+        "height": 200,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Boyau des contrebandiers",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1002,
+      "_id": "EwD0CW9hMfPukstd",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!9iXsTIxtmEQ1A2bv.EwD0CW9hMfPukstd"
+    },
+    {
+      "x": 1300,
+      "y": 500,
+      "shape": {
+        "type": "r",
+        "width": 700,
+        "height": 600,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Laboratoire",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1003,
+      "_id": "oh82tvQ5raojtZk1",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!9iXsTIxtmEQ1A2bv.oh82tvQ5raojtZk1"
+    },
+    {
+      "x": 900,
+      "y": 700,
+      "shape": {
+        "type": "r",
+        "width": 400,
+        "height": 400,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Cachot",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1004,
+      "_id": "IQzJqbSNkAIF2qAg",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!9iXsTIxtmEQ1A2bv.IQzJqbSNkAIF2qAg"
+    },
+    {
+      "x": 2100,
+      "y": 100,
+      "shape": {
+        "type": "r",
+        "width": 600,
+        "height": 600,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Ossuaire",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1005,
+      "_id": "qMqZQrg1kipGyWv4",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!9iXsTIxtmEQ1A2bv.qMqZQrg1kipGyWv4"
+    },
+    {
+      "x": 2100,
+      "y": 700,
+      "shape": {
+        "type": "r",
+        "width": 400,
+        "height": 800,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Galerie noyée",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1006,
+      "_id": "UOECGsgT6rUIqoJC",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!9iXsTIxtmEQ1A2bv.UOECGsgT6rUIqoJC"
+    },
+    {
+      "x": 1500,
+      "y": 1500,
+      "shape": {
+        "type": "r",
+        "width": 1000,
+        "height": 400,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Embarcadère caché",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1007,
+      "_id": "iEM95NxDJFNzjmcQ",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!9iXsTIxtmEQ1A2bv.iEM95NxDJFNzjmcQ"
+    },
+    {
+      "x": 0,
+      "y": 1500,
+      "shape": {
+        "type": "r",
+        "width": 1500,
+        "height": 500,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Bras du marais",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1008,
+      "_id": "NCgsMXMgNQ1C9Cp4",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!9iXsTIxtmEQ1A2bv.NCgsMXMgNQ1C9Cp4"
+    }
+  ],
+  "lights": [
+    {
+      "x": 450,
+      "y": 350,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 3,
+        "bright": 1.5,
+        "color": "#ffcc66",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "angle": 360,
+        "attenuation": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "_id": "f0z4BdGNMFqNv7YE",
+      "flags": {},
+      "rotation": 0,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "_key": "!scenes.lights!9iXsTIxtmEQ1A2bv.f0z4BdGNMFqNv7YE"
+    },
+    {
+      "x": 1650,
+      "y": 750,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 4.5,
+        "bright": 2.5,
+        "color": "#b8e05a",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "angle": 360,
+        "attenuation": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "_id": "Cvo9YkRAJ3GMdNPj",
+      "flags": {},
+      "rotation": 0,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "_key": "!scenes.lights!9iXsTIxtmEQ1A2bv.Cvo9YkRAJ3GMdNPj"
+    },
+    {
+      "x": 1850,
+      "y": 950,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 1.5,
+        "bright": 1,
+        "color": "#ffddaa",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "angle": 360,
+        "attenuation": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "_id": "avSnLNZ9lxWhvWMm",
+      "flags": {},
+      "rotation": 0,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "_key": "!scenes.lights!9iXsTIxtmEQ1A2bv.avSnLNZ9lxWhvWMm"
+    },
+    {
+      "x": 2350,
+      "y": 350,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 3,
+        "bright": 1.5,
+        "color": "#8fb0ff",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "angle": 360,
+        "attenuation": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "_id": "s7bW1LYxTq3716vH",
+      "flags": {},
+      "rotation": 0,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "_key": "!scenes.lights!9iXsTIxtmEQ1A2bv.s7bW1LYxTq3716vH"
+    },
+    {
+      "x": 550,
+      "y": 1750,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 1.5,
+        "bright": 1,
+        "color": "#aaffcc",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "angle": 360,
+        "attenuation": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "_id": "Evqf8hYtxSTCZOtr",
+      "flags": {},
+      "rotation": 0,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "_key": "!scenes.lights!9iXsTIxtmEQ1A2bv.Evqf8hYtxSTCZOtr"
+    }
+  ],
+  "sounds": [
+    {
+      "name": "grotte — Boyau des contrebandiers",
+      "x": 1450,
+      "y": 350,
+      "elevation": 0,
+      "levels": [],
+      "radius": 9,
+      "path": "modules/lakour-mj-ia/assets/sons/grotte.wav",
+      "repeat": true,
+      "volume": 0.25,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "X2QEHing5o4YJBZe",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "effects": {
+        "base": {
+          "intensity": 5
+        },
+        "muffled": {
+          "intensity": 5
+        }
+      },
+      "_key": "!scenes.sounds!9iXsTIxtmEQ1A2bv.X2QEHing5o4YJBZe"
+    },
+    {
+      "name": "tension — Laboratoire",
+      "x": 1650,
+      "y": 850,
+      "elevation": 0,
+      "levels": [],
+      "radius": 6,
+      "path": "modules/lakour-mj-ia/assets/sons/tension.wav",
+      "repeat": true,
+      "volume": 0.2,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "Go9JEUbZsWdVtXuH",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "effects": {
+        "base": {
+          "intensity": 5
+        },
+        "muffled": {
+          "intensity": 5
+        }
+      },
+      "_key": "!scenes.sounds!9iXsTIxtmEQ1A2bv.Go9JEUbZsWdVtXuH"
+    },
+    {
+      "name": "feu — Chaudron de peste",
+      "x": 1450,
+      "y": 1050,
+      "elevation": 0,
+      "levels": [],
+      "radius": 3,
+      "path": "modules/lakour-mj-ia/assets/sons/feu.wav",
+      "repeat": true,
+      "volume": 0.2,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "Pyiu216uWl2pkjAV",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "effects": {
+        "base": {
+          "intensity": 5
+        },
+        "muffled": {
+          "intensity": 5
+        }
+      },
+      "_key": "!scenes.sounds!9iXsTIxtmEQ1A2bv.Pyiu216uWl2pkjAV"
+    },
+    {
+      "name": "pluie — Pluie sur le marais",
+      "x": 650,
+      "y": 1750,
+      "elevation": 0,
+      "levels": [],
+      "radius": 10.5,
+      "path": "modules/lakour-mj-ia/assets/sons/pluie.wav",
+      "repeat": true,
+      "volume": 0.25,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "papB7ftBzdVEZaA5",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "effects": {
+        "base": {
+          "intensity": 5
+        },
+        "muffled": {
+          "intensity": 5
+        }
+      },
+      "_key": "!scenes.sounds!9iXsTIxtmEQ1A2bv.papB7ftBzdVEZaA5"
+    }
+  ],
+  "regions": [
+    {
+      "_id": "wokvLJPvH3Shfr1H",
+      "name": "Cave du relais",
+      "color": "#4f8cc9",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 100,
+          "y": 100,
+          "width": 800,
+          "height": 600,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "VeFr9AGzqC3JhQOG",
+          "name": "Cave du relais",
+          "disabled": false,
+          "flags": {},
+          "type": "displayScrollingText",
+          "system": {
+            "events": [
+              "tokenAnimateIn"
+            ],
+            "text": "Sous l'odeur de bière renversée, une autre, sucrée, qui colle au fond de la gorge.",
+            "color": "#ffffff",
+            "visibility": 2,
+            "once": true
+          },
+          "_stats": {
+            "coreVersion": "14.369",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.6",
+            "createdTime": 1793703377840,
+            "modifiedTime": 1793703377840,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!scenes.regions.behaviors!9iXsTIxtmEQ1A2bv.wokvLJPvH3Shfr1H.VeFr9AGzqC3JhQOG"
+        }
+      ],
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "_shapeConstraints": null,
+      "_key": "!scenes.regions!9iXsTIxtmEQ1A2bv.wokvLJPvH3Shfr1H"
+    },
+    {
+      "_id": "fCT90FWi79DGy8Eu",
+      "name": "Laboratoire",
+      "color": "#4f8cc9",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1300,
+          "y": 500,
+          "width": 700,
+          "height": 600,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "xp2OUZP5FY0c2zjJ",
+          "name": "Laboratoire",
+          "disabled": false,
+          "flags": {},
+          "type": "displayScrollingText",
+          "system": {
+            "events": [
+              "tokenAnimateIn"
+            ],
+            "text": "Des bocaux alignés comme à la parade. Dans certains, quelque chose bouge encore.",
+            "color": "#ffffff",
+            "visibility": 2,
+            "once": true
+          },
+          "_stats": {
+            "coreVersion": "14.369",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.6",
+            "createdTime": 1793703377842,
+            "modifiedTime": 1793703377842,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!scenes.regions.behaviors!9iXsTIxtmEQ1A2bv.fCT90FWi79DGy8Eu.xp2OUZP5FY0c2zjJ"
+        }
+      ],
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "_shapeConstraints": null,
+      "_key": "!scenes.regions!9iXsTIxtmEQ1A2bv.fCT90FWi79DGy8Eu"
+    },
+    {
+      "_id": "qxxoPqm6ywjW2qoC",
+      "name": "Ossuaire",
+      "color": "#e0a030",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 2100,
+          "y": 100,
+          "width": 600,
+          "height": 600,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "XQWVR1hxz1A6ApwB",
+          "name": "Ossuaire",
+          "disabled": false,
+          "flags": {},
+          "type": "pauseGame",
+          "system": {
+            "once": true
+          },
+          "_stats": {
+            "coreVersion": "14.369",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.6",
+            "createdTime": 1793703377843,
+            "modifiedTime": 1793703377843,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!scenes.regions.behaviors!9iXsTIxtmEQ1A2bv.qxxoPqm6ywjW2qoC.XQWVR1hxz1A6ApwB"
+        }
+      ],
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "_shapeConstraints": null,
+      "_key": "!scenes.regions!9iXsTIxtmEQ1A2bv.qxxoPqm6ywjW2qoC"
+    },
+    {
+      "_id": "Gq6AI2tJrsrUalT8",
+      "name": "Galerie noyée",
+      "color": "#303050",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 2100,
+          "y": 700,
+          "width": 400,
+          "height": 800,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "H1YoE53YToE56dVQ",
+          "name": "Galerie noyée",
+          "disabled": false,
+          "flags": {},
+          "type": "adjustDarknessLevel",
+          "system": {
+            "mode": 0,
+            "modifier": 1
+          },
+          "_stats": {
+            "coreVersion": "14.369",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.6",
+            "createdTime": 1793703377844,
+            "modifiedTime": 1793703377844,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!scenes.regions.behaviors!9iXsTIxtmEQ1A2bv.Gq6AI2tJrsrUalT8.H1YoE53YToE56dVQ"
+        }
+      ],
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "_shapeConstraints": null,
+      "_key": "!scenes.regions!9iXsTIxtmEQ1A2bv.Gq6AI2tJrsrUalT8"
+    }
+  ],
+  "notes": [
+    {
+      "entryId": "KvrjD375dkDDLtS9",
+      "pageId": "3XTXjWF2p7Qbw59C",
+      "x": 350,
+      "y": 550,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/biohazard.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "text": "Farine marquée (indice)",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "nDQLVsJ3VqO0pF0F",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "author": null,
+      "_key": "!scenes.notes!9iXsTIxtmEQ1A2bv.nDQLVsJ3VqO0pF0F"
+    },
+    {
+      "entryId": "KvrjD375dkDDLtS9",
+      "pageId": "3XTXjWF2p7Qbw59C",
+      "x": 1250,
+      "y": 450,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/trap.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "text": "L'étai piégé",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "O1e0uuO5PN8To4Mh",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "author": null,
+      "_key": "!scenes.notes!9iXsTIxtmEQ1A2bv.O1e0uuO5PN8To4Mh"
+    },
+    {
+      "entryId": "KvrjD375dkDDLtS9",
+      "pageId": "3XTXjWF2p7Qbw59C",
+      "x": 1650,
+      "y": 950,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/combat.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "text": "Laboratoire : acolytes et table vide",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "wBvadLIvKGZk1H2L",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "author": null,
+      "_key": "!scenes.notes!9iXsTIxtmEQ1A2bv.wBvadLIvKGZk1H2L"
+    },
+    {
+      "entryId": "QWxYXPXim6TIQi2j",
+      "pageId": "hnrDBpuoscQV4I5e",
+      "x": 1950,
+      "y": 1050,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "text": "Le carnet du docteur",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "DcyMoEL6ER9O6F9n",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "author": null,
+      "_key": "!scenes.notes!9iXsTIxtmEQ1A2bv.DcyMoEL6ER9O6F9n"
+    },
+    {
+      "entryId": "KvrjD375dkDDLtS9",
+      "pageId": "3XTXjWF2p7Qbw59C",
+      "x": 1050,
+      "y": 850,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/padlock.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "text": "Bram, enchaîné",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "yhdfFTaFpQ5MEg8M",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "author": null,
+      "_key": "!scenes.notes!9iXsTIxtmEQ1A2bv.yhdfFTaFpQ5MEg8M"
+    },
+    {
+      "entryId": "KvrjD375dkDDLtS9",
+      "pageId": "3XTXjWF2p7Qbw59C",
+      "x": 2450,
+      "y": 250,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/bones.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "text": "Ossuaire : les squelettes",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "d9gGIL0CTrk1jCW7",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "author": null,
+      "_key": "!scenes.notes!9iXsTIxtmEQ1A2bv.d9gGIL0CTrk1jCW7"
+    },
+    {
+      "entryId": "KvrjD375dkDDLtS9",
+      "pageId": "3XTXjWF2p7Qbw59C",
+      "x": 1950,
+      "y": 1650,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/anchor.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "text": "La barque du passeur",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "C1bEmwPOek3rhYIp",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "author": null,
+      "_key": "!scenes.notes!9iXsTIxtmEQ1A2bv.C1bEmwPOek3rhYIp"
+    }
+  ],
+  "tokens": [],
+  "tiles": [],
+  "folder": "7iMqa0X06OBPEOWp",
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "gue-brumeux-caves",
+      "description": "Acte 2 : sous le relais, la cave, le vieux boyau de contrebandiers rouvert, le laboratoire du nécromancien, le cachot du passeur, l'ossuaire, la galerie noyée et l'embarcadère caché sur le marais.",
+      "plan": {
+        "largeur": 28,
+        "hauteur": 20,
+        "lumiere": "nuit",
+        "pieces": [
+          {
+            "nom": "Cave du relais",
+            "x": 1,
+            "y": 1,
+            "l": 8,
+            "h": 6,
+            "sol": "terre"
+          },
+          {
+            "nom": "Réserve",
+            "x": 1,
+            "y": 7,
+            "l": 5,
+            "h": 4,
+            "sol": "terre"
+          },
+          {
+            "nom": "Boyau des contrebandiers",
+            "x": 9,
+            "y": 3,
+            "l": 12,
+            "h": 2,
+            "sol": "terre"
+          },
+          {
+            "nom": "Laboratoire",
+            "x": 13,
+            "y": 5,
+            "l": 7,
+            "h": 6,
+            "sol": "pierre"
+          },
+          {
+            "nom": "Cachot",
+            "x": 9,
+            "y": 7,
+            "l": 4,
+            "h": 4,
+            "sol": "pierre"
+          },
+          {
+            "nom": "Ossuaire",
+            "x": 21,
+            "y": 1,
+            "l": 6,
+            "h": 6,
+            "sol": "terre"
+          },
+          {
+            "nom": "Galerie noyée",
+            "x": 21,
+            "y": 7,
+            "l": 4,
+            "h": 8,
+            "sol": "eau"
+          },
+          {
+            "nom": "Embarcadère caché",
+            "x": 15,
+            "y": 15,
+            "l": 10,
+            "h": 4,
+            "sol": "bois"
+          },
+          {
+            "nom": "Bras du marais",
+            "x": 0,
+            "y": 15,
+            "l": 15,
+            "h": 5,
+            "sol": "eau"
+          }
+        ],
+        "ouvertures": [
+          {
+            "x": 3,
+            "y": 6,
+            "cote": "sud",
+            "type": "porte"
+          },
+          {
+            "x": 8,
+            "y": 3,
+            "cote": "est",
+            "type": "passage"
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "cote": "est",
+            "type": "passage"
+          },
+          {
+            "x": 16,
+            "y": 5,
+            "cote": "nord",
+            "type": "porte"
+          },
+          {
+            "x": 13,
+            "y": 8,
+            "cote": "ouest",
+            "type": "verrouillee"
+          },
+          {
+            "x": 20,
+            "y": 3,
+            "cote": "est",
+            "type": "passage"
+          },
+          {
+            "x": 20,
+            "y": 4,
+            "cote": "est",
+            "type": "passage"
+          },
+          {
+            "x": 22,
+            "y": 6,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 23,
+            "y": 6,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 21,
+            "y": 14,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 22,
+            "y": 14,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 23,
+            "y": 14,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 24,
+            "y": 14,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 15,
+            "y": 15,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 15,
+            "y": 16,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 15,
+            "y": 17,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 15,
+            "y": 18,
+            "cote": "ouest",
+            "type": "passage"
+          }
+        ],
+        "lumieres": [
+          {
+            "x": 4,
+            "y": 3,
+            "rayon": 2,
+            "couleur": "#ffcc66"
+          },
+          {
+            "x": 16,
+            "y": 7,
+            "rayon": 3,
+            "couleur": "#b8e05a"
+          },
+          {
+            "x": 18,
+            "y": 9,
+            "rayon": 1,
+            "couleur": "#ffddaa"
+          },
+          {
+            "x": 23,
+            "y": 3,
+            "rayon": 2,
+            "couleur": "#8fb0ff"
+          },
+          {
+            "x": 5,
+            "y": 17,
+            "rayon": 1,
+            "couleur": "#aaffcc"
+          }
+        ],
+        "elements": [
+          {
+            "nom": "Escalier de la trappe",
+            "x": 1,
+            "y": 1,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Tonneaux de bière",
+            "x": 5,
+            "y": 1,
+            "l": 3,
+            "h": 1
+          },
+          {
+            "nom": "Sacs de farine marqués",
+            "x": 2,
+            "y": 4,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Gravats du mur",
+            "x": 7,
+            "y": 5,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Jambons fumés",
+            "x": 1,
+            "y": 8,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Caisses de contrebande",
+            "x": 3,
+            "y": 9,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Étai pourri",
+            "x": 12,
+            "y": 3,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Flaque",
+            "x": 18,
+            "y": 4,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Étagère de bocaux",
+            "x": 13,
+            "y": 5,
+            "l": 1,
+            "h": 3
+          },
+          {
+            "nom": "Alambics",
+            "x": 18,
+            "y": 5,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Table de dissection",
+            "x": 15,
+            "y": 7,
+            "l": 3,
+            "h": 2
+          },
+          {
+            "nom": "Pupitre du docteur",
+            "x": 18,
+            "y": 9,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Chaudron de peste",
+            "x": 14,
+            "y": 10,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Sacs prêts à partir",
+            "x": 16,
+            "y": 10,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Chaînes",
+            "x": 9,
+            "y": 8,
+            "l": 1,
+            "h": 2
+          },
+          {
+            "nom": "Paille",
+            "x": 11,
+            "y": 10,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Niches d'ossements",
+            "x": 21,
+            "y": 1,
+            "l": 6,
+            "h": 1
+          },
+          {
+            "nom": "Tas de crânes",
+            "x": 25,
+            "y": 4,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Vieux coffre",
+            "x": 21,
+            "y": 5,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Éboulis",
+            "x": 23,
+            "y": 10,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Pieux d'amarrage",
+            "x": 16,
+            "y": 15,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Barque du passeur",
+            "x": 18,
+            "y": 17,
+            "l": 3,
+            "h": 1
+          },
+          {
+            "nom": "Lanterne éteinte",
+            "x": 24,
+            "y": 15,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Roseaux",
+            "x": 2,
+            "y": 16,
+            "l": 3,
+            "h": 2
+          },
+          {
+            "nom": "Souche noyée",
+            "x": 9,
+            "y": 18,
+            "l": 2,
+            "h": 1
+          }
+        ],
+        "sons": [
+          {
+            "nom": "Boyau des contrebandiers",
+            "x": 14,
+            "y": 3,
+            "rayon": 6,
+            "son": "grotte",
+            "volume": 0.25
+          },
+          {
+            "nom": "Laboratoire",
+            "x": 16,
+            "y": 8,
+            "rayon": 4,
+            "son": "tension",
+            "volume": 0.2
+          },
+          {
+            "nom": "Chaudron de peste",
+            "x": 14,
+            "y": 10,
+            "rayon": 2,
+            "son": "feu",
+            "volume": 0.2
+          },
+          {
+            "nom": "Pluie sur le marais",
+            "x": 6,
+            "y": 17,
+            "rayon": 7,
+            "son": "pluie",
+            "volume": 0.25
+          }
+        ],
+        "zones": [
+          {
+            "nom": "Cave du relais",
+            "x": 1,
+            "y": 1,
+            "l": 8,
+            "h": 6,
+            "type": "texte",
+            "texte": "Sous l'odeur de bière renversée, une autre, sucrée, qui colle au fond de la gorge."
+          },
+          {
+            "nom": "Laboratoire",
+            "x": 13,
+            "y": 5,
+            "l": 7,
+            "h": 6,
+            "type": "texte",
+            "texte": "Des bocaux alignés comme à la parade. Dans certains, quelque chose bouge encore."
+          },
+          {
+            "nom": "Ossuaire",
+            "x": 21,
+            "y": 1,
+            "l": 6,
+            "h": 6,
+            "type": "pause"
+          },
+          {
+            "nom": "Galerie noyée",
+            "x": 21,
+            "y": 7,
+            "l": 4,
+            "h": 8,
+            "type": "obscurite",
+            "obscurite": 1
+          }
+        ],
+        "notes": [
+          {
+            "x": 3,
+            "y": 5,
+            "texte": "Farine marquée (indice)",
+            "icone": "icons/svg/biohazard.svg",
+            "entryId": "KvrjD375dkDDLtS9",
+            "pageId": "3XTXjWF2p7Qbw59C"
+          },
+          {
+            "x": 12,
+            "y": 4,
+            "texte": "L'étai piégé",
+            "icone": "icons/svg/trap.svg",
+            "entryId": "KvrjD375dkDDLtS9",
+            "pageId": "3XTXjWF2p7Qbw59C"
+          },
+          {
+            "x": 16,
+            "y": 9,
+            "texte": "Laboratoire : acolytes et table vide",
+            "icone": "icons/svg/combat.svg",
+            "entryId": "KvrjD375dkDDLtS9",
+            "pageId": "3XTXjWF2p7Qbw59C"
+          },
+          {
+            "x": 19,
+            "y": 10,
+            "texte": "Le carnet du docteur",
+            "icone": "icons/svg/book.svg",
+            "entryId": "QWxYXPXim6TIQi2j",
+            "pageId": "hnrDBpuoscQV4I5e"
+          },
+          {
+            "x": 10,
+            "y": 8,
+            "texte": "Bram, enchaîné",
+            "icone": "icons/svg/padlock.svg",
+            "entryId": "KvrjD375dkDDLtS9",
+            "pageId": "3XTXjWF2p7Qbw59C"
+          },
+          {
+            "x": 24,
+            "y": 2,
+            "texte": "Ossuaire : les squelettes",
+            "icone": "icons/svg/bones.svg",
+            "entryId": "KvrjD375dkDDLtS9",
+            "pageId": "3XTXjWF2p7Qbw59C"
+          },
+          {
+            "x": 19,
+            "y": 16,
+            "texte": "La barque du passeur",
+            "icone": "icons/svg/anchor.svg",
+            "entryId": "KvrjD375dkDDLtS9",
+            "pageId": "3XTXjWF2p7Qbw59C"
+          }
+        ]
+      },
+      "aventure": "Une nuit aux Deux Lanternes",
+      "version": "0.10.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793591655646,
+    "modifiedTime": 1793703377930,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.lakour-warcraft.scenes.Scene.LBFCzoPBgK2w2oM9",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "thumb": null,
+  "shiftX": 0,
+  "shiftY": 0,
+  "initial": {
+    "x": null,
+    "y": null,
+    "scale": null
+  },
+  "fog": {
+    "mode": 1,
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    }
+  },
+  "transition": {
+    "type": null,
+    "duration": 1500,
+    "activeOnly": false
+  },
+  "playlist": null,
+  "playlistSound": null,
+  "journal": null,
+  "journalEntryPage": null,
+  "weather": "",
+  "ownership": {
+    "default": 0
+  },
+  "_id": "9iXsTIxtmEQ1A2bv",
+  "active": false,
+  "navOrder": 0,
+  "sort": 0,
+  "_key": "!scenes!9iXsTIxtmEQ1A2bv",
+  "templates": []
+}

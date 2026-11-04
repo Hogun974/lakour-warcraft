@@ -1,0 +1,18 @@
+{
+  "key": "dnd5e.bastionConfiguration",
+  "user": null,
+  "value": "{\"button\":false,\"enabled\":true,\"duration\":7,\"reminder\":true}",
+  "_id": "M5sj9jFHqds0sJsp",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467562556,
+    "modifiedTime": 1793532994870,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!M5sj9jFHqds0sJsp"
+}

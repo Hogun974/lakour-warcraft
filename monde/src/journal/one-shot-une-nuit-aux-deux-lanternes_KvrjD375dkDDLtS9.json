@@ -1,0 +1,296 @@
+{
+  "_id": "KvrjD375dkDDLtS9",
+  "name": "One-shot — Une nuit aux Deux Lanternes",
+  "folder": "wNtgGHYLJnHwTJwh",
+  "categories": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "one-shot-deux-lanternes",
+      "version": "0.10.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793591654070,
+    "modifiedTime": 1793703375482,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.lakour-warcraft.journaux.JournalEntry.KvrjD375dkDDLtS9",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "pages": [
+    {
+      "_id": "2S6EQKFOMVu0bxd6",
+      "name": "Synopsis (MJ)",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Une nuit aux Deux Lanternes</strong> est un one-shot d'enquête et d'horreur pour 3 à 5 personnages de <strong>niveau 3</strong>, prêt à jouer en une soirée de <strong>3 à 4 heures</strong>. Tout se passe en une seule nuit d'orage, du souper à l'aube. Le groupe peut être de l'Alliance, de la Horde ou mélangé : le relais accueille tout le monde.</p><p><strong>Cadre.</strong> An 21, quelques mois après la fondation d'Orgrimmar et de Theramore. Au nord du marécage d'Âprefange, la piste qui relie les Tarides à Theramore traverse une rivière boueuse au <strong>Gué-Brumeux</strong>. Un bac y passe les voyageurs et un relais les loge : les <strong>Deux Lanternes</strong>. Une lanterne bleue et une rouge pendent à sa porte, pour que chacun sache qu'il y sera servi. Le relais est tenu par <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.xpXJZqrmt0As4avD]{Hilde Brunval}</strong>, ancienne sergente de la milice de Lordaeron, et <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.MlpeJBkfpAHEFRZI]{Durgan Brise-Fers}</strong>, un orc qu'elle gardait autrefois dans un camp d'internement, et à qui elle a ouvert la porte une nuit au lieu de donner l'alerte.</p><p><strong>La vérité.</strong> <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.9pgWTVP7FvGOGb8e]{Aldwin Crayeval}</strong>, « le bon docteur de Theramore », passe au relais tous les neuf jours depuis un mois pour soigner gratuitement la fièvre des marais. C'est un nécromancien du <strong>Culte des Damnés</strong>. À Lordaeron, sous le nom de maître Varn, il vendait aux villages du grain qui portait la peste ; il a suivi les réfugiés en Kalimdor pour y semer le Fléau. Sous le relais, il a rouvert un vieux boyau de contrebandiers que Durgan avait muré, et y a installé son laboratoire. Il paie ses chambres en <strong>sacs de farine</strong> : une farine de peste, qui donne la fièvre et fait se relever ceux qui meurent avec elle dans le ventre. Sur l'îlot voisin, le <strong>cimetière des Rescapés</strong> garde une quarantaine de réfugiés de Lordaeron emportés par la fièvre au premier hiver, dont Joren, le mari de Hilde. À l'<strong>heure morte</strong>, trois heures du matin, Aldwin veut sonner la <strong>cloche des Rescapés</strong> et les relever tous : le premier nid du Fléau sur Kalimdor, à une journée de Theramore et du Carrefour.</p><p><strong>Pourquoi cette nuit.</strong> L'orage a bloqué au relais <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.eH06E9RxoVB5nOWB]{Vesper Lacombe}</strong>, une réprouvée de <strong>Brumefeuille</strong>, le village où maître Varn vendait son grain. Elle l'a reconnu, et il l'a reconnue. Aldwin avance son rituel et lâche ses morts pour couvrir sa fuite. Pour tous les autres, c'est Vesper, la morte, qu'on soupçonnera d'abord.</p><p><strong>Déroulement et cartes</strong> (compendium <em>La Kour Warcraft — Scènes</em>)<br>- Acte 1 — L'orage au relais, environ 75 minutes : carte <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.G2fZkUWf8Xu5rrqk]{Gué-Brumeux — Relais des Deux Lanternes}</em><br>- Acte 2 — Sous le relais, environ 60 minutes : carte <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.LBFCzoPBgK2w2oM9]{Gué-Brumeux — Caves et boyau des contrebandiers}</em><br>- Acte 3 — Le cimetière des Rescapés, environ 60 minutes : carte <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.qUzfmGA4egtL845y]{Marécage d'Âprefange — Cimetière des Rescapés}</em></p><p>Les PNJ nommés et les créatures sont dans le compendium <em>La Kour Warcraft — Bestiaire</em> (liens dans chaque acte et dans « PNJ et forces en présence »).</p><p><strong>Aides de jeu</strong> (visibles des joueurs) : @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.Ckcfe75G4dbgpFw1]{Aide de jeu — Le Relais des Deux Lanternes} (acte 1, deux pages) et @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.QWxYXPXim6TIQi2j]{Aide de jeu — Le carnet du docteur Crayeval} (acte 2, deux pages). Pour meubler la nuit : la table @UUID[Compendium.lakour-warcraft.tables.RollTable.umpu4Hu719TnMdAO]{Bruits de la nuit aux Deux Lanternes}.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375445,
+        "modifiedTime": 1793703375460,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!KvrjD375dkDDLtS9.2S6EQKFOMVu0bxd6"
+    },
+    {
+      "_id": "H51rkPWi462Pr881",
+      "name": "Accroches et minutage",
+      "type": "text",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Accroches</strong> (une seule suffit ; dans un groupe mixte, donnez-en une par faction)<br>- <strong>La route</strong> : le groupe se rend à Theramore ou au Carrefour, et le bac du Gué-Brumeux est le seul passage avant la nuit. L'orage décide pour lui.<br>- <strong>Le courrier</strong> (Horde ou groupe mixte) : la courrière <strong>Kazra Croc-Gris</strong> (profil de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.oGqL8nq1xsznIEhi]{Grunt d'Orgrimmar}) porte des dépêches de paix d'Orgrimmar à Theramore. Elle paie 10 po par tête pour une escorte jusqu'au bac.<br>- <strong>La patrouille</strong> (Alliance ou groupe mixte) : le <strong>sergent Odran Pell</strong> (profil de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.EAVnasdhIMpJ0aIX]{Garde de Hurlevent}) ramène à Theramore une jeune recrue, <strong>Fenna Marlow</strong>, et cherche des bras pour la route du marais.<br>- <strong>Le passeur</strong> : Hilde a fait savoir à Theramore qu'elle cherche quelqu'un de solide. Son passeur, <strong>Bram</strong>, jure voir des lumières sur l'îlot des Rescapés certaines nuits. Elle offre 10 po par personne pour aller voir, « quand l'orage sera passé ».<br>- <strong>La revenante</strong> (un personnage réprouvé, ou des chasseurs de primes) : @UUID[Compendium.lakour-warcraft.bestiaire.Actor.eH06E9RxoVB5nOWB]{Vesper} cherche des alliés pour retrouver « un homme de Lordaeron » dont elle ne connaît que l'ancien nom.</p><p><strong>L'horloge de la nuit</strong><br>- 18 h : arrivée sous la pluie. Le bac ne traversera plus avant l'aube.<br>- 19 h : souper. Aldwin est à table et charme tout le monde. Le pain est fait avec sa farine.<br>- 22 h : Fenna Marlow tombe malade.<br>- 23 h : Aldwin « monte se coucher ». Il descend en fait par la trappe de la cuisine, avec sa clé.<br>- Minuit : les morts sortent de la cave (combat).<br>- 1 h : le groupe descend sous le relais (acte 2).<br>- 2 h 30 : traversée du marais.<br>- 3 h, l'heure morte : Aldwin sonne la cloche. Chaque demi-heure de retard du groupe fait commencer le rituel un palier plus haut (voir l'acte 3).<br>- 6 h : l'aube. La pluie cesse, le bac repart.</p><p><strong>Minutage d'une soirée</strong> : 15 minutes d'installation et d'accroche, 75 pour l'acte 1, 60 pour l'acte 2, 60 pour l'acte 3, 15 pour l'épilogue. Si le temps manque, coupez l'ossuaire de l'acte 2 et faites trouver le carnet par Bram.</p><p><strong>Pour meubler la nuit</strong> : entre deux scènes de l'acte 1, tirez ou choisissez un événement dans @UUID[Compendium.lakour-warcraft.tables.RollTable.umpu4Hu719TnMdAO]{Bruits de la nuit aux Deux Lanternes}. Pour un voyageur de plus, piochez dans @UUID[Compendium.lakour-warcraft.tables.RollTable.LkTFIlylwvlzuTtp]{Visages d'Azeroth}.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375447,
+        "modifiedTime": 1793703375461,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!KvrjD375dkDDLtS9.H51rkPWi462Pr881"
+    },
+    {
+      "_id": "T9KGsRBRbD2COTgq",
+      "name": "Acte 1 — L'orage au relais",
+      "type": "text",
+      "sort": 300,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Carte :</strong> <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.G2fZkUWf8Xu5rrqk]{Gué-Brumeux — Relais des Deux Lanternes}</em>. De 18 h à 1 h du matin environ. Dedans, la lumière de la cheminée et des lampes ; dehors, la nuit, la pluie et les deux lanternes de la porte.</p><p><strong>À lire :</strong> <em>La pluie tombe si fort qu'elle rebondit dans la boue. Au bout de la piste, deux lanternes se balancent au-dessus d'une porte, une bleue et une rouge ; derrière la fenêtre jaune bouge une ombre énorme. Sur la rivière, un bac vide tire sur sa corde. Une femme aux cheveux gris ouvre avant que vous ayez frappé : « Entrez, ou noyez-vous, mais décidez-vous vite. Les armes au râtelier. Ici, on laisse sa guerre dehors. »</em></p><p><strong>Les hôtes.</strong> <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.xpXJZqrmt0As4avD]{Hilde}</strong> tient la salle et les comptes, <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.MlpeJBkfpAHEFRZI]{Durgan}</strong> la cuisine, l'écurie, et le bac quand Bram n'est pas là. Montrez aux joueurs @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.Ckcfe75G4dbgpFw1.JournalEntryPage.RfEbEiYF0A4Oq9sD]{le règlement des Deux Lanternes}, cloué près de la porte (première page de l'aide de jeu). Une nuit coûte 5 pa, le souper 3 pa. Sur le Comptoir, @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.Ckcfe75G4dbgpFw1.JournalEntryPage.U9huyMKBmDc8dNpN]{le registre des voyageurs} attend leurs noms (seconde page) : laissez les joueurs le lire, il cache trois indices.</p><p><strong>Les voyageurs bloqués</strong> (profils du bestiaire)<br>- <strong>Sergent Odran Pell</strong> et la recrue <strong>Fenna Marlow</strong>, de Theramore (profil de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.EAVnasdhIMpJ0aIX]{Garde de Hurlevent}). Pell a perdu sa famille à Andorhal : il ne supporte pas les morts qui marchent.<br>- <strong>Kazra Croc-Gris</strong>, courrière d'Orgrimmar (profil de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.oGqL8nq1xsznIEhi]{Grunt d'Orgrimmar}), et son loup <strong>Cendre</strong> (profil de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.lteeHMqn1thceFH4]{Loup des bois}), qui dort à l'Écurie. Elle porte des dépêches scellées et ne dit pas pour qui.<br>- <strong>Pip Zinguette</strong>, colporteur gobelin (profil de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.SNg5jnYLxzBPKd5n]{Marchand}), dont le Chariot de Pip attend dans la cour.<br>- <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.eH06E9RxoVB5nOWB]{Vesper Lacombe}</strong>, encapuchonnée, seule près de la Cheminée. Elle ne mange pas et ne quitte pas le docteur des yeux.<br>- <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.9pgWTVP7FvGOGb8e]{Aldwin Crayeval}</strong>, affable, qui offre une tournée et prend des nouvelles de chacun.</p><p><strong>La tension.</strong> Au souper, autour de la Grande table, le sergent Pell exige que « la morte » dorme à l'écurie, ou dehors. Kazra répond que les Réprouvés marchent désormais avec la Horde, et que la Horde dort où elle veut. Hilde se tourne vers les personnages : à eux de trancher. <strong>[[/check skill=per dc=12]]{Persuasion DD 12}</strong> ou <strong>[[/check skill=itm dc=13]]{Intimidation DD 13}</strong> pour calmer la table ; en cas d'échec, Pell et Kazra en viennent aux mains et Durgan les sépare. <strong>[[/check skill=ins dc=12]]{Intuition DD 12}</strong> sur Vesper : elle n'a pas peur des vivants, elle a peur de quelqu'un dans cette pièce. <strong>[[/check skill=ins dc=15]]{Intuition DD 15}</strong> sur Aldwin (son trait Bon docteur rend le test difficile) : son sourire ne monte jamais jusqu'aux yeux quand il regarde Vesper.</p><p><strong>Le registre</strong> (indices)<br>- Aldwin vient tous les neuf jours et paie en sacs de farine. Hilde ne les a jamais refusés : la farine est rare au marais.<br>- Bram a noté trois fois des « lumières sur l'îlot », toujours les nuits où le docteur dormait au relais.<br>- Vesper a signé « V. de Brumefeuille ». <strong>[[/check skill=his dc=13]]{Histoire DD 13}</strong> : Brumefeuille est un village du nord de Lordaeron, mort de la peste parmi les premiers.</p><p><strong>22 h : Fenna tombe malade.</strong> La recrue tremble, transpire, puis délire. Aldwin se précipite pour la « soigner ». <strong>[[/check skill=med dc=13]]{Médecine DD 13}</strong> : ce n'est pas la fièvre des marais, mais la <strong>peste</strong> de Lordaeron (des taches grises sous les ongles, une haleine sucrée). <strong>[[/check skill=med dc=15]]{Médecine DD 15}</strong>, ou <strong>[[/check skill=inv dc=14]]{Investigation DD 14}</strong> dans la Cuisine : la maladie vient du pain du souper, et le pain des Sacs de farine. Aldwin conseille de la laisser dormir et monte se coucher à 23 h.</p><p><strong>Le pain.</strong> Chaque personnage qui a mangé du pain au souper fait à minuit un <strong>[[/save ability=con dc=11]]{jet de sauvegarde de Constitution DD 11}</strong>. En cas d'échec, il est &amp;Reference[condition=poisoned]{empoisonné} jusqu'à l'aube, ou jusqu'à ce qu'on le soigne (<em>restauration partielle</em>, ou le remède du laboratoire de l'acte 2). Fenna, elle, meurt à 2 h si personne ne la soigne, et se relève à 3 h : une @UUID[Compendium.lakour-warcraft.bestiaire.Actor.QsFYC2AB4WaEidqA]{goule} dans la chambre des voyageurs.</p><p><strong>Minuit : la trappe de la cave.</strong> La Trappe de la cave saute dans la cuisine. <strong>Deux @UUID[Compendium.lakour-warcraft.bestiaire.Actor.QsFYC2AB4WaEidqA]{goules}</strong>, des noyés du marais qu'Aldwin gardait en bas, sortent et attaquent la personne la plus proche (une goule de plus pour cinq personnages, une de moins pour trois, remplacée par un @UUID[Compendium.lakour-warcraft.bestiaire.Actor.WanzF5HTfEfrR5rS]{squelette}). Le loup de Kazra hurle à l'écurie. Si Vesper est dans la salle, le sergent Pell la désigne aussitôt : « C'est elle qui les a appelés ! » Hilde et Durgan défendent la cuisine ; Pip se cache sous la Grande table.</p><p><strong>Après le combat</strong><br>- <strong>La Chambre du docteur</strong> est vide, la fenêtre fermée de l'intérieur. <strong>[[/check skill=inv dc=13]]{Investigation DD 13}</strong> sur la Malle du docteur : un double fond, une clé neuve qui ouvre la trappe de la cave, et un flacon d'encre vert-noir. <strong>[[/check skill=arc dc=13]]{Arcanes} ou [[/check skill=rel dc=13]]{Religion DD 13}</strong> : une encre de nécromancien, celle des grimoires du <strong>Culte des Damnés</strong>.<br>- <strong>Vesper</strong> parle si on l'a défendue devant Pell, ou si on la presse (<strong>[[/check skill=per dc=13]]{Persuasion DD 13}</strong>, avantage avec la clé ou l'encre) : « À Brumefeuille, il s'appelait maître Varn. Il vendait du grain pas cher. Un mois plus tard, le village était mort. Puis il s'est relevé. J'en étais. » Elle veut Aldwin, vivant ou non, et met son arbalète au service du groupe.<br>- <strong>Durgan</strong> se souvient : sous la cave, un vieux <strong>boyau de contrebandiers</strong> mène au marais. Il l'a muré lui-même il y a deux ans. <strong>[[/check skill=prc dc=12]]{Perception DD 12}</strong> au pied de la trappe : des traces de boue fraîche qui remontent de la cave.<br>- <strong>Bram</strong>, le passeur, n'est pas rentré de l'après-midi. Sa barque n'est plus dans la Remise du passeur, et <strong>[[/check skill=sur dc=12]]{Survie DD 12}</strong> près du Ponton du bac : personne n'est parti par la rivière.</p><p><strong>Qui reste au relais ?</strong> Hilde garde Fenna et les voyageurs. Durgan insiste pour descendre avec le groupe (un allié ; confiez-le à un joueur si le groupe n'a que trois personnages). Vesper suit le groupe, ou part seule si on l'a humiliée : on la retrouvera dans la chapelle de l'îlot à l'acte 3.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375450,
+        "modifiedTime": 1793703375462,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!KvrjD375dkDDLtS9.T9KGsRBRbD2COTgq"
+    },
+    {
+      "_id": "3XTXjWF2p7Qbw59C",
+      "name": "Acte 2 — Sous le relais",
+      "type": "text",
+      "sort": 400,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Carte :</strong> <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.LBFCzoPBgK2w2oM9]{Gué-Brumeux — Caves et boyau des contrebandiers}</em>. De 1 h à 2 h 30. Obscurité totale hors des lumières de la carte.</p><p><strong>À lire :</strong> <em>L'escalier grince à chaque marche. En bas, entre les tonneaux de bière, il fait plus froid qu'il ne devrait. Dans le mur du fond, les briques que Durgan avait posées gisent en tas, et derrière s'ouvre un boyau noir, assez haut pour qu'un nain y passe sans baisser la tête. De très loin, au bout du noir, monte une odeur de miel tourné.</em></p><p><strong>La cave du relais.</strong> Les Sacs de farine marqués : <strong>[[/check skill=inv dc=12]]{Investigation DD 12}</strong>, un petit sceau cousu dans la toile ; <strong>[[/check skill=his dc=13]]{Histoire} ou [[/check skill=rel dc=13]]{Religion DD 13}</strong>, le symbole du <strong>Culte des Damnés</strong>. Les Gravats du mur ont été poussés depuis le boyau. Durgan jure en orc. Dans la Réserve, derrière les Caisses de contrebande : une lanterne sourde et une corde de 15 m, bien utiles dans la galerie noyée.</p><p><strong>Le boyau des contrebandiers.</strong> Bas et humide. À mi-chemin, l'Étai pourri est relié à un fil tendu au ras du sol : <strong>[[/check skill=prc dc=13]]{Perception DD 13}</strong> pour le voir, <strong>[[/check tool=thief dc=12]]{outils de voleur DD 12}</strong> pour le détacher. Qui le déclenche fait tomber le plafond : <strong>[[/save ability=dex dc=13]]{sauvegarde de Dextérité DD 13}</strong>, [[/damage formula=2d10 type=bludgeoning]]{2d10 dégâts de contondant} (moitié en cas de réussite), et l'éboulement sépare le groupe en deux pendant 10 minutes (<strong>[[/check skill=ath dc=12]]{Athlétisme DD 12}</strong> pour dégager le passage plus vite).</p><p><strong>Le laboratoire.</strong> <strong>Deux acolytes du Culte</strong> (profil de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.b3cJ52ZXydLLpfaZ]{Bandit défias}, une main noire tatouée sur la paume) chargent les Sacs prêts à partir. Ils se battent, puis fuient vers l'ossuaire pour réveiller les morts.</p><p><strong>À lire :</strong> <em>Une pièce de pierre, propre comme un cabinet de chirurgien. Des bocaux sur une étagère, des alambics qui fument doucement, un chaudron où bouillonne une pâte grise. Au milieu, une table de dissection aux sangles arrachées. Elle est vide, mais quelque chose y était attaché il y a peu.</em></p><p><strong>Indices du laboratoire</strong><br>- La Table de dissection : <strong>[[/check skill=med dc=12]]{Médecine DD 12}</strong>, des fils de suture et les morceaux de plusieurs corps cousus ensemble ; <strong>[[/check skill=arc dc=14]]{Arcanes DD 14}</strong>, une abomination, un « recousu » assez grand pour porter un tonneau. Il n'est plus là (acte 3).<br>- Le Pupitre du docteur : le carnet d'Aldwin. Montrez aux joueurs @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.QWxYXPXim6TIQi2j.JournalEntryPage.hnrDBpuoscQV4I5e]{la lettre du Cercle} (première page de l'aide de jeu), qui l'a envoyé en Kalimdor, puis @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.QWxYXPXim6TIQi2j.JournalEntryPage.n8Dz46R3TyeYEZCB]{le croquis du cimetière} (seconde page) : la cloche, trois fois trois coups à l'heure morte, et le mausolée où il garde « l'enfant ».<br>- L'Étagère de bocaux : deux @UUID[Compendium.lakour-warcraft.objets.Item.D2jD8VN39EjXu6ZT]{potions de soins} et un flacon étiqueté « contre-mesure ». <strong>[[/check skill=med dc=12]]{Médecine DD 12}</strong> : le remède à la farine de peste, assez pour quatre personnes. Il met fin à l'état empoisonné du pain, et sauve Fenna si on le lui porte avant 2 h.<br>- Les Sacs prêts à partir portent deux adresses : « intendance de Theramore » et « comptoir du Carrefour ». Les deux camps devaient manger le même pain.</p><p><strong>Le cachot.</strong> Porte verrouillée : <strong>[[/check tool=thief dc=12]]{outils de voleur DD 12}</strong>, ou la clé d'un acolyte. <strong>Bram</strong> le passeur (profil de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.rEd2jEd2VR2hp424]{Paysan}) y est enchaîné, fiévreux mais vivant. Il a surpris Aldwin il y a trois jours et devait être le premier des nouveaux « Rescapés ». Libéré, il connaît le marais par cœur.</p><p><strong>L'ossuaire.</strong> Les contrebandiers y jetaient ceux qui parlaient trop. <strong>Quatre @UUID[Compendium.lakour-warcraft.bestiaire.Actor.WanzF5HTfEfrR5rS]{squelettes}</strong> se lèvent des Niches d'ossements quand un vivant entre (deux de plus si les acolytes ont fui jusqu'ici). Dans le Vieux coffre : 40 po en vieilles pièces de Lordaeron.</p><p><strong>La galerie noyée.</strong> De l'eau noire et glacée jusqu'à la taille : un &amp;Reference[rule=difficultTerrain]{terrain difficile}, et l'obscurité y est totale, même une torche à la main. Les Éboulis cachent un passage étroit (<strong>[[/check skill=ath dc=10]]{Athlétisme DD 10}</strong> pour s'y glisser avec son équipement).</p><p><strong>L'embarcadère caché.</strong> La barque d'Aldwin est partie. Reste la Barque du passeur : Bram la reconnaît, c'est la sienne. Quatre places, six en se serrant.</p><p><strong>La traversée.</strong> Un quart d'heure de rames dans la brume. Avec Bram, aucun test. Sans lui : <strong>[[/check skill=sur dc=13]]{Survie DD 13}</strong> pour trouver l'îlot ; en cas d'échec, le groupe arrive avec une demi-heure de retard.</p><p><strong>Équilibre :</strong> acolytes et squelettes forment un combat facile pour quatre personnages de niveau 3 ; il entame leurs ressources avant l'acte 3. Avec trois personnages, ne gardez que trois squelettes ; avec cinq, ajoutez une @UUID[Compendium.lakour-warcraft.bestiaire.Actor.QsFYC2AB4WaEidqA]{goule} dans la galerie noyée.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375452,
+        "modifiedTime": 1793703375462,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!KvrjD375dkDDLtS9.3XTXjWF2p7Qbw59C"
+    },
+    {
+      "_id": "KOqX3BDbuoQOWDW7",
+      "name": "Acte 3 — Le cimetière des Rescapés",
+      "type": "text",
+      "sort": 500,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Carte :</strong> <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.qUzfmGA4egtL845y]{Marécage d'Âprefange — Cimetière des Rescapés}</em>. Vers 3 h, l'heure morte. Pluie fine et brume ; aucune autre lumière que celles de la carte.</p><p><strong>À lire :</strong> <em>La barque racle la vase. L'îlot sort de la brume : des croix de bois penchées, des tombes basses, une chapelle sans toit et, au milieu, sur un portique de chêne noirci, une cloche de bronze. Un homme en manteau de médecin tient la corde à deux mains. Il vous regarde arriver sans surprise. « Vous arrivez à temps pour l'office », dit le docteur Crayeval. Et il tire.</em></p><p><strong>Forces en présence.</strong> <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.9pgWTVP7FvGOGb8e]{Aldwin Crayeval}</strong> près de la Cloche des Rescapés, derrière le Brasero de peste. Dans le Mausolée, <strong>le Recousu</strong> (profil d'@UUID[Compendium.lakour-warcraft.bestiaire.Actor.urCuSVrnRBNGrlJy]{Abomination}), son « enfant », qui sort au premier coup de cloche. Si Vesper est venue seule, elle attend dans la Chapelle en ruine et tire sur Aldwin dès le premier round.</p><p><strong>Le rituel</strong> (un palier tous les 3 rounds, compté dès que le groupe pose le pied sur l'îlot ; un palier de plus par demi-heure de retard) :<br>1. Les Tombes fraîchement ouvertes se fendent : <strong>trois @UUID[Compendium.lakour-warcraft.bestiaire.Actor.WanzF5HTfEfrR5rS]{squelettes}</strong> en sortent.<br>2. La Tombe de Joren Brunval s'ouvre : <strong>Joren</strong> se relève (une @UUID[Compendium.lakour-warcraft.bestiaire.Actor.QsFYC2AB4WaEidqA]{goule}), avec une autre goule. Si Hilde est là, elle ne peut pas le frapper ; un personnage peut la ramener à elle (<strong>[[/check skill=per dc=12]]{Persuasion DD 12}</strong>).<br>3. <strong>La marée des morts.</strong> Toutes les tombes remuent. Le groupe a encore <strong>3 rounds</strong> pour faire taire la cloche ; ensuite, les quarante et un Rescapés se lèvent et marchent vers le relais (voir les dénouements).</p><p><strong>Faire taire la cloche</strong><br>- Couper la corde (CA 11, 5 PV, dégâts tranchants seulement) : Aldwin doit alors frapper la cloche à la main, au contact, par une action à chaque round.<br>- Bloquer le battant : une action au contact et <strong>[[/check skill=ath dc=13]]{Athlétisme DD 13}</strong>.<br>- Renverser le portique : une action et <strong>[[/check skill=ath dc=16]]{Athlétisme DD 16}</strong>, ou deux personnages qui réussissent chacun <strong>[[/check skill=ath dc=12]]{Athlétisme DD 12}</strong> au même round.<br>- Sanctifier la cloche : une action et <strong>[[/check skill=rel dc=14]]{Religion DD 14}</strong> ; après deux réussites, elle ne parle plus aux morts.<br>- Mettre Aldwin hors de combat (&amp;Reference[condition=unconscious]{inconscient}, &amp;Reference[condition=incapacitated]{neutralisé} ou mort) : plus personne ne sonne. Les morts déjà levés restent et se battent.</p><p><strong>Aldwin</strong> se bat de loin (Rayon de peste, Fiole de mouches sur un groupe serré) et garde toujours un mort-vivant près de lui pour sa réaction Chair servile. À 15 PV, il tente de fuir dans la Barque d'Aldwin ; encerclé, il se rend et propose de « tout dire à Theramore ».</p><p><strong>Vesper</strong> veut tuer Aldwin. Si le groupe le veut vivant, il faut la retenir (<strong>[[/check skill=per dc=14]]{Persuasion DD 14}</strong>, avantage si le groupe l'a défendue au relais).</p><p><strong>Équilibre :</strong> Aldwin, le Recousu et les paliers 1 et 2 forment un combat difficile pour quatre personnages de niveau 3, avec Durgan et Vesper en alliés. Avec trois personnages, le Recousu reste dans le mausolée tant qu'on ne l'ouvre pas, et le palier 2 n'amène que Joren. Avec cinq, ajoutez deux @UUID[Compendium.lakour-warcraft.bestiaire.Actor.WanzF5HTfEfrR5rS]{squelettes} au palier 1 et faites sortir le Recousu dès l'arrivée du groupe.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375454,
+        "modifiedTime": 1793703375462,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!KvrjD375dkDDLtS9.KOqX3BDbuoQOWDW7"
+    },
+    {
+      "_id": "dg853Tk6XFGrpIT8",
+      "name": "Dénouements et récompenses",
+      "type": "text",
+      "sort": 600,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>La cloche se tait avant la marée des morts.</strong> Les morts levés tombent en poussière à l'aube. La pluie cesse, le bac repart. Hilde enterre Joren une seconde fois, seule, et revient servir le petit déjeuner sans un mot. @UUID[Compendium.lakour-warcraft.bestiaire.Actor.MlpeJBkfpAHEFRZI]{Durgan} rebouche le boyau, au mortier cette fois.</p><p><strong>Aldwin est capturé.</strong> Le sergent Pell le veut pour la justice de Theramore ; Kazra rappelle que la farine partait aussi au Carrefour. Le groupe décide : le livrer à l'un, à l'autre, ou le faire juger par les deux. @UUID[Compendium.lakour-warcraft.bestiaire.Actor.eH06E9RxoVB5nOWB]{Vesper} accepte le verdict si on la laisse voir Aldwin enchaîné, « comme on enchaînait les orcs ».</p><p><strong>Aldwin est tué.</strong> Vesper reste un long moment devant le corps, puis s'en va dans la brume, apaisée ou vide, on ne saura pas.</p><p><strong>La marée des morts.</strong> Les quarante et un Rescapés marchent sur le relais. Il faut tenir jusqu'à l'aube derrière les volets : Pell, Kazra, Pip, Hilde et Durgan se battent côte à côte avec le groupe (épilogue de 20 minutes, en vagues de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.WanzF5HTfEfrR5rS]{squelettes} et de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.QsFYC2AB4WaEidqA]{goules}). Au matin, les morts retournent à la vase. Le Culte sait désormais que Kalimdor peut porter le Fléau.</p><p><strong>Récompenses</strong><br>- Hilde et Durgan : le gîte gratuit à vie aux Deux Lanternes, et une @UUID[Compendium.lakour-warcraft.objets.Item.muBjluVk48ymr1AH]{pierre de foyer} liée au relais pour chaque personnage. Si Bram est sauvé, il passe le groupe gratuitement, toujours.<br>- Le sergent Pell : 50 po par personnage si Aldwin est livré vivant à Theramore, et une lettre de recommandation pour la garde.<br>- Kazra Croc-Gris : un bracelet de cuir à la marque d'Orgrimmar. Dans un poste de la Horde, il vaut un repas, un lit et une oreille attentive.<br>- Pip Zinguette, s'il a survécu : un @UUID[Compendium.lakour-warcraft.objets.Item.DnuAjolIuMjbG2Y6]{élixir de la mangouste}, « offert, pour une fois ».<br>- Vesper : la bague de mariage de sa sœur, en argent (25 po), et une promesse : « Si vous croisez un autre maître Varn, appelez-moi. »<br>- Sur Aldwin : le carnet, 60 po, une trousse de chirurgien et ce qui reste du remède.<br>- Le laboratoire : deux @UUID[Compendium.lakour-warcraft.objets.Item.D2jD8VN39EjXu6ZT]{potions de soins}, et 40 po dans l'ossuaire.<br>- Expérience : si la table continue avec la campagne @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.qRBAKDn0YR5qJjhc]{Les Braises de la Légion}, les personnages la commencent au niveau 3 ; sinon, ils passent au <strong>niveau 4</strong>.</p><p><strong>Suites possibles</strong><br>- <strong>La farine déjà partie.</strong> Le registre parle d'une caravane du Carrefour repartie avec deux sacs ; le carnet, de livraisons à Theramore. Une course contre la peste dans les deux camps à la fois.<br>- <strong>Le Cercle.</strong> La lettre parle d'autres « frères » envoyés en Kalimdor. L'un d'eux se cache peut-être à Theramore, ou à Cabestan.<br>- <strong>Vers les Tarides.</strong> Le bac mène au port neutre de Cabestan : le groupe peut y enchaîner avec @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.qRBAKDn0YR5qJjhc]{la campagne}, ou rejouer plus tôt dans l'histoire @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.DQAuC2l2FxNLLS5W]{l'aventure de départ} avec de nouveaux personnages.<br>- <strong>Le relais.</strong> Les Deux Lanternes deviennent le port d'attache du groupe : le MJ IA peut y ramener d'autres voyageurs avec @UUID[Compendium.lakour-warcraft.tables.RollTable.O1ZlanNamo70PwFt]{Rumeurs de taverne} et @UUID[Compendium.lakour-warcraft.tables.RollTable.LkTFIlylwvlzuTtp]{Visages d'Azeroth}.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375456,
+        "modifiedTime": 1793703375463,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!KvrjD375dkDDLtS9.dg853Tk6XFGrpIT8"
+    },
+    {
+      "_id": "ePKFBT8NBpheynTX",
+      "name": "PNJ et forces en présence",
+      "type": "text",
+      "sort": 700,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>PNJ nommés</strong> (fiches dans le bestiaire)<br>- <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.xpXJZqrmt0As4avD]{Hilde Brunval}</strong> — hôtesse, ancienne sergente de Lordaeron, veuve de Joren. Alliée.<br>- <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.MlpeJBkfpAHEFRZI]{Durgan Brise-Fers}</strong> — hôte, ancien prisonnier des camps. Allié, suit le groupe sous le relais et sur l'îlot.<br>- <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.eH06E9RxoVB5nOWB]{Vesper Lacombe}</strong> — réprouvée de Brumefeuille. La suspecte idéale, une vraie alliée, une vengeresse.<br>- <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.9pgWTVP7FvGOGb8e]{Aldwin Crayeval}</strong> — le bon docteur, nécromancien du Culte des Damnés. Le méchant.</p><p><strong>PNJ sans fiche</strong><br>- <strong>Sergent Odran Pell</strong> : profil de <em>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.EAVnasdhIMpJ0aIX]{Garde de Hurlevent}</em>, avec 20 PV. Brave, raide, terrifié par les morts.<br>- <strong>Fenna Marlow</strong> : profil de <em>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.EAVnasdhIMpJ0aIX]{Garde de Hurlevent}</em>. Malade dès 22 h.<br>- <strong>Kazra Croc-Gris</strong> : profil de <em>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.oGqL8nq1xsznIEhi]{Grunt d'Orgrimmar}</em>. Courrière fière et pressée ; son loup Cendre : profil de <em>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.lteeHMqn1thceFH4]{Loup des bois}</em>.<br>- <strong>Pip Zinguette</strong> : profil de <em>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.SNg5jnYLxzBPKd5n]{Marchand}</em>. Lâche, drôle, et il a toujours sur lui ce dont on a besoin, très cher.<br>- <strong>Bram le passeur</strong> : profil de <em>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.rEd2jEd2VR2hp424]{Paysan}</em>.<br>- <strong>Les acolytes du Culte des Damnés</strong> : profil de <em>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.b3cJ52ZXydLLpfaZ]{Bandit défias}</em> (sans foulard, une main noire tatouée sur la paume).<br>- <strong>Joren Brunval</strong> et les noyés de la cave : profil de <em>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.QsFYC2AB4WaEidqA]{Goule}</em>.<br>- <strong>Le Recousu</strong> : profil d'<em>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.urCuSVrnRBNGrlJy]{Abomination}</em>.</p><p><strong>Créatures du bestiaire utilisées :</strong> @UUID[Compendium.lakour-warcraft.bestiaire.Actor.QsFYC2AB4WaEidqA]{Goule}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.WanzF5HTfEfrR5rS]{Squelette du Fléau}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.urCuSVrnRBNGrlJy]{Abomination}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.b3cJ52ZXydLLpfaZ]{Bandit défias}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.EAVnasdhIMpJ0aIX]{Garde de Hurlevent}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.oGqL8nq1xsznIEhi]{Grunt d'Orgrimmar}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.lteeHMqn1thceFH4]{Loup des bois}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.SNg5jnYLxzBPKd5n]{Marchand}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.rEd2jEd2VR2hp424]{Paysan}.</p><p><strong>Table du one-shot :</strong> @UUID[Compendium.lakour-warcraft.tables.RollTable.umpu4Hu719TnMdAO]{Bruits de la nuit aux Deux Lanternes}.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375460,
+        "modifiedTime": 1793703375463,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!KvrjD375dkDDLtS9.ePKFBT8NBpheynTX"
+    }
+  ],
+  "sort": 0,
+  "_key": "!journal!KvrjD375dkDDLtS9"
+}

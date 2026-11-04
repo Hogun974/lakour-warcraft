@@ -1,0 +1,221 @@
+{
+  "_id": "c0tGHcTPLMP8ggpZ",
+  "name": "Donjon — La Raffinerie de Mèche-Noire (MJ)",
+  "folder": "wNtgGHYLJnHwTJwh",
+  "categories": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "donjon-meche-noire",
+      "collection": "donjon-meche-noire",
+      "version": "0.10.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793630052112,
+    "modifiedTime": 1793703375761,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.lakour-warcraft.journaux.JournalEntry.c0tGHcTPLMP8ggpZ",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "pages": [
+    {
+      "_id": "iWZGDtua7JEJbgdz",
+      "name": "Synopsis (MJ)",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>La Raffinerie de Mèche-Noire</strong> est un donjon court de trois boss pour <strong>3 à 5 personnages de niveau 5</strong>, une séance. Il se place entre les chapitres 2 et 3 de la campagne des Braises de la Légion (ou se joue seul). Carte : <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.MlGXuczX7HtSy7D4]{Lieu — Mine}</em> (compendium des scènes, carte générique) ; les salles du donjon sont ses pièces.</p><p><strong>Ce qui se passe.</strong> Le baron gobelin <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.zYo5lytcarCjXn7W]{Nizzel Baille-Fonds}</strong>, du Cartel Baille-Fonds, a racheté une mine de cuivre épuisée au nord de Cabestan. Un sorcier du Cartel y a enchaîné <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.iW0ajwxt1Hm8PDRd]{Mère-Brasier}</strong>, un élémentaire de feu, sous une chaudière : sa chaleur distille une <strong>huile de feu</strong> que le baron vend à tout le monde, la Lame ardente comprise. Son contremaître ogre <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.GFn614V0fW2MVRIb]{Grokka Deux-Clés}</strong> fait trimer des kobolds enlevés aux galeries voisines.</p><p><strong>Accroches</strong></p><ul><li>Grizzla Tordeboulon (Cartel Gentepression) veut la raffinerie de son rival fermée et ses comptes saisis : 150 po par personnage, et le contrat « La raffinerie qui fume » du tableau de Cabestan.</li><li>Le Cercle cénarien a senti un élémentaire captif qui souffre : il demande qu'on le libère plutôt qu'on le tue.</li><li>Les registres de Vizzik Tirelire (chapitre 1) mentionnent des barils d'huile « livrés au cratère ».</li></ul><p><strong>Le journal de rencontre.</strong> Montrez aux joueurs @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.kX5ngbH7W6qvTDwY]{le journal de rencontre} (une page par boss) avant d'entrer, ou au fil des salles : il annonce les mécaniques comme le ferait un éclaireur.</p><p><strong>Déroulement</strong> (pièces de la carte)</p><ul><li><strong>Carreau de la mine</strong> : deux gardes gobelins (profil de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.b3cJ52ZXydLLpfaZ]{Bandit défias}) et quatre @UUID[Compendium.lakour-warcraft.bestiaire.Actor.HGWUuwWIVCUJayp0]{kobolds mineurs} enchaînés aux wagonnets, qui ne se battent que si on les y force. Libérés, les kobolds indiquent la grille du Puits et la cheminée par où le baron s'enfuit toujours.</li><li><strong>Front de taille</strong> : boss 1, Grokka.</li><li><strong>Réserve d'outils</strong> : repos court possible ; coffre ([[/check tool=thief dc=14]]{outils de voleur DD 14}) : 2 @UUID[Compendium.lakour-warcraft.objets.Item.a8lnV8qn64Glgrtr]{flasques d'huile de feu} et 40 po.</li><li><strong>Puits de descente</strong> : boss 2, Mère-Brasier (grille fermée : la clé de Grokka ou [[/check skill=ath dc=16]]{Athlétisme DD 16}).</li><li><strong>Galerie effondrée</strong>, devenue la galerie du broyeur : un @UUID[Compendium.lakour-warcraft.bestiaire.Actor.XWsrKGQlt6zBBfYz]{déchiqueteur de la fonderie} de garde, puis boss 3, le baron.</li></ul><p><strong>Équilibre.</strong> Pour 3 personnages : retirez une action légendaire à chaque boss et la Pluie de rivets n'a que deux cercles. Pour 5 : Grokka appelle six kobolds au lieu de quatre, la jauge de Mère-Brasier commence à 1, et le baron a deux gardes gobelins dans sa galerie. Au niveau 4, retirez 20 PV à chaque boss ; au niveau 6, ajoutez-en 20 ; la phase 2 se déclenche alors à la moitié des nouveaux PV.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375739,
+        "modifiedTime": 1793703375748,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!c0tGHcTPLMP8ggpZ.iWZGDtua7JEJbgdz"
+    },
+    {
+      "_id": "BYkuWnQSvrx63pRM",
+      "name": "Boss 1 — Grokka Deux-Clés",
+      "type": "text",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Salle :</strong> Front de taille (12 m sur 12). Les rails de la Galerie principale y débouchent par l'est ; une passerelle de bois court au plafond avec ses seaux de rivets. Fiche : @UUID[Compendium.lakour-warcraft.bestiaire.Actor.GFn614V0fW2MVRIb]{Grokka Deux-Clés} (FP 4, actions légendaires 2, résistance légendaire 1, actions de repaire à l'initiative 20).</p><p><strong>Zones au sol</strong> (à annoncer, ou à dessiner en zones de la scène)</p><ul><li><strong>Cercles de rivets</strong> (Pluie de rivets) : jusqu'à trois cercles de 3 m de rayon, posés au tour de Grokka, qui frappent au début de son tour suivant : [[/save ability=dex dc=14]]{sauvegarde de Dextérité DD 14}, [[/damage formula=4d6 type=piercing]]{4d6 dégâts de perforant} (moitié en cas de réussite).</li><li><strong>Rails</strong> (Wagonnet fou, action de repaire) : ligne de 18 m sur 1,5 m, annoncée par un grincement au round précédent : [[/save ability=dex dc=13]]{sauvegarde de Dextérité DD 13}, [[/damage formula=2d10 type=bludgeoning]]{2d10 dégâts de contondant} et à terre en cas d'échec.</li><li><strong>Nappe d'huile</strong> (phase 2) : rayon de 6 m autour de l'endroit où Grokka arrache le tuyau ; &amp;Reference[rule=difficultTerrain]{terrain difficile}. Embrasée, elle brûle 1 minute : [[/damage formula=2d6 type=fire]]{2d6 dégâts de feu} à qui y entre ou y commence son tour.</li></ul><p><strong>Phase 2 — Tuyau arraché (47 PV).</strong> Dès que Grokka tombe à 47 PV, utilisez sa capacité « Phase 2 — Tuyau arraché » (elle lui applique l'effet <em>Rage du contremaître</em> : +2 aux attaques au corps à corps, −2 à la CA) et posez la nappe d'huile. Il ne lance plus de Boulon.</p><p><strong>Renforts.</strong> Coup de sifflet (2 actions légendaires) : deux @UUID[Compendium.lakour-warcraft.bestiaire.Actor.HGWUuwWIVCUJayp0]{kobolds mineurs}, quatre au plus pendant le combat. Des kobolds déjà libérés au Carreau ne répondent plus.</p><p><strong>Fin.</strong> Il se rend à 15 PV contre de la nourriture et la vie sauve ([[/check skill=per dc=14]]{Persuasion} ou [[/check skill=itm dc=14]]{Intimidation DD 14}). Butin : @UUID[Compendium.lakour-warcraft.tables.RollTable.wFOdn4WPlAPvdEOR]{Butin — Grokka Deux-Clés (Mèche-Noire)}.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375741,
+        "modifiedTime": 1793703375748,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!c0tGHcTPLMP8ggpZ.BYkuWnQSvrx63pRM"
+    },
+    {
+      "_id": "xyHs7uoEQwywtdd3",
+      "name": "Boss 2 — Mère-Brasier",
+      "type": "text",
+      "sort": 300,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Salle :</strong> Puits de descente (9 m sur 13), sol de pierre ; la chaudière de cuivre occupe le fond, trois vannes rouges sur les parois, trois bouches de vapeur au sol. Fiche : @UUID[Compendium.lakour-warcraft.bestiaire.Actor.iW0ajwxt1Hm8PDRd]{Mère-Brasier} (FP 5, actions légendaires 3, résistance légendaire 1, actions de repaire à l'initiative 20).</p><p><strong>La jauge de pression</strong> (de 0 à 6, visible de tous) : +1 à chaque Soupape hurlante. Faire baisser la jauge de 1 : une action à côté d'une vanne, [[/check skill=ath dc=14]]{Athlétisme DD 14} ou [[/check tool=tinker dc=14]]{outils de bricoleur DD 14}. À 4 ou plus, Mère-Brasier attaque avec l'avantage. À 6 : [[/save ability=con dc=14]]{sauvegarde de Constitution DD 14} pour chaque créature du Puits, [[/damage formula=6d6 type=fire]]{6d6 dégâts de feu} (moitié en cas de réussite), puis la jauge retombe à 0.</p><p><strong>Les chaînes.</strong> Quatre chaînes (CA 16, 25 PV, immunisées contre le feu et le poison). Chaque chaîne brisée inflige 10 dégâts de force à Mère-Brasier ; la quatrième déclenche la phase 2.</p><p><strong>Zones au sol</strong></p><ul><li><strong>Bouches de vapeur</strong> (Soupape hurlante, action de repaire) : un sifflement désigne la bouche au round précédent ; colonne de 1,5 m de rayon : [[/save ability=dex dc=14]]{sauvegarde de Dextérité DD 14}, [[/damage formula=3d6 type=fire]]{3d6 dégâts de feu} (moitié).</li><li><strong>Cône de vapeur</strong> (Jet de vapeur, recharge 5–6) : cône de 6 m, [[/save ability=con dc=14]]{sauvegarde de Constitution DD 14}, [[/damage formula=4d6 type=fire]]{4d6 dégâts de feu}.</li><li><strong>Flaques de scories</strong> (phase 2) : chaque case qu'elle quitte ; &amp;Reference[rule=difficultTerrain]{terrain difficile}, [[/damage formula=1d10 type=fire]]{1d10 dégâts de feu} à qui y entre ou y commence son tour.</li></ul><p><strong>Phase 2 — Les chaînes cèdent (51 PV, ou la quatrième chaîne).</strong> Utilisez sa capacité « Phase 2 — Les chaînes cèdent » (effet <em>Libérée de ses chaînes</em> : vitesse +3 m, avantage aux sauvegardes de Dextérité). Ruissellement (action légendaire) devient possible. La jauge ne monte plus.</p><p><strong>L'autre issue.</strong> Si les quatre chaînes sont brisées et la chaudière détruite (CA 15, 40 PV) sans que Mère-Brasier tombe à 0, elle cesse le combat, s'élève par le puits et laisse son @UUID[Compendium.lakour-warcraft.objets.Item.KU3SmSvUx0N53FCJ]{Cœur de braise captif} : le Cercle cénarien offre <strong>+5 de réputation</strong>. Butin sinon : @UUID[Compendium.lakour-warcraft.tables.RollTable.hwGD7Ngm4yzU54cq]{Butin — Mère-Brasier (Mèche-Noire)}.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375743,
+        "modifiedTime": 1793703375749,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!c0tGHcTPLMP8ggpZ.xyHs7uoEQwywtdd3"
+    },
+    {
+      "_id": "oZTOWDdXFLj2CI34",
+      "name": "Boss 3 — Baron Nizzel Baille-Fonds",
+      "type": "text",
+      "sort": 400,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Salle :</strong> Galerie effondrée (15 m sur 12), devenue la galerie du broyeur : deux tapis roulants de 3 m de large la traversent d'ouest en est, vers le broyeur à minerai (à l'est) ; à l'ouest, la fosse aux scories ; au plafond, la cheminée d'aération. Fiche : @UUID[Compendium.lakour-warcraft.bestiaire.Actor.zYo5lytcarCjXn7W]{Baron Nizzel Baille-Fonds} (FP 6, actions légendaires 3, résistances légendaires 2, actions de repaire à l'initiative 20).</p><p><strong>Zones au sol</strong></p><ul><li><strong>Cible verrouillée</strong> (Salve verrouillée, recharge 5–6) : rayon de 3 m centré sur la créature visée, qui tombe à la fin du tour suivant de celle-ci : [[/save ability=dex dc=14]]{sauvegarde de Dextérité DD 14}, [[/damage formula=6d6 type=fire]]{6d6 dégâts de feu} (moitié).</li><li><strong>Cône de flammes</strong> (Lance-flammes rotatif, recharge 6) : cône de 9 m, [[/save ability=dex dc=14]]{sauvegarde de Dextérité DD 14}, [[/damage formula=5d6 type=fire]]{5d6 dégâts de feu} (moitié).</li><li><strong>Mines sauteuses</strong> (2 actions légendaires) : deux cases minées, visibles ; [[/save ability=dex dc=14]]{sauvegarde de Dextérité DD 14}, [[/damage formula=3d6 type=fire]]{3d6 dégâts de feu} (moitié) dans un rayon de 1,5 m.</li><li><strong>Tapis roulants</strong> (action de repaire) : +3 m vers le broyeur pour qui s'y trouve ; au bout, [[/save ability=dex dc=14]]{sauvegarde de Dextérité DD 14} ou [[/damage formula=3d10 type=slashing]]{3d10 dégâts de tranchant} et à terre.</li><li><strong>Aura du réacteur</strong> (phase 2) : [[/damage formula=2d6 type=fire]]{2d6 dégâts de feu} à qui commence son tour à 3 m ou moins.</li></ul><p><strong>Phase 2 — Surcharge du réacteur (63 PV).</strong> Utilisez sa capacité « Phase 2 — Surcharge du réacteur » (effet <em>Réacteur en surcharge</em> : +2 aux attaques au corps à corps, −2 à la CA), portez ses actions légendaires à 4 sur la fiche, inversez les tapis (vers la fosse aux scories).</p><p><strong>L'éjection.</strong> À 0 PV, le baron s'éjecte avec 10 PV et file vers la cheminée (il l'atteint au bout de deux rounds). Le rattraper : [[/check skill=ath dc=15]]{Athlétisme DD 15}, ou une attaque à distance. Capturé, il offre 500 po pour sa liberté, et son registre pour sa vie.</p><p><strong>Butin :</strong> @UUID[Compendium.lakour-warcraft.tables.RollTable.z3E7n0j8KL83Jp6M]{Butin — Baron Nizzel Baille-Fonds (Mèche-Noire)} (deux tirages), et toujours le @UUID[Compendium.lakour-warcraft.objets.Item.VZcn4yVHakxr92pi]{Registre du Cartel Baille-Fonds}.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375745,
+        "modifiedTime": 1793703375749,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!c0tGHcTPLMP8ggpZ.oZTOWDdXFLj2CI34"
+    },
+    {
+      "_id": "aa5XieFF1O6SZO9B",
+      "name": "Butin et récompenses",
+      "type": "text",
+      "sort": 500,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Tables de butin</strong> (une par boss ; les objets sont rangés par qualité : commun, peu commun, rare)</p><ul><li>@UUID[Compendium.lakour-warcraft.tables.RollTable.wFOdn4WPlAPvdEOR]{Butin — Grokka Deux-Clés (Mèche-Noire)}</li><li>@UUID[Compendium.lakour-warcraft.tables.RollTable.hwGD7Ngm4yzU54cq]{Butin — Mère-Brasier (Mèche-Noire)}</li><li>@UUID[Compendium.lakour-warcraft.tables.RollTable.z3E7n0j8KL83Jp6M]{Butin — Baron Nizzel Baille-Fonds (Mèche-Noire)}</li></ul><p><strong>L'ensemble « Tenue réglementaire de Mèche-Noire »</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.izTlgtk7EPEfFOO4]{Gantelets ignifugés du contremaître} (Grokka) et @UUID[Compendium.lakour-warcraft.objets.Item.PbPhgB8CMVf1lOmi]{Lunettes de sûreté du contremaître} (le baron). L'effet de bonus d'ensemble est sur les lunettes, éteint par défaut : le joueur l'allume quand il porte les deux. Si un tirage donne une pièce que le groupe possède déjà, donnez plutôt l'autre pièce de l'ensemble : les deux pièces doivent pouvoir se réunir.</p><p><strong>Récompenses</strong></p><ul><li>Grizzla Tordeboulon : 150 po par personnage si la raffinerie est fermée, 100 po de plus pour le registre ; <strong>+5</strong> de réputation auprès du Cartel Gentepression. Si le groupe a pris le contrat « La raffinerie qui fume » à Cabestan, sa prime de 150 po s'ajoute pour le groupe, mais la réputation ne se compte qu'une fois.</li><li>Mère-Brasier libérée plutôt que tuée : <strong>+5</strong> auprès du Cercle cénarien.</li><li>Kobolds libérés et raccompagnés : la tribu des galeries voisines laisse le groupe passer chez elle.</li><li>Baron capturé vivant et livré au Bureau de la Trêve : <strong>+5</strong> auprès de l'Alliance ou de la Horde, au choix du groupe.</li></ul><p><strong>Suites.</strong> Le registre mène aux acheteurs de la Lame ardente (chapitre 4 de la campagne). Le Cartel Baille-Fonds n'oublie pas : un contrat sur la tête du groupe peut apparaître dans un tableau des contrats.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375747,
+        "modifiedTime": 1793703375750,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!c0tGHcTPLMP8ggpZ.aa5XieFF1O6SZO9B"
+    }
+  ],
+  "sort": 0,
+  "_key": "!journal!c0tGHcTPLMP8ggpZ"
+}

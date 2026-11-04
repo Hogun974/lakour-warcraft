@@ -1,0 +1,837 @@
+{
+  "_id": "oAaR0CzmzvqcSWv3",
+  "name": "Recettes d'artisanat",
+  "folder": "wNtgGHYLJnHwTJwh",
+  "categories": [],
+  "ownership": {
+    "default": 2
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "recettes-d-artisanat",
+      "recettes": [
+        {
+          "id": "alchimie:potion-de-soins",
+          "metier": "alchimie",
+          "nomMetier": "Alchimie",
+          "outil": "alchemist",
+          "nomOutil": "matériel d'alchimiste",
+          "produit": {
+            "cle": "potion-de-soins",
+            "nom": "Potion de soins",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.D2jD8VN39EjXu6ZT"
+          },
+          "consommable": true,
+          "composants": [
+            {
+              "cle": "herbe-a-fievre",
+              "nom": "Herbe-à-fièvre",
+              "nombre": 2
+            },
+            {
+              "cle": "lys-des-oasis",
+              "nom": "Lys des oasis",
+              "nombre": 1
+            }
+          ],
+          "dd": 10,
+          "temps": "4 heures",
+          "fournitures": 21
+        },
+        {
+          "id": "alchimie:elixir-de-la-mangouste",
+          "metier": "alchimie",
+          "nomMetier": "Alchimie",
+          "outil": "alchemist",
+          "nomOutil": "matériel d'alchimiste",
+          "produit": {
+            "cle": "elixir-de-la-mangouste",
+            "nom": "Élixir de la mangouste",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.DnuAjolIuMjbG2Y6"
+          },
+          "consommable": true,
+          "composants": [
+            {
+              "cle": "varech-des-criques",
+              "nom": "Varech des criques",
+              "nombre": 2
+            },
+            {
+              "cle": "herbe-a-fievre",
+              "nom": "Herbe-à-fièvre",
+              "nombre": 1
+            }
+          ],
+          "dd": 12,
+          "temps": "4 heures",
+          "fournitures": 57
+        },
+        {
+          "id": "alchimie:flasque-d-huile-de-feu",
+          "metier": "alchimie",
+          "nomMetier": "Alchimie",
+          "outil": "alchemist",
+          "nomOutil": "matériel d'alchimiste",
+          "produit": {
+            "cle": "flasque-d-huile-de-feu",
+            "nom": "Flasque d'huile de feu",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.a8lnV8qn64Glgrtr"
+          },
+          "consommable": true,
+          "composants": [
+            {
+              "cle": "chardon-cendre",
+              "nom": "Chardon-cendre",
+              "nombre": 1
+            }
+          ],
+          "dd": 13,
+          "temps": "4 heures",
+          "fournitures": 5
+        },
+        {
+          "id": "alchimie:potion-de-mana-mineure",
+          "metier": "alchimie",
+          "nomMetier": "Alchimie",
+          "outil": "alchemist",
+          "nomOutil": "matériel d'alchimiste",
+          "produit": {
+            "cle": "potion-de-mana-mineure",
+            "nom": "Potion de mana mineure",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.TtyEZzHdraWaFyZJ"
+          },
+          "consommable": true,
+          "composants": [
+            {
+              "cle": "petale-de-lune",
+              "nom": "Pétale de lune",
+              "nombre": 1
+            },
+            {
+              "cle": "lys-des-oasis",
+              "nom": "Lys des oasis",
+              "nombre": 1
+            }
+          ],
+          "dd": 13,
+          "temps": "4 heures",
+          "fournitures": 23
+        },
+        {
+          "id": "alchimie:potion-de-soins-majeure",
+          "metier": "alchimie",
+          "nomMetier": "Alchimie",
+          "outil": "alchemist",
+          "nomOutil": "matériel d'alchimiste",
+          "produit": {
+            "cle": "potion-de-soins-majeure",
+            "nom": "Potion de soins majeure",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.JpC7YtpnD69HcMEL"
+          },
+          "consommable": true,
+          "composants": [
+            {
+              "cle": "lys-des-oasis",
+              "nom": "Lys des oasis",
+              "nombre": 2
+            },
+            {
+              "cle": "mousse-d-aprefange",
+              "nom": "Mousse d'Âprefange",
+              "nombre": 1
+            }
+          ],
+          "dd": 14,
+          "temps": "8 heures",
+          "fournitures": 63
+        },
+        {
+          "id": "alchimie:flacon-de-sagesse-distillee",
+          "metier": "alchimie",
+          "nomMetier": "Alchimie",
+          "outil": "alchemist",
+          "nomOutil": "matériel d'alchimiste",
+          "produit": {
+            "cle": "flacon-de-sagesse-distillee",
+            "nom": "Flacon de sagesse distillée",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.tvjslgMOwlg1Huhg"
+          },
+          "consommable": true,
+          "composants": [
+            {
+              "cle": "petale-de-lune",
+              "nom": "Pétale de lune",
+              "nombre": 1
+            },
+            {
+              "cle": "mousse-d-aprefange",
+              "nom": "Mousse d'Âprefange",
+              "nombre": 2
+            }
+          ],
+          "dd": 15,
+          "temps": "8 heures",
+          "fournitures": 59
+        },
+        {
+          "id": "alchimie:flacon-de-rage-du-kodo",
+          "metier": "alchimie",
+          "nomMetier": "Alchimie",
+          "outil": "alchemist",
+          "nomOutil": "matériel d'alchimiste",
+          "produit": {
+            "cle": "flacon-de-rage-du-kodo",
+            "nom": "Flacon de rage du kodo",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.QRo4DNmnICFAXTgN"
+          },
+          "consommable": true,
+          "composants": [
+            {
+              "cle": "chardon-cendre",
+              "nom": "Chardon-cendre",
+              "nombre": 2
+            },
+            {
+              "cle": "herbe-a-fievre",
+              "nom": "Herbe-à-fièvre",
+              "nombre": 2
+            }
+          ],
+          "dd": 15,
+          "temps": "8 heures",
+          "fournitures": 78
+        },
+        {
+          "id": "alchimie:flacon-des-titans-de-pierre",
+          "metier": "alchimie",
+          "nomMetier": "Alchimie",
+          "outil": "alchemist",
+          "nomOutil": "matériel d'alchimiste",
+          "produit": {
+            "cle": "flacon-des-titans-de-pierre",
+            "nom": "Flacon des Titans de pierre",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.kVrdN7ED5Tqsj51E"
+          },
+          "consommable": true,
+          "composants": [
+            {
+              "cle": "chardon-cendre",
+              "nom": "Chardon-cendre",
+              "nombre": 2
+            },
+            {
+              "cle": "veine-de-mithril",
+              "nom": "Veine de mithril",
+              "nombre": 1
+            }
+          ],
+          "dd": 17,
+          "temps": "1 jour",
+          "fournitures": 90
+        },
+        {
+          "id": "alchimie:flacon-de-peau-de-pierre",
+          "metier": "alchimie",
+          "nomMetier": "Alchimie",
+          "outil": "alchemist",
+          "nomOutil": "matériel d'alchimiste",
+          "produit": {
+            "cle": "flacon-de-peau-de-pierre",
+            "nom": "Flacon de peau-de-pierre",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.F5rIuGiIcZeMyRf4"
+          },
+          "consommable": true,
+          "composants": [
+            {
+              "cle": "eclat-de-verre-noir",
+              "nom": "Éclat de verre noir",
+              "nombre": 1
+            },
+            {
+              "cle": "veine-de-mithril",
+              "nom": "Veine de mithril",
+              "nombre": 1
+            }
+          ],
+          "dd": 17,
+          "temps": "1 jour",
+          "fournitures": 98
+        },
+        {
+          "id": "forge:pierre-a-aiguiser-de-rouge-veine",
+          "metier": "forge",
+          "nomMetier": "Forge",
+          "outil": "smith",
+          "nomOutil": "outils de forgeron",
+          "produit": {
+            "cle": "pierre-a-aiguiser-de-rouge-veine",
+            "nom": "Pierre à aiguiser de Rouge-Veine",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.v2iFRecHPXFq07w7"
+          },
+          "consommable": true,
+          "composants": [
+            {
+              "cle": "minerai-de-fer-rouge",
+              "nom": "Minerai de fer rouge",
+              "nombre": 1
+            }
+          ],
+          "dd": 10,
+          "temps": "1 heure",
+          "fournitures": 1
+        },
+        {
+          "id": "forge:epee-de-la-garde",
+          "metier": "forge",
+          "nomMetier": "Forge",
+          "outil": "smith",
+          "nomOutil": "outils de forgeron",
+          "produit": {
+            "cle": "epee-de-la-garde",
+            "nom": "Épée de la Garde de Hurlevent",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.Vh8xj1loPd6h7UBw"
+          },
+          "consommable": false,
+          "composants": [
+            {
+              "cle": "minerai-de-fer-rouge",
+              "nom": "Minerai de fer rouge",
+              "nombre": 3
+            },
+            {
+              "cle": "cuir-leger",
+              "nom": "Cuir léger",
+              "nombre": 1
+            }
+          ],
+          "dd": 12,
+          "temps": "1 jour",
+          "fournitures": 3
+        },
+        {
+          "id": "forge:hache-d-orgrimmar",
+          "metier": "forge",
+          "nomMetier": "Forge",
+          "outil": "smith",
+          "nomOutil": "outils de forgeron",
+          "produit": {
+            "cle": "hache-d-orgrimmar",
+            "nom": "Hache d'Orgrimmar",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.t7SVoj0O72IicoSq"
+          },
+          "consommable": false,
+          "composants": [
+            {
+              "cle": "minerai-de-fer-rouge",
+              "nom": "Minerai de fer rouge",
+              "nombre": 4
+            },
+            {
+              "cle": "cuir-leger",
+              "nom": "Cuir léger",
+              "nombre": 1
+            }
+          ],
+          "dd": 12,
+          "temps": "1 jour",
+          "fournitures": 6
+        },
+        {
+          "id": "forge:harnois-de-grunt",
+          "metier": "forge",
+          "nomMetier": "Forge",
+          "outil": "smith",
+          "nomOutil": "outils de forgeron",
+          "produit": {
+            "cle": "harnois-de-grunt",
+            "nom": "Harnois de grunt",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.KG0AhPmTDVfOusRV"
+          },
+          "consommable": false,
+          "composants": [
+            {
+              "cle": "minerai-de-fer-rouge",
+              "nom": "Minerai de fer rouge",
+              "nombre": 4
+            },
+            {
+              "cle": "peau-de-kodo-epaisse",
+              "nom": "Peau de kodo épaisse",
+              "nombre": 2
+            }
+          ],
+          "dd": 14,
+          "temps": "3 jours",
+          "fournitures": 11
+        },
+        {
+          "id": "forge:cotte-de-la-garde",
+          "metier": "forge",
+          "nomMetier": "Forge",
+          "outil": "smith",
+          "nomOutil": "outils de forgeron",
+          "produit": {
+            "cle": "cotte-de-la-garde",
+            "nom": "Cotte de mailles de la Garde",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.FkzYwXfJlC3FWUy9"
+          },
+          "consommable": false,
+          "composants": [
+            {
+              "cle": "minerai-de-fer-rouge",
+              "nom": "Minerai de fer rouge",
+              "nombre": 6
+            },
+            {
+              "cle": "cuir-leger",
+              "nom": "Cuir léger",
+              "nombre": 2
+            }
+          ],
+          "dd": 14,
+          "temps": "3 jours",
+          "fournitures": 24
+        },
+        {
+          "id": "forge:gantelets-ignifuges-du-contremaitre",
+          "metier": "forge",
+          "nomMetier": "Forge",
+          "outil": "smith",
+          "nomOutil": "outils de forgeron",
+          "produit": {
+            "cle": "gantelets-ignifuges-du-contremaitre",
+            "nom": "Gantelets ignifugés du contremaître",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.izTlgtk7EPEfFOO4"
+          },
+          "consommable": false,
+          "composants": [
+            {
+              "cle": "cuir-gangrene",
+              "nom": "Cuir gangrené",
+              "nombre": 2
+            },
+            {
+              "cle": "minerai-de-fer-rouge",
+              "nom": "Minerai de fer rouge",
+              "nombre": 2
+            }
+          ],
+          "dd": 15,
+          "temps": "3 jours",
+          "fournitures": 172
+        },
+        {
+          "id": "forge:bouclier-en-ecailles-de-gueule-de-fer",
+          "metier": "forge",
+          "nomMetier": "Forge",
+          "outil": "smith",
+          "nomOutil": "outils de forgeron",
+          "produit": {
+            "cle": "bouclier-en-ecailles-de-gueule-de-fer",
+            "nom": "Bouclier en écailles de Gueule-de-Fer",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.EEDEayXLoCLvrM3Y"
+          },
+          "consommable": false,
+          "composants": [
+            {
+              "cle": "ecailles-de-crocilisque",
+              "nom": "Écailles de crocilisque",
+              "nombre": 3
+            },
+            {
+              "cle": "pepite-d-argent",
+              "nom": "Pépite d'argent",
+              "nombre": 1
+            }
+          ],
+          "dd": 16,
+          "temps": "3 jours",
+          "fournitures": 260
+        },
+        {
+          "id": "ingenierie:fusee-de-detresse-gobeline",
+          "metier": "ingenierie",
+          "nomMetier": "Ingénierie gobeline et gnome",
+          "outil": "tinker",
+          "nomOutil": "outils de bricoleur",
+          "produit": {
+            "cle": "fusee-de-detresse-gobeline",
+            "nom": "Fusée de détresse gobeline",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.K40fHzYjihsiKYhA"
+          },
+          "consommable": true,
+          "composants": [
+            {
+              "cle": "minerai-de-cuivre",
+              "nom": "Minerai de cuivre",
+              "nombre": 1
+            }
+          ],
+          "dd": 10,
+          "temps": "1 heure",
+          "fournitures": 1
+        },
+        {
+          "id": "ingenierie:bombe-gobeline",
+          "metier": "ingenierie",
+          "nomMetier": "Ingénierie gobeline et gnome",
+          "outil": "tinker",
+          "nomOutil": "outils de bricoleur",
+          "produit": {
+            "cle": "bombe-gobeline",
+            "nom": "Bombe gobeline",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.J5njSJUKfoAdTJw5"
+          },
+          "consommable": true,
+          "composants": [
+            {
+              "cle": "minerai-de-cuivre",
+              "nom": "Minerai de cuivre",
+              "nombre": 2
+            },
+            {
+              "cle": "chardon-cendre",
+              "nom": "Chardon-cendre",
+              "nombre": 1
+            }
+          ],
+          "dd": 12,
+          "temps": "2 heures",
+          "fournitures": 1
+        },
+        {
+          "id": "ingenierie:casque-de-mineur-a-lanterne",
+          "metier": "ingenierie",
+          "nomMetier": "Ingénierie gobeline et gnome",
+          "outil": "tinker",
+          "nomOutil": "outils de bricoleur",
+          "produit": {
+            "cle": "casque-de-mineur-a-lanterne",
+            "nom": "Casque de mineur à lanterne",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.q4nPH0xfdiJHhDM8"
+          },
+          "consommable": false,
+          "composants": [
+            {
+              "cle": "minerai-de-cuivre",
+              "nom": "Minerai de cuivre",
+              "nombre": 2
+            },
+            {
+              "cle": "cuir-leger",
+              "nom": "Cuir léger",
+              "nombre": 1
+            }
+          ],
+          "dd": 12,
+          "temps": "4 heures",
+          "fournitures": 5
+        },
+        {
+          "id": "ingenierie:lunette-de-visee-gnome",
+          "metier": "ingenierie",
+          "nomMetier": "Ingénierie gobeline et gnome",
+          "outil": "tinker",
+          "nomOutil": "outils de bricoleur",
+          "produit": {
+            "cle": "lunette-de-visee-gnome",
+            "nom": "Lunette de visée gnome",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.FAJxlvoFN9FA6JM8"
+          },
+          "consommable": false,
+          "composants": [
+            {
+              "cle": "minerai-de-cuivre",
+              "nom": "Minerai de cuivre",
+              "nombre": 2
+            },
+            {
+              "cle": "eclat-de-verre-noir",
+              "nom": "Éclat de verre noir",
+              "nombre": 1
+            }
+          ],
+          "dd": 15,
+          "temps": "1 jour",
+          "fournitures": 61
+        },
+        {
+          "id": "ingenierie:bottes-a-ressorts-baille-fonds",
+          "metier": "ingenierie",
+          "nomMetier": "Ingénierie gobeline et gnome",
+          "outil": "tinker",
+          "nomOutil": "outils de bricoleur",
+          "produit": {
+            "cle": "bottes-a-ressorts-baille-fonds",
+            "nom": "Bottes à ressorts Baille-Fonds",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.hGE8PsZTAtnG0kwk"
+          },
+          "consommable": false,
+          "composants": [
+            {
+              "cle": "minerai-de-fer-rouge",
+              "nom": "Minerai de fer rouge",
+              "nombre": 3
+            },
+            {
+              "cle": "minerai-de-cuivre",
+              "nom": "Minerai de cuivre",
+              "nombre": 3
+            },
+            {
+              "cle": "veine-de-mithril",
+              "nom": "Veine de mithril",
+              "nombre": 1
+            }
+          ],
+          "dd": 18,
+          "temps": "3 jours",
+          "fournitures": 201
+        },
+        {
+          "id": "cuisine:ragout-de-kodo-epice",
+          "metier": "cuisine",
+          "nomMetier": "Cuisine",
+          "outil": "cook",
+          "nomOutil": "ustensiles de cuisinier",
+          "produit": {
+            "cle": "ragout-de-kodo-epice",
+            "nom": "Marmite de ragoût de kodo épicé",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.VZpVXdtVbHdZKhRr"
+          },
+          "consommable": true,
+          "composants": [
+            {
+              "cle": "viande-de-gibier",
+              "nom": "Viande de gibier",
+              "nombre": 2
+            },
+            {
+              "cle": "herbe-a-fievre",
+              "nom": "Herbe-à-fièvre",
+              "nombre": 1
+            }
+          ],
+          "dd": 10,
+          "temps": "1 heure",
+          "fournitures": 0
+        },
+        {
+          "id": "cuisine:brochettes-de-raptor",
+          "metier": "cuisine",
+          "nomMetier": "Cuisine",
+          "outil": "cook",
+          "nomOutil": "ustensiles de cuisinier",
+          "produit": {
+            "cle": "brochettes-de-raptor",
+            "nom": "Brochettes de raptor au piment",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.1ypEKSCGDzILPDsh"
+          },
+          "consommable": true,
+          "composants": [
+            {
+              "cle": "viande-de-gibier",
+              "nom": "Viande de gibier",
+              "nombre": 2
+            }
+          ],
+          "dd": 11,
+          "temps": "1 heure",
+          "fournitures": 1
+        },
+        {
+          "id": "cuisine:tourte-de-poisson-de-theramore",
+          "metier": "cuisine",
+          "nomMetier": "Cuisine",
+          "outil": "cook",
+          "nomOutil": "ustensiles de cuisinier",
+          "produit": {
+            "cle": "tourte-de-poisson-de-theramore",
+            "nom": "Tourte au poisson de Theramore",
+            "uuid": "Compendium.lakour-warcraft.objets.Item.uSKoAQ1BsXQ5i3nt"
+          },
+          "consommable": true,
+          "composants": [
+            {
+              "cle": "filet-de-poisson",
+              "nom": "Filet de poisson",
+              "nombre": 3
+            }
+          ],
+          "dd": 12,
+          "temps": "2 heures",
+          "fournitures": 1
+        }
+      ],
+      "collection": "metiers",
+      "version": "0.10.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793688318221,
+    "modifiedTime": 1793703375874,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.lakour-warcraft.journaux.JournalEntry.oAaR0CzmzvqcSWv3",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "pages": [
+    {
+      "_id": "4nLldvVIs0s0ABeP",
+      "name": "Alchimie",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Outil :</strong> matériel d'alchimiste. Il faut maîtriser l'outil du métier, avoir les composants et payer les fournitures (fioles, charbon, sel, mèches). À la fin du temps indiqué, faites le test d'outil. <strong>Réussite</strong> : l'objet est prêt. <strong>Réussite de 5 ou plus au-dessus du DD</strong> : pour un consommable, un exemplaire de plus. <strong>Échec</strong> : les fournitures sont perdues, les composants gardés. <strong>Échec de 5 ou plus</strong> : les composants sont perdus aussi. <strong>L'établi</strong> (bouton « Établi » en tête de la fiche de personnage) vérifie l'outil, les composants et l'or, lance le test et applique ce résultat.</p><ul><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.D2jD8VN39EjXu6ZT]{Potion de soins}</strong> (commun) — 2 × @UUID[Compendium.lakour-warcraft.objets.Item.Kb533hoo2qZoFAv2]{Herbe-à-fièvre}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.ndEiNXzBHz8KCR71]{Lys des oasis} ; [[/check tool=alchemist dc=10]]{matériel d'alchimiste DD 10} ; 4 heures ; 21 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.DnuAjolIuMjbG2Y6]{Élixir de la mangouste}</strong> (peu commun) — 2 × @UUID[Compendium.lakour-warcraft.objets.Item.dDeiKeUVOYgekIfD]{Varech des criques}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.Kb533hoo2qZoFAv2]{Herbe-à-fièvre} ; [[/check tool=alchemist dc=12]]{matériel d'alchimiste DD 12} ; 4 heures ; 57 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.a8lnV8qn64Glgrtr]{Flasque d'huile de feu}</strong> (commun) — 1 × @UUID[Compendium.lakour-warcraft.objets.Item.Gb9sLJdkHzOhbLfs]{Chardon-cendre} ; [[/check tool=alchemist dc=13]]{matériel d'alchimiste DD 13} ; 4 heures ; 5 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.TtyEZzHdraWaFyZJ]{Potion de mana mineure}</strong> (peu commun) — 1 × @UUID[Compendium.lakour-warcraft.objets.Item.bTlZCs4uTLxsWWGk]{Pétale de lune}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.ndEiNXzBHz8KCR71]{Lys des oasis} ; [[/check tool=alchemist dc=13]]{matériel d'alchimiste DD 13} ; 4 heures ; 23 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.JpC7YtpnD69HcMEL]{Potion de soins majeure}</strong> (peu commun) — 2 × @UUID[Compendium.lakour-warcraft.objets.Item.ndEiNXzBHz8KCR71]{Lys des oasis}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.tQQ6ZDrlT0TkoeBp]{Mousse d'Âprefange} ; [[/check tool=alchemist dc=14]]{matériel d'alchimiste DD 14} ; 8 heures ; 63 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.tvjslgMOwlg1Huhg]{Flacon de sagesse distillée}</strong> (peu commun) — 1 × @UUID[Compendium.lakour-warcraft.objets.Item.bTlZCs4uTLxsWWGk]{Pétale de lune}, 2 × @UUID[Compendium.lakour-warcraft.objets.Item.tQQ6ZDrlT0TkoeBp]{Mousse d'Âprefange} ; [[/check tool=alchemist dc=15]]{matériel d'alchimiste DD 15} ; 8 heures ; 59 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.QRo4DNmnICFAXTgN]{Flacon de rage du kodo}</strong> (peu commun) — 2 × @UUID[Compendium.lakour-warcraft.objets.Item.Gb9sLJdkHzOhbLfs]{Chardon-cendre}, 2 × @UUID[Compendium.lakour-warcraft.objets.Item.Kb533hoo2qZoFAv2]{Herbe-à-fièvre} ; [[/check tool=alchemist dc=15]]{matériel d'alchimiste DD 15} ; 8 heures ; 78 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.kVrdN7ED5Tqsj51E]{Flacon des Titans de pierre}</strong> (rare) — 2 × @UUID[Compendium.lakour-warcraft.objets.Item.Gb9sLJdkHzOhbLfs]{Chardon-cendre}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.AJCsPW8NFBDSXcCE]{Veine de mithril} ; [[/check tool=alchemist dc=17]]{matériel d'alchimiste DD 17} ; 1 jour ; 90 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.F5rIuGiIcZeMyRf4]{Flacon de peau-de-pierre}</strong> (rare) — 1 × @UUID[Compendium.lakour-warcraft.objets.Item.wsWsboEY5DpiLBNS]{Éclat de verre noir}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.AJCsPW8NFBDSXcCE]{Veine de mithril} ; [[/check tool=alchemist dc=17]]{matériel d'alchimiste DD 17} ; 1 jour ; 98 po de fournitures.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375860,
+        "modifiedTime": 1793703375864,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!oAaR0CzmzvqcSWv3.4nLldvVIs0s0ABeP"
+    },
+    {
+      "_id": "sti892eWiqvrl1i6",
+      "name": "Forge",
+      "type": "text",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Outil :</strong> outils de forgeron. Il faut maîtriser l'outil du métier, avoir les composants et payer les fournitures (fioles, charbon, sel, mèches). À la fin du temps indiqué, faites le test d'outil. <strong>Réussite</strong> : l'objet est prêt. <strong>Réussite de 5 ou plus au-dessus du DD</strong> : pour un consommable, un exemplaire de plus. <strong>Échec</strong> : les fournitures sont perdues, les composants gardés. <strong>Échec de 5 ou plus</strong> : les composants sont perdus aussi. <strong>L'établi</strong> (bouton « Établi » en tête de la fiche de personnage) vérifie l'outil, les composants et l'or, lance le test et applique ce résultat.</p><ul><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.v2iFRecHPXFq07w7]{Pierre à aiguiser de Rouge-Veine}</strong> (commun) — 1 × @UUID[Compendium.lakour-warcraft.objets.Item.wwwk7ZfSpXXVIZNN]{Minerai de fer rouge} ; [[/check tool=smith dc=10]]{outils de forgeron DD 10} ; 1 heure ; 1 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.Vh8xj1loPd6h7UBw]{Épée de la Garde de Hurlevent}</strong> (ordinaire) — 3 × @UUID[Compendium.lakour-warcraft.objets.Item.wwwk7ZfSpXXVIZNN]{Minerai de fer rouge}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.EVwHyz2AkECxete8]{Cuir léger} ; [[/check tool=smith dc=12]]{outils de forgeron DD 12} ; 1 jour ; 3 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.t7SVoj0O72IicoSq]{Hache d'Orgrimmar}</strong> (ordinaire) — 4 × @UUID[Compendium.lakour-warcraft.objets.Item.wwwk7ZfSpXXVIZNN]{Minerai de fer rouge}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.EVwHyz2AkECxete8]{Cuir léger} ; [[/check tool=smith dc=12]]{outils de forgeron DD 12} ; 1 jour ; 6 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.KG0AhPmTDVfOusRV]{Harnois de grunt}</strong> (ordinaire) — 4 × @UUID[Compendium.lakour-warcraft.objets.Item.wwwk7ZfSpXXVIZNN]{Minerai de fer rouge}, 2 × @UUID[Compendium.lakour-warcraft.objets.Item.tXz5Gb5yosB83Hqm]{Peau de kodo épaisse} ; [[/check tool=smith dc=14]]{outils de forgeron DD 14} ; 3 jours ; 11 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.FkzYwXfJlC3FWUy9]{Cotte de mailles de la Garde}</strong> (ordinaire) — 6 × @UUID[Compendium.lakour-warcraft.objets.Item.wwwk7ZfSpXXVIZNN]{Minerai de fer rouge}, 2 × @UUID[Compendium.lakour-warcraft.objets.Item.EVwHyz2AkECxete8]{Cuir léger} ; [[/check tool=smith dc=14]]{outils de forgeron DD 14} ; 3 jours ; 24 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.izTlgtk7EPEfFOO4]{Gantelets ignifugés du contremaître}</strong> (peu commun) — 2 × @UUID[Compendium.lakour-warcraft.objets.Item.KPChWgeRVZjlgjT2]{Cuir gangrené}, 2 × @UUID[Compendium.lakour-warcraft.objets.Item.wwwk7ZfSpXXVIZNN]{Minerai de fer rouge} ; [[/check tool=smith dc=15]]{outils de forgeron DD 15} ; 3 jours ; 172 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.EEDEayXLoCLvrM3Y]{Bouclier en écailles de Gueule-de-Fer}</strong> (peu commun) — 3 × @UUID[Compendium.lakour-warcraft.objets.Item.AMV0unlVbi8J5snB]{Écailles de crocilisque}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.RSJq3oORPKQk3hRQ]{Pépite d'argent} ; [[/check tool=smith dc=16]]{outils de forgeron DD 16} ; 3 jours ; 260 po de fournitures.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375861,
+        "modifiedTime": 1793703375864,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!oAaR0CzmzvqcSWv3.sti892eWiqvrl1i6"
+    },
+    {
+      "_id": "g1yHGnK5SpDjkw7M",
+      "name": "Ingénierie gobeline et gnome",
+      "type": "text",
+      "sort": 300,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Outil :</strong> outils de bricoleur. Il faut maîtriser l'outil du métier, avoir les composants et payer les fournitures (fioles, charbon, sel, mèches). À la fin du temps indiqué, faites le test d'outil. <strong>Réussite</strong> : l'objet est prêt. <strong>Réussite de 5 ou plus au-dessus du DD</strong> : pour un consommable, un exemplaire de plus. <strong>Échec</strong> : les fournitures sont perdues, les composants gardés. <strong>Échec de 5 ou plus</strong> : les composants sont perdus aussi. <strong>L'établi</strong> (bouton « Établi » en tête de la fiche de personnage) vérifie l'outil, les composants et l'or, lance le test et applique ce résultat.</p><ul><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.K40fHzYjihsiKYhA]{Fusée de détresse gobeline}</strong> (commun) — 1 × @UUID[Compendium.lakour-warcraft.objets.Item.uKCUMZbAK9UISvRP]{Minerai de cuivre} ; [[/check tool=tinker dc=10]]{outils de bricoleur DD 10} ; 1 heure ; 1 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.J5njSJUKfoAdTJw5]{Bombe gobeline}</strong> (ordinaire) — 2 × @UUID[Compendium.lakour-warcraft.objets.Item.uKCUMZbAK9UISvRP]{Minerai de cuivre}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.Gb9sLJdkHzOhbLfs]{Chardon-cendre} ; [[/check tool=tinker dc=12]]{outils de bricoleur DD 12} ; 2 heures ; 1 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.q4nPH0xfdiJHhDM8]{Casque de mineur à lanterne}</strong> (commun) — 2 × @UUID[Compendium.lakour-warcraft.objets.Item.uKCUMZbAK9UISvRP]{Minerai de cuivre}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.EVwHyz2AkECxete8]{Cuir léger} ; [[/check tool=tinker dc=12]]{outils de bricoleur DD 12} ; 4 heures ; 5 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.FAJxlvoFN9FA6JM8]{Lunette de visée gnome}</strong> (peu commun) — 2 × @UUID[Compendium.lakour-warcraft.objets.Item.uKCUMZbAK9UISvRP]{Minerai de cuivre}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.wsWsboEY5DpiLBNS]{Éclat de verre noir} ; [[/check tool=tinker dc=15]]{outils de bricoleur DD 15} ; 1 jour ; 61 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.hGE8PsZTAtnG0kwk]{Bottes à ressorts Baille-Fonds}</strong> (peu commun) — 3 × @UUID[Compendium.lakour-warcraft.objets.Item.wwwk7ZfSpXXVIZNN]{Minerai de fer rouge}, 3 × @UUID[Compendium.lakour-warcraft.objets.Item.uKCUMZbAK9UISvRP]{Minerai de cuivre}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.AJCsPW8NFBDSXcCE]{Veine de mithril} ; [[/check tool=tinker dc=18]]{outils de bricoleur DD 18} ; 3 jours ; 201 po de fournitures.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375862,
+        "modifiedTime": 1793703375864,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!oAaR0CzmzvqcSWv3.g1yHGnK5SpDjkw7M"
+    },
+    {
+      "_id": "1QG4mlzrpBJy6R8k",
+      "name": "Cuisine",
+      "type": "text",
+      "sort": 400,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Outil :</strong> ustensiles de cuisinier. Il faut maîtriser l'outil du métier, avoir les composants et payer les fournitures (fioles, charbon, sel, mèches). À la fin du temps indiqué, faites le test d'outil. <strong>Réussite</strong> : l'objet est prêt. <strong>Réussite de 5 ou plus au-dessus du DD</strong> : pour un consommable, un exemplaire de plus. <strong>Échec</strong> : les fournitures sont perdues, les composants gardés. <strong>Échec de 5 ou plus</strong> : les composants sont perdus aussi. <strong>L'établi</strong> (bouton « Établi » en tête de la fiche de personnage) vérifie l'outil, les composants et l'or, lance le test et applique ce résultat.</p><ul><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.VZpVXdtVbHdZKhRr]{Marmite de ragoût de kodo épicé}</strong> (ordinaire) — 2 × @UUID[Compendium.lakour-warcraft.objets.Item.W1mu6Fgluoow1gG8]{Viande de gibier}, 1 × @UUID[Compendium.lakour-warcraft.objets.Item.Kb533hoo2qZoFAv2]{Herbe-à-fièvre} ; [[/check tool=cook dc=10]]{ustensiles de cuisinier DD 10} ; 1 heure ; 0 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.1ypEKSCGDzILPDsh]{Brochettes de raptor au piment}</strong> (ordinaire) — 2 × @UUID[Compendium.lakour-warcraft.objets.Item.W1mu6Fgluoow1gG8]{Viande de gibier} ; [[/check tool=cook dc=11]]{ustensiles de cuisinier DD 11} ; 1 heure ; 1 po de fournitures.</li><li><strong>@UUID[Compendium.lakour-warcraft.objets.Item.uSKoAQ1BsXQ5i3nt]{Tourte au poisson de Theramore}</strong> (ordinaire) — 3 × @UUID[Compendium.lakour-warcraft.objets.Item.2NwsIYGrWZzc7sJA]{Filet de poisson} ; [[/check tool=cook dc=12]]{ustensiles de cuisinier DD 12} ; 2 heures ; 1 po de fournitures.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375863,
+        "modifiedTime": 1793703375865,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!oAaR0CzmzvqcSWv3.1QG4mlzrpBJy6R8k"
+    }
+  ],
+  "sort": 0,
+  "_key": "!journal!oAaR0CzmzvqcSWv3"
+}

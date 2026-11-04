@@ -1,0 +1,18 @@
+{
+  "key": "dnd5e.calendar",
+  "user": null,
+  "value": "\"gregorian\"",
+  "_id": "fw796N35fo9MjILY",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793532994859,
+    "modifiedTime": 1793532994859,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!fw796N35fo9MjILY"
+}

@@ -1,0 +1,18 @@
+{
+  "key": "dice-so-nice.animateRollTable",
+  "user": null,
+  "value": "false",
+  "_id": "3bHVjBkOlmSuJDBk",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467827941,
+    "modifiedTime": 1793467827941,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!3bHVjBkOlmSuJDBk"
+}

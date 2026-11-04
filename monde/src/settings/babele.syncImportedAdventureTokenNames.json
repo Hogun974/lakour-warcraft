@@ -1,0 +1,18 @@
+{
+  "key": "babele.syncImportedAdventureTokenNames",
+  "user": null,
+  "value": "true",
+  "_id": "q2BRFfKSG4lGAMEt",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467827848,
+    "modifiedTime": 1793467827848,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!q2BRFfKSG4lGAMEt"
+}

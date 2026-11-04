@@ -1,0 +1,18 @@
+{
+  "key": "fxmaster.directionConventionPassiveMigrationVersion",
+  "user": null,
+  "value": "1",
+  "_id": "vXiZfTgb07FrmKnZ",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793591653422,
+    "modifiedTime": 1793591653422,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!vXiZfTgb07FrmKnZ"
+}

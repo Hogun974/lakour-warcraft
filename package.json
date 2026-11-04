@@ -8,7 +8,8 @@
     "fabriquer-jetons-warcraft": "node outils/fabriquer-jetons-warcraft.mjs",
     "fabriquer-warcraft": "node outils/fabriquer-warcraft.mjs",
     "contrat": "node modules/lakour-mj-ia/outils/contrat-contenu.mjs modules/lakour-warcraft",
-    "valider": "node modules/lakour-mj-ia/outils/valider-foundry.mjs modules/lakour-warcraft dnd5e"
+    "valider": "node modules/lakour-mj-ia/outils/valider-foundry.mjs modules/lakour-warcraft dnd5e",
+    "empaqueter-monde": "node modules/lakour-mj-ia/outils/empaqueter-monde.mjs"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "3.0.5"

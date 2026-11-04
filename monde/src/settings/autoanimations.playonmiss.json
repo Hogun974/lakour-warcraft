@@ -1,0 +1,18 @@
+{
+  "key": "autoanimations.playonmiss",
+  "user": null,
+  "value": "false",
+  "_id": "PXm8pCXuMfJHCEhk",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793592372628,
+    "modifiedTime": 1793592372628,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!PXm8pCXuMfJHCEhk"
+}

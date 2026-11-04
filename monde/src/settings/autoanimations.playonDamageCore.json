@@ -1,0 +1,18 @@
+{
+  "key": "autoanimations.playonDamageCore",
+  "user": null,
+  "value": "false",
+  "_id": "4fP7ff8Ign3HKacB",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793592372622,
+    "modifiedTime": 1793592372622,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!4fP7ff8Ign3HKacB"
+}

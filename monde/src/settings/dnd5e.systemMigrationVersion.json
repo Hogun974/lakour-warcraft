@@ -1,0 +1,18 @@
+{
+  "key": "dnd5e.systemMigrationVersion",
+  "user": null,
+  "value": "\"6.0.6\"",
+  "_id": "xpDB4m3lVJzTizow",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467555916,
+    "modifiedTime": 1793467555916,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!xpDB4m3lVJzTizow"
+}

@@ -1,0 +1,18 @@
+{
+  "key": "autoanimations.forceRegionLayerOnly",
+  "user": null,
+  "value": "false",
+  "_id": "i9dPK2fKiAyPioCf",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793592372615,
+    "modifiedTime": 1793592372615,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!i9dPK2fKiAyPioCf"
+}

@@ -1,0 +1,18 @@
+{
+  "key": "autoanimations.globaldelay",
+  "user": null,
+  "value": "100",
+  "_id": "a1SxYg5uK6LiXGhf",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793592372571,
+    "modifiedTime": 1793592372571,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!a1SxYg5uK6LiXGhf"
+}

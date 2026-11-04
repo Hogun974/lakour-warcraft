@@ -1,0 +1,23 @@
+{
+  "_id": "S6QYCK66qZMoRimZ",
+  "name": "Monsters",
+  "type": "Compendium",
+  "sorting": "m",
+  "sort": 500000,
+  "color": "#7d160c",
+  "folder": "sHBwwuNSO0bA0jUG",
+  "description": "",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793512282947,
+    "modifiedTime": 1793512282947,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!S6QYCK66qZMoRimZ"
+}

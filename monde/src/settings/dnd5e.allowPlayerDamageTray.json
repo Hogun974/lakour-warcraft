@@ -1,0 +1,18 @@
+{
+  "key": "dnd5e.allowPlayerDamageTray",
+  "user": null,
+  "value": "false",
+  "_id": "USyjqjVpXoiSjziS",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467827773,
+    "modifiedTime": 1793467827773,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!USyjqjVpXoiSjziS"
+}

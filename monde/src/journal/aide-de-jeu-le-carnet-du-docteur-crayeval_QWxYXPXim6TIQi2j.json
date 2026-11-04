@@ -1,0 +1,106 @@
+{
+  "_id": "QWxYXPXim6TIQi2j",
+  "name": "Aide de jeu — Le carnet du docteur Crayeval",
+  "folder": "wNtgGHYLJnHwTJwh",
+  "categories": [],
+  "ownership": {
+    "default": 2
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "carnet-crayeval",
+      "version": "0.10.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793591654126,
+    "modifiedTime": 1793703375541,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.lakour-warcraft.journaux.JournalEntry.QWxYXPXim6TIQi2j",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "pages": [
+    {
+      "_id": "hnrDBpuoscQV4I5e",
+      "name": "Lettre du Cercle",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><em>Une lettre pliée en quatre, glissée dans la couverture d'un carnet de cuir noir. L'encre est vert-noir. Pas de signature : une main ouverte, dessinée à la place.</em></p><p>Frère Varn,</p><p>Le Cercle a lu tes comptes. Les villages du Nord sont tombés comme prévu ; tu as bien semé.</p><p>Les rescapés ont fui par la mer. Ils croient avoir laissé la peste derrière eux. Ils ont emporté leurs morts, leurs souvenirs et leur faim : suis-les.</p><p>Sur l'autre rive, deux peuples qui se haïssent mangent le même pain sans le savoir. Donne-leur le nôtre. Puis rends aux réfugiés ceux qu'ils ont enterrés en chemin : rien ne brise un cœur comme un visage aimé qui revient.</p><p>Quand le premier cimetière se lèvera, d'autres frères te rejoindront. Celui qui règne au Nord n'oublie aucun de ses serviteurs.</p><p><em>— Pour le Cercle, une main qui ne tremble pas.</em></p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375527,
+        "modifiedTime": 1793703375531,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!QWxYXPXim6TIQi2j.hnrDBpuoscQV4I5e"
+    },
+    {
+      "_id": "n8Dz46R3TyeYEZCB",
+      "name": "Croquis du cimetière",
+      "type": "text",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><em>Sur une double page du carnet, un plan à la plume, précis comme une planche d'anatomie. Les annotations d'Aldwin sont en petites lettres penchées.</em></p><ul><li><strong>Le ponton</strong>, au sud. <em>« Une seule barque. Amarrer à gauche : la vase tient. »</em></li><li><strong>La cloche des Rescapés</strong>, au centre, sur son portique. <em>« Trois fois trois coups, à l'heure morte. Les morts de la fièvre répondent aux cloches : ils l'ont entendue sonner pour chacun d'eux. »</em></li><li><strong>Les tombes</strong>, en rangées. <em>« Quarante et une. J. Brunval, troisième rang à l'ouest. L'hôtesse ne doit rien savoir avant. »</em></li><li><strong>Le mausolée</strong>, au nord-ouest. <em>« L'enfant y attendra. Il obéit à la cloche, comme les autres. »</em></li><li><strong>La chapelle</strong>, sans toit. <em>« Inutile. Leurs prières n'ont sauvé personne. »</em></li></ul><p><em>Dans la marge, souligné deux fois : « Si la cloche se tait, tout s'arrête. Ne lâcher la corde sous aucun prétexte. »</em></p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375530,
+        "modifiedTime": 1793703375532,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!QWxYXPXim6TIQi2j.n8Dz46R3TyeYEZCB"
+    }
+  ],
+  "sort": 0,
+  "_key": "!journal!QWxYXPXim6TIQi2j"
+}

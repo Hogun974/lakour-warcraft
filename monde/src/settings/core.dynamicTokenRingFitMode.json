@@ -1,0 +1,18 @@
+{
+  "key": "core.dynamicTokenRingFitMode",
+  "user": null,
+  "value": "\"subject\"",
+  "_id": "DEcgV13e8m8T7Hj8",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467827666,
+    "modifiedTime": 1793467827666,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!DEcgV13e8m8T7Hj8"
+}

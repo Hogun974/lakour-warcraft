@@ -1,0 +1,334 @@
+{
+  "name": "Campagne — Les Braises de la Légion",
+  "folder": "wNtgGHYLJnHwTJwh",
+  "categories": [],
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "campagne-braises-legion",
+      "version": "0.10.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793512298336,
+    "modifiedTime": 1793703375968,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.lakour-warcraft.journaux.JournalEntry.qRBAKDn0YR5qJjhc",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "pages": [
+    {
+      "_id": "BCym7nXdHG3Jhg30",
+      "name": "Synopsis (MJ)",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Les Braises de la Légion</strong> est une campagne d'enquête et d'action en quatre chapitres, pour 3 à 5 personnages qui ont joué <strong>@UUID[Compendium.lakour-warcraft.journaux.JournalEntry.DQAuC2l2FxNLLS5W]{Les Puits de cendre}</strong> (ou qui commencent au <strong>niveau 3</strong>). Ils atteignent le <strong>niveau 6</strong> au chapitre 4. Comptez six à neuf séances. Chaque chapitre se joue dans un lieu différent des Tarides et de leur côte. Le groupe peut toujours être de l'Alliance, de la Horde ou mélangé.</p><p><strong>Ce qui s'est passé.</strong> Il y a dix mille ans, quand la Légion ardente fut chassée d'Azeroth, l'une de ses forges volantes, la <strong>Fournaise</strong>, se brisa au-dessus de Kalimdor. Son cœur s'enfonça dans les collines des Tarides et y creusa le cratère de <strong>Brasegouffre</strong>. Quatre éclats, les <strong>Braises</strong>, furent projetés au loin. Ce sont les clés du Cœur : tant qu'elles en restent séparées, il dort.</p><p>L'Éclat gangrené de Rouge-Veine était la première Braise. <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.7QIwTV8327wAgVvO]{Drogha Cendrelame}</strong> l'a étudiée et a compris ce qu'elle était. Depuis, la <strong>Lame ardente</strong> cherche les trois autres. À la <strong>nuit des deux lunes</strong>, quand la Dame blanche et l'Enfant bleu se lèvent ensemble, Drogha veut poser les Braises sur l'autel du cratère et rallumer la Fournaise. Elle ouvrira alors un passage par où la Légion fera pleuvoir ses infernaux sur les Tarides.</p><p><strong>Les quatre Braises</strong><br>- <strong>Rouge-Veine</strong> : celle de l'aventure de départ (voir « Fil rouge »).<br>- <strong>Fort-Rivet</strong> : achetée sans le savoir par un fondeur gobelin, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.F5nrDxJ1kA8ycQtP]{Vizzik Tirelire}, qui la brûle dans ses machines.<br>- <strong>Eldrassal</strong> : enfouie dans la crypte d'une cité des Bien-Nés noyée sous la côte, que fouillent des @UUID[Compendium.lakour-warcraft.bestiaire.Actor.c8H80lBtJi7h86mo]{nagas}.<br>- <strong>Gué-de-Sel</strong> : Drogha la garde pour la fin. Une Braise s'éveille quand elle boit le sang de deux peuples ennemis, et le sommet de paix de Gué-de-Sel lui offre les deux à la fois.</p><p><strong>Déroulement et cartes</strong> (compendium <em>La Kour Warcraft — Scènes</em>)<br>- Chapitre 1 — La fonderie de Fort-Rivet : carte <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.HGfPcvSfoHt2jw9y]{Tarides — Fonderie de Fort-Rivet}</em><br>- Chapitre 2 — Les ruines d'Eldrassal : carte <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.G8Kf58ByEaYPKJug]{Côte des Tarides — Ruines englouties d'Eldrassal}</em><br>- Chapitre 3 — Le sommet de Gué-de-Sel : carte <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.DE0CKqcjQKI3JM6p]{Gué-de-Sel — Camp du sommet de la Trêve}</em><br>- Chapitre 4 — La nuit des deux lunes : carte <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.RlyX3Yz5pMpfyHgY]{Tarides — Cratère de Brasegouffre}</em></p><p>Les chapitres 1 et 2 se jouent dans l'ordre que choisissent les joueurs. Le chapitre 3 a une date fixe, le chapitre 4 aussi. <strong>Ce que le groupe réussit compte pour la fin</strong> : chaque Braise que Drogha n'a pas sur son autel affaiblit le rituel (voir « Fil rouge et horloge »).</p><p>Les PNJ nommés et les créatures sont dans le compendium <em>La Kour Warcraft — Bestiaire</em>. Pour les trajets, les auberges et les embuscades, utilisez les cartes de lieux du compendium (@UUID[Compendium.lakour-warcraft.scenes.Scene.g35W7BBQYa9IrYSU]{Lieu — Auberge de bord de route}, @UUID[Compendium.lakour-warcraft.scenes.Scene.g5R6ceiFmzXYjr3m]{Lieu — Campement orc}, @UUID[Compendium.lakour-warcraft.scenes.Scene.l7wbvfPi6CvNekal]{Lieu — Port}, @UUID[Compendium.lakour-warcraft.scenes.Scene.luDaXY4uh7ekndDq]{Lieu — Clairière en forêt}…) et les tables @UUID[Compendium.lakour-warcraft.tables.RollTable.ucNQfx3RE78yE0T6]{Rencontres sur la route}, @UUID[Compendium.lakour-warcraft.tables.RollTable.WtnajfAuJUIYAx9E]{Temps et chemins} et @UUID[Compendium.lakour-warcraft.tables.RollTable.iOGQpbmnvaq9MXpC]{Complications}. Le premier retour à Cabestan peut se jouer sur la carte <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.y58dyqMG0VFrRAAI]{Cabestan — Quai des Comptoirs}</em>.</p><p><strong>Aides de jeu</strong> (visibles des joueurs) : @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.9I1f7dn8m4F0tLeV]{Aide de jeu — Lettre de la Lame ardente} (chapitre 1) et @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.PdUBrFeqj4M5xADD]{Aide de jeu — Sauf-conduit du sommet de Gué-de-Sel} (chapitre 3).</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375934,
+        "modifiedTime": 1793703375948,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!l9Z35U9aNrBezqfv.BCym7nXdHG3Jhg30"
+    },
+    {
+      "_id": "rSVbrrgZR13YxNp0",
+      "name": "Fil rouge et horloge",
+      "type": "text",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>L'horloge.</strong> La nuit des deux lunes tombe <strong>vingt-quatre jours</strong> après le début du chapitre 1. Le sommet de Gué-de-Sel (chapitre 3) se tient le <strong>quinzième jour</strong>. Compter :<br>- Cabestan → Fort-Rivet : 2 jours de piste (1 avec un kodo rapide du Cartel).<br>- Cabestan → Eldrassal : 1 jour de cabotage sur un bateau du Cartel, 3 jours à pied par la côte.<br>- Fort-Rivet ou Eldrassal → Gué-de-Sel : 3 jours.<br>- Gué-de-Sel → Brasegouffre : 2 jours (1 en volant sur les wyvernes de Garrok ou les hippogriffes de Corwen, s'ils sont reconnaissants).<br>- Chaque chapitre prend 1 à 3 jours sur place.</p><p>Si le groupe arrive en retard au sommet, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.cdBvsSVyEvNyIUsr]{Iselle} a déjà fait sauter le pavillon : la guerre éclate et le chapitre 3 devient une fuite à travers un champ de bataille. S'il arrive en retard à Brasegouffre, le rituel est déjà au palier 2.</p><p><strong>Les Braises</strong> (cochez au fil de la campagne). Une Braise est <strong>hors jeu</strong> si elle est détruite (plongée une heure dans un bassin lunaire réveillé, ou brisée par un rituel de la Lumière ou de la nature : <strong>[[/check skill=rel dc=16]]{Religion} ou [[/check skill=nat dc=16]]{Nature DD 16}</strong>, huit heures) ou gardée en sûreté loin du groupe. Une Braise que les personnages <strong>portent sur eux</strong> peut encore être volée (au chapitre 3, Iselle et son @UUID[Compendium.lakour-warcraft.bestiaire.Actor.FdH2bFXZ8sxHCiMb]{diablotin} essaient).<br>- <strong>Rouge-Veine</strong> : hors jeu si l'Éclat a été détruit dans l'aventure (voir @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.DQAuC2l2FxNLLS5W.JournalEntryPage.0Ctnygi4i7O12Jlu]{ses dénouements}). Si Drogha l'a emporté, ou si la mine s'est effondrée (le culte l'a déterrée), il l'a. Si le groupe n'a pas joué l'aventure, Drogha l'a.<br>- <strong>Fort-Rivet</strong> : hors jeu si le groupe arrache la Braise au moteur et la garde (chapitre 1).<br>- <strong>Eldrassal</strong> : hors jeu si le groupe la prend avant Ezzavel (chapitre 2).<br>- <strong>Gué-de-Sel</strong> : hors jeu si la bombe d'Iselle est désamorcée et la Braise reprise (chapitre 3). Si la bombe explose, la Braise est éveillée et retourne à Drogha.</p><p><strong>Le rituel final</strong> dépend du nombre de Braises sur l'autel : voir le chapitre 4.</p><p><strong>Les commanditaires.</strong> @UUID[Compendium.lakour-warcraft.bestiaire.Actor.EgsVDftATjRAEYLT]{Grizzla Tordeboulon} paie l'enquête (le Cartel perd de l'argent quand les Tarides brûlent). Le Bureau de la Trêve fournit les @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.PdUBrFeqj4M5xADD]{sauf-conduits}. Au chapitre 3, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.TDY7YqkoJZZKJsHp]{Corwen Haldis} et @UUID[Compendium.lakour-warcraft.bestiaire.Actor.23SL00ydcEvtCQsg]{Garrok Brise-Dent} deviennent des alliés si le sommet est sauvé : ils prêtent chacun des soldats ou des montures pour le chapitre 4.</p><p><strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.puL97ibgNYOM6SFR]{Ezzavel le Rieur}</strong> (fiche de l'aventure de départ) est l'ennemi récurrent : il intrigue au chapitre 2, il espionne au chapitre 3 sous forme de rumeur (« un rire de chèvre la nuit, près du moulin »), et il assiste au rituel du chapitre 4 en spectateur amusé. Il fuit toujours à 15 PV.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375936,
+        "modifiedTime": 1793703375949,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!l9Z35U9aNrBezqfv.rSVbrrgZR13YxNp0"
+    },
+    {
+      "_id": "bzoOX8ZhHXVUDHYR",
+      "name": "Chapitre 1 — La fonderie de Fort-Rivet",
+      "type": "text",
+      "sort": 300,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Carte :</strong> <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.HGfPcvSfoHt2jw9y]{Tarides — Fonderie de Fort-Rivet}</em>. Une fonderie gobeline isolée au nord des Tarides, au pied d'une falaise de minerai rouge. Niveau 3.</p><p><strong>À lire (Cabestan) :</strong> <em>Grizzla Tordeboulon étale sur son comptoir une lettre roussie aux bords. « Trouvée sur l'orc, ou dans son trou. » L'écriture est fine, l'encre a l'odeur du soufre. « Quatre braises, quatre clés. Il y a un mot que je connais, là : Fort-Rivet. C'est la fonderie de ce rat de Vizzik. » Elle referme son livre de comptes d'un coup sec. « Je ne veux pas savoir ce qu'il fabrique. Je veux que ça s'arrête. Même tarif que la dernière fois. »</em></p><p>Grizzla remet l'aide de jeu <strong>@UUID[Compendium.lakour-warcraft.journaux.JournalEntry.9I1f7dn8m4F0tLeV]{Lettre de la Lame ardente}</strong>. La lettre parle des quatre Braises, de Fort-Rivet, d'une « cité sous la lune noyée » et de « la nuit où les deux lunes se lèvent ».</p><p><strong>À lire (arrivée) :</strong> <em>La fonderie tousse une fumée verdâtre que le vent rabat sur la piste. Dans la cour, des ouvriers gobelins poussent des wagonnets de minerai en toussant aussi. Au-dessus de la grande halle, une enseigne clignote : « FORGES TIRELIRE — on vous fait du métal pas cher ». Derrière les vitres sales, une lueur verte palpite, au rythme d'un cœur.</em></p><p><strong>Entrer.</strong> @UUID[Compendium.lakour-warcraft.bestiaire.Actor.F5nrDxJ1kA8ycQtP]{Vizzik} reçoit tout client qui a de l'or. Options : se présenter comme acheteurs (<strong>[[/check skill=dec dc=13]]{Tromperie DD 13}</strong>, ou <strong>[[/check skill=per dc=12]]{Persuasion DD 12}</strong> avec une lettre du Cartel) ; entrer de nuit par la fenêtre du bureau ou par le quai du zeppelin (<strong>[[/check skill=ste dc=13]]{Discrétion DD 13}</strong>, deux gardes gobelins, profil de <em>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.b3cJ52ZXydLLpfaZ]{Bandit défias}</em>) ; ou frapper à la porte avec des armes, ce qui lance le combat.</p><p><strong>Indices</strong><br>- <strong>Les ouvriers malades</strong> : fièvre, colères, insomnies, comme les hurans de Ronceroc. <strong>[[/check skill=med dc=13]]{Médecine DD 13}</strong> : la fièvre de gangrène, qui vient de la halle.<br>- <strong>Le moteur à éclat</strong> (halle des machines) : un cristal vert gros comme un poing, serti dans une cage de cuivre. <strong>[[/check skill=arc dc=13]]{Arcanes DD 13}</strong> : de la magie de démon ; <strong>[[/check skill=arc dc=16]]{Arcanes DD 16}</strong> : ce n'est pas un éclat ordinaire, il appelle quelque chose, loin au sud-est.<br>- <strong>L'étagère de registres</strong> (bureau de Vizzik) : <strong>[[/check skill=inv dc=13]]{Investigation DD 13}</strong>. Trois livraisons de « pierres vertes » payées en pièces anciennes, et une commande de six déchiqueteurs « à livrer au cratère, avant la double lune ». Une facture de quatre scaphandres « livrés à la crique d'Eldrassal ».<br>- <strong>Les caisses scellées</strong> (entrepôt, porte verrouillée : <strong>[[/check tool=thief dc=14]]{outils de voleur DD 14}</strong>) : des éclats ordinaires, plus petits, que Vizzik met dans ses déchiqueteurs. Chacun est une gêne, pas une Braise.<br>- <strong>Le coffre-fort</strong> (<strong>[[/check tool=thief dc=15]]{outils de voleur DD 15}</strong>) : 220 po, et un reçu signé d'une lame enflammée.</p><p><strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.F5nrDxJ1kA8ycQtP]{Vizzik Tirelire}.</strong> Il n'est pas cultiste, seulement avide. Le retourner : <strong>[[/check skill=per dc=15]]{Persuasion DD 15}</strong> (avantage avec une offre écrite de Grizzla, ou si un ouvrier malade est soigné devant lui). Retourné, il coupe lui-même le moteur et dit tout : un « courrier tatoué » vient chercher les déchiqueteurs par zeppelin cette nuit.</p><p><strong>Rencontre : le courrier.</strong> À minuit, le zeppelin de livraison revient avec <strong>deux @UUID[Compendium.lakour-warcraft.bestiaire.Actor.jeU8rFouecAiQFVO]{cultistes de la Lame ardente}</strong> et un <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.FOFysjFDLmLZOfEI]{fanatique de la Lame ardente}</strong>. Ils viennent chercher les deux déchiqueteurs prêts de l'atelier, et la Braise. Si Vizzik n'est pas retourné, il se bat avec eux (avec <strong>un @UUID[Compendium.lakour-warcraft.bestiaire.Actor.XWsrKGQlt6zBBfYz]{déchiqueteur de la fonderie}</strong>) ; s'il l'est, il donne son sifflet au groupe, et le déchiqueteur obéit pendant 1 minute à celui qui siffle.</p><p><strong>Danger : le moteur.</strong> Un combat dans la halle peut le toucher (CA 12, 15 PV). À 0 PV, ou si quelqu'un pousse la chaudière (<strong>[[/check skill=arc dc=14]]{Arcanes DD 14}</strong> pour éviter la surchauffe), il explose au bout d'un round : sphère de 6 m, <strong>[[/save ability=dex dc=14]]{sauvegarde de Dextérité DD 14}</strong>, [[/damage formula=4d6 type=fire]]{4d6 dégâts de feu} (moitié en cas de réussite). La Braise survit à l'explosion, mais le culte la ramasse si le groupe ne le fait pas.</p><p><strong>Prendre la Braise.</strong> Couper le moteur (<strong>[[/check skill=arc dc=14]]{Arcanes DD 14}</strong> ou <strong>[[/check tool=tinker dc=13]]{outils de bricoleur DD 13}</strong>, une minute), puis l'ouvrir sans peine. L'arracher en marche : action, <strong>[[/check skill=ath dc=15]]{Athlétisme DD 15}</strong>, [[/damage formula=3d6 type=fire]]{3d6 dégâts de feu} à qui la saisit. Un personnage qui porte une Braise plus d'une journée fait chaque matin un <strong>[[/save ability=wis dc=12]]{jet de sauvegarde de Sagesse DD 12}</strong> ; en cas d'échec, il fait des cauchemars de feu et ne récupère pas de dé de vie au repos long.</p><p><strong>Fin du chapitre :</strong> les personnages passent au <strong>niveau 4</strong>. Les registres mènent à Eldrassal (chapitre 2) et au cratère (chapitre 4).</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375939,
+        "modifiedTime": 1793703375950,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!l9Z35U9aNrBezqfv.bzoOX8ZhHXVUDHYR"
+    },
+    {
+      "_id": "xMnCwTBpeK6YQGsc",
+      "name": "Chapitre 2 — Les ruines d'Eldrassal",
+      "type": "text",
+      "sort": 400,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Carte :</strong> <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.G8Kf58ByEaYPKJug]{Côte des Tarides — Ruines englouties d'Eldrassal}</em>. Une crique de la côte des Tarides, où une cité des Bien-Nés s'est à moitié enfoncée dans la mer il y a dix mille ans. Nuit, marée basse au début. Niveau 4.</p><p><strong>À lire :</strong> <em>La barque racle le sable. Devant vous, des colonnes de pierre blanche sortent de l'eau comme les doigts d'une main noyée. Une cité entière est là, à moitié dans la mer : des arches, des statues sans visage, un dôme fendu. Sur le parvis, des torches bleues brûlent sans fumée. Au loin, quelque chose chante, d'une voix si belle que vous mettez un moment à comprendre qu'elle n'a rien d'humain.</em></p><p><strong>La marée.</strong> Le groupe arrive à marée basse. Au bout de <strong>deux heures</strong>, la mer monte : le lagon, le camp des nagas et la bibliothèque engloutie deviennent des zones où il faut nager (&amp;Reference[rule=difficultTerrain]{terrain difficile}, désavantage aux attaques avec une arme sans la propriété Lancer). Au bout de <strong>quatre heures</strong>, la crypte des Bien-Nés est noyée.</p><p><strong>Les forces en présence.</strong> <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.10DwGxOyKGxjlCGL]{Sss'thera}</strong> et <strong>deux @UUID[Compendium.lakour-warcraft.bestiaire.Actor.c8H80lBtJi7h86mo]{nagas des profondeurs}</strong> fouillent la crypte avec une dizaine de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.Q6QWZQUBEfSVg08M]{murlocs} qui creusent le puits de fouille. <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.puL97ibgNYOM6SFR]{Ezzavel le Rieur}</strong> les « aide », et garde sur lui une lettre de Drogha qui lui promet la Braise. Dans le camp des nagas, <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.IvK7GWpnAHS8YErn]{Aelyra Ombrefeuille}</strong> est enfermée dans la cage de corail.</p><p><strong>Indices</strong><br>- <strong>Les scaphandres</strong> de Fort-Rivet, abandonnés près de la barque échouée : <strong>[[/check skill=prc dc=12]]{Perception DD 12}</strong>. Des traces de sabots fendus partent vers le parvis.<br>- <strong>La galerie des statues</strong> : <strong>[[/check skill=his dc=14]]{Histoire DD 14}</strong>, les Bien-Nés de cette cité adoraient la magie, et non les dieux. Une inscription sous la statue d'un mage : « Nous avons gardé ce qui est tombé du ciel. Que nul ne le rende au feu. »<br>- <strong>Le pupitre de cristal</strong> (bibliothèque engloutie, porte verrouillée : <strong>[[/check skill=ath dc=15]]{Athlétisme DD 15}</strong> pour la forcer, ou la clé de corail de Sss'thera) : touché, il projette une image (<strong>[[/check skill=arc dc=14]]{Arcanes DD 14}</strong> pour la comprendre). Une forge noire se brise dans le ciel ; quatre étincelles tombent ; un cratère ; deux lunes. C'est l'histoire de la Fournaise.<br>- <strong>Aelyra</strong>, libérée (<strong>[[/check skill=ath dc=13]]{Athlétisme DD 13}</strong> ou la clé du gardien naga) : elle connaît les ruines, le passage secret derrière le bassin lunaire et la façon de réveiller le bassin.</p><p><strong>Le bassin lunaire.</strong> Il « dort » : son eau est grise. Le réveiller demande une heure de chant ou de prière (<strong>[[/check skill=rel dc=15]]{Religion} ou [[/check skill=nat dc=15]]{Nature DD 15}</strong>, avantage avec Aelyra) et une offrande d'argent ou de lumière de lune. Réveillé, il soigne de [[/heal formula=2d4+2 type=healing]]{2d4 + 2 PV} quiconque y boit (une fois par jour) et <strong>détruit une Braise plongée une heure dans son eau</strong>. Le groupe peut aussi en remplir des fioles : chaque fiole d'eau du bassin compte au chapitre 4.</p><p><strong>Rencontre : la crypte.</strong> Sss'thera, un naga et Ezzavel près de l'autel de la Braise, avec quatre murlocs qui fuient au premier sang. Le passage secret du bassin (<strong>[[/check skill=prc dc=16]]{Perception DD 16}</strong>, ou Aelyra) mène derrière les sarcophages. Pendant le combat, Ezzavel attend le bon moment : dès que Sss'thera est blessée, il saisit la Braise et file vers la plage en riant. Si le groupe montre à Sss'thera la lettre de Drogha (prise sur Ezzavel ou comprise par <strong>[[/check skill=ins dc=15]]{Intuition DD 15}</strong> quand il parle), la naga se retourne d'abord contre le satyre.</p><p><strong>Négocier avec Sss'thera.</strong> <strong>[[/check skill=per dc=16]]{Persuasion DD 16}</strong> : elle laisse la Braise au groupe contre la promesse que la Horde et l'Alliance laisseront les ruines aux nagas. Une promesse que personne n'a le droit de faire, et qui reviendra plus tard.</p><p><strong>Fin du chapitre :</strong> les personnages passent au <strong>niveau 5</strong>. Aelyra peut les suivre jusqu'au bout.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375941,
+        "modifiedTime": 1793703375950,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!l9Z35U9aNrBezqfv.xMnCwTBpeK6YQGsc"
+    },
+    {
+      "_id": "E99xKmfr3LWDKzCV",
+      "name": "Chapitre 3 — Le sommet de Gué-de-Sel",
+      "type": "text",
+      "sort": 500,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Carte :</strong> <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.DE0CKqcjQKI3JM6p]{Gué-de-Sel — Camp du sommet de la Trêve}</em>. Un gué de pierre sur une rivière salée, à la frontière des terres de la Horde et des avant-postes de l'Alliance. Le quinzième jour, de l'après-midi à la nuit. Niveau 5.</p><p><strong>À lire :</strong> <em>Deux camps se font face de part et d'autre de la rivière. Au nord, la bannière au lion claque sur des tentes bleues bien alignées ; au sud, des peaux tendues sur des perches, un totem et des braseros. Au milieu, sur la rive nord, un grand pavillon de toile dorée porte la roue dentée du Cartel. Des gardes gobelins vous font signe de laisser vos armes à l'entrée. Sur le gué, une borne de pierre neuve attend qu'on y grave une date.</em></p><p>Les personnages entrent grâce à l'aide de jeu <strong>@UUID[Compendium.lakour-warcraft.journaux.JournalEntry.PdUBrFeqj4M5xADD]{Sauf-conduit du sommet de Gué-de-Sel}</strong>, comme témoins de la Trêve de Cabestan. <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.EgsVDftATjRAEYLT]{Grizzla}</strong> préside au nom du Cartel. <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.TDY7YqkoJZZKJsHp]{Corwen Haldis}</strong> parle pour Theramore, <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.23SL00ydcEvtCQsg]{Garrok Brise-Dent}</strong> pour Orgrimmar. <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.cdBvsSVyEvNyIUsr]{Iselle Marchebrume}</strong> écrit le traité.</p><p><strong>La tension.</strong> Tenez un compteur de <strong>tension</strong> de 0 à 6. Il monte de 1 à chaque incident ; à 6, le sommet se rompt et les deux camps prennent les armes. Il baisse de 1 quand un personnage apaise une dispute (<strong>[[/check skill=per dc=14]]{Persuasion} ou [[/check skill=itm dc=14]]{Intimidation DD 14}</strong> ; avantage si le personnage est de la même faction que celui qu'il calme).</p><p><strong>Les incidents</strong> (un toutes les heures, dans cet ordre)<br>1. Un grunt et un soldat de l'Alliance se battent à l'enclos des montures : chacun accuse l'autre d'avoir empoisonné son loup ou son cheval. Les bêtes ont bu au tonneau près de la rive sud (<strong>[[/check skill=med dc=13]]{Médecine DD 13}</strong> : la fièvre de gangrène).<br>2. Une rumeur : Corwen aurait dit que la Horde « n'a pas d'honneur ». C'est le @UUID[Compendium.lakour-warcraft.bestiaire.Actor.FdH2bFXZ8sxHCiMb]{diablotin} d'Iselle, invisible, qui l'a soufflée à l'oreille d'un garde (<strong>[[/check skill=prc dc=15]]{Perception DD 15}</strong> pour entendre ses ailes, <em>détection de la magie</em> le révèle).<br>3. Une flèche à l'empennage de l'Alliance est retrouvée plantée dans le totem de guerre. Elle a été tirée depuis le vieux moulin (<strong>[[/check skill=sur dc=13]]{Survie DD 13}</strong> sur l'angle de tir).<br>4. Iselle propose de signer à la nuit tombée, « quand les deux lunes seront témoins ». C'est l'heure de la bombe.</p><p><strong>Indices</strong><br>- <strong>Iselle</strong> : son encre sent le soufre (<strong>[[/check skill=nat dc=13]]{Nature} ou [[/check skill=med dc=13]]{Médecine DD 13}</strong>). <strong>[[/check skill=ins dc=16]]{Intuition DD 16}</strong> (désavantage tant qu'elle n'a attaqué personne) : elle ment quand elle dit être née à Theramore.<br>- <strong>Le coffre des traités</strong> (tente des scribes) : trop lourd, tiède au toucher. <strong>[[/check skill=prc dc=14]]{Perception DD 14}</strong> pour remarquer le double fond, <strong>[[/check skill=arc dc=14]]{Arcanes DD 14}</strong> pour sentir la gangrène.<br>- <strong>Le vieux moulin</strong> : des traces fraîches vers la trappe (<strong>[[/check skill=sur dc=13]]{Survie DD 13}</strong>). Dans les sacs de grain, des tabards de l'Alliance et de la Horde (<strong>[[/check skill=inv dc=12]]{Investigation DD 12}</strong>). Sous la trappe, une cave où attendent <strong>quatre @UUID[Compendium.lakour-warcraft.bestiaire.Actor.jeU8rFouecAiQFVO]{cultistes de la Lame ardente}</strong> et <strong>un @UUID[Compendium.lakour-warcraft.bestiaire.Actor.FOFysjFDLmLZOfEI]{fanatique de la Lame ardente}</strong>.</p><p><strong>Le plan d'Iselle.</strong> À la signature, dans le pavillon du sommet, elle ouvre le coffre des traités : la Braise s'embrase au milieu des deux délégations. Au même moment, les cultistes du moulin, déguisés, attaquent la tente de l'Alliance en tabards de la Horde, et la tente de la Horde en tabards de l'Alliance.</p><p><strong>La bombe.</strong> Explosion : rayon de 6 m autour de la table des négociations, <strong>[[/save ability=dex dc=15]]{sauvegarde de Dextérité DD 15}</strong>, [[/damage formula=6d6 type=fire]]{6d6 dégâts de feu} (moitié en cas de réussite). Corwen et Garrok y survivent tout juste ; leurs gardes, non. La désamorcer : retirer la Braise du coffre (<strong>[[/check tool=thief dc=15]]{outils de voleur} ou [[/check skill=arc dc=15]]{Arcanes DD 15}</strong>, une action ; un échec de 5 ou plus la déclenche), ou emporter le coffre à plus de 18 m de tout le monde avant la fin du round.</p><p><strong>Rencontre : la nuit du gué.</strong> Démasquée, Iselle se bat avec <strong>deux @UUID[Compendium.lakour-warcraft.bestiaire.Actor.FdH2bFXZ8sxHCiMb]{diablotins de la Légion}</strong> et appelle un <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.VGcEzg7S47yF5Oa2]{chien corrompu}</strong> par le feu de la Braise (un seul, au round 2). Les cultistes du moulin passent à l'attaque. Si la tension est à 4 ou plus, chaque camp croit d'abord que l'autre l'attaque : il faut un round entier et une action (<strong>[[/check skill=per dc=15]]{Persuasion DD 15}</strong>) pour le détromper. À 3 ou moins, Corwen et Garrok se battent côte à côte contre le culte.</p><p><strong>Fin du chapitre :</strong> les personnages passent au <strong>niveau 6</strong>. Sur Iselle (ou dans la cave du moulin) : ses ordres, « à Brasegouffre, quand les deux lunes se lèvent ».</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375943,
+        "modifiedTime": 1793703375951,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!l9Z35U9aNrBezqfv.E99xKmfr3LWDKzCV"
+    },
+    {
+      "_id": "cZXvD6E1KUIYnxJ9",
+      "name": "Chapitre 4 — La nuit des deux lunes",
+      "type": "text",
+      "sort": 600,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Carte :</strong> <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.RlyX3Yz5pMpfyHgY]{Tarides — Cratère de Brasegouffre}</em>. Un cratère noir au cœur des collines rouges, deux jours au sud-est de Gué-de-Sel. Le vingt-quatrième jour, la nuit. Niveau 6.</p><p><strong>À lire :</strong> <em>Le sol devient du verre noir qui craque sous les bottes. Au fond du cratère, un cercle d'obélisques brûle d'un feu vert, et, au-dessus, l'air tremble comme au-dessus d'une forge. Les deux lunes se lèvent : la blanche à l'ouest, la bleue à l'est. Entre elles, une voix d'orc que vous connaissez chante en eredun, et chaque mot fait trembler la terre.</em></p><p><strong>L'approche.</strong> Le camp de la Lame ardente (quatre @UUID[Compendium.lakour-warcraft.bestiaire.Actor.jeU8rFouecAiQFVO]{cultistes}, un @UUID[Compendium.lakour-warcraft.bestiaire.Actor.FOFysjFDLmLZOfEI]{fanatique}) garde la pente nord. La fosse aux captifs retient une douzaine de prisonniers à sacrifier : caravaniers, hurans de Ronceroc, kobolds de Rouge-Veine (la grille se crochète avec les <strong>[[/check tool=thief dc=14]]{outils de voleur DD 14}</strong>). Des alliés gagnés au chapitre 3 (soldats de Corwen, profil de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.EAVnasdhIMpJ0aIX]{Garde de Hurlevent} ; grunts de Garrok, profil de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.oGqL8nq1xsznIEhi]{Grunt d'Orgrimmar} ; Aelyra) peuvent occuper le camp pendant que le groupe descend dans le cercle.</p><p><strong>Le passage secret.</strong> Une fissure des ruines de la forge mène au puits de la Fournaise (<strong>[[/check skill=prc dc=15]]{Perception DD 15}</strong>, ou Aelyra). Au fond bat le <strong>Cœur de la Fournaise</strong>, gros comme un tonneau, retenu par des chaînes de fer gangrené.</p><p><strong>Le rituel</strong> (un palier tous les 3 rounds, compté dès que le groupe entre dans le cercle du rituel) :<br>1. Les obélisques s'allument : le cercle devient un &amp;Reference[rule=difficultTerrain]{terrain difficile} pour qui n'est pas de la Lame ardente.<br>2. Les Braises s'embrasent : chaque créature qui commence son tour dans le cercle fait un <strong>[[/save ability=con dc=14]]{jet de sauvegarde de Constitution DD 14}</strong> et subit [[/damage formula=2d6 type=fire]]{2d6 dégâts de feu} en cas d'échec.<br>3. Le portail de la Fournaise s'ouvre une première fois : l'<strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.2HwdbCjPvuLuHqjl]{Infernal de Brasegouffre}</strong> tombe du ciel (Chute de météore) au milieu du cercle.<br>4. <strong>La Fournaise s'ouvre.</strong> Si ce palier est atteint, d'autres infernaux tombent dans toutes les Tarides (voir les dénouements). Le groupe a encore 3 rounds pour détruire le Cœur avant que ce soit irréversible.</p><p><strong>Les Braises sur l'autel</strong> changent le rituel :<br>- <strong>0 ou 1 Braise</strong> : le palier 4 n'arrive jamais, et l'infernal arrive affaibli (55 PV).<br>- <strong>2 Braises</strong> : le palier 4 arrive 2 rounds plus tard.<br>- <strong>3 ou 4 Braises</strong> : rituel normal ; avec 4, Drogha a l'avantage à ses jets de sauvegarde tant qu'il est dans le cercle.</p><p><strong>Forces en présence :</strong> <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.whQGaGPnyqc8HEzJ]{Drogha l'Embrasé}</strong> devant l'autel des Braises, <strong>deux @UUID[Compendium.lakour-warcraft.bestiaire.Actor.FOFysjFDLmLZOfEI]{fanatiques de la Lame ardente}</strong> près des obélisques, l'Infernal au palier 3. <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.puL97ibgNYOM6SFR]{Ezzavel le Rieur}</strong> regarde depuis les ruines de la forge et n'intervient que pour sauver sa peau, ou pour ramasser une Braise qui traîne.</p><p><strong>Arrêter le rituel :</strong><br>- tuer Drogha (il revient une fois grâce au Pacte de cendre) : le rituel s'arrête au palier atteint, et l'infernal reste ;<br>- ôter les Braises de l'autel (action par Braise, [[/damage formula=2d6 type=fire]]{2d6 dégâts de feu} à qui la touche) : chaque Braise ôtée recule le rituel d'un palier ;<br>- <strong>détruire le Cœur de la Fournaise</strong> (CA 17, 60 PV, immunisé contre le feu, le poison et les dégâts psychiques ; les dégâts radiants sont doublés) : chaque fiole d'eau du bassin lunaire versée dessus lui inflige 20 dégâts. Le Cœur détruit, tout s'arrête : l'infernal retombe en poussière, les obélisques s'éteignent, et Drogha perd sa résistance au feu.</p><p><strong>Équilibre :</strong> Drogha, deux fanatiques et l'infernal forment un combat difficile pour quatre personnages de niveau 6. Avec trois personnages, retirez un fanatique et faites arriver l'infernal affaibli ; avec cinq, ajoutez quatre @UUID[Compendium.lakour-warcraft.bestiaire.Actor.jeU8rFouecAiQFVO]{cultistes} et un @UUID[Compendium.lakour-warcraft.bestiaire.Actor.FdH2bFXZ8sxHCiMb]{diablotin}.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375945,
+        "modifiedTime": 1793703375951,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!l9Z35U9aNrBezqfv.cZXvD6E1KUIYnxJ9"
+    },
+    {
+      "_id": "ZrvUjM5Jt6IGQruP",
+      "name": "Dénouements et récompenses",
+      "type": "text",
+      "sort": 700,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Par chapitre</strong><br>- <strong>Chapitre 1</strong> : 75 po par personnage de la part de Grizzla, plus ce que contient le coffre-fort de Vizzik. Vizzik retourné offre un <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.XWsrKGQlt6zBBfYz]{déchiqueteur}</strong> réparé (il obéit au sifflet, 1 heure par jour) ou 150 po, au choix du groupe.<br>- <strong>Chapitre 2</strong> : dans les sarcophages, un <strong>anneau de protection</strong> et deux <strong>@UUID[Compendium.lakour-warcraft.objets.Item.JpC7YtpnD69HcMEL]{potions de soins majeures}</strong>. Aelyra donne au groupe une <strong>cape elfique</strong> si elle est libérée. Le bassin lunaire réveillé reste un refuge sûr.<br>- <strong>Chapitre 3</strong> : chaque délégation offre une récompense : Corwen une <strong>épée longue +1</strong> gravée au lion, Garrok une <strong>hache d'armes +1</strong> à la défense brisée. Le Cartel verse 100 po par personnage si la bombe est désamorcée.<br>- <strong>Chapitre 4</strong> : sur Drogha, une <strong>baguette de projectiles magiques</strong>, 300 po en pièces anciennes et le grimoire de la Lame ardente (accroche de suite).</p><p><strong>Dénouements du chapitre 4</strong><br>- <strong>La Fournaise éteinte</strong> (Cœur détruit avant le palier 4) : les Tarides sont sauvées. Les Braises restantes ne sont plus que des cailloux. Le groupe reçoit le titre de <strong>Gardien de la Trêve</strong> ; chaque personnage gagne une <strong>faveur</strong> de sa faction et un don de son choix au niveau suivant.<br>- <strong>Le portail refermé de justesse</strong> (Cœur détruit pendant les 3 rounds du palier 4) : une demi-douzaine d'infernaux sont tombés dans les Tarides. Le pays brûle par endroits, mais la Légion n'est pas passée. Corwen et Garrok proposent au groupe de chasser les infernaux ensemble : une suite toute trouvée.<br>- <strong>La Fournaise rallumée</strong> : les infernaux pleuvent pendant trois nuits. Le Carrefour, Cabestan et les avant-postes de l'Alliance doivent s'unir pour survivre. Si les personnages s'en sortent, ils deviennent les témoins et les rescapés d'une guerre qui commence.</p><p><strong>Bonus</strong><br>- <strong>Vizzik retourné</strong> : le Cartel lui rachète la fonderie ; il doit un service au groupe.<br>- <strong>Sss'thera épargnée</strong> (et la promesse tenue ou trahie) : les nagas reviendront.<br>- <strong>Iselle capturée vivante</strong> : le Bureau de la Trêve l'interroge et démantèle le réseau de la Lame ardente à Cabestan.<br>- <strong>Aelyra vivante à la fin</strong> : les Sentinelles laissent le groupe traverser leurs forêts sans escorte.<br>- <strong>Les captifs de la fosse sauvés</strong> : les hurans de Ronceroc deviennent des alliés pour toujours.</p><p><strong>Suites possibles :</strong> Ezzavel est toujours en fuite. Le grimoire de Drogha parle d'autres forges brisées, ailleurs sur Kalimdor. Le MJ IA peut prendre le relais avec les cartes de lieux du compendium.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375947,
+        "modifiedTime": 1793703375951,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!l9Z35U9aNrBezqfv.ZrvUjM5Jt6IGQruP"
+    },
+    {
+      "_id": "kSXWEzaBD5KkQ8MQ",
+      "name": "PNJ et forces en présence",
+      "type": "text",
+      "sort": 800,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>PNJ nommés</strong> (fiches dans le bestiaire)<br>- <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.EgsVDftATjRAEYLT]{Grizzla Tordeboulon}</strong> — commanditaire, intendante du Cartel (aventure de départ).<br>- <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.F5nrDxJ1kA8ycQtP]{Vizzik Tirelire}</strong> — patron de la fonderie de Fort-Rivet. Avide, retournable.<br>- <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.IvK7GWpnAHS8YErn]{Aelyra Ombrefeuille}</strong> — sentinelle elfe de la nuit, prisonnière des nagas. Alliée.<br>- <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.10DwGxOyKGxjlCGL]{Sss'thera}</strong> — sirène naga d'Eldrassal. Hostile, négociable.<br>- <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.puL97ibgNYOM6SFR]{Ezzavel le Rieur}</strong> — satyre de la Légion, ennemi récurrent (aventure de départ).<br>- <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.TDY7YqkoJZZKJsHp]{Corwen Haldis}</strong> — capitaine, envoyé de Theramore au sommet. Neutre, puis allié.<br>- <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.23SL00ydcEvtCQsg]{Garrok Brise-Dent}</strong> — porte-voix d'Orgrimmar au sommet. Neutre, puis allié.<br>- <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.cdBvsSVyEvNyIUsr]{Iselle Marchebrume}</strong> — scribe du sommet, agente de la Lame ardente. Traîtresse.<br>- <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.whQGaGPnyqc8HEzJ]{Drogha l'Embrasé}</strong> — la Voix de la Fournaise. Le grand méchant, revenu des Puits de cendre.</p><p><strong>Nouvelles créatures du bestiaire :</strong> @UUID[Compendium.lakour-warcraft.bestiaire.Actor.XWsrKGQlt6zBBfYz]{Déchiqueteur de la fonderie}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.2HwdbCjPvuLuHqjl]{Infernal de Brasegouffre}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.jeU8rFouecAiQFVO]{Cultiste de la Lame ardente}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.FOFysjFDLmLZOfEI]{Fanatique de la Lame ardente}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.FdH2bFXZ8sxHCiMb]{Diablotin de la Légion}.</p><p><strong>Créatures du bestiaire déjà existantes :</strong> @UUID[Compendium.lakour-warcraft.bestiaire.Actor.b3cJ52ZXydLLpfaZ]{Bandit défias} (gardes gobelins de Fort-Rivet), @UUID[Compendium.lakour-warcraft.bestiaire.Actor.Q6QWZQUBEfSVg08M]{Murloc}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.c8H80lBtJi7h86mo]{Naga des profondeurs}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.VGcEzg7S47yF5Oa2]{Chien corrompu}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.LGgjCl9MXLXC7rNs]{Satyre}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.oGqL8nq1xsznIEhi]{Grunt d'Orgrimmar} et @UUID[Compendium.lakour-warcraft.bestiaire.Actor.EAVnasdhIMpJ0aIX]{Garde de Hurlevent} (soldats du sommet), @UUID[Compendium.lakour-warcraft.bestiaire.Actor.rEd2jEd2VR2hp424]{Paysan} (captifs).</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375948,
+        "modifiedTime": 1793703375952,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!l9Z35U9aNrBezqfv.kSXWEzaBD5KkQ8MQ"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_id": "l9Z35U9aNrBezqfv",
+  "sort": 0,
+  "_key": "!journal!l9Z35U9aNrBezqfv"
+}

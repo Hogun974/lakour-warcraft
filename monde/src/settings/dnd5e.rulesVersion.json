@@ -1,0 +1,18 @@
+{
+  "key": "dnd5e.rulesVersion",
+  "user": null,
+  "value": "\"modern\"",
+  "_id": "ZDZ3DwkTY1bmor8t",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467562545,
+    "modifiedTime": 1793467562545,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!ZDZ3DwkTY1bmor8t"
+}

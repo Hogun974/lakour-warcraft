@@ -1,0 +1,18 @@
+{
+  "key": "dnd5e.allowRests",
+  "user": null,
+  "value": "true",
+  "_id": "PmMQJiedMj5KDEBL",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467827784,
+    "modifiedTime": 1793467827784,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!PmMQJiedMj5KDEBL"
+}

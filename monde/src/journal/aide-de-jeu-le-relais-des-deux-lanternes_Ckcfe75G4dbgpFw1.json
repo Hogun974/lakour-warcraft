@@ -1,0 +1,106 @@
+{
+  "_id": "Ckcfe75G4dbgpFw1",
+  "name": "Aide de jeu — Le Relais des Deux Lanternes",
+  "folder": "wNtgGHYLJnHwTJwh",
+  "categories": [],
+  "ownership": {
+    "default": 2
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "relais-deux-lanternes",
+      "version": "0.10.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793591654001,
+    "modifiedTime": 1793703375286,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.lakour-warcraft.journaux.JournalEntry.Ckcfe75G4dbgpFw1",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "pages": [
+    {
+      "_id": "RfEbEiYF0A4Oq9sD",
+      "name": "Le règlement des Deux Lanternes",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><em>Une planche peinte, clouée près de la porte. Chaque règle est écrite deux fois : en commun au-dessus, en orc en dessous, d'une autre main.</em></p><p><strong>RELAIS DES DEUX LANTERNES — GUÉ-BRUMEUX</strong><br><em>Lanterne bleue, lanterne rouge : ici, tout le monde mange.</em></p><ul><li>Les armes dorment au râtelier. Elles se réveillent à l'aube.</li><li>On paie d'avance : 5 pa la nuit, 3 pa la soupe. Les dettes se règlent à la vaisselle.</li><li>Pas de guerre sous ce toit. Ni la vôtre, ni celle de vos pères.</li><li>Le bac part quand Bram le dit. Bram ne discute pas avec la rivière.</li><li>Les vivants et les autres paient le même prix.</li></ul><p><em>H. Brunval — D. Brise-Fers.</em><br><em>(La dernière règle a été ajoutée plus tard, à la craie, par la main qui écrit en orc.)</em></p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375271,
+        "modifiedTime": 1793703375273,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!Ckcfe75G4dbgpFw1.RfEbEiYF0A4Oq9sD"
+    },
+    {
+      "_id": "U9huyMKBmDc8dNpN",
+      "name": "Le registre des voyageurs",
+      "type": "text",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><em>Un gros cahier taché de cire, ouvert sur le comptoir. L'écriture de Hilde est droite et serrée ; ses remarques sont dans la marge.</em></p><ul><li><strong>Il y a un mois</strong> — Dr A. Crayeval, de Theramore. Chambre du docteur. <em>A payé en farine : trois sacs. Brave homme.</em></li><li><strong>Neuf jours après</strong> — Dr A. Crayeval. Chambre du docteur. <em>Deux sacs.</em> — <em>Bram : des lumières sur l'îlot cette nuit.</em></li><li><strong>Neuf jours après</strong> — Dr A. Crayeval. <em>Trois sacs.</em> — <em>Bram : encore les lumières. Je lui ai dit de laisser la gnôle.</em></li><li><strong>La semaine dernière</strong> — Une caravane du Carrefour, quatre kodos. <em>Ont acheté deux sacs de farine pour la route.</em></li><li><strong>Hier</strong> — Dr A. Crayeval. Chambre du docteur. <em>En avance de deux jours, cette fois.</em></li><li><strong>Aujourd'hui</strong> — Sergent O. Pell et F. Marlow, garde de Theramore. — Kazra, courrière d'Orgrimmar, et un loup (écurie). — Pip Zinguette, « tout à vendre ». — V. de Brumefeuille. <em>N'a rien mangé. Paie en vieilles pièces de Lordaeron.</em></li><li><em>Marge : Bram parti relever les nasses à midi. Pas rentré.</em></li><li><em>(Une ligne vide, pour vous.)</em></li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375273,
+        "modifiedTime": 1793703375274,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!Ckcfe75G4dbgpFw1.U9huyMKBmDc8dNpN"
+    }
+  ],
+  "sort": 0,
+  "_key": "!journal!Ckcfe75G4dbgpFw1"
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "6LtAroGRGVyNe6sT",
+  "name": "D&D Modern Content",
+  "type": "Compendium",
+  "sorting": "m",
+  "sort": 100000,
+  "color": "#cd2c1e",
+  "folder": null,
+  "description": "",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793512282948,
+    "modifiedTime": 1793512282948,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!6LtAroGRGVyNe6sT"
+}

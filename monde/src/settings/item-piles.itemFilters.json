@@ -1,0 +1,18 @@
+{
+  "key": "item-piles.itemFilters",
+  "user": null,
+  "value": "[{\"path\":\"type\",\"filters\":\"spell,feat,class,subclass,background,race\"},{\"path\":\"system.weaponType\",\"filters\":\"natural\"}]",
+  "_id": "WqlNEgcxKc25xZOT",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793591653577,
+    "modifiedTime": 1793591653577,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!WqlNEgcxKc25xZOT"
+}

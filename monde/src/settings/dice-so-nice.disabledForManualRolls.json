@@ -1,0 +1,18 @@
+{
+  "key": "dice-so-nice.disabledForManualRolls",
+  "user": null,
+  "value": "true",
+  "_id": "6iMMm9eutD294LSb",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467827927,
+    "modifiedTime": 1793467827927,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!6iMMm9eutD294LSb"
+}

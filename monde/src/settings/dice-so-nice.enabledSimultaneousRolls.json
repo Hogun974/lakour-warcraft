@@ -1,0 +1,18 @@
+{
+  "key": "dice-so-nice.enabledSimultaneousRolls",
+  "user": null,
+  "value": "true",
+  "_id": "rjoFm31PHVAtMl4u",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467827880,
+    "modifiedTime": 1793467827880,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!rjoFm31PHVAtMl4u"
+}

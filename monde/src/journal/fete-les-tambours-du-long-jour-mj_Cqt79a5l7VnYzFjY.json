@@ -1,0 +1,146 @@
+{
+  "_id": "Cqt79a5l7VnYzFjY",
+  "name": "Fête — Les Tambours du Long Jour (MJ)",
+  "folder": "wNtgGHYLJnHwTJwh",
+  "categories": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "fete-tambours-du-long-jour",
+      "fete": "tambours-du-long-jour",
+      "collection": "fetes",
+      "version": "0.10.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793696358317,
+    "modifiedTime": 1793703375326,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.lakour-warcraft.journaux.JournalEntry.Cqt79a5l7VnYzFjY",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "pages": [
+    {
+      "_id": "DMBkppMEhBJ0BeDe",
+      "name": "La fête",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<figure class=\"lakour-warcraft-fete\"><img src=\"modules/lakour-warcraft/assets/fetes/musique.jpg\" alt=\"Des feux du solstice sur les collines des Tarides au coucher du soleil, des tambours taurens au premier plan\"></figure><p>Le jour le plus long de l'année, les taurens battent les <strong>Tambours du Long Jour</strong> de l'aube au couchant, pour remercier le soleil qui fait pousser l'herbe des kodos. Tout le monde finit par s'y mettre : les orcs frappent les boucliers, les gobelins des casseroles.</p><p><strong>La Chaîne des feux.</strong> Au coucher du soleil, un grand feu s'allume sur la colline du Carrefour. Un coureur y prend une torche et court l'allumer au feu de la colline suivante, et ainsi de suite jusqu'à Gué-de-Sel et à la côte : en une nuit, une ligne de feux traverse les Tarides. Theramore allume sa propre chaîne depuis le port ; les deux se rejoignent, parfois, au sommet de Gué-de-Sel.</p><p><strong>Sauter les braises.</strong> Qui saute au-dessus d'un feu du Long Jour scelle un vœu pour l'année. Qui tombe dedans le raconte longtemps.</p><p><strong>Quand.</strong> du 20 au 22 juin, le jour du solstice surtout, d'après la date du jour (le MJ IA pose la carte de la fête au chat et peut y faire allusion). Hors saison, le MJ peut forcer la fête dans les réglages du MJ IA, « Fête de saison ».</p><p><strong>Réputation.</strong> En plus des contrats, une fois par fête et par personnage (voir le @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.uIWkSgn7SjyOj8nd]{Guide de la réputation}, plafond de 10 points par jour) :<br>- <strong>+2</strong> auprès de : Horde (Le Carrefour), pour la torche de la Chaîne des feux portée d'une colline à la suivante pour le Carrefour.<br>- <strong>+2</strong> auprès de : Alliance (Theramore), pour la torche de la Chaîne des feux portée pour Theramore.<br>- <strong>+1</strong> auprès de : Kirin Tor, pour une aide donnée aux mages qui préparent les lumières du port de Theramore.</p><p><strong>Objets de la fête</strong>, en vente chez les marchands des trois villes tant qu'elle dure : @UUID[Compendium.lakour-warcraft.objets.Item.cmzugqT3XLvcSc0x]{Tambourin du Long Jour}, @UUID[Compendium.lakour-warcraft.objets.Item.W8GJ32evgwLcCHfF]{Fusée gobeline du Long Jour}, @UUID[Compendium.lakour-warcraft.objets.Item.6iGuNvvhR1ChaY5O]{Infusion de fleur-de-braise}.</p><p><strong>Contrats et tables</strong> : @UUID[Compendium.lakour-warcraft.tables.RollTable.Dc0oNoBlthbgd1JP]{Contrats de fête — Les Tambours du Long Jour}. Le MJ IA ajoute un contrat de fête aux trois affiches du jour.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375309,
+        "modifiedTime": 1793703375312,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!Cqt79a5l7VnYzFjY.DMBkppMEhBJ0BeDe"
+    },
+    {
+      "_id": "qmlINgfBuiY7JePU",
+      "name": "Ambiance",
+      "type": "text",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Au Carrefour.</strong> Tambours, chants, danses autour du grand feu ; les coureurs de la Chaîne s'échauffent en buvant de l'infusion de fleur-de-braise. On parie sur qui, de la Horde ou de l'Alliance, aura allumé le plus de collines à minuit.</p><p><strong>À Theramore.</strong> Le Guet organise un concours de fifres et de luths sur les quais ; le vainqueur gagne un tonneau de bière et le droit de jouer sous l'arche du port toute l'année. Les mages de la tour préparent des lumières sur l'eau, qui ne marchent pas toujours.</p><p><strong>À Cabestan.</strong> Le Cartel tire des fusées au-dessus de la baie, à la nuit noire. Grizzla Tordeboulon vend les meilleures places sur les toits ; les fusées ratées tombent souvent dans les voiles des navires.</p><p><strong>Dans les kraals.</strong> Les hurans craignent ces feux, qui annoncent pour eux les chasseurs. Certaines années, les géomanciens de Ronceroc tentent d'étouffer ceux des collines voisines du kraal.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375310,
+        "modifiedTime": 1793703375313,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!Cqt79a5l7VnYzFjY.qmlINgfBuiY7JePU"
+    },
+    {
+      "_id": "DVu0oKZLQz6UnqMM",
+      "name": "Accroches",
+      "type": "text",
+      "sort": 300,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<ul><li><strong>La course des deux chaînes.</strong> La chaîne de la Horde et celle de l'Alliance doivent se rejoindre au sommet de Gué-de-Sel, et @UUID[Compendium.lakour-warcraft.bestiaire.Actor.23SL00ydcEvtCQsg]{Garrok Brise-Dent} et @UUID[Compendium.lakour-warcraft.bestiaire.Actor.TDY7YqkoJZZKJsHp]{Corwen Haldis} ont parié gros. Un saboteur mouille les torches ; [[/check skill=inv dc=13]]{Investigation DD 13} pour le trouver. Faire arriver les deux flammes ensemble rapporte +2 auprès des deux factions.</li><li><strong>La fusée perdue.</strong> Une caisse de fusées du Cartel a disparu ; on la retrouve chez un @UUID[Compendium.lakour-warcraft.bestiaire.Actor.jeU8rFouecAiQFVO]{cultiste de la Lame ardente} qui veut les tirer sur le feu du Carrefour, plein de monde. [[/save ability=dex dc=12]]{sauvegarde de Dextérité DD 12} pour qui se trouve près de la caisse quand elle prend feu.</li><li><strong>Le vœu de Vexxa.</strong> @UUID[Compendium.lakour-warcraft.bestiaire.Actor.2DZv3K0IpC4pN4q4]{Vexxa la Rieuse} a juré de sauter le feu du Carrefour devant toute la Horde, puis de disparaître avec la torche de la Chaîne. Le groupe l'apprend par une rumeur ; à lui de choisir où l'attendre.</li><li><strong>Le concours de Theramore.</strong> Un barde de Theramore cherche des musiciens pour le concours du Guet ; [[/check skill=prf dc=14]]{Représentation DD 14} pour le gagner. Le prix (le tonneau, la place sous l'arche et un @UUID[Compendium.lakour-warcraft.objets.Item.cmzugqT3XLvcSc0x]{tambourin du Long Jour}) vaut surtout l'amitié du Guet : +2 auprès de l'Alliance.</li><li><strong>Les feux étouffés.</strong> Les feux de trois collines s'éteignent d'un coup, recouverts de terre : voir le contrat « Les feux qui s'éteignent ». @UUID[Compendium.lakour-warcraft.bestiaire.Actor.RHkKrGS9o7CtT0pA]{Grommel Défense-Grise}, s'il a survécu aux Puits de cendre, en sait plus qu'il ne le dit.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375311,
+        "modifiedTime": 1793703375314,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!Cqt79a5l7VnYzFjY.DVu0oKZLQz6UnqMM"
+    }
+  ],
+  "sort": 0,
+  "_key": "!journal!Cqt79a5l7VnYzFjY"
+}

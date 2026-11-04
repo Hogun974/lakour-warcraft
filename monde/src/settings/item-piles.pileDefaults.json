@@ -1,0 +1,18 @@
+{
+  "key": "item-piles.pileDefaults",
+  "user": null,
+  "value": "{\"merchantColumns\":[{\"label\":\"<i class=\\\"fa-solid fa-shield\\\"></i>\",\"path\":\"system.equipped\",\"formatting\":\"{#}\",\"buying\":false,\"selling\":true,\"mapping\":{\"true\":\"✔\",\"false\":\"\"}},{\"label\":\"Rarity\",\"path\":\"system.rarity\",\"formatting\":\"{#}\",\"buying\":true,\"selling\":true,\"condition\":{\"path\":\"system.identified\",\"value\":false,\"placeholder\":\"DND5E.Unknown\"},\"mapping\":{\"common\":\"DND5E.ItemRarityCommon\",\"uncommon\":\"DND5E.ItemRarityUncommon\",\"rare\":\"DND5E.ItemRarityRare\",\"veryRare\":\"DND5E.ItemRarityVeryRare\",\"legendary\":\"DND5E.ItemRarityLegendary\",\"artifact\":\"DND5E.ItemRarityArtifact\"}}]}",
+  "_id": "x3NxVYNXAlkkvPOA",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793591653964,
+    "modifiedTime": 1793591653964,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!x3NxVYNXAlkkvPOA"
+}

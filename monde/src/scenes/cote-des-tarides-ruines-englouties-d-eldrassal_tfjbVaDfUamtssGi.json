@@ -1,0 +1,2610 @@
+{
+  "name": "Côte des Tarides — Ruines englouties d'Eldrassal",
+  "navName": "Côte des Tarides — Ruines englouties d'Eldrassal",
+  "navigation": false,
+  "width": 2800,
+  "height": 2200,
+  "padding": 0,
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "distance": 1.5,
+    "units": "m",
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0.2
+  },
+  "tokenVision": true,
+  "environment": {
+    "darknessLevel": 0.85,
+    "globalLight": {
+      "enabled": false,
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "luminosity": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "darknessLock": false,
+    "cycle": true,
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "levels": [
+    {
+      "_id": "defaultLevel0000",
+      "name": "Niveau principal",
+      "elevation": {
+        "bottom": 0,
+        "top": null
+      },
+      "background": {
+        "color": "#18181b",
+        "src": "modules/lakour-warcraft/assets/cartes/3d/ruines-eldrassal.svg",
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "flags": {},
+      "foreground": {
+        "src": null,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "fog": {
+        "src": null
+      },
+      "textures": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0
+      },
+      "visibility": {
+        "levels": []
+      },
+      "sort": 0,
+      "_key": "!scenes.levels!tfjbVaDfUamtssGi.defaultLevel0000"
+    }
+  ],
+  "initialLevel": "defaultLevel0000",
+  "walls": [
+    {
+      "c": [
+        0,
+        0,
+        2800,
+        0
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "PMiNSmQNRKkj7qS8",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.PMiNSmQNRKkj7qS8"
+    },
+    {
+      "c": [
+        600,
+        400,
+        800,
+        400
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "7plOHSMwGayt29sA",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.7plOHSMwGayt29sA"
+    },
+    {
+      "c": [
+        1100,
+        400,
+        2800,
+        400
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "F6D83XAiFD0WY47h",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.F6D83XAiFD0WY47h"
+    },
+    {
+      "c": [
+        1400,
+        900,
+        1700,
+        900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "s3d8hjqG8HlfDE6x",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.s3d8hjqG8HlfDE6x"
+    },
+    {
+      "c": [
+        1900,
+        900,
+        2200,
+        900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "B2QKZS8fpdtYrHWj",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.B2QKZS8fpdtYrHWj"
+    },
+    {
+      "c": [
+        600,
+        1200,
+        900,
+        1200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "cnSagItExHLnKNY7",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.cnSagItExHLnKNY7"
+    },
+    {
+      "c": [
+        1100,
+        1200,
+        1400,
+        1200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "Lcv6MTt3Skj6pmtZ",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.Lcv6MTt3Skj6pmtZ"
+    },
+    {
+      "c": [
+        1400,
+        1600,
+        1700,
+        1600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "yVMGcFAzW3DGNLB8",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.yVMGcFAzW3DGNLB8"
+    },
+    {
+      "c": [
+        1800,
+        1600,
+        2400,
+        1600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "SAs1yz8PGFO421QF",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.SAs1yz8PGFO421QF"
+    },
+    {
+      "c": [
+        2500,
+        1600,
+        2800,
+        1600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "M5AcLkHmCEwYuGHH",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.M5AcLkHmCEwYuGHH"
+    },
+    {
+      "c": [
+        0,
+        2200,
+        2800,
+        2200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "bj0Wowhv6KIpbFNz",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.bj0Wowhv6KIpbFNz"
+    },
+    {
+      "c": [
+        0,
+        0,
+        0,
+        2200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "PXTRdlpS4gRHz0Yi",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.PXTRdlpS4gRHz0Yi"
+    },
+    {
+      "c": [
+        600,
+        400,
+        600,
+        600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "oIKlHCur5gQTUTta",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.oIKlHCur5gQTUTta"
+    },
+    {
+      "c": [
+        600,
+        900,
+        600,
+        1500
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "0szmCgoUM2lvn6Qc",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.0szmCgoUM2lvn6Qc"
+    },
+    {
+      "c": [
+        600,
+        1800,
+        600,
+        2200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "V6I8yNjQmmHbqeOc",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.V6I8yNjQmmHbqeOc"
+    },
+    {
+      "c": [
+        1400,
+        400,
+        1400,
+        500
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "qvNb0arG0QRKsvij",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.qvNb0arG0QRKsvij"
+    },
+    {
+      "c": [
+        1400,
+        700,
+        1400,
+        1800
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "3fCaluIRexwZijvk",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.3fCaluIRexwZijvk"
+    },
+    {
+      "c": [
+        1400,
+        1900,
+        1400,
+        2200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "xGvcqsqKa0ZXYxI2",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.xGvcqsqKa0ZXYxI2"
+    },
+    {
+      "c": [
+        2200,
+        400,
+        2200,
+        600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "Gfz33YxiQYz2tS62",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.Gfz33YxiQYz2tS62"
+    },
+    {
+      "c": [
+        2200,
+        700,
+        2200,
+        1600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "gAuZFN4ihmpyzHeD",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.gAuZFN4ihmpyzHeD"
+    },
+    {
+      "c": [
+        2800,
+        0,
+        2800,
+        2200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "ugie3zq4N6mMXckZ",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.ugie3zq4N6mMXckZ"
+    },
+    {
+      "c": [
+        1700,
+        900,
+        1800,
+        900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 1,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "yYbC84IQDaNWFRMx",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.yYbC84IQDaNWFRMx"
+    },
+    {
+      "c": [
+        1800,
+        900,
+        1900,
+        900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 1,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "NyZHTo0rlWBBMSIn",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.NyZHTo0rlWBBMSIn"
+    },
+    {
+      "c": [
+        1700,
+        1600,
+        1800,
+        1600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 2,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "8ZRZndvWSjHWbDoH",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.8ZRZndvWSjHWbDoH"
+    },
+    {
+      "c": [
+        1400,
+        1800,
+        1400,
+        1900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 1,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "WSIKRJ3TG9EmB50O",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.WSIKRJ3TG9EmB50O"
+    },
+    {
+      "c": [
+        2200,
+        600,
+        2200,
+        700
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 1,
+      "ds": 2,
+      "dir": 0,
+      "levels": [],
+      "_id": "SxPD3wxcdfLuN8GZ",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!tfjbVaDfUamtssGi.SxPD3wxcdfLuN8GZ"
+    }
+  ],
+  "drawings": [
+    {
+      "x": 0,
+      "y": 0,
+      "shape": {
+        "type": "r",
+        "width": 600,
+        "height": 2200,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Plage",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1000,
+      "_id": "2QDLnvsJrbSSvoVV",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!tfjbVaDfUamtssGi.2QDLnvsJrbSSvoVV"
+    },
+    {
+      "x": 600,
+      "y": 0,
+      "shape": {
+        "type": "r",
+        "width": 2200,
+        "height": 400,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Lagon",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1001,
+      "_id": "TyEtrtGqu7gLElj2",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!tfjbVaDfUamtssGi.TyEtrtGqu7gLElj2"
+    },
+    {
+      "x": 600,
+      "y": 400,
+      "shape": {
+        "type": "r",
+        "width": 800,
+        "height": 800,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Parvis effondré",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1002,
+      "_id": "OPHGIgWOOK5Ha7sk",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!tfjbVaDfUamtssGi.OPHGIgWOOK5Ha7sk"
+    },
+    {
+      "x": 1400,
+      "y": 400,
+      "shape": {
+        "type": "r",
+        "width": 800,
+        "height": 500,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Galerie des statues",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1003,
+      "_id": "ZpkXDmWzMozSnerj",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!tfjbVaDfUamtssGi.ZpkXDmWzMozSnerj"
+    },
+    {
+      "x": 1400,
+      "y": 900,
+      "shape": {
+        "type": "r",
+        "width": 800,
+        "height": 700,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Salle du bassin lunaire",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1004,
+      "_id": "FLG2qksE04Ddxjn8",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!tfjbVaDfUamtssGi.FLG2qksE04Ddxjn8"
+    },
+    {
+      "x": 2200,
+      "y": 400,
+      "shape": {
+        "type": "r",
+        "width": 600,
+        "height": 1200,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Bibliothèque engloutie",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1005,
+      "_id": "7rFD5xJ5Q5KYmF7d",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!tfjbVaDfUamtssGi.7rFD5xJ5Q5KYmF7d"
+    },
+    {
+      "x": 600,
+      "y": 1200,
+      "shape": {
+        "type": "r",
+        "width": 800,
+        "height": 1000,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Camp des nagas",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1006,
+      "_id": "hGcIMNeI2u5ScGvQ",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!tfjbVaDfUamtssGi.hGcIMNeI2u5ScGvQ"
+    },
+    {
+      "x": 1400,
+      "y": 1600,
+      "shape": {
+        "type": "r",
+        "width": 1400,
+        "height": 600,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Crypte des Bien-Nés",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1007,
+      "_id": "RxG5kVIp6kv87hxo",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!tfjbVaDfUamtssGi.RxG5kVIp6kv87hxo"
+    }
+  ],
+  "lights": [
+    {
+      "x": 350,
+      "y": 1050,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 3,
+        "bright": 1.5,
+        "color": "#ffcc88",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "angle": 360,
+        "attenuation": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "_id": "0CIOoJ7FsgDe5kWN",
+      "flags": {},
+      "rotation": 0,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "_key": "!scenes.lights!tfjbVaDfUamtssGi.0CIOoJ7FsgDe5kWN"
+    },
+    {
+      "x": 1750,
+      "y": 650,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 1.5,
+        "bright": 1,
+        "color": "#aaccff",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "angle": 360,
+        "attenuation": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "_id": "H4LUQKAq9FPPkuMX",
+      "flags": {},
+      "rotation": 0,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "_key": "!scenes.lights!tfjbVaDfUamtssGi.H4LUQKAq9FPPkuMX"
+    },
+    {
+      "x": 1750,
+      "y": 1250,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 4.5,
+        "bright": 2.5,
+        "color": "#88bbff",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "angle": 360,
+        "attenuation": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "_id": "0Wst9JCPx159z2jb",
+      "flags": {},
+      "rotation": 0,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "_key": "!scenes.lights!tfjbVaDfUamtssGi.0Wst9JCPx159z2jb"
+    },
+    {
+      "x": 950,
+      "y": 1650,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 3,
+        "bright": 1.5,
+        "color": "#55ddcc",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "angle": 360,
+        "attenuation": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "_id": "iUn9T8dHEKdTAnLI",
+      "flags": {},
+      "rotation": 0,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "_key": "!scenes.lights!tfjbVaDfUamtssGi.iUn9T8dHEKdTAnLI"
+    },
+    {
+      "x": 2450,
+      "y": 1850,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 4.5,
+        "bright": 2.5,
+        "color": "#66ff44",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "angle": 360,
+        "attenuation": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "_id": "D1n9rWooma23MAXy",
+      "flags": {},
+      "rotation": 0,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "_key": "!scenes.lights!tfjbVaDfUamtssGi.D1n9rWooma23MAXy"
+    },
+    {
+      "x": 2450,
+      "y": 950,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 1.5,
+        "bright": 1,
+        "color": "#bb99ff",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "angle": 360,
+        "attenuation": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "_id": "kI1XoHk28KIMGz8T",
+      "flags": {},
+      "rotation": 0,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "_key": "!scenes.lights!tfjbVaDfUamtssGi.kI1XoHk28KIMGz8T"
+    }
+  ],
+  "tokens": [],
+  "notes": [
+    {
+      "entryId": "l9Z35U9aNrBezqfv",
+      "pageId": "xMnCwTBpeK6YQGsc",
+      "x": 350,
+      "y": 450,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/anchor.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "text": "Scaphandres de Fort-Rivet (indice)",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "HFuJy8UYyu3EKrYW",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "author": null,
+      "_key": "!scenes.notes!tfjbVaDfUamtssGi.HFuJy8UYyu3EKrYW"
+    },
+    {
+      "entryId": "l9Z35U9aNrBezqfv",
+      "pageId": "xMnCwTBpeK6YQGsc",
+      "x": 2050,
+      "y": 650,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/statue.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "text": "Inscription sous la statue (indice)",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "fnKHIJKELKKOWq9I",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "author": null,
+      "_key": "!scenes.notes!tfjbVaDfUamtssGi.fnKHIJKELKKOWq9I"
+    },
+    {
+      "entryId": "l9Z35U9aNrBezqfv",
+      "pageId": "xMnCwTBpeK6YQGsc",
+      "x": 2450,
+      "y": 1050,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/eye.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "text": "Pupitre de cristal (indice)",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "DFnCpxLRlGQN4CqC",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "author": null,
+      "_key": "!scenes.notes!tfjbVaDfUamtssGi.DFnCpxLRlGQN4CqC"
+    },
+    {
+      "entryId": "l9Z35U9aNrBezqfv",
+      "pageId": "xMnCwTBpeK6YQGsc",
+      "x": 1850,
+      "y": 1450,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/aura.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "text": "Bassin lunaire — le réveiller",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "EkzgyVHjFUrgoNP2",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "author": null,
+      "_key": "!scenes.notes!tfjbVaDfUamtssGi.EkzgyVHjFUrgoNP2"
+    },
+    {
+      "entryId": "l9Z35U9aNrBezqfv",
+      "pageId": "xMnCwTBpeK6YQGsc",
+      "x": 1750,
+      "y": 1550,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/door-secret-outline.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "text": "Passage secret du bassin",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "6c8utF9mKfcFo1Sz",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "author": null,
+      "_key": "!scenes.notes!tfjbVaDfUamtssGi.6c8utF9mKfcFo1Sz"
+    },
+    {
+      "entryId": "l9Z35U9aNrBezqfv",
+      "pageId": "xMnCwTBpeK6YQGsc",
+      "x": 950,
+      "y": 2050,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/padlock.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "text": "Aelyra Ombrefeuille, captive",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "aEf8euso3OafB5ha",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "author": null,
+      "_key": "!scenes.notes!tfjbVaDfUamtssGi.aEf8euso3OafB5ha"
+    },
+    {
+      "entryId": "l9Z35U9aNrBezqfv",
+      "pageId": "xMnCwTBpeK6YQGsc",
+      "x": 2350,
+      "y": 1850,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/fire.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "text": "Autel de la Braise — Sss'thera et Ezzavel",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "VYlZWn9Nhdfit99q",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "author": null,
+      "_key": "!scenes.notes!tfjbVaDfUamtssGi.VYlZWn9Nhdfit99q"
+    }
+  ],
+  "sounds": [
+    {
+      "name": "feu — Feu de camp",
+      "x": 350,
+      "y": 1050,
+      "elevation": 0,
+      "levels": [],
+      "radius": 4.5,
+      "path": "modules/lakour-mj-ia/assets/sons/feu.wav",
+      "repeat": true,
+      "volume": 0.35,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "6ALPCdGAUJ3q7oIT",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "effects": {
+        "base": {
+          "intensity": 5
+        },
+        "muffled": {
+          "intensity": 5
+        }
+      },
+      "_key": "!scenes.sounds!tfjbVaDfUamtssGi.6ALPCdGAUJ3q7oIT"
+    },
+    {
+      "name": "mer — Lagon",
+      "x": 1700,
+      "y": 200,
+      "elevation": 0,
+      "levels": [],
+      "radius": 18,
+      "path": "modules/lakour-mj-ia/assets/sons/mer.wav",
+      "repeat": true,
+      "volume": 0.3,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "psPnQJyDK2QjWtqz",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "effects": {
+        "base": {
+          "intensity": 5
+        },
+        "muffled": {
+          "intensity": 5
+        }
+      },
+      "_key": "!scenes.sounds!tfjbVaDfUamtssGi.psPnQJyDK2QjWtqz"
+    },
+    {
+      "name": "mer — Camp des nagas",
+      "x": 1000,
+      "y": 1700,
+      "elevation": 0,
+      "levels": [],
+      "radius": 10.5,
+      "path": "modules/lakour-mj-ia/assets/sons/mer.wav",
+      "repeat": true,
+      "volume": 0.3,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "EDGo9rsocmMKtSuA",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "effects": {
+        "base": {
+          "intensity": 5
+        },
+        "muffled": {
+          "intensity": 5
+        }
+      },
+      "_key": "!scenes.sounds!tfjbVaDfUamtssGi.EDGo9rsocmMKtSuA"
+    },
+    {
+      "name": "grotte — Crypte des Bien-Nés",
+      "x": 2100,
+      "y": 1900,
+      "elevation": 0,
+      "levels": [],
+      "radius": 12,
+      "path": "modules/lakour-mj-ia/assets/sons/grotte.wav",
+      "repeat": true,
+      "volume": 0.25,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "L8XCmaoThmB9BBMg",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "effects": {
+        "base": {
+          "intensity": 5
+        },
+        "muffled": {
+          "intensity": 5
+        }
+      },
+      "_key": "!scenes.sounds!tfjbVaDfUamtssGi.L8XCmaoThmB9BBMg"
+    }
+  ],
+  "regions": [
+    {
+      "_id": "WUprUTi72FaU5ds2",
+      "name": "Galerie des statues",
+      "color": "#4f8cc9",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1400,
+          "y": 400,
+          "width": 800,
+          "height": 500,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "X9V1kARPu56fdoRr",
+          "name": "Galerie des statues",
+          "disabled": false,
+          "flags": {},
+          "type": "displayScrollingText",
+          "system": {
+            "events": [
+              "tokenAnimateIn"
+            ],
+            "text": "Des statues sans visage. Sous chacune, une ligne d'écriture elfique que le sel a presque effacée.",
+            "color": "#ffffff",
+            "visibility": 2,
+            "once": true
+          },
+          "_stats": {
+            "coreVersion": "14.369",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.6",
+            "createdTime": 1793703377274,
+            "modifiedTime": 1793703377274,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!scenes.regions.behaviors!tfjbVaDfUamtssGi.WUprUTi72FaU5ds2.X9V1kARPu56fdoRr"
+        }
+      ],
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "_shapeConstraints": null,
+      "_key": "!scenes.regions!tfjbVaDfUamtssGi.WUprUTi72FaU5ds2"
+    },
+    {
+      "_id": "4EudXtAQjCf3kHre",
+      "name": "Salle du bassin lunaire",
+      "color": "#4f8cc9",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1400,
+          "y": 900,
+          "width": 800,
+          "height": 700,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "KrS9sBx74aJi7fjE",
+          "name": "Salle du bassin lunaire",
+          "disabled": false,
+          "flags": {},
+          "type": "displayScrollingText",
+          "system": {
+            "events": [
+              "tokenAnimateIn"
+            ],
+            "text": "Une eau grise et immobile, qui ne renvoie ni vos visages ni vos torches.",
+            "color": "#ffffff",
+            "visibility": 2,
+            "once": true
+          },
+          "_stats": {
+            "coreVersion": "14.369",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.6",
+            "createdTime": 1793703377276,
+            "modifiedTime": 1793703377276,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!scenes.regions.behaviors!tfjbVaDfUamtssGi.4EudXtAQjCf3kHre.KrS9sBx74aJi7fjE"
+        }
+      ],
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "_shapeConstraints": null,
+      "_key": "!scenes.regions!tfjbVaDfUamtssGi.4EudXtAQjCf3kHre"
+    },
+    {
+      "_id": "VlvkKFeh7L8CFeei",
+      "name": "Camp des nagas",
+      "color": "#4f8cc9",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 600,
+          "y": 1200,
+          "width": 800,
+          "height": 1000,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "1dJwLYKafefDDHfF",
+          "name": "Camp des nagas",
+          "disabled": false,
+          "flags": {},
+          "type": "displayScrollingText",
+          "system": {
+            "events": [
+              "tokenAnimateIn"
+            ],
+            "text": "Un chant glisse sur l'eau, trop pur pour une gorge humaine. Les murlocs, eux, se taisent.",
+            "color": "#ffffff",
+            "visibility": 2,
+            "once": true
+          },
+          "_stats": {
+            "coreVersion": "14.369",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.6",
+            "createdTime": 1793703377278,
+            "modifiedTime": 1793703377278,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!scenes.regions.behaviors!tfjbVaDfUamtssGi.VlvkKFeh7L8CFeei.1dJwLYKafefDDHfF"
+        }
+      ],
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "_shapeConstraints": null,
+      "_key": "!scenes.regions!tfjbVaDfUamtssGi.VlvkKFeh7L8CFeei"
+    },
+    {
+      "_id": "2rNMtaXzT7ihT6vQ",
+      "name": "Ombre de la crypte",
+      "color": "#303050",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1400,
+          "y": 1600,
+          "width": 1400,
+          "height": 600,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "KM2i1SZNxi8r2HMF",
+          "name": "Ombre de la crypte",
+          "disabled": false,
+          "flags": {},
+          "type": "adjustDarknessLevel",
+          "system": {
+            "mode": 0,
+            "modifier": 1
+          },
+          "_stats": {
+            "coreVersion": "14.369",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.6",
+            "createdTime": 1793703377279,
+            "modifiedTime": 1793703377279,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!scenes.regions.behaviors!tfjbVaDfUamtssGi.2rNMtaXzT7ihT6vQ.KM2i1SZNxi8r2HMF"
+        }
+      ],
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "_shapeConstraints": null,
+      "_key": "!scenes.regions!tfjbVaDfUamtssGi.2rNMtaXzT7ihT6vQ"
+    },
+    {
+      "_id": "GgmFaT5wG6hIaxCD",
+      "name": "Crypte des Bien-Nés",
+      "color": "#e0a030",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1400,
+          "y": 1600,
+          "width": 1400,
+          "height": 600,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "2wZLVFDwQ0KGeU9R",
+          "name": "Crypte des Bien-Nés",
+          "disabled": false,
+          "flags": {},
+          "type": "pauseGame",
+          "system": {
+            "once": true
+          },
+          "_stats": {
+            "coreVersion": "14.369",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.6",
+            "createdTime": 1793703377279,
+            "modifiedTime": 1793703377279,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!scenes.regions.behaviors!tfjbVaDfUamtssGi.GgmFaT5wG6hIaxCD.2wZLVFDwQ0KGeU9R"
+        }
+      ],
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "_shapeConstraints": null,
+      "_key": "!scenes.regions!tfjbVaDfUamtssGi.GgmFaT5wG6hIaxCD"
+    }
+  ],
+  "tiles": [],
+  "folder": "ITUIPus5l3LRunpp",
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "ruines-eldrassal",
+      "description": "Chapitre 2 : les ruines à demi noyées d'une cité des Bien-Nés, le bassin lunaire, la bibliothèque engloutie, le camp des nagas et la crypte où dort la deuxième Braise.",
+      "plan": {
+        "largeur": 28,
+        "hauteur": 22,
+        "lumiere": "nuit",
+        "pieces": [
+          {
+            "nom": "Plage",
+            "x": 0,
+            "y": 0,
+            "l": 6,
+            "h": 22,
+            "sol": "terre"
+          },
+          {
+            "nom": "Lagon",
+            "x": 6,
+            "y": 0,
+            "l": 22,
+            "h": 4,
+            "sol": "eau"
+          },
+          {
+            "nom": "Parvis effondré",
+            "x": 6,
+            "y": 4,
+            "l": 8,
+            "h": 8,
+            "sol": "pierre"
+          },
+          {
+            "nom": "Galerie des statues",
+            "x": 14,
+            "y": 4,
+            "l": 8,
+            "h": 5,
+            "sol": "pierre"
+          },
+          {
+            "nom": "Salle du bassin lunaire",
+            "x": 14,
+            "y": 9,
+            "l": 8,
+            "h": 7,
+            "sol": "sanctuaire"
+          },
+          {
+            "nom": "Bibliothèque engloutie",
+            "x": 22,
+            "y": 4,
+            "l": 6,
+            "h": 12,
+            "sol": "eau"
+          },
+          {
+            "nom": "Camp des nagas",
+            "x": 6,
+            "y": 12,
+            "l": 8,
+            "h": 10,
+            "sol": "eau"
+          },
+          {
+            "nom": "Crypte des Bien-Nés",
+            "x": 14,
+            "y": 16,
+            "l": 14,
+            "h": 6,
+            "sol": "cendre"
+          }
+        ],
+        "ouvertures": [
+          {
+            "x": 6,
+            "y": 0,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 6,
+            "y": 1,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 6,
+            "y": 2,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 6,
+            "y": 3,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 6,
+            "y": 6,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 6,
+            "y": 7,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 6,
+            "y": 8,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 6,
+            "y": 15,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 6,
+            "y": 16,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 6,
+            "y": 17,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 8,
+            "y": 4,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 10,
+            "y": 4,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 13,
+            "y": 5,
+            "cote": "est",
+            "type": "passage"
+          },
+          {
+            "x": 13,
+            "y": 6,
+            "cote": "est",
+            "type": "passage"
+          },
+          {
+            "x": 9,
+            "y": 11,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 10,
+            "y": 11,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 17,
+            "y": 8,
+            "cote": "sud",
+            "type": "porte"
+          },
+          {
+            "x": 18,
+            "y": 8,
+            "cote": "sud",
+            "type": "porte"
+          },
+          {
+            "x": 21,
+            "y": 6,
+            "cote": "est",
+            "type": "verrouillee"
+          },
+          {
+            "x": 17,
+            "y": 15,
+            "cote": "sud",
+            "type": "secrete"
+          },
+          {
+            "x": 13,
+            "y": 18,
+            "cote": "est",
+            "type": "porte"
+          },
+          {
+            "x": 24,
+            "y": 15,
+            "cote": "sud",
+            "type": "passage"
+          }
+        ],
+        "lumieres": [
+          {
+            "x": 3,
+            "y": 10,
+            "rayon": 2,
+            "couleur": "#ffcc88"
+          },
+          {
+            "x": 17,
+            "y": 6,
+            "rayon": 1,
+            "couleur": "#aaccff"
+          },
+          {
+            "x": 17,
+            "y": 12,
+            "rayon": 3,
+            "couleur": "#88bbff"
+          },
+          {
+            "x": 9,
+            "y": 16,
+            "rayon": 2,
+            "couleur": "#55ddcc"
+          },
+          {
+            "x": 24,
+            "y": 18,
+            "rayon": 3,
+            "couleur": "#66ff44"
+          },
+          {
+            "x": 24,
+            "y": 9,
+            "rayon": 1,
+            "couleur": "#bb99ff"
+          }
+        ],
+        "elements": [
+          {
+            "nom": "Barque échouée",
+            "x": 1,
+            "y": 3,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Feu de camp",
+            "x": 3,
+            "y": 10,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Rochers",
+            "x": 2,
+            "y": 18,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Colonne immergée",
+            "x": 12,
+            "y": 1,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Colonne immergée",
+            "x": 20,
+            "y": 2,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Statue renversée",
+            "x": 8,
+            "y": 8,
+            "l": 3,
+            "h": 1
+          },
+          {
+            "nom": "Éboulis",
+            "x": 7,
+            "y": 10,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Statue d'une prêtresse",
+            "x": 15,
+            "y": 5,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Statue d'un mage",
+            "x": 20,
+            "y": 5,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Bassin lunaire",
+            "x": 16,
+            "y": 11,
+            "l": 4,
+            "h": 3
+          },
+          {
+            "nom": "Rayonnages effondrés",
+            "x": 23,
+            "y": 5,
+            "l": 4,
+            "h": 1
+          },
+          {
+            "nom": "Pupitre de cristal",
+            "x": 24,
+            "y": 9,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Rayonnages effondrés",
+            "x": 23,
+            "y": 13,
+            "l": 4,
+            "h": 1
+          },
+          {
+            "nom": "Hutte de corail",
+            "x": 7,
+            "y": 13,
+            "l": 3,
+            "h": 2
+          },
+          {
+            "nom": "Cage de corail",
+            "x": 7,
+            "y": 19,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Trône de corail",
+            "x": 11,
+            "y": 19,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Sarcophage",
+            "x": 16,
+            "y": 18,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Sarcophage",
+            "x": 19,
+            "y": 18,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Autel de la Braise",
+            "x": 24,
+            "y": 17,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Puits de fouille",
+            "x": 21,
+            "y": 20,
+            "l": 2,
+            "h": 1
+          }
+        ],
+        "zones": [
+          {
+            "nom": "Galerie des statues",
+            "x": 14,
+            "y": 4,
+            "l": 8,
+            "h": 5,
+            "type": "texte",
+            "texte": "Des statues sans visage. Sous chacune, une ligne d'écriture elfique que le sel a presque effacée."
+          },
+          {
+            "nom": "Salle du bassin lunaire",
+            "x": 14,
+            "y": 9,
+            "l": 8,
+            "h": 7,
+            "type": "texte",
+            "texte": "Une eau grise et immobile, qui ne renvoie ni vos visages ni vos torches."
+          },
+          {
+            "nom": "Camp des nagas",
+            "x": 6,
+            "y": 12,
+            "l": 8,
+            "h": 10,
+            "type": "texte",
+            "texte": "Un chant glisse sur l'eau, trop pur pour une gorge humaine. Les murlocs, eux, se taisent."
+          },
+          {
+            "nom": "Ombre de la crypte",
+            "x": 14,
+            "y": 16,
+            "l": 14,
+            "h": 6,
+            "type": "obscurite",
+            "obscurite": 1
+          },
+          {
+            "nom": "Crypte des Bien-Nés",
+            "x": 14,
+            "y": 16,
+            "l": 14,
+            "h": 6,
+            "type": "pause"
+          }
+        ],
+        "notes": [
+          {
+            "x": 3,
+            "y": 4,
+            "texte": "Scaphandres de Fort-Rivet (indice)",
+            "icone": "icons/svg/anchor.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "xMnCwTBpeK6YQGsc"
+          },
+          {
+            "x": 20,
+            "y": 6,
+            "texte": "Inscription sous la statue (indice)",
+            "icone": "icons/svg/statue.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "xMnCwTBpeK6YQGsc"
+          },
+          {
+            "x": 24,
+            "y": 10,
+            "texte": "Pupitre de cristal (indice)",
+            "icone": "icons/svg/eye.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "xMnCwTBpeK6YQGsc"
+          },
+          {
+            "x": 18,
+            "y": 14,
+            "texte": "Bassin lunaire — le réveiller",
+            "icone": "icons/svg/aura.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "xMnCwTBpeK6YQGsc"
+          },
+          {
+            "x": 17,
+            "y": 15,
+            "texte": "Passage secret du bassin",
+            "icone": "icons/svg/door-secret-outline.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "xMnCwTBpeK6YQGsc"
+          },
+          {
+            "x": 9,
+            "y": 20,
+            "texte": "Aelyra Ombrefeuille, captive",
+            "icone": "icons/svg/padlock.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "xMnCwTBpeK6YQGsc"
+          },
+          {
+            "x": 23,
+            "y": 18,
+            "texte": "Autel de la Braise — Sss'thera et Ezzavel",
+            "icone": "icons/svg/fire.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "xMnCwTBpeK6YQGsc"
+          }
+        ]
+      },
+      "aventure": "Les Braises de la Légion",
+      "version": "0.10.0"
+    },
+    "fxmaster": {
+      "parameterRangeMigrationVersion": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793512298789,
+    "modifiedTime": 1793703377388,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.lakour-warcraft.scenes.Scene.G8Kf58ByEaYPKJug",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "thumb": null,
+  "shiftX": 0,
+  "shiftY": 0,
+  "initial": {
+    "x": null,
+    "y": null,
+    "scale": null
+  },
+  "fog": {
+    "mode": 1,
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    }
+  },
+  "transition": {
+    "type": null,
+    "duration": 1500,
+    "activeOnly": false
+  },
+  "playlist": null,
+  "playlistSound": null,
+  "journal": null,
+  "journalEntryPage": null,
+  "weather": "",
+  "ownership": {
+    "default": 0
+  },
+  "_id": "tfjbVaDfUamtssGi",
+  "active": false,
+  "navOrder": 0,
+  "sort": 0,
+  "_key": "!scenes!tfjbVaDfUamtssGi",
+  "templates": []
+}

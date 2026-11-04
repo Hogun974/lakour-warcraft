@@ -1,0 +1,145 @@
+{
+  "_id": "R7wogMFeFL5TSKjF",
+  "name": "Garnison de faction",
+  "folder": "wNtgGHYLJnHwTJwh",
+  "categories": [],
+  "ownership": {
+    "default": 2
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "garnison-de-faction",
+      "collection": "garnison",
+      "version": "0.10.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793688317971,
+    "modifiedTime": 1793703375623,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.lakour-warcraft.journaux.JournalEntry.R7wogMFeFL5TSKjF",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "pages": [
+    {
+      "_id": "EkyGEk5iPt7AtsvL",
+      "name": "La garnison",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Quand un groupe a assez servi une faction (en général au niveau 5, ou après le sommet de Gué-de-Sel), elle lui confie un <strong>avant-poste</strong> dans les Tarides : une tour de guet de la Horde, un fortin de l'Alliance ou un entrepôt du Cartel. C'est la <strong>garnison</strong> du groupe.</p><p><strong>Avec dnd5e.</strong> La garnison est un <strong>bastion</strong> au sens des règles de 2024 : chaque personnage de niveau 5 ou plus y possède des <strong>installations</strong> (onglet Bastion de sa fiche), qu'il fait glisser depuis le compendium des objets. Le MJ active les bastions dans les réglages du système (« Bastions »). Tous les <strong>7 jours de jeu</strong>, un <strong>tour de bastion</strong> a lieu : chaque installation exécute l'<strong>ordre</strong> qu'on lui a donné (fabriquer, récolter, recruter, commercer), et dnd5e en tient le compte.</p><p><strong>Combien d'installations.</strong> Deux au niveau 5, quatre au niveau 9, cinq au niveau 13, six au niveau 17 (règle de dnd5e). Une installation ne peut être choisie qu'à partir de son niveau.</p><p><strong>Ordres hebdomadaires sans les bastions de dnd5e.</strong> Si le MJ préfère ne pas les activer, chaque joueur donne chaque semaine de jeu un ordre à chacune de ses installations, et le MJ applique le résultat écrit dans la description de l'installation.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375610,
+        "modifiedTime": 1793703375612,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!R7wogMFeFL5TSKjF.EkyGEk5iPt7AtsvL"
+    },
+    {
+      "_id": "CnvnqqLQdg7JpL6B",
+      "name": "Installations",
+      "type": "text",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<ul><li>@UUID[Compendium.lakour-warcraft.objets.Item.zF4D30Ht2ACDel72]{Atelier gobelin} — niveau 5, ordre « fabriquer », 3 employé(s).</li><li>@UUID[Compendium.lakour-warcraft.objets.Item.6Mu3gjHZrmbM5Z8D]{Forge de garnison} — niveau 5, ordre « fabriquer », 2 employé(s).</li><li>@UUID[Compendium.lakour-warcraft.objets.Item.FqMDCb6K2DfNZqvq]{Jardin d'herboriste} — niveau 9, ordre « récolter », 1 employé(s).</li><li>@UUID[Compendium.lakour-warcraft.objets.Item.fWTUIaBzX7TFdcjM]{Enclos à montures} — niveau 9, ordre « commercer », 1 employé(s).</li><li>@UUID[Compendium.lakour-warcraft.objets.Item.NkGBhoNq44yd2JSU]{Table des missions des suivants} — niveau 5, ordre « recruter », 1 employé(s).</li><li>@UUID[Compendium.lakour-warcraft.objets.Item.WLGtfE9ohGrByhkS]{Autel des esprits} — niveau 5, ordre « fabriquer », 1 employé(s).</li></ul><p>Les ordres de fabrication ne suivent pas les recettes d'artisanat : dnd5e en calcule le coût et le délai d'après l'objet choisi, sans test. La table des missions utilise @UUID[Compendium.lakour-warcraft.tables.RollTable.FzbACQsPtmIARtiR]{Missions des suivants}.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375611,
+        "modifiedTime": 1793703375613,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!R7wogMFeFL5TSKjF.CnvnqqLQdg7JpL6B"
+    },
+    {
+      "_id": "4Ij1XPxK7msAJUUl",
+      "name": "Faction et réputation",
+      "type": "text",
+      "sort": 300,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>La garnison porte la bannière d'une faction : ses employés en viennent, et elle en reçoit des visites.</p><ul><li>Une garnison dont le groupe est <strong>Honoré</strong> ou mieux auprès de sa faction reçoit chaque mois un convoi gratuit (2d6 composants communs ou 50 po, au choix du MJ).</li><li><strong>Inamical</strong> ou pire : les employés partent un à un (un par tour de bastion), jusqu'à ce que la réputation remonte.</li><li>Un ennemi juré de la faction (le Cartel Baille-Fonds, la Lame ardente, une bande kolkar) peut <strong>attaquer</strong> la garnison : les défenseurs recrutés par la table des missions la protègent.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375612,
+        "modifiedTime": 1793703375614,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!R7wogMFeFL5TSKjF.4Ij1XPxK7msAJUUl"
+    }
+  ],
+  "sort": 0,
+  "_key": "!journal!R7wogMFeFL5TSKjF"
+}

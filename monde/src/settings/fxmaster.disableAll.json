@@ -1,0 +1,18 @@
+{
+  "key": "fxmaster.disableAll",
+  "user": null,
+  "value": "false",
+  "_id": "s2QnB2dgFIzKC9JB",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793592372707,
+    "modifiedTime": 1793592372707,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!s2QnB2dgFIzKC9JB"
+}

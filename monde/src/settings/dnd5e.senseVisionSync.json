@@ -1,0 +1,18 @@
+{
+  "key": "dnd5e.senseVisionSync",
+  "user": null,
+  "value": "true",
+  "_id": "W9y9L28FHGHJIh1p",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467827735,
+    "modifiedTime": 1793467827735,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!W9y9L28FHGHJIh1p"
+}

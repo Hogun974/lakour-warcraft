@@ -1,0 +1,18 @@
+{
+  "key": "calendaria.displayFormats",
+  "user": null,
+  "value": "{\"hudDate\":{\"gm\":\"calendarDefault\",\"player\":\"calendarDefault\"},\"hudTime\":{\"gm\":\"calendarDefault\",\"player\":\"calendarDefault\"},\"microCalHeader\":{\"gm\":\"approxDateTime\",\"player\":\"approxDateTime\"},\"miniCalHeader\":{\"gm\":\"calendarDefault\",\"player\":\"calendarDefault\"},\"miniCalTime\":{\"gm\":\"calendarDefault\",\"player\":\"calendarDefault\"},\"bigCalHeader\":{\"gm\":\"calendarDefault\",\"player\":\"calendarDefault\"},\"chatTimestamp\":{\"gm\":\"calendarDefault\",\"player\":\"calendarDefault\"},\"stopwatchRealtime\":{\"gm\":\"stopwatchRealtimeFull\",\"player\":\"stopwatchRealtimeFull\"},\"stopwatchGametime\":{\"gm\":\"stopwatchGametimeFull\",\"player\":\"stopwatchGametimeFull\"},\"noteViewerDate\":{\"gm\":\"calendarDefault\",\"player\":\"calendarDefault\"},\"cinematicDate\":{\"gm\":\"calendarDefault\",\"player\":\"calendarDefault\"},\"cinematicTime\":{\"gm\":\"time24\",\"player\":\"time24\"},\"timekeeperDate\":{\"gm\":\"calendarDefault\",\"player\":\"calendarDefault\"},\"timekeeperTime\":{\"gm\":\"calendarDefault\",\"player\":\"calendarDefault\"},\"bigCalWeekHeader\":{\"gm\":\"calendarDefault\",\"player\":\"calendarDefault\"},\"bigCalYearHeader\":{\"gm\":\"calendarDefault\",\"player\":\"calendarDefault\"},\"bigCalYearLabel\":{\"gm\":\"calendarDefault\",\"player\":\"calendarDefault\"},\"sundialTime\":{\"gm\":\"calendarDefault\",\"player\":\"calendarDefault\"}}",
+  "_id": "LWkHL0I8S61msd87",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793591653815,
+    "modifiedTime": 1793591653815,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!LWkHL0I8S61msd87"
+}

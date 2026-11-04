@@ -1,0 +1,18 @@
+{
+  "key": "dice-so-nice.enabledSimultaneousRollForMessage",
+  "user": null,
+  "value": "true",
+  "_id": "r8SsIwHJ2E86SCMR",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467827891,
+    "modifiedTime": 1793467827891,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!r8SsIwHJ2E86SCMR"
+}

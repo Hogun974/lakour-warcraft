@@ -1,0 +1,296 @@
+{
+  "name": "Aventure — Les Puits de cendre",
+  "folder": "wNtgGHYLJnHwTJwh",
+  "categories": [],
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "aventure-puits-de-cendre",
+      "version": "0.10.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793512298295,
+    "modifiedTime": 1793703375379,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.lakour-warcraft.journaux.JournalEntry.DQAuC2l2FxNLLS5W",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "pages": [
+    {
+      "_id": "ydiMxUcS1N5DixDM",
+      "name": "Synopsis (MJ)",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Les Puits de cendre</strong> est une aventure d'enquête et d'action pour 3 à 5 personnages de <strong>niveau 1</strong>, qui atteignent le <strong>niveau 3</strong> à la fin (passage au niveau 2 après la scène 2, au niveau 3 après la scène 3). Comptez deux ou trois séances.</p><p><strong>Cadre.</strong> Les Tarides du Nord, savane brûlée entre Durotar et la côte. Au bord de la mer, <strong>Cabestan</strong>, port gobelin du <strong>Cartel Gentepression</strong>, est neutre : la <strong>Trêve de Cabestan</strong> y interdit tout combat entre la Horde et l'Alliance. Le groupe peut donc être de l'Alliance, de la Horde ou mélangé.</p><p><strong>Ce qui se passe.</strong> Depuis un mois, les puits et les oasis des Tarides se gâtent : l'eau a un goût de cendre et luit faiblement en vert la nuit. Ceux qui en boivent ont de la fièvre et des colères soudaines. Les hurans du kraal de <strong>Ronceroc</strong> attaquent les caravanes avec une rage inhabituelle. Au Carrefour, on accuse l'Alliance d'empoisonner l'eau ; dans les avant-postes de l'Alliance, on accuse la Horde. La guerre menace.</p><p><strong>La vérité.</strong> <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.7QIwTV8327wAgVvO]{Drogha Cendrelame}</strong>, orc renégat de la <strong>Lame ardente</strong> (un culte qui vénère la Légion ardente), et le satyre <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.puL97ibgNYOM6SFR]{Ezzavel le Rieur}</strong> ont trouvé dans la mine abandonnée de <strong>Rouge-Veine</strong> un <strong>Éclat gangrené</strong>, fragment de cristal démoniaque oublié depuis des millénaires. Plongé dans la source souterraine qui alimente la nappe des Tarides, il répand la gangrène dans tous les puits de la région. Drogha veut une guerre entre factions, et une armée de hurans corrompus au service de la Légion. Ezzavel a acheté la cheffe huran <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.MNGFVYbGrQa9AaLm]{Gorra Fiel-d'Épine}</strong> avec de l'eau « bénie » contre des prisonniers, qui creusent la mine aux côtés de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.HGWUuwWIVCUJayp0]{kobolds} enchaînés.</p><p><strong>Déroulement et cartes</strong> (compendium <em>La Kour Warcraft — Scènes</em>)<br>- Scène 1 — Le contrat du Cartel : carte <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.y58dyqMG0VFrRAAI]{Cabestan — Quai des Comptoirs}</em><br>- Scène 2 — Le relais pillé : carte <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.JWpbieGolEaei6IV]{Tarides — Relais de l'Oasis}</em><br>- Scène 3 — Le kraal de Ronceroc : carte <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.nrJ0CD4bPLx0WCt2]{Tarides — Kraal de Ronceroc}</em><br>- Scène 4 — La mine de Rouge-Veine : carte <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.EQnMHvSC38RGR1AM]{Tarides — Mine de Rouge-Veine}</em></p><p>Les PNJ nommés et les créatures sont dans le compendium <em>La Kour Warcraft — Bestiaire</em> (liens dans chaque scène et dans « PNJ et forces en présence »).</p><p><strong>Aide de jeu</strong> (visible des joueurs) : @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.smYCJHsMjBH3NMR7]{Aide de jeu — Contrat du Cartel Gentepression}, en deux pages à montrer l'une après l'autre.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375350,
+        "modifiedTime": 1793703375361,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!PCY3VkdnxTTjat6A.ydiMxUcS1N5DixDM"
+    },
+    {
+      "_id": "d0KM3uaToaEarGf7",
+      "name": "Scène 1 — Le contrat du Cartel",
+      "type": "text",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Carte :</strong> <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.y58dyqMG0VFrRAAI]{Cabestan — Quai des Comptoirs}</em>. Fin d'après-midi, les lanternes s'allument.</p><p><strong>À lire :</strong> <em>Cabestan sent l'huile chaude, le sel et le poisson grillé. Sur le quai, des gobelins hurlent des prix dans trois langues pendant qu'une grue grince au-dessus d'un navire marchand. Un orc et un humain en armes se croisent sans se regarder : ici, la Trêve tient, parce que le Cartel le veut. Devant le Comptoir, une gobeline aux lunettes de cuivre vous fait signe d'entrer, sans lever les yeux de son livre de comptes.</em></p><p><strong>Le contrat.</strong> <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.EgsVDftATjRAEYLT]{Grizzla Tordeboulon}</strong> remet au groupe le <strong>@UUID[Compendium.lakour-warcraft.journaux.JournalEntry.smYCJHsMjBH3NMR7.JournalEntryPage.8l32qFD0O86tiivi]{contrat du Cartel}</strong> (aide de jeu, page « Contrat du Cartel ») : trouver ce qui empoisonne l'eau des Tarides et l'arrêter. 50 pièces d'or chacun, 100 de plus pour le groupe si la cause est détruite. Elle fournit une gourde d'eau gâtée, un kodo de bât et la route de la dernière caravane, disparue près du <strong>Relais de l'Oasis</strong> avec son guide, <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.Hy3EZ9O9zgnyuGam]{Hanuk Pas-de-Pluie}</strong>.</p><p><strong>La Trêve.</strong> Dès l'arrivée sur le quai, montrez aux joueurs l'affiche @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.smYCJHsMjBH3NMR7.JournalEntryPage.JAc4rrFxZoLgd40W]{La Trêve de Cabestan} (seconde page de l'aide de jeu) : elle est clouée sur chaque quai.</p><p><strong>Le Bureau de la Trêve.</strong> Le lieutenant <strong>Corwen Haldis</strong> (Alliance, profil de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.EAVnasdhIMpJ0aIX]{Garde de Hurlevent}) et le grunt <strong>Garrok Brise-Dent</strong> (Horde, profil de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.oGqL8nq1xsznIEhi]{Grunt d'Orgrimmar}) s'y disputent autour de la Table des négociations. Chacun accuse l'autre camp, chacun est sincère ([[/check skill=ins dc=12]]{Intuition DD 12}). Chacun demande discrètement aux personnages de sa faction de lui rapporter la preuve que <em>son</em> camp est innocent : bonne accroche pour les groupes mixtes.</p><p><strong>Indices</strong><br>- Gourde d'eau gâtée : <strong>[[/check skill=inv dc=12]]{Investigation DD 12}</strong>, une fine cendre noire au fond ; <strong>[[/check skill=arc dc=13]]{Arcanes DD 13}</strong>, l'odeur et la lueur de la gangrène, la magie des démons.<br>- Un docker malade près du Puits du Cartel : <strong>[[/check skill=med dc=12]]{Médecine DD 12}</strong>, fièvre de gangrène (insomnie, colère) ; il a bu à l'oasis du relais il y a dix jours.<br>- Les <strong>Tonneaux d'eau</strong> livrés devant l'Entrepôt du Cartel : <strong>[[/check skill=prc dc=13]]{Perception DD 13}</strong>, l'un d'eux luit faiblement ; un porteur d'eau en verse le contenu dans les autres.</p><p><strong>Rencontre : les tonneaux.</strong> Le porteur est un <strong>cultiste de la Lame ardente</strong> (profil de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.b3cJ52ZXydLLpfaZ]{Bandit défias}), accompagné de trois <strong>nervis</strong> (@UUID[Compendium.lakour-warcraft.bestiaire.Actor.b3cJ52ZXydLLpfaZ]{Bandits défias}) cachés derrière le Chariot et les Caisses du quai. Démasqué, il attaque ; les nervis fuient s'il tombe. Si le combat dure plus de 3 rounds, <strong>deux @UUID[Compendium.lakour-warcraft.bestiaire.Actor.Q6QWZQUBEfSVg08M]{murlocs}</strong> attirés par l'eau souillée répandue dans le port grimpent sur le Quai. Les gardes du port arrivent au bout de 5 rounds : la Trêve est respectée tant que personne n'a tiré sur un membre de l'autre faction.</p><p><strong>Interrogatoire.</strong> Le cultiste porte une lame enflammée tatouée sur l'avant-bras (<strong>[[/check skill=his dc=12]]{Histoire} ou [[/check skill=rel dc=12]]{Religion DD 12}</strong> : la Lame ardente). Intimidé ou soigné (<strong>[[/check skill=per dc=13]]{Persuasion DD 13}</strong>), il lâche : « La source boit le feu. Rouge-Veine chante, et bientôt tout le monde boira. » Sur lui : une carte avec le Relais de l'Oasis entouré, et 8 pièces d'or.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375352,
+        "modifiedTime": 1793703375361,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!PCY3VkdnxTTjat6A.d0KM3uaToaEarGf7"
+    },
+    {
+      "_id": "wFkaZlzCp2pElNxH",
+      "name": "Scène 2 — Le relais pillé",
+      "type": "text",
+      "sort": 300,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Carte :</strong> <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.JWpbieGolEaei6IV]{Tarides — Relais de l'Oasis}</em>. Une journée de piste vers l'est (temps et état de la route : @UUID[Compendium.lakour-warcraft.tables.RollTable.WtnajfAuJUIYAx9E]{Temps et chemins}). Arrivée au crépuscule.</p><p><strong>À lire :</strong> <em>Le relais n'a plus de porte. Un chariot renversé barre la piste, à côté d'un kodo mort que les vautours ont déjà trouvé. Les caisses de la caravane sont éventrées, et les tonneaux d'eau propre ont disparu. Au-delà, l'oasis devrait être un miroir bleu sous les palmiers ; ce soir, son eau a la couleur d'une vieille bouteille, et quelque chose y brille faiblement.</em></p><p><strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.Hy3EZ9O9zgnyuGam]{Hanuk}.</strong> Le guide tauren est caché dans l'Écurie, blessé (12 PV sur 34). <strong>[[/check skill=prc dc=10]]{Perception DD 10}</strong> pour l'entendre respirer. Il raconte : des hurans aux yeux verts ont attaqué à l'aube, emporté l'eau propre et deux conducteurs ; derrière eux, quelqu'un « riait comme une chèvre ». Soigné ou remercié, il rejoint le groupe (allié).</p><p><strong>Indices</strong><br>- Le <strong>Puits</strong> du relais : <strong>[[/check skill=nat dc=12]]{Nature} ou [[/check skill=sur dc=12]]{Survie DD 12}</strong>, le niveau de l'eau est normal, mais la cendre remonte du fond ; <strong>[[/check skill=arc dc=13]]{Arcanes DD 13}</strong>, la corruption vient de la nappe, qui descend des collines rouges à l'est.<br>- Les traces : <strong>[[/check skill=sur dc=11]]{Survie DD 11}</strong>, les hurans sont repartis vers le sud-est (le kraal de Ronceroc, une demi-journée) ; <strong>[[/check skill=sur dc=15]]{Survie DD 15}</strong>, des empreintes de sabots fendus, bipèdes, brûlées dans l'herbe, partent vers l'est (la mine).<br>- Dans les Caisses éventrées : un registre de la caravane (marchandises de la Horde <em>et</em> de l'Alliance, preuve que personne n'a attaqué « l'autre camp »).</p><p><strong>Rencontre : l'attaque de nuit.</strong> Vers minuit, <strong>trois @UUID[Compendium.lakour-warcraft.bestiaire.Actor.qTTqGBYn4AqsQwVN]{guerriers hurans}</strong> et <strong>un sanglier corrompu</strong> (@UUID[Compendium.lakour-warcraft.bestiaire.Actor.CNzKxG2AhR5r4DfL]{Sanglier des plaines} qui ne fuit jamais, yeux verts) arrivent par l'Oasis pour prendre le reste de l'eau. Ils visent les tonneaux, puis quiconque les défend. Un huran capturé ne parle qu'huran (ou orc, mal) : « La cheffe donne l'eau qui rend fort. »</p><p><strong>Purifier le puits (facultatif).</strong> Un rite de la Lumière ou de la nature (<strong>[[/check skill=rel dc=14]]{Religion} ou [[/check skill=nat dc=14]]{Nature DD 14}</strong>, une heure, de l'eau bénite ou une offrande) rend le puits buvable pour une semaine : la caravane suivante passera.</p><p><strong>Fin de scène :</strong> les personnages passent au <strong>niveau 2</strong>.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375354,
+        "modifiedTime": 1793703375362,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!PCY3VkdnxTTjat6A.wFkaZlzCp2pElNxH"
+    },
+    {
+      "_id": "po0zqbNE92vBKmPm",
+      "name": "Scène 3 — Le kraal de Ronceroc",
+      "type": "text",
+      "sort": 400,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Carte :</strong> <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.nrJ0CD4bPLx0WCt2]{Tarides — Kraal de Ronceroc}</em>. Une demi-journée au sud-est, dans un vallon couvert de ronces géantes.</p><p><strong>À lire :</strong> <em>Les ronces montent plus haut qu'un kodo, tressées en murailles vivantes, hérissées d'épines longues comme des dagues. Par l'unique entrée, on aperçoit un grand totem, des huttes de terre et, près du feu, une mare dont l'eau verte fume doucement. Un cor sonne ; des groins se lèvent.</em></p><p><strong>Approches</strong><br>- <strong>Assaut</strong> par l'entrée sud : dangereux (@UUID[Compendium.lakour-warcraft.bestiaire.Actor.MNGFVYbGrQa9AaLm]{Gorra}, quatre @UUID[Compendium.lakour-warcraft.bestiaire.Actor.qTTqGBYn4AqsQwVN]{guerriers hurans}, deux @UUID[Compendium.lakour-warcraft.bestiaire.Actor.CNzKxG2AhR5r4DfL]{sangliers}).<br>- <strong>Discrétion</strong> : un passage secret dans les ronces, à l'ouest (<strong>[[/check skill=prc dc=14]]{Perception DD 14}</strong> pour le trouver, ou Hanuk le connaît), mène derrière la Hutte du géomancien. Tests de <strong>[[/check skill=ste dc=12]]{Discrétion DD 12}</strong> pour traverser le kraal la nuit.<br>- <strong>Parlementer</strong> avec <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.RHkKrGS9o7CtT0pA]{Grommel Défense-Grise}</strong> dans sa hutte, près de l'Autel de pierre (<strong>[[/check skill=per dc=13]]{Persuasion DD 13}</strong>, avantage si Hanuk est là ou si des hurans ont été épargnés).</p><p><strong>Ce que sait Grommel.</strong> La cheffe Gorra a accepté l'eau du « rieur » quand la sécheresse tuait les sangliers. En échange, le kraal livre des prisonniers à la mine de Rouge-Veine. L'eau donne de la force et prend la raison. Il connaît la <strong>galerie basse</strong> de la mine, qui contourne la galerie principale et débouche dans la caverne par un passage dérobé.</p><p><strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.MNGFVYbGrQa9AaLm]{Gorra Fiel-d'Épine}.</strong> Sur son Trône d'os, dans la Hutte de la cheffe. Elle accepte un <strong>duel d'honneur</strong> si on le lui propose devant les siens (Grommel peut l'arranger) : un champion contre elle, jusqu'à ce que l'un tombe. Vaincue mais vivante, elle libère les prisonniers et laisse partir le groupe. Tuée, le kraal se disperse, et la piste de la mine reste ouverte, mais les hurans haïront le groupe.</p><p><strong>La Cage des prisonniers.</strong> Deux conducteurs de la caravane (profil de @UUID[Compendium.lakour-warcraft.bestiaire.Actor.rEd2jEd2VR2hp424]{Paysan}) : <strong>Tobias Merle</strong>, un humain de Theramore, et <strong>Uzga</strong>, une orque du Carrefour. Ils ont vu les mêmes cultistes emporter des hurans enchaînés vers l'est, et chacun témoigne que l'autre camp n'y est pour rien. Les ramener vivants à Cabestan vaut une preuve pour le Bureau de la Trêve.</p><p><strong>Soigner la gangrène.</strong> <strong>[[/check skill=med dc=13]]{Médecine DD 13}</strong> et trois jours de repos sans boire l'eau verte guérissent un huran ; détruire l'Éclat les guérit tous en une semaine.</p><p><strong>Fin de scène :</strong> les personnages passent au <strong>niveau 3</strong>.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375356,
+        "modifiedTime": 1793703375362,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!PCY3VkdnxTTjat6A.po0zqbNE92vBKmPm"
+    },
+    {
+      "_id": "t7N5ErO1feyylpu6",
+      "name": "Scène 4 — La mine de Rouge-Veine",
+      "type": "text",
+      "sort": 500,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Carte :</strong> <em>@UUID[Compendium.lakour-warcraft.scenes.Scene.EQnMHvSC38RGR1AM]{Tarides — Mine de Rouge-Veine}</em>. Les collines rouges à l'est, une journée du kraal. Obscurité totale hors des lumières de la carte.</p><p><strong>À lire :</strong> <em>Le vieux panneau du Cartel pend encore au-dessus de l'entrée, rongé par le vent : « Rouge-Veine — défense d'entrer sans casque ». De la galerie monte une odeur de soufre et de pierre chaude, et une lueur verte palpite au fond, au rythme d'un cœur. Quelque part, des pioches frappent la roche, et des petites voix pleurnichent.</em></p><p><strong>Entrée de la mine.</strong> Deux <strong>cultistes</strong> (@UUID[Compendium.lakour-warcraft.bestiaire.Actor.b3cJ52ZXydLLpfaZ]{Bandits défias}) jouent aux dés près du Tas de minerai ; s'ils sonnent l'alerte, Drogha est prêt dans la caverne (pas de surprise possible).</p><p><strong>Baraquement des kobolds.</strong> Huit <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.HGWUuwWIVCUJayp0]{kobolds mineurs}</strong> enchaînés (les Chaînes près des Couchettes), épuisés, gardés par un cultiste. Libérés (<strong>[[/check skill=per dc=12]]{Persuasion DD 12}</strong>, ou en leur offrant des bougies !), ils ne se battent pas mais montrent la porte dérobée de la galerie basse et volent la clé de la Réserve de poudre.</p><p><strong>Réserve de poudre</strong> (porte verrouillée : clé du garde, ou <strong>[[/check tool=thief dc=13]]{outils de voleur DD 13}</strong>). Les <strong>Tonneaux de poudre</strong> : un tonneau allumé explose au bout d'un round (sphère de 3 m, <strong>[[/save ability=dex dc=12]]{sauvegarde de Dextérité DD 12}</strong>, [[/damage formula=3d6 type=fire]]{3d6 dégâts de feu}, moitié en cas de réussite). Deux tonneaux au pied du Puits de la source noire font s'effondrer la caverne : à n'utiliser qu'en sortant !</p><p><strong>Galerie basse.</strong> L'Étayage effondré cache le passage secret vers la caverne (<strong>[[/check skill=prc dc=15]]{Perception DD 15}</strong> sans l'aide des kobolds ou de Grommel). Elle permet d'arriver derrière Drogha.</p><p><strong>La Caverne de la Source.</strong> <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.7QIwTV8327wAgVvO]{Drogha Cendrelame}</strong> devant l'Autel de la Lame ardente, <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.puL97ibgNYOM6SFR]{Ezzavel le Rieur}</strong> près de l'<strong>Éclat gangrené</strong>, planté dans le Puits de la source noire, et <strong>deux cultistes</strong> (@UUID[Compendium.lakour-warcraft.bestiaire.Actor.b3cJ52ZXydLLpfaZ]{Bandits défias}) près des Braseros.</p><p><strong>À lire :</strong> <em>L'eau noire du puits bouillonne sans chaleur. Planté en son centre, un cristal vert gros comme un poing de troll pulse lentement, et chaque battement fait trembler les flammes des braseros. Un orc au crâne tatoué lève les bras et chante en eredun ; à côté de lui, une silhouette à pattes de bouc éclate de rire en vous voyant.</em></p><p><strong>Le rituel</strong> (un palier tous les 3 rounds, compté dès que le groupe entre dans la caverne) :<br>1. L'eau monte : le sol à 3 m du puits devient un &amp;Reference[rule=difficultTerrain]{terrain difficile}.<br>2. L'eau crache des vapeurs vertes : chaque créature qui finit son tour à 3 m du puits fait une <strong>[[/save ability=con dc=12]]{sauvegarde de Constitution DD 12}</strong> ou subit [[/damage formula=2d6 type=poison]]{2d6 dégâts de poison}.<br>3. Un <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.VGcEzg7S47yF5Oa2]{chien corrompu}</strong> jaillit du puits et attaque. Si on laisse le rituel continuer encore 10 rounds, un <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.D4E5HSe1Q9cY9NXk]{gangregarde}</strong> suit : il faut fuir.</p><p><strong>Arrêter le rituel :</strong> détruire l'Éclat (CA 15, 20 PV, immunisé contre le poison et les dégâts psychiques, dégâts radiants doublés) ; ou l'arracher du puits (action, <strong>[[/check skill=ath dc=15]]{Athlétisme DD 15}</strong>, [[/damage formula=3d6 type=fire]]{3d6 dégâts de feu} à qui le saisit, réussite ou non) ; ou faire taire Drogha (&amp;Reference[condition=unconscious]{inconscient}, bâillonné ou mort : le rituel s'arrête au palier atteint).</p><p><strong>Drogha et Ezzavel</strong> fuient s'ils perdent l'Éclat ou tombent sous 15 PV : Ezzavel en riant, Drogha en maudissant le groupe. Les poursuivre est possible jusqu'à l'Entrée de la mine.</p><p><strong>Équilibre :</strong> Drogha, Ezzavel et deux cultistes forment un combat difficile pour quatre personnages de niveau 3. Avec trois personnages, retirez un cultiste et commencez le rituel au palier 1 ; avec cinq, ajoutez deux @UUID[Compendium.lakour-warcraft.bestiaire.Actor.qTTqGBYn4AqsQwVN]{guerriers hurans} si Gorra est toujours l'alliée du culte.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375358,
+        "modifiedTime": 1793703375363,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!PCY3VkdnxTTjat6A.t7N5ErO1feyylpu6"
+    },
+    {
+      "_id": "0Ctnygi4i7O12Jlu",
+      "name": "Dénouements et récompenses",
+      "type": "text",
+      "sort": 600,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>L'Éclat est détruit.</strong> En une semaine, l'eau redevient claire, les hurans guérissent et les caravanes reprennent. @UUID[Compendium.lakour-warcraft.bestiaire.Actor.EgsVDftATjRAEYLT]{Grizzla} paie la prime complète. Au Bureau de la Trêve, Corwen Haldis et Garrok Brise-Dent rédigent ensemble un rapport qui blanchit leurs deux camps : chaque personnage gagne une <strong>faveur</strong> de sa faction (une lettre de recommandation, un équipement, un passage gratuit).</p><p><strong>L'Éclat est emporté par Drogha.</strong> L'eau se purifie lentement (un mois), mais la Lame ardente prépare quelque chose de pire ailleurs dans les Tarides. Grizzla ne paie que la moitié de la prime.</p><p><strong>La caverne s'effondre.</strong> L'Éclat est enfoui sous des tonnes de roche : la corruption cesse en un mois. Le Cartel retient 50 pièces d'or « pour le tunnel ».</p><p><strong>Récompenses</strong><br>- Contrat de Grizzla : 50 po par personnage, plus 100 po pour le groupe.<br>- Sur Drogha : une <strong>lettre de la Lame ardente</strong> (accroche de suite : « le feu remonte jusqu'à Orgrimmar »), deux <strong>@UUID[Compendium.lakour-warcraft.objets.Item.D2jD8VN39EjXu6ZT]{potions de soins}</strong>, 35 po et sa lame cérémonielle.<br>- Kobolds libérés : ils indiquent un filon de cuivre intact ; le Cartel accorde au groupe un dixième de son exploitation (10 po par mois tant que la mine tourne).<br>- Gorra épargnée, puis guérie : le kraal de Ronceroc laisse passer le groupe sans péage ; @UUID[Compendium.lakour-warcraft.bestiaire.Actor.RHkKrGS9o7CtT0pA]{Grommel} peut enseigner un rituel de purification de l'eau.<br>- Prisonniers ramenés vivants : 25 po chacun, et la gratitude de Theramore ou du Carrefour.</p><p><strong>La suite :</strong> la lettre de Drogha, Ezzavel en fuite et les autres éclats tombés du ciel il y a dix mille ans mènent à la campagne <em>Les Braises de la Légion</em> (niveaux 3 à 6, journal « Campagne — Les Braises de la Légion »). Le MJ IA peut aussi prendre le relais en s'appuyant sur les cartes de lieux du compendium (@UUID[Compendium.lakour-warcraft.scenes.Scene.g35W7BBQYa9IrYSU]{Lieu — Auberge de bord de route}, @UUID[Compendium.lakour-warcraft.scenes.Scene.NuKH3uGmrD5aAD6A]{Lieu — Village humain}, @UUID[Compendium.lakour-warcraft.scenes.Scene.g5R6ceiFmzXYjr3m]{Lieu — Campement orc}, @UUID[Compendium.lakour-warcraft.scenes.Scene.MlGXuczX7HtSy7D4]{Lieu — Mine}, @UUID[Compendium.lakour-warcraft.scenes.Scene.8uyCl9mZZjTYg4EZ]{Lieu — Crypte}, @UUID[Compendium.lakour-warcraft.scenes.Scene.luDaXY4uh7ekndDq]{Lieu — Clairière en forêt}, @UUID[Compendium.lakour-warcraft.scenes.Scene.l7wbvfPi6CvNekal]{Lieu — Port}, @UUID[Compendium.lakour-warcraft.scenes.Scene.3C89JBzkzHg0uRZm]{Lieu — Ruines elfiques}) et sur les tables @UUID[Compendium.lakour-warcraft.tables.RollTable.ucNQfx3RE78yE0T6]{Rencontres sur la route} et @UUID[Compendium.lakour-warcraft.tables.RollTable.O1ZlanNamo70PwFt]{Rumeurs de taverne}.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375359,
+        "modifiedTime": 1793703375363,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!PCY3VkdnxTTjat6A.0Ctnygi4i7O12Jlu"
+    },
+    {
+      "_id": "TARnDZBUWCb0ioRY",
+      "name": "PNJ et forces en présence",
+      "type": "text",
+      "sort": 700,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>PNJ nommés</strong> (fiches dans le bestiaire)<br>- <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.EgsVDftATjRAEYLT]{Grizzla Tordeboulon}</strong> — intendante du Cartel, commanditaire. Neutre, pressée, honnête à sa manière.<br>- <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.Hy3EZ9O9zgnyuGam]{Hanuk Pas-de-Pluie}</strong> — guide tauren, survivant du relais. Allié loyal.<br>- <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.RHkKrGS9o7CtT0pA]{Grommel Défense-Grise}</strong> — géomancien huran dissident. Neutre, se méfie de tous.<br>- <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.MNGFVYbGrQa9AaLm]{Gorra Fiel-d'Épine}</strong> — cheffe huran corrompue. Hostile, mais peut être sauvée.<br>- <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.7QIwTV8327wAgVvO]{Drogha Cendrelame}</strong> — prophète orc de la Lame ardente. Le grand méchant.<br>- <strong>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.puL97ibgNYOM6SFR]{Ezzavel le Rieur}</strong> — satyre de la Légion. Ennemi récurrent.</p><p><strong>PNJ sans fiche</strong><br>- <strong>Lieutenant Corwen Haldis</strong> (Alliance) : profil de <em>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.EAVnasdhIMpJ0aIX]{Garde de Hurlevent}</em>, avec 20 PV. Raide, fatigué, loyal à Theramore.<br>- <strong>Garrok Brise-Dent</strong> (Horde) : profil de <em>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.oGqL8nq1xsznIEhi]{Grunt d'Orgrimmar}</em>. Bourru, colérique, attaché à l'honneur.<br>- <strong>Tobias Merle</strong> et <strong>Uzga</strong>, conducteurs de caravane : profil de <em>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.rEd2jEd2VR2hp424]{Paysan}</em>.<br>- Les <strong>cultistes de la Lame ardente</strong> : profil de <em>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.b3cJ52ZXydLLpfaZ]{Bandit défias}</em> (remplacer le foulard par un tatouage de lame enflammée).</p><p><strong>Créatures du bestiaire utilisées :</strong> @UUID[Compendium.lakour-warcraft.bestiaire.Actor.b3cJ52ZXydLLpfaZ]{Bandit défias}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.Q6QWZQUBEfSVg08M]{Murloc}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.qTTqGBYn4AqsQwVN]{Guerrier huran}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.CNzKxG2AhR5r4DfL]{Sanglier des plaines}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.HGWUuwWIVCUJayp0]{Kobold mineur}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.VGcEzg7S47yF5Oa2]{Chien corrompu}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.D4E5HSe1Q9cY9NXk]{Gangregarde}.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375360,
+        "modifiedTime": 1793703375364,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!PCY3VkdnxTTjat6A.TARnDZBUWCb0ioRY"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "_id": "PCY3VkdnxTTjat6A",
+  "sort": 0,
+  "_key": "!journal!PCY3VkdnxTTjat6A"
+}

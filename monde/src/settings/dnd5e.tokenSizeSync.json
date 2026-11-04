@@ -1,0 +1,18 @@
+{
+  "key": "dnd5e.tokenSizeSync",
+  "user": null,
+  "value": "true",
+  "_id": "T5AK9FrUDoLuKCTh",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467827725,
+    "modifiedTime": 1793467827725,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!T5AK9FrUDoLuKCTh"
+}

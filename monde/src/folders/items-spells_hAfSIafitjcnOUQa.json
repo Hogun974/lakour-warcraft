@@ -1,0 +1,23 @@
+{
+  "_id": "hAfSIafitjcnOUQa",
+  "name": "Items & Spells",
+  "type": "Compendium",
+  "sorting": "m",
+  "sort": 400000,
+  "color": "#941919",
+  "folder": "sHBwwuNSO0bA0jUG",
+  "description": "",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793512282947,
+    "modifiedTime": 1793512282947,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!hAfSIafitjcnOUQa"
+}

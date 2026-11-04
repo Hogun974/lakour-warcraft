@@ -1,0 +1,27 @@
+{
+  "name": "Une nuit aux Deux Lanternes",
+  "type": "Scene",
+  "color": "#1a3a5a",
+  "flags": {
+    "lakour-warcraft": {
+      "dossier": "Une nuit aux Deux Lanternes"
+    }
+  },
+  "_id": "7iMqa0X06OBPEOWp",
+  "description": "",
+  "folder": null,
+  "sorting": "a",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793591655143,
+    "modifiedTime": 1793591655143,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!7iMqa0X06OBPEOWp"
+}

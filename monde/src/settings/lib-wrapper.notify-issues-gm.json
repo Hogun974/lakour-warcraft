@@ -1,0 +1,18 @@
+{
+  "key": "lib-wrapper.notify-issues-gm",
+  "user": null,
+  "value": "true",
+  "_id": "QWJSKh007ijH8L0t",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467828687,
+    "modifiedTime": 1793467828687,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!QWJSKh007ijH8L0t"
+}

@@ -1,0 +1,487 @@
+{
+  "_id": "uIWkSgn7SjyOj8nd",
+  "name": "Guide de la réputation",
+  "folder": "wNtgGHYLJnHwTJwh",
+  "categories": [],
+  "ownership": {
+    "default": 2
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "guide-de-la-reputation",
+      "collection": "reputation",
+      "version": "0.10.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793630052261,
+    "modifiedTime": 1793703376052,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.lakour-warcraft.journaux.JournalEntry.uIWkSgn7SjyOj8nd",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "pages": [
+    {
+      "_id": "AnHc2hA7jaer35UV",
+      "name": "Les paliers de réputation",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Chaque faction d'Azeroth se souvient de ce que vous avez fait pour elle, ou contre elle. Ce souvenir se compte en <strong>points de réputation</strong>, de Haï à Exalté. Tout le monde commence <strong>Neutre (0)</strong> auprès de chaque faction, sauf ce que votre peuple et votre passé y changent : un orc commence Amical auprès de la Horde, un elfe de la nuit auprès des Sentinelles ; le MJ peut aussi faire partir un personnage plus bas.</p><ul><li><strong>Haï</strong> (-30 et moins) — On vous attaque à vue dans ses terres ; ses gardes ont votre signalement. <em>Chez l'intendant : aucune vente.</em></li><li><strong>Hostile</strong> (-29 à -15) — Portes fermées, armes tirées. On ne vous vend rien et on vous somme de partir. <em>Chez l'intendant : aucune vente.</em></li><li><strong>Inamical</strong> (-14 à -1) — On vous sert de mauvaise grâce, plus cher, et on vous surveille. <em>Chez l'intendant : +25 %.</em></li><li><strong>Neutre</strong> (0 à 9) — Un étranger parmi d'autres : prix affichés, ni faveur ni méfiance. <em>Chez l'intendant : prix affichés.</em></li><li><strong>Amical</strong> (10 à 24) — On connaît votre nom ; l'intendant vous ouvre son premier rayon. <em>Chez l'intendant : -5 %.</em></li><li><strong>Honoré</strong> (25 à 44) — On vous confie des affaires sérieuses et on vous loge sans poser de questions. <em>Chez l'intendant : -10 %.</em></li><li><strong>Révéré</strong> (45 à 69) — Les chefs vous reçoivent ; vos ennemis deviennent ceux de la faction. <em>Chez l'intendant : -15 %.</em></li><li><strong>Exalté</strong> (70 et plus) — Un héros de la faction : on chante votre nom et on vous ouvre la réserve. <em>Chez l'intendant : -20 %.</em></li></ul><p><strong>Remises.</strong> La remise du palier s'applique à tout ce que vend l'intendant de la faction, et à ses marchands. Un objet d'un palier ne se vend qu'à partir de ce palier : à Honoré, vous achetez les objets Amical et Honoré.</p><p><strong>Une seule faction à la fois ?</strong> Non : vous pouvez être Exalté auprès du Cartel et Haï par la Horde. Mais certaines factions se jalousent : quand vous gagnez de la réputation auprès de l'Alliance par un acte dirigé contre la Horde (ou l'inverse), le MJ peut vous en faire perdre autant de l'autre côté.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703376020,
+        "modifiedTime": 1793703376032,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.AnHc2hA7jaer35UV"
+    },
+    {
+      "_id": "bkTrohTsDGVLWRyw",
+      "name": "Gagner et perdre de la réputation",
+      "type": "text",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Barème</strong> (points de réputation, à ajuster selon l'importance de l'acte)</p><ul><li>Contrat d'un tableau des contrats réussi : <strong>+2 à +5</strong> auprès de son commanditaire.</li><li>Contrat échoué ou abandonné : <strong>−1</strong>.</li><li>Service rendu en personne à un chef de la faction : <strong>+5</strong>.</li><li>Chapitre de campagne ou aventure menés au bénéfice de la faction : <strong>+10 à +15</strong>.</li><li>Butin rare remis à la faction plutôt que vendu (artefact, trophée d'un rare, preuve) : <strong>+2 à +5</strong>.</li><li>Membre de la faction blessé par vous : <strong>−5</strong> ; tué : <strong>−15</strong>.</li><li>Trahison publique : <strong>−25</strong>, et souvent le palier Haï d'un coup.</li></ul><p><strong>Plafond par jour.</strong> Un groupe ne gagne pas plus de <strong>10 points</strong> auprès d'une même faction en un jour de jeu : on ne devient pas un héros en vidant un tableau d'affichage.</p><p><strong>Toute la compagnie.</strong> La réputation se gagne en groupe : chaque personnage présent reçoit les points. Un personnage de la faction adverse les reçoit aussi, mais les siens peuvent le lui reprocher.</p><p><strong>Suivi.</strong> Le MJ IA tient une horloge de réputation par faction, au nom de la faction (identifiant « rep-alliance », « rep-kirin-tor »…), visible de tous : sa valeur est le nombre de points, et le palier se lit dans la liste de la première page.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703376021,
+        "modifiedTime": 1793703376033,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.bkTrohTsDGVLWRyw"
+    },
+    {
+      "_id": "FLFLq4WwzjrXKswD",
+      "name": "Alliance (Theramore)",
+      "type": "text",
+      "sort": 300,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Intendant :</strong> Maëlis Hautepierre, intendante du port de Theramore.<br>Un entrepôt de pierre sur les quais de Theramore, gardé par deux soldats du Guet. Le Bureau de la Trêve lui transmet les états de service de ceux qui travaillent dans les Tarides.</p><p><strong>Gagner de la réputation :</strong> contrats du tableau de Theramore, patrouilles avec le Guet, réfugiés escortés, preuves rapportées au Bureau de la Trêve.</p><p><strong>En perdre :</strong> un soldat de l'Alliance blessé ou trahi, un accord passé en secret avec la Horde, la Trêve rompue par votre faute.</p><p><strong>Chez l'intendant</strong> (remise du palier sur le prix de l'objet)</p><ul><li><strong>Amical</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.uSKoAQ1BsXQ5i3nt]{Tourte au poisson de Theramore}, @UUID[Compendium.lakour-warcraft.objets.Item.Vh8xj1loPd6h7UBw]{Épée de la Garde de Hurlevent}</li><li><strong>Honoré</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.FkzYwXfJlC3FWUy9]{Cotte de mailles de la Garde}, @UUID[Compendium.lakour-warcraft.objets.Item.MqviUAcJjTLhNpLk]{Bouclier du lion}</li><li><strong>Révéré</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.0F1inv3elmHoi0bT]{Pique du Guet de Theramore}, @UUID[Compendium.lakour-warcraft.objets.Item.hziTHSAthW4OM4Tg]{Cristal chantant d'Héroïsme}</li><li><strong>Exalté</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.bErSKybgmEufEOWE]{Cuirasse de la Garde de Hurlevent}, Un hippogriffe de Theramore prêté pour une saison, et les vols de Theramore gratuits.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703376023,
+        "modifiedTime": 1793703376033,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.FLFLq4WwzjrXKswD"
+    },
+    {
+      "_id": "Pr2SuTJZkwqJ2GHT",
+      "name": "Horde (Le Carrefour)",
+      "type": "text",
+      "sort": 400,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Intendant :</strong> Gornak Croc-Gris, intendant du Carrefour.<br>Une longue hutte de peaux près de l'enclos des wyvernes. Gornak tient ses comptes en nœuds de cuir et n'a jamais perdu une pièce.</p><p><strong>Gagner de la réputation :</strong> contrats du tableau du Carrefour, caravanes protégées, quilboars et centaures repoussés, hommages rendus aux anciens.</p><p><strong>En perdre :</strong> un membre de la Horde blessé ou trahi, une insulte faite à un ancien, un marché passé dans le dos du chef de guerre.</p><p><strong>Chez l'intendant</strong> (remise du palier sur le prix de l'objet)</p><ul><li><strong>Amical</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.VZpVXdtVbHdZKhRr]{Marmite de ragoût de kodo épicé}, @UUID[Compendium.lakour-warcraft.objets.Item.t7SVoj0O72IicoSq]{Hache d'Orgrimmar}</li><li><strong>Honoré</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.KG0AhPmTDVfOusRV]{Harnois de grunt}, @UUID[Compendium.lakour-warcraft.objets.Item.book8vnvNwtLaA3r]{Peaux de kodo tannées}, @UUID[Compendium.lakour-warcraft.objets.Item.1ypEKSCGDzILPDsh]{Brochettes de raptor au piment}</li><li><strong>Révéré</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.U0e6bEwvV2IClFGl]{Tambours de Furie sanguinaire}</li><li><strong>Exalté</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.57vqdiD4EVoSrh4Y]{Corne de guerre de la Horde}, Un loup de guerre ou un raptor offert, et les vols de la Horde gratuits.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703376024,
+        "modifiedTime": 1793703376034,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.Pr2SuTJZkwqJ2GHT"
+    },
+    {
+      "_id": "qQByZbFuMlGSZDnO",
+      "name": "Cartel Gentepression",
+      "type": "text",
+      "sort": 500,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Intendant :</strong> Nixi Pèse-Juste, comptable du Cartel à Cabestan.<br>Un comptoir à guichet grillagé au bout du quai de Cabestan. Nixi ne lève les yeux de son boulier que pour un client solvable.</p><p>Affiliation correspondante : @UUID[Compendium.lakour-warcraft.dons.Item.d1vEUPoN0KEak1qU]{Affiliation : Cartel Gentepression}. Un membre de l'ordre commence au moins <strong>Amical</strong>.</p><p><strong>Gagner de la réputation :</strong> contrats du tableau de Cabestan, cargaisons livrées à l'heure, concurrents du Cartel Baille-Fonds mis hors d'affaire.</p><p><strong>En perdre :</strong> une dette impayée, un combat dans un port du Cartel, un contrat signé puis rompu.</p><p><strong>Chez l'intendant</strong> (remise du palier sur le prix de l'objet)</p><ul><li><strong>Amical</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.J5njSJUKfoAdTJw5]{Bombe gobeline}, @UUID[Compendium.lakour-warcraft.objets.Item.01FqMSTuhh4RI7sF]{Lettre de change du cartel Gentepression}</li><li><strong>Honoré</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.tmHdCg4DBlZQ6fRd]{Canon-main gobelin}, @UUID[Compendium.lakour-warcraft.objets.Item.pzYC56LFlcvQoajl]{Carreaux explosifs gobelins}</li><li><strong>Révéré</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.BvZspGvDW0qgkWYh]{Bottes-fusées gobelines}, @UUID[Compendium.lakour-warcraft.objets.Item.b5mbNGAfK8pUV4CW]{Œil-lunette gobelin}</li><li><strong>Exalté</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.kVrdN7ED5Tqsj51E]{Flacon des Titans de pierre}, Les gyroptères et les navires du Cartel gratuits, et une part dans une affaire de Cabestan.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703376025,
+        "modifiedTime": 1793703376035,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.qQByZbFuMlGSZDnO"
+    },
+    {
+      "_id": "ww8BkL4xPuKNqGfH",
+      "name": "Kirin Tor",
+      "type": "text",
+      "sort": 600,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Intendant :</strong> Magistère Aldren Vif-Argent, quartier-maître du Kirin Tor.<br>Le rez-de-chaussée de la tour des mages de Theramore, entre deux étagères de grimoires sauvés des ruines de Dalaran.</p><p>Affiliation correspondante : @UUID[Compendium.lakour-warcraft.dons.Item.lAIgVju2NPNoukwN]{Affiliation : Kirin Tor}. Un membre de l'ordre commence au moins <strong>Amical</strong>.</p><p><strong>Gagner de la réputation :</strong> artefacts et livres remis à l'ordre, gangrène ou nécromancie signalées, mages sauvés.</p><p><strong>En perdre :</strong> un artefact vendu en douce, un sort interdit lancé devant témoins, un mage de l'ordre blessé.</p><p><strong>Chez l'intendant</strong> (remise du palier sur le prix de l'objet)</p><ul><li><strong>Amical</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.TtyEZzHdraWaFyZJ]{Potion de mana mineure}</li><li><strong>Honoré</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.tvjslgMOwlg1Huhg]{Flacon de sagesse distillée}, @UUID[Compendium.lakour-warcraft.objets.Item.dC7nC8QHPLvBCVvK]{Robe de bataille du Kirin Tor}</li><li><strong>Révéré</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.iAz4smkqv66E9u16]{Anneau d'apprenti du Kirin Tor}</li><li><strong>Exalté</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.tErVskwRaDocz3Ca]{Lame de givre de Norfendre}, Un portail vers Theramore, une fois par aventure.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703376026,
+        "modifiedTime": 1793703376035,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.ww8BkL4xPuKNqGfH"
+    },
+    {
+      "_id": "EHNnJnuQD6FDlKTm",
+      "name": "Cercle cénarien",
+      "type": "text",
+      "sort": 700,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Intendant :</strong> Tahko Vent-Clair, gardien du Cercle aux oasis des Tarides.<br>Un bosquet de saules au bord d'une oasis du nord des Tarides, où un druide tauren reçoit sous un toit de branches vivantes.</p><p>Affiliation correspondante : @UUID[Compendium.lakour-warcraft.dons.Item.RnVwVIF5H7keFmPT]{Affiliation : Cercle cénarien}. Un membre de l'ordre commence au moins <strong>Amical</strong>.</p><p><strong>Gagner de la réputation :</strong> oasis et bêtes sauvées de la souillure, gangrène détruite, chasseurs trop gourmands raisonnés.</p><p><strong>En perdre :</strong> un bosquet brûlé, une bête rare tuée pour son trophée, un éclat de gangrène gardé pour soi.</p><p><strong>Chez l'intendant</strong> (remise du palier sur le prix de l'objet)</p><ul><li><strong>Amical</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.ir70JZS8pByBzcgW]{Bandage de lin}, @UUID[Compendium.lakour-warcraft.objets.Item.D2jD8VN39EjXu6ZT]{Potion de soins}</li><li><strong>Honoré</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.Z0W7UgodX2wAmxlT]{Gourdin totémique de Mulgore}, @UUID[Compendium.lakour-warcraft.objets.Item.DnuAjolIuMjbG2Y6]{Élixir de la mangouste}</li><li><strong>Révéré</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.hw03vyid2Xpb2fp1]{Totem de foudre}</li><li><strong>Exalté</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.hMD4lbHVMHxYEHQe]{Larme d'Élune}, Un refuge sûr dans chaque bosquet du Cercle, et un druide qui répond à l'appel une fois par aventure.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703376027,
+        "modifiedTime": 1793703376036,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.EHNnJnuQD6FDlKTm"
+    },
+    {
+      "_id": "UVpZIcalf9OoXcE2",
+      "name": "Chevaliers de la Main d'argent",
+      "type": "text",
+      "sort": 800,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Intendant :</strong> Frère Odric Pierrelune, quartier-maître des chevaliers.<br>La sacristie de la chapelle de Theramore, où l'on range autant d'armes que de livres de prières.</p><p>Affiliation correspondante : @UUID[Compendium.lakour-warcraft.dons.Item.W1l56Bc8SUy9Vtpq]{Affiliation : Chevaliers de la Main d'argent}. Un membre de l'ordre commence au moins <strong>Amical</strong>.</p><p><strong>Gagner de la réputation :</strong> réfugiés protégés, morts-vivants détruits, faibles défendus sans rien demander en retour.</p><p><strong>En perdre :</strong> un innocent abandonné, une cruauté inutile, un serment rompu.</p><p><strong>Chez l'intendant</strong> (remise du palier sur le prix de l'objet)</p><ul><li><strong>Amical</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.D2jD8VN39EjXu6ZT]{Potion de soins}</li><li><strong>Honoré</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.UBU5U0FcxL36RfLI]{Hallebarde de la Garde de Lordaeron}</li><li><strong>Révéré</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.yTqqjKemnaye9LcF]{Talisman de la Lumière}</li><li><strong>Exalté</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.xxkmvrZscyLWpVNd]{Marteau de la Main d'argent}, Un chevalier de l'ordre rejoint le groupe pour une aventure.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703376028,
+        "modifiedTime": 1793703376036,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.UVpZIcalf9OoXcE2"
+    },
+    {
+      "_id": "8s7sIL6aartekRgV",
+      "name": "Aube d'argent",
+      "type": "text",
+      "sort": 900,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Intendant :</strong> Sœur Linnea Clairmatin, émissaire de l'Aube d'argent.<br>Une chambre louée au-dessus de la taverne de Cabestan, transformée en relais de l'Aube : cartes des Maleterres, caisses de bandages, et un lit toujours libre.</p><p>Affiliation correspondante : @UUID[Compendium.lakour-warcraft.dons.Item.BczIP7lEKoKDvag9]{Affiliation : Aube d'argent}. Un membre de l'ordre commence au moins <strong>Amical</strong>.</p><p><strong>Gagner de la réputation :</strong> serviteurs du Fléau abattus, nécromanciens livrés, preuves de la peste rapportées.</p><p><strong>En perdre :</strong> un cadavre du Fléau laissé debout, un pacte avec un nécromancien, un allié de l'Aube abandonné.</p><p><strong>Chez l'intendant</strong> (remise du palier sur le prix de l'objet)</p><ul><li><strong>Amical</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.JpC7YtpnD69HcMEL]{Potion de soins majeure}</li><li><strong>Honoré</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.5Ts9VNSfpAw1Mj61]{Balles d'argent de Gilnéas}</li><li><strong>Révéré</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.F5rIuGiIcZeMyRf4]{Flacon de peau-de-pierre}</li><li><strong>Exalté</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.yj0hmd84QMgTIbHl]{Harnois de la Lumière}, Une place dans les bastions de l'Aube, où qu'ils soient.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703376029,
+        "modifiedTime": 1793703376037,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.8s7sIL6aartekRgV"
+    },
+    {
+      "_id": "l3fxFvgN8Ctps4lV",
+      "name": "Garde kor'kron",
+      "type": "text",
+      "sort": 1000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Intendant :</strong> Grizzak Œil-Fendu, intendant kor'kron.<br>Une tente noire au cœur du Carrefour, gardée jour et nuit. Grizzak n'ouvre qu'à qui porte une recommandation d'un vétéran.</p><p>Affiliation correspondante : @UUID[Compendium.lakour-warcraft.dons.Item.kmLDG33vQUMjNLfF]{Affiliation : Garde kor'kron}. Un membre de l'ordre commence au moins <strong>Amical</strong>.</p><p><strong>Gagner de la réputation :</strong> émissaires de la Horde protégés, traîtres démasqués, missions discrètes menées sans bavardage.</p><p><strong>En perdre :</strong> une mission ébruitée, un ordre discuté devant témoins, un Kor'kron abandonné.</p><p><strong>Chez l'intendant</strong> (remise du palier sur le prix de l'objet)</p><ul><li><strong>Amical</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.ovD4GSOtwBwQJg8k]{Hache de bataille kor'kron}</li><li><strong>Honoré</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.VzZjYMRYLxVzTyVT]{Bouclier de guerre kor'kron}</li><li><strong>Révéré</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.QRo4DNmnICFAXTgN]{Flacon de rage du kodo}</li><li><strong>Exalté</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.0gPjWrmgPDQfnMHl]{Brassards du gladiateur d'Orgrimmar}, Une escorte kor'kron pour une mission, sans question.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703376030,
+        "modifiedTime": 1793703376037,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.l3fxFvgN8Ctps4lV"
+    },
+    {
+      "_id": "ILu6ErXFmXOZ1Cf6",
+      "name": "Sentinelles",
+      "type": "text",
+      "sort": 1100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Intendant :</strong> Ilwen Ombre-Pâle, intendante des Sentinelles.<br>Un poste de guet dans les arbres de la lisière, au nord des Tarides, d'où l'on surveille les bûcherons de la Horde.</p><p>Affiliation correspondante : @UUID[Compendium.lakour-warcraft.dons.Item.zMZbZydzcl0hQp6W]{Affiliation : Sentinelles}. Un membre de l'ordre commence au moins <strong>Amical</strong>.</p><p><strong>Gagner de la réputation :</strong> forêts défendues, bûcherons dissuadés sans sang versé, démons pourchassés.</p><p><strong>En perdre :</strong> un arbre ancien abattu, une sentinelle blessée, un secret des elfes révélé.</p><p><strong>Chez l'intendant</strong> (remise du palier sur le prix de l'objet)</p><ul><li><strong>Amical</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.4r5DtbHkvTlAPXIZ]{Glaive de Sentinelle}</li><li><strong>Honoré</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.joIM6GbyDB2o5gpO]{Cuir clouté des Sentinelles}, @UUID[Compendium.lakour-warcraft.objets.Item.riJUdJWAnYCO8EF1]{Cape de Sentinelle}</li><li><strong>Révéré</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.kKU1DgREnb0OHQKy]{Glaive lunaire}</li><li><strong>Exalté</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.oQUen3FVYpTWNBs7]{Voile des Gardiennes}, Un sabre-de-nuit prêté pour une saison.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703376031,
+        "modifiedTime": 1793703376037,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.ILu6ErXFmXOZ1Cf6"
+    },
+    {
+      "_id": "nYlQO5gtTRkpSiiI",
+      "name": "Ligue des explorateurs",
+      "type": "text",
+      "sort": 1200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>Intendant :</strong> Bruni Martelfort, archiviste de la Ligue.<br>Le comptoir de la Ligue à Cabestan, un entrepôt encombré de caisses de fouilles, de cartes et de pierres gravées.</p><p>Affiliation correspondante : @UUID[Compendium.lakour-warcraft.dons.Item.8hS4NOZHHCXYpcCn]{Affiliation : Ligue des explorateurs}. Un membre de l'ordre commence au moins <strong>Amical</strong>.</p><p><strong>Gagner de la réputation :</strong> ruines cartographiées, artefacts rapportés intacts, notes de fouilles lisibles.</p><p><strong>En perdre :</strong> un site pillé, un artefact vendu au Cartel, une carte fausse.</p><p><strong>Chez l'intendant</strong> (remise du palier sur le prix de l'objet)</p><ul><li><strong>Amical</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.acOoYyOa8zrqWyED]{Balles de plomb de Forgefer}</li><li><strong>Honoré</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.rAAYTUjSK6WLkMRm]{Fusil à lunette de Dun Morogh}, @UUID[Compendium.lakour-warcraft.objets.Item.tKhjhOuHjsm8l7c9]{Maille lamellée de Forgefer}</li><li><strong>Révéré</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.RkyHhnteoPkAwrsX]{Poigne de Forgefer}</li><li><strong>Exalté</strong> : @UUID[Compendium.lakour-warcraft.objets.Item.1J6UNnF5tADPanFe]{Demi-plate en mithril de Khaz Modan}, Votre nom gravé sur la plaque des membres d'honneur, et l'accès aux archives de Forgefer.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703376032,
+        "modifiedTime": 1793703376038,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.nYlQO5gtTRkpSiiI"
+    }
+  ],
+  "sort": 0,
+  "_key": "!journal!uIWkSgn7SjyOj8nd"
+}

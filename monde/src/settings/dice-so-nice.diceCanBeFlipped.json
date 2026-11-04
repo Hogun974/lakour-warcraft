@@ -1,0 +1,18 @@
+{
+  "key": "dice-so-nice.diceCanBeFlipped",
+  "user": null,
+  "value": "true",
+  "_id": "EbPRaIm87BO321rs",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467827898,
+    "modifiedTime": 1793467827898,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!EbPRaIm87BO321rs"
+}

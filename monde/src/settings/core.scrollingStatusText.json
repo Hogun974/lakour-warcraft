@@ -1,0 +1,18 @@
+{
+  "key": "core.scrollingStatusText",
+  "user": null,
+  "value": "true",
+  "_id": "WQaNDnM7LpZjnGgh",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467827674,
+    "modifiedTime": 1793467827674,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!WQaNDnM7LpZjnGgh"
+}

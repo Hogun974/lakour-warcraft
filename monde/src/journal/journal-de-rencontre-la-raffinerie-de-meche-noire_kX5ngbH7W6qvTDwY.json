@@ -1,0 +1,183 @@
+{
+  "_id": "kX5ngbH7W6qvTDwY",
+  "name": "Journal de rencontre — La Raffinerie de Mèche-Noire",
+  "folder": "wNtgGHYLJnHwTJwh",
+  "categories": [],
+  "ownership": {
+    "default": 2
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "journal-de-rencontre-meche-noire",
+      "collection": "donjon-meche-noire",
+      "version": "0.10.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793630052129,
+    "modifiedTime": 1793703375800,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.lakour-warcraft.journaux.JournalEntry.kX5ngbH7W6qvTDwY",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "pages": [
+    {
+      "_id": "2qhVMqCt5UICWgG0",
+      "name": "La Raffinerie de Mèche-Noire",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><em>Une vieille mine de cuivre dans les collines au nord de Cabestan. Le Cartel Baille-Fonds l'a rachetée pour une bouchée de pain, et depuis, une fumée noire et grasse sort des cheminées d'aération jour et nuit. On parle d'ouvriers kobolds qui ne remontent plus, et d'une huile qui brûle même sous la pluie.</em></p><p><strong>Niveau conseillé :</strong> 5 (trois à cinq aventuriers). <strong>Durée :</strong> une séance.</p><p><strong>Rencontres</strong></p><ul><li><strong>Grokka Deux-Clés</strong>, contremaître ogre, au front de taille.</li><li><strong>Mère-Brasier</strong>, l'élémentaire enchaînée, au puits de la chaudière.</li><li><strong>Baron Nizzel Baille-Fonds</strong>, dans son Grand Déchiqueteur, à la galerie du broyeur.</li></ul><p><strong>Lire ce journal.</strong> Chaque page décrit un boss comme les éclaireurs l'ont rapporté : ses attaques, ce qu'il faut éviter au sol, et ce qui change quand il est à moitié vaincu. <em>Pour ceux qui encaissent</em>, <em>pour ceux qui soignent</em> et <em>pour ceux qui frappent</em> rappellent ce que chacun doit surveiller.</p><p><strong>Qualité du butin</strong> : commun (blanc), peu commun (vert), rare (bleu), très rare (violet). Les <strong>Gantelets ignifugés</strong> et les <strong>Lunettes de sûreté</strong> du contremaître forment l'ensemble « Tenue réglementaire de Mèche-Noire » : portés ensemble, ils accordent un bonus de plus.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375779,
+        "modifiedTime": 1793703375784,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!kX5ngbH7W6qvTDwY.2qhVMqCt5UICWgG0"
+    },
+    {
+      "_id": "CaLL4SxKRfqBEcW5",
+      "name": "Grokka Deux-Clés",
+      "type": "text",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><em>Un ogre de trois mètres en plaques de chaudière, deux clés à tube à la ceinture. Il garde le front de taille pour le baron, et compte les wagonnets en se trompant.</em></p><p><strong>Aperçu.</strong> Grokka frappe fort et pousse ses adversaires. Il fait pleuvoir des rivets sur ceux qui restent groupés, siffle ses ouvriers kobolds en renfort, et les wagonnets dévalent les rails sans prévenir… ou presque.</p><p><strong>Capacités</strong></p><ul><li><strong>Clé à tube</strong> : deux coups lourds par tour, qui repoussent les petites créatures.</li><li><strong>Boulon lancé</strong> : sur qui reste à distance.</li><li><strong>Pluie de rivets</strong> : trois cercles rouges de 3 m apparaissent au sol. Les rivets tombent au tour suivant de Grokka : <em>sortez des cercles.</em></li><li><strong>Coup de sifflet</strong> : deux kobolds surgissent d'une galerie latérale.</li><li><strong>Wagonnet fou</strong> : un grincement annonce la ligne des rails ; au début du round suivant, un wagonnet la balaie. <em>Ne restez pas sur les rails.</em></li></ul><p><strong>À la moitié de ses forces — Tuyau arraché.</strong> Grokka arrache une conduite d'huile : le sol autour de lui devient une nappe noire et glissante, que la moindre flamme embrase. Il frappe plus juste, mais se protège moins.</p><p><strong>Pour ceux qui encaissent :</strong> gardez-le dos à la paroi, loin des rails. <strong>Pour ceux qui soignent :</strong> restez hors des cercles, et ne lancez pas de feu dans l'huile. <strong>Pour ceux qui frappent :</strong> les kobolds d'abord s'ils sont trois ou plus.</p><p><strong>Butin possible</strong><br>- @UUID[Compendium.lakour-warcraft.objets.Item.o1X8rSvX8HBATOtt]{Clé à tube de Grokka} — peu commun (vert)<br>- @UUID[Compendium.lakour-warcraft.objets.Item.izTlgtk7EPEfFOO4]{Gantelets ignifugés du contremaître} — peu commun (vert)<br>- @UUID[Compendium.lakour-warcraft.objets.Item.q4nPH0xfdiJHhDM8]{Casque de mineur à lanterne} — commun (blanc)<br>- @UUID[Compendium.lakour-warcraft.objets.Item.JpC7YtpnD69HcMEL]{Potion de soins majeure} — peu commun (vert)</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375781,
+        "modifiedTime": 1793703375785,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!kX5ngbH7W6qvTDwY.CaLL4SxKRfqBEcW5"
+    },
+    {
+      "_id": "xgD9EFHUiaSaXn2E",
+      "name": "Mère-Brasier",
+      "type": "text",
+      "sort": 300,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><em>Une silhouette de flammes haute comme deux hommes, enchaînée à une énorme chaudière de cuivre. Elle chauffe les alambics de la raffinerie depuis des mois, et elle souffre.</em></p><p><strong>Aperçu.</strong> Tant que ses quatre chaînes tiennent, Mère-Brasier ne bouge pas, mais ses fouets de flammes portent loin. La chaudière derrière elle fait monter la pression : il faut fermer les vannes avant qu'elle ne crache sur toute la salle.</p><p><strong>Capacités</strong></p><ul><li><strong>Fouet de flammes</strong> : deux coups par tour ; la cible prend feu jusqu'à ce qu'on l'éteigne.</li><li><strong>Jet de vapeur</strong> : un cône de vapeur brûlante.</li><li><strong>Forme de feu</strong> : la frapper au contact brûle.</li><li><strong>Soupape hurlante</strong> : un sifflement aigu désigne l'une des trois bouches de vapeur ; au round suivant, elle crache une colonne brûlante. <em>Écartez-vous de la bouche qui siffle.</em> Chaque soupape fait monter la <strong>jauge de pression</strong>.</li><li><strong>Jauge de pression</strong> : à 4, Mère-Brasier frappe mieux ; à 6, toute la salle brûle. Une action à côté d'une vanne la fait baisser.</li><li><strong>Les chaînes</strong> : on peut les briser. Chaque chaîne brisée la blesse… mais la quatrième la libère.</li></ul><p><strong>À la moitié de ses forces — Les chaînes cèdent.</strong> Mère-Brasier se libère et se déplace vite ; chaque case qu'elle quitte devient une <strong>flaque de scories</strong> brûlante. La jauge ne monte plus.</p><p><strong>Pour ceux qui encaissent :</strong> dans la phase 2, entraînez-la loin des autres. <strong>Pour ceux qui soignent :</strong> éteignez les alliés en feu, cela compte. <strong>Pour ceux qui frappent :</strong> quelqu'un doit toujours être près d'une vanne. Et l'eau la blesse.</p><p><strong>Butin possible</strong><br>- @UUID[Compendium.lakour-warcraft.objets.Item.KU3SmSvUx0N53FCJ]{Cœur de braise captif} — rare (bleu)<br>- @UUID[Compendium.lakour-warcraft.objets.Item.a8lnV8qn64Glgrtr]{Flasque d'huile de feu} — commun (blanc)<br>- @UUID[Compendium.lakour-warcraft.objets.Item.VrpW4E2Bl9wYDBdc]{Fouet-chaîne de l'Enchaînée} — peu commun (vert)<br>- @UUID[Compendium.lakour-warcraft.objets.Item.TtyEZzHdraWaFyZJ]{Potion de mana mineure} — peu commun (vert)</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375782,
+        "modifiedTime": 1793703375786,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!kX5ngbH7W6qvTDwY.xgD9EFHUiaSaXn2E"
+    },
+    {
+      "_id": "kGwFVV7g1A9okalE",
+      "name": "Baron Nizzel Baille-Fonds",
+      "type": "text",
+      "sort": 400,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><em>Un petit gobelin en redingote dorée, à l'abri derrière la vitre blindée d'un déchiqueteur de quatre mètres hérissé de scies et de lance-fusées. Il hurle des ordres, des insultes et des prix.</em></p><p><strong>Aperçu.</strong> Le Grand Déchiqueteur découpe tout ce qui l'approche, verrouille ses fusées sur un aventurier, sème des mines et balaie la galerie de flammes. Les tapis roulants de la galerie emportent tout le monde vers le broyeur.</p><p><strong>Capacités</strong></p><ul><li><strong>Scie circulaire</strong> et <strong>Pince hydraulique</strong> : coups terribles ; la pince retient sa proie.</li><li><strong>Salve verrouillée</strong> : une cible rouge s'allume sous les pieds d'un aventurier. À la fin de son tour suivant, des fusées frappent 3 m autour de lui. <em>La cible s'écarte des autres, les autres s'écartent d'elle.</em></li><li><strong>Lance-flammes rotatif</strong> : un large cône de feu.</li><li><strong>Mines sauteuses</strong> : deux mines tombent au sol, bien visibles. <em>Ne marchez pas dessus, ni à côté.</em></li><li><strong>Tapis roulant</strong> : à chaque round, les tapis avancent de 3 m vers le broyeur. <em>Sautez avant le bout.</em></li></ul><p><strong>À la moitié de ses forces — Surcharge du réacteur.</strong> Le blindage saute : la machine frappe plus fort mais se protège moins, une chaleur insoutenable brûle quiconque reste à son contact, et les tapis roulants changent de sens, vers la fosse aux scories.</p><p><strong>Pour ceux qui encaissent :</strong> tenez-le loin des tapis ; en phase 2, alternez au contact. <strong>Pour ceux qui soignent :</strong> gardez une réserve pour la salve. <strong>Pour ceux qui frappent :</strong> le baron s'éjecte quand sa machine tombe : quelqu'un doit être prêt à le rattraper.</p><p><strong>Butin possible</strong><br>- @UUID[Compendium.lakour-warcraft.objets.Item.PbPhgB8CMVf1lOmi]{Lunettes de sûreté du contremaître} — peu commun (vert)<br>- @UUID[Compendium.lakour-warcraft.objets.Item.DUTBe5MhGXNhmG4w]{Pistolet-fusée du baron} — rare (bleu)<br>- @UUID[Compendium.lakour-warcraft.objets.Item.hGE8PsZTAtnG0kwk]{Bottes à ressorts Baille-Fonds} — peu commun (vert)<br>- @UUID[Compendium.lakour-warcraft.objets.Item.QCQO8txrQq1KUHs9]{Moteur à huile de feu miniature} — ordinaire<br>- @UUID[Compendium.lakour-warcraft.objets.Item.VZcn4yVHakxr92pi]{Registre du Cartel Baille-Fonds} — ordinaire</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375784,
+        "modifiedTime": 1793703375786,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!kX5ngbH7W6qvTDwY.kGwFVV7g1A9okalE"
+    }
+  ],
+  "sort": 0,
+  "_key": "!journal!kX5ngbH7W6qvTDwY"
+}

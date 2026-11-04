@@ -1,0 +1,18 @@
+{
+  "key": "dice-so-nice.formatVersion",
+  "user": null,
+  "value": "\"6.4\"",
+  "_id": "LghsjsjIzxub9HE0",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467706501,
+    "modifiedTime": 1793467706501,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!LghsjsjIzxub9HE0"
+}

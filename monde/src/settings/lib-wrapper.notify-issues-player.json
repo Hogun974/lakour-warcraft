@@ -1,0 +1,18 @@
+{
+  "key": "lib-wrapper.notify-issues-player",
+  "user": null,
+  "value": "false",
+  "_id": "a48roEHTqDeKGBnM",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467828693,
+    "modifiedTime": 1793467828693,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!a48roEHTqDeKGBnM"
+}

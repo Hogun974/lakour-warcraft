@@ -1,0 +1,18 @@
+{
+  "key": "autoanimations.EnableCritical",
+  "user": null,
+  "value": "false",
+  "_id": "ujoRnSv8irStc4V1",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793592372633,
+    "modifiedTime": 1793592372633,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!ujoRnSv8irStc4V1"
+}

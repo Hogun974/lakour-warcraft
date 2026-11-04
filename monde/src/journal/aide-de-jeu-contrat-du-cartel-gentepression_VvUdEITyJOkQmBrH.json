@@ -1,0 +1,106 @@
+{
+  "name": "Aide de jeu — Contrat du Cartel Gentepression",
+  "folder": "wNtgGHYLJnHwTJwh",
+  "categories": [],
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "contrat-du-cartel",
+      "version": "0.10.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793512298353,
+    "modifiedTime": 1793703375993,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.lakour-warcraft.journaux.JournalEntry.smYCJHsMjBH3NMR7",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "pages": [
+    {
+      "_id": "8l32qFD0O86tiivi",
+      "name": "Contrat du Cartel",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>CARTEL GENTEPRESSION — Comptoir de Cabestan</strong></p><p><em>Contrat de service, à durée limitée, payable à la livraison.</em></p><p>Les porteurs du présent contrat sont chargés par le Cartel de trouver la cause de la corruption des eaux des Tarides et d'y mettre fin, par tout moyen qui ne coûte rien au Cartel.</p><ul><li>Rémunération : 50 pièces d'or par contractant, versées au retour.</li><li>Prime : 100 pièces d'or pour le groupe si la cause est détruite (preuve exigée).</li><li>Frais : un kodo de bât, prêté (tout kodo perdu sera facturé).</li><li>Le contractant reconnaît que la Trêve de Cabestan s'applique à lui dans l'enceinte du port.</li></ul><p><em>Le Cartel décline toute responsabilité en cas de décès, de démembrement, de malédiction ou de goût de cendre persistant.</em></p><p><em>Pour le Cartel : G. Tordeboulon, intendante.</em>  <em>(Tampon de cire dorée en forme de roue dentée.)</em></p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375983,
+        "modifiedTime": 1793703375985,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!VvUdEITyJOkQmBrH.8l32qFD0O86tiivi"
+    },
+    {
+      "_id": "JAc4rrFxZoLgd40W",
+      "name": "La Trêve de Cabestan",
+      "type": "text",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><em>Affiché sur chaque quai, en commun, en orc et en gobelin :</em></p><p><strong>PAR ORDRE DU CARTEL</strong></p><ul><li>Dans Cabestan, on ne se bat pas entre Horde et Alliance. Jamais.</li><li>Qui tire le premier paie les dégâts, les soins, et l'amende.</li><li>Les gardes du port ont toujours raison.</li><li>Les affaires sont les affaires.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375985,
+        "modifiedTime": 1793703375985,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!VvUdEITyJOkQmBrH.JAc4rrFxZoLgd40W"
+    }
+  ],
+  "ownership": {
+    "default": 2
+  },
+  "_id": "VvUdEITyJOkQmBrH",
+  "sort": 0,
+  "_key": "!journal!VvUdEITyJOkQmBrH"
+}

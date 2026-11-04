@@ -1,0 +1,23 @@
+{
+  "_id": "pUMpaHTXXu1Jgzxj",
+  "name": "La Kour Warcraft",
+  "type": "Compendium",
+  "sorting": "m",
+  "sort": 600000,
+  "color": "#1a3a5a",
+  "folder": null,
+  "description": "",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793512282946,
+    "modifiedTime": 1793512282946,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!pUMpaHTXXu1Jgzxj"
+}

@@ -1,0 +1,18 @@
+{
+  "key": "babele.mappingFiles",
+  "user": null,
+  "value": "[\"modules/dnd5e_fr-FR/compendium_fr/mappings.json\"]",
+  "_id": "CF27SljgaNs3fTKL",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467707679,
+    "modifiedTime": 1793592248946,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!CF27SljgaNs3fTKL"
+}

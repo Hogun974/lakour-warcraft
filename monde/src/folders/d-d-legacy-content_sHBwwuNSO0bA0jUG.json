@@ -1,0 +1,23 @@
+{
+  "_id": "sHBwwuNSO0bA0jUG",
+  "name": "D&D Legacy Content",
+  "type": "Compendium",
+  "sorting": "m",
+  "sort": 200000,
+  "color": "#cd2c1e",
+  "folder": null,
+  "description": "",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793512282947,
+    "modifiedTime": 1793512282947,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!sHBwwuNSO0bA0jUG"
+}

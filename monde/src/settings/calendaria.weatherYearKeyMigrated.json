@@ -1,0 +1,18 @@
+{
+  "key": "calendaria.weatherYearKeyMigrated",
+  "user": null,
+  "value": "true",
+  "_id": "Yw5pYuGiPWHjDB5i",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793591655122,
+    "modifiedTime": 1793591655122,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!Yw5pYuGiPWHjDB5i"
+}

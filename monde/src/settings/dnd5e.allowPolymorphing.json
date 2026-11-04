@@ -1,0 +1,18 @@
+{
+  "key": "dnd5e.allowPolymorphing",
+  "user": null,
+  "value": "false",
+  "_id": "cCgwMwwHQ6CCcJk6",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467827807,
+    "modifiedTime": 1793467827807,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!cCgwMwwHQ6CCcJk6"
+}

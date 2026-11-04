@@ -1,0 +1,18 @@
+{
+  "key": "dnd5e.metricLengthUnits",
+  "user": null,
+  "value": "true",
+  "_id": "jj9rxGRjCcECInto",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467562584,
+    "modifiedTime": 1793512298994,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!jj9rxGRjCcECInto"
+}

@@ -1,0 +1,18 @@
+{
+  "key": "item-piles.itemClassWeaponType",
+  "user": null,
+  "value": "\"weapon\"",
+  "_id": "7VpgQJiGOuQtluAN",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793591653784,
+    "modifiedTime": 1793591653784,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!7VpgQJiGOuQtluAN"
+}

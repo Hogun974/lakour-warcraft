@@ -1,0 +1,18 @@
+{
+  "key": "sequencer.permissions-effect-create",
+  "user": null,
+  "value": "0",
+  "_id": "jVKwdC2yK835ioj4",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793592372732,
+    "modifiedTime": 1793592372732,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!jVKwdC2yK835ioj4"
+}

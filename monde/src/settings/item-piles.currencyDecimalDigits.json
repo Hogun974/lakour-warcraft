@@ -1,0 +1,18 @@
+{
+  "key": "item-piles.currencyDecimalDigits",
+  "user": null,
+  "value": "0.00001",
+  "_id": "u14aC72q348sBJgX",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793591653506,
+    "modifiedTime": 1793591653506,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!u14aC72q348sBJgX"
+}

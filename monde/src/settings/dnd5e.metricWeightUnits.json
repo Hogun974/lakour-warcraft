@@ -1,0 +1,18 @@
+{
+  "key": "dnd5e.metricWeightUnits",
+  "user": null,
+  "value": "true",
+  "_id": "kEC9hne3H2k3tXUB",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467562573,
+    "modifiedTime": 1793512298998,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!kEC9hne3H2k3tXUB"
+}

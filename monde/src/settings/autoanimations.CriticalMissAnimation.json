@@ -1,0 +1,18 @@
+{
+  "key": "autoanimations.CriticalMissAnimation",
+  "user": null,
+  "value": "\"\"",
+  "_id": "FYlxTjC1norEc3nf",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793592372651,
+    "modifiedTime": 1793592372651,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!FYlxTjC1norEc3nf"
+}

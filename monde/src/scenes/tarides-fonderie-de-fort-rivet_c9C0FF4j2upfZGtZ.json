@@ -1,0 +1,2937 @@
+{
+  "name": "Tarides — Fonderie de Fort-Rivet",
+  "navName": "Tarides — Fonderie de Fort-Rivet",
+  "navigation": false,
+  "width": 2800,
+  "height": 2000,
+  "padding": 0,
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "distance": 1.5,
+    "units": "m",
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0.2
+  },
+  "tokenVision": true,
+  "environment": {
+    "darknessLevel": 0.5,
+    "globalLight": {
+      "enabled": false,
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "luminosity": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "darknessLock": false,
+    "cycle": true,
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "levels": [
+    {
+      "_id": "defaultLevel0000",
+      "name": "Niveau principal",
+      "elevation": {
+        "bottom": 0,
+        "top": null
+      },
+      "background": {
+        "color": "#18181b",
+        "src": "modules/lakour-warcraft/assets/cartes/3d/fonderie-fort-rivet.svg",
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "flags": {},
+      "foreground": {
+        "src": null,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "fog": {
+        "src": null
+      },
+      "textures": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0
+      },
+      "visibility": {
+        "levels": []
+      },
+      "sort": 0,
+      "_key": "!scenes.levels!c9C0FF4j2upfZGtZ.defaultLevel0000"
+    }
+  ],
+  "initialLevel": "defaultLevel0000",
+  "walls": [
+    {
+      "c": [
+        0,
+        0,
+        2800,
+        0
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "h1QR6YRMzQwNB501",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.h1QR6YRMzQwNB501"
+    },
+    {
+      "c": [
+        100,
+        100,
+        800,
+        100
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "rHN3bzE2xA43uMog",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.rHN3bzE2xA43uMog"
+    },
+    {
+      "c": [
+        900,
+        100,
+        2100,
+        100
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "ASBWxsUFBSSuNIQT",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.ASBWxsUFBSSuNIQT"
+    },
+    {
+      "c": [
+        2200,
+        100,
+        2800,
+        100
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "lXUUMSlh6Q3zhThl",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.lXUUMSlh6Q3zhThl"
+    },
+    {
+      "c": [
+        100,
+        600,
+        400,
+        600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "ReWGyDukhjhoDCSk",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.ReWGyDukhjhoDCSk"
+    },
+    {
+      "c": [
+        500,
+        600,
+        800,
+        600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "GkANOLMikKn1CFp1",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.GkANOLMikKn1CFp1"
+    },
+    {
+      "c": [
+        900,
+        900,
+        1400,
+        900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "6SkoZI6qYIEiiVkf",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.6SkoZI6qYIEiiVkf"
+    },
+    {
+      "c": [
+        1700,
+        900,
+        2100,
+        900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "bYcpHnA17Ghdg4cY",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.bYcpHnA17Ghdg4cY"
+    },
+    {
+      "c": [
+        2200,
+        900,
+        2800,
+        900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "1MmAkC8k2EhRXGqw",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.1MmAkC8k2EhRXGqw"
+    },
+    {
+      "c": [
+        100,
+        1200,
+        400,
+        1200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "W4FTNcZsEXJPJMXU",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.W4FTNcZsEXJPJMXU"
+    },
+    {
+      "c": [
+        500,
+        1200,
+        900,
+        1200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "iJQ6rXQQ1Gdh0D0p",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.iJQ6rXQQ1Gdh0D0p"
+    },
+    {
+      "c": [
+        1100,
+        1200,
+        1400,
+        1200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "3DAF9Nc3UgM0u6GJ",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.3DAF9Nc3UgM0u6GJ"
+    },
+    {
+      "c": [
+        1700,
+        1200,
+        2000,
+        1200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "ICFX8WQxXeGUk41i",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.ICFX8WQxXeGUk41i"
+    },
+    {
+      "c": [
+        2200,
+        1200,
+        2800,
+        1200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "h7KJj4H7xtnRLQfH",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.h7KJj4H7xtnRLQfH"
+    },
+    {
+      "c": [
+        100,
+        1900,
+        900,
+        1900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "qh3TySi14ygQ0jVJ",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.qh3TySi14ygQ0jVJ"
+    },
+    {
+      "c": [
+        1100,
+        1900,
+        2000,
+        1900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "p6YZbGf9O82tls9Z",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.p6YZbGf9O82tls9Z"
+    },
+    {
+      "c": [
+        0,
+        2000,
+        2800,
+        2000
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "caXtjck2KbsB2TJC",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.caXtjck2KbsB2TJC"
+    },
+    {
+      "c": [
+        0,
+        0,
+        0,
+        2000
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "04NvoHQboqv2c7sM",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.04NvoHQboqv2c7sM"
+    },
+    {
+      "c": [
+        100,
+        100,
+        100,
+        300
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "Xb9TWoRiBJkdVMzg",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.Xb9TWoRiBJkdVMzg"
+    },
+    {
+      "c": [
+        100,
+        400,
+        100,
+        600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "uC3D9RVu9hM2i2BO",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.uC3D9RVu9hM2i2BO"
+    },
+    {
+      "c": [
+        100,
+        1200,
+        100,
+        1900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "B1KpivbXeWq1kHXK",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.B1KpivbXeWq1kHXK"
+    },
+    {
+      "c": [
+        800,
+        100,
+        800,
+        600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "oDTKCRpVP9AY9mAH",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.oDTKCRpVP9AY9mAH"
+    },
+    {
+      "c": [
+        900,
+        100,
+        900,
+        400
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "yyRQsjmZQkiKwB7Y",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.yyRQsjmZQkiKwB7Y"
+    },
+    {
+      "c": [
+        900,
+        500,
+        900,
+        900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "36fNfssVeWkxzHcy",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.36fNfssVeWkxzHcy"
+    },
+    {
+      "c": [
+        900,
+        1200,
+        900,
+        1600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "B40ncjKNUlqFRE8l",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.B40ncjKNUlqFRE8l"
+    },
+    {
+      "c": [
+        900,
+        1700,
+        900,
+        1900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "P1KELpwQjAYF2qcO",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.P1KELpwQjAYF2qcO"
+    },
+    {
+      "c": [
+        1100,
+        1200,
+        1100,
+        1900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "WIbtExVDGE6HVpTS",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.WIbtExVDGE6HVpTS"
+    },
+    {
+      "c": [
+        2000,
+        1200,
+        2000,
+        1700
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "g8d7m7QA18cufGo0",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.g8d7m7QA18cufGo0"
+    },
+    {
+      "c": [
+        2000,
+        1800,
+        2000,
+        1900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "3oSh8ldkrEftPbVk",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.3oSh8ldkrEftPbVk"
+    },
+    {
+      "c": [
+        2100,
+        100,
+        2100,
+        400
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "KZaHae9uOPBUcP62",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.KZaHae9uOPBUcP62"
+    },
+    {
+      "c": [
+        2100,
+        500,
+        2100,
+        900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "4nN61EOhBarXzX2A",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.4nN61EOhBarXzX2A"
+    },
+    {
+      "c": [
+        2200,
+        100,
+        2200,
+        600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "fTtDpGteQ4QVtocL",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.fTtDpGteQ4QVtocL"
+    },
+    {
+      "c": [
+        2200,
+        700,
+        2200,
+        900
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "bLTAQqYZIkksJvB2",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.bLTAQqYZIkksJvB2"
+    },
+    {
+      "c": [
+        2200,
+        1200,
+        2200,
+        1300
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "b5NCvWeWyKhEIKjz",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.b5NCvWeWyKhEIKjz"
+    },
+    {
+      "c": [
+        2200,
+        1600,
+        2200,
+        2000
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "DeEsrGDUMdTNpxRX",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.DeEsrGDUMdTNpxRX"
+    },
+    {
+      "c": [
+        2800,
+        0,
+        2800,
+        2000
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "gLbaJFjxKb0sFDoc",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.gLbaJFjxKb0sFDoc"
+    },
+    {
+      "c": [
+        400,
+        600,
+        500,
+        600
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 1,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "3061LayL5QPTPgxD",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.3061LayL5QPTPgxD"
+    },
+    {
+      "c": [
+        400,
+        1200,
+        500,
+        1200
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 1,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "TXP6oyoMAP92F1xS",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.TXP6oyoMAP92F1xS"
+    },
+    {
+      "c": [
+        100,
+        300,
+        100,
+        400
+      ],
+      "move": 20,
+      "sight": 0,
+      "light": 0,
+      "sound": 20,
+      "door": 0,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "rIyNsXTcy1J30R4W",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.rIyNsXTcy1J30R4W"
+    },
+    {
+      "c": [
+        900,
+        400,
+        900,
+        500
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 1,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "x8AbPbYMtKLrOrkp",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.x8AbPbYMtKLrOrkp"
+    },
+    {
+      "c": [
+        900,
+        1600,
+        900,
+        1700
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 1,
+      "ds": 2,
+      "dir": 0,
+      "levels": [],
+      "_id": "0D2ZS56Vxza50JRu",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.0D2ZS56Vxza50JRu"
+    },
+    {
+      "c": [
+        2000,
+        1700,
+        2000,
+        1800
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 2,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "hcdaaxSOfL8wQl3p",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.hcdaaxSOfL8wQl3p"
+    },
+    {
+      "c": [
+        2100,
+        400,
+        2100,
+        500
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 1,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "vWMZF3FgMvqxAnZP",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.vWMZF3FgMvqxAnZP"
+    },
+    {
+      "c": [
+        2200,
+        600,
+        2200,
+        700
+      ],
+      "move": 20,
+      "sight": 20,
+      "light": 20,
+      "sound": 20,
+      "door": 1,
+      "ds": 0,
+      "dir": 0,
+      "levels": [],
+      "_id": "yiYXIT2uafbrVcVF",
+      "flags": {},
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "_key": "!scenes.walls!c9C0FF4j2upfZGtZ.yiYXIT2uafbrVcVF"
+    }
+  ],
+  "drawings": [
+    {
+      "x": 0,
+      "y": 0,
+      "shape": {
+        "type": "r",
+        "width": 2800,
+        "height": 2000,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Cour de la fonderie",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1000,
+      "_id": "ZIDKP0h4XsLqNhK6",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!c9C0FF4j2upfZGtZ.ZIDKP0h4XsLqNhK6"
+    },
+    {
+      "x": 100,
+      "y": 100,
+      "shape": {
+        "type": "r",
+        "width": 700,
+        "height": 500,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Bureau de Vizzik",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1001,
+      "_id": "cPRvH8GQzwfgRanp",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!c9C0FF4j2upfZGtZ.cPRvH8GQzwfgRanp"
+    },
+    {
+      "x": 900,
+      "y": 100,
+      "shape": {
+        "type": "r",
+        "width": 1200,
+        "height": 800,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Halle des machines",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1002,
+      "_id": "6R38PWGtcNKlQfdC",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!c9C0FF4j2upfZGtZ.6R38PWGtcNKlQfdC"
+    },
+    {
+      "x": 2200,
+      "y": 100,
+      "shape": {
+        "type": "r",
+        "width": 600,
+        "height": 800,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Haut-fourneau",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1003,
+      "_id": "az7rbgxBlQUSJ8xB",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!c9C0FF4j2upfZGtZ.az7rbgxBlQUSJ8xB"
+    },
+    {
+      "x": 100,
+      "y": 1200,
+      "shape": {
+        "type": "r",
+        "width": 800,
+        "height": 700,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Entrepôt des minerais",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1004,
+      "_id": "VsM26WK4DUyh7VGN",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!c9C0FF4j2upfZGtZ.VsM26WK4DUyh7VGN"
+    },
+    {
+      "x": 1100,
+      "y": 1200,
+      "shape": {
+        "type": "r",
+        "width": 900,
+        "height": 700,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Atelier des déchiqueteurs",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1005,
+      "_id": "BbCEQGxhAslg12AB",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!c9C0FF4j2upfZGtZ.BbCEQGxhAslg12AB"
+    },
+    {
+      "x": 2200,
+      "y": 1200,
+      "shape": {
+        "type": "r",
+        "width": 600,
+        "height": 800,
+        "radius": null,
+        "points": []
+      },
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0,
+      "levels": [],
+      "text": "Quai du zeppelin",
+      "fontSize": 33,
+      "textColor": "#ffffff",
+      "textAlpha": 0.8,
+      "hidden": true,
+      "sort": 1006,
+      "_id": "WnTl0hFhsOi059Ht",
+      "flags": {},
+      "author": null,
+      "elevation": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "texture": null,
+      "fontFamily": "",
+      "locked": false,
+      "interface": false,
+      "_key": "!scenes.drawings!c9C0FF4j2upfZGtZ.WnTl0hFhsOi059Ht"
+    }
+  ],
+  "lights": [
+    {
+      "x": 450,
+      "y": 350,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 3,
+        "bright": 1.5,
+        "color": "#ffcc88",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "angle": 360,
+        "attenuation": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "_id": "HNIaFEUgUHynMcaO",
+      "flags": {},
+      "rotation": 0,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "_key": "!scenes.lights!c9C0FF4j2upfZGtZ.HNIaFEUgUHynMcaO"
+    },
+    {
+      "x": 1550,
+      "y": 450,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 4.5,
+        "bright": 2.5,
+        "color": "#66ff44",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "angle": 360,
+        "attenuation": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "_id": "DFjfKxCLNgOTC140",
+      "flags": {},
+      "rotation": 0,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "_key": "!scenes.lights!c9C0FF4j2upfZGtZ.DFjfKxCLNgOTC140"
+    },
+    {
+      "x": 2550,
+      "y": 450,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 6,
+        "bright": 3,
+        "color": "#ff7a20",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "angle": 360,
+        "attenuation": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "_id": "CRUcjwJfY3lExw0g",
+      "flags": {},
+      "rotation": 0,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "_key": "!scenes.lights!c9C0FF4j2upfZGtZ.CRUcjwJfY3lExw0g"
+    },
+    {
+      "x": 1050,
+      "y": 1050,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 4.5,
+        "bright": 2.5,
+        "color": "#ffb060",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "angle": 360,
+        "attenuation": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "_id": "pfnbIB2PScczc0G0",
+      "flags": {},
+      "rotation": 0,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "_key": "!scenes.lights!c9C0FF4j2upfZGtZ.pfnbIB2PScczc0G0"
+    },
+    {
+      "x": 1550,
+      "y": 1550,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 4.5,
+        "bright": 2.5,
+        "color": "#ffaa55",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "angle": 360,
+        "attenuation": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "_id": "1ZX3dxnBVLXzm1ky",
+      "flags": {},
+      "rotation": 0,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "_key": "!scenes.lights!c9C0FF4j2upfZGtZ.1ZX3dxnBVLXzm1ky"
+    },
+    {
+      "x": 2550,
+      "y": 1550,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 3,
+        "bright": 1.5,
+        "color": "#ffddaa",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "angle": 360,
+        "attenuation": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "_id": "PhKzYhTNMax5oRbm",
+      "flags": {},
+      "rotation": 0,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "_key": "!scenes.lights!c9C0FF4j2upfZGtZ.PhKzYhTNMax5oRbm"
+    },
+    {
+      "x": 650,
+      "y": 1750,
+      "elevation": 0,
+      "levels": [],
+      "walls": true,
+      "config": {
+        "dim": 1.5,
+        "bright": 1,
+        "color": "#66ff44",
+        "alpha": 0.4,
+        "coloration": 1,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "angle": 360,
+        "attenuation": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "_id": "0RwkZ7oSw2cuTmhT",
+      "flags": {},
+      "rotation": 0,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "_key": "!scenes.lights!c9C0FF4j2upfZGtZ.0RwkZ7oSw2cuTmhT"
+    }
+  ],
+  "tokens": [],
+  "notes": [
+    {
+      "entryId": "l9Z35U9aNrBezqfv",
+      "pageId": "bzoOX8ZhHXVUDHYR",
+      "x": 450,
+      "y": 350,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/coins.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "text": "Vizzik Tirelire — le retourner",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "QpLJ50E8fg8rOwIh",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "author": null,
+      "_key": "!scenes.notes!c9C0FF4j2upfZGtZ.QpLJ50E8fg8rOwIh"
+    },
+    {
+      "entryId": "l9Z35U9aNrBezqfv",
+      "pageId": "bzoOX8ZhHXVUDHYR",
+      "x": 250,
+      "y": 450,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "text": "Étagère de registres (indice)",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "mTYAuVVnlfDabKTE",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "author": null,
+      "_key": "!scenes.notes!c9C0FF4j2upfZGtZ.mTYAuVVnlfDabKTE"
+    },
+    {
+      "entryId": "l9Z35U9aNrBezqfv",
+      "pageId": "bzoOX8ZhHXVUDHYR",
+      "x": 650,
+      "y": 150,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/chest.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "text": "Coffre-fort (indice)",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "5cLkGtdaL2kFVQt1",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "author": null,
+      "_key": "!scenes.notes!c9C0FF4j2upfZGtZ.5cLkGtdaL2kFVQt1"
+    },
+    {
+      "entryId": "l9Z35U9aNrBezqfv",
+      "pageId": "bzoOX8ZhHXVUDHYR",
+      "x": 1750,
+      "y": 550,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/fire.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "text": "Moteur à éclat — la Braise",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "PlLirFUfPlBb6E5x",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "author": null,
+      "_key": "!scenes.notes!c9C0FF4j2upfZGtZ.PlLirFUfPlBb6E5x"
+    },
+    {
+      "entryId": "l9Z35U9aNrBezqfv",
+      "pageId": "bzoOX8ZhHXVUDHYR",
+      "x": 1350,
+      "y": 1050,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/poison.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "text": "Ouvriers malades (indice)",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "CuyQ6WstFwPMYJxi",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "author": null,
+      "_key": "!scenes.notes!c9C0FF4j2upfZGtZ.CuyQ6WstFwPMYJxi"
+    },
+    {
+      "entryId": "l9Z35U9aNrBezqfv",
+      "pageId": "bzoOX8ZhHXVUDHYR",
+      "x": 550,
+      "y": 1750,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/padlock.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "text": "Caisses scellées (indice)",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "Vib6e4At9gMNytvB",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "author": null,
+      "_key": "!scenes.notes!c9C0FF4j2upfZGtZ.Vib6e4At9gMNytvB"
+    },
+    {
+      "entryId": "l9Z35U9aNrBezqfv",
+      "pageId": "bzoOX8ZhHXVUDHYR",
+      "x": 1550,
+      "y": 1450,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/clockwork.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "text": "Déchiqueteur et sifflet",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "QM437P4rDmhhM5jV",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "author": null,
+      "_key": "!scenes.notes!c9C0FF4j2upfZGtZ.QM437P4rDmhhM5jV"
+    },
+    {
+      "entryId": "l9Z35U9aNrBezqfv",
+      "pageId": "bzoOX8ZhHXVUDHYR",
+      "x": 2350,
+      "y": 1350,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/combat.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+      },
+      "iconSize": 40,
+      "text": "Minuit : le courrier du zeppelin",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "0fagZn7mR7kYC3LQ",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "author": null,
+      "_key": "!scenes.notes!c9C0FF4j2upfZGtZ.0fagZn7mR7kYC3LQ"
+    }
+  ],
+  "sounds": [
+    {
+      "name": "forge — Moteur à éclat",
+      "x": 1550,
+      "y": 450,
+      "elevation": 0,
+      "levels": [],
+      "radius": 6,
+      "path": "modules/lakour-mj-ia/assets/sons/forge.wav",
+      "repeat": true,
+      "volume": 0.3,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "QF9NTaHxHYbuulyu",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "effects": {
+        "base": {
+          "intensity": 5
+        },
+        "muffled": {
+          "intensity": 5
+        }
+      },
+      "_key": "!scenes.sounds!c9C0FF4j2upfZGtZ.QF9NTaHxHYbuulyu"
+    },
+    {
+      "name": "forge — Creuset",
+      "x": 2550,
+      "y": 450,
+      "elevation": 0,
+      "levels": [],
+      "radius": 6,
+      "path": "modules/lakour-mj-ia/assets/sons/forge.wav",
+      "repeat": true,
+      "volume": 0.3,
+      "walls": true,
+      "easing": true,
+      "hidden": false,
+      "locked": false,
+      "_id": "aVjqZApA419oFITs",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "effects": {
+        "base": {
+          "intensity": 5
+        },
+        "muffled": {
+          "intensity": 5
+        }
+      },
+      "_key": "!scenes.sounds!c9C0FF4j2upfZGtZ.aVjqZApA419oFITs"
+    }
+  ],
+  "regions": [
+    {
+      "_id": "IRKL6k5K9mXCjGCo",
+      "name": "Bureau de Vizzik",
+      "color": "#4f8cc9",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 100,
+          "y": 100,
+          "width": 700,
+          "height": 500,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "sJ37iyz5aE67jvul",
+          "name": "Bureau de Vizzik",
+          "disabled": false,
+          "flags": {},
+          "type": "displayScrollingText",
+          "system": {
+            "events": [
+              "tokenAnimateIn"
+            ],
+            "text": "Sur la porte, une plaque de cuivre bien astiquée : « Tout se négocie. Sauf mon temps. »",
+            "color": "#ffffff",
+            "visibility": 2,
+            "once": true
+          },
+          "_stats": {
+            "coreVersion": "14.369",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.6",
+            "createdTime": 1793703377479,
+            "modifiedTime": 1793703377479,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!scenes.regions.behaviors!c9C0FF4j2upfZGtZ.IRKL6k5K9mXCjGCo.sJ37iyz5aE67jvul"
+        }
+      ],
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "_shapeConstraints": null,
+      "_key": "!scenes.regions!c9C0FF4j2upfZGtZ.IRKL6k5K9mXCjGCo"
+    },
+    {
+      "_id": "cBbVw1Qm2iMzLEVa",
+      "name": "Halle des machines",
+      "color": "#4f8cc9",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 900,
+          "y": 100,
+          "width": 1200,
+          "height": 800,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "UhhhsobMdXCv8CHZ",
+          "name": "Halle des machines",
+          "disabled": false,
+          "flags": {},
+          "type": "displayScrollingText",
+          "system": {
+            "events": [
+              "tokenAnimateIn"
+            ],
+            "text": "Le sol tremble sous les bottes. Ça sent le cuivre chaud et l'orage.",
+            "color": "#ffffff",
+            "visibility": 2,
+            "once": true
+          },
+          "_stats": {
+            "coreVersion": "14.369",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.6",
+            "createdTime": 1793703377481,
+            "modifiedTime": 1793703377481,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!scenes.regions.behaviors!c9C0FF4j2upfZGtZ.cBbVw1Qm2iMzLEVa.UhhhsobMdXCv8CHZ"
+        }
+      ],
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "_shapeConstraints": null,
+      "_key": "!scenes.regions!c9C0FF4j2upfZGtZ.cBbVw1Qm2iMzLEVa"
+    },
+    {
+      "_id": "LSXBNRkKrS4mFOVS",
+      "name": "Près du moteur",
+      "color": "#e0a030",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 1300,
+          "y": 200,
+          "width": 500,
+          "height": 500,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "JMwYvDOd6LWZQ51O",
+          "name": "Près du moteur",
+          "disabled": false,
+          "flags": {},
+          "type": "pauseGame",
+          "system": {
+            "once": true
+          },
+          "_stats": {
+            "coreVersion": "14.369",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.6",
+            "createdTime": 1793703377482,
+            "modifiedTime": 1793703377482,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!scenes.regions.behaviors!c9C0FF4j2upfZGtZ.LSXBNRkKrS4mFOVS.JMwYvDOd6LWZQ51O"
+        }
+      ],
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "_shapeConstraints": null,
+      "_key": "!scenes.regions!c9C0FF4j2upfZGtZ.LSXBNRkKrS4mFOVS"
+    },
+    {
+      "_id": "HGSAaQN2aOGldEzp",
+      "name": "Haut-fourneau",
+      "color": "#4f8cc9",
+      "shapes": [
+        {
+          "type": "rectangle",
+          "x": 2200,
+          "y": 100,
+          "width": 600,
+          "height": 800,
+          "anchorX": 0,
+          "anchorY": 0,
+          "rotation": 0,
+          "hole": false,
+          "gridBased": false
+        }
+      ],
+      "elevation": {
+        "bottom": null,
+        "top": null,
+        "topInclusive": false
+      },
+      "levels": [],
+      "restriction": {
+        "enabled": false,
+        "type": "move",
+        "priority": 0
+      },
+      "attachment": {
+        "token": null
+      },
+      "visibility": 0,
+      "highlightMode": "shapes",
+      "displayMeasurements": false,
+      "hidden": false,
+      "locked": false,
+      "ownership": {
+        "default": 0
+      },
+      "behaviors": [
+        {
+          "_id": "ILJv1ROr3txJN5DG",
+          "name": "Haut-fourneau",
+          "disabled": false,
+          "flags": {},
+          "type": "displayScrollingText",
+          "system": {
+            "events": [
+              "tokenAnimateIn"
+            ],
+            "text": "Une chaleur à cuire le pain. La fonte file dans sa rigole comme un ruisseau orange.",
+            "color": "#ffffff",
+            "visibility": 2,
+            "once": true
+          },
+          "_stats": {
+            "coreVersion": "14.369",
+            "systemId": "dnd5e",
+            "systemVersion": "6.0.6",
+            "createdTime": 1793703377483,
+            "modifiedTime": 1793703377483,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!scenes.regions.behaviors!c9C0FF4j2upfZGtZ.HGSAaQN2aOGldEzp.ILJv1ROr3txJN5DG"
+        }
+      ],
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      },
+      "_shapeConstraints": null,
+      "_key": "!scenes.regions!c9C0FF4j2upfZGtZ.HGSAaQN2aOGldEzp"
+    }
+  ],
+  "tiles": [],
+  "folder": "ITUIPus5l3LRunpp",
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "fonderie-fort-rivet",
+      "description": "Chapitre 1 : la fonderie gobeline qui brûle des éclats gangrenés dans ses machines, le bureau du patron, l'atelier des déchiqueteurs et le quai du zeppelin.",
+      "plan": {
+        "largeur": 28,
+        "hauteur": 20,
+        "lumiere": "penombre",
+        "pieces": [
+          {
+            "nom": "Cour de la fonderie",
+            "x": 0,
+            "y": 0,
+            "l": 28,
+            "h": 20,
+            "sol": "terre"
+          },
+          {
+            "nom": "Bureau de Vizzik",
+            "x": 1,
+            "y": 1,
+            "l": 7,
+            "h": 5,
+            "sol": "bois"
+          },
+          {
+            "nom": "Halle des machines",
+            "x": 9,
+            "y": 1,
+            "l": 12,
+            "h": 8,
+            "sol": "metal"
+          },
+          {
+            "nom": "Haut-fourneau",
+            "x": 22,
+            "y": 1,
+            "l": 6,
+            "h": 8,
+            "sol": "cendre"
+          },
+          {
+            "nom": "Entrepôt des minerais",
+            "x": 1,
+            "y": 12,
+            "l": 8,
+            "h": 7,
+            "sol": "terre"
+          },
+          {
+            "nom": "Atelier des déchiqueteurs",
+            "x": 11,
+            "y": 12,
+            "l": 9,
+            "h": 7,
+            "sol": "ferraille"
+          },
+          {
+            "nom": "Quai du zeppelin",
+            "x": 22,
+            "y": 12,
+            "l": 6,
+            "h": 8,
+            "sol": "bois"
+          }
+        ],
+        "ouvertures": [
+          {
+            "x": 4,
+            "y": 5,
+            "cote": "sud",
+            "type": "porte"
+          },
+          {
+            "x": 1,
+            "y": 3,
+            "cote": "ouest",
+            "type": "fenetre"
+          },
+          {
+            "x": 9,
+            "y": 4,
+            "cote": "ouest",
+            "type": "porte"
+          },
+          {
+            "x": 14,
+            "y": 8,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 15,
+            "y": 8,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 16,
+            "y": 8,
+            "cote": "sud",
+            "type": "passage"
+          },
+          {
+            "x": 20,
+            "y": 4,
+            "cote": "est",
+            "type": "porte"
+          },
+          {
+            "x": 22,
+            "y": 6,
+            "cote": "ouest",
+            "type": "porte"
+          },
+          {
+            "x": 4,
+            "y": 12,
+            "cote": "nord",
+            "type": "porte"
+          },
+          {
+            "x": 8,
+            "y": 16,
+            "cote": "est",
+            "type": "verrouillee"
+          },
+          {
+            "x": 14,
+            "y": 12,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 15,
+            "y": 12,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 16,
+            "y": 12,
+            "cote": "nord",
+            "type": "passage"
+          },
+          {
+            "x": 19,
+            "y": 17,
+            "cote": "est",
+            "type": "secrete"
+          },
+          {
+            "x": 22,
+            "y": 13,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 22,
+            "y": 14,
+            "cote": "ouest",
+            "type": "passage"
+          },
+          {
+            "x": 22,
+            "y": 15,
+            "cote": "ouest",
+            "type": "passage"
+          }
+        ],
+        "lumieres": [
+          {
+            "x": 4,
+            "y": 3,
+            "rayon": 2,
+            "couleur": "#ffcc88"
+          },
+          {
+            "x": 15,
+            "y": 4,
+            "rayon": 3,
+            "couleur": "#66ff44"
+          },
+          {
+            "x": 25,
+            "y": 4,
+            "rayon": 4,
+            "couleur": "#ff7a20"
+          },
+          {
+            "x": 10,
+            "y": 10,
+            "rayon": 3,
+            "couleur": "#ffb060"
+          },
+          {
+            "x": 15,
+            "y": 15,
+            "rayon": 3,
+            "couleur": "#ffaa55"
+          },
+          {
+            "x": 25,
+            "y": 15,
+            "rayon": 2,
+            "couleur": "#ffddaa"
+          },
+          {
+            "x": 6,
+            "y": 17,
+            "rayon": 1,
+            "couleur": "#66ff44"
+          }
+        ],
+        "elements": [
+          {
+            "nom": "Bureau",
+            "x": 3,
+            "y": 2,
+            "l": 3,
+            "h": 1
+          },
+          {
+            "nom": "Coffre-fort",
+            "x": 7,
+            "y": 1,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Étagère de registres",
+            "x": 1,
+            "y": 5,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Moteur à éclat",
+            "x": 14,
+            "y": 3,
+            "l": 3,
+            "h": 3
+          },
+          {
+            "nom": "Chaudière",
+            "x": 18,
+            "y": 2,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Établi",
+            "x": 10,
+            "y": 7,
+            "l": 3,
+            "h": 1
+          },
+          {
+            "nom": "Tapis roulant",
+            "x": 10,
+            "y": 2,
+            "l": 1,
+            "h": 4
+          },
+          {
+            "nom": "Creuset",
+            "x": 24,
+            "y": 3,
+            "l": 3,
+            "h": 3
+          },
+          {
+            "nom": "Coulée de fonte",
+            "x": 23,
+            "y": 7,
+            "l": 4,
+            "h": 1
+          },
+          {
+            "nom": "Tas de scories",
+            "x": 2,
+            "y": 8,
+            "l": 3,
+            "h": 2
+          },
+          {
+            "nom": "Wagonnets",
+            "x": 10,
+            "y": 10,
+            "l": 3,
+            "h": 1
+          },
+          {
+            "nom": "Tour de guet",
+            "x": 26,
+            "y": 10,
+            "l": 2,
+            "h": 1
+          },
+          {
+            "nom": "Caisses de minerai",
+            "x": 2,
+            "y": 13,
+            "l": 3,
+            "h": 2
+          },
+          {
+            "nom": "Caisses scellées",
+            "x": 6,
+            "y": 16,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Balance",
+            "x": 2,
+            "y": 17,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Déchiqueteur en réparation",
+            "x": 13,
+            "y": 14,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Pièces détachées",
+            "x": 17,
+            "y": 16,
+            "l": 2,
+            "h": 2
+          },
+          {
+            "nom": "Palan",
+            "x": 11,
+            "y": 17,
+            "l": 1,
+            "h": 1
+          },
+          {
+            "nom": "Zeppelin de livraison",
+            "x": 24,
+            "y": 14,
+            "l": 4,
+            "h": 5
+          },
+          {
+            "nom": "Treuil",
+            "x": 22,
+            "y": 18,
+            "l": 1,
+            "h": 1
+          }
+        ],
+        "zones": [
+          {
+            "nom": "Bureau de Vizzik",
+            "x": 1,
+            "y": 1,
+            "l": 7,
+            "h": 5,
+            "type": "texte",
+            "texte": "Sur la porte, une plaque de cuivre bien astiquée : « Tout se négocie. Sauf mon temps. »"
+          },
+          {
+            "nom": "Halle des machines",
+            "x": 9,
+            "y": 1,
+            "l": 12,
+            "h": 8,
+            "type": "texte",
+            "texte": "Le sol tremble sous les bottes. Ça sent le cuivre chaud et l'orage."
+          },
+          {
+            "nom": "Près du moteur",
+            "x": 13,
+            "y": 2,
+            "l": 5,
+            "h": 5,
+            "type": "pause"
+          },
+          {
+            "nom": "Haut-fourneau",
+            "x": 22,
+            "y": 1,
+            "l": 6,
+            "h": 8,
+            "type": "texte",
+            "texte": "Une chaleur à cuire le pain. La fonte file dans sa rigole comme un ruisseau orange."
+          }
+        ],
+        "notes": [
+          {
+            "x": 4,
+            "y": 3,
+            "texte": "Vizzik Tirelire — le retourner",
+            "icone": "icons/svg/coins.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "bzoOX8ZhHXVUDHYR"
+          },
+          {
+            "x": 2,
+            "y": 4,
+            "texte": "Étagère de registres (indice)",
+            "icone": "icons/svg/book.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "bzoOX8ZhHXVUDHYR"
+          },
+          {
+            "x": 6,
+            "y": 1,
+            "texte": "Coffre-fort (indice)",
+            "icone": "icons/svg/chest.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "bzoOX8ZhHXVUDHYR"
+          },
+          {
+            "x": 17,
+            "y": 5,
+            "texte": "Moteur à éclat — la Braise",
+            "icone": "icons/svg/fire.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "bzoOX8ZhHXVUDHYR"
+          },
+          {
+            "x": 13,
+            "y": 10,
+            "texte": "Ouvriers malades (indice)",
+            "icone": "icons/svg/poison.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "bzoOX8ZhHXVUDHYR"
+          },
+          {
+            "x": 5,
+            "y": 17,
+            "texte": "Caisses scellées (indice)",
+            "icone": "icons/svg/padlock.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "bzoOX8ZhHXVUDHYR"
+          },
+          {
+            "x": 15,
+            "y": 14,
+            "texte": "Déchiqueteur et sifflet",
+            "icone": "icons/svg/clockwork.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "bzoOX8ZhHXVUDHYR"
+          },
+          {
+            "x": 23,
+            "y": 13,
+            "texte": "Minuit : le courrier du zeppelin",
+            "icone": "icons/svg/combat.svg",
+            "entryId": "qRBAKDn0YR5qJjhc",
+            "pageId": "bzoOX8ZhHXVUDHYR"
+          }
+        ]
+      },
+      "aventure": "Les Braises de la Légion",
+      "version": "0.10.0"
+    },
+    "fxmaster": {
+      "parameterRangeMigrationVersion": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793512298823,
+    "modifiedTime": 1793703377597,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.lakour-warcraft.scenes.Scene.HGfPcvSfoHt2jw9y",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "thumb": null,
+  "shiftX": 0,
+  "shiftY": 0,
+  "initial": {
+    "x": null,
+    "y": null,
+    "scale": null
+  },
+  "fog": {
+    "mode": 1,
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    }
+  },
+  "transition": {
+    "type": null,
+    "duration": 1500,
+    "activeOnly": false
+  },
+  "playlist": null,
+  "playlistSound": null,
+  "journal": null,
+  "journalEntryPage": null,
+  "weather": "",
+  "ownership": {
+    "default": 0
+  },
+  "_id": "c9C0FF4j2upfZGtZ",
+  "active": false,
+  "navOrder": 0,
+  "sort": 0,
+  "_key": "!scenes!c9C0FF4j2upfZGtZ",
+  "templates": []
+}

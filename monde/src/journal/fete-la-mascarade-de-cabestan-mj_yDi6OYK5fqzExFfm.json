@@ -1,0 +1,146 @@
+{
+  "_id": "yDi6OYK5fqzExFfm",
+  "name": "Fête — La Mascarade de Cabestan (MJ)",
+  "folder": "wNtgGHYLJnHwTJwh",
+  "categories": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "fete-mascarade-de-cabestan",
+      "fete": "mascarade-de-cabestan",
+      "collection": "fetes",
+      "version": "0.10.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793696359704,
+    "modifiedTime": 1793703376083,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.lakour-warcraft.journaux.JournalEntry.yDi6OYK5fqzExFfm",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "pages": [
+    {
+      "_id": "6ffI28R08B8aH9YZ",
+      "name": "La fête",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<figure class=\"lakour-warcraft-fete\"><img src=\"modules/lakour-warcraft/assets/fetes/carnaval.jpg\" alt=\"Le port de Cabestan la nuit de la Mascarade, des danseurs masqués sur les barges et un pantin de paille géant\"></figure><p>Du jeudi gras au mardi gras, Cabestan se masque : c'est la <strong>Mascarade</strong>. La loi du Cartel Gentepression est simple et affichée sur chaque quai : sous un masque, on n'est <strong>personne</strong>. Ni Horde, ni Alliance ; on ne peut être arrêté sur le port pour une querelle de faction, et l'on peut danser avec son ennemi.</p><p><strong>Le Baron d'un jour.</strong> Le premier soir, les dockers élisent l'un des leurs « Baron d'un jour » : il préside les jeux, rend des jugements absurdes et porte une couronne de boulons.</p><p><strong>Le Baron de paille.</strong> Le soir du mardi gras, on traîne jusqu'au bout de la jetée un pantin de paille de six mètres, à l'effigie d'un gobelin trop riche (cette année, la ressemblance avec le baron Nizzel Baille-Fonds est voulue), et on le brûle dans la baie sous les fusées et les huées.</p><p><strong>Quand.</strong> du jeudi gras au mardi gras (dates mobiles), d'après la date du jour (le MJ IA pose la carte de la fête au chat et peut y faire allusion). Hors saison, le MJ peut forcer la fête dans les réglages du MJ IA, « Fête de saison ».</p><p><strong>Réputation.</strong> En plus des contrats, une fois par fête et par personnage (voir le @UUID[Compendium.lakour-warcraft.journaux.JournalEntry.uIWkSgn7SjyOj8nd]{Guide de la réputation}, plafond de 10 points par jour) :<br>- <strong>+2</strong> auprès de : Cartel Gentepression, pour l'ordre gardé sur les quais pendant la Mascarade (un voleur arrêté, une rixe évitée).<br>- <strong>+2</strong> auprès de : Garde kor'kron, pour un espion démasqué et livré discrètement à la Garde kor'kron.</p><p><strong>Objets de la fête</strong>, en vente chez les marchands des trois villes tant qu'elle dure : @UUID[Compendium.lakour-warcraft.objets.Item.qx7bkD7JH5MV2miA]{Masque de la Mascarade}, @UUID[Compendium.lakour-warcraft.objets.Item.aeZ9wnAkoJLpNt6g]{Sachet de confettis gobelins}.</p><p><strong>Contrats et tables</strong> : @UUID[Compendium.lakour-warcraft.tables.RollTable.UZuebiV03AckjAAz]{Contrats de fête — La Mascarade de Cabestan}. Le MJ IA ajoute un contrat de fête aux trois affiches du jour.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703376070,
+        "modifiedTime": 1793703376073,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!yDi6OYK5fqzExFfm.6ffI28R08B8aH9YZ"
+    },
+    {
+      "_id": "DS7BjPiEjHt93aNM",
+      "name": "Ambiance",
+      "type": "text",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>À Cabestan.</strong> Les barges sont attachées bord à bord pour faire une piste de danse ; le Grand Bazar vend à moitié prix tout ce qui n'a pas trouvé preneur dans l'année ; on boit du rhum de cactus dans des chopes en forme de tête de gobelin. Les gardes du Cartel portent des masques eux aussi, ce qui ne simplifie rien.</p><p><strong>Au Carrefour.</strong> La Mascarade y est plus rude : les grunts défilent sous des crânes de kodo peints et jouent des tambours de guerre, puis organisent un combat de lutte où l'on n'a pas le droit d'enlever son masque. Les Kor'kron surveillent, sans masque.</p><p><strong>À Theramore.</strong> Le Guet désapprouve. Pourtant, la noblesse donne un bal masqué dans un entrepôt du port, et les espions des deux camps s'y bousculent.</p><p><strong>Dans les kraals.</strong> Les hurans n'ont jamais compris la Mascarade. Les pillards de Ronceroc en ont retenu une chose : des voyageurs masqués, distraits et chargés de souvenirs, sur la route de Cabestan.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703376072,
+        "modifiedTime": 1793703376073,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!yDi6OYK5fqzExFfm.DS7BjPiEjHt93aNM"
+    },
+    {
+      "_id": "UYXyYYjdp1zjn6qN",
+      "name": "Accroches",
+      "type": "text",
+      "sort": 300,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<ul><li><strong>Démasquer sans démasquer.</strong> Un espion de la Lame ardente danse quelque part sur les barges ; @UUID[Compendium.lakour-warcraft.bestiaire.Actor.EgsVDftATjRAEYLT]{Grizzla} veut qu'on le trouve sans ôter un seul masque (la loi du Cartel). [[/check skill=prc dc=14]]{Perception DD 14} pour repérer les marques de brûlure sur ses mains, [[/check skill=dec dc=13]]{Tromperie DD 13} pour le faire parler. Le livrer aux Kor'kron vaut +2 auprès d'eux ; au Cartel, +2 auprès du Cartel.</li><li><strong>Le Baron d'un jour.</strong> Les dockers ont élu l'un des personnages Baron d'un jour. Coiffé de la couronne de boulons et d'un @UUID[Compendium.lakour-warcraft.objets.Item.qx7bkD7JH5MV2miA]{masque de la Mascarade} qu'il gardera, il doit rendre trois jugements devant la foule ([[/check skill=per dc=12]]{Persuasion DD 12} pour chacun) ; un mauvais jugement fâche le Cartel, un bon fait de lui un héros du port (+2 auprès du Cartel Gentepression).</li><li><strong>La vengeance du baron.</strong> Les hommes du @UUID[Compendium.lakour-warcraft.bestiaire.Actor.zYo5lytcarCjXn7W]{baron Nizzel Baille-Fonds} veulent incendier les entrepôts en même temps que le Baron de paille. S'il est tombé dans sa raffinerie, ce sont ses créanciers qui s'en chargent, pour toucher l'assurance du Cartel.</li><li><strong>Deux masques à la même table.</strong> Au bal de Theramore, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.TDY7YqkoJZZKJsHp]{Corwen Haldis} et @UUID[Compendium.lakour-warcraft.bestiaire.Actor.23SL00ydcEvtCQsg]{Garrok Brise-Dent} se retrouvent, masqués, à la même table de cartes, sans le savoir. Le groupe le sait. Les aider à se parler ([[/check skill=ins dc=13]]{Intuition DD 13} pour sentir le moment) prépare la paix ; les faire se reconnaître trop tôt la ruine.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703376072,
+        "modifiedTime": 1793703376074,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!yDi6OYK5fqzExFfm.UYXyYYjdp1zjn6qN"
+    }
+  ],
+  "sort": 0,
+  "_key": "!journal!yDi6OYK5fqzExFfm"
+}

@@ -1,0 +1,18 @@
+{
+  "key": "core.animateRollTable",
+  "user": null,
+  "value": "true",
+  "_id": "xD1GvVii2dqZrFbv",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467827698,
+    "modifiedTime": 1793467827698,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!xD1GvVii2dqZrFbv"
+}

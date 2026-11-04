@@ -1,0 +1,18 @@
+{
+  "key": "calendaria.showCalendarHUD",
+  "user": null,
+  "value": "true",
+  "_id": "Wn8sOVVzS8xoRw8S",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793591655140,
+    "modifiedTime": 1793591655140,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!Wn8sOVVzS8xoRw8S"
+}

@@ -1,0 +1,18 @@
+{
+  "key": "babele.translationFiles",
+  "user": null,
+  "value": "[\"modules/dnd5e_fr-FR/compendium_fr/dnd5e._packs-folders.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.actors24.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.backgrounds.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.classes.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.classes24.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.classfeatures.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.content24.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.effects.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.equipment24.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.feats24.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.heroes.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.items.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.monsterfeatures.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.monsterfeatures24.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.monsters.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.origins24.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.races.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.rules.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.spells.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.spells24.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.subclasses.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.tables.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.tables24.json\",\"modules/dnd5e_fr-FR/compendium_fr/dnd5e.tradegoods.json\"]",
+  "_id": "XN0JAmm6druYzL20",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467707675,
+    "modifiedTime": 1793592248942,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!XN0JAmm6druYzL20"
+}

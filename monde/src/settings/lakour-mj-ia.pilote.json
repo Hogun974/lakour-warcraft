@@ -1,0 +1,18 @@
+{
+  "key": "lakour-mj-ia.pilote",
+  "user": null,
+  "value": "true",
+  "_id": "jyCQJCQs1iUrlnDa",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793533061751,
+    "modifiedTime": 1793533061751,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!jyCQJCQs1iUrlnDa"
+}

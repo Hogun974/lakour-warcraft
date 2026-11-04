@@ -1,0 +1,18 @@
+{
+  "key": "calendaria.seasonIconFamilyMigrationComplete",
+  "user": null,
+  "value": "true",
+  "_id": "YSWLCNWqc8FvsU4T",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793591653897,
+    "modifiedTime": 1793591653897,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!YSWLCNWqc8FvsU4T"
+}

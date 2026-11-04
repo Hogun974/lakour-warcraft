@@ -1,0 +1,18 @@
+{
+  "key": "core.compendiumConfiguration",
+  "value": "{\"dnd5e.content24\":{\"folder\":\"6LtAroGRGVyNe6sT\",\"sort\":100000},\"dnd5e.classes24\":{\"folder\":\"6LtAroGRGVyNe6sT\",\"sort\":200000},\"dnd5e.origins24\":{\"folder\":\"6LtAroGRGVyNe6sT\",\"sort\":300000},\"dnd5e.feats24\":{\"folder\":\"6LtAroGRGVyNe6sT\",\"sort\":400000},\"dnd5e.spells24\":{\"folder\":\"6LtAroGRGVyNe6sT\",\"sort\":500000},\"dnd5e.tables24\":{\"folder\":\"6LtAroGRGVyNe6sT\",\"sort\":600000},\"dnd5e.actors24\":{\"folder\":\"6LtAroGRGVyNe6sT\",\"sort\":700000},\"dnd5e.equipment24\":{\"folder\":\"6LtAroGRGVyNe6sT\",\"sort\":800000},\"dnd5e.monsterfeatures24\":{\"folder\":\"6LtAroGRGVyNe6sT\",\"sort\":900000},\"dnd5e.effects\":{\"folder\":\"6LtAroGRGVyNe6sT\",\"sort\":1000000},\"dnd5e.rules\":{\"folder\":\"sHBwwuNSO0bA0jUG\",\"sort\":100000},\"dnd5e.tables\":{\"folder\":\"sHBwwuNSO0bA0jUG\",\"sort\":200000},\"dnd5e.heroes\":{\"folder\":\"sHBwwuNSO0bA0jUG\",\"sort\":300000},\"dnd5e.classes\":{\"folder\":\"GspQ1xiNGN52sNHx\",\"sort\":100000},\"dnd5e.subclasses\":{\"folder\":\"GspQ1xiNGN52sNHx\",\"sort\":200000},\"dnd5e.classfeatures\":{\"folder\":\"GspQ1xiNGN52sNHx\",\"sort\":300000},\"dnd5e.backgrounds\":{\"folder\":\"GspQ1xiNGN52sNHx\",\"sort\":400000},\"dnd5e.races\":{\"folder\":\"GspQ1xiNGN52sNHx\",\"sort\":500000},\"dnd5e.items\":{\"folder\":\"hAfSIafitjcnOUQa\",\"sort\":100000},\"dnd5e.spells\":{\"folder\":\"hAfSIafitjcnOUQa\",\"sort\":200000},\"dnd5e.tradegoods\":{\"folder\":\"hAfSIafitjcnOUQa\",\"sort\":300000},\"dnd5e.monsters\":{\"folder\":\"S6QYCK66qZMoRimZ\",\"sort\":100000},\"dnd5e.monsterfeatures\":{\"folder\":\"S6QYCK66qZMoRimZ\",\"sort\":200000},\"lakour-warcraft.journaux\":{\"folder\":\"pUMpaHTXXu1Jgzxj\",\"sort\":100000},\"lakour-warcraft.scenes\":{\"folder\":\"pUMpaHTXXu1Jgzxj\",\"sort\":200000},\"lakour-warcraft.peuples\":{\"folder\":\"pUMpaHTXXu1Jgzxj\",\"sort\":300000},\"lakour-warcraft.historiques\":{\"folder\":\"pUMpaHTXXu1Jgzxj\",\"sort\":400000},\"lakour-warcraft.objets\":{\"folder\":\"pUMpaHTXXu1Jgzxj\",\"sort\":500000},\"lakour-warcraft.bestiaire\":{\"folder\":\"pUMpaHTXXu1Jgzxj\",\"sort\":600000},\"lakour-warcraft.tables\":{\"folder\":\"pUMpaHTXXu1Jgzxj\",\"sort\":700000},\"lakour-warcraft.aventures\":{\"folder\":\"pUMpaHTXXu1Jgzxj\",\"sort\":100000},\"lakour-warcraft.classes\":{\"folder\":\"pUMpaHTXXu1Jgzxj\",\"sort\":600000},\"lakour-warcraft.dons\":{\"folder\":\"pUMpaHTXXu1Jgzxj\",\"sort\":700000},\"lakour-warcraft.sorts\":{\"folder\":\"pUMpaHTXXu1Jgzxj\",\"sort\":800000},\"lakour-warcraft.afflictions\":{\"folder\":\"pUMpaHTXXu1Jgzxj\",\"sort\":1000000}}",
+  "_id": "GUxs2VaYrFLToRrZ",
+  "user": null,
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467438587,
+    "modifiedTime": 1793591638379,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!GUxs2VaYrFLToRrZ"
+}

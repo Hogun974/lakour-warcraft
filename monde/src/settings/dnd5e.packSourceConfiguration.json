@@ -1,0 +1,18 @@
+{
+  "key": "dnd5e.packSourceConfiguration",
+  "user": null,
+  "value": "{\"dnd5e.heroes\":false,\"dnd5e.monsters\":false,\"dnd5e.items\":false,\"dnd5e.tradegoods\":false,\"dnd5e.spells\":false,\"dnd5e.backgrounds\":false,\"dnd5e.classes\":false,\"dnd5e.subclasses\":false,\"dnd5e.classfeatures\":false,\"dnd5e.races\":false,\"dnd5e.monsterfeatures\":false,\"dnd5e.rules\":true,\"dnd5e.tables\":true,\"dnd5e.content24\":true,\"dnd5e.classes24\":true,\"dnd5e.origins24\":true,\"dnd5e.feats24\":true,\"dnd5e.spells24\":true,\"dnd5e.equipment24\":true,\"dnd5e.tables24\":true,\"dnd5e.actors24\":true,\"dnd5e.monsterfeatures24\":true,\"dnd5e.effects\":true}",
+  "_id": "6kjl12tA1STiyXRj",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467562591,
+    "modifiedTime": 1793467562591,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!6kjl12tA1STiyXRj"
+}

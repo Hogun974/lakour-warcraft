@@ -1,0 +1,183 @@
+{
+  "_id": "kwzlSO9NCf8n1DcJ",
+  "name": "Rares et élites des Tarides (MJ)",
+  "folder": "wNtgGHYLJnHwTJwh",
+  "categories": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "rares-et-elites-des-tarides",
+      "collection": "rares",
+      "version": "0.10.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793630052148,
+    "modifiedTime": 1793703375840,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.lakour-warcraft.journaux.JournalEntry.kwzlSO9NCf8n1DcJ",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "pages": [
+    {
+      "_id": "nQuksp6pwLrrBTf5",
+      "name": "Usage (MJ)",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Les <strong>rares</strong> sont des créatures nommées qui errent dans une zone : plus fortes qu'une rencontre ordinaire, chacune avec son caractère, ses tactiques et un <strong>butin garanti</strong>. Elles donnent vie aux voyages entre deux chapitres de la campagne.</p><p><strong>Quand tirer.</strong> Une fois par jour de voyage dans une zone, lancez 1d6 : sur 1, tirez sur la table de la zone. Un rare peut aussi être la cible d'un contrat de traque (tableaux des contrats) : dans ce cas, pas de tirage, il est là où le contrat le dit.</p><p><strong>Tables</strong></p><ul><li>@UUID[Compendium.lakour-warcraft.tables.RollTable.uHs3owEV50iyMo6b]{Rares et élites — Nord des Tarides}</li><li>@UUID[Compendium.lakour-warcraft.tables.RollTable.75HMSNV1jRaP0xB4]{Rares et élites — Côte des Tarides}</li><li>@UUID[Compendium.lakour-warcraft.tables.RollTable.OfKnGM40LOE9x50Q]{Rares et élites — Frontière du sud}</li></ul><p><strong>Équilibre.</strong> Chaque rare est un combat difficile pour quatre personnages de niveau 3 à 4 (pour le nord et la côte) ou 5 à 6 (pour la frontière du sud). Un rare vaincu ne revient pas ; un rare qui a fui revient une fois, plus prudent.</p><p><strong>Récompense.</strong> Le butin garanti est lié dans la note du MJ de chaque fiche. Le trophée d'un rare rapporté à un commanditaire vaut <strong>+2 à +5</strong> de réputation, selon la faction (voir le Guide de la réputation).</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375821,
+        "modifiedTime": 1793703375825,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!kwzlSO9NCf8n1DcJ.nQuksp6pwLrrBTf5"
+    },
+    {
+      "_id": "5lHwVHzM0CA4B89F",
+      "name": "Nord des Tarides",
+      "type": "text",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Les plaines sèches entre le Carrefour, Fort-Rivet, le kraal de Ronceroc et la mine de Rouge-Veine. Niveaux 3 à 4. Table : @UUID[Compendium.lakour-warcraft.tables.RollTable.uHs3owEV50iyMo6b]{Rares et élites — Nord des Tarides}.</p><ul><li>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.kkJpRCb1TYvyoexd]{Crocs-de-Cendre, le loup gangrené} (FP 3) — un loup gangrené qui attaque les caravanes la nuit, avec une meute de loups des bois.</li><li>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.91PomlVIbUiHDDMn]{Vieille Plume-Fiel, matriarche des harpies} (FP 3) — une vieille harpie qui charme les voyageurs sur les pitons de la piste de Fort-Rivet.</li><li>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.MSzbsS8RNDhbCU6K]{Rouille-Cœur, le déchiqueteur fou} (FP 4) — le prototype fou de Vizzik, qui erre en sifflant entre la fonderie et le Carrefour.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375823,
+        "modifiedTime": 1793703375826,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!kwzlSO9NCf8n1DcJ.5lHwVHzM0CA4B89F"
+    },
+    {
+      "_id": "b956FhqHlSPbqW61",
+      "name": "Côte des Tarides",
+      "type": "text",
+      "sort": 300,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Le littoral entre Cabestan, les marais salés et la crique d'Eldrassal. Niveaux 3 à 4. Table : @UUID[Compendium.lakour-warcraft.tables.RollTable.75HMSNV1jRaP0xB4]{Rares et élites — Côte des Tarides}.</p><ul><li>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.RCBp8OUPgTUpSH8n]{Glouglou Premier, roi des murlocs} (FP 2) — le roi des murlocs de la rumeur, avec sa cour.</li><li>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.lLwQLxs3tufdW6rd]{Gueule-de-Fer, le crocilisque ancien} (FP 4) — un crocilisque ancien dans les marais salés des contrebandiers.</li><li>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.MxwnrGN15l3gbGvg]{Capitaine Sel-Rouge, pirate du Cartel Baille-Fonds} (FP 3) — le corsaire du Cartel Baille-Fonds, dans sa crique ou déguisé en ville.</li></ul>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375824,
+        "modifiedTime": 1793703375827,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!kwzlSO9NCf8n1DcJ.b956FhqHlSPbqW61"
+    },
+    {
+      "_id": "gKTPYLk93udO5EaM",
+      "name": "Frontière du sud",
+      "type": "text",
+      "sort": 400,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Les collines rouges entre Gué-de-Sel et le cratère de Brasegouffre. Niveaux 5 à 6. Table : @UUID[Compendium.lakour-warcraft.tables.RollTable.OfKnGM40LOE9x50Q]{Rares et élites — Frontière du sud}.</p><ul><li>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.QUScvpfLBVyjpYzE]{Khan Ventrouge, seigneur kolkar} (FP 4) — le chef d'une bande kolkar, qui accepte un duel.</li><li>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.UtyMTirY1LFaq5GB]{Sabot-de-Verre, le kodo des cendres} (FP 5) — un kodo rendu fou par le cratère, sur la route de Gué-de-Sel.</li><li>@UUID[Compendium.lakour-warcraft.bestiaire.Actor.2DZv3K0IpC4pN4q4]{Vexxa la Rieuse, chasseresse de la Lame ardente} (FP 4) — une chasseresse satyre de la Lame ardente, qui traque ceux qui gênent le culte.</li></ul><p>Créatures d'appoint : @UUID[Compendium.lakour-warcraft.bestiaire.Actor.lteeHMqn1thceFH4]{loups des bois}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.hOTVQNbVXommXjaP]{harpies}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.Q6QWZQUBEfSVg08M]{murlocs}, @UUID[Compendium.lakour-warcraft.bestiaire.Actor.b3cJ52ZXydLLpfaZ]{gardes gobelins} (profil de bandit défias), @UUID[Compendium.lakour-warcraft.bestiaire.Actor.gMmWKENeUcQssiBy]{centaures kolkar}.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375825,
+        "modifiedTime": 1793703375827,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!kwzlSO9NCf8n1DcJ.gKTPYLk93udO5EaM"
+    }
+  ],
+  "sort": 0,
+  "_key": "!journal!kwzlSO9NCf8n1DcJ"
+}

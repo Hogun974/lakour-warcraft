@@ -1,0 +1,18 @@
+{
+  "key": "core.moduleConfiguration",
+  "value": "{\"levels-3d-preview\":true,\"3ds-atlas\":true,\"autoanimations\":true,\"babele\":true,\"calendaria\":true,\"dice-so-nice\":true,\"dnd5e_fr-FR\":true,\"fr-core\":true,\"fxmaster\":true,\"item-piles\":true,\"itempilesdnd5e\":true,\"JB2A_DnD5e\":true,\"lakour-mj-ia\":true,\"lakour-warcraft\":true,\"lib-wrapper\":true,\"sequencer\":true,\"socketlib\":true}",
+  "_id": "pqfkXRSibT7kQPya",
+  "user": null,
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467437773,
+    "modifiedTime": 1793592334937,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!pqfkXRSibT7kQPya"
+}

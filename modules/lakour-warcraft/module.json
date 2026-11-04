@@ -1,9 +1,23 @@
 {
   "id": "lakour-warcraft",
   "title": "La Kour Warcraft – Azeroth pour D&D 5e",
-  "description": "Contenu maison et en français pour jouer dans l'univers de Warcraft avec D&D 5e (règles 2024) : peuples d'Azeroth, historiques, bestiaire, guides du joueur et du MJ, aventure de départ, campagne et one-shot avec cartes jouables. Textes originaux, pour un usage privé à la table. Jetons : icônes de game-icons.net (licence CC BY 3.0), voir CREDITS.md.",
+  "description": "Azeroth pour D&D 5e (règles 2024), en français : treize peuples jouables, dix historiques, treize sous-classes, dons, affiliations, sorts, arsenal, afflictions, métiers et établi d'artisanat, garnison de faction, réputations et contrats, montures, bestiaire de soixante-dix fiches. Une aventure de départ (niveaux 1 à 3), une campagne en quatre chapitres (3 à 6), un one-shot d'enquête, un donjon à trois boss et des cartes jouables prêtes à l'emploi, chacune importable en un clic. Les règles maison sont automatisées (auras, familier du rôdeur, totems, phase 2 des boss, fureur, ensembles) et cinq fêtes de saison animent les Tarides avec le module compagnon MJ IA. Textes originaux ; œuvre de fan non officielle, non affiliée à Blizzard Entertainment. — Azeroth for D&D 5e (2024 rules), in French: 13 playable species, 13 subclasses, feats, spells, gear, afflictions, crafting, a 70-stat-block bestiary, a starter adventure, a four-chapter campaign, a one-shot and a boss dungeon with ready-to-play maps; house rules automated. Unofficial fan work.",
   "version": "0.10.1",
-  "authors": [{ "name": "Jordan" }],
+  "authors": [{ "name": "Jordan", "url": "https://github.com/Hogun974" }],
+  "url": "https://github.com/Hogun974/lakour-warcraft",
+  "manifest": "https://github.com/Hogun974/lakour-warcraft/releases/latest/download/module.json",
+  "download": "https://github.com/Hogun974/lakour-warcraft/releases/latest/download/lakour-warcraft.zip",
+  "readme": "https://github.com/Hogun974/lakour-warcraft#readme",
+  "bugs": "https://github.com/Hogun974/lakour-warcraft/issues",
+  "changelog": "https://github.com/Hogun974/lakour-warcraft/blob/principale/CHANGELOG.md",
+  "license": "https://github.com/Hogun974/lakour-warcraft#licence",
+  "media": [
+    { "type": "cover", "url": "https://raw.githubusercontent.com/Hogun974/lakour-warcraft/principale/docs/captures/accueil.png", "caption": "Écran d'accueil du monde La Kour Warcraft" },
+    { "type": "setup", "url": "https://raw.githubusercontent.com/Hogun974/lakour-warcraft/principale/docs/captures/accueil.png", "thumbnail": "https://raw.githubusercontent.com/Hogun974/lakour-warcraft/principale/docs/captures/accueil.png" },
+    { "type": "screenshot", "url": "https://raw.githubusercontent.com/Hogun974/lakour-warcraft/principale/docs/captures/carte-cabestan.png", "caption": "Cabestan — Quai des Comptoirs, carte vivante de l'aventure de départ" },
+    { "type": "screenshot", "url": "https://raw.githubusercontent.com/Hogun974/lakour-warcraft/principale/docs/captures/sous-classe.png", "caption": "Une sous-classe d'Azeroth et ses avancements dnd5e" },
+    { "type": "screenshot", "url": "https://raw.githubusercontent.com/Hogun974/lakour-warcraft/principale/docs/captures/etabli.png", "caption": "L'établi d'artisanat ouvert depuis la fiche d'un personnage" }
+  ],
   "compatibility": { "minimum": "14", "verified": "14.369" },
   "relationships": {
     "systems": [{ "id": "dnd5e", "type": "system", "compatibility": { "minimum": "6.0.0" } }]

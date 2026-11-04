@@ -1,0 +1,18 @@
+{
+  "key": "babele.export",
+  "user": null,
+  "value": "true",
+  "_id": "TmAYC6ngl57bLuXx",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467827840,
+    "modifiedTime": 1793467827840,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!TmAYC6ngl57bLuXx"
+}

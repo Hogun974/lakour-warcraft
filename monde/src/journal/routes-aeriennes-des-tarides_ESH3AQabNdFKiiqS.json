@@ -1,0 +1,145 @@
+{
+  "_id": "ESH3AQabNdFKiiqS",
+  "name": "Routes aériennes des Tarides",
+  "folder": "wNtgGHYLJnHwTJwh",
+  "categories": [],
+  "ownership": {
+    "default": 2
+  },
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "routes-aeriennes-des-tarides",
+      "collection": "montures",
+      "version": "0.10.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793630051889,
+    "modifiedTime": 1793703375419,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.lakour-warcraft.journaux.JournalEntry.ESH3AQabNdFKiiqS",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "pages": [
+    {
+      "_id": "HxKp1POzZmTCKDe8",
+      "name": "Maîtres de vol",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Dans les Tarides, on vole d'un perchoir à l'autre sur le dos d'une wyverne (Horde), d'un hippogriffe (Alliance) ou dans la nacelle grinçante d'un gyroptère gobelin (Cartel). On paie le maître de vol, la bête connaît la route : le voyageur n'a qu'à se tenir.</p><ul><li><strong>Cabestan</strong> — <em>Zippa Haute-Voltige</em>, gobeline. Wyvernes et hippogriffes de location, gyroptère du Cartel. Elle vole pour tout le monde, du moment qu'on paie d'avance : c'est un port neutre.</li><li><strong>Le Carrefour</strong> — <em>Tal'zun Plume-Rouge</em>, troll. Wyvernes. Il ne prend que les membres de la Horde et ceux pour qui un membre de la Horde se porte garant.</li><li><strong>Theramore</strong> — <em>Alwen Brise-Nuage</em>, naine. Hippogriffes. Réservé à l'Alliance et à ses alliés.</li><li><strong>Fort-Rivet</strong> — un ouvrier de la fonderie et son gyroptère de livraison. Seulement depuis Cabestan, quand la fonderie tourne.</li><li><strong>Gué-de-Sel</strong> — après le sommet (chapitre 3 de la campagne), le Bureau de la Trêve y installe un perchoir neutre, avec une wyverne et un hippogriffe qui ne se supportent pas.</li></ul><p><strong>Réputation.</strong> Un maître de vol de faction refuse un voyageur <em>Inamical</em> ou pire auprès de sa faction. La remise du palier de réputation s'applique au prix du vol (voir le Guide de la réputation).</p><p><strong>Pas de perchoir</strong> à Eldrassal (on y va en barque ou à pied par la côte), ni à Brasegouffre : un vol vers le cratère ne se fait que par faveur d'un chef qui prête ses propres bêtes.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375400,
+        "modifiedTime": 1793703375405,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!ESH3AQabNdFKiiqS.HxKp1POzZmTCKDe8"
+    },
+    {
+      "_id": "Rsq6agLvrTr7EIdk",
+      "name": "Routes et tarifs",
+      "type": "text",
+      "sort": 200,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Prix par voyageur (sa monture comprise si elle est de taille M ou P ; une monture de taille G voyage en bateau ou à pied). Une journée de marche vaut environ <strong>4 heures de vol</strong> ; on vole de jour, et un vol de plus de 8 heures fait escale pour la nuit.</p><ul><li><strong>Cabestan ↔ Le Carrefour</strong> : 3 po, 6 heures de vol (neutre et Horde).</li><li><strong>Cabestan ↔ Fort-Rivet</strong> : 4 po, 8 heures de vol (neutre, gyroptère du Cartel).</li><li><strong>Cabestan ↔ Theramore</strong> : 5 po, 6 heures de vol (neutre et Alliance).</li><li><strong>Cabestan ↔ Gué-de-Sel</strong> : 6 po, 12 heures de vol (neutre, après le sommet).</li><li><strong>Le Carrefour ↔ Fort-Rivet</strong> : 2 po, 4 heures de vol (Horde).</li><li><strong>Le Carrefour ↔ Gué-de-Sel</strong> : 4 po, 8 heures de vol (Horde).</li><li><strong>Le Carrefour ↔ Orgrimmar</strong> : 8 po, 12 heures de vol (Horde).</li><li><strong>Theramore ↔ Gué-de-Sel</strong> : 5 po, 8 heures de vol (Alliance).</li></ul><p><strong>En vol.</strong> Le voyageur ne peut rien faire d'autre que regarder : pas de repos court, pas d'étude. Un vol peut être interrompu par une tempête de sable, une harpie ou un tir venu d'en bas : si le MJ tire sur la table des rencontres, c'est une rencontre par vol de 6 heures ou plus.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375402,
+        "modifiedTime": 1793703375405,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!ESH3AQabNdFKiiqS.Rsq6agLvrTr7EIdk"
+    },
+    {
+      "_id": "5V6I9AZ2FwY25Rwy",
+      "name": "Montures",
+      "type": "text",
+      "sort": 300,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p>Les montures se vendent chez les éleveurs, aux prix ci-dessous (remise de réputation comprise). La capacité de charge d'une monture vaut sa <strong>Force × 7,5 kg</strong>, ×2 pour une créature de taille G et ×4 pour une très grande (TG) ; pousser, tirer ou soulever : le double. Voir aussi &amp;Reference[rule=mounting]{monter en selle}, &amp;Reference[rule=controllingamount]{controler une monture} et &amp;Reference[rule=travelpace]{rythme de voyage}.</p><ul><li><strong>Bélier de montagne de Forgefer</strong> — vitesse 12 m, escalade 9 m ; charge 240 kg. 150 po, à Theramore (Alliance, Amical).</li><li><strong>Loup de guerre de Durotar</strong> — vitesse 15 m ; charge 255 kg. 120 po, au Carrefour (Horde, Amical).</li><li><strong>Kodo des Tarides</strong> — vitesse 9 m, infatigable ; charge 660 kg, palanquin pour quatre. 300 po (500 avec palanquin), au Carrefour.</li><li><strong>Raptor des îles de l'Écho</strong> — vitesse 15 m, bonds de 6 m ; charge 225 kg. 140 po, au Carrefour (Horde, Amical).</li><li><strong>Hippogriffe de Theramore</strong> — vitesse 12 m, vol 18 m ; charge 255 kg (moitié en vol). Ne se vend pas : location au maître de vol, ou prêt d'une faction à Exalté.</li></ul><p><strong>Écurie.</strong> 5 pa par nuit et par monture dans une ville, le double pour un kodo. Une monture qu'on ne nourrit pas perd 1 point de vie maximal par jour.</p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375404,
+        "modifiedTime": 1793703375406,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!ESH3AQabNdFKiiqS.5V6I9AZ2FwY25Rwy"
+    }
+  ],
+  "sort": 0,
+  "_key": "!journal!ESH3AQabNdFKiiqS"
+}

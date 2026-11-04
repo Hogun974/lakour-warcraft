@@ -1,0 +1,68 @@
+{
+  "name": "Aide de jeu — Sauf-conduit du sommet de Gué-de-Sel",
+  "folder": "wNtgGHYLJnHwTJwh",
+  "categories": [],
+  "flags": {
+    "lakour-warcraft": {
+      "cle": "sauf-conduit-gue-de-sel",
+      "version": "0.10.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793512298312,
+    "modifiedTime": 1793703375511,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.lakour-warcraft.journaux.JournalEntry.PdUBrFeqj4M5xADD",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "pages": [
+    {
+      "_id": "dy62wxMb1yFqDpxf",
+      "name": "Sauf-conduit",
+      "type": "text",
+      "sort": 100,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<p><strong>BUREAU DE LA TRÊVE DE CABESTAN</strong><br><em>sous l'arbitrage du Cartel Gentepression</em></p><p>Les porteurs du présent sauf-conduit sont admis au <strong>sommet de Gué-de-Sel</strong> en qualité de <strong>témoins de la Trêve</strong>.</p><ul><li>Ils déposent leurs armes à l'entrée du pavillon, comme chacun.</li><li>Ils ne parlent pas pendant les débats, sauf si on les y invite.</li><li>Toute violence entre Horde et Alliance dans l'enceinte du camp rompt le sommet. Le Cartel désigne alors le coupable, et le Cartel ne se trompe jamais.</li><li>Ils assisteront à la signature, à la tombée de la nuit, et pourront en témoigner.</li></ul><p><em>Pour Theramore : C. Haldis, capitaine.</em><br><em>Pour Orgrimmar : Garrok Brise-Dent</em> <em>(une empreinte de pouce à la place de la signature)</em>.<br><em>Pour le Cartel : G. Tordeboulon.</em> <em>(Tampon de cire dorée en forme de roue dentée.)</em></p>",
+        "format": 1
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1793703375499,
+        "modifiedTime": 1793703375500,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "_key": "!journal.pages!SVrkF1ox0dPsdF1f.dy62wxMb1yFqDpxf"
+    }
+  ],
+  "ownership": {
+    "default": 2
+  },
+  "_id": "SVrkF1ox0dPsdF1f",
+  "sort": 0,
+  "_key": "!journal!SVrkF1ox0dPsdF1f"
+}

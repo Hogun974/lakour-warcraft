@@ -1,0 +1,18 @@
+{
+  "key": "dnd5e.disableAdvancements",
+  "user": null,
+  "value": "false",
+  "_id": "TpUEse8DOAOFQCBd",
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1793467827757,
+    "modifiedTime": 1793467827757,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!settings!TpUEse8DOAOFQCBd"
+}
