@@ -1,4 +1,4 @@
-# La Kour Warcraft — Azeroth pour D&D 5e dans Foundry VTT
+# La Kour Warcraft — Azeroth pour la 5e édition dans Foundry VTT
 
 *[English version](README.en.md)*
 
@@ -42,7 +42,7 @@ Tous les textes sont originaux. C'est une **œuvre de fan non officielle, non af
 
 ## À qui s'adresse ce module
 
-- **Aux meneurs et meneuses de jeu** qui veulent faire jouer D&D 5e en Azeroth sans tout écrire : les guides, les
+- **Aux meneurs et meneuses de jeu** qui veulent faire jouer la 5e édition en Azeroth sans tout écrire : les guides, les
   aventures, le bestiaire et les cartes sont prêts, et les aides de jeu (lettres, contrats, règlements) se montrent
   aux joueurs d'un clic.
 - **Aux joueurs et joueuses** qui veulent un tauren chaman des totems, une réprouvée espionne du SI:7 ou un gnome
@@ -56,7 +56,7 @@ Tous les textes sont originaux. C'est une **œuvre de fan non officielle, non af
 | Composant | Version | Remarque |
 |---|---|---|
 | Foundry Virtual Tabletop | **v14** (vérifié avec la 14.369) | Licence Foundry nécessaire, comme pour tout module. Le module n'est pas compatible v13. |
-| Système `dnd5e` | **6.0.0 ou plus** (développé et éprouvé avec la 6.0.6) | Gratuit ; apporte les règles 2024 et le SRD 5.2 (classes, sorts, dons, équipement). Le module s'y réfère sans rien recopier. |
+| Système `dnd5e` | **6.0.0 ou plus** (développé et éprouvé avec la 6.0.6) | Gratuit ; apporte les règles 2024 et le SRD 5.2.1 (classes, sorts, dons, équipement). Le module s'y réfère sans rien recopier. |
 | Module `lakour-mj-ia` (MJ IA) | facultatif | Fêtes de saison, horloges de réputation, style visuel plat ou relief, meneur de jeu IA. Sans lui, le reste du module fonctionne. |
 
 Modules facultatifs que le code sait exploiter quand ils sont actifs (rien n'est exigé) :
@@ -215,7 +215,7 @@ Créatures d'Azeroth (murlocs, kobolds, gnolls, harpies, centaures, nagas, rapto
 Fléau et de la Légion (goules, squelettes, abominations, diablotins, gangregardes, infernal), gens du commun (gardes,
 grunts, marchands, prêtres), les PNJ nommés des aventures, les boss du donjon, les rares des Tarides, cinq montures et
 le familier du chasseur. Chaque fiche a un texte joueur, une note du MJ (tactique), un jeton aux couleurs de son camp
-et des capacités aux icônes peintes. Les profils chiffrés sont adaptés du SRD 5.2 (voir [Crédits](#crédits)).
+et des capacités aux icônes peintes. Les profils chiffrés sont adaptés du SRD 5.2.1 (voir [Crédits](#crédits)).
 
 ### Tables (28), journaux (24), cartes (19), aventures (5)
 
@@ -362,7 +362,7 @@ docs/                           formes des données (contenu-warcraft.md), publi
 - **Illustrations** (écran d'accueil, fêtes de saison) : images générées localement par l'auteur avec un modèle
   d'image exécuté sur sa machine, sans service distant.
 - **Règles de D&D** : les classes, dons, sorts et équipements du SRD sont référencés dans le système dnd5e installé,
-  jamais recopiés. Les profils chiffrés des créatures du bestiaire sont adaptés et renommés à partir du SRD 5.2, et la
+  jamais recopiés. Les profils chiffrés des créatures du bestiaire sont adaptés et renommés à partir du SRD 5.2.1, et la
   progression de la sous-classe Aspect des Vols draconiques suit la lignée draconique du SRD 5.1 ; l'attribution
   exigée par la licence figure ci-dessous.
 - **Moteur** : [lakour-mj-ia](https://github.com/Hogun974/lakour-mj-ia), même auteur.
@@ -380,8 +380,8 @@ conformément à ce que Blizzard permet aux créations de fans ; il ne doit êtr
 dnd5e de Foundry et reprend, pour les profils de créatures et une progression de sous-classe, du matériel du SRD sous
 licence Creative Commons :
 
-> This work includes material from the System Reference Document 5.2 (“SRD 5.2”) by Wizards of the Coast LLC,
-> available at https://www.dndbeyond.com/srd. The SRD 5.2 is licensed under the Creative Commons Attribution 4.0
+> This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC,
+> available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0
 > International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.
 
 > This work includes material taken from the System Reference Document 5.1 (“SRD 5.1”) by Wizards of the Coast LLC

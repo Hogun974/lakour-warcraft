@@ -1,9 +1,14 @@
 {
   "id": "lakour-warcraft",
-  "title": "La Kour Warcraft – Azeroth pour D&D 5e",
-  "description": "Azeroth pour D&D 5e (règles 2024), en français : treize peuples jouables, dix historiques, treize sous-classes, dons, affiliations, sorts, arsenal, afflictions, métiers et établi d'artisanat, garnison de faction, réputations et contrats, montures, bestiaire de soixante-dix fiches. Une aventure de départ (niveaux 1 à 3), une campagne en quatre chapitres (3 à 6), un one-shot d'enquête, un donjon à trois boss et des cartes jouables prêtes à l'emploi, chacune importable en un clic. Les règles maison sont automatisées (auras, familier du rôdeur, totems, phase 2 des boss, fureur, ensembles) et cinq fêtes de saison animent les Tarides avec le module compagnon MJ IA. Textes originaux ; œuvre de fan non officielle, non affiliée à Blizzard Entertainment. — Azeroth for D&D 5e (2024 rules), in French: 13 playable species, 13 subclasses, feats, spells, gear, afflictions, crafting, a 70-stat-block bestiary, a starter adventure, a four-chapter campaign, a one-shot and a boss dungeon with ready-to-play maps; house rules automated. Unofficial fan work.",
+  "title": "La Kour Warcraft — Azeroth pour la 5e édition",
+  "description": "Azeroth pour la 5e édition (système dnd5e, règles 2024), en français : treize peuples jouables, dix historiques, treize sous-classes, dons, affiliations, sorts, arsenal, afflictions, métiers et établi d'artisanat, garnison de faction, réputations et contrats, montures, bestiaire de soixante-dix fiches. Une aventure de départ (niveaux 1 à 3), une campagne en quatre chapitres (3 à 6), un one-shot d'enquête, un donjon à trois boss et des cartes jouables prêtes à l'emploi, chacune importable en un clic. Les règles maison sont automatisées (auras, familier du rôdeur, totems, phase 2 des boss, fureur, ensembles) et cinq fêtes de saison animent les Tarides avec le module compagnon MJ IA. Textes originaux ; œuvre de fan non officielle, non affiliée à Blizzard Entertainment. — Azeroth for D&D 5e (2024 rules), in French: 13 playable species, 13 subclasses, feats, spells, gear, afflictions, crafting, a 70-stat-block bestiary, a starter adventure, a four-chapter campaign, a one-shot and a boss dungeon with ready-to-play maps; house rules automated. Unofficial fan work.",
   "version": "0.10.1",
-  "authors": [{ "name": "Jordan", "url": "https://github.com/Hogun974" }],
+  "authors": [
+    {
+      "name": "Jordan",
+      "url": "https://github.com/Hogun974"
+    }
+  ],
   "url": "https://github.com/Hogun974/lakour-warcraft",
   "manifest": "https://github.com/Hogun974/lakour-warcraft/releases/latest/download/module.json",
   "download": "https://github.com/Hogun974/lakour-warcraft/releases/latest/download/lakour-warcraft.zip",
@@ -12,47 +17,233 @@
   "changelog": "https://github.com/Hogun974/lakour-warcraft/blob/principale/CHANGELOG.md",
   "license": "https://github.com/Hogun974/lakour-warcraft#licence",
   "media": [
-    { "type": "cover", "url": "https://raw.githubusercontent.com/Hogun974/lakour-warcraft/principale/docs/captures/accueil.png", "caption": "Écran d'accueil du monde La Kour Warcraft" },
-    { "type": "setup", "url": "https://raw.githubusercontent.com/Hogun974/lakour-warcraft/principale/docs/captures/accueil.png", "thumbnail": "https://raw.githubusercontent.com/Hogun974/lakour-warcraft/principale/docs/captures/accueil.png" },
-    { "type": "screenshot", "url": "https://raw.githubusercontent.com/Hogun974/lakour-warcraft/principale/docs/captures/carte-cabestan.png", "caption": "Cabestan — Quai des Comptoirs, carte vivante de l'aventure de départ" },
-    { "type": "screenshot", "url": "https://raw.githubusercontent.com/Hogun974/lakour-warcraft/principale/docs/captures/sous-classe.png", "caption": "Une sous-classe d'Azeroth et ses avancements dnd5e" },
-    { "type": "screenshot", "url": "https://raw.githubusercontent.com/Hogun974/lakour-warcraft/principale/docs/captures/etabli.png", "caption": "L'établi d'artisanat ouvert depuis la fiche d'un personnage" }
+    {
+      "type": "cover",
+      "url": "https://raw.githubusercontent.com/Hogun974/lakour-warcraft/principale/modules/lakour-warcraft/assets/monde/fond.jpg",
+      "caption": "Écran d'accueil du monde La Kour Warcraft"
+    },
+    {
+      "type": "setup",
+      "url": "https://raw.githubusercontent.com/Hogun974/lakour-warcraft/principale/docs/captures/accueil.png",
+      "thumbnail": "https://raw.githubusercontent.com/Hogun974/lakour-warcraft/principale/docs/captures/accueil.png"
+    },
+    {
+      "type": "screenshot",
+      "url": "https://raw.githubusercontent.com/Hogun974/lakour-warcraft/principale/docs/captures/carte-cabestan.png",
+      "caption": "Cabestan — Quai des Comptoirs, carte vivante de l'aventure de départ"
+    },
+    {
+      "type": "screenshot",
+      "url": "https://raw.githubusercontent.com/Hogun974/lakour-warcraft/principale/docs/captures/sous-classe.png",
+      "caption": "Une sous-classe d'Azeroth et ses avancements dnd5e"
+    },
+    {
+      "type": "screenshot",
+      "url": "https://raw.githubusercontent.com/Hogun974/lakour-warcraft/principale/docs/captures/etabli.png",
+      "caption": "L'établi d'artisanat ouvert depuis la fiche d'un personnage"
+    }
   ],
-  "compatibility": { "minimum": "14", "verified": "14.369" },
-  "relationships": {
-    "systems": [{ "id": "dnd5e", "type": "system", "compatibility": { "minimum": "6.0.0" } }]
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.369"
   },
-  "esmodules": ["scripts/main.js"],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
   "languages": [
-    { "lang": "fr", "name": "Français", "path": "lang/fr.json" },
-    { "lang": "en", "name": "English", "path": "lang/en.json" }
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
   ],
   "packs": [
-    { "name": "peuples", "label": "La Kour Warcraft — Peuples", "path": "packs/peuples", "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "historiques", "label": "La Kour Warcraft — Historiques et dons", "path": "packs/historiques", "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "objets", "label": "La Kour Warcraft — Objets", "path": "packs/objets", "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "dons", "label": "La Kour Warcraft — Dons et affiliations", "path": "packs/dons", "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "classes", "label": "La Kour Warcraft — Sous-classes", "path": "packs/classes", "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "sorts", "label": "La Kour Warcraft — Sorts", "path": "packs/sorts", "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "afflictions", "label": "La Kour Warcraft — Afflictions", "path": "packs/afflictions", "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" } },
-    { "name": "bestiaire", "label": "La Kour Warcraft — Bestiaire", "path": "packs/bestiaire", "type": "Actor", "system": "dnd5e", "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" } },
-    { "name": "tables", "label": "La Kour Warcraft — Tables", "path": "packs/tables", "type": "RollTable", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "journaux", "label": "La Kour Warcraft — Guides et aventures", "path": "packs/journaux", "type": "JournalEntry", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "scenes", "label": "La Kour Warcraft — Scènes", "path": "packs/scenes", "type": "Scene", "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" } },
-    { "name": "aventures", "label": "La Kour Warcraft — Aventures prêtes à jouer", "path": "packs/aventures", "type": "Adventure", "system": "dnd5e", "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" } }
+    {
+      "name": "peuples",
+      "label": "La Kour Warcraft — Peuples",
+      "path": "packs/peuples",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "historiques",
+      "label": "La Kour Warcraft — Historiques et dons",
+      "path": "packs/historiques",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "objets",
+      "label": "La Kour Warcraft — Objets",
+      "path": "packs/objets",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dons",
+      "label": "La Kour Warcraft — Dons et affiliations",
+      "path": "packs/dons",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "classes",
+      "label": "La Kour Warcraft — Sous-classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "sorts",
+      "label": "La Kour Warcraft — Sorts",
+      "path": "packs/sorts",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "afflictions",
+      "label": "La Kour Warcraft — Afflictions",
+      "path": "packs/afflictions",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bestiaire",
+      "label": "La Kour Warcraft — Bestiaire",
+      "path": "packs/bestiaire",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tables",
+      "label": "La Kour Warcraft — Tables",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "journaux",
+      "label": "La Kour Warcraft — Guides et aventures",
+      "path": "packs/journaux",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "scenes",
+      "label": "La Kour Warcraft — Scènes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "aventures",
+      "label": "La Kour Warcraft — Aventures prêtes à jouer",
+      "path": "packs/aventures",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
   ],
   "packFolders": [
-    { "name": "La Kour Warcraft", "sorting": "m", "color": "#1a3a5a", "packs": ["aventures", "journaux", "scenes", "peuples", "historiques", "classes", "dons", "sorts", "objets", "afflictions", "bestiaire", "tables"] }
+    {
+      "name": "La Kour Warcraft",
+      "sorting": "m",
+      "color": "#1a3a5a",
+      "packs": [
+        "aventures",
+        "journaux",
+        "scenes",
+        "peuples",
+        "historiques",
+        "classes",
+        "dons",
+        "sorts",
+        "objets",
+        "afflictions",
+        "bestiaire",
+        "tables"
+      ]
+    }
   ],
-  "quickstart": { "adventures": { "dnd5e": { "uuid": "Compendium.lakour-warcraft.aventures.Adventure.CQ8SkhIEW5h94mbU" } } },
-  "flags": { "dnd5e": { "spellLists": [
-    "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.Ul1YO018sbW9RRmk",
-    "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.IetUXLFHrT4bVEGt",
-    "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.2D8DaGKZZf35xLKW",
-    "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.pBJQcuht8v3wBTvi",
-    "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.nlYdLBAwZplXXqC1",
-    "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.Vhj5w5yBsOxkj6sA",
-    "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.TReruCQ6tfVqkRoL",
-    "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.eERlD3NAuouxgyEf"
-  ] } }
+  "quickstart": {
+    "adventures": {
+      "dnd5e": {
+        "uuid": "Compendium.lakour-warcraft.aventures.Adventure.CQ8SkhIEW5h94mbU"
+      }
+    }
+  },
+  "flags": {
+    "dnd5e": {
+      "spellLists": [
+        "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.Ul1YO018sbW9RRmk",
+        "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.IetUXLFHrT4bVEGt",
+        "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.2D8DaGKZZf35xLKW",
+        "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.pBJQcuht8v3wBTvi",
+        "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.nlYdLBAwZplXXqC1",
+        "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.Vhj5w5yBsOxkj6sA",
+        "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.TReruCQ6tfVqkRoL",
+        "Compendium.lakour-warcraft.journaux.JournalEntry.aC3vbtKhaCRMA8kC.JournalEntryPage.eERlD3NAuouxgyEf"
+      ]
+    }
+  }
 }

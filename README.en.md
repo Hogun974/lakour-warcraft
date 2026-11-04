@@ -1,4 +1,4 @@
-# La Kour Warcraft — Azeroth for D&D 5e in Foundry VTT
+# La Kour Warcraft — Azeroth for 5th edition in Foundry VTT
 
 *[Version française](README.md)*
 
@@ -55,7 +55,7 @@ translation of the content is being considered, see [Languages](#languages)). Al
 | Component | Version | Note |
 |---|---|---|
 | Foundry Virtual Tabletop | **v14** (verified with 14.369) | A Foundry licence is needed, as for any module. Not compatible with v13. |
-| `dnd5e` system | **6.0.0 or later** (built and tested with 6.0.6) | Free; provides the 2024 rules and the SRD 5.2 (classes, spells, feats, equipment). The module references them and copies nothing. |
+| `dnd5e` system | **6.0.0 or later** (built and tested with 6.0.6) | Free; provides the 2024 rules and the SRD 5.2.1 (classes, spells, feats, equipment). The module references them and copies nothing. |
 | `lakour-mj-ia` module (AI GM) | optional | Seasonal festivals, reputation clocks, flat or relief visual style, AI game master. Everything else works without it. |
 
 Optional modules the code can use when active (none is required): **babele** + **dnd5e_fr-FR** (and **fr-core**)
@@ -197,7 +197,7 @@ Creatures of Azeroth (murlocs, kobolds, gnolls, harpies, centaurs, naga, raptors
 Scourge and the Legion (ghouls, skeletons, abominations, imps, felguards, an infernal), common folk, the named NPCs of
 the adventures, the dungeon bosses, the rares of the Barrens, five mounts and the hunter's pet. Each sheet has a
 player-facing text, a GM note (tactics), a token in its faction's colours and features with painted icons. Numeric
-profiles are adapted from the SRD 5.2 (see [Credits](#credits)).
+profiles are adapted from the SRD 5.2.1 (see [Credits](#credits)).
 
 ### Tables (28), journals (24), maps (19), adventures (5)
 
@@ -318,7 +318,7 @@ docs/                           data shapes, publication checklist, screenshots
 - **Illustrations** (login screen, seasonal festivals): images generated locally by the author with an image model
   running on their own machine, without any remote service.
 - **D&D rules**: SRD classes, feats, spells and equipment are referenced in the installed dnd5e system, never
-  copied. The bestiary's numeric profiles are adapted and renamed from the SRD 5.2, and the Aspect of the Dragonflights
+  copied. The bestiary's numeric profiles are adapted and renamed from the SRD 5.2.1, and the Aspect of the Dragonflights
   subclass follows the draconic bloodline progression of the SRD 5.1; the attribution required by the licence is below.
 - **Engine**: [lakour-mj-ia](https://github.com/Hogun974/lakour-mj-ia), same author.
 
@@ -334,8 +334,8 @@ for fan creations; it must not be sold nor bundled into a paid offer.
 **Dungeons & Dragons.** 5E compatible. The module relies on Foundry's dnd5e system and takes, for creature profiles
 and one subclass progression, material from the SRD under Creative Commons:
 
-> This work includes material from the System Reference Document 5.2 (“SRD 5.2”) by Wizards of the Coast LLC,
-> available at https://www.dndbeyond.com/srd. The SRD 5.2 is licensed under the Creative Commons Attribution 4.0
+> This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC,
+> available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0
 > International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.
 
 > This work includes material taken from the System Reference Document 5.1 (“SRD 5.1”) by Wizards of the Coast LLC

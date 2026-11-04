@@ -7,12 +7,12 @@ Blizzard Entertainment ; Dungeons & Dragons appartient à Wizards of the Coast. 
 ## Règles et profils de créatures
 
 Les profils chiffrés des créatures du bestiaire (caractéristiques, CA, points de vie, attaques et DD) sont adaptés
-et renommés à partir du **System Reference Document 5.2** (« SRD 5.2 ») de Wizards of the Coast LLC, disponible sur
+et renommés à partir du **System Reference Document 5.2.1** (« SRD 5.2.1 ») de Wizards of the Coast LLC, disponible sur
 <https://www.dndbeyond.com/srd> et publié sous licence **Creative Commons Attribution 4.0 International
 (CC BY 4.0)** : <https://creativecommons.org/licenses/by/4.0/legalcode>. Aucun texte du SRD n'est reproduit.
 
-*This work includes material from the System Reference Document 5.2 ("SRD 5.2") by Wizards of the Coast LLC,
-available at https://www.dndbeyond.com/srd. The SRD 5.2 is licensed under the Creative Commons Attribution 4.0
+*This work includes material from the System Reference Document 5.2.1 ("SRD 5.2.1") by Wizards of the Coast LLC,
+available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0
 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.*
 
 ## Sous-classe inspirée du SRD 5.1
