@@ -94,18 +94,25 @@ se font ensuite depuis l'écran des modules de Foundry.
 
 ### 2. Un monde vierge prêt à jouer
 
-Dans Foundry : **Mondes de jeu › Installer un monde**, URL du manifeste :
+Foundry 14 n'installe plus de monde par URL de manifeste (l'onglet **Mondes de jeu** ne propose que **Créer un
+monde**) : le monde vierge se distribue en archive.
 
-```
-https://github.com/Hogun974/lakour-warcraft/releases/latest/download/world.json
-```
+1. Installez d'abord, par manifeste, le système **dnd5e** et les modules `lakour-warcraft` (ci-dessus) et `lakour-mj-ia`
+   (`https://github.com/Hogun974/lakour-mj-ia/releases/latest/download/module.json`).
+2. Téléchargez `la-kour-warcraft.zip` (ou `la-kour-warcraft-en.zip` pour l'anglais) dans la
+   [dernière version](https://github.com/Hogun974/lakour-warcraft/releases/latest).
+3. Décompressez-la dans `Data/worlds/la-kour-warcraft/` (ou `Data/worlds/la-kour-warcraft-en/`) du dossier de données
+   de Foundry (**Configuration › Chemin des données** ; sur un hébergeur, son gestionnaire de fichiers) :
+   `world.json` directement dans ce dossier.
+4. **Redémarrez Foundry** : le monde apparaît alors dans **Mondes de jeu**.
 
 Le monde arrive configuré (système dnd5e, module activé, unités métriques, écran d'accueil, contenu importé, MJ IA
 réglé prudemment : personnalité « Le Conteur épique », mode validation, budget de 10 $ par séance). Il ne contient pas
-le module : Foundry propose d'installer ses dépendances (`lakour-warcraft`, `lakour-mj-ia`) avec lui.
+les modules, d'où l'étape 1. Sinon, créez votre propre monde dnd5e (**Créer un monde**), activez le module et acceptez
+l'installation du contenu (voir [Premiers pas](#premiers-pas)).
 
 **Version anglaise** : module `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/lakour-warcraft-en.json`,
-monde vierge `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/world-en.json` (voir [Langues](#langues)).
+monde vierge `la-kour-warcraft-en.zip` (voir [Langues](#langues)).
 
 ### 3. Depuis les sources (pour contribuer ou fabriquer soi-même)
 

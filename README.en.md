@@ -96,16 +96,21 @@ https://github.com/Hogun974/lakour-warcraft/releases/latest/download/lakour-warc
 
 ### 2. A blank, ready-to-play world
 
-In Foundry: **Game Worlds › Install World**, manifest URL:
+Foundry 14 no longer installs a world from a manifest URL (the **Game Worlds** tab only offers **Create World**):
+the blank world is distributed as an archive.
 
-```
-https://github.com/Hogun974/lakour-warcraft/releases/latest/download/world.json
-```
+1. First install, by manifest, the **dnd5e** system and the modules `lakour-warcraft-en` (or `lakour-warcraft`, above)
+   and `lakour-mj-ia` (`https://github.com/Hogun974/lakour-mj-ia/releases/latest/download/module.json`).
+2. Download `la-kour-warcraft-en.zip` (English) or `la-kour-warcraft.zip` (French) from the
+   [latest release](https://github.com/Hogun974/lakour-warcraft/releases/latest).
+3. Unzip it into `Data/worlds/la-kour-warcraft-en/` (or `Data/worlds/la-kour-warcraft/`) inside Foundry's data folder
+   (**Configuration › User Data Path**; on a hosting service, its file manager): `world.json` directly in that folder.
+4. **Restart Foundry**: the world then appears in **Game Worlds**.
 
 The world comes configured (dnd5e system, module enabled, metric units, login screen, content imported, AI GM set
-cautiously: "Le Conteur épique" personality, approval mode, $10 budget per session). It does not embed the module:
-Foundry offers to install its dependencies (`lakour-warcraft`, `lakour-mj-ia`) along with it. The English blank world:
-`https://github.com/Hogun974/lakour-warcraft/releases/latest/download/world-en.json`.
+cautiously: "Le Conteur épique" personality, approval mode, $10 budget per session). It does not embed the modules,
+hence step 1. Otherwise, create your own dnd5e world (**Create World**), enable the module and accept the content
+installation (see [First steps](#first-steps)).
 
 ### 3. From source (to contribute or build yourself)
 

@@ -30,7 +30,7 @@ Comptez une demi-heure, téléchargements compris.
 | **Foundry Virtual Tabletop** | **v14** (testé avec la 14.370 ; manifeste vérifié avec la 14.369) | Licence Foundry nécessaire. Le module ne fonctionne pas en v13. |
 | **Système `dnd5e`** | **6.0.6** conseillée | Le module accepte la 6.0.0 et plus ; le monde vierge exige **6.0.6 ou plus**. Gratuit, s'installe depuis Foundry (**Systèmes de jeu › Installer un système**, chercher « Dungeons & Dragons Fifth Edition »). |
 | **Module `lakour-warcraft`** | dernière version | Le contenu : peuples, sous-classes, objets, bestiaire, aventures, cartes. |
-| **Module `lakour-mj-ia`** (La Kour – MJ IA) | 0.40.1 ou plus | **Facultatif** pour le module seul, **requis** par le monde vierge (Foundry l'installe avec lui). Fêtes de saison, horloges de réputation, style visuel plat ou relief, et le meneur de jeu IA s'il est configuré. |
+| **Module `lakour-mj-ia`** (La Kour – MJ IA) | 0.40.1 ou plus | **Facultatif** pour le module seul, **requis** par le monde vierge (à installer avant lui, section 3). Fêtes de saison, horloges de réputation, style visuel plat ou relief, et le meneur de jeu IA s'il est configuré. |
 
 **Pour jouer en français** (recommandé, rien n'est obligatoire) :
 
@@ -54,7 +54,7 @@ Dans l'écran d'accueil de Foundry (celui où l'on choisit un monde) : onglet **
 https://github.com/Hogun974/lakour-warcraft/releases/latest/download/module.json
 ```
 
-puis **Installer**. Faites de même pour le moteur du MJ IA si vous comptez l'utiliser sans passer par le monde vierge :
+puis **Installer**. Faites de même pour le moteur du MJ IA (indispensable au monde vierge, facultatif sinon) :
 
 ```
 https://github.com/Hogun974/lakour-mj-ia/releases/latest/download/module.json
@@ -69,22 +69,30 @@ vers la dernière version publiée.
 
 Le monde vierge est un monde Foundry déjà configuré : système dnd5e, module activé, unités métriques, écran d'accueil,
 guides et cartes de l'aventure de départ déjà importés, première carte active. Il est publié avec chaque version, à
-côté du module (archive `la-kour-warcraft.zip` et son manifeste `world.json`).
+côté du module, sous forme d'archive : `la-kour-warcraft.zip` (français) et `la-kour-warcraft-en.zip` (anglais).
 
-Onglet **Mondes de jeu** › **Installer un monde** › **URL du manifeste** :
+> **Foundry 14 n'installe plus de monde par son URL de manifeste** : l'onglet **Mondes de jeu** ne propose que
+> **Créer un monde**. Deux chemins marchent : décompresser le monde vierge (A) ou créer le vôtre (B).
 
-```
-https://github.com/Hogun974/lakour-warcraft/releases/latest/download/world.json
-```
+### Chemin A — le monde vierge prêt à jouer
 
-Foundry lit les dépendances du monde (système dnd5e 6.0.6 ou plus, modules `lakour-warcraft` et `lakour-mj-ia`) et
-propose d'installer celles qui manquent : acceptez.
+1. **Installez d'abord ce qu'il exige**, par URL de manifeste : le système **dnd5e** 6.0.6 ou plus
+   (**Systèmes de jeu › Installer un système**), puis les modules `lakour-warcraft` et `lakour-mj-ia` (section 2).
+2. **Téléchargez** `la-kour-warcraft.zip` dans la dernière version publiée :
+   <https://github.com/Hogun974/lakour-warcraft/releases/latest> (rubrique *Assets*).
+3. **Trouvez le dossier de données de Foundry** : écran de configuration › onglet **Configuration** › champ
+   **Chemin des données** (*User Data Path*). Sur un hébergeur, passez par son gestionnaire de fichiers.
+4. **Décompressez** l'archive dans un nouveau dossier `Data/worlds/la-kour-warcraft/` (le nom du dossier est
+   l'identifiant du monde) : `world.json` doit se trouver directement dedans, pas dans un sous-dossier.
+5. **Redémarrez Foundry** (le serveur ou l'application) : il ne voit un nouveau dossier de monde qu'au démarrage. Le
+   monde *La Kour — Les Tarides (Warcraft)* apparaît alors dans **Mondes de jeu**.
 
-![Installer le monde vierge et ses dépendances](docs/captures/tuto-installer-monde.png)
+### Chemin B — votre propre monde
 
-Vous préférez votre propre monde ? Créez un monde **dnd5e**, activez **La Kour Warcraft** (et **La Kour – MJ IA** si
-vous le voulez) dans **Réglages › Gérer les modules**, puis suivez la section 5 : le module propose d'importer son
-contenu au premier lancement.
+1. **Mondes de jeu › Créer un monde**, système **Dungeons & Dragons Fifth Edition**.
+2. Lancez-le, puis **Réglages › Gérer les modules** : cochez **La Kour Warcraft** (et **La Kour – MJ IA** si vous le
+   voulez).
+3. Au chargement, le module propose d'**installer le contenu** : acceptez (détails en section 5).
 
 ### Sécuriser le monde avant d'inviter qui que ce soit
 
@@ -92,17 +100,15 @@ L'utilisateur **Gamemaster** du monde vierge n'a **pas de mot de passe**. Lancez
 Gamemaster, puis **Réglages › Configuration › Utilisateurs** (ou depuis l'écran d'accueil du monde) : donnez-lui un
 mot de passe. Créez au même endroit un utilisateur par joueur ou joueuse, avec le rôle **Joueur**.
 
-![Donner un mot de passe au Gamemaster](docs/captures/tuto-mot-de-passe.png)
-
 ## 4. Version anglaise
 
 Une édition anglaise du contenu, le module **`lakour-warcraft-en`**, est fabriquée à partir des mêmes sources (mêmes
 documents, mêmes identifiants ; un texte pas encore traduit reste en français). Elle a son propre monde vierge.
 
-| Quoi | URL du manifeste |
+| Quoi | Où le prendre |
 |---|---|
-| Module anglais | `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/lakour-warcraft-en.json` |
-| Monde vierge anglais | `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/world-en.json` |
+| Module anglais | URL du manifeste `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/lakour-warcraft-en.json` |
+| Monde vierge anglais | archive `la-kour-warcraft-en.zip` de la [dernière version](https://github.com/Hogun974/lakour-warcraft/releases/latest), à décompresser dans `Data/worlds/la-kour-warcraft-en/` (chemin A de la section 3) |
 
 N'activez **jamais** `lakour-warcraft` et `lakour-warcraft-en` dans le même monde. Le monde anglais désactive les
 modules de traduction française (fr-core, dnd5e_fr-FR, babele). Le tutoriel en anglais est [TUTORIAL.md](TUTORIAL.md).
@@ -212,7 +218,8 @@ Le détail est dans le [README](README.md#règles-maison-et-automatisations).
 | Symptôme | Cause probable | Que faire |
 |---|---|---|
 | Le monde refuse de se lancer, « système incompatible » | dnd5e plus ancien que 6.0.6 | Mettez à jour le système dnd5e (**Systèmes de jeu › Mettre à jour**). |
-| Foundry signale des modules manquants à l'installation du monde | dépendances non installées | Installez `lakour-warcraft` et `lakour-mj-ia` par leur URL de manifeste (section 2), puis relancez. |
+| Le monde vierge n'apparaît pas dans **Mondes de jeu** | Foundry pas redémarré, ou archive décompressée au mauvais endroit | Vérifiez que `Data/worlds/la-kour-warcraft/world.json` existe (pas de sous-dossier en trop), puis redémarrez Foundry. |
+| Foundry signale des modules manquants au lancement du monde | dépendances non installées | Installez dnd5e, `lakour-warcraft` et `lakour-mj-ia` par leur URL de manifeste (section 2), puis relancez. |
 | Le module n'apparaît pas dans **Gérer les modules** | Foundry v13 ou plus ancien | Le module exige Foundry v14. |
 | Les journaux ou cartes manquent dans votre monde | contenu pas encore installé | **Réglages › Configurer les réglages › La Kour Warcraft › Installer**. |
 | Les classes et sorts du SRD restent en anglais | traduction du système absente | Installez et activez **babele**, **dnd5e_fr-FR** et **fr-core**. |

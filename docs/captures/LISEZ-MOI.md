@@ -24,14 +24,15 @@ manifeste, à respecter.
 
 Utilisées par [`TUTORIEL.md`](../../TUTORIEL.md) (interface de Foundry en **français**, module `lakour-warcraft`, monde
 `la-kour-warcraft`) et par [`TUTORIAL.md`](../../TUTORIAL.md) (même capture avec le suffixe **`-en`** : interface de Foundry
-en **anglais**, module `lakour-warcraft-en`, monde `la-kour-warcraft-en`). Douze fichiers en tout, à prendre dans un Foundry
+en **anglais**, module `lakour-warcraft-en`, monde `la-kour-warcraft-en`). Huit fichiers en tout, à prendre dans un Foundry
 v14 neuf (dnd5e 6.0.6).
+
+> Pas de capture de l'installation du monde par manifeste : Foundry 14 n'a plus de bouton « Installer un monde » (le
+> monde vierge se distribue en archive à décompresser dans `Data/worlds/`). Pas de capture des mots de passe non plus.
 
 | Fichier (français / anglais) | Ce qu'elle montre | Comment l'obtenir |
 |---|---|---|
 | `tuto-installer-module.png` / `tuto-installer-module-en.png` | La fenêtre **Installer un module** avec l'URL du manifeste collée en bas (`…/module.json` ; `…/lakour-warcraft-en.json` pour l'anglais). | Écran d'accueil de Foundry › Modules complémentaires › Installer un module ; coller l'URL avant de cliquer sur Installer. |
-| `tuto-installer-monde.png` / `tuto-installer-monde-en.png` | L'installation du monde vierge par son manifeste (`…/world.json` ; `…/world-en.json`), avec la fenêtre où Foundry propose d'installer les dépendances (dnd5e, `lakour-warcraft`, `lakour-mj-ia`). | Mondes de jeu › Installer un monde ; dans un Foundry où le module n'est pas encore installé, pour voir la liste des dépendances. |
-| `tuto-mot-de-passe.png` / `tuto-mot-de-passe-en.png` | La configuration des utilisateurs : le Gamemaster avec un champ de mot de passe rempli (masqué) et un utilisateur joueur créé. | Dans le monde vierge : Réglages › Configuration › Utilisateurs. Aucun mot de passe lisible. |
 | `tuto-premier-lancement.png` / `tuto-premier-lancement-en.png` | Le monde vierge au premier lancement : la carte « Cabestan — Quai des Comptoirs » (« Ratchet — Trading Post Quay ») active, l'onglet Journaux ouvert sur le dossier La Kour Warcraft. | Lancer le monde vierge neuf, se connecter en Gamemaster, ouvrir l'onglet Journaux et déplier le dossier. |
 | `tuto-aventures.png` / `tuto-aventures-en.png` | Le compendium **Aventures prêtes à jouer** ouvert, une aventure (Les Puits de cendre / The Ash Wells) affichée avec son bouton **Importer**. | Onglet Compendiums › dossier La Kour Warcraft › Aventures prêtes à jouer › ouvrir l'aventure. |
 | `tuto-mj-ia-reglages.png` / `tuto-mj-ia-reglages-en.png` | Les réglages du MJ IA dans le monde vierge : personnalité « Le Conteur épique » (console), autonomie « Validation par le MJ humain », budget par séance 10. | Réglages › Configurer les réglages › La Kour – MJ IA (et la console, chapeau de magicien, pour la personnalité). Aucune clé d'API visible. |

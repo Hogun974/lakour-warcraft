@@ -30,7 +30,7 @@ downloads included.
 | **Foundry Virtual Tabletop** | **v14** (tested with 14.370; manifest verified with 14.369) | A Foundry licence is required. The module does not work on v13. |
 | **`dnd5e` system** | **6.0.6** recommended | The module accepts 6.0.0 and later; the blank world requires **6.0.6 or later**. Free, installed from Foundry (**Game Systems › Install System**, search for "Dungeons & Dragons Fifth Edition"). |
 | **Module `lakour-warcraft-en`** (English) or `lakour-warcraft` (French) | latest | The content: species, subclasses, items, bestiary, adventures, maps. |
-| **Module `lakour-mj-ia`** (La Kour – MJ IA, the AI GM) | 0.40.1 or later | **Optional** for the module alone, **required** by the blank world (Foundry installs it along with it). Seasonal festivals, reputation clocks, flat or relief visual style, and the AI game master once configured. |
+| **Module `lakour-mj-ia`** (La Kour – MJ IA, the AI GM) | 0.40.1 or later | **Optional** for the module alone, **required** by the blank world (install it first, section 3). Seasonal festivals, reputation clocks, flat or relief visual style, and the AI game master once configured. |
 
 **Optional modules** the blank world enables when present and the AI GM can use: Sequencer and JB2A (animations),
 Automated Animations, FXMaster (weather), Calendaria (date and daily weather), Item Piles (loot, chests, merchants),
@@ -46,7 +46,7 @@ window, paste into **Manifest URL**:
 https://github.com/Hogun974/lakour-warcraft/releases/latest/download/lakour-warcraft-en.json
 ```
 
-then **Install**. Do the same for the AI GM engine if you plan to use it without the blank world:
+then **Install**. Do the same for the AI GM engine (required by the blank world, optional otherwise):
 
 ```
 https://github.com/Hogun974/lakour-mj-ia/releases/latest/download/module.json
@@ -60,21 +60,29 @@ Updates then come through the **Update** button of the module screen: the manife
 
 The blank world is a Foundry world that is already set up: dnd5e system, module enabled, metric units, login screen,
 guides and starter-adventure maps already imported, first map active. It is published with every release, next to the
-module (archive `la-kour-warcraft-en.zip` and its manifest `world-en.json`).
+module, as an archive: `la-kour-warcraft-en.zip` (English) and `la-kour-warcraft.zip` (French).
 
-**Game Worlds** tab › **Install World** › **Manifest URL**:
+> **Foundry 14 no longer installs a world from its manifest URL**: the **Game Worlds** tab only offers
+> **Create World**. Two paths work: unzip the blank world (A) or create your own (B).
 
-```
-https://github.com/Hogun974/lakour-warcraft/releases/latest/download/world-en.json
-```
+### Path A — the ready-to-play blank world
 
-Foundry reads the world's dependencies (dnd5e 6.0.6 or later, modules `lakour-warcraft-en` and `lakour-mj-ia`) and
-offers to install the missing ones: accept.
+1. **First install what it requires**, by manifest URL: the **dnd5e** system 6.0.6 or later
+   (**Game Systems › Install System**), then the modules `lakour-warcraft-en` and `lakour-mj-ia` (section 2).
+2. **Download** `la-kour-warcraft-en.zip` from the latest release:
+   <https://github.com/Hogun974/lakour-warcraft/releases/latest> (*Assets* section).
+3. **Find Foundry's data folder**: setup screen › **Configuration** tab › **User Data Path** field. On a hosting
+   service, use its file manager.
+4. **Unzip** the archive into a new folder `Data/worlds/la-kour-warcraft-en/` (the folder name is the world's id):
+   `world.json` must sit directly inside it, not in a subfolder.
+5. **Restart Foundry** (the server or the application): it only sees a new world folder at startup. The world
+   *La Kour — The Barrens (Warcraft, English)* then appears in **Game Worlds**.
 
-![Installing the blank world and its dependencies](docs/captures/tuto-installer-monde-en.png)
+### Path B — your own world
 
-Prefer your own world? Create a **dnd5e** world, enable **La Kour Warcraft** (and **La Kour – MJ IA** if you want it)
-in **Settings › Manage Modules**, then follow section 5: the module offers to import its content on first launch.
+1. **Game Worlds › Create World**, system **Dungeons & Dragons Fifth Edition**.
+2. Launch it, then **Settings › Manage Modules**: tick **La Kour Warcraft** (and **La Kour – MJ IA** if you want it).
+3. On loading, the module offers to **install the content**: accept (details in section 5).
 
 ### Secure the world before inviting anyone
 
@@ -82,17 +90,15 @@ The blank world's **Gamemaster** user has **no password**. Launch the world, log
 **Settings › Configuration › Users** (or from the world's login screen): give it a password. Create one user per
 player there as well, with the **Player** role.
 
-![Setting the Gamemaster's password](docs/captures/tuto-mot-de-passe-en.png)
-
 ## 4. English or French edition
 
 The content is written in French; the English edition, module **`lakour-warcraft-en`**, is built from the same sources
 (same documents, same identifiers; any text not yet translated appears in French). Each edition has its own blank world.
 
-| Edition | Module manifest | Blank world manifest |
+| Edition | Module manifest | Blank world (archive from the [latest release](https://github.com/Hogun974/lakour-warcraft/releases/latest), path A of section 3) |
 |---|---|---|
-| English | `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/lakour-warcraft-en.json` | `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/world-en.json` |
-| French | `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/module.json` | `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/world.json` |
+| English | `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/lakour-warcraft-en.json` | `la-kour-warcraft-en.zip` → `Data/worlds/la-kour-warcraft-en/` |
+| French | `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/module.json` | `la-kour-warcraft.zip` → `Data/worlds/la-kour-warcraft/` |
 
 **Never** enable `lakour-warcraft` and `lakour-warcraft-en` in the same world. The French tutorial is
 [TUTORIEL.md](TUTORIEL.md).
@@ -203,7 +209,8 @@ Details are in the [README](README.en.md#house-rules-and-automation).
 | Symptom | Likely cause | What to do |
 |---|---|---|
 | The world will not launch, "incompatible system" | dnd5e older than 6.0.6 | Update the dnd5e system (**Game Systems › Update**). |
-| Foundry reports missing modules when installing the world | dependencies not installed | Install `lakour-warcraft-en` and `lakour-mj-ia` from their manifest URLs (section 2), then retry. |
+| The blank world does not appear in **Game Worlds** | Foundry not restarted, or archive unzipped in the wrong place | Check that `Data/worlds/la-kour-warcraft-en/world.json` exists (no extra subfolder), then restart Foundry. |
+| Foundry reports missing modules when launching the world | dependencies not installed | Install dnd5e, `lakour-warcraft-en` and `lakour-mj-ia` from their manifest URLs (section 2), then retry. |
 | The module does not show in **Manage Modules** | Foundry v13 or older | The module requires Foundry v14. |
 | Journals or maps missing in your own world | content not installed yet | **Settings › Configure Settings › La Kour Warcraft › Install**. |
 | Duplicate texts, or French and English mixed | `lakour-warcraft` and `lakour-warcraft-en` both enabled | Keep only one. |

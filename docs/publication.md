@@ -64,9 +64,13 @@ compendiums, lance les essais, empaquette le module (`outils/empaqueter-module.m
       `world-en.json`, `la-kour-warcraft-en.zip`). Si le monde manque, c'est que le script `empaqueter-monde` n'écrit
       pas dans `dist/`.
 - [ ] Tester l'installation **depuis GitHub** dans un Foundry vierge : URL du manifeste
-      `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/module.json`, puis le monde avec
-      `…/releases/latest/download/world.json`. Vérifier que Foundry voit la bonne version et propose la mise à jour à la
-      release suivante.
+      `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/module.json`, puis le monde en décompressant
+      `la-kour-warcraft.zip` dans `Data/worlds/la-kour-warcraft/` et en redémarrant Foundry. Vérifier que Foundry voit la
+      bonne version du module et propose la mise à jour à la release suivante.
+- [ ] **Installation de monde par manifeste absente en Foundry 14** : l'onglet Mondes de jeu n'a plus que « Créer un
+      monde » (constaté en 14.370), et un dossier déposé dans `Data/worlds/` n'est vu qu'après un redémarrage. Distribuer
+      le zip du monde (`la-kour-warcraft.zip`, `la-kour-warcraft-en.zip`) ; `world.json` et `world-en.json` restent
+      publiés, mais ne pas les donner comme URL à coller.
 - [ ] Marquer la release « latest » (c'est le défaut) : les URL `releases/latest/download/…` en dépendent.
 
 ## 3. Passage en public
@@ -105,9 +109,9 @@ Un module gratuit n'a pas besoin du catalogue : l'URL du manifeste suffit aux jo
 | Quoi | URL |
 |---|---|
 | Module (manifeste, à coller dans « Installer un module ») | `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/module.json` |
-| Monde vierge (manifeste, « Installer un monde ») | `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/world.json` |
+| Monde vierge (archive à décompresser dans `Data/worlds/la-kour-warcraft/`, puis redémarrer Foundry ; pas d'installation par manifeste en v14) | `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/la-kour-warcraft.zip` |
 | Module anglais (manifeste) | `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/lakour-warcraft-en.json` |
-| Monde vierge anglais (manifeste) | `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/world-en.json` |
+| Monde vierge anglais (archive, dans `Data/worlds/la-kour-warcraft-en/`) | `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/la-kour-warcraft-en.zip` |
 | Tutoriels | `https://github.com/Hogun974/lakour-warcraft/blob/principale/TUTORIEL.md` (français), `…/TUTORIAL.md` (anglais) |
 | Archive du module (installation manuelle) | `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/lakour-warcraft.zip` |
 | Moteur MJ IA (facultatif) | `https://github.com/Hogun974/lakour-mj-ia` (manifeste : voir son README) |
