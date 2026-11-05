@@ -64,6 +64,14 @@
       "ProduitIntrouvable": "Produit introuvable dans le compendium du module : {produit}.",
       "Abandon": "Fabrication abandonnée après le test, rien n'a été dépensé : {raisons}"
     },
-    "FamilierPasProprietaire": "{utilisateur} ne possède pas la fiche de {nom} : seul son propriétaire, ou un MJ, peut le lier à un rôdeur."
+    "FamilierPasProprietaire": "{utilisateur} ne possède pas la fiche de {nom} : seul son propriétaire, ou un MJ, peut le lier à un rôdeur.",
+    "Interrompue": "La Kour Warcraft : installation interrompue ({erreur}). Le détail est dans la console (F12).",
+    "Rapport": {
+      "MisAJour": "{nom} (mis à jour)",
+      "Visible": "{nom} (rendu visible des joueurs)",
+      "CarteVivante": "{nom} (sons, zones et épingles)",
+      "Unites": "unités métriques ({cle})",
+      "Reputations": "réputations des factions ({n})"
+    }
   }
 }

@@ -64,6 +64,14 @@
       "ProduitIntrouvable": "Product not found in the module compendium: {produit}.",
       "Abandon": "Crafting abandoned after the check, nothing was spent: {raisons}"
     },
-    "FamilierPasProprietaire": "{utilisateur} does not own {nom}'s sheet: only its owner, or a GM, can bind it to a ranger."
+    "FamilierPasProprietaire": "{utilisateur} does not own {nom}'s sheet: only its owner, or a GM, can bind it to a ranger.",
+    "Interrompue": "La Kour Warcraft: installation interrupted ({erreur}). Details in the console (F12).",
+    "Rapport": {
+      "MisAJour": "{nom} (updated)",
+      "Visible": "{nom} (made visible to players)",
+      "CarteVivante": "{nom} (sounds, regions and pins)",
+      "Unites": "metric units ({cle})",
+      "Reputations": "faction reputations ({n})"
+    }
   }
 }

@@ -7,7 +7,7 @@ import "./capacites-suite.js";                    // Fléau, Champion, Avatar, P
 import { ouvrirEtabli } from "./etabli.js";      // Établi d'artisanat (fenêtre ouverte depuis la fiche de personnage)
 import { enregistrerFetes } from "./fetes.js";   // Fêtes de saison des Tarides, enregistrées auprès du MJ IA (crochet « lakour-mj-ia.pret »)
 
-import { ID } from "./identite.js";       // « lakour-warcraft » ou « lakour-warcraft-en » (version anglaise), selon le dossier du module
+import { ID, ANGLAIS } from "./identite.js";   // « lakour-warcraft » ou « lakour-warcraft-en » (version anglaise), selon le dossier du module
 const VERSION_CONTENU = "0.11.0";   // 0.4.0 : journaux liés (@UUID, jets), listes de sorts, cartes vivantes (sons, zones, épingles) ;
                                    // 0.4.2 : one-shot « Une nuit aux Deux Lanternes » (journaux, cartes et dossier proposés aux mondes déjà installés) ;
                                    // 0.5.0 : Tarides vivantes (contrats, donjon de Mèche-Noire, montures et routes aériennes, rares,
@@ -29,6 +29,13 @@ export const REPUTATIONS_INSTALLEES = [
   ["aube-d-argent", "Aube d'argent"], ["kor-kron", "Garde kor'kron"], ["sentinelles", "Sentinelles"],
   ["ligue-des-explorateurs", "Ligue des explorateurs"]
 ];
+// Leurs noms dans le module anglais (lakour-warcraft-en) : ceux des dictionnaires (contenu/en/*.json). L'horloge n'est créée
+// qu'une fois (assurer ne crée que ce qui manque) : un monde déjà installé garde le nom qu'il a.
+export const NOMS_ANGLAIS = Object.freeze({
+  alliance: "Alliance (Theramore)", horde: "Horde (The Crossroads)", "cartel-gentepression": "Steamwheedle Cartel", "kirin-tor": "Kirin Tor",
+  "cercle-cenarien": "Cenarion Circle", "main-d-argent": "Knights of the Silver Hand", "aube-d-argent": "Argent Dawn",
+  "kor-kron": "Kor'kron Guard", sentinelles: "Sentinels", "ligue-des-explorateurs": "Explorers' League"
+});
 
 // Une horloge de réputation par faction, à 0 et visible, si le moteur sait en tenir (api.horloges.assurer, à venir) :
 // sans moteur, sans API ou en cas d'erreur, rien ne bloque l'installation. Rend le nombre d'horloges assurées.
@@ -43,7 +50,8 @@ export async function assurerReputations(jeu = globalThis.game, api = jeu?.modul
   const horloges = api?.horloges;
   if (typeof horloges?.assurer !== "function") return 0;
   let n = 0;
-  for (const [faction, nom] of REPUTATIONS_INSTALLEES) {
+  for (const [faction, francais] of REPUTATIONS_INSTALLEES) {
+    const nom = ANGLAIS ? NOMS_ANGLAIS[faction] ?? francais : francais;
     try {
       await horloges.assurer({ id: `rep-${faction}`, nom, type: "reputation", valeur: 0, visible: true, faction, paliers: PALIERS_REPUTATION });
       n++;
@@ -171,7 +179,7 @@ export function installer() {
   installationEnCours ??= installerContenu()
     .catch(erreur => {
       console.error(`${ID} | installation`, erreur);
-      globalThis.ui?.notifications?.error?.(`La Kour Warcraft : installation interrompue (${erreur.message}). Le détail est dans la console (F12).`, { permanent: true });
+      globalThis.ui?.notifications?.error?.(game.i18n.format("LAKOURWOW.Interrompue", { erreur: erreur.message }), { permanent: true });
     })
     .finally(() => { installationEnCours = null; });
   return installationEnCours;
@@ -187,8 +195,8 @@ async function installerContenu() {
     const existant = game.journal.find(x => x.getFlag(ID, "cle") === j.getFlag(ID, "cle"));
     if (existant) {
       journauxDuMonde.set(j.id, existant.id);
-      if (await rafraichirJournal(existant, j)) rapport.push(`${j.name} (mis à jour)`);
-      if (await visibiliteDuCompendium(existant, j)) rapport.push(`${j.name} (rendu visible des joueurs)`);
+      if (await rafraichirJournal(existant, j)) rapport.push(game.i18n.format("LAKOURWOW.Rapport.MisAJour", { nom: j.name }));
+      if (await visibiliteDuCompendium(existant, j)) rapport.push(game.i18n.format("LAKOURWOW.Rapport.Visible", { nom: j.name }));
       continue;
     }
     // Même identifiant qu'au compendium (s'il est libre) : les épingles des cartes le visent.
@@ -206,7 +214,7 @@ async function installerContenu() {
     if (cle?.startsWith("lieu-")) continue;
     const existante = game.scenes.find(x => x.getFlag(ID, "cle") === cle);
     if (existante) {
-      if (await rafraichirScene(existante, s, journauxDuMonde)) rapport.push(`${s.name} (sons, zones et épingles)`);
+      if (await rafraichirScene(existante, s, journauxDuMonde)) rapport.push(game.i18n.format("LAKOURWOW.Rapport.CarteVivante", { nom: s.name }));
       continue;
     }
     const donnees = game.scenes.fromCompendium(s);
@@ -231,13 +239,13 @@ async function installerContenu() {
   for (const cle of ["metricLengthUnits", "metricWeightUnits", "metricVolumeUnits"]) {
     if (game.settings.settings.has(`dnd5e.${cle}`) && !game.settings.get("dnd5e", cle)) {
       await game.settings.set("dnd5e", cle, true);
-      rapport.push(`unités métriques (${cle})`);
+      rapport.push(game.i18n.format("LAKOURWOW.Rapport.Unites", { cle }));
     }
   }
 
   // Réputations des factions (horloges du MJ IA), sans bloquer si le moteur ne les gère pas encore.
   const reputations = await assurerReputations();
-  if (reputations) rapport.push(`réputations des factions (${reputations})`);
+  if (reputations) rapport.push(game.i18n.format("LAKOURWOW.Rapport.Reputations", { n: reputations }));
 
   await appliquerStyle(styleVisuel());
   await game.settings.set(ID, "installe", VERSION_CONTENU);
