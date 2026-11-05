@@ -1,6 +1,6 @@
 {
   "key": "core.moduleConfiguration",
-  "value": "{\"levels-3d-preview\":true,\"3ds-atlas\":true,\"autoanimations\":true,\"babele\":true,\"calendaria\":true,\"dice-so-nice\":true,\"dnd5e_fr-FR\":true,\"fr-core\":true,\"fxmaster\":true,\"item-piles\":true,\"itempilesdnd5e\":true,\"JB2A_DnD5e\":true,\"lakour-mj-ia\":true,\"lakour-warcraft\":true,\"lib-wrapper\":true,\"sequencer\":true,\"socketlib\":true}",
+  "value": "{\"levels-3d-preview\":false,\"3ds-atlas\":false,\"autoanimations\":false,\"babele\":true,\"calendaria\":false,\"dice-so-nice\":false,\"dnd5e_fr-FR\":true,\"fr-core\":true,\"fxmaster\":false,\"item-piles\":false,\"itempilesdnd5e\":false,\"JB2A_DnD5e\":false,\"lakour-mj-ia\":true,\"lakour-warcraft\":true,\"lib-wrapper\":false,\"sequencer\":false,\"socketlib\":false}",
   "_id": "pqfkXRSibT7kQPya",
   "user": null,
   "_stats": {

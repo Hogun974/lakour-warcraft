@@ -5,10 +5,10 @@
   "version": "0.11.0",
   "system": "dnd5e",
   "systemVersion": "6.0.6",
-  "coreVersion": "14.369",
+  "coreVersion": "14.370",
   "compatibility": {
     "minimum": "14",
-    "verified": "14.369"
+    "verified": "14.370"
   },
   "background": "modules/lakour-warcraft/assets/monde/fond.jpg",
   "joinTheme": "default",
