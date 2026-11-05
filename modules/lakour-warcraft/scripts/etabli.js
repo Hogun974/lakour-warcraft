@@ -15,7 +15,7 @@
 // manque quoi que ce soit (autre fenêtre, autre client), tout est abandonné, rien n'est dépensé ni créé. Entre deux
 // clients, seule cette relecture protège : la fenêtre de course se réduit au temps des écritures.
 // Logique pure exportée (essais) ; la fenêtre est construite à la demande (aucune API de Foundry lue au chargement).
-import { ID, avertir, drapeau, liste, prevenir, surPre } from "./automatismes.js";
+import { ID, avertir, drapeau, echapper, formatEchappe, liste, prevenir, surPre } from "./automatismes.js";
 
 // ---------------------------------------------------------------- Logique pure
 
@@ -214,7 +214,7 @@ export async function fabriquer(acteur, recette) {
       : plan.exemplaires > 1 ? "LAKOURWOW.Etabli.ReussiteDouble" : "LAKOURWOW.Etabli.Reussite";
     const donnees = { nom: acteur.name, produit: recette.produit.nom, total: jet.total, dd: recette.dd, po: recette.fournitures };
     await ChatMessage.implementation.create({
-      content: `<p><strong>${game.i18n.localize("LAKOURWOW.Etabli.Titre")}</strong> — ${game.i18n.format(message, donnees)}</p>`,
+      content: `<p><strong>${game.i18n.localize("LAKOURWOW.Etabli.Titre")}</strong> — ${formatEchappe(message, donnees)}</p>`,
       speaker: ChatMessage.implementation.getSpeaker?.({ actor: acteur }) ?? { alias: acteur.name }
     });
     return issue;
@@ -257,7 +257,7 @@ function classeEtabli() {
       this.#choix = recette?.id ?? null;
       if (!recette) return { recette: null };
       const etat = etatRecette(this.#acteur, recette);
-      let lien = recette.produit.nom;
+      let lien = echapper(recette.produit.nom);   // rendu en {{{lien}}} : texte simple échappé
       try { lien = await foundry.applications.ux.TextEditor.implementation.enrichHTML(`@UUID[${recette.produit.uuid}]{${recette.produit.nom}}`); } catch { /* texte simple */ }
       return {
         recette, lien, etat, groupes: groupesRecettes(recettes, recette.id), enCours: this.#enCours,

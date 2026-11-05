@@ -38,7 +38,7 @@
 //    une résistance légendaire dépensée ensuite sur ce jet (system.resisted) la relève.
 // Tout est défensif : une API absente ou changée ne fait qu'éteindre l'automatisme ; une erreur (même asynchrone) est
 // écrite en console sans interrompre Foundry.
-import { ID, avertir, drapeau, estMjActif, liste, pourChacun, prevenir, sur } from "./automatismes.js";
+import { ID, avertir, drapeau, estMjActif, formatEchappe, liste, pourChacun, prevenir, sur } from "./automatismes.js";
 
 const aPropriete = (objet, chemin) => {
   if (globalThis.foundry?.utils?.hasProperty) return foundry.utils.hasProperty(objet ?? {}, chemin);
@@ -414,6 +414,9 @@ export function familiersDe(rodeur) {
   return liste(game.actors).filter(a => drapeau(a, "familier") && drapeau(a, "rodeur") === rodeur.uuid);
 }
 
+// Description de l'effet « Lien du chasseur » (le nom du rôdeur est échappé : son joueur le choisit).
+export const texteLienChasseur = (ecart, nomRodeur) => `<p>${formatEchappe("LAKOURWOW.LienChasseurTexte", { n: ecart, rodeur: nomRodeur })}</p>`;
+
 // Recopie (MJ actif) ; une file évite deux recopies concurrentes du même familier (lien puis hook de mise à jour).
 let fileFamiliers = Promise.resolve();
 export function synchroniserFamilier(familier) {
@@ -433,7 +436,7 @@ async function recopierFamilier(familier) {
   const lien = liste(familier.effects).find(e => drapeau(e, "lienChasseur"));
   const plan = planFamilier({ ...pvSource(familier), effet: lien ? { id: lien.id, changes: changementsDe(lien) } : null }, chiffres);
   if (plan.maj) await familier.update(plan.maj);
-  const texte = `<p>${game.i18n.format("LAKOURWOW.LienChasseurTexte", { n: chiffres.ecart, rodeur: rodeur.name })}</p>`;
+  const texte = texteLienChasseur(chiffres.ecart, rodeur.name);
   if (plan.effet?.action === "oter") await familier.deleteEmbeddedDocuments("ActiveEffect", [plan.effet.id]);
   if (plan.effet?.action === "maj") await familier.updateEmbeddedDocuments("ActiveEffect", [{ _id: plan.effet.id, "system.changes": plan.effet.changes, description: texte }]);
   if (plan.effet?.action === "creer") {
@@ -479,7 +482,7 @@ sur("createChatMessage", async message => {
   if (!autorisees.length) {
     const destinataires = [...new Set([auteur?.id, ...game.users.filter(u => u.isGM).map(u => u.id)])].filter(Boolean);
     const texte = refus
-      ? game.i18n.format("LAKOURWOW.FamilierPasProprietaire", { nom: (cibles[0]?.actor ?? cibles[0])?.name ?? "?", utilisateur: auteur?.name ?? "?" })
+      ? formatEchappe("LAKOURWOW.FamilierPasProprietaire", { nom: (cibles[0]?.actor ?? cibles[0])?.name ?? "?", utilisateur: auteur?.name ?? "?" })
       : game.i18n.localize("LAKOURWOW.FamilierSansCible");
     await ChatMessage.implementation.create({ content: `<p>${texte}</p>`, whisper: destinataires, speaker: { alias: game.i18n.localize("LAKOURWOW.Titre") } });
     return;
@@ -512,6 +515,7 @@ sur("createChatMessage", async message => {
   const item = activite?.item ?? message.getAssociatedItem?.();
   if (!rompEvasion({ type: message.type, activite: activite?.type, objet: item?.type, sousType: item?.system?.type?.value })) return;
   const acteur = item?.actor ?? message.getAssociatedActor?.();
+  if (!peutLier(message.author, acteur)) return;   // carte forgée par un autre joueur : ignorée (MJ ou propriétaire seulement)
   const ids = evasionsAOter(acteur?.effects);
   if (ids.length) await acteur.deleteEmbeddedDocuments("ActiveEffect", ids);
 });
@@ -521,7 +525,7 @@ sur("createChatMessage", async message => {
   const activite = message.getAssociatedActivity?.();
   const item = activite?.item ?? message.getAssociatedItem?.();
   const acteur = message.getAssociatedActor?.();
-  if (!acteur || !metATerre({
+  if (!acteur || !peutLier(message.author, acteur) || !metATerre({
     type: message.type, marque: drapeau(item, "aTerre"), rolls: message.rolls, resiste: message.system?.resisted,
     aTerre: acteur.statuses?.has?.("prone"), immunise: acteur.system?.traits?.ci?.value?.has?.("prone")
   })) return;
@@ -535,6 +539,7 @@ sur("createChatMessage", async message => {
 sur("updateChatMessage", async (message, changements) => {
   if (!estMjActif() || message?.type !== "save" || !aPropriete(changements, "system.resisted") || !message.system?.resisted) return;
   const acteur = message.getAssociatedActor?.();
+  if (!peutLier(message.author, acteur)) return;
   const ids = liste(acteur?.effects).filter(e => drapeau(e, "futRoulant") === message.id).map(e => e.id);
   if (ids.length) await acteur.deleteEmbeddedDocuments("ActiveEffect", ids);
 });

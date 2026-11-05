@@ -8,3 +8,7 @@ monde/dist/
 # Module anglais lakour-warcraft-en : engendré en entier par `npm run fabriquer-warcraft-en` (dictionnaires versionnés dans
 # modules/lakour-warcraft/contenu/en/) ; jamais versionné.
 modules/lakour-warcraft-en/
+# Secrets locaux : fichiers d'environnement et clés de secours, jamais versionnés.
+.env
+*.env
+cle-de-secours-*.json

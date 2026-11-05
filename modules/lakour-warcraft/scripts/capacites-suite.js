@@ -44,16 +44,17 @@
 //    actif, deux minutes.
 // Tout est défensif : une API absente ou changée ne fait qu'éteindre l'automatisme ; une erreur (même asynchrone) est
 // écrite en console sans interrompre Foundry.
-import { ID, drapeau, estMjActif, liste, pourChacun, prevenir, sur, surPre } from "./automatismes.js";
+import { ID, drapeau, echapper, estMjActif, formatEchappe, liste, pourChacun, prevenir, sur, surPre } from "./automatismes.js";
 import {
   convertirLongueur, distanceJetons, ecartAuras, estAllie, estHostile, familiersDe, grilleDe, peutLier, positionJeton, sauvegardeRatee
 } from "./capacites.js";
 
 const effetActif = e => Boolean(e) && !e.disabled && !e.isSuppressed && !e.duration?.expired;
 const uuidSync = u => (u ? globalThis.fromUuidSync?.(u, { strict: false }) ?? null : null);
-// Les noms (jetons, acteurs, activités) sont échappés avant d'entrer dans le HTML d'un message.
-export const echapper = v => String(v ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
-const t = (cle, donnees) => game.i18n.format(cle, Object.fromEntries(Object.entries(donnees ?? {}).map(([k, v]) => [k, echapper(v)])));
+// Les noms (jetons, acteurs, activités) sont échappés avant d'entrer dans le HTML d'un message (utilitaire partagé,
+// scripts/automatismes.js).
+export { echapper };
+const t = formatEchappe;
 // Auteur d'une carte : MJ, ou propriétaire du document qu'elle touche (même règle que peutLier).
 export const auteurAutorise = (auteur, doc) => peutLier(auteur, doc);
 const mjs = () => liste(game.users).filter(u => u.isGM).map(u => u.id);
@@ -426,6 +427,8 @@ sur("updateChatMessage", async message => {
   const p = drapeau(message, "poigne");
   if (!p) return;
   const jeton = uuidSync(p.jeton);
+  // L'auteur d'un message peut en changer les drapeaux : un « poigne » forgé ne déplace que ce que l'auteur possède.
+  if (!auteurAutorise(message.author, jeton)) return;
   const ici = positionJeton(jeton);
   if (jeton && ici.x === p.vers.x && ici.y === p.vers.y) await deplacer(jeton, p.de);
   await message.unsetFlag(ID, "poigne");

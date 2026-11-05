@@ -4,6 +4,15 @@ Les versions sont celles du module `lakour-warcraft` (`modules/lakour-warcraft/m
 `lakour-mj-ia` (sous-module) a son propre journal ; la version du moteur embarquée est rappelée quand elle change.
 Format : [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/), dates au format AAAA-MM-JJ.
 
+## Non publié
+
+### Sécurité
+- Noms d'acteurs, d'effets, d'objets et d'utilisateurs échappés dans les messages et descriptions des automatismes
+  (Fureur retirée, familier, phase 2, Lien du chasseur, établi ; `echapper` et `formatEchappe` partagés dans
+  `scripts/automatismes.js`) ; Évasion d'agent, Fût roulant et retour de la Poigne de la mort ignorent une carte dont
+  l'auteur n'est ni MJ ni propriétaire de la créature ; README : section Sécurité ; `.gitignore` : `.env`, `*.env`,
+  `cle-de-secours-*.json`.
+
 ## 0.11.0 — 2026-11-04
 
 ### Ajouté

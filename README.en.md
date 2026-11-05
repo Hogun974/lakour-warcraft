@@ -32,6 +32,7 @@ translation of the content is being considered, see [Languages](#languages)). Al
 - [House rules and automation](#house-rules-and-automation)
 - [Seasonal festivals](#seasonal-festivals)
 - [The AI GM, in short](#the-ai-gm-in-short)
+- [Security](#security)
 - [Languages](#languages)
 - [Tests](#tests)
 - [Repository layout](#repository-layout)
@@ -260,6 +261,17 @@ reputation clocks, investigations and contacts, rolls on the tables, creates AI 
 animates the festivals. It also brings tools **without AI**: guided turn-by-turn combat, campaign notebook, flat or
 relief visual style. This content module provides what it expects: extras, token indexes, map plans, festivals,
 reputations.
+
+## Security
+
+- **API key**: the AI GM engine (`lakour-mj-ia`) keeps your Claude or ChatGPT key in the GM's browser (a "client"
+  scoped setting, local storage), never on the server or on the players' side; calls to the AI leave from that browser.
+  Any script running in that page (another installed module, for instance) can therefore read it: only install modules
+  you trust, do not run the GM from a shared computer, and set a spending limit on the key with the provider.
+- **Assistant GM**: to Foundry, an Assistant GM is a GM. They see everything the GM sees (secret journals and tables,
+  NPCs, private automation cards and their buttons). Only give that role to someone who could run the game.
+- **Blank world**: the "Gamemaster" user of the ready-to-play world has no password. Give it one (**Configure** ›
+  **Users**) before inviting anyone, otherwise the first person to connect gets in as GM.
 
 ## Languages
 

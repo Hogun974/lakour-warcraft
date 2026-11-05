@@ -102,7 +102,7 @@ export const memosAPurger = (memos, idCombat) => [...memos].filter(m => m.endsWi
 // Contenu du rappel : bouton d'utilisation dnd5e ([[/item uuid]]) et lien vers la capacité.
 export function contenuPhase2(phrase, capacite) {
   if (!capacite?.uuid) return `<p>${phrase}</p>`;
-  return `<p>${phrase}</p><p>[[/item ${capacite.uuid}]]{${capacite.name}} · @UUID[${capacite.uuid}]{fiche de la capacité}</p>`;
+  return `<p>${phrase}</p><p>[[/item ${capacite.uuid}]]{${echapper(capacite.name)}} · @UUID[${capacite.uuid}]{fiche de la capacité}</p>`;
 }
 
 // ---------------------------------------------------------------- 4. Liens morts
@@ -146,6 +146,11 @@ export const estMjActif = () => Boolean(globalThis.game?.user) && game.user === 
 export const prevenir = (cle, donnees) => {
   try { ui.notifications?.warn(game.i18n.format(cle, donnees)); } catch { /* interface absente */ }
 };
+// Les noms venus de documents qu'un joueur peut modifier (acteurs, jetons, effets, objets, utilisateurs) sont échappés
+// avant d'entrer dans le HTML d'un message ou d'une description : game.i18n.format n'échappe rien (Foundry 14), et le
+// nettoyage du serveur ne doit pas être le seul filet. formatEchappe : game.i18n.format, paramètres échappés.
+export const echapper = v => String(v ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+export const formatEchappe = (cle, donnees) => game.i18n.format(cle, Object.fromEntries(Object.entries(donnees ?? {}).map(([k, v]) => [k, echapper(v)])));
 
 // ---------------------------------------------------------------- Hooks : 1. Fureur
 
@@ -170,7 +175,7 @@ async function retirerFureurInterdite(effet, userId) {
   prevenir("LAKOURWOW.FureurRetiree", donnees);
   const destinataires = [...new Set([userId, ...game.users.filter(u => u.isGM).map(u => u.id)])].filter(Boolean);
   await ChatMessage.implementation.create({
-    content: `<p>${game.i18n.format("LAKOURWOW.FureurRetiree", donnees)}</p>`, whisper: destinataires,
+    content: `<p>${formatEchappe("LAKOURWOW.FureurRetiree", donnees)}</p>`, whisper: destinataires,
     speaker: { alias: game.i18n.localize("LAKOURWOW.Titre") }
   });
 }
@@ -221,7 +226,7 @@ async function verifierPhase2(acteur) {
   annoncees.add(memo);
   await acteur.setFlag(ID, "phase2Annoncee", cle);
   const capacite = acteur.items.find(i => i.name === drapeau(acteur, "boss").phase2) ?? acteur.items.find(i => i.name.startsWith("Phase 2"));
-  const phrase = game.i18n.format("LAKOURWOW.Phase2", { nom: acteur.name, pv: pv.value, max: pv.max });
+  const phrase = formatEchappe("LAKOURWOW.Phase2", { nom: acteur.name, pv: pv.value, max: pv.max });
   await ChatMessage.implementation.create({
     content: contenuPhase2(phrase, capacite), whisper: game.users.filter(u => u.isGM).map(u => u.id),
     speaker: ChatMessage.implementation.getSpeaker?.({ actor: acteur }) ?? { alias: acteur.name }

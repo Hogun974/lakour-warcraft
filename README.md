@@ -32,6 +32,7 @@ Tous les textes sont originaux. C'est une **œuvre de fan non officielle, non af
 - [Règles maison et automatisations](#règles-maison-et-automatisations)
 - [Les fêtes de saison](#les-fêtes-de-saison)
 - [Le MJ IA, en bref](#le-mj-ia-en-bref)
+- [Sécurité](#sécurité)
 - [Langues](#langues)
 - [Essais](#essais)
 - [Structure du dépôt](#structure-du-dépôt)
@@ -298,6 +299,19 @@ compagnons IA pour compléter la table et anime les fêtes. Il apporte aussi des
 guidé, carnet de campagne, style visuel plat ou relief. Son guide d'utilisation est installé dans chaque monde et lisible
 dans son dépôt. Ce module de contenu lui fournit ce qu'il attend : figurants, index des jetons, plans des cartes,
 fêtes, réputations.
+
+## Sécurité
+
+- **Clé d'API** : le moteur du MJ IA (`lakour-mj-ia`) garde votre clé Claude ou ChatGPT dans le navigateur du MJ
+  (réglage de portée « client », stockage local), jamais sur le serveur ni chez les joueurs ; les appels à l'IA partent
+  de ce navigateur. Tout script qui tourne dans cette page (un autre module installé, par exemple) peut donc la lire :
+  n'installez que des modules de confiance, ne jouez pas le MJ depuis un poste partagé, et fixez un plafond de dépense
+  à la clé chez le fournisseur.
+- **MJ-assistant** : pour Foundry, un MJ-assistant est un MJ. Il voit tout ce que voit le MJ (journaux et tables
+  secrets, PNJ, cartes privées des automatismes et leurs boutons). Ne donnez ce rôle qu'à quelqu'un qui pourrait mener
+  la partie.
+- **Monde vierge** : l'utilisateur « Gamemaster » du monde prêt à jouer n'a pas de mot de passe. Donnez-lui-en un
+  (**Configuration** › **Utilisateurs**) avant d'inviter qui que ce soit, sinon le premier venu entre en MJ.
 
 ## Langues
 
