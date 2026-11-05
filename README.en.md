@@ -362,14 +362,20 @@ the Coast. Foundry Virtual Tabletop is a trademark of Foundry Gaming, LLC.
 
 ## Licence
 
-> **TODO (author): choose and confirm the licences below before the first release, then add the matching `LICENSE`
-> file at the repository root and in `modules/lakour-warcraft/`; the manifest's `license` field currently points to
-> this section.**
+- **Code** (`modules/lakour-warcraft/scripts/`, `templates/`, `lang/`, `outils/`, `essais/`, `docs/`): **MIT** licence,
+  see [`LICENSE`](LICENSE) (© 2026 Hogun974).
+- **Original texts, game data and images** (`contenu/` and its English dictionaries, the `src/` and `packs/`
+  compendiums, the English module `lakour-warcraft-en`, the blank world `monde/`, illustrations, maps and composed
+  tokens in `assets/`): [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/) (attribution,
+  non-commercial, share-alike). Expected attribution: "LaKour — Hogun974", with a link to this repository and to the
+  licence.
 
-- **Code** (`scripts/`, `outils/`, `essais/`, constructors in `contenu/`): [MIT](https://opensource.org/license/mit) licence.
-- **Texts, game data and original images** (descriptions, adventures, journals, maps, illustrations, composed tokens):
-  [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), attribution "La Kour Warcraft, Jordan
-  (Hogun974)", non-commercial, share alike.
+The folder-by-folder details and the third-party notices are in [`LICENCE-CONTENU.md`](LICENCE-CONTENU.md); both files
+ship in the module and world archives.
 
-These licences cover the author's contribution only: they grant no right over Blizzard Entertainment's trademarks and
-universe, nor over SRD material (covered by its own CC BY 4.0 licence), nor over game-icons.net icons (CC BY 3.0).
+**Unofficial fan work**, neither affiliated with nor endorsed by Blizzard Entertainment, nor affiliated with Wizards of
+the Coast: Warcraft and the names of its universe remain Blizzard Entertainment's, Dungeons & Dragons Wizards of the
+Coast's (see "Trademarks and licences"). The CC licence covers only this project's original texts and images, **not any
+third-party intellectual property** nor the SRD material (SRD 5.2.1 and SRD 5.1, which stay under CC BY 4.0 with their
+notices), and **no commercial use** is allowed. The token silhouettes are game-icons.net icons under **CC BY 3.0**
+(credits in `CREDITS.md`). Foundry VTT is a trademark of Foundry Gaming, LLC; this project is not affiliated with it.

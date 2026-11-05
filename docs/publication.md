@@ -5,10 +5,13 @@ Tout ce qui suit est à faire par Jordan ; rien n'est automatique avant le premi
 
 ## 1. Avant de rendre le dépôt public
 
-- [ ] **Licences** : trancher la section « Licence » du `README.md` (code MIT ; textes et images CC BY-NC-SA 4.0, ou
-      autre choix), retirer le `TODO`, ajouter un fichier `LICENSE` à la racine (et une copie ou un renvoi dans
-      `modules/lakour-warcraft/`), puis faire pointer `license` dans `module.json` vers ce fichier
-      (`https://github.com/Hogun974/lakour-warcraft/blob/principale/LICENSE`). Même chose dans `README.en.md`.
+- [x] **Licences** (décidé par Jordan le 5 novembre 2026) : code MIT, textes et images CC BY-NC-SA 4.0. `LICENSE`
+      (MIT, « Copyright (c) 2026 Hogun974 ») et `LICENCE-CONTENU.md` (détail par dossier, attribution « LaKour —
+      Hogun974 », SRD sous CC BY 4.0, mention « œuvre de fan non officielle ») à la racine ; `TODO` retiré des deux
+      README ; `license` de `module.json` vaut `"LICENSE"` (hérité par `lakour-warcraft-en`), et
+      `outils/empaqueter-module.mjs` copie les deux fichiers à la racine des archives des deux modules (plutôt qu'une
+      copie dans `modules/lakour-warcraft/`) ; les archives du monde ne les contiendront qu'une fois le sous-module `modules/lakour-mj-ia` mis à jour (`outils/empaqueter-monde.mjs` les copie désormais), et l'étape « Licences dans chaque archive » du workflow refuse la release sans eux. Licence rappelée dans
+      `modules/lakour-warcraft/CREDITS.md`.
 - [ ] **Relire ce qui sort** : `README.md`, `README.en.md`, `CHANGELOG.md`, `module.json` (description), `CREDITS.md`.
       Vérifier qu'aucun fichier du dépôt ne mentionne une adresse privée, un serveur, un identifiant ou un secret
       (`git grep -nE "172\.|forgejo|\.identifiants|token|motdepasse"`), y compris dans `docs/` et `essais/`.

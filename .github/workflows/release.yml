@@ -97,6 +97,18 @@ jobs:
           if [ -s dist/world.json ]; then test -s dist/la-kour-warcraft.zip && test -s dist/world-en.json && test -s dist/la-kour-warcraft-en.zip; fi
           node -e "const m=require('./dist/module.json'); if (m.version!=='${{ steps.version.outputs.version }}') { console.error('version du manifeste publié :', m.version); process.exit(1) }"
 
+      # Chaque archive publiée (système, modules, mondes) porte les licences du dépôt : LICENSE (MIT, le code) et
+      # LICENCE-CONTENU.md (CC BY-NC-SA 4.0, les textes et les images). Les empaqueteurs les copient de la racine du dépôt ;
+      # les archives des mondes les reçoivent de modules/lakour-mj-ia/outils/empaqueter-monde.mjs (sous-module à jour exigé).
+      - name: Licences dans chaque archive (LICENSE, LICENCE-CONTENU.md)
+        run: |
+          for z in dist/*.zip; do
+            for f in LICENSE LICENCE-CONTENU.md; do
+              unzip -Z1 "$z" | grep -qx "$f" || { echo "$f absent de $z"; exit 1; }
+            done
+            echo "$z : licences présentes"
+          done
+
       - name: Notes de version (section du CHANGELOG)
         id: notes
         run: |

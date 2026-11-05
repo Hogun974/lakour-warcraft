@@ -410,15 +410,21 @@ Coast. Foundry Virtual Tabletop est une marque de Foundry Gaming, LLC.
 
 ## Licence
 
-> **TODO (auteur) : choisir et confirmer les licences ci-dessous avant la première release, puis ajouter le fichier
-> `LICENSE` correspondant à la racine et dans `modules/lakour-warcraft/` ; le champ `license` du manifeste pointe pour
-> l'instant vers cette section.**
+- **Code** (`modules/lakour-warcraft/scripts/`, `templates/`, `lang/`, `outils/`, `essais/`, `docs/`) : licence
+  **MIT**, voir [`LICENSE`](LICENSE) (© 2026 Hogun974).
+- **Textes, données de jeu et images originaux** (`contenu/` et ses dictionnaires anglais, compendiums `src/` et
+  `packs/`, module anglais `lakour-warcraft-en`, monde vierge `monde/`, illustrations, cartes et jetons composés de
+  `assets/`) : licence [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr) (attribution,
+  pas d'usage commercial, partage dans les mêmes conditions). Attribution attendue : « LaKour — Hogun974 », avec le
+  lien vers ce dépôt et vers la licence.
 
-- **Code** (`scripts/`, `outils/`, `essais/`, constructeurs de `contenu/`) : licence [MIT](https://opensource.org/license/mit).
-- **Textes, données de jeu et images originales** (descriptions, aventures, journaux, cartes, illustrations, jetons
-  composés) : licence [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr), attribution
-  « La Kour Warcraft, Jordan (Hogun974) », usage non commercial, partage dans les mêmes conditions.
+Le détail, dossier par dossier, et les mentions des tiers sont dans [`LICENCE-CONTENU.md`](LICENCE-CONTENU.md) ; les
+deux fichiers sont livrés dans les archives du module et du monde.
 
-Ces licences ne portent que sur la contribution de l'auteur : elles ne concèdent aucun droit sur les marques et
-l'univers de Blizzard Entertainment, ni sur le matériel du SRD (couvert par sa propre licence CC BY 4.0), ni sur les
-icônes de game-icons.net (CC BY 3.0).
+**Œuvre de fan non officielle**, ni affiliée à Blizzard Entertainment ni approuvée par elle, ni affiliée à Wizards of
+the Coast : Warcraft et les noms de son univers restent à Blizzard Entertainment, Dungeons & Dragons à Wizards of the
+Coast (voir « Marques et licences »). La licence CC ne couvre que les textes et images originaux de ce projet, **pas la
+propriété intellectuelle de tiers** ni le matériel du SRD (SRD 5.2.1 et SRD 5.1, qui restent sous CC BY 4.0 avec leurs
+mentions), et **aucun usage commercial** n'est permis. Les silhouettes des jetons sont des icônes de game-icons.net sous
+**CC BY 3.0** (crédits dans `CREDITS.md`). Foundry VTT est une marque de Foundry Gaming, LLC ; ce projet n'y est pas
+affilié.

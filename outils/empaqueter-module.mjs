@@ -10,7 +10,8 @@
 //   (le nom « module.json » reste celui du module français ; Foundry lit un manifeste sous n'importe quel nom) ;
 // - --verifier-version : échoue si la version demandée n'est pas celle du module.json du dépôt (garde-fou du tag) ;
 // - packs/ doit avoir été compilé (npm run fabriquer-warcraft) : sinon l'empaquetage échoue au lieu de livrer un module vide.
-// Dans l'archive : module.json (publié), CREDITS.md, lang/, scripts/, templates/, assets/, packs/ ; jamais src/ ni contenu/
+// Dans l'archive : module.json (publié), CREDITS.md, LICENSE (MIT, le code) et LICENCE-CONTENU.md (CC BY-NC-SA 4.0, les
+// textes et les images) pris à la racine du dépôt, lang/, scripts/, templates/, assets/, packs/ ; jamais src/ ni contenu/
 // (sources des fabricants), ni les fichiers cachés. Les fichiers sont à la racine de l'archive, comme Foundry l'attend.
 import { createHash } from "node:crypto";
 import { existsSync, mkdirSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
@@ -22,6 +23,9 @@ export const MODULE = "lakour-warcraft";
 export const DEPOT_PAR_DEFAUT = "https://github.com/Hogun974/lakour-warcraft";
 export const EXCLUS = new Set(["src", "contenu"]);
 export const ARCHIVE = `${MODULE}.zip`;
+// Licences tenues à la racine du dépôt (une seule copie pour le module français et le module anglais), ajoutées à la racine
+// de l'archive quand le dossier du module n'en a pas ; une licence absente est signalée, l'archive part sans.
+export const LICENCES = ["LICENSE", "LICENCE-CONTENU.md"];
 // Archive et manifeste publié d'un module : module.json pour le module français, <id>.json pour un module dérivé (lakour-warcraft-en).
 export const nomArchive = (module = MODULE) => `${module}.zip`;
 export const nomManifeste = (module = MODULE) => (module === MODULE ? "module.json" : `${module}.json`);
@@ -141,8 +145,15 @@ export function empaqueter({ racineDepot = process.cwd(), version = null, depot 
   const archiveNom = nomArchive(module), manifesteNom = nomManifeste(module);
   const texteManifeste = `${JSON.stringify(publie, null, 2)}\n`;
   const fichiers = fichiersDuModule(racineModule).filter(f => f !== "module.json");
+  const licences = [];
+  for (const f of LICENCES.filter(l => !fichiers.includes(l))) {
+    const chemin = resolve(racineDepot, f);
+    if (existsSync(chemin)) licences.push({ nom: f, donnees: readFileSync(chemin), date: statSync(chemin).mtime });
+    else journal(`avertissement : ${f} absent de la racine du dépôt : l'archive part sans${f === "LICENSE" ? " (le champ « license » du manifeste pointera dans le vide)" : ""}`);
+  }
   const entrees = [
     { nom: "module.json", donnees: Buffer.from(texteManifeste, "utf8") },
+    ...licences,
     ...fichiers.map(f => ({ nom: f, donnees: readFileSync(join(racineModule, f)), date: statSync(join(racineModule, f)).mtime }))
   ];
   const archive = zip(entrees);

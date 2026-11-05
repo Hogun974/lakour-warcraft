@@ -328,7 +328,7 @@ test("crédits : CREDITS.md est la sortie du générateur et cite les illustrati
   assert.equal(fichier, credits(listeJetons()), "CREDITS.md différent de la sortie de outils/fabriquer-jetons-warcraft.mjs");
   assert.match(fichier, /`assets\/monde\/fond\.jpg`/);
   assert.match(fichier, /`assets\/fetes\/\*\.jpg`/);
-  assert.match(fichier, /ComfyStudio \(FLUX\.2 klein 9B\), sans service distant, pour l'usage privé de la table/);
+  assert.match(fichier, /ComfyStudio \(FLUX\.2 klein 9B\), sans service distant, pour un usage non commercial/);
 });
 
 // ---------------------------------------------------------------- Version anglaise (module lakour-warcraft-en)

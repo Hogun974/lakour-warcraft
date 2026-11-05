@@ -1,6 +1,6 @@
 # Crédits — La Kour Warcraft
 
-Module de fan, non officiel, pour un usage privé à la table. Warcraft et les noms de son univers appartiennent à
+Module de fan, non officiel, pour un usage non commercial. Warcraft et les noms de son univers appartiennent à
 Blizzard Entertainment ; Dungeons & Dragons appartient à Wizards of the Coast. Tous les textes de ce module
 (descriptions, notes du MJ, aventure, aides de jeu) sont originaux.
 
@@ -30,7 +30,7 @@ Commons Attribution 4.0 International License available at https://creativecommo
 ## Illustrations
 
 Les illustrations de l'écran d'accueil (`assets/monde/fond.jpg`) et des fêtes de saison (`assets/fetes/*.jpg`) ont été
-générées localement avec ComfyStudio (FLUX.2 klein 9B), sans service distant, pour l'usage privé de la table.
+générées localement avec ComfyStudio (FLUX.2 klein 9B), sans service distant, pour un usage non commercial.
 
 ## Icônes des jetons
 
@@ -134,3 +134,16 @@ pour les jetons de personnage joueur, fond en dégradé, ombre, liseré, version
 | [pestle-mortar](https://game-icons.net/1x1/skoll/pestle-mortar.html) | Skoll | Aldwin Crayeval, le bon docteur |
 | [skeleton](https://game-icons.net/1x1/skoll/skeleton.html) | Skoll | Squelette du Fléau |
 | [troll](https://game-icons.net/1x1/skoll/troll.html) | Skoll | Troll Fanécorce |
+
+## Licence
+
+Les textes et les images originaux de ce module sont sous licence **CC BY-NC-SA 4.0**
+(<https://creativecommons.org/licenses/by-nc-sa/4.0/>), attribution « LaKour — Hogun974 » ; son code (scripts, gabarits,
+styles, `lang/`) est sous licence **MIT**. Le détail et les mentions des tiers sont dans `LICENCE-CONTENU.md` et
+`LICENSE`, livrés dans l'archive avec ce fichier. Les icônes de game-icons.net créditées ci-dessus restent sous CC BY 3.0, et le
+matériel du SRD sous CC BY 4.0 avec les mentions ci-dessus.
+
+Œuvre de fan non officielle, ni affiliée à Blizzard Entertainment ni approuvée par elle : Warcraft et les noms de son
+univers restent à Blizzard Entertainment, Dungeons & Dragons à Wizards of the Coast, et la licence CC ne couvre pas
+cette propriété intellectuelle ; aucun usage commercial.
+Foundry VTT est une marque de Foundry Gaming, LLC ; ce module n'y est pas affilié.
