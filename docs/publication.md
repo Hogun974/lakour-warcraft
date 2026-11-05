@@ -98,6 +98,18 @@ Un module gratuit n'a pas besoin du catalogue : l'URL du manifeste suffit aux jo
 3. Commit, tag `vX.Y.Z`, poussée des tags : la release se fait seule.
 4. Si le paquet est au catalogue foundryvtt.com : y déclarer la version avec l'URL du manifeste de cette version.
 
+## Release à blanc à la main
+
+Avant de poser une étiquette, on peut rejouer toute la release sur GitHub sans rien publier : onglet **Actions** ›
+**Publication** › *Run workflow*, sur `principale` (ou une autre branche). Le workflow fabrique, lance les essais, empaquette
+et vérifie exactement comme pour une étiquette, avec la version de `modules/lakour-warcraft/module.json` (comme si l'étiquette
+`v<version>` était posée : hors étiquette, la comparaison étiquette/version ne peut pas échouer). Seule différence : la
+release GitHub n'est pas créée, le contenu de `dist/` est déposé en artefact du workflow (à télécharger en bas de la page
+du run). La release réelle ne part que sur une étiquette `v*` poussée. À côté, le workflow **Essais** lance la suite
+à chaque push et pull request vers `principale`, une fois la variable de dépôt `ESSAIS_AUTOMATIQUES` mise à `oui`
+(Settings › Secrets and variables › Actions › Variables) : à faire quand le moteur `lakour-mj-ia` est à jour sur GitHub,
+sinon la récupération du sous-module échoue à chaque envoi. À la main (Run workflow), il tourne toujours.
+
 ## Release à blanc du 4 novembre 2026
 
 Chaque workflow a été rejoué étape par étape (Ubuntu 24.04 sous WSL, **Node 24.22**, npm 10) dans un clone neuf

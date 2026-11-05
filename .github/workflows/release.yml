@@ -13,6 +13,10 @@ name: Publication
 on:
   push:
     tags: ["v*"]
+  # Release à blanc, à la main (Actions › Publication › Run workflow, sur principale ou une autre branche) :
+  # tout est fabriqué et vérifié comme pour une vraie release, avec la version du manifeste (comme si l'étiquette
+  # v<version> était posée) ; le contenu de dist/ est déposé en artefact du workflow, rien n'est publié.
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -36,7 +40,14 @@ jobs:
       - name: Version du tag
         id: version
         run: |
-          VERSION="${GITHUB_REF_NAME#v}"
+          # Sur une étiquette, sa version (vérifiée plus bas contre module.json). Release à blanc hors étiquette : la version
+          # de modules/lakour-warcraft/module.json, comme si l'étiquette v<version> était posée (aucun échec).
+          if [ "$GITHUB_REF_TYPE" = "tag" ]; then
+            VERSION="${GITHUB_REF_NAME#v}"
+          else
+            VERSION=$(node -p "require('./modules/lakour-warcraft/module.json').version")
+            echo "Release à blanc sur « $GITHUB_REF_NAME » (pas d'étiquette) : empaquetage comme v$VERSION"
+          fi
           if ! echo "$VERSION" | grep -Eq '^[0-9]+\.[0-9]+\.[0-9]+$'; then
             echo "Tag « $GITHUB_REF_NAME » : attendu vX.Y.Z" >&2; exit 1
           fi
@@ -100,6 +111,7 @@ jobs:
           cat dist/notes.md
 
       - name: Release GitHub
+        if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v3
         with:
           name: La Kour Warcraft ${{ steps.version.outputs.version }}
@@ -110,3 +122,12 @@ jobs:
           files: |
             dist/*.json
             dist/*.zip
+
+      # Release à blanc (lancement à la main) : pas de release GitHub, dist/ est déposé en artefact à télécharger.
+      - name: Release à blanc (dist/ déposé en artefact, rien n'est publié)
+        if: github.event_name != 'push'
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ github.event.repository.name }}-a-blanc-${{ steps.version.outputs.version }}
+          path: dist/
+          if-no-files-found: error
