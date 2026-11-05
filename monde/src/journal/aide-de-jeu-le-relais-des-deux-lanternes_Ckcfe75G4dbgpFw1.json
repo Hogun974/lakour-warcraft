@@ -1,7 +1,9 @@
 {
   "_id": "Ckcfe75G4dbgpFw1",
+  "_key": "!journal!Ckcfe75G4dbgpFw1",
   "name": "Aide de jeu — Le Relais des Deux Lanternes",
   "folder": "wNtgGHYLJnHwTJwh",
+  "sort": 0,
   "categories": [],
   "ownership": {
     "default": 2
@@ -9,7 +11,7 @@
   "flags": {
     "lakour-warcraft": {
       "cle": "relais-deux-lanternes",
-      "version": "0.10.0"
+      "version": "0.11.0"
     }
   },
   "_stats": {
@@ -26,6 +28,7 @@
   "pages": [
     {
       "_id": "RfEbEiYF0A4Oq9sD",
+      "_key": "!journal.pages!Ckcfe75G4dbgpFw1.RfEbEiYF0A4Oq9sD",
       "name": "Le règlement des Deux Lanternes",
       "type": "text",
       "sort": 100,
@@ -40,30 +43,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375271,
-        "modifiedTime": 1793703375273,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!Ckcfe75G4dbgpFw1.RfEbEiYF0A4Oq9sD"
+      "flags": {}
     },
     {
       "_id": "U9huyMKBmDc8dNpN",
+      "_key": "!journal.pages!Ckcfe75G4dbgpFw1.U9huyMKBmDc8dNpN",
       "name": "Le registre des voyageurs",
       "type": "text",
       "sort": 200,
@@ -78,29 +62,7 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375273,
-        "modifiedTime": 1793703375274,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!Ckcfe75G4dbgpFw1.U9huyMKBmDc8dNpN"
+      "flags": {}
     }
-  ],
-  "sort": 0,
-  "_key": "!journal!Ckcfe75G4dbgpFw1"
+  ]
 }

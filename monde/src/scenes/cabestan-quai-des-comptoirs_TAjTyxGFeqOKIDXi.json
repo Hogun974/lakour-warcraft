@@ -1,7 +1,10 @@
 {
+  "_id": "TAjTyxGFeqOKIDXi",
+  "_key": "!scenes!TAjTyxGFeqOKIDXi",
   "name": "Cabestan — Quai des Comptoirs",
   "navName": "Cabestan — Quai des Comptoirs",
   "navigation": false,
+  "active": true,
   "width": 2800,
   "height": 2000,
   "padding": 0,
@@ -9,45 +12,13 @@
     "type": 1,
     "size": 100,
     "distance": 1.5,
-    "units": "m",
-    "style": "solidLines",
-    "thickness": 1,
-    "color": "#000000",
-    "alpha": 0.2
+    "units": "m"
   },
   "tokenVision": true,
   "environment": {
     "darknessLevel": 0.5,
     "globalLight": {
-      "enabled": false,
-      "alpha": 0.5,
-      "bright": false,
-      "color": null,
-      "coloration": 1,
-      "luminosity": 0,
-      "saturation": 0,
-      "contrast": 0,
-      "shadows": 0,
-      "darkness": {
-        "min": 0,
-        "max": 1
-      }
-    },
-    "darknessLock": false,
-    "cycle": true,
-    "base": {
-      "hue": 0,
-      "intensity": 0,
-      "luminosity": 0,
-      "saturation": 0,
-      "shadows": 0
-    },
-    "dark": {
-      "hue": 0.7138888888888889,
-      "intensity": 0,
-      "luminosity": -0.25,
-      "saturation": 0,
-      "shadows": 0
+      "enabled": false
     }
   },
   "levels": [
@@ -60,34 +31,10 @@
       },
       "background": {
         "color": "#18181b",
-        "src": "modules/lakour-warcraft/assets/cartes/3d/cabestan-quai.svg",
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
+        "src": "modules/lakour-warcraft/assets/cartes/3d/cabestan-quai.svg"
       },
-      "flags": {},
-      "foreground": {
-        "src": null,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "fog": {
-        "src": null
-      },
-      "textures": {
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "fill",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0
-      },
-      "visibility": {
-        "levels": []
-      },
-      "sort": 0,
-      "_key": "!scenes.levels!TAjTyxGFeqOKIDXi.defaultLevel0000"
+      "_key": "!scenes.levels!TAjTyxGFeqOKIDXi.defaultLevel0000",
+      "flags": {}
     }
   ],
   "initialLevel": "defaultLevel0000",
@@ -108,15 +55,8 @@
       "dir": 0,
       "levels": [],
       "_id": "OzeEbPDA26lMRwHz",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.OzeEbPDA26lMRwHz"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.OzeEbPDA26lMRwHz",
+      "flags": {}
     },
     {
       "c": [
@@ -134,15 +74,8 @@
       "dir": 0,
       "levels": [],
       "_id": "DazxFZIxiIxw1Inz",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.DazxFZIxiIxw1Inz"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.DazxFZIxiIxw1Inz",
+      "flags": {}
     },
     {
       "c": [
@@ -160,15 +93,8 @@
       "dir": 0,
       "levels": [],
       "_id": "7f1uO7dKgkCWLcSF",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.7f1uO7dKgkCWLcSF"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.7f1uO7dKgkCWLcSF",
+      "flags": {}
     },
     {
       "c": [
@@ -186,15 +112,8 @@
       "dir": 0,
       "levels": [],
       "_id": "asGIfRp8QXISNZIR",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.asGIfRp8QXISNZIR"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.asGIfRp8QXISNZIR",
+      "flags": {}
     },
     {
       "c": [
@@ -212,15 +131,8 @@
       "dir": 0,
       "levels": [],
       "_id": "tvWPZhG0KKIPbnQF",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.tvWPZhG0KKIPbnQF"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.tvWPZhG0KKIPbnQF",
+      "flags": {}
     },
     {
       "c": [
@@ -238,15 +150,8 @@
       "dir": 0,
       "levels": [],
       "_id": "19K21MA5ezcp21Wt",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.19K21MA5ezcp21Wt"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.19K21MA5ezcp21Wt",
+      "flags": {}
     },
     {
       "c": [
@@ -264,15 +169,8 @@
       "dir": 0,
       "levels": [],
       "_id": "qO9G5AgANgamz3xi",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.qO9G5AgANgamz3xi"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.qO9G5AgANgamz3xi",
+      "flags": {}
     },
     {
       "c": [
@@ -290,15 +188,8 @@
       "dir": 0,
       "levels": [],
       "_id": "hXsO7O5lUDbEeepu",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.hXsO7O5lUDbEeepu"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.hXsO7O5lUDbEeepu",
+      "flags": {}
     },
     {
       "c": [
@@ -316,15 +207,8 @@
       "dir": 0,
       "levels": [],
       "_id": "UEH0vLOQUexo1UYb",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.UEH0vLOQUexo1UYb"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.UEH0vLOQUexo1UYb",
+      "flags": {}
     },
     {
       "c": [
@@ -342,15 +226,8 @@
       "dir": 0,
       "levels": [],
       "_id": "e9iNd3tihjS2nbAN",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.e9iNd3tihjS2nbAN"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.e9iNd3tihjS2nbAN",
+      "flags": {}
     },
     {
       "c": [
@@ -368,15 +245,8 @@
       "dir": 0,
       "levels": [],
       "_id": "ea9qVb4RsVmIm11B",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.ea9qVb4RsVmIm11B"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.ea9qVb4RsVmIm11B",
+      "flags": {}
     },
     {
       "c": [
@@ -394,15 +264,8 @@
       "dir": 0,
       "levels": [],
       "_id": "hLV3NuezB6ELGhp0",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.hLV3NuezB6ELGhp0"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.hLV3NuezB6ELGhp0",
+      "flags": {}
     },
     {
       "c": [
@@ -420,15 +283,8 @@
       "dir": 0,
       "levels": [],
       "_id": "w8lxEiFrH2zeJyFm",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.w8lxEiFrH2zeJyFm"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.w8lxEiFrH2zeJyFm",
+      "flags": {}
     },
     {
       "c": [
@@ -446,15 +302,8 @@
       "dir": 0,
       "levels": [],
       "_id": "qQ6kHQ17fPclANCl",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.qQ6kHQ17fPclANCl"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.qQ6kHQ17fPclANCl",
+      "flags": {}
     },
     {
       "c": [
@@ -472,15 +321,8 @@
       "dir": 0,
       "levels": [],
       "_id": "etWb9VBvOCbaAdvR",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.etWb9VBvOCbaAdvR"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.etWb9VBvOCbaAdvR",
+      "flags": {}
     },
     {
       "c": [
@@ -498,15 +340,8 @@
       "dir": 0,
       "levels": [],
       "_id": "flkj906aEZPaByBK",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.flkj906aEZPaByBK"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.flkj906aEZPaByBK",
+      "flags": {}
     },
     {
       "c": [
@@ -524,15 +359,8 @@
       "dir": 0,
       "levels": [],
       "_id": "w1AS2A4P3DrYcHid",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.w1AS2A4P3DrYcHid"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.w1AS2A4P3DrYcHid",
+      "flags": {}
     },
     {
       "c": [
@@ -550,15 +378,8 @@
       "dir": 0,
       "levels": [],
       "_id": "lTSPR9nSXt16hGad",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.lTSPR9nSXt16hGad"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.lTSPR9nSXt16hGad",
+      "flags": {}
     },
     {
       "c": [
@@ -576,15 +397,8 @@
       "dir": 0,
       "levels": [],
       "_id": "GgE39kcVAcETEDfh",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.GgE39kcVAcETEDfh"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.GgE39kcVAcETEDfh",
+      "flags": {}
     },
     {
       "c": [
@@ -602,15 +416,8 @@
       "dir": 0,
       "levels": [],
       "_id": "dJbPoUMz4O0BxObw",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.dJbPoUMz4O0BxObw"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.dJbPoUMz4O0BxObw",
+      "flags": {}
     },
     {
       "c": [
@@ -628,15 +435,8 @@
       "dir": 0,
       "levels": [],
       "_id": "Ssg9uHu0BkgkbpJd",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.Ssg9uHu0BkgkbpJd"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.Ssg9uHu0BkgkbpJd",
+      "flags": {}
     },
     {
       "c": [
@@ -654,15 +454,8 @@
       "dir": 0,
       "levels": [],
       "_id": "7iEt3WZfIBqajftZ",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.7iEt3WZfIBqajftZ"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.7iEt3WZfIBqajftZ",
+      "flags": {}
     },
     {
       "c": [
@@ -680,15 +473,8 @@
       "dir": 0,
       "levels": [],
       "_id": "TDeGjI3Eb3pGTOeX",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.TDeGjI3Eb3pGTOeX"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.TDeGjI3Eb3pGTOeX",
+      "flags": {}
     },
     {
       "c": [
@@ -706,15 +492,8 @@
       "dir": 0,
       "levels": [],
       "_id": "8nNFB4OR5n2Rlevc",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.8nNFB4OR5n2Rlevc"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.8nNFB4OR5n2Rlevc",
+      "flags": {}
     },
     {
       "c": [
@@ -732,15 +511,8 @@
       "dir": 0,
       "levels": [],
       "_id": "EjtHVgJpCx1JnSGb",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.EjtHVgJpCx1JnSGb"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.EjtHVgJpCx1JnSGb",
+      "flags": {}
     },
     {
       "c": [
@@ -758,15 +530,8 @@
       "dir": 0,
       "levels": [],
       "_id": "bpxTmPmSTZkAu8ZT",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.bpxTmPmSTZkAu8ZT"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.bpxTmPmSTZkAu8ZT",
+      "flags": {}
     },
     {
       "c": [
@@ -784,15 +549,8 @@
       "dir": 0,
       "levels": [],
       "_id": "TJNi87l1Cu1s7KLR",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.TJNi87l1Cu1s7KLR"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.TJNi87l1Cu1s7KLR",
+      "flags": {}
     },
     {
       "c": [
@@ -810,15 +568,8 @@
       "dir": 0,
       "levels": [],
       "_id": "X3INKxfVZHiEymM8",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.X3INKxfVZHiEymM8"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.X3INKxfVZHiEymM8",
+      "flags": {}
     },
     {
       "c": [
@@ -836,15 +587,8 @@
       "dir": 0,
       "levels": [],
       "_id": "h59BXckdKz3DT4Li",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.h59BXckdKz3DT4Li"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.h59BXckdKz3DT4Li",
+      "flags": {}
     },
     {
       "c": [
@@ -862,15 +606,8 @@
       "dir": 0,
       "levels": [],
       "_id": "ROZmyVohR6xwEdlo",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.ROZmyVohR6xwEdlo"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.ROZmyVohR6xwEdlo",
+      "flags": {}
     },
     {
       "c": [
@@ -888,15 +625,8 @@
       "dir": 0,
       "levels": [],
       "_id": "uzOShmuLsAxzbweJ",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.uzOShmuLsAxzbweJ"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.uzOShmuLsAxzbweJ",
+      "flags": {}
     },
     {
       "c": [
@@ -914,15 +644,8 @@
       "dir": 0,
       "levels": [],
       "_id": "rv97ERwhiCZOMfIF",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.rv97ERwhiCZOMfIF"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.rv97ERwhiCZOMfIF",
+      "flags": {}
     },
     {
       "c": [
@@ -940,15 +663,8 @@
       "dir": 0,
       "levels": [],
       "_id": "s3k819v4Dciwqt28",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.s3k819v4Dciwqt28"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.s3k819v4Dciwqt28",
+      "flags": {}
     },
     {
       "c": [
@@ -966,15 +682,8 @@
       "dir": 0,
       "levels": [],
       "_id": "piJSQ8joyYeSAzmi",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.piJSQ8joyYeSAzmi"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.piJSQ8joyYeSAzmi",
+      "flags": {}
     },
     {
       "c": [
@@ -992,15 +701,8 @@
       "dir": 0,
       "levels": [],
       "_id": "p3D5FFQwBHUtJIek",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.p3D5FFQwBHUtJIek"
+      "_key": "!scenes.walls!TAjTyxGFeqOKIDXi.p3D5FFQwBHUtJIek",
+      "flags": {}
     }
   ],
   "drawings": [
@@ -1010,9 +712,7 @@
       "shape": {
         "type": "r",
         "width": 2800,
-        "height": 1400,
-        "radius": null,
-        "points": []
+        "height": 1400
       },
       "fillType": 0,
       "fillColor": "#000000",
@@ -1028,16 +728,9 @@
       "hidden": true,
       "sort": 1000,
       "_id": "MZiXlBMu5K1kd86s",
+      "_key": "!scenes.drawings!TAjTyxGFeqOKIDXi.MZiXlBMu5K1kd86s",
       "flags": {},
-      "author": null,
-      "elevation": 0,
-      "rotation": 0,
-      "bezierFactor": 0,
-      "texture": null,
-      "fontFamily": "",
-      "locked": false,
-      "interface": false,
-      "_key": "!scenes.drawings!TAjTyxGFeqOKIDXi.MZiXlBMu5K1kd86s"
+      "author": "LaKourGamemaster"
     },
     {
       "x": 100,
@@ -1045,9 +738,7 @@
       "shape": {
         "type": "r",
         "width": 900,
-        "height": 600,
-        "radius": null,
-        "points": []
+        "height": 600
       },
       "fillType": 0,
       "fillColor": "#000000",
@@ -1063,16 +754,9 @@
       "hidden": true,
       "sort": 1001,
       "_id": "mw0oCIQ51K6rwWMf",
+      "_key": "!scenes.drawings!TAjTyxGFeqOKIDXi.mw0oCIQ51K6rwWMf",
       "flags": {},
-      "author": null,
-      "elevation": 0,
-      "rotation": 0,
-      "bezierFactor": 0,
-      "texture": null,
-      "fontFamily": "",
-      "locked": false,
-      "interface": false,
-      "_key": "!scenes.drawings!TAjTyxGFeqOKIDXi.mw0oCIQ51K6rwWMf"
+      "author": "LaKourGamemaster"
     },
     {
       "x": 1200,
@@ -1080,9 +764,7 @@
       "shape": {
         "type": "r",
         "width": 900,
-        "height": 700,
-        "radius": null,
-        "points": []
+        "height": 700
       },
       "fillType": 0,
       "fillColor": "#000000",
@@ -1098,16 +780,9 @@
       "hidden": true,
       "sort": 1002,
       "_id": "gsVvgccMhHTbmEM8",
+      "_key": "!scenes.drawings!TAjTyxGFeqOKIDXi.gsVvgccMhHTbmEM8",
       "flags": {},
-      "author": null,
-      "elevation": 0,
-      "rotation": 0,
-      "bezierFactor": 0,
-      "texture": null,
-      "fontFamily": "",
-      "locked": false,
-      "interface": false,
-      "_key": "!scenes.drawings!TAjTyxGFeqOKIDXi.gsVvgccMhHTbmEM8"
+      "author": "LaKourGamemaster"
     },
     {
       "x": 2200,
@@ -1115,9 +790,7 @@
       "shape": {
         "type": "r",
         "width": 600,
-        "height": 800,
-        "radius": null,
-        "points": []
+        "height": 800
       },
       "fillType": 0,
       "fillColor": "#000000",
@@ -1133,16 +806,9 @@
       "hidden": true,
       "sort": 1003,
       "_id": "vS0RoRgXo42WFc7a",
+      "_key": "!scenes.drawings!TAjTyxGFeqOKIDXi.vS0RoRgXo42WFc7a",
       "flags": {},
-      "author": null,
-      "elevation": 0,
-      "rotation": 0,
-      "bezierFactor": 0,
-      "texture": null,
-      "fontFamily": "",
-      "locked": false,
-      "interface": false,
-      "_key": "!scenes.drawings!TAjTyxGFeqOKIDXi.vS0RoRgXo42WFc7a"
+      "author": "LaKourGamemaster"
     },
     {
       "x": 100,
@@ -1150,9 +816,7 @@
       "shape": {
         "type": "r",
         "width": 600,
-        "height": 400,
-        "radius": null,
-        "points": []
+        "height": 400
       },
       "fillType": 0,
       "fillColor": "#000000",
@@ -1168,16 +832,9 @@
       "hidden": true,
       "sort": 1004,
       "_id": "c6EQ2onLsaY0UQ5r",
+      "_key": "!scenes.drawings!TAjTyxGFeqOKIDXi.c6EQ2onLsaY0UQ5r",
       "flags": {},
-      "author": null,
-      "elevation": 0,
-      "rotation": 0,
-      "bezierFactor": 0,
-      "texture": null,
-      "fontFamily": "",
-      "locked": false,
-      "interface": false,
-      "_key": "!scenes.drawings!TAjTyxGFeqOKIDXi.c6EQ2onLsaY0UQ5r"
+      "author": "LaKourGamemaster"
     },
     {
       "x": 0,
@@ -1185,9 +842,7 @@
       "shape": {
         "type": "r",
         "width": 2800,
-        "height": 300,
-        "radius": null,
-        "points": []
+        "height": 300
       },
       "fillType": 0,
       "fillColor": "#000000",
@@ -1203,16 +858,9 @@
       "hidden": true,
       "sort": 1005,
       "_id": "d6T2iEt8dr7yH0K2",
+      "_key": "!scenes.drawings!TAjTyxGFeqOKIDXi.d6T2iEt8dr7yH0K2",
       "flags": {},
-      "author": null,
-      "elevation": 0,
-      "rotation": 0,
-      "bezierFactor": 0,
-      "texture": null,
-      "fontFamily": "",
-      "locked": false,
-      "interface": false,
-      "_key": "!scenes.drawings!TAjTyxGFeqOKIDXi.d6T2iEt8dr7yH0K2"
+      "author": "LaKourGamemaster"
     },
     {
       "x": 0,
@@ -1220,9 +868,7 @@
       "shape": {
         "type": "r",
         "width": 2800,
-        "height": 300,
-        "radius": null,
-        "points": []
+        "height": 300
       },
       "fillType": 0,
       "fillColor": "#000000",
@@ -1238,16 +884,9 @@
       "hidden": true,
       "sort": 1006,
       "_id": "S0R1qDHhwLJgp6E7",
+      "_key": "!scenes.drawings!TAjTyxGFeqOKIDXi.S0R1qDHhwLJgp6E7",
       "flags": {},
-      "author": null,
-      "elevation": 0,
-      "rotation": 0,
-      "bezierFactor": 0,
-      "texture": null,
-      "fontFamily": "",
-      "locked": false,
-      "interface": false,
-      "_key": "!scenes.drawings!TAjTyxGFeqOKIDXi.S0R1qDHhwLJgp6E7"
+      "author": "LaKourGamemaster"
     }
   ],
   "lights": [
@@ -1263,32 +902,11 @@
         "color": "#ffcc88",
         "alpha": 0.4,
         "coloration": 1,
-        "luminosity": 0.5,
-        "negative": false,
-        "priority": 0,
-        "angle": 360,
-        "attenuation": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
+        "luminosity": 0.5
       },
       "_id": "eXoR7WlJ6pokXbWu",
-      "flags": {},
-      "rotation": 0,
-      "vision": false,
-      "hidden": false,
-      "locked": false,
-      "_key": "!scenes.lights!TAjTyxGFeqOKIDXi.eXoR7WlJ6pokXbWu"
+      "_key": "!scenes.lights!TAjTyxGFeqOKIDXi.eXoR7WlJ6pokXbWu",
+      "flags": {}
     },
     {
       "x": 1650,
@@ -1302,32 +920,11 @@
         "color": "#ff9a40",
         "alpha": 0.4,
         "coloration": 1,
-        "luminosity": 0.5,
-        "negative": false,
-        "priority": 0,
-        "angle": 360,
-        "attenuation": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
+        "luminosity": 0.5
       },
       "_id": "zmXe2J0nXBy11iSu",
-      "flags": {},
-      "rotation": 0,
-      "vision": false,
-      "hidden": false,
-      "locked": false,
-      "_key": "!scenes.lights!TAjTyxGFeqOKIDXi.zmXe2J0nXBy11iSu"
+      "_key": "!scenes.lights!TAjTyxGFeqOKIDXi.zmXe2J0nXBy11iSu",
+      "flags": {}
     },
     {
       "x": 350,
@@ -1341,32 +938,11 @@
         "color": "#ffddaa",
         "alpha": 0.4,
         "coloration": 1,
-        "luminosity": 0.5,
-        "negative": false,
-        "priority": 0,
-        "angle": 360,
-        "attenuation": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
+        "luminosity": 0.5
       },
       "_id": "EzjxSy62d7pMYC84",
-      "flags": {},
-      "rotation": 0,
-      "vision": false,
-      "hidden": false,
-      "locked": false,
-      "_key": "!scenes.lights!TAjTyxGFeqOKIDXi.EzjxSy62d7pMYC84"
+      "_key": "!scenes.lights!TAjTyxGFeqOKIDXi.EzjxSy62d7pMYC84",
+      "flags": {}
     },
     {
       "x": 1150,
@@ -1380,32 +956,11 @@
         "color": "#ffb060",
         "alpha": 0.4,
         "coloration": 1,
-        "luminosity": 0.5,
-        "negative": false,
-        "priority": 0,
-        "angle": 360,
-        "attenuation": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
+        "luminosity": 0.5
       },
       "_id": "iT7OLoDziJGHxSQ0",
-      "flags": {},
-      "rotation": 0,
-      "vision": false,
-      "hidden": false,
-      "locked": false,
-      "_key": "!scenes.lights!TAjTyxGFeqOKIDXi.iT7OLoDziJGHxSQ0"
+      "_key": "!scenes.lights!TAjTyxGFeqOKIDXi.iT7OLoDziJGHxSQ0",
+      "flags": {}
     },
     {
       "x": 2150,
@@ -1419,32 +974,11 @@
         "color": "#ffb060",
         "alpha": 0.4,
         "coloration": 1,
-        "luminosity": 0.5,
-        "negative": false,
-        "priority": 0,
-        "angle": 360,
-        "attenuation": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
+        "luminosity": 0.5
       },
       "_id": "DDF4PIMVqk8kZjHa",
-      "flags": {},
-      "rotation": 0,
-      "vision": false,
-      "hidden": false,
-      "locked": false,
-      "_key": "!scenes.lights!TAjTyxGFeqOKIDXi.DDF4PIMVqk8kZjHa"
+      "_key": "!scenes.lights!TAjTyxGFeqOKIDXi.DDF4PIMVqk8kZjHa",
+      "flags": {}
     },
     {
       "x": 2450,
@@ -1458,245 +992,11 @@
         "color": "#88ff66",
         "alpha": 0.4,
         "coloration": 1,
-        "luminosity": 0.5,
-        "negative": false,
-        "priority": 0,
-        "angle": 360,
-        "attenuation": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
+        "luminosity": 0.5
       },
       "_id": "7Z6aAiYyJ6v7bUyi",
-      "flags": {},
-      "rotation": 0,
-      "vision": false,
-      "hidden": false,
-      "locked": false,
-      "_key": "!scenes.lights!TAjTyxGFeqOKIDXi.7Z6aAiYyJ6v7bUyi"
-    }
-  ],
-  "tokens": [],
-  "notes": [
-    {
-      "entryId": "PCY3VkdnxTTjat6A",
-      "pageId": "d0KM3uaToaEarGf7",
-      "x": 550,
-      "y": 250,
-      "elevation": 0,
-      "levels": [],
-      "sort": 0,
-      "locked": false,
-      "texture": {
-        "src": "icons/svg/coins.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "tint": "#ffffff",
-        "alphaThreshold": 0
-      },
-      "iconSize": 40,
-      "text": "Grizzla — le contrat",
-      "fontFamily": "",
-      "fontSize": 24,
-      "textAnchor": 1,
-      "textColor": "#ffffff",
-      "global": false,
-      "_id": "zREiqk7HwVrSsqhS",
-      "flags": {
-        "lakour-warcraft": {
-          "carte": true
-        }
-      },
-      "author": null,
-      "_key": "!scenes.notes!TAjTyxGFeqOKIDXi.zREiqk7HwVrSsqhS"
-    },
-    {
-      "entryId": "PCY3VkdnxTTjat6A",
-      "pageId": "d0KM3uaToaEarGf7",
-      "x": 550,
-      "y": 1050,
-      "elevation": 0,
-      "levels": [],
-      "sort": 0,
-      "locked": false,
-      "texture": {
-        "src": "icons/svg/tower-flag.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "tint": "#ffffff",
-        "alphaThreshold": 0
-      },
-      "iconSize": 40,
-      "text": "Haldis et Garrok",
-      "fontFamily": "",
-      "fontSize": 24,
-      "textAnchor": 1,
-      "textColor": "#ffffff",
-      "global": false,
-      "_id": "f8avsUv7L0nxsr5f",
-      "flags": {
-        "lakour-warcraft": {
-          "carte": true
-        }
-      },
-      "author": null,
-      "_key": "!scenes.notes!TAjTyxGFeqOKIDXi.f8avsUv7L0nxsr5f"
-    },
-    {
-      "entryId": "PCY3VkdnxTTjat6A",
-      "pageId": "d0KM3uaToaEarGf7",
-      "x": 1350,
-      "y": 1150,
-      "elevation": 0,
-      "levels": [],
-      "sort": 0,
-      "locked": false,
-      "texture": {
-        "src": "icons/svg/poison.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "tint": "#ffffff",
-        "alphaThreshold": 0
-      },
-      "iconSize": 40,
-      "text": "Docker malade (indice)",
-      "fontFamily": "",
-      "fontSize": 24,
-      "textAnchor": 1,
-      "textColor": "#ffffff",
-      "global": false,
-      "_id": "adwkSolKBENBQbbs",
-      "flags": {
-        "lakour-warcraft": {
-          "carte": true
-        }
-      },
-      "author": null,
-      "_key": "!scenes.notes!TAjTyxGFeqOKIDXi.adwkSolKBENBQbbs"
-    },
-    {
-      "entryId": "PCY3VkdnxTTjat6A",
-      "pageId": "d0KM3uaToaEarGf7",
-      "x": 2450,
-      "y": 1250,
-      "elevation": 0,
-      "levels": [],
-      "sort": 0,
-      "locked": false,
-      "texture": {
-        "src": "icons/svg/barrel.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "tint": "#ffffff",
-        "alphaThreshold": 0
-      },
-      "iconSize": 40,
-      "text": "Tonneau qui luit — le cultiste",
-      "fontFamily": "",
-      "fontSize": 24,
-      "textAnchor": 1,
-      "textColor": "#ffffff",
-      "global": false,
-      "_id": "HJrZf0wdG7KjPHc4",
-      "flags": {
-        "lakour-warcraft": {
-          "carte": true
-        }
-      },
-      "author": null,
-      "_key": "!scenes.notes!TAjTyxGFeqOKIDXi.HJrZf0wdG7KjPHc4"
-    },
-    {
-      "entryId": "PCY3VkdnxTTjat6A",
-      "pageId": "d0KM3uaToaEarGf7",
-      "x": 1950,
-      "y": 1250,
-      "elevation": 0,
-      "levels": [],
-      "sort": 0,
-      "locked": false,
-      "texture": {
-        "src": "icons/svg/combat.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "tint": "#ffffff",
-        "alphaThreshold": 0
-      },
-      "iconSize": 40,
-      "text": "Nervis cachés, puis murlocs",
-      "fontFamily": "",
-      "fontSize": 24,
-      "textAnchor": 1,
-      "textColor": "#ffffff",
-      "global": false,
-      "_id": "9jd08HLq8FIbJLF7",
-      "flags": {
-        "lakour-warcraft": {
-          "carte": true
-        }
-      },
-      "author": null,
-      "_key": "!scenes.notes!TAjTyxGFeqOKIDXi.9jd08HLq8FIbJLF7"
-    },
-    {
-      "entryId": "VvUdEITyJOkQmBrH",
-      "pageId": "JAc4rrFxZoLgd40W",
-      "x": 1350,
-      "y": 1550,
-      "elevation": 0,
-      "levels": [],
-      "sort": 0,
-      "locked": false,
-      "texture": {
-        "src": "icons/svg/hanging-sign.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "tint": "#ffffff",
-        "alphaThreshold": 0
-      },
-      "iconSize": 40,
-      "text": "La Trêve de Cabestan",
-      "fontFamily": "",
-      "fontSize": 24,
-      "textAnchor": 1,
-      "textColor": "#ffffff",
-      "global": false,
-      "_id": "9IXewkFr1dnKZ4Vf",
-      "flags": {
-        "lakour-warcraft": {
-          "carte": true
-        }
-      },
-      "author": null,
-      "_key": "!scenes.notes!TAjTyxGFeqOKIDXi.9IXewkFr1dnKZ4Vf"
+      "_key": "!scenes.lights!TAjTyxGFeqOKIDXi.7Z6aAiYyJ6v7bUyi",
+      "flags": {}
     }
   ],
   "sounds": [
@@ -1715,24 +1015,12 @@
       "hidden": false,
       "locked": false,
       "_id": "OOZZTzPU56sxqa5g",
+      "_key": "!scenes.sounds!TAjTyxGFeqOKIDXi.OOZZTzPU56sxqa5g",
       "flags": {
         "lakour-warcraft": {
           "carte": true
         }
-      },
-      "darkness": {
-        "min": 0,
-        "max": 1
-      },
-      "effects": {
-        "base": {
-          "intensity": 5
-        },
-        "muffled": {
-          "intensity": 5
-        }
-      },
-      "_key": "!scenes.sounds!TAjTyxGFeqOKIDXi.OOZZTzPU56sxqa5g"
+      }
     },
     {
       "name": "mer — Port",
@@ -1749,24 +1037,12 @@
       "hidden": false,
       "locked": false,
       "_id": "ZxaEV952ulIgmRUJ",
+      "_key": "!scenes.sounds!TAjTyxGFeqOKIDXi.ZxaEV952ulIgmRUJ",
       "flags": {
         "lakour-warcraft": {
           "carte": true
         }
-      },
-      "darkness": {
-        "min": 0,
-        "max": 1
-      },
-      "effects": {
-        "base": {
-          "intensity": 5
-        },
-        "muffled": {
-          "intensity": 5
-        }
-      },
-      "_key": "!scenes.sounds!TAjTyxGFeqOKIDXi.ZxaEV952ulIgmRUJ"
+      }
     }
   ],
   "regions": [
@@ -1826,27 +1102,15 @@
             "visibility": 2,
             "once": true
           },
-          "_stats": {
-            "coreVersion": "14.369",
-            "systemId": "dnd5e",
-            "systemVersion": "6.0.6",
-            "createdTime": 1793703378484,
-            "modifiedTime": 1793703378484,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null
-          },
           "_key": "!scenes.regions.behaviors!TAjTyxGFeqOKIDXi.EXCmp6ondRWqLAA7.GzGFzN68WvMpBwMe"
         }
       ],
+      "_key": "!scenes.regions!TAjTyxGFeqOKIDXi.EXCmp6ondRWqLAA7",
       "flags": {
         "lakour-warcraft": {
           "carte": true
         }
-      },
-      "_shapeConstraints": null,
-      "_key": "!scenes.regions!TAjTyxGFeqOKIDXi.EXCmp6ondRWqLAA7"
+      }
     },
     {
       "_id": "d6kVDt7ygHxTCIYq",
@@ -1904,27 +1168,15 @@
             "visibility": 2,
             "once": true
           },
-          "_stats": {
-            "coreVersion": "14.369",
-            "systemId": "dnd5e",
-            "systemVersion": "6.0.6",
-            "createdTime": 1793703378486,
-            "modifiedTime": 1793703378486,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null
-          },
           "_key": "!scenes.regions.behaviors!TAjTyxGFeqOKIDXi.d6kVDt7ygHxTCIYq.fNzFltiG3jYuTJp0"
         }
       ],
+      "_key": "!scenes.regions!TAjTyxGFeqOKIDXi.d6kVDt7ygHxTCIYq",
       "flags": {
         "lakour-warcraft": {
           "carte": true
         }
-      },
-      "_shapeConstraints": null,
-      "_key": "!scenes.regions!TAjTyxGFeqOKIDXi.d6kVDt7ygHxTCIYq"
+      }
     },
     {
       "_id": "ozT1NjI2JsI1Iert",
@@ -1982,27 +1234,15 @@
             "visibility": 2,
             "once": true
           },
-          "_stats": {
-            "coreVersion": "14.369",
-            "systemId": "dnd5e",
-            "systemVersion": "6.0.6",
-            "createdTime": 1793703378486,
-            "modifiedTime": 1793703378486,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null
-          },
           "_key": "!scenes.regions.behaviors!TAjTyxGFeqOKIDXi.ozT1NjI2JsI1Iert.pyz5SH0Im6iRPQDX"
         }
       ],
+      "_key": "!scenes.regions!TAjTyxGFeqOKIDXi.ozT1NjI2JsI1Iert",
       "flags": {
         "lakour-warcraft": {
           "carte": true
         }
-      },
-      "_shapeConstraints": null,
-      "_key": "!scenes.regions!TAjTyxGFeqOKIDXi.ozT1NjI2JsI1Iert"
+      }
     },
     {
       "_id": "aSrRSTSuvnAlNZnQ",
@@ -2054,31 +1294,224 @@
           "system": {
             "once": true
           },
-          "_stats": {
-            "coreVersion": "14.369",
-            "systemId": "dnd5e",
-            "systemVersion": "6.0.6",
-            "createdTime": 1793703378487,
-            "modifiedTime": 1793703378487,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null
-          },
           "_key": "!scenes.regions.behaviors!TAjTyxGFeqOKIDXi.aSrRSTSuvnAlNZnQ.cz0BjJjSJ8bfiNSd"
         }
       ],
+      "_key": "!scenes.regions!TAjTyxGFeqOKIDXi.aSrRSTSuvnAlNZnQ",
       "flags": {
         "lakour-warcraft": {
           "carte": true
         }
-      },
-      "_shapeConstraints": null,
-      "_key": "!scenes.regions!TAjTyxGFeqOKIDXi.aSrRSTSuvnAlNZnQ"
+      }
     }
   ],
+  "notes": [
+    {
+      "entryId": "PCY3VkdnxTTjat6A",
+      "pageId": "d0KM3uaToaEarGf7",
+      "x": 550,
+      "y": 250,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/coins.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Grizzla — le contrat",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "zREiqk7HwVrSsqhS",
+      "_key": "!scenes.notes!TAjTyxGFeqOKIDXi.zREiqk7HwVrSsqhS",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      }
+    },
+    {
+      "entryId": "PCY3VkdnxTTjat6A",
+      "pageId": "d0KM3uaToaEarGf7",
+      "x": 550,
+      "y": 1050,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/tower-flag.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Haldis et Garrok",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "f8avsUv7L0nxsr5f",
+      "_key": "!scenes.notes!TAjTyxGFeqOKIDXi.f8avsUv7L0nxsr5f",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      }
+    },
+    {
+      "entryId": "PCY3VkdnxTTjat6A",
+      "pageId": "d0KM3uaToaEarGf7",
+      "x": 1350,
+      "y": 1150,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/poison.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Docker malade (indice)",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "adwkSolKBENBQbbs",
+      "_key": "!scenes.notes!TAjTyxGFeqOKIDXi.adwkSolKBENBQbbs",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      }
+    },
+    {
+      "entryId": "PCY3VkdnxTTjat6A",
+      "pageId": "d0KM3uaToaEarGf7",
+      "x": 2450,
+      "y": 1250,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/barrel.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Tonneau qui luit — le cultiste",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "HJrZf0wdG7KjPHc4",
+      "_key": "!scenes.notes!TAjTyxGFeqOKIDXi.HJrZf0wdG7KjPHc4",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      }
+    },
+    {
+      "entryId": "PCY3VkdnxTTjat6A",
+      "pageId": "d0KM3uaToaEarGf7",
+      "x": 1950,
+      "y": 1250,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/combat.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Nervis cachés, puis murlocs",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "9jd08HLq8FIbJLF7",
+      "_key": "!scenes.notes!TAjTyxGFeqOKIDXi.9jd08HLq8FIbJLF7",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      }
+    },
+    {
+      "entryId": "VvUdEITyJOkQmBrH",
+      "pageId": "JAc4rrFxZoLgd40W",
+      "x": 1350,
+      "y": 1550,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/hanging-sign.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "La Trêve de Cabestan",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "9IXewkFr1dnKZ4Vf",
+      "_key": "!scenes.notes!TAjTyxGFeqOKIDXi.9IXewkFr1dnKZ4Vf",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      }
+    }
+  ],
+  "tokens": [],
   "tiles": [],
+  "ownership": {
+    "default": 0
+  },
   "folder": "iNegvElI3poxUbzv",
+  "sort": 0,
   "flags": {
     "lakour-warcraft": {
       "cle": "cabestan-quai",
@@ -2772,10 +2205,7 @@
         ]
       },
       "aventure": "Les Puits de cendre",
-      "version": "0.10.0"
-    },
-    "fxmaster": {
-      "parameterRangeMigrationVersion": 1
+      "version": "0.11.0"
     }
   },
   "_stats": {
@@ -2788,39 +2218,5 @@
     "compendiumSource": "Compendium.lakour-warcraft.scenes.Scene.y58dyqMG0VFrRAAI",
     "duplicateSource": null,
     "exportSource": null
-  },
-  "thumb": null,
-  "shiftX": 0,
-  "shiftY": 0,
-  "initial": {
-    "x": null,
-    "y": null,
-    "scale": null
-  },
-  "fog": {
-    "mode": 1,
-    "colors": {
-      "explored": null,
-      "unexplored": null
-    }
-  },
-  "transition": {
-    "type": null,
-    "duration": 1500,
-    "activeOnly": false
-  },
-  "playlist": null,
-  "playlistSound": null,
-  "journal": null,
-  "journalEntryPage": null,
-  "weather": "",
-  "ownership": {
-    "default": 0
-  },
-  "_id": "TAjTyxGFeqOKIDXi",
-  "active": false,
-  "navOrder": 0,
-  "sort": 0,
-  "_key": "!scenes!TAjTyxGFeqOKIDXi",
-  "templates": []
+  }
 }

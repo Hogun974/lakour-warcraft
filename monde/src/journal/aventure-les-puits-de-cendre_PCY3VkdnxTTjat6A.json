@@ -1,11 +1,17 @@
 {
+  "_id": "PCY3VkdnxTTjat6A",
+  "_key": "!journal!PCY3VkdnxTTjat6A",
   "name": "Aventure — Les Puits de cendre",
   "folder": "wNtgGHYLJnHwTJwh",
+  "sort": 0,
   "categories": [],
+  "ownership": {
+    "default": 0
+  },
   "flags": {
     "lakour-warcraft": {
       "cle": "aventure-puits-de-cendre",
-      "version": "0.10.0"
+      "version": "0.11.0"
     }
   },
   "_stats": {
@@ -22,6 +28,7 @@
   "pages": [
     {
       "_id": "ydiMxUcS1N5DixDM",
+      "_key": "!journal.pages!PCY3VkdnxTTjat6A.ydiMxUcS1N5DixDM",
       "name": "Synopsis (MJ)",
       "type": "text",
       "sort": 100,
@@ -36,30 +43,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375350,
-        "modifiedTime": 1793703375361,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!PCY3VkdnxTTjat6A.ydiMxUcS1N5DixDM"
+      "flags": {}
     },
     {
       "_id": "d0KM3uaToaEarGf7",
+      "_key": "!journal.pages!PCY3VkdnxTTjat6A.d0KM3uaToaEarGf7",
       "name": "Scène 1 — Le contrat du Cartel",
       "type": "text",
       "sort": 200,
@@ -74,30 +62,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375352,
-        "modifiedTime": 1793703375361,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!PCY3VkdnxTTjat6A.d0KM3uaToaEarGf7"
+      "flags": {}
     },
     {
       "_id": "wFkaZlzCp2pElNxH",
+      "_key": "!journal.pages!PCY3VkdnxTTjat6A.wFkaZlzCp2pElNxH",
       "name": "Scène 2 — Le relais pillé",
       "type": "text",
       "sort": 300,
@@ -112,30 +81,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375354,
-        "modifiedTime": 1793703375362,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!PCY3VkdnxTTjat6A.wFkaZlzCp2pElNxH"
+      "flags": {}
     },
     {
       "_id": "po0zqbNE92vBKmPm",
+      "_key": "!journal.pages!PCY3VkdnxTTjat6A.po0zqbNE92vBKmPm",
       "name": "Scène 3 — Le kraal de Ronceroc",
       "type": "text",
       "sort": 400,
@@ -150,30 +100,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375356,
-        "modifiedTime": 1793703375362,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!PCY3VkdnxTTjat6A.po0zqbNE92vBKmPm"
+      "flags": {}
     },
     {
       "_id": "t7N5ErO1feyylpu6",
+      "_key": "!journal.pages!PCY3VkdnxTTjat6A.t7N5ErO1feyylpu6",
       "name": "Scène 4 — La mine de Rouge-Veine",
       "type": "text",
       "sort": 500,
@@ -188,30 +119,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375358,
-        "modifiedTime": 1793703375363,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!PCY3VkdnxTTjat6A.t7N5ErO1feyylpu6"
+      "flags": {}
     },
     {
       "_id": "0Ctnygi4i7O12Jlu",
+      "_key": "!journal.pages!PCY3VkdnxTTjat6A.0Ctnygi4i7O12Jlu",
       "name": "Dénouements et récompenses",
       "type": "text",
       "sort": 600,
@@ -226,30 +138,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375359,
-        "modifiedTime": 1793703375363,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!PCY3VkdnxTTjat6A.0Ctnygi4i7O12Jlu"
+      "flags": {}
     },
     {
       "_id": "TARnDZBUWCb0ioRY",
+      "_key": "!journal.pages!PCY3VkdnxTTjat6A.TARnDZBUWCb0ioRY",
       "name": "PNJ et forces en présence",
       "type": "text",
       "sort": 700,
@@ -264,33 +157,7 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375360,
-        "modifiedTime": 1793703375364,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!PCY3VkdnxTTjat6A.TARnDZBUWCb0ioRY"
+      "flags": {}
     }
-  ],
-  "ownership": {
-    "default": 0
-  },
-  "_id": "PCY3VkdnxTTjat6A",
-  "sort": 0,
-  "_key": "!journal!PCY3VkdnxTTjat6A"
+  ]
 }

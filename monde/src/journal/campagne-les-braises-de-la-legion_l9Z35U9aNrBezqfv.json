@@ -1,11 +1,17 @@
 {
+  "_id": "l9Z35U9aNrBezqfv",
+  "_key": "!journal!l9Z35U9aNrBezqfv",
   "name": "Campagne — Les Braises de la Légion",
   "folder": "wNtgGHYLJnHwTJwh",
+  "sort": 0,
   "categories": [],
+  "ownership": {
+    "default": 0
+  },
   "flags": {
     "lakour-warcraft": {
       "cle": "campagne-braises-legion",
-      "version": "0.10.0"
+      "version": "0.11.0"
     }
   },
   "_stats": {
@@ -22,6 +28,7 @@
   "pages": [
     {
       "_id": "BCym7nXdHG3Jhg30",
+      "_key": "!journal.pages!l9Z35U9aNrBezqfv.BCym7nXdHG3Jhg30",
       "name": "Synopsis (MJ)",
       "type": "text",
       "sort": 100,
@@ -36,30 +43,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375934,
-        "modifiedTime": 1793703375948,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!l9Z35U9aNrBezqfv.BCym7nXdHG3Jhg30"
+      "flags": {}
     },
     {
       "_id": "rSVbrrgZR13YxNp0",
+      "_key": "!journal.pages!l9Z35U9aNrBezqfv.rSVbrrgZR13YxNp0",
       "name": "Fil rouge et horloge",
       "type": "text",
       "sort": 200,
@@ -74,30 +62,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375936,
-        "modifiedTime": 1793703375949,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!l9Z35U9aNrBezqfv.rSVbrrgZR13YxNp0"
+      "flags": {}
     },
     {
       "_id": "bzoOX8ZhHXVUDHYR",
+      "_key": "!journal.pages!l9Z35U9aNrBezqfv.bzoOX8ZhHXVUDHYR",
       "name": "Chapitre 1 — La fonderie de Fort-Rivet",
       "type": "text",
       "sort": 300,
@@ -112,30 +81,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375939,
-        "modifiedTime": 1793703375950,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!l9Z35U9aNrBezqfv.bzoOX8ZhHXVUDHYR"
+      "flags": {}
     },
     {
       "_id": "xMnCwTBpeK6YQGsc",
+      "_key": "!journal.pages!l9Z35U9aNrBezqfv.xMnCwTBpeK6YQGsc",
       "name": "Chapitre 2 — Les ruines d'Eldrassal",
       "type": "text",
       "sort": 400,
@@ -150,30 +100,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375941,
-        "modifiedTime": 1793703375950,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!l9Z35U9aNrBezqfv.xMnCwTBpeK6YQGsc"
+      "flags": {}
     },
     {
       "_id": "E99xKmfr3LWDKzCV",
+      "_key": "!journal.pages!l9Z35U9aNrBezqfv.E99xKmfr3LWDKzCV",
       "name": "Chapitre 3 — Le sommet de Gué-de-Sel",
       "type": "text",
       "sort": 500,
@@ -188,30 +119,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375943,
-        "modifiedTime": 1793703375951,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!l9Z35U9aNrBezqfv.E99xKmfr3LWDKzCV"
+      "flags": {}
     },
     {
       "_id": "cZXvD6E1KUIYnxJ9",
+      "_key": "!journal.pages!l9Z35U9aNrBezqfv.cZXvD6E1KUIYnxJ9",
       "name": "Chapitre 4 — La nuit des deux lunes",
       "type": "text",
       "sort": 600,
@@ -226,30 +138,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375945,
-        "modifiedTime": 1793703375951,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!l9Z35U9aNrBezqfv.cZXvD6E1KUIYnxJ9"
+      "flags": {}
     },
     {
       "_id": "ZrvUjM5Jt6IGQruP",
+      "_key": "!journal.pages!l9Z35U9aNrBezqfv.ZrvUjM5Jt6IGQruP",
       "name": "Dénouements et récompenses",
       "type": "text",
       "sort": 700,
@@ -264,30 +157,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375947,
-        "modifiedTime": 1793703375951,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!l9Z35U9aNrBezqfv.ZrvUjM5Jt6IGQruP"
+      "flags": {}
     },
     {
       "_id": "kSXWEzaBD5KkQ8MQ",
+      "_key": "!journal.pages!l9Z35U9aNrBezqfv.kSXWEzaBD5KkQ8MQ",
       "name": "PNJ et forces en présence",
       "type": "text",
       "sort": 800,
@@ -302,33 +176,7 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375948,
-        "modifiedTime": 1793703375952,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!l9Z35U9aNrBezqfv.kSXWEzaBD5KkQ8MQ"
+      "flags": {}
     }
-  ],
-  "ownership": {
-    "default": 0
-  },
-  "_id": "l9Z35U9aNrBezqfv",
-  "sort": 0,
-  "_key": "!journal!l9Z35U9aNrBezqfv"
+  ]
 }

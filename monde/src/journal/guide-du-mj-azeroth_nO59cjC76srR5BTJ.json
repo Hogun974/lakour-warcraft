@@ -1,11 +1,17 @@
 {
+  "_id": "nO59cjC76srR5BTJ",
+  "_key": "!journal!nO59cjC76srR5BTJ",
   "name": "Guide du MJ — Azeroth",
   "folder": "wNtgGHYLJnHwTJwh",
+  "sort": 0,
   "categories": [],
+  "ownership": {
+    "default": 0
+  },
   "flags": {
     "lakour-warcraft": {
       "cle": "guide-du-mj",
-      "version": "0.10.0"
+      "version": "0.11.0"
     }
   },
   "_stats": {
@@ -22,6 +28,7 @@
   "pages": [
     {
       "_id": "jf7Fr9gYdMHHntDn",
+      "_key": "!journal.pages!nO59cjC76srR5BTJ.jf7Fr9gYdMHHntDn",
       "name": "Chronologie",
       "type": "text",
       "sort": 100,
@@ -36,30 +43,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375225,
-        "modifiedTime": 1793703375236,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!nO59cjC76srR5BTJ.jf7Fr9gYdMHHntDn"
+      "flags": {}
     },
     {
       "_id": "nYitE9EwLmO9oMhF",
+      "_key": "!journal.pages!nO59cjC76srR5BTJ.nYitE9EwLmO9oMhF",
       "name": "Ton et thèmes",
       "type": "text",
       "sort": 200,
@@ -74,30 +62,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375226,
-        "modifiedTime": 1793703375237,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!nO59cjC76srR5BTJ.nYitE9EwLmO9oMhF"
+      "flags": {}
     },
     {
       "_id": "xfGlXUwOHMG6usZl",
+      "_key": "!journal.pages!nO59cjC76srR5BTJ.xfGlXUwOHMG6usZl",
       "name": "La magie d'Azeroth",
       "type": "text",
       "sort": 300,
@@ -112,30 +81,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375228,
-        "modifiedTime": 1793703375238,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!nO59cjC76srR5BTJ.xfGlXUwOHMG6usZl"
+      "flags": {}
     },
     {
       "_id": "GYBVZ0O4Ue7sCM5A",
+      "_key": "!journal.pages!nO59cjC76srR5BTJ.GYBVZ0O4Ue7sCM5A",
       "name": "Monnaie et économie",
       "type": "text",
       "sort": 400,
@@ -150,30 +100,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375229,
-        "modifiedTime": 1793703375238,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!nO59cjC76srR5BTJ.GYBVZ0O4Ue7sCM5A"
+      "flags": {}
     },
     {
       "_id": "KPaVpc3xXYqmiEzQ",
+      "_key": "!journal.pages!nO59cjC76srR5BTJ.KPaVpc3xXYqmiEzQ",
       "name": "Langues",
       "type": "text",
       "sort": 500,
@@ -188,30 +119,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375230,
-        "modifiedTime": 1793703375238,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!nO59cjC76srR5BTJ.KPaVpc3xXYqmiEzQ"
+      "flags": {}
     },
     {
       "_id": "ugfgqWqsv5r4uKxy",
+      "_key": "!journal.pages!nO59cjC76srR5BTJ.ugfgqWqsv5r4uKxy",
       "name": "Conseils pour le MJ (et le MJ IA)",
       "type": "text",
       "sort": 600,
@@ -226,30 +138,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375232,
-        "modifiedTime": 1793703375239,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!nO59cjC76srR5BTJ.ugfgqWqsv5r4uKxy"
+      "flags": {}
     },
     {
       "_id": "eifUqHFEn9qv1vtC",
+      "_key": "!journal.pages!nO59cjC76srR5BTJ.eifUqHFEn9qv1vtC",
       "name": "Métiers : récolte et artisanat (MJ)",
       "type": "text",
       "sort": 700,
@@ -264,30 +157,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375234,
-        "modifiedTime": 1793703375239,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!nO59cjC76srR5BTJ.eifUqHFEn9qv1vtC"
+      "flags": {}
     },
     {
       "_id": "SPmxwtkFK1Hd5c63",
+      "_key": "!journal.pages!nO59cjC76srR5BTJ.SPmxwtkFK1Hd5c63",
       "name": "Garnison de faction (MJ)",
       "type": "text",
       "sort": 800,
@@ -302,30 +176,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375235,
-        "modifiedTime": 1793703375239,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!nO59cjC76srR5BTJ.SPmxwtkFK1Hd5c63"
+      "flags": {}
     },
     {
       "_id": "f9b0fU4rZShlISev",
+      "_key": "!journal.pages!nO59cjC76srR5BTJ.f9b0fU4rZShlISev",
       "name": "Fêtes de saison (MJ)",
       "type": "text",
       "sort": 900,
@@ -340,33 +195,7 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375236,
-        "modifiedTime": 1793703375240,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!nO59cjC76srR5BTJ.f9b0fU4rZShlISev"
+      "flags": {}
     }
-  ],
-  "ownership": {
-    "default": 0
-  },
-  "_id": "nO59cjC76srR5BTJ",
-  "sort": 0,
-  "_key": "!journal!nO59cjC76srR5BTJ"
+  ]
 }

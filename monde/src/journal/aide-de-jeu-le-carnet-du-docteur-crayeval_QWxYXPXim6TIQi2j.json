@@ -1,7 +1,9 @@
 {
   "_id": "QWxYXPXim6TIQi2j",
+  "_key": "!journal!QWxYXPXim6TIQi2j",
   "name": "Aide de jeu — Le carnet du docteur Crayeval",
   "folder": "wNtgGHYLJnHwTJwh",
+  "sort": 0,
   "categories": [],
   "ownership": {
     "default": 2
@@ -9,7 +11,7 @@
   "flags": {
     "lakour-warcraft": {
       "cle": "carnet-crayeval",
-      "version": "0.10.0"
+      "version": "0.11.0"
     }
   },
   "_stats": {
@@ -26,6 +28,7 @@
   "pages": [
     {
       "_id": "hnrDBpuoscQV4I5e",
+      "_key": "!journal.pages!QWxYXPXim6TIQi2j.hnrDBpuoscQV4I5e",
       "name": "Lettre du Cercle",
       "type": "text",
       "sort": 100,
@@ -40,30 +43,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375527,
-        "modifiedTime": 1793703375531,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!QWxYXPXim6TIQi2j.hnrDBpuoscQV4I5e"
+      "flags": {}
     },
     {
       "_id": "n8Dz46R3TyeYEZCB",
+      "_key": "!journal.pages!QWxYXPXim6TIQi2j.n8Dz46R3TyeYEZCB",
       "name": "Croquis du cimetière",
       "type": "text",
       "sort": 200,
@@ -78,29 +62,7 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375530,
-        "modifiedTime": 1793703375532,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!QWxYXPXim6TIQi2j.n8Dz46R3TyeYEZCB"
+      "flags": {}
     }
-  ],
-  "sort": 0,
-  "_key": "!journal!QWxYXPXim6TIQi2j"
+  ]
 }

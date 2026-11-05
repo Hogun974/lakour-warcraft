@@ -1,7 +1,9 @@
 {
   "_id": "kwzlSO9NCf8n1DcJ",
+  "_key": "!journal!kwzlSO9NCf8n1DcJ",
   "name": "Rares et élites des Tarides (MJ)",
   "folder": "wNtgGHYLJnHwTJwh",
+  "sort": 0,
   "categories": [],
   "ownership": {
     "default": 0
@@ -10,7 +12,7 @@
     "lakour-warcraft": {
       "cle": "rares-et-elites-des-tarides",
       "collection": "rares",
-      "version": "0.10.0"
+      "version": "0.11.0"
     }
   },
   "_stats": {
@@ -27,6 +29,7 @@
   "pages": [
     {
       "_id": "nQuksp6pwLrrBTf5",
+      "_key": "!journal.pages!kwzlSO9NCf8n1DcJ.nQuksp6pwLrrBTf5",
       "name": "Usage (MJ)",
       "type": "text",
       "sort": 100,
@@ -41,30 +44,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375821,
-        "modifiedTime": 1793703375825,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!kwzlSO9NCf8n1DcJ.nQuksp6pwLrrBTf5"
+      "flags": {}
     },
     {
       "_id": "5lHwVHzM0CA4B89F",
+      "_key": "!journal.pages!kwzlSO9NCf8n1DcJ.5lHwVHzM0CA4B89F",
       "name": "Nord des Tarides",
       "type": "text",
       "sort": 200,
@@ -79,30 +63,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375823,
-        "modifiedTime": 1793703375826,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!kwzlSO9NCf8n1DcJ.5lHwVHzM0CA4B89F"
+      "flags": {}
     },
     {
       "_id": "b956FhqHlSPbqW61",
+      "_key": "!journal.pages!kwzlSO9NCf8n1DcJ.b956FhqHlSPbqW61",
       "name": "Côte des Tarides",
       "type": "text",
       "sort": 300,
@@ -117,30 +82,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375824,
-        "modifiedTime": 1793703375827,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!kwzlSO9NCf8n1DcJ.b956FhqHlSPbqW61"
+      "flags": {}
     },
     {
       "_id": "gKTPYLk93udO5EaM",
+      "_key": "!journal.pages!kwzlSO9NCf8n1DcJ.gKTPYLk93udO5EaM",
       "name": "Frontière du sud",
       "type": "text",
       "sort": 400,
@@ -155,29 +101,7 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375825,
-        "modifiedTime": 1793703375827,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!kwzlSO9NCf8n1DcJ.gKTPYLk93udO5EaM"
+      "flags": {}
     }
-  ],
-  "sort": 0,
-  "_key": "!journal!kwzlSO9NCf8n1DcJ"
+  ]
 }

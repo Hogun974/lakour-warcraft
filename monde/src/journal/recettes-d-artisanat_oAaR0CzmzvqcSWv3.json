@@ -1,7 +1,9 @@
 {
   "_id": "oAaR0CzmzvqcSWv3",
+  "_key": "!journal!oAaR0CzmzvqcSWv3",
   "name": "Recettes d'artisanat",
   "folder": "wNtgGHYLJnHwTJwh",
+  "sort": 0,
   "categories": [],
   "ownership": {
     "default": 2
@@ -664,7 +666,7 @@
         }
       ],
       "collection": "metiers",
-      "version": "0.10.0"
+      "version": "0.11.0"
     }
   },
   "_stats": {
@@ -681,6 +683,7 @@
   "pages": [
     {
       "_id": "4nLldvVIs0s0ABeP",
+      "_key": "!journal.pages!oAaR0CzmzvqcSWv3.4nLldvVIs0s0ABeP",
       "name": "Alchimie",
       "type": "text",
       "sort": 100,
@@ -695,30 +698,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375860,
-        "modifiedTime": 1793703375864,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!oAaR0CzmzvqcSWv3.4nLldvVIs0s0ABeP"
+      "flags": {}
     },
     {
       "_id": "sti892eWiqvrl1i6",
+      "_key": "!journal.pages!oAaR0CzmzvqcSWv3.sti892eWiqvrl1i6",
       "name": "Forge",
       "type": "text",
       "sort": 200,
@@ -733,30 +717,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375861,
-        "modifiedTime": 1793703375864,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!oAaR0CzmzvqcSWv3.sti892eWiqvrl1i6"
+      "flags": {}
     },
     {
       "_id": "g1yHGnK5SpDjkw7M",
+      "_key": "!journal.pages!oAaR0CzmzvqcSWv3.g1yHGnK5SpDjkw7M",
       "name": "Ingénierie gobeline et gnome",
       "type": "text",
       "sort": 300,
@@ -771,30 +736,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375862,
-        "modifiedTime": 1793703375864,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!oAaR0CzmzvqcSWv3.g1yHGnK5SpDjkw7M"
+      "flags": {}
     },
     {
       "_id": "1QG4mlzrpBJy6R8k",
+      "_key": "!journal.pages!oAaR0CzmzvqcSWv3.1QG4mlzrpBJy6R8k",
       "name": "Cuisine",
       "type": "text",
       "sort": 400,
@@ -809,29 +755,7 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375863,
-        "modifiedTime": 1793703375865,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!oAaR0CzmzvqcSWv3.1QG4mlzrpBJy6R8k"
+      "flags": {}
     }
-  ],
-  "sort": 0,
-  "_key": "!journal!oAaR0CzmzvqcSWv3"
+  ]
 }

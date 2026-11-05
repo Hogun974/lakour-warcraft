@@ -1,7 +1,9 @@
 {
   "_id": "uIWkSgn7SjyOj8nd",
+  "_key": "!journal!uIWkSgn7SjyOj8nd",
   "name": "Guide de la réputation",
   "folder": "wNtgGHYLJnHwTJwh",
+  "sort": 0,
   "categories": [],
   "ownership": {
     "default": 2
@@ -10,7 +12,7 @@
     "lakour-warcraft": {
       "cle": "guide-de-la-reputation",
       "collection": "reputation",
-      "version": "0.10.0"
+      "version": "0.11.0"
     }
   },
   "_stats": {
@@ -27,6 +29,7 @@
   "pages": [
     {
       "_id": "AnHc2hA7jaer35UV",
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.AnHc2hA7jaer35UV",
       "name": "Les paliers de réputation",
       "type": "text",
       "sort": 100,
@@ -41,30 +44,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703376020,
-        "modifiedTime": 1793703376032,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.AnHc2hA7jaer35UV"
+      "flags": {}
     },
     {
       "_id": "bkTrohTsDGVLWRyw",
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.bkTrohTsDGVLWRyw",
       "name": "Gagner et perdre de la réputation",
       "type": "text",
       "sort": 200,
@@ -79,30 +63,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703376021,
-        "modifiedTime": 1793703376033,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.bkTrohTsDGVLWRyw"
+      "flags": {}
     },
     {
       "_id": "FLFLq4WwzjrXKswD",
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.FLFLq4WwzjrXKswD",
       "name": "Alliance (Theramore)",
       "type": "text",
       "sort": 300,
@@ -117,30 +82,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703376023,
-        "modifiedTime": 1793703376033,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.FLFLq4WwzjrXKswD"
+      "flags": {}
     },
     {
       "_id": "Pr2SuTJZkwqJ2GHT",
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.Pr2SuTJZkwqJ2GHT",
       "name": "Horde (Le Carrefour)",
       "type": "text",
       "sort": 400,
@@ -155,30 +101,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703376024,
-        "modifiedTime": 1793703376034,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.Pr2SuTJZkwqJ2GHT"
+      "flags": {}
     },
     {
       "_id": "qQByZbFuMlGSZDnO",
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.qQByZbFuMlGSZDnO",
       "name": "Cartel Gentepression",
       "type": "text",
       "sort": 500,
@@ -193,30 +120,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703376025,
-        "modifiedTime": 1793703376035,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.qQByZbFuMlGSZDnO"
+      "flags": {}
     },
     {
       "_id": "ww8BkL4xPuKNqGfH",
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.ww8BkL4xPuKNqGfH",
       "name": "Kirin Tor",
       "type": "text",
       "sort": 600,
@@ -231,30 +139,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703376026,
-        "modifiedTime": 1793703376035,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.ww8BkL4xPuKNqGfH"
+      "flags": {}
     },
     {
       "_id": "EHNnJnuQD6FDlKTm",
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.EHNnJnuQD6FDlKTm",
       "name": "Cercle cénarien",
       "type": "text",
       "sort": 700,
@@ -269,30 +158,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703376027,
-        "modifiedTime": 1793703376036,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.EHNnJnuQD6FDlKTm"
+      "flags": {}
     },
     {
       "_id": "UVpZIcalf9OoXcE2",
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.UVpZIcalf9OoXcE2",
       "name": "Chevaliers de la Main d'argent",
       "type": "text",
       "sort": 800,
@@ -307,30 +177,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703376028,
-        "modifiedTime": 1793703376036,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.UVpZIcalf9OoXcE2"
+      "flags": {}
     },
     {
       "_id": "8s7sIL6aartekRgV",
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.8s7sIL6aartekRgV",
       "name": "Aube d'argent",
       "type": "text",
       "sort": 900,
@@ -345,30 +196,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703376029,
-        "modifiedTime": 1793703376037,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.8s7sIL6aartekRgV"
+      "flags": {}
     },
     {
       "_id": "l3fxFvgN8Ctps4lV",
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.l3fxFvgN8Ctps4lV",
       "name": "Garde kor'kron",
       "type": "text",
       "sort": 1000,
@@ -383,30 +215,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703376030,
-        "modifiedTime": 1793703376037,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.l3fxFvgN8Ctps4lV"
+      "flags": {}
     },
     {
       "_id": "ILu6ErXFmXOZ1Cf6",
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.ILu6ErXFmXOZ1Cf6",
       "name": "Sentinelles",
       "type": "text",
       "sort": 1100,
@@ -421,30 +234,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703376031,
-        "modifiedTime": 1793703376037,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.ILu6ErXFmXOZ1Cf6"
+      "flags": {}
     },
     {
       "_id": "nYlQO5gtTRkpSiiI",
+      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.nYlQO5gtTRkpSiiI",
       "name": "Ligue des explorateurs",
       "type": "text",
       "sort": 1200,
@@ -459,29 +253,7 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703376032,
-        "modifiedTime": 1793703376038,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!uIWkSgn7SjyOj8nd.nYlQO5gtTRkpSiiI"
+      "flags": {}
     }
-  ],
-  "sort": 0,
-  "_key": "!journal!uIWkSgn7SjyOj8nd"
+  ]
 }

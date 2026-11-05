@@ -1,11 +1,17 @@
 {
+  "_id": "35DWe3XdL8GoyRkU",
+  "_key": "!journal!35DWe3XdL8GoyRkU",
   "name": "Aide de jeu — Lettre de la Lame ardente",
   "folder": "wNtgGHYLJnHwTJwh",
+  "sort": 0,
   "categories": [],
+  "ownership": {
+    "default": 2
+  },
   "flags": {
     "lakour-warcraft": {
       "cle": "lettre-lame-ardente",
-      "version": "0.10.0"
+      "version": "0.11.0"
     }
   },
   "_stats": {
@@ -22,6 +28,7 @@
   "pages": [
     {
       "_id": "S4ruWNoTlqFFvzio",
+      "_key": "!journal.pages!35DWe3XdL8GoyRkU.S4ruWNoTlqFFvzio",
       "name": "Lettre de la Lame ardente",
       "type": "text",
       "sort": 100,
@@ -36,33 +43,7 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375192,
-        "modifiedTime": 1793703375192,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!35DWe3XdL8GoyRkU.S4ruWNoTlqFFvzio"
+      "flags": {}
     }
-  ],
-  "ownership": {
-    "default": 2
-  },
-  "_id": "35DWe3XdL8GoyRkU",
-  "sort": 0,
-  "_key": "!journal!35DWe3XdL8GoyRkU"
+  ]
 }

@@ -1,7 +1,9 @@
 {
   "_id": "kX5ngbH7W6qvTDwY",
+  "_key": "!journal!kX5ngbH7W6qvTDwY",
   "name": "Journal de rencontre — La Raffinerie de Mèche-Noire",
   "folder": "wNtgGHYLJnHwTJwh",
+  "sort": 0,
   "categories": [],
   "ownership": {
     "default": 2
@@ -10,7 +12,7 @@
     "lakour-warcraft": {
       "cle": "journal-de-rencontre-meche-noire",
       "collection": "donjon-meche-noire",
-      "version": "0.10.0"
+      "version": "0.11.0"
     }
   },
   "_stats": {
@@ -27,6 +29,7 @@
   "pages": [
     {
       "_id": "2qhVMqCt5UICWgG0",
+      "_key": "!journal.pages!kX5ngbH7W6qvTDwY.2qhVMqCt5UICWgG0",
       "name": "La Raffinerie de Mèche-Noire",
       "type": "text",
       "sort": 100,
@@ -41,30 +44,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375779,
-        "modifiedTime": 1793703375784,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!kX5ngbH7W6qvTDwY.2qhVMqCt5UICWgG0"
+      "flags": {}
     },
     {
       "_id": "CaLL4SxKRfqBEcW5",
+      "_key": "!journal.pages!kX5ngbH7W6qvTDwY.CaLL4SxKRfqBEcW5",
       "name": "Grokka Deux-Clés",
       "type": "text",
       "sort": 200,
@@ -79,30 +63,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375781,
-        "modifiedTime": 1793703375785,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!kX5ngbH7W6qvTDwY.CaLL4SxKRfqBEcW5"
+      "flags": {}
     },
     {
       "_id": "xgD9EFHUiaSaXn2E",
+      "_key": "!journal.pages!kX5ngbH7W6qvTDwY.xgD9EFHUiaSaXn2E",
       "name": "Mère-Brasier",
       "type": "text",
       "sort": 300,
@@ -117,30 +82,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375782,
-        "modifiedTime": 1793703375786,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!kX5ngbH7W6qvTDwY.xgD9EFHUiaSaXn2E"
+      "flags": {}
     },
     {
       "_id": "kGwFVV7g1A9okalE",
+      "_key": "!journal.pages!kX5ngbH7W6qvTDwY.kGwFVV7g1A9okalE",
       "name": "Baron Nizzel Baille-Fonds",
       "type": "text",
       "sort": 400,
@@ -155,29 +101,7 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375784,
-        "modifiedTime": 1793703375786,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!kX5ngbH7W6qvTDwY.kGwFVV7g1A9okalE"
+      "flags": {}
     }
-  ],
-  "sort": 0,
-  "_key": "!journal!kX5ngbH7W6qvTDwY"
+  ]
 }

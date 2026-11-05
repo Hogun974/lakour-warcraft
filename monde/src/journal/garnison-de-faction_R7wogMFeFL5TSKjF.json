@@ -1,7 +1,9 @@
 {
   "_id": "R7wogMFeFL5TSKjF",
+  "_key": "!journal!R7wogMFeFL5TSKjF",
   "name": "Garnison de faction",
   "folder": "wNtgGHYLJnHwTJwh",
+  "sort": 0,
   "categories": [],
   "ownership": {
     "default": 2
@@ -10,7 +12,7 @@
     "lakour-warcraft": {
       "cle": "garnison-de-faction",
       "collection": "garnison",
-      "version": "0.10.0"
+      "version": "0.11.0"
     }
   },
   "_stats": {
@@ -27,6 +29,7 @@
   "pages": [
     {
       "_id": "EkyGEk5iPt7AtsvL",
+      "_key": "!journal.pages!R7wogMFeFL5TSKjF.EkyGEk5iPt7AtsvL",
       "name": "La garnison",
       "type": "text",
       "sort": 100,
@@ -41,30 +44,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375610,
-        "modifiedTime": 1793703375612,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!R7wogMFeFL5TSKjF.EkyGEk5iPt7AtsvL"
+      "flags": {}
     },
     {
       "_id": "CnvnqqLQdg7JpL6B",
+      "_key": "!journal.pages!R7wogMFeFL5TSKjF.CnvnqqLQdg7JpL6B",
       "name": "Installations",
       "type": "text",
       "sort": 200,
@@ -79,30 +63,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375611,
-        "modifiedTime": 1793703375613,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!R7wogMFeFL5TSKjF.CnvnqqLQdg7JpL6B"
+      "flags": {}
     },
     {
       "_id": "4Ij1XPxK7msAJUUl",
+      "_key": "!journal.pages!R7wogMFeFL5TSKjF.4Ij1XPxK7msAJUUl",
       "name": "Faction et réputation",
       "type": "text",
       "sort": 300,
@@ -117,29 +82,7 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375612,
-        "modifiedTime": 1793703375614,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!R7wogMFeFL5TSKjF.4Ij1XPxK7msAJUUl"
+      "flags": {}
     }
-  ],
-  "sort": 0,
-  "_key": "!journal!R7wogMFeFL5TSKjF"
+  ]
 }

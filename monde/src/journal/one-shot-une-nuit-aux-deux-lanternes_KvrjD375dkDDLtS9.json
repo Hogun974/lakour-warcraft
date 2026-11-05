@@ -1,7 +1,9 @@
 {
   "_id": "KvrjD375dkDDLtS9",
+  "_key": "!journal!KvrjD375dkDDLtS9",
   "name": "One-shot — Une nuit aux Deux Lanternes",
   "folder": "wNtgGHYLJnHwTJwh",
+  "sort": 0,
   "categories": [],
   "ownership": {
     "default": 0
@@ -9,7 +11,7 @@
   "flags": {
     "lakour-warcraft": {
       "cle": "one-shot-deux-lanternes",
-      "version": "0.10.0"
+      "version": "0.11.0"
     }
   },
   "_stats": {
@@ -26,6 +28,7 @@
   "pages": [
     {
       "_id": "2S6EQKFOMVu0bxd6",
+      "_key": "!journal.pages!KvrjD375dkDDLtS9.2S6EQKFOMVu0bxd6",
       "name": "Synopsis (MJ)",
       "type": "text",
       "sort": 100,
@@ -40,30 +43,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375445,
-        "modifiedTime": 1793703375460,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!KvrjD375dkDDLtS9.2S6EQKFOMVu0bxd6"
+      "flags": {}
     },
     {
       "_id": "H51rkPWi462Pr881",
+      "_key": "!journal.pages!KvrjD375dkDDLtS9.H51rkPWi462Pr881",
       "name": "Accroches et minutage",
       "type": "text",
       "sort": 200,
@@ -78,30 +62,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375447,
-        "modifiedTime": 1793703375461,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!KvrjD375dkDDLtS9.H51rkPWi462Pr881"
+      "flags": {}
     },
     {
       "_id": "T9KGsRBRbD2COTgq",
+      "_key": "!journal.pages!KvrjD375dkDDLtS9.T9KGsRBRbD2COTgq",
       "name": "Acte 1 — L'orage au relais",
       "type": "text",
       "sort": 300,
@@ -116,30 +81,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375450,
-        "modifiedTime": 1793703375462,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!KvrjD375dkDDLtS9.T9KGsRBRbD2COTgq"
+      "flags": {}
     },
     {
       "_id": "3XTXjWF2p7Qbw59C",
+      "_key": "!journal.pages!KvrjD375dkDDLtS9.3XTXjWF2p7Qbw59C",
       "name": "Acte 2 — Sous le relais",
       "type": "text",
       "sort": 400,
@@ -154,30 +100,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375452,
-        "modifiedTime": 1793703375462,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!KvrjD375dkDDLtS9.3XTXjWF2p7Qbw59C"
+      "flags": {}
     },
     {
       "_id": "KOqX3BDbuoQOWDW7",
+      "_key": "!journal.pages!KvrjD375dkDDLtS9.KOqX3BDbuoQOWDW7",
       "name": "Acte 3 — Le cimetière des Rescapés",
       "type": "text",
       "sort": 500,
@@ -192,30 +119,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375454,
-        "modifiedTime": 1793703375462,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!KvrjD375dkDDLtS9.KOqX3BDbuoQOWDW7"
+      "flags": {}
     },
     {
       "_id": "dg853Tk6XFGrpIT8",
+      "_key": "!journal.pages!KvrjD375dkDDLtS9.dg853Tk6XFGrpIT8",
       "name": "Dénouements et récompenses",
       "type": "text",
       "sort": 600,
@@ -230,30 +138,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375456,
-        "modifiedTime": 1793703375463,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!KvrjD375dkDDLtS9.dg853Tk6XFGrpIT8"
+      "flags": {}
     },
     {
       "_id": "ePKFBT8NBpheynTX",
+      "_key": "!journal.pages!KvrjD375dkDDLtS9.ePKFBT8NBpheynTX",
       "name": "PNJ et forces en présence",
       "type": "text",
       "sort": 700,
@@ -268,29 +157,7 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375460,
-        "modifiedTime": 1793703375463,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!KvrjD375dkDDLtS9.ePKFBT8NBpheynTX"
+      "flags": {}
     }
-  ],
-  "sort": 0,
-  "_key": "!journal!KvrjD375dkDDLtS9"
+  ]
 }

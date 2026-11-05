@@ -1,11 +1,17 @@
 {
+  "_id": "W07nC40goBgYx8us",
+  "_key": "!journal!W07nC40goBgYx8us",
   "name": "Guide du joueur — Azeroth",
   "folder": "wNtgGHYLJnHwTJwh",
+  "sort": 0,
   "categories": [],
+  "ownership": {
+    "default": 2
+  },
   "flags": {
     "lakour-warcraft": {
       "cle": "guide-du-joueur",
-      "version": "0.10.0"
+      "version": "0.11.0"
     }
   },
   "_stats": {
@@ -22,6 +28,7 @@
   "pages": [
     {
       "_id": "41dqAPVwcyE2z7Dx",
+      "_key": "!journal.pages!W07nC40goBgYx8us.41dqAPVwcyE2z7Dx",
       "name": "Bienvenue en Azeroth",
       "type": "text",
       "sort": 100,
@@ -36,30 +43,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375147,
-        "modifiedTime": 1793703375158,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!W07nC40goBgYx8us.41dqAPVwcyE2z7Dx"
+      "flags": {}
     },
     {
       "_id": "aX6NBCrQDXWKRdJ8",
+      "_key": "!journal.pages!W07nC40goBgYx8us.aX6NBCrQDXWKRdJ8",
       "name": "Les factions",
       "type": "text",
       "sort": 200,
@@ -74,30 +62,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375149,
-        "modifiedTime": 1793703375159,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!W07nC40goBgYx8us.aX6NBCrQDXWKRdJ8"
+      "flags": {}
     },
     {
       "_id": "ROxoByLP6I8pEA1E",
+      "_key": "!journal.pages!W07nC40goBgYx8us.ROxoByLP6I8pEA1E",
       "name": "Les peuples",
       "type": "text",
       "sort": 300,
@@ -112,30 +81,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375152,
-        "modifiedTime": 1793703375160,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!W07nC40goBgYx8us.ROxoByLP6I8pEA1E"
+      "flags": {}
     },
     {
       "_id": "iAgo393wdFmkimxe",
+      "_key": "!journal.pages!W07nC40goBgYx8us.iAgo393wdFmkimxe",
       "name": "Les grandes régions",
       "type": "text",
       "sort": 400,
@@ -150,30 +100,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375154,
-        "modifiedTime": 1793703375161,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!W07nC40goBgYx8us.iAgo393wdFmkimxe"
+      "flags": {}
     },
     {
       "_id": "EZi8ABGmVSi2DhLs",
+      "_key": "!journal.pages!W07nC40goBgYx8us.EZi8ABGmVSi2DhLs",
       "name": "Quelle classe 5e pour quel archétype",
       "type": "text",
       "sort": 500,
@@ -188,30 +119,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375156,
-        "modifiedTime": 1793703375161,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!W07nC40goBgYx8us.EZi8ABGmVSi2DhLs"
+      "flags": {}
     },
     {
       "_id": "axhxOYZSPuuhU8Rf",
+      "_key": "!journal.pages!W07nC40goBgYx8us.axhxOYZSPuuhU8Rf",
       "name": "Métiers d'Azeroth",
       "type": "text",
       "sort": 600,
@@ -226,33 +138,7 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375157,
-        "modifiedTime": 1793703375162,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!W07nC40goBgYx8us.axhxOYZSPuuhU8Rf"
+      "flags": {}
     }
-  ],
-  "ownership": {
-    "default": 2
-  },
-  "_id": "W07nC40goBgYx8us",
-  "sort": 0,
-  "_key": "!journal!W07nC40goBgYx8us"
+  ]
 }

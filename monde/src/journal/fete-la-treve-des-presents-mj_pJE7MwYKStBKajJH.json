@@ -1,7 +1,9 @@
 {
   "_id": "pJE7MwYKStBKajJH",
+  "_key": "!journal!pJE7MwYKStBKajJH",
   "name": "Fête — La Trêve des Présents (MJ)",
   "folder": "wNtgGHYLJnHwTJwh",
+  "sort": 0,
   "categories": [],
   "ownership": {
     "default": 0
@@ -11,7 +13,7 @@
       "cle": "fete-treve-des-presents",
       "fete": "treve-des-presents",
       "collection": "fetes",
-      "version": "0.10.0"
+      "version": "0.11.0"
     }
   },
   "_stats": {
@@ -28,6 +30,7 @@
   "pages": [
     {
       "_id": "dAIdSIoPaLeHYduo",
+      "_key": "!journal.pages!pJE7MwYKStBKajJH.dAIdSIoPaLeHYduo",
       "name": "La fête",
       "type": "text",
       "sort": 100,
@@ -42,30 +45,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375895,
-        "modifiedTime": 1793703375898,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!pJE7MwYKStBKajJH.dAIdSIoPaLeHYduo"
+      "flags": {}
     },
     {
       "_id": "XXWXrhT8YFs89x1l",
+      "_key": "!journal.pages!pJE7MwYKStBKajJH.XXWXrhT8YFs89x1l",
       "name": "Ambiance",
       "type": "text",
       "sort": 200,
@@ -80,30 +64,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375897,
-        "modifiedTime": 1793703375899,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!pJE7MwYKStBKajJH.XXWXrhT8YFs89x1l"
+      "flags": {}
     },
     {
       "_id": "AMFPD1RWHhHLGA6u",
+      "_key": "!journal.pages!pJE7MwYKStBKajJH.AMFPD1RWHhHLGA6u",
       "name": "Accroches",
       "type": "text",
       "sort": 300,
@@ -118,29 +83,7 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375898,
-        "modifiedTime": 1793703375900,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!pJE7MwYKStBKajJH.AMFPD1RWHhHLGA6u"
+      "flags": {}
     }
-  ],
-  "sort": 0,
-  "_key": "!journal!pJE7MwYKStBKajJH"
+  ]
 }

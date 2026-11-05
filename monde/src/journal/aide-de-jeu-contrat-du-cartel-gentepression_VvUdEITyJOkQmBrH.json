@@ -1,11 +1,17 @@
 {
+  "_id": "VvUdEITyJOkQmBrH",
+  "_key": "!journal!VvUdEITyJOkQmBrH",
   "name": "Aide de jeu — Contrat du Cartel Gentepression",
   "folder": "wNtgGHYLJnHwTJwh",
+  "sort": 0,
   "categories": [],
+  "ownership": {
+    "default": 2
+  },
   "flags": {
     "lakour-warcraft": {
       "cle": "contrat-du-cartel",
-      "version": "0.10.0"
+      "version": "0.11.0"
     }
   },
   "_stats": {
@@ -22,6 +28,7 @@
   "pages": [
     {
       "_id": "8l32qFD0O86tiivi",
+      "_key": "!journal.pages!VvUdEITyJOkQmBrH.8l32qFD0O86tiivi",
       "name": "Contrat du Cartel",
       "type": "text",
       "sort": 100,
@@ -36,30 +43,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375983,
-        "modifiedTime": 1793703375985,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!VvUdEITyJOkQmBrH.8l32qFD0O86tiivi"
+      "flags": {}
     },
     {
       "_id": "JAc4rrFxZoLgd40W",
+      "_key": "!journal.pages!VvUdEITyJOkQmBrH.JAc4rrFxZoLgd40W",
       "name": "La Trêve de Cabestan",
       "type": "text",
       "sort": 200,
@@ -74,33 +62,7 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375985,
-        "modifiedTime": 1793703375985,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!VvUdEITyJOkQmBrH.JAc4rrFxZoLgd40W"
+      "flags": {}
     }
-  ],
-  "ownership": {
-    "default": 2
-  },
-  "_id": "VvUdEITyJOkQmBrH",
-  "sort": 0,
-  "_key": "!journal!VvUdEITyJOkQmBrH"
+  ]
 }

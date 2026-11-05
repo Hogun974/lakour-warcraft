@@ -1,7 +1,10 @@
 {
+  "_id": "JdvychJaE8CGY4vq",
+  "_key": "!scenes!JdvychJaE8CGY4vq",
   "name": "Tarides — Cratère de Brasegouffre",
   "navName": "Tarides — Cratère de Brasegouffre",
   "navigation": false,
+  "active": false,
   "width": 3000,
   "height": 2400,
   "padding": 0,
@@ -9,45 +12,13 @@
     "type": 1,
     "size": 100,
     "distance": 1.5,
-    "units": "m",
-    "style": "solidLines",
-    "thickness": 1,
-    "color": "#000000",
-    "alpha": 0.2
+    "units": "m"
   },
   "tokenVision": true,
   "environment": {
     "darknessLevel": 0.85,
     "globalLight": {
-      "enabled": false,
-      "alpha": 0.5,
-      "bright": false,
-      "color": null,
-      "coloration": 1,
-      "luminosity": 0,
-      "saturation": 0,
-      "contrast": 0,
-      "shadows": 0,
-      "darkness": {
-        "min": 0,
-        "max": 1
-      }
-    },
-    "darknessLock": false,
-    "cycle": true,
-    "base": {
-      "hue": 0,
-      "intensity": 0,
-      "luminosity": 0,
-      "saturation": 0,
-      "shadows": 0
-    },
-    "dark": {
-      "hue": 0.7138888888888889,
-      "intensity": 0,
-      "luminosity": -0.25,
-      "saturation": 0,
-      "shadows": 0
+      "enabled": false
     }
   },
   "levels": [
@@ -60,34 +31,10 @@
       },
       "background": {
         "color": "#18181b",
-        "src": "modules/lakour-warcraft/assets/cartes/3d/cratere-brasegouffre.svg",
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
+        "src": "modules/lakour-warcraft/assets/cartes/3d/cratere-brasegouffre.svg"
       },
-      "flags": {},
-      "foreground": {
-        "src": null,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "fog": {
-        "src": null
-      },
-      "textures": {
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "fill",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0
-      },
-      "visibility": {
-        "levels": []
-      },
-      "sort": 0,
-      "_key": "!scenes.levels!JdvychJaE8CGY4vq.defaultLevel0000"
+      "_key": "!scenes.levels!JdvychJaE8CGY4vq.defaultLevel0000",
+      "flags": {}
     }
   ],
   "initialLevel": "defaultLevel0000",
@@ -108,15 +55,8 @@
       "dir": 0,
       "levels": [],
       "_id": "2KX1fCv2DYmt6LQA",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.2KX1fCv2DYmt6LQA"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.2KX1fCv2DYmt6LQA",
+      "flags": {}
     },
     {
       "c": [
@@ -134,15 +74,8 @@
       "dir": 0,
       "levels": [],
       "_id": "dcFtOzFq2vFbRX3G",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.dcFtOzFq2vFbRX3G"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.dcFtOzFq2vFbRX3G",
+      "flags": {}
     },
     {
       "c": [
@@ -160,15 +93,8 @@
       "dir": 0,
       "levels": [],
       "_id": "93PXBAegSCNN8Udt",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.93PXBAegSCNN8Udt"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.93PXBAegSCNN8Udt",
+      "flags": {}
     },
     {
       "c": [
@@ -186,15 +112,8 @@
       "dir": 0,
       "levels": [],
       "_id": "kaSbcTS49CiuQBPj",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.kaSbcTS49CiuQBPj"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.kaSbcTS49CiuQBPj",
+      "flags": {}
     },
     {
       "c": [
@@ -212,15 +131,8 @@
       "dir": 0,
       "levels": [],
       "_id": "t85fEqDtUL4wO0ol",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.t85fEqDtUL4wO0ol"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.t85fEqDtUL4wO0ol",
+      "flags": {}
     },
     {
       "c": [
@@ -238,15 +150,8 @@
       "dir": 0,
       "levels": [],
       "_id": "uS0Lkp0F1zdCy2OH",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.uS0Lkp0F1zdCy2OH"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.uS0Lkp0F1zdCy2OH",
+      "flags": {}
     },
     {
       "c": [
@@ -264,15 +169,8 @@
       "dir": 0,
       "levels": [],
       "_id": "BQAC2zdNrbvwxZ18",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.BQAC2zdNrbvwxZ18"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.BQAC2zdNrbvwxZ18",
+      "flags": {}
     },
     {
       "c": [
@@ -290,15 +188,8 @@
       "dir": 0,
       "levels": [],
       "_id": "3YX7F3SCPWgrMJZl",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.3YX7F3SCPWgrMJZl"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.3YX7F3SCPWgrMJZl",
+      "flags": {}
     },
     {
       "c": [
@@ -316,15 +207,8 @@
       "dir": 0,
       "levels": [],
       "_id": "GWoh3RoxCGZjAT2K",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.GWoh3RoxCGZjAT2K"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.GWoh3RoxCGZjAT2K",
+      "flags": {}
     },
     {
       "c": [
@@ -342,15 +226,8 @@
       "dir": 0,
       "levels": [],
       "_id": "99Go3jlSSlsPWpzR",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.99Go3jlSSlsPWpzR"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.99Go3jlSSlsPWpzR",
+      "flags": {}
     },
     {
       "c": [
@@ -368,15 +245,8 @@
       "dir": 0,
       "levels": [],
       "_id": "ov555gwZgQXifi8A",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.ov555gwZgQXifi8A"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.ov555gwZgQXifi8A",
+      "flags": {}
     },
     {
       "c": [
@@ -394,15 +264,8 @@
       "dir": 0,
       "levels": [],
       "_id": "FzxhONkuwCgfLT5O",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.FzxhONkuwCgfLT5O"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.FzxhONkuwCgfLT5O",
+      "flags": {}
     },
     {
       "c": [
@@ -420,15 +283,8 @@
       "dir": 0,
       "levels": [],
       "_id": "oBk2ikzsTfLavcwo",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.oBk2ikzsTfLavcwo"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.oBk2ikzsTfLavcwo",
+      "flags": {}
     },
     {
       "c": [
@@ -446,15 +302,8 @@
       "dir": 0,
       "levels": [],
       "_id": "YmnUgbDf4CKlxD1W",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.YmnUgbDf4CKlxD1W"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.YmnUgbDf4CKlxD1W",
+      "flags": {}
     },
     {
       "c": [
@@ -472,15 +321,8 @@
       "dir": 0,
       "levels": [],
       "_id": "3qXJGCOvTUY4S1Zb",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.3qXJGCOvTUY4S1Zb"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.3qXJGCOvTUY4S1Zb",
+      "flags": {}
     },
     {
       "c": [
@@ -498,15 +340,8 @@
       "dir": 0,
       "levels": [],
       "_id": "pCF02G9Du7NHCNYL",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.pCF02G9Du7NHCNYL"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.pCF02G9Du7NHCNYL",
+      "flags": {}
     },
     {
       "c": [
@@ -524,15 +359,8 @@
       "dir": 0,
       "levels": [],
       "_id": "fkCey4iyNrZvdK5L",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.fkCey4iyNrZvdK5L"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.fkCey4iyNrZvdK5L",
+      "flags": {}
     },
     {
       "c": [
@@ -550,15 +378,8 @@
       "dir": 0,
       "levels": [],
       "_id": "aqVUAttRyZxhifA6",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.aqVUAttRyZxhifA6"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.aqVUAttRyZxhifA6",
+      "flags": {}
     },
     {
       "c": [
@@ -576,15 +397,8 @@
       "dir": 0,
       "levels": [],
       "_id": "7UJNU4uKsEcx51hN",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.7UJNU4uKsEcx51hN"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.7UJNU4uKsEcx51hN",
+      "flags": {}
     },
     {
       "c": [
@@ -602,15 +416,8 @@
       "dir": 0,
       "levels": [],
       "_id": "DP1Sjbx0vAJsa4pK",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.DP1Sjbx0vAJsa4pK"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.DP1Sjbx0vAJsa4pK",
+      "flags": {}
     },
     {
       "c": [
@@ -628,15 +435,8 @@
       "dir": 0,
       "levels": [],
       "_id": "iEW9Y8sWXciWTw6T",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.iEW9Y8sWXciWTw6T"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.iEW9Y8sWXciWTw6T",
+      "flags": {}
     },
     {
       "c": [
@@ -654,15 +454,8 @@
       "dir": 0,
       "levels": [],
       "_id": "a0gamHkkkGppNGen",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.a0gamHkkkGppNGen"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.a0gamHkkkGppNGen",
+      "flags": {}
     },
     {
       "c": [
@@ -680,15 +473,8 @@
       "dir": 0,
       "levels": [],
       "_id": "jhBNPaR0ktjB4HnJ",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.jhBNPaR0ktjB4HnJ"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.jhBNPaR0ktjB4HnJ",
+      "flags": {}
     },
     {
       "c": [
@@ -706,15 +492,8 @@
       "dir": 0,
       "levels": [],
       "_id": "e4Lb8jw4yqE29Gmy",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.e4Lb8jw4yqE29Gmy"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.e4Lb8jw4yqE29Gmy",
+      "flags": {}
     },
     {
       "c": [
@@ -732,15 +511,8 @@
       "dir": 0,
       "levels": [],
       "_id": "g7XLSyut3PH5VUBP",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.g7XLSyut3PH5VUBP"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.g7XLSyut3PH5VUBP",
+      "flags": {}
     },
     {
       "c": [
@@ -758,15 +530,8 @@
       "dir": 0,
       "levels": [],
       "_id": "bw5JoSflcWnUkGT5",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.bw5JoSflcWnUkGT5"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.bw5JoSflcWnUkGT5",
+      "flags": {}
     },
     {
       "c": [
@@ -784,15 +549,8 @@
       "dir": 0,
       "levels": [],
       "_id": "34bhZ8HZOC31rjN7",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.34bhZ8HZOC31rjN7"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.34bhZ8HZOC31rjN7",
+      "flags": {}
     },
     {
       "c": [
@@ -810,15 +568,8 @@
       "dir": 0,
       "levels": [],
       "_id": "0HMGz8H9rnY6CD2z",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.0HMGz8H9rnY6CD2z"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.0HMGz8H9rnY6CD2z",
+      "flags": {}
     },
     {
       "c": [
@@ -836,15 +587,8 @@
       "dir": 0,
       "levels": [],
       "_id": "lxx6DZa8VpAKbKDi",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.lxx6DZa8VpAKbKDi"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.lxx6DZa8VpAKbKDi",
+      "flags": {}
     },
     {
       "c": [
@@ -862,15 +606,8 @@
       "dir": 0,
       "levels": [],
       "_id": "rSssCSm4F7s7WHI3",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.rSssCSm4F7s7WHI3"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.rSssCSm4F7s7WHI3",
+      "flags": {}
     },
     {
       "c": [
@@ -888,15 +625,8 @@
       "dir": 0,
       "levels": [],
       "_id": "2cHKucUp8m3QV1nI",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.2cHKucUp8m3QV1nI"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.2cHKucUp8m3QV1nI",
+      "flags": {}
     },
     {
       "c": [
@@ -914,15 +644,8 @@
       "dir": 0,
       "levels": [],
       "_id": "eNmvFsESrMTHHVFn",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.eNmvFsESrMTHHVFn"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.eNmvFsESrMTHHVFn",
+      "flags": {}
     },
     {
       "c": [
@@ -940,15 +663,8 @@
       "dir": 0,
       "levels": [],
       "_id": "viFrhDT4zKZ5k8m9",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.viFrhDT4zKZ5k8m9"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.viFrhDT4zKZ5k8m9",
+      "flags": {}
     },
     {
       "c": [
@@ -966,15 +682,8 @@
       "dir": 0,
       "levels": [],
       "_id": "svTyLB8HeM429lVa",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.svTyLB8HeM429lVa"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.svTyLB8HeM429lVa",
+      "flags": {}
     },
     {
       "c": [
@@ -992,15 +701,8 @@
       "dir": 0,
       "levels": [],
       "_id": "0AEdJGJKtqTX3SEx",
-      "flags": {},
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "_key": "!scenes.walls!JdvychJaE8CGY4vq.0AEdJGJKtqTX3SEx"
+      "_key": "!scenes.walls!JdvychJaE8CGY4vq.0AEdJGJKtqTX3SEx",
+      "flags": {}
     }
   ],
   "drawings": [
@@ -1010,9 +712,7 @@
       "shape": {
         "type": "r",
         "width": 3000,
-        "height": 2400,
-        "radius": null,
-        "points": []
+        "height": 2400
       },
       "fillType": 0,
       "fillColor": "#000000",
@@ -1028,16 +728,9 @@
       "hidden": true,
       "sort": 1000,
       "_id": "GIf6KMsXbkzvFEnl",
+      "_key": "!scenes.drawings!JdvychJaE8CGY4vq.GIf6KMsXbkzvFEnl",
       "flags": {},
-      "author": null,
-      "elevation": 0,
-      "rotation": 0,
-      "bezierFactor": 0,
-      "texture": null,
-      "fontFamily": "",
-      "locked": false,
-      "interface": false,
-      "_key": "!scenes.drawings!JdvychJaE8CGY4vq.GIf6KMsXbkzvFEnl"
+      "author": "LaKourGamemaster"
     },
     {
       "x": 100,
@@ -1045,9 +738,7 @@
       "shape": {
         "type": "r",
         "width": 900,
-        "height": 700,
-        "radius": null,
-        "points": []
+        "height": 700
       },
       "fillType": 0,
       "fillColor": "#000000",
@@ -1063,16 +754,9 @@
       "hidden": true,
       "sort": 1001,
       "_id": "eBBnZkDOQeNLkTOl",
+      "_key": "!scenes.drawings!JdvychJaE8CGY4vq.eBBnZkDOQeNLkTOl",
       "flags": {},
-      "author": null,
-      "elevation": 0,
-      "rotation": 0,
-      "bezierFactor": 0,
-      "texture": null,
-      "fontFamily": "",
-      "locked": false,
-      "interface": false,
-      "_key": "!scenes.drawings!JdvychJaE8CGY4vq.eBBnZkDOQeNLkTOl"
+      "author": "LaKourGamemaster"
     },
     {
       "x": 100,
@@ -1080,9 +764,7 @@
       "shape": {
         "type": "r",
         "width": 700,
-        "height": 700,
-        "radius": null,
-        "points": []
+        "height": 700
       },
       "fillType": 0,
       "fillColor": "#000000",
@@ -1098,16 +780,9 @@
       "hidden": true,
       "sort": 1002,
       "_id": "sDNiUj32xFHAxmPc",
+      "_key": "!scenes.drawings!JdvychJaE8CGY4vq.sDNiUj32xFHAxmPc",
       "flags": {},
-      "author": null,
-      "elevation": 0,
-      "rotation": 0,
-      "bezierFactor": 0,
-      "texture": null,
-      "fontFamily": "",
-      "locked": false,
-      "interface": false,
-      "_key": "!scenes.drawings!JdvychJaE8CGY4vq.sDNiUj32xFHAxmPc"
+      "author": "LaKourGamemaster"
     },
     {
       "x": 1000,
@@ -1115,9 +790,7 @@
       "shape": {
         "type": "r",
         "width": 1200,
-        "height": 1200,
-        "radius": null,
-        "points": []
+        "height": 1200
       },
       "fillType": 0,
       "fillColor": "#000000",
@@ -1133,16 +806,9 @@
       "hidden": true,
       "sort": 1003,
       "_id": "Yq4KrlbBKBxLcS5u",
+      "_key": "!scenes.drawings!JdvychJaE8CGY4vq.Yq4KrlbBKBxLcS5u",
       "flags": {},
-      "author": null,
-      "elevation": 0,
-      "rotation": 0,
-      "bezierFactor": 0,
-      "texture": null,
-      "fontFamily": "",
-      "locked": false,
-      "interface": false,
-      "_key": "!scenes.drawings!JdvychJaE8CGY4vq.Yq4KrlbBKBxLcS5u"
+      "author": "LaKourGamemaster"
     },
     {
       "x": 2200,
@@ -1150,9 +816,7 @@
       "shape": {
         "type": "r",
         "width": 700,
-        "height": 900,
-        "radius": null,
-        "points": []
+        "height": 900
       },
       "fillType": 0,
       "fillColor": "#000000",
@@ -1168,16 +832,9 @@
       "hidden": true,
       "sort": 1004,
       "_id": "3FPRxSeSI2bRJgx7",
+      "_key": "!scenes.drawings!JdvychJaE8CGY4vq.3FPRxSeSI2bRJgx7",
       "flags": {},
-      "author": null,
-      "elevation": 0,
-      "rotation": 0,
-      "bezierFactor": 0,
-      "texture": null,
-      "fontFamily": "",
-      "locked": false,
-      "interface": false,
-      "_key": "!scenes.drawings!JdvychJaE8CGY4vq.3FPRxSeSI2bRJgx7"
+      "author": "LaKourGamemaster"
     },
     {
       "x": 2300,
@@ -1185,9 +842,7 @@
       "shape": {
         "type": "r",
         "width": 600,
-        "height": 800,
-        "radius": null,
-        "points": []
+        "height": 800
       },
       "fillType": 0,
       "fillColor": "#000000",
@@ -1203,16 +858,9 @@
       "hidden": true,
       "sort": 1005,
       "_id": "JAc56bG4iRmOvGuh",
+      "_key": "!scenes.drawings!JdvychJaE8CGY4vq.JAc56bG4iRmOvGuh",
       "flags": {},
-      "author": null,
-      "elevation": 0,
-      "rotation": 0,
-      "bezierFactor": 0,
-      "texture": null,
-      "fontFamily": "",
-      "locked": false,
-      "interface": false,
-      "_key": "!scenes.drawings!JdvychJaE8CGY4vq.JAc56bG4iRmOvGuh"
+      "author": "LaKourGamemaster"
     }
   ],
   "lights": [
@@ -1228,32 +876,11 @@
         "color": "#ff8a30",
         "alpha": 0.4,
         "coloration": 1,
-        "luminosity": 0.5,
-        "negative": false,
-        "priority": 0,
-        "angle": 360,
-        "attenuation": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
+        "luminosity": 0.5
       },
       "_id": "fVG6jZLJe0vycnP9",
-      "flags": {},
-      "rotation": 0,
-      "vision": false,
-      "hidden": false,
-      "locked": false,
-      "_key": "!scenes.lights!JdvychJaE8CGY4vq.fVG6jZLJe0vycnP9"
+      "_key": "!scenes.lights!JdvychJaE8CGY4vq.fVG6jZLJe0vycnP9",
+      "flags": {}
     },
     {
       "x": 1650,
@@ -1267,32 +894,11 @@
         "color": "#55ff55",
         "alpha": 0.4,
         "coloration": 1,
-        "luminosity": 0.5,
-        "negative": false,
-        "priority": 0,
-        "angle": 360,
-        "attenuation": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
+        "luminosity": 0.5
       },
       "_id": "N3CoGH5Hukmw2Bb1",
-      "flags": {},
-      "rotation": 0,
-      "vision": false,
-      "hidden": false,
-      "locked": false,
-      "_key": "!scenes.lights!JdvychJaE8CGY4vq.N3CoGH5Hukmw2Bb1"
+      "_key": "!scenes.lights!JdvychJaE8CGY4vq.N3CoGH5Hukmw2Bb1",
+      "flags": {}
     },
     {
       "x": 2550,
@@ -1306,32 +912,11 @@
         "color": "#ff6633",
         "alpha": 0.4,
         "coloration": 1,
-        "luminosity": 0.5,
-        "negative": false,
-        "priority": 0,
-        "angle": 360,
-        "attenuation": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
+        "luminosity": 0.5
       },
       "_id": "1hDn0VDo9GIJe5go",
-      "flags": {},
-      "rotation": 0,
-      "vision": false,
-      "hidden": false,
-      "locked": false,
-      "_key": "!scenes.lights!JdvychJaE8CGY4vq.1hDn0VDo9GIJe5go"
+      "_key": "!scenes.lights!JdvychJaE8CGY4vq.1hDn0VDo9GIJe5go",
+      "flags": {}
     },
     {
       "x": 2650,
@@ -1345,32 +930,11 @@
         "color": "#77ff44",
         "alpha": 0.4,
         "coloration": 1,
-        "luminosity": 0.5,
-        "negative": false,
-        "priority": 0,
-        "angle": 360,
-        "attenuation": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
+        "luminosity": 0.5
       },
       "_id": "Zw3W65k4VCVFMvYn",
-      "flags": {},
-      "rotation": 0,
-      "vision": false,
-      "hidden": false,
-      "locked": false,
-      "_key": "!scenes.lights!JdvychJaE8CGY4vq.Zw3W65k4VCVFMvYn"
+      "_key": "!scenes.lights!JdvychJaE8CGY4vq.Zw3W65k4VCVFMvYn",
+      "flags": {}
     },
     {
       "x": 450,
@@ -1384,32 +948,11 @@
         "color": "#ffaa55",
         "alpha": 0.4,
         "coloration": 1,
-        "luminosity": 0.5,
-        "negative": false,
-        "priority": 0,
-        "angle": 360,
-        "attenuation": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
+        "luminosity": 0.5
       },
       "_id": "gVThFJBllFjf8fWm",
-      "flags": {},
-      "rotation": 0,
-      "vision": false,
-      "hidden": false,
-      "locked": false,
-      "_key": "!scenes.lights!JdvychJaE8CGY4vq.gVThFJBllFjf8fWm"
+      "_key": "!scenes.lights!JdvychJaE8CGY4vq.gVThFJBllFjf8fWm",
+      "flags": {}
     },
     {
       "x": 1650,
@@ -1423,280 +966,11 @@
         "color": "#ff5a1a",
         "alpha": 0.4,
         "coloration": 1,
-        "luminosity": 0.5,
-        "negative": false,
-        "priority": 0,
-        "angle": 360,
-        "attenuation": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
+        "luminosity": 0.5
       },
       "_id": "0xJjjwRt7OON0cDH",
-      "flags": {},
-      "rotation": 0,
-      "vision": false,
-      "hidden": false,
-      "locked": false,
-      "_key": "!scenes.lights!JdvychJaE8CGY4vq.0xJjjwRt7OON0cDH"
-    }
-  ],
-  "tokens": [],
-  "notes": [
-    {
-      "entryId": "l9Z35U9aNrBezqfv",
-      "pageId": "cZXvD6E1KUIYnxJ9",
-      "x": 450,
-      "y": 650,
-      "elevation": 0,
-      "levels": [],
-      "sort": 0,
-      "locked": false,
-      "texture": {
-        "src": "icons/svg/combat.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "tint": "#ffffff",
-        "alphaThreshold": 0
-      },
-      "iconSize": 40,
-      "text": "Camp de la Lame ardente",
-      "fontFamily": "",
-      "fontSize": 24,
-      "textAnchor": 1,
-      "textColor": "#ffffff",
-      "global": false,
-      "_id": "kumSQ7aFiZ2Ew6jI",
-      "flags": {
-        "lakour-warcraft": {
-          "carte": true
-        }
-      },
-      "author": null,
-      "_key": "!scenes.notes!JdvychJaE8CGY4vq.kumSQ7aFiZ2Ew6jI"
-    },
-    {
-      "entryId": "l9Z35U9aNrBezqfv",
-      "pageId": "cZXvD6E1KUIYnxJ9",
-      "x": 350,
-      "y": 1750,
-      "elevation": 0,
-      "levels": [],
-      "sort": 0,
-      "locked": false,
-      "texture": {
-        "src": "icons/svg/padlock.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "tint": "#ffffff",
-        "alphaThreshold": 0
-      },
-      "iconSize": 40,
-      "text": "Captifs à libérer",
-      "fontFamily": "",
-      "fontSize": 24,
-      "textAnchor": 1,
-      "textColor": "#ffffff",
-      "global": false,
-      "_id": "MetGfl5sLdQeoqtu",
-      "flags": {
-        "lakour-warcraft": {
-          "carte": true
-        }
-      },
-      "author": null,
-      "_key": "!scenes.notes!JdvychJaE8CGY4vq.MetGfl5sLdQeoqtu"
-    },
-    {
-      "entryId": "l9Z35U9aNrBezqfv",
-      "pageId": "cZXvD6E1KUIYnxJ9",
-      "x": 1750,
-      "y": 1350,
-      "elevation": 0,
-      "levels": [],
-      "sort": 0,
-      "locked": false,
-      "texture": {
-        "src": "icons/svg/fire.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "tint": "#ffffff",
-        "alphaThreshold": 0
-      },
-      "iconSize": 40,
-      "text": "Autel des Braises — Drogha l'Embrasé",
-      "fontFamily": "",
-      "fontSize": 24,
-      "textAnchor": 1,
-      "textColor": "#ffffff",
-      "global": false,
-      "_id": "So9xBZH8Ps3qrMD3",
-      "flags": {
-        "lakour-warcraft": {
-          "carte": true
-        }
-      },
-      "author": null,
-      "_key": "!scenes.notes!JdvychJaE8CGY4vq.So9xBZH8Ps3qrMD3"
-    },
-    {
-      "entryId": "l9Z35U9aNrBezqfv",
-      "pageId": "cZXvD6E1KUIYnxJ9",
-      "x": 1650,
-      "y": 950,
-      "elevation": 0,
-      "levels": [],
-      "sort": 0,
-      "locked": false,
-      "texture": {
-        "src": "icons/svg/portal.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "tint": "#ffffff",
-        "alphaThreshold": 0
-      },
-      "iconSize": 40,
-      "text": "Portail de la Fournaise",
-      "fontFamily": "",
-      "fontSize": 24,
-      "textAnchor": 1,
-      "textColor": "#ffffff",
-      "global": false,
-      "_id": "MWw1wjmdegYC9QDK",
-      "flags": {
-        "lakour-warcraft": {
-          "carte": true
-        }
-      },
-      "author": null,
-      "_key": "!scenes.notes!JdvychJaE8CGY4vq.MWw1wjmdegYC9QDK"
-    },
-    {
-      "entryId": "l9Z35U9aNrBezqfv",
-      "pageId": "cZXvD6E1KUIYnxJ9",
-      "x": 2750,
-      "y": 350,
-      "elevation": 0,
-      "levels": [],
-      "sort": 0,
-      "locked": false,
-      "texture": {
-        "src": "icons/svg/eye.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "tint": "#ffffff",
-        "alphaThreshold": 0
-      },
-      "iconSize": 40,
-      "text": "Ezzavel, spectateur",
-      "fontFamily": "",
-      "fontSize": 24,
-      "textAnchor": 1,
-      "textColor": "#ffffff",
-      "global": false,
-      "_id": "ysxk65yxHp3WMypZ",
-      "flags": {
-        "lakour-warcraft": {
-          "carte": true
-        }
-      },
-      "author": null,
-      "_key": "!scenes.notes!JdvychJaE8CGY4vq.ysxk65yxHp3WMypZ"
-    },
-    {
-      "entryId": "l9Z35U9aNrBezqfv",
-      "pageId": "cZXvD6E1KUIYnxJ9",
-      "x": 2550,
-      "y": 1350,
-      "elevation": 0,
-      "levels": [],
-      "sort": 0,
-      "locked": false,
-      "texture": {
-        "src": "icons/svg/door-secret-outline.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "tint": "#ffffff",
-        "alphaThreshold": 0
-      },
-      "iconSize": 40,
-      "text": "Fissure secrète vers le puits",
-      "fontFamily": "",
-      "fontSize": 24,
-      "textAnchor": 1,
-      "textColor": "#ffffff",
-      "global": false,
-      "_id": "XqKOtZc95iLe4B9Z",
-      "flags": {
-        "lakour-warcraft": {
-          "carte": true
-        }
-      },
-      "author": null,
-      "_key": "!scenes.notes!JdvychJaE8CGY4vq.XqKOtZc95iLe4B9Z"
-    },
-    {
-      "entryId": "l9Z35U9aNrBezqfv",
-      "pageId": "cZXvD6E1KUIYnxJ9",
-      "x": 2450,
-      "y": 1750,
-      "elevation": 0,
-      "levels": [],
-      "sort": 0,
-      "locked": false,
-      "texture": {
-        "src": "icons/svg/hazard.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "tint": "#ffffff",
-        "alphaThreshold": 0
-      },
-      "iconSize": 40,
-      "text": "Cœur de la Fournaise",
-      "fontFamily": "",
-      "fontSize": 24,
-      "textAnchor": 1,
-      "textColor": "#ffffff",
-      "global": false,
-      "_id": "RD9E8cVjPgUT9hoF",
-      "flags": {
-        "lakour-warcraft": {
-          "carte": true
-        }
-      },
-      "author": null,
-      "_key": "!scenes.notes!JdvychJaE8CGY4vq.RD9E8cVjPgUT9hoF"
+      "_key": "!scenes.lights!JdvychJaE8CGY4vq.0xJjjwRt7OON0cDH",
+      "flags": {}
     }
   ],
   "sounds": [
@@ -1715,24 +989,12 @@
       "hidden": false,
       "locked": false,
       "_id": "9xVSSYdEpXWTluw3",
+      "_key": "!scenes.sounds!JdvychJaE8CGY4vq.9xVSSYdEpXWTluw3",
       "flags": {
         "lakour-warcraft": {
           "carte": true
         }
-      },
-      "darkness": {
-        "min": 0,
-        "max": 1
-      },
-      "effects": {
-        "base": {
-          "intensity": 5
-        },
-        "muffled": {
-          "intensity": 5
-        }
-      },
-      "_key": "!scenes.sounds!JdvychJaE8CGY4vq.9xVSSYdEpXWTluw3"
+      }
     },
     {
       "name": "feu — Gouffre de lave",
@@ -1749,24 +1011,12 @@
       "hidden": false,
       "locked": false,
       "_id": "3GiGolO9QoHIwdal",
+      "_key": "!scenes.sounds!JdvychJaE8CGY4vq.3GiGolO9QoHIwdal",
       "flags": {
         "lakour-warcraft": {
           "carte": true
         }
-      },
-      "darkness": {
-        "min": 0,
-        "max": 1
-      },
-      "effects": {
-        "base": {
-          "intensity": 5
-        },
-        "muffled": {
-          "intensity": 5
-        }
-      },
-      "_key": "!scenes.sounds!JdvychJaE8CGY4vq.3GiGolO9QoHIwdal"
+      }
     },
     {
       "name": "tension — Cercle du rituel",
@@ -1783,24 +1033,12 @@
       "hidden": false,
       "locked": false,
       "_id": "aikkmK1VKWcemtDP",
+      "_key": "!scenes.sounds!JdvychJaE8CGY4vq.aikkmK1VKWcemtDP",
       "flags": {
         "lakour-warcraft": {
           "carte": true
         }
-      },
-      "darkness": {
-        "min": 0,
-        "max": 1
-      },
-      "effects": {
-        "base": {
-          "intensity": 5
-        },
-        "muffled": {
-          "intensity": 5
-        }
-      },
-      "_key": "!scenes.sounds!JdvychJaE8CGY4vq.aikkmK1VKWcemtDP"
+      }
     },
     {
       "name": "vent — Bord du cratère",
@@ -1817,24 +1055,12 @@
       "hidden": false,
       "locked": false,
       "_id": "pzDE9rfSMuh2Hfe5",
+      "_key": "!scenes.sounds!JdvychJaE8CGY4vq.pzDE9rfSMuh2Hfe5",
       "flags": {
         "lakour-warcraft": {
           "carte": true
         }
-      },
-      "darkness": {
-        "min": 0,
-        "max": 1
-      },
-      "effects": {
-        "base": {
-          "intensity": 5
-        },
-        "muffled": {
-          "intensity": 5
-        }
-      },
-      "_key": "!scenes.sounds!JdvychJaE8CGY4vq.pzDE9rfSMuh2Hfe5"
+      }
     }
   ],
   "regions": [
@@ -1894,27 +1120,15 @@
             "visibility": 2,
             "once": true
           },
-          "_stats": {
-            "coreVersion": "14.369",
-            "systemId": "dnd5e",
-            "systemVersion": "6.0.6",
-            "createdTime": 1793703378015,
-            "modifiedTime": 1793703378015,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null
-          },
           "_key": "!scenes.regions.behaviors!JdvychJaE8CGY4vq.N1J0i8o0YeiMv2a2.PpXw0BYjMfrZQqhp"
         }
       ],
+      "_key": "!scenes.regions!JdvychJaE8CGY4vq.N1J0i8o0YeiMv2a2",
       "flags": {
         "lakour-warcraft": {
           "carte": true
         }
-      },
-      "_shapeConstraints": null,
-      "_key": "!scenes.regions!JdvychJaE8CGY4vq.N1J0i8o0YeiMv2a2"
+      }
     },
     {
       "_id": "h7D1Ki67K0afbWex",
@@ -1972,27 +1186,15 @@
             "visibility": 2,
             "once": true
           },
-          "_stats": {
-            "coreVersion": "14.369",
-            "systemId": "dnd5e",
-            "systemVersion": "6.0.6",
-            "createdTime": 1793703378017,
-            "modifiedTime": 1793703378017,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null
-          },
           "_key": "!scenes.regions.behaviors!JdvychJaE8CGY4vq.h7D1Ki67K0afbWex.EJzan4zmN9egeYPO"
         }
       ],
+      "_key": "!scenes.regions!JdvychJaE8CGY4vq.h7D1Ki67K0afbWex",
       "flags": {
         "lakour-warcraft": {
           "carte": true
         }
-      },
-      "_shapeConstraints": null,
-      "_key": "!scenes.regions!JdvychJaE8CGY4vq.h7D1Ki67K0afbWex"
+      }
     },
     {
       "_id": "baQSg2OOVhXPMNGP",
@@ -2044,27 +1246,15 @@
           "system": {
             "once": true
           },
-          "_stats": {
-            "coreVersion": "14.369",
-            "systemId": "dnd5e",
-            "systemVersion": "6.0.6",
-            "createdTime": 1793703378018,
-            "modifiedTime": 1793703378018,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null
-          },
           "_key": "!scenes.regions.behaviors!JdvychJaE8CGY4vq.baQSg2OOVhXPMNGP.8norKAZefrLNKmlG"
         }
       ],
+      "_key": "!scenes.regions!JdvychJaE8CGY4vq.baQSg2OOVhXPMNGP",
       "flags": {
         "lakour-warcraft": {
           "carte": true
         }
-      },
-      "_shapeConstraints": null,
-      "_key": "!scenes.regions!JdvychJaE8CGY4vq.baQSg2OOVhXPMNGP"
+      }
     },
     {
       "_id": "EBDMjXyujBkSxziD",
@@ -2122,31 +1312,257 @@
             "visibility": 2,
             "once": true
           },
-          "_stats": {
-            "coreVersion": "14.369",
-            "systemId": "dnd5e",
-            "systemVersion": "6.0.6",
-            "createdTime": 1793703378019,
-            "modifiedTime": 1793703378019,
-            "lastModifiedBy": null,
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null
-          },
           "_key": "!scenes.regions.behaviors!JdvychJaE8CGY4vq.EBDMjXyujBkSxziD.cYEw3goybTG5adYe"
         }
       ],
+      "_key": "!scenes.regions!JdvychJaE8CGY4vq.EBDMjXyujBkSxziD",
       "flags": {
         "lakour-warcraft": {
           "carte": true
         }
-      },
-      "_shapeConstraints": null,
-      "_key": "!scenes.regions!JdvychJaE8CGY4vq.EBDMjXyujBkSxziD"
+      }
     }
   ],
+  "notes": [
+    {
+      "entryId": "l9Z35U9aNrBezqfv",
+      "pageId": "cZXvD6E1KUIYnxJ9",
+      "x": 450,
+      "y": 650,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/combat.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Camp de la Lame ardente",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "kumSQ7aFiZ2Ew6jI",
+      "_key": "!scenes.notes!JdvychJaE8CGY4vq.kumSQ7aFiZ2Ew6jI",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      }
+    },
+    {
+      "entryId": "l9Z35U9aNrBezqfv",
+      "pageId": "cZXvD6E1KUIYnxJ9",
+      "x": 350,
+      "y": 1750,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/padlock.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Captifs à libérer",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "MetGfl5sLdQeoqtu",
+      "_key": "!scenes.notes!JdvychJaE8CGY4vq.MetGfl5sLdQeoqtu",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      }
+    },
+    {
+      "entryId": "l9Z35U9aNrBezqfv",
+      "pageId": "cZXvD6E1KUIYnxJ9",
+      "x": 1750,
+      "y": 1350,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/fire.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Autel des Braises — Drogha l'Embrasé",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "So9xBZH8Ps3qrMD3",
+      "_key": "!scenes.notes!JdvychJaE8CGY4vq.So9xBZH8Ps3qrMD3",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      }
+    },
+    {
+      "entryId": "l9Z35U9aNrBezqfv",
+      "pageId": "cZXvD6E1KUIYnxJ9",
+      "x": 1650,
+      "y": 950,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/portal.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Portail de la Fournaise",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "MWw1wjmdegYC9QDK",
+      "_key": "!scenes.notes!JdvychJaE8CGY4vq.MWw1wjmdegYC9QDK",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      }
+    },
+    {
+      "entryId": "l9Z35U9aNrBezqfv",
+      "pageId": "cZXvD6E1KUIYnxJ9",
+      "x": 2750,
+      "y": 350,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/eye.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Ezzavel, spectateur",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "ysxk65yxHp3WMypZ",
+      "_key": "!scenes.notes!JdvychJaE8CGY4vq.ysxk65yxHp3WMypZ",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      }
+    },
+    {
+      "entryId": "l9Z35U9aNrBezqfv",
+      "pageId": "cZXvD6E1KUIYnxJ9",
+      "x": 2550,
+      "y": 1350,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/door-secret-outline.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Fissure secrète vers le puits",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "XqKOtZc95iLe4B9Z",
+      "_key": "!scenes.notes!JdvychJaE8CGY4vq.XqKOtZc95iLe4B9Z",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      }
+    },
+    {
+      "entryId": "l9Z35U9aNrBezqfv",
+      "pageId": "cZXvD6E1KUIYnxJ9",
+      "x": 2450,
+      "y": 1750,
+      "elevation": 0,
+      "levels": [],
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/hazard.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff"
+      },
+      "iconSize": 40,
+      "text": "Cœur de la Fournaise",
+      "fontFamily": "",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": false,
+      "_id": "RD9E8cVjPgUT9hoF",
+      "_key": "!scenes.notes!JdvychJaE8CGY4vq.RD9E8cVjPgUT9hoF",
+      "flags": {
+        "lakour-warcraft": {
+          "carte": true
+        }
+      }
+    }
+  ],
+  "tokens": [],
   "tiles": [],
+  "ownership": {
+    "default": 0
+  },
   "folder": "ITUIPus5l3LRunpp",
+  "sort": 0,
   "flags": {
     "lakour-warcraft": {
       "cle": "cratere-brasegouffre",
@@ -2663,10 +2079,7 @@
         ]
       },
       "aventure": "Les Braises de la Légion",
-      "version": "0.10.0"
-    },
-    "fxmaster": {
-      "parameterRangeMigrationVersion": 1
+      "version": "0.11.0"
     }
   },
   "_stats": {
@@ -2679,39 +2092,5 @@
     "compendiumSource": "Compendium.lakour-warcraft.scenes.Scene.RlyX3Yz5pMpfyHgY",
     "duplicateSource": null,
     "exportSource": null
-  },
-  "thumb": null,
-  "shiftX": 0,
-  "shiftY": 0,
-  "initial": {
-    "x": null,
-    "y": null,
-    "scale": null
-  },
-  "fog": {
-    "mode": 1,
-    "colors": {
-      "explored": null,
-      "unexplored": null
-    }
-  },
-  "transition": {
-    "type": null,
-    "duration": 1500,
-    "activeOnly": false
-  },
-  "playlist": null,
-  "playlistSound": null,
-  "journal": null,
-  "journalEntryPage": null,
-  "weather": "",
-  "ownership": {
-    "default": 0
-  },
-  "_id": "JdvychJaE8CGY4vq",
-  "active": false,
-  "navOrder": 0,
-  "sort": 0,
-  "_key": "!scenes!JdvychJaE8CGY4vq",
-  "templates": []
+  }
 }

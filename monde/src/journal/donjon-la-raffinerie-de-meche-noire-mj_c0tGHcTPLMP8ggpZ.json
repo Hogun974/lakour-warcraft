@@ -1,7 +1,9 @@
 {
   "_id": "c0tGHcTPLMP8ggpZ",
+  "_key": "!journal!c0tGHcTPLMP8ggpZ",
   "name": "Donjon — La Raffinerie de Mèche-Noire (MJ)",
   "folder": "wNtgGHYLJnHwTJwh",
+  "sort": 0,
   "categories": [],
   "ownership": {
     "default": 0
@@ -10,7 +12,7 @@
     "lakour-warcraft": {
       "cle": "donjon-meche-noire",
       "collection": "donjon-meche-noire",
-      "version": "0.10.0"
+      "version": "0.11.0"
     }
   },
   "_stats": {
@@ -27,6 +29,7 @@
   "pages": [
     {
       "_id": "iWZGDtua7JEJbgdz",
+      "_key": "!journal.pages!c0tGHcTPLMP8ggpZ.iWZGDtua7JEJbgdz",
       "name": "Synopsis (MJ)",
       "type": "text",
       "sort": 100,
@@ -41,30 +44,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375739,
-        "modifiedTime": 1793703375748,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!c0tGHcTPLMP8ggpZ.iWZGDtua7JEJbgdz"
+      "flags": {}
     },
     {
       "_id": "BYkuWnQSvrx63pRM",
+      "_key": "!journal.pages!c0tGHcTPLMP8ggpZ.BYkuWnQSvrx63pRM",
       "name": "Boss 1 — Grokka Deux-Clés",
       "type": "text",
       "sort": 200,
@@ -79,30 +63,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375741,
-        "modifiedTime": 1793703375748,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!c0tGHcTPLMP8ggpZ.BYkuWnQSvrx63pRM"
+      "flags": {}
     },
     {
       "_id": "xyHs7uoEQwywtdd3",
+      "_key": "!journal.pages!c0tGHcTPLMP8ggpZ.xyHs7uoEQwywtdd3",
       "name": "Boss 2 — Mère-Brasier",
       "type": "text",
       "sort": 300,
@@ -117,30 +82,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375743,
-        "modifiedTime": 1793703375749,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!c0tGHcTPLMP8ggpZ.xyHs7uoEQwywtdd3"
+      "flags": {}
     },
     {
       "_id": "oZTOWDdXFLj2CI34",
+      "_key": "!journal.pages!c0tGHcTPLMP8ggpZ.oZTOWDdXFLj2CI34",
       "name": "Boss 3 — Baron Nizzel Baille-Fonds",
       "type": "text",
       "sort": 400,
@@ -155,30 +101,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375745,
-        "modifiedTime": 1793703375749,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!c0tGHcTPLMP8ggpZ.oZTOWDdXFLj2CI34"
+      "flags": {}
     },
     {
       "_id": "aa5XieFF1O6SZO9B",
+      "_key": "!journal.pages!c0tGHcTPLMP8ggpZ.aa5XieFF1O6SZO9B",
       "name": "Butin et récompenses",
       "type": "text",
       "sort": 500,
@@ -193,29 +120,7 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375747,
-        "modifiedTime": 1793703375750,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!c0tGHcTPLMP8ggpZ.aa5XieFF1O6SZO9B"
+      "flags": {}
     }
-  ],
-  "sort": 0,
-  "_key": "!journal!c0tGHcTPLMP8ggpZ"
+  ]
 }

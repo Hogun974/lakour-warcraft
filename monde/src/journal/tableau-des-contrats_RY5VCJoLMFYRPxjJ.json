@@ -1,7 +1,9 @@
 {
   "_id": "RY5VCJoLMFYRPxjJ",
+  "_key": "!journal!RY5VCJoLMFYRPxjJ",
   "name": "Tableau des contrats",
   "folder": "wNtgGHYLJnHwTJwh",
+  "sort": 0,
   "categories": [],
   "ownership": {
     "default": 0
@@ -10,7 +12,7 @@
     "lakour-warcraft": {
       "cle": "tableau-des-contrats",
       "collection": "contrats",
-      "version": "0.10.0"
+      "version": "0.11.0"
     }
   },
   "_stats": {
@@ -27,6 +29,7 @@
   "pages": [
     {
       "_id": "ABJL5dNwrrxf77Wb",
+      "_key": "!journal.pages!RY5VCJoLMFYRPxjJ.ABJL5dNwrrxf77Wb",
       "name": "Usage (MJ)",
       "type": "text",
       "sort": 100,
@@ -41,30 +44,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375658,
-        "modifiedTime": 1793703375660,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!RY5VCJoLMFYRPxjJ.ABJL5dNwrrxf77Wb"
+      "flags": {}
     },
     {
       "_id": "ZEQ0DPfilFRipLoQ",
+      "_key": "!journal.pages!RY5VCJoLMFYRPxjJ.ZEQ0DPfilFRipLoQ",
       "name": "Cabestan",
       "type": "text",
       "sort": 200,
@@ -79,30 +63,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375659,
-        "modifiedTime": 1793703375661,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!RY5VCJoLMFYRPxjJ.ZEQ0DPfilFRipLoQ"
+      "flags": {}
     },
     {
       "_id": "JqtyAlpezDOrkDyZ",
+      "_key": "!journal.pages!RY5VCJoLMFYRPxjJ.JqtyAlpezDOrkDyZ",
       "name": "Le Carrefour",
       "type": "text",
       "sort": 300,
@@ -117,30 +82,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375660,
-        "modifiedTime": 1793703375661,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!RY5VCJoLMFYRPxjJ.JqtyAlpezDOrkDyZ"
+      "flags": {}
     },
     {
       "_id": "qbGSgc3vatPqBfes",
+      "_key": "!journal.pages!RY5VCJoLMFYRPxjJ.qbGSgc3vatPqBfes",
       "name": "Theramore",
       "type": "text",
       "sort": 400,
@@ -155,29 +101,7 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375660,
-        "modifiedTime": 1793703375662,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!RY5VCJoLMFYRPxjJ.qbGSgc3vatPqBfes"
+      "flags": {}
     }
-  ],
-  "sort": 0,
-  "_key": "!journal!RY5VCJoLMFYRPxjJ"
+  ]
 }

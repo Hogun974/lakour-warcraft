@@ -1,7 +1,9 @@
 {
   "_id": "aC3vbtKhaCRMA8kC",
+  "_key": "!journal!aC3vbtKhaCRMA8kC",
   "name": "Listes de sorts d'Azeroth",
   "folder": "wNtgGHYLJnHwTJwh",
+  "sort": 0,
   "categories": [],
   "ownership": {
     "default": 2
@@ -9,7 +11,7 @@
   "flags": {
     "lakour-warcraft": {
       "cle": "listes-de-sorts-azeroth",
-      "version": "0.10.0"
+      "version": "0.11.0"
     }
   },
   "_stats": {
@@ -26,6 +28,7 @@
   "pages": [
     {
       "_id": "Ul1YO018sbW9RRmk",
+      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.Ul1YO018sbW9RRmk",
       "name": "Barde — sorts d'Azeroth",
       "type": "spells",
       "sort": 100,
@@ -53,29 +56,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375692,
-        "modifiedTime": 1793703375699,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.Ul1YO018sbW9RRmk"
+      "flags": {}
     },
     {
       "_id": "IetUXLFHrT4bVEGt",
+      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.IetUXLFHrT4bVEGt",
       "name": "Clerc — sorts d'Azeroth",
       "type": "spells",
       "sort": 200,
@@ -109,29 +94,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375694,
-        "modifiedTime": 1793703375700,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.IetUXLFHrT4bVEGt"
+      "flags": {}
     },
     {
       "_id": "2D8DaGKZZf35xLKW",
+      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.2D8DaGKZZf35xLKW",
       "name": "Druide — sorts d'Azeroth",
       "type": "spells",
       "sort": 300,
@@ -166,29 +133,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375695,
-        "modifiedTime": 1793703375700,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.2D8DaGKZZf35xLKW"
+      "flags": {}
     },
     {
       "_id": "pBJQcuht8v3wBTvi",
+      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.pBJQcuht8v3wBTvi",
       "name": "Paladin — sorts d'Azeroth",
       "type": "spells",
       "sort": 400,
@@ -217,29 +166,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375695,
-        "modifiedTime": 1793703375701,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.pBJQcuht8v3wBTvi"
+      "flags": {}
     },
     {
       "_id": "nlYdLBAwZplXXqC1",
+      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.nlYdLBAwZplXXqC1",
       "name": "Rôdeur — sorts d'Azeroth",
       "type": "spells",
       "sort": 500,
@@ -267,29 +198,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375696,
-        "modifiedTime": 1793703375701,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.nlYdLBAwZplXXqC1"
+      "flags": {}
     },
     {
       "_id": "Vhj5w5yBsOxkj6sA",
+      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.Vhj5w5yBsOxkj6sA",
       "name": "Ensorceleur — sorts d'Azeroth",
       "type": "spells",
       "sort": 600,
@@ -325,29 +238,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375697,
-        "modifiedTime": 1793703375701,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.Vhj5w5yBsOxkj6sA"
+      "flags": {}
     },
     {
       "_id": "TReruCQ6tfVqkRoL",
+      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.TReruCQ6tfVqkRoL",
       "name": "Occultiste — sorts d'Azeroth",
       "type": "spells",
       "sort": 700,
@@ -376,29 +271,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375698,
-        "modifiedTime": 1793703375701,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.TReruCQ6tfVqkRoL"
+      "flags": {}
     },
     {
       "_id": "eERlD3NAuouxgyEf",
+      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.eERlD3NAuouxgyEf",
       "name": "Magicien — sorts d'Azeroth",
       "type": "spells",
       "sort": 800,
@@ -430,28 +307,7 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375699,
-        "modifiedTime": 1793703375702,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!aC3vbtKhaCRMA8kC.eERlD3NAuouxgyEf"
+      "flags": {}
     }
-  ],
-  "sort": 0,
-  "_key": "!journal!aC3vbtKhaCRMA8kC"
+  ]
 }

@@ -1,7 +1,9 @@
 {
   "_id": "Cqt79a5l7VnYzFjY",
+  "_key": "!journal!Cqt79a5l7VnYzFjY",
   "name": "Fête — Les Tambours du Long Jour (MJ)",
   "folder": "wNtgGHYLJnHwTJwh",
+  "sort": 0,
   "categories": [],
   "ownership": {
     "default": 0
@@ -11,7 +13,7 @@
       "cle": "fete-tambours-du-long-jour",
       "fete": "tambours-du-long-jour",
       "collection": "fetes",
-      "version": "0.10.0"
+      "version": "0.11.0"
     }
   },
   "_stats": {
@@ -28,6 +30,7 @@
   "pages": [
     {
       "_id": "DMBkppMEhBJ0BeDe",
+      "_key": "!journal.pages!Cqt79a5l7VnYzFjY.DMBkppMEhBJ0BeDe",
       "name": "La fête",
       "type": "text",
       "sort": 100,
@@ -42,30 +45,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375309,
-        "modifiedTime": 1793703375312,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!Cqt79a5l7VnYzFjY.DMBkppMEhBJ0BeDe"
+      "flags": {}
     },
     {
       "_id": "qmlINgfBuiY7JePU",
+      "_key": "!journal.pages!Cqt79a5l7VnYzFjY.qmlINgfBuiY7JePU",
       "name": "Ambiance",
       "type": "text",
       "sort": 200,
@@ -80,30 +64,11 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375310,
-        "modifiedTime": 1793703375313,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!Cqt79a5l7VnYzFjY.qmlINgfBuiY7JePU"
+      "flags": {}
     },
     {
       "_id": "DVu0oKZLQz6UnqMM",
+      "_key": "!journal.pages!Cqt79a5l7VnYzFjY.DVu0oKZLQz6UnqMM",
       "name": "Accroches",
       "type": "text",
       "sort": 300,
@@ -118,29 +83,7 @@
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1793703375311,
-        "modifiedTime": 1793703375314,
-        "lastModifiedBy": null,
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "system": {},
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "category": null,
-      "_key": "!journal.pages!Cqt79a5l7VnYzFjY.DVu0oKZLQz6UnqMM"
+      "flags": {}
     }
-  ],
-  "sort": 0,
-  "_key": "!journal!Cqt79a5l7VnYzFjY"
+  ]
 }
