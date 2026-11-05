@@ -68,6 +68,7 @@
     "Interrompue": "La Kour Warcraft : installation interrompue ({erreur}). Le détail est dans la console (F12).",
     "Rapport": {
       "MisAJour": "{nom} (mis à jour)",
+      "Gardees": "pages retouchées à la main, laissées telles quelles : {liste}",
       "Visible": "{nom} (rendu visible des joueurs)",
       "CarteVivante": "{nom} (sons, zones et épingles)",
       "Unites": "unités métriques ({cle})",

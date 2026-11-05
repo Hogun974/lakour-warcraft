@@ -10860,7 +10860,7 @@
       "flags": {
         "lakour-warcraft": {
           "cle": "aventure-puits-de-cendre",
-          "version": "0.11.0"
+          "version": "0.11.1"
         }
       },
       "_stats": {
@@ -11009,7 +11009,7 @@
       "flags": {
         "lakour-warcraft": {
           "cle": "contrat-du-cartel",
-          "version": "0.11.0"
+          "version": "0.11.1"
         }
       },
       "_stats": {
@@ -13151,7 +13151,7 @@
             ]
           },
           "aventure": "Les Puits de cendre",
-          "version": "0.11.0"
+          "version": "0.11.1"
         }
       },
       "_stats": {
@@ -14640,7 +14640,7 @@
             ]
           },
           "aventure": "Les Puits de cendre",
-          "version": "0.11.0"
+          "version": "0.11.1"
         }
       },
       "_stats": {
@@ -16136,7 +16136,7 @@
             ]
           },
           "aventure": "Les Puits de cendre",
-          "version": "0.11.0"
+          "version": "0.11.1"
         }
       },
       "_stats": {
@@ -17843,7 +17843,7 @@
             ]
           },
           "aventure": "Les Puits de cendre",
-          "version": "0.11.0"
+          "version": "0.11.1"
         }
       },
       "_stats": {

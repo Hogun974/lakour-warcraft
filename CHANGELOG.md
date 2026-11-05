@@ -4,9 +4,17 @@ Les versions sont celles du module `lakour-warcraft` (`modules/lakour-warcraft/m
 `lakour-mj-ia` (sous-module) a son propre journal ; la version du moteur embarquée est rappelée quand elle change.
 Format : [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/), dates au format AAAA-MM-JJ.
 
-## Non publié
+## 0.11.1 — 2026-11-05
 
 ### Modifié
+
+- **Mise à jour des mondes déjà installés** (`scripts/mise-a-jour.js`, fichier commun aux modules de contenu LaKour) : un
+  journal déjà importé n'est plus remplacé en bloc. Les pages nouvelles du compendium sont ajoutées, les pages que personne
+  n'a retouchées reprennent le texte et le rang du compendium (avec leurs identifiants : les épingles des cartes les visent),
+  celles que le compendium n'a plus sont retirées ; les pages retouchées à la main restent telles quelles et sont nommées au MJ
+  dans le rapport d'installation (avant : les retouches étaient perdues), les pages ajoutées ou réécrites par le MJ IA restent
+  protégées. Chaque page importée porte une empreinte de son texte. Un essai lie le numéro de contenu de l'installateur à
+  `module.json` (`essais/mise-a-jour-journaux.test.mjs`).
 - Plus aucune image générée par une IA : le fond de l'écran d'accueil (`assets/monde/fond.jpg`) et les cinq visuels des
   fêtes (`assets/fetes/*.jpg`) sont dessinés par programme par `outils/fabriquer-visuels-warcraft.mjs`
   (`npm run fabriquer-visuels-warcraft` : SVG calculé, rendu par resvg, encodé par `outils/jpeg.mjs`, JPEG signé de

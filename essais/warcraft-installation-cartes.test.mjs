@@ -63,16 +63,27 @@ test("journaux du module : un guide importé caché redevient visible comme au c
   assert.equal(maj.length, 1);
 });
 
-test("journaux du module : la mise à jour garde les pages écrites par le MJ IA (ajoutées ou réécrites)", async () => {
-  const page = (id, flags = {}) => ({ id, getFlag: (m, k) => flags[m]?.[k], toObject: () => ({ _id: id }) });
+test("journaux du module : la mise à jour complète le journal sans écraser les retouches ni les pages du MJ IA", async () => {
+  const neuve = { createdTime: 1, modifiedTime: 1 }, retouchee = { createdTime: 1, modifiedTime: 2 };
+  const page = (id, texte, extra = {}) => ({ id, toObject: () => ({ _id: id, name: id, type: "text", sort: 0, text: { content: texte }, flags: {}, ...extra }) });
   const ops = [];
   const existant = {
-    flags: {}, pages: [page("p1"), page("p2", { "lakour-mj-ia": { historique: [{ contenu: "v1" }] } }), page("ajout", { "lakour-mj-ia": { ajoutee: { quand: 1 } } })],
+    flags: {},
+    pages: [
+      page("p1", "<p>ancien</p>", { _stats: neuve }),                                                    // intacte : reprend le texte
+      page("p2", "<p>retouchée</p>", { _stats: retouchee }),                                             // retouchée à la main : gardée
+      page("p4", "<p>réécrite</p>", { _stats: neuve, flags: { "lakour-mj-ia": { historique: [{ contenu: "v1" }] } } }),
+      page("ajout", "<p>de l'IA</p>", { _stats: neuve, flags: { "lakour-mj-ia": { ajoutee: { quand: 1 } } } })
+    ],
     getFlag(m, k) { return this.flags[m]?.[k]; }, async setFlag(m, k, v) { (this.flags[m] ??= {})[k] = v; },
     async deleteEmbeddedDocuments(t, ids) { ops.push(["suppr", ids]); },
-    async createEmbeddedDocuments(t, docs) { ops.push(["cree", docs.map(d => d._id)]); }
+    async updateEmbeddedDocuments(t, docs) { ops.push(["maj", docs.map(d => d._id)]); },
+    async createEmbeddedDocuments(t, docs, o) { ops.push(["cree", docs.map(d => d._id), o?.keepId]); }
   };
-  const source = { pages: [page("p1"), page("p2"), page("p3")] };
-  assert.equal(await rafraichirJournal(existant, source), true);
-  assert.deepEqual(ops, [["suppr", ["p1"]], ["cree", ["p1", "p3"]]], "p2 réécrite et la page ajoutée restent");
+  const source = { pages: [page("p1", "<p>nouveau</p>"), page("p2", "<p>nouveau 2</p>"), page("p3", "<p>neuve</p>"), page("p4", "<p>nouveau 4</p>")] };
+  const gardees = [];
+  assert.equal(await rafraichirJournal(existant, source, gardees), true);
+  assert.deepEqual(ops, [["cree", ["p3"], true], ["maj", ["p1"]]], "p3 ajoutée avec son identifiant, p1 remise à jour ; p2, p4 et la page ajoutée restent");
+  assert.deepEqual(gardees, ["p2"]);
+  assert.equal(await rafraichirJournal(existant, source, gardees), false, "une fois à jour, plus rien");
 });

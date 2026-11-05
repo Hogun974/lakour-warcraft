@@ -126,7 +126,8 @@ test("scripts : l'identifiant du module vient de scripts/identite.js, plus jamai
     const texte = readFileSync(new URL(f, dossier), "utf8").split("\n").filter(l => !l.trim().startsWith("//")).join("\n");
     assert.ok(!/["'`]lakour-warcraft["'`.]/.test(texte), `${f} porte « lakour-warcraft » en dur`);
     assert.ok(!texte.includes("Compendium.lakour-warcraft."), `${f} porte un uuid en dur`);
-    assert.match(texte, /\bID\b/, `${f} n'utilise pas ID`);
+    // mise-a-jour.js (fichier commun aux modules LaKour) reçoit l'identifiant en paramètre : il n'importe pas ID.
+    if (f !== "mise-a-jour.js") assert.match(texte, /\bID\b/, `${f} n'utilise pas ID`);
   }
 });
 

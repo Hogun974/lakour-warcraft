@@ -8,7 +8,8 @@ import { ouvrirEtabli } from "./etabli.js";      // Établi d'artisanat (fenêtr
 import { enregistrerFetes } from "./fetes.js";   // Fêtes de saison des Tarides, enregistrées auprès du MJ IA (crochet « lakour-mj-ia.pret »)
 
 import { ID, ANGLAIS } from "./identite.js";   // « lakour-warcraft » ou « lakour-warcraft-en » (version anglaise), selon le dossier du module
-const VERSION_CONTENU = "0.11.0";   // 0.4.0 : journaux liés (@UUID, jets), listes de sorts, cartes vivantes (sons, zones, épingles) ;
+import { avecEmpreintes, planMiseAJour } from "./mise-a-jour.js";
+const VERSION_CONTENU = "0.11.1";   // 0.4.0 : journaux liés (@UUID, jets), listes de sorts, cartes vivantes (sons, zones, épingles) ;
                                    // 0.4.2 : one-shot « Une nuit aux Deux Lanternes » (journaux, cartes et dossier proposés aux mondes déjà installés) ;
                                    // 0.5.0 : Tarides vivantes (contrats, donjon de Mèche-Noire, montures et routes aériennes, rares,
                                    //         consommables, réputation : journaux et horloges de réputation des factions) ;
@@ -121,15 +122,18 @@ async function dossier(type, nom) {
     ?? Folder.implementation.create({ name: nom, type, color: "#1a3a5a", flags: { [ID]: { dossier: nom } } });
 }
 
-// Un guide ou une aventure déjà installé d'une version précédente reprend les pages du compendium (liens, jets, aides de
-// jeu découpées) ; son nom, son dossier et ses droits restent. Les retouches faites à la main dans ses pages sont perdues.
-export async function rafraichirJournal(existant, source) {
+// Un guide ou une aventure déjà installé d'une version précédente reçoit les pages nouvelles du compendium ; ses pages que
+// personne n'a retouchées reprennent le texte du compendium, avec leurs identifiants (les épingles les visent), et celles que
+// le compendium n'a plus sont retirées (scripts/mise-a-jour.js). Les pages retouchées à la main et celles que le MJ IA a
+// ajoutées ou réécrites (modifier_scenario) restent telles quelles ; les premières sont nommées au MJ (gardees). Son nom, son
+// dossier et ses droits restent.
+export async function rafraichirJournal(existant, source, gardees = []) {
   if (existant.getFlag(ID, "version") === VERSION_CONTENU) return false;
-  // Les pages que le MJ IA a ajoutées ou réécrites (modifier_scenario) restent telles quelles, avec leur historique.
-  const gardees = new Set(existant.pages.filter(p => p.getFlag("lakour-mj-ia", "ajoutee") || p.getFlag("lakour-mj-ia", "historique")?.length).map(p => p.id));
-  const remplacees = existant.pages.filter(p => !gardees.has(p.id)).map(p => p.id);
-  if (remplacees.length) await existant.deleteEmbeddedDocuments("JournalEntryPage", remplacees);
-  await existant.createEmbeddedDocuments("JournalEntryPage", source.pages.filter(p => !gardees.has(p.id)).map(p => p.toObject()), { keepId: true });
+  const plan = planMiseAJour(ID, existant.pages.map(p => p.toObject()), source.pages.map(p => p.toObject()));
+  if (plan.creer.length) await existant.createEmbeddedDocuments("JournalEntryPage", plan.creer, { keepId: true });
+  if (plan.maj.length) await existant.updateEmbeddedDocuments("JournalEntryPage", plan.maj);
+  if (plan.supprimer.length) await existant.deleteEmbeddedDocuments("JournalEntryPage", plan.supprimer);
+  gardees.push(...plan.gardees);
   await existant.setFlag(ID, "version", VERSION_CONTENU);
   return true;
 }
@@ -186,6 +190,7 @@ export function installer() {
 }
 
 async function installerContenu() {
+  const pagesGardees = [];   // pages retouchées à la main, laissées telles quelles (rafraichirJournal)
   const rapport = [];
   const journauxDuMonde = new Map();   // identifiant au compendium -> identifiant dans le monde
 
@@ -195,13 +200,14 @@ async function installerContenu() {
     const existant = game.journal.find(x => x.getFlag(ID, "cle") === j.getFlag(ID, "cle"));
     if (existant) {
       journauxDuMonde.set(j.id, existant.id);
-      if (await rafraichirJournal(existant, j)) rapport.push(game.i18n.format("LAKOURWOW.Rapport.MisAJour", { nom: j.name }));
+      if (await rafraichirJournal(existant, j, pagesGardees)) rapport.push(game.i18n.format("LAKOURWOW.Rapport.MisAJour", { nom: j.name }));
       if (await visibiliteDuCompendium(existant, j)) rapport.push(game.i18n.format("LAKOURWOW.Rapport.Visible", { nom: j.name }));
       continue;
     }
     // Même identifiant qu'au compendium (s'il est libre) : les épingles des cartes le visent.
     const libre = !game.journal.get(j.id);
     const donnees = foundry.utils.mergeObject(game.journal.fromCompendium(j, { keepId: libre, clearOwnership: false }), { [`flags.${ID}.version`]: VERSION_CONTENU });
+    donnees.pages = avecEmpreintes(ID, donnees.pages ?? []);
     const cree = await JournalEntry.implementation.create({ ...donnees, folder: (await dossier("JournalEntry", "La Kour Warcraft")).id }, { keepId: libre });
     journauxDuMonde.set(j.id, cree.id);
     rapport.push(j.name);
@@ -248,6 +254,7 @@ async function installerContenu() {
   if (reputations) rapport.push(game.i18n.format("LAKOURWOW.Rapport.Reputations", { n: reputations }));
 
   await appliquerStyle(styleVisuel());
+  if (pagesGardees.length) rapport.push(game.i18n.format("LAKOURWOW.Rapport.Gardees", { liste: pagesGardees.join(", ") }));
   await game.settings.set(ID, "installe", VERSION_CONTENU);
   ui.notifications.info(game.i18n.format("LAKOURWOW.Installe", { liste: rapport.join(", ") || game.i18n.localize("LAKOURWOW.RienDeNeuf") }));
 }

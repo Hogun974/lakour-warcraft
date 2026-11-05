@@ -2,7 +2,7 @@
   "id": "la-kour-warcraft",
   "title": "La Kour — Les Tarides (Warcraft)",
   "description": "<p>Kalimdor, entre Durotar et Theramore. Les Tarides, savane brûlée où se croisent caravanes, kraals et marchands du Carrefour, vivent d'une paix fragile entre la Horde et l'Alliance — et sous les cendres, les braises de la Légion couvent encore.</p><p>Contrats, donjons et réputations : prenez la route. D&amp;D 5e (règles 2024), mené par le MJ IA.</p>",
-  "version": "0.11.0",
+  "version": "0.11.1",
   "system": "dnd5e",
   "systemVersion": "6.0.6",
   "coreVersion": "14.370",
@@ -38,7 +38,7 @@
         "type": "module",
         "manifest": "https://github.com/Hogun974/lakour-warcraft/releases/latest/download/module.json",
         "compatibility": {
-          "minimum": "0.11.0"
+          "minimum": "0.11.1"
         }
       },
       {
