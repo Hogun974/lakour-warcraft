@@ -6,6 +6,21 @@ Format : [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/), dates au form
 
 ## Non publié
 
+### Modifié
+- Plus aucune image générée par une IA : le fond de l'écran d'accueil (`assets/monde/fond.jpg`) et les cinq visuels des
+  fêtes (`assets/fetes/*.jpg`) sont dessinés par programme par `outils/fabriquer-visuels-warcraft.mjs`
+  (`npm run fabriquer-visuels-warcraft` : SVG calculé, rendu par resvg, encodé par `outils/jpeg.mjs`, JPEG signé de
+  l'empreinte de son SVG), mêmes chemins et mêmes formats ; `@resvg/resvg-js` 2.6.2 en dépendance de développement
+  épinglée. Crédits, licence du contenu et README mis à jour ; essai `warcraft-visuels`.
+- Monde vierge : MJ IA réglé prudemment par défaut (personnalité « Le Conteur épique », autonomie « validation »,
+  budget de 10 $ par séance).
+
+### Ajouté
+- Tutoriels pas à pas `TUTORIEL.md` (français) et `TUTORIAL.md` (anglais), de zéro à la première séance ; liste des
+  captures à prendre dans `docs/captures/LISEZ-MOI.md`.
+- README : lien vers le tutoriel, mention de transparence (code et textes écrits avec l'aide d'une IA, Claude
+  d'Anthropic, relus par l'auteur ; visuels produits par programme), édition anglaise `lakour-warcraft-en`.
+
 ### Sécurité
 - Noms d'acteurs, d'effets, d'objets et d'utilisateurs échappés dans les messages et descriptions des automatismes
   (Fureur retirée, familier, phase 2, Lien du chasseur, établi ; `echapper` et `formatEchappe` partagés dans

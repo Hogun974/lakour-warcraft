@@ -3,7 +3,7 @@
 // (assets/jetons/3d/<cle>.svg) ; un jeton de personnage joueur par peuple jouable (assets/jetons/joueurs/<cle>.svg et
 // joueurs/3d/<cle>.svg) avec leurs index (assets/jetons/index.json et index-3d.json : clé du peuple -> chemin, lus par
 // le MJ IA quand il crée un personnage) ; la liste des types de figurants (assets/jetons/figurants.json) et les
-// crédits (CREDITS.md : icônes CC BY 3.0, profils SRD 5.2 CC-BY-4.0, illustrations générées localement).
+// crédits (CREDITS.md : icônes CC BY 3.0 des jetons et des visuels, profils SRD 5.2 CC-BY-4.0, visuels dessinés par programme).
 // Le dessin et la lecture des tracés sont les aides communes du moteur (modules/lakour-mj-ia/outils/jetons-commun.mjs,
 // sous-module) ; icônes dans modules/lakour-mj-ia/outils/game-icons/.
 // Correspondances PNJ -> icône et peuple -> icône : modules/lakour-warcraft/contenu/jetons.mjs.
@@ -28,6 +28,7 @@ import {
   AUTEURS, COULEURS_ANNEAU, DOSSIER_JETONS, INDEX_JOUEURS, JETONS_FIGURANTS, JETONS_PEUPLES, JETONS_PNJ, LISERES, TYPES_FIGURANTS,
   cheminJeton, cheminJeton3d, cheminJetonJoueur, cheminJetonJoueur3d
 } from "../modules/lakour-warcraft/contenu/jetons.mjs";
+import { iconesDesVisuels } from "./fabriquer-visuels-warcraft.mjs";
 
 const RACINE = join(dirname(fileURLToPath(import.meta.url)), "..");
 const MODULE = "lakour-warcraft";
@@ -127,7 +128,7 @@ export function verifierJetons(docs, lire = lireDisque, races = RACES) {
 // ---------------------------------------------------------------- Crédits
 
 export function credits({ pnjs, figurants, peuples = [] }) {
-  const { lignes, auteurs } = tableauCredits([...pnjs, ...figurants, ...peuples], AUTEURS);
+  const { lignes, auteurs } = tableauCredits([...pnjs, ...figurants, ...peuples, ...iconesDesVisuels()], AUTEURS);
   return `# Crédits — La Kour Warcraft
 
 Module de fan, non officiel, pour un usage non commercial. Warcraft et les noms de son univers appartiennent à
@@ -157,22 +158,25 @@ de Wizards of the Coast LLC, publié sous licence **Creative Commons Attribution
 available at https://dnd.wizards.com/resources/systems-reference-document. The SRD 5.1 is licensed under the Creative
 Commons Attribution 4.0 International License available at https://creativecommons.org/licenses/by/4.0/legalcode.*
 
-## Illustrations
+## Visuels
 
-Les illustrations de l'écran d'accueil (\`assets/monde/fond.jpg\`) et des fêtes de saison (\`assets/fetes/*.jpg\`) ont été
-générées localement avec ComfyStudio (FLUX.2 klein 9B), sans service distant, pour un usage non commercial.
+Le fond de l'écran d'accueil (\`assets/monde/fond.jpg\`) et les visuels des fêtes de saison (\`assets/fetes/*.jpg\`) sont
+**dessinés par programme** : dégradés, silhouettes et motifs calculés, et quelques icônes de game-icons.net (tableau
+ci-dessous), rendus en JPEG par \`outils/fabriquer-visuels-warcraft.mjs\`. Aucune image de ce module n'est générée par
+une IA, et aucun art, texte ni logo de Blizzard Entertainment n'y est repris.
 
-## Icônes des jetons
+## Icônes des jetons et des visuels
 
-Les silhouettes des jetons (\`assets/jetons/\`) sont des icônes de **[game-icons.net](https://game-icons.net)**,
+Les silhouettes des jetons (\`assets/jetons/\`) et les icônes des visuels sont des icônes de **[game-icons.net](https://game-icons.net)**,
 publiées sous licence **Creative Commons Attribution 3.0 (CC BY 3.0)** :
 <https://creativecommons.org/licenses/by/3.0/>. Source : <https://github.com/game-icons/icons>.
 
 Icons made by ${auteurs}, from game-icons.net (CC BY 3.0).
 
 Modifications : tracés recolorés et composés dans un médaillon (anneau de couleur selon l'attitude, bleu acier
-pour les jetons de personnage joueur, fond en dégradé, ombre, liseré, version en relief). Fichiers produits par
-\`outils/fabriquer-jetons-warcraft.mjs\` ; les correspondances PNJ → icône et peuple → icône sont dans
+pour les jetons de personnage joueur, fond en dégradé, ombre, liseré, version en relief) ; dans les visuels, icônes
+recolorées et posées dans une scène. Fichiers produits par \`outils/fabriquer-jetons-warcraft.mjs\` et
+\`outils/fabriquer-visuels-warcraft.mjs\` ; les correspondances PNJ → icône et peuple → icône sont dans
 \`contenu/jetons.mjs\`.
 
 | Icône | Auteur | Utilisée pour |

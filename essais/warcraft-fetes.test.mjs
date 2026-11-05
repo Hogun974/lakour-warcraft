@@ -12,7 +12,8 @@
 //   appliqués limités dans le temps, distances en mètres, sphère (et non émanation « radius ») pour ce qui se lance au loin,
 //   harmonisation pour un effet permanent ; économie : au moins 1 po par point de vie rendu, rien de peu commun dans une
 //   table de paquets, et le paquet coûte au moins deux fois la revente moyenne de son contenu ;
-// - crédits : CREDITS.md est la sortie du générateur (outils/fabriquer-jetons-warcraft.mjs) et cite les illustrations ;
+// - crédits : CREDITS.md est la sortie du générateur (outils/fabriquer-jetons-warcraft.mjs) et dit les visuels dessinés par
+//   programme (outils/fabriquer-visuels-warcraft.mjs, essayés dans warcraft-visuels.test.mjs) ;
 // - script : enregistre dans chaque navigateur au crochet « lakour-mj-ia.pret », sans erreur sans moteur ni hors dnd5e.
 // La batterie est rejouée sur des copies mutées : chaque règle cassée est détectée.  Lancer : npm run essais
 import { test } from "node:test";
@@ -322,13 +323,16 @@ test("fêtes : scripts/fetes.js est la source unique, contenu/fetes.mjs l'import
   }
 });
 
-test("crédits : CREDITS.md est la sortie du générateur et cite les illustrations générées localement", async () => {
+test("crédits : CREDITS.md est la sortie du générateur et dit les visuels dessinés par programme, sans IA", async () => {
   const { credits, listeJetons } = await import("../outils/fabriquer-jetons-warcraft.mjs");
   const fichier = readFileSync(new URL(`modules/${M}/CREDITS.md`, RACINE), "utf8");
   assert.equal(fichier, credits(listeJetons()), "CREDITS.md différent de la sortie de outils/fabriquer-jetons-warcraft.mjs");
   assert.match(fichier, /`assets\/monde\/fond\.jpg`/);
   assert.match(fichier, /`assets\/fetes\/\*\.jpg`/);
-  assert.match(fichier, /ComfyStudio \(FLUX\.2 klein 9B\), sans service distant, pour un usage non commercial/);
+  assert.match(fichier, /\*\*dessinés par programme\*\*/);
+  assert.match(fichier, /`outils\/fabriquer-visuels-warcraft\.mjs`/);
+  assert.match(fichier, /Aucune image de ce module n'est générée par\s+une IA/);
+  assert.doesNotMatch(fichier, /FLUX|ComfyStudio|générées localement/);
 });
 
 // ---------------------------------------------------------------- Version anglaise (module lakour-warcraft-en)

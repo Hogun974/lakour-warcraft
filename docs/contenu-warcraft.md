@@ -1,7 +1,7 @@
 # Module `lakour-warcraft` — contenu original pour D&D 5e (Azeroth)
 
 Relevé le 31/10/2026 dans les compendiums et le code de dnd5e 6.0.6 (règles 2024, Foundry v14, build 14.369).
-Jumeau de [`lakour-40k`](contenu-40k.md) : mêmes outils de cartes et de jetons, même MJ IA.
+Jumeau des autres modules de contenu La Kour : mêmes outils de cartes et de jetons, même MJ IA.
 
 ## Pourquoi ce module
 

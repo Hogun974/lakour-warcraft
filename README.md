@@ -2,6 +2,9 @@
 
 *[English version](README.en.md)*
 
+> **Première fois ?** Suivez le **[tutoriel pas à pas](TUTORIEL.md)** : de l'installation à la première séance
+> (prérequis, module, monde vierge, version anglaise, MJ IA, dépannage).
+
 <p align="center">
   <img src="docs/captures/accueil.png" alt="Écran d'accueil du monde" width="49%">
   <img src="docs/captures/carte-cabestan.png" alt="Cabestan — Quai des Comptoirs, carte vivante de l'aventure de départ" width="49%">
@@ -21,8 +24,13 @@ est présent.
 Tous les textes sont originaux. C'est une **œuvre de fan non officielle, non affiliée à Blizzard Entertainment**
 (voir [Marques et licences](#marques-et-licences)).
 
+**Transparence.** Le code et les textes de ce projet ont été écrits avec l'aide d'une IA (Claude, d'Anthropic), puis
+relus et corrigés par l'auteur. Les visuels (écran d'accueil, fêtes de saison, jetons, cartes) sont **produits par
+programme** : aucune image du dépôt n'est générée par une IA, et aucun art, texte ni logo de Blizzard n'est repris.
+
 ## Sommaire
 
+- [Tutoriel : de zéro à la première séance](TUTORIEL.md)
 - [À qui s'adresse ce module](#à-qui-sadresse-ce-module)
 - [Prérequis](#prérequis)
 - [Installation](#installation)
@@ -92,8 +100,12 @@ Dans Foundry : **Mondes de jeu › Installer un monde**, URL du manifeste :
 https://github.com/Hogun974/lakour-warcraft/releases/latest/download/world.json
 ```
 
-Le monde arrive configuré (système dnd5e, module activé, unités métriques, écran d'accueil). Il faut tout de même
-installer le module (étape 1) : le monde ne l'embarque pas.
+Le monde arrive configuré (système dnd5e, module activé, unités métriques, écran d'accueil, contenu importé, MJ IA
+réglé prudemment : personnalité « Le Conteur épique », mode validation, budget de 10 $ par séance). Il ne contient pas
+le module : Foundry propose d'installer ses dépendances (`lakour-warcraft`, `lakour-mj-ia`) avec lui.
+
+**Version anglaise** : module `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/lakour-warcraft-en.json`,
+monde vierge `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/world-en.json` (voir [Langues](#langues)).
 
 ### 3. Depuis les sources (pour contribuer ou fabriquer soi-même)
 
@@ -103,7 +115,7 @@ Le dépôt ne contient pas les compendiums compilés (`packs/`, ignorés par git
 ```bash
 git clone --recurse-submodules https://github.com/Hogun974/lakour-warcraft.git
 cd lakour-warcraft
-npm install                     # @foundryvtt/foundryvtt-cli, version épinglée
+npm install                     # dépendances épinglées (@foundryvtt/foundryvtt-cli, @resvg/resvg-js)
 npm run fabriquer-warcraft      # vérifie le contenu, écrit src/ puis compile packs/
 npm run essais                  # facultatif : 190 essais, deux secondes
 node outils/empaqueter-module.mjs   # facultatif : dist/lakour-warcraft.zip et dist/module.json
@@ -317,8 +329,10 @@ fêtes, réputations.
 
 - **Interface** du module (installateur, établi, messages des automatismes) : français et anglais, selon la langue de
   Foundry.
-- **Contenu** (compendiums, journaux, cartes) : français. Une version anglaise du contenu est envisagée ; les
-  contributions sont bienvenues (voir [Contribuer](#contribuer)).
+- **Contenu** (compendiums, journaux, cartes) : français. Une **édition anglaise**, le module `lakour-warcraft-en`, est
+  fabriquée à partir des mêmes sources et des dictionnaires `contenu/en/` (`npm run fabriquer-warcraft-en`) et publiée
+  avec chaque version, avec son monde vierge ; un texte pas encore traduit y reste en français. N'activez jamais les deux
+  modules dans le même monde. Les contributions à la traduction sont bienvenues (voir [Contribuer](#contribuer)).
 
 ## Essais
 
@@ -344,13 +358,14 @@ modules/lakour-warcraft/        le module Foundry
   src/<pack>/*.json             documents générés, lisibles, versionnés (diff utile)
   packs/                        compendiums compilés (LevelDB), hors git, fabriqués par npm run fabriquer-warcraft
   scripts/                      installateur, automatismes, établi, fêtes
-  assets/                       jetons (SVG, deux styles), fonds de cartes, illustrations
+  assets/                       jetons (SVG, deux styles), fonds de cartes, visuels dessinés par programme
   lang/fr.json, lang/en.json    interface
   CREDITS.md                    crédits détaillés (icônes, SRD)
 modules/lakour-mj-ia/           sous-module : le moteur commun (MJ IA, outils de cartes et de jetons, validateur)
-outils/                         fabricants (compendiums, jetons) et empaquetage pour release
+outils/                         fabricants (compendiums, jetons, visuels) et empaquetage pour release
 essais/                         essais Node
 docs/                           formes des données (contenu-warcraft.md), publication, captures
+TUTORIEL.md, TUTORIAL.md        tutoriels pas à pas (français, anglais)
 .github/workflows/release.yml   release GitHub à chaque tag v*
 ```
 
@@ -369,15 +384,17 @@ docs/                           formes des données (contenu-warcraft.md), publi
 
 ## Crédits
 
-- **Textes** : écrits par l'auteur du module ; les aventures, PNJ, objets, sorts et guides sont originaux.
+- **Textes et code** : écrits par l'auteur du module avec l'aide d'une IA (Claude, d'Anthropic), puis relus et
+  corrigés par lui ; les aventures, PNJ, objets, sorts et guides sont originaux.
 - **Icônes des jetons** : silhouettes de [game-icons.net](https://game-icons.net) (Carl Olsen, Caro Asercion,
   Cathelineau, DarkZaitzev, Delapouite, Kier Heyl, Lorc, Skoll), licence
   [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), recolorées et composées en médaillon par les fabricants du
   dépôt ; la liste icône par icône est dans [`modules/lakour-warcraft/CREDITS.md`](modules/lakour-warcraft/CREDITS.md).
 - **Icônes des capacités et des objets** : celles livrées avec Foundry VTT (`icons/`), utilisées depuis
   l'installation de Foundry.
-- **Illustrations** (écran d'accueil, fêtes de saison) : images générées localement par l'auteur avec un modèle
-  d'image exécuté sur sa machine, sans service distant.
+- **Visuels** (écran d'accueil, fêtes de saison) : dessinés par programme (dégradés, silhouettes, motifs et quelques
+  icônes de game-icons.net) par `outils/fabriquer-visuels-warcraft.mjs` (`npm run fabriquer-visuels-warcraft`) ; aucune
+  image générée par une IA.
 - **Règles de D&D** : les classes, dons, sorts et équipements du SRD sont référencés dans le système dnd5e installé,
   jamais recopiés. Les profils chiffrés des créatures du bestiaire sont adaptés et renommés à partir du SRD 5.2.1, et la
   progression de la sous-classe Aspect des Vols draconiques suit la lignée draconique du SRD 5.1 ; l'attribution
@@ -413,7 +430,7 @@ Coast. Foundry Virtual Tabletop est une marque de Foundry Gaming, LLC.
 - **Code** (`modules/lakour-warcraft/scripts/`, `templates/`, `lang/`, `outils/`, `essais/`, `docs/`) : licence
   **MIT**, voir [`LICENSE`](LICENSE) (© 2026 Hogun974).
 - **Textes, données de jeu et images originaux** (`contenu/` et ses dictionnaires anglais, compendiums `src/` et
-  `packs/`, module anglais `lakour-warcraft-en`, monde vierge `monde/`, illustrations, cartes et jetons composés de
+  `packs/`, module anglais `lakour-warcraft-en`, monde vierge `monde/`, visuels, cartes et jetons composés de
   `assets/`) : licence [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr) (attribution,
   pas d'usage commercial, partage dans les mêmes conditions). Attribution attendue : « LaKour — Hogun974 », avec le
   lien vers ce dépôt et vers la licence.

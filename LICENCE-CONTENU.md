@@ -41,8 +41,8 @@ Sont sous cette licence :
 - `modules/lakour-warcraft-en/` (module anglais engendré, non versionné) : le même contenu, traduit ;
 - `monde/` : les sources du monde vierge (journaux, scènes, dossiers, réglages, titre et description de `world.json` et
   `world.en.json`) ;
-- les images produites pour le projet : `modules/lakour-warcraft/assets/monde/` (écran d'accueil), `assets/fetes/`
-  (fêtes de saison), `assets/cartes/` (plans dessinés par programme) et la mise en forme des jetons de `assets/jetons/`
+- les images produites pour le projet, toutes dessinées par programme : `modules/lakour-warcraft/assets/monde/` (écran
+  d'accueil) et `assets/fetes/` (fêtes de saison), produites par `outils/fabriquer-visuels-warcraft.mjs`, `assets/cartes/` (plans) et la mise en forme des jetons de `assets/jetons/`
   (médaillons, couleurs, relief ; les silhouettes restent sous CC BY 3.0, voir plus bas), ainsi que les autres données
   de `assets/` (figurants, plans).
 
@@ -71,7 +71,7 @@ du code), `.github/`, `package.json`.
 |---|---|---|---|
 | Profils chiffrés des créatures, adaptés et renommés | `contenu/` (bestiaire), `src/`, `packs/` | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) (SRD 5.2.1, Wizards of the Coast LLC) | ci-dessous |
 | Progression de la sous-classe « Aspect des Vols draconiques » | `contenu/` (sous-classes), `src/`, `packs/` | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) (SRD 5.1, Wizards of the Coast LLC) | ci-dessous |
-| Silhouettes des jetons : icônes de [game-icons.net](https://game-icons.net) | `modules/lakour-warcraft/assets/jetons/` | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) | auteurs icône par icône dans `modules/lakour-warcraft/CREDITS.md` |
+| Silhouettes des jetons et icônes des visuels : icônes de [game-icons.net](https://game-icons.net) | `modules/lakour-warcraft/assets/jetons/`, `assets/monde/`, `assets/fetes/` | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) | auteurs icône par icône dans `modules/lakour-warcraft/CREDITS.md` |
 | Univers, marques et noms de Warcraft | partout où ils sont nommés | © Blizzard Entertainment, Inc. | voir « Œuvre de fan non officielle » |
 
 Aucun texte du SRD n'est reproduit : seuls des chiffres et une progression sont repris, sous leur licence d'origine.
@@ -85,9 +85,11 @@ Mentions exigées par cette licence :
 > available at https://dnd.wizards.com/resources/systems-reference-document. The SRD 5.1 is licensed under the Creative
 > Commons Attribution 4.0 International License available at https://creativecommons.org/licenses/by/4.0/legalcode.
 
-Les illustrations (`assets/monde/`, `assets/fetes/`) ont été générées localement avec le modèle d'IA FLUX.2 klein 9B,
-publié sous licence non commerciale : elles sont partagées sous CC BY-NC-SA 4.0 dans la mesure où le projet détient des
-droits sur elles, et leur usage reste aussi soumis aux conditions de ce modèle. Le moteur `modules/lakour-mj-ia`
+Les visuels (`assets/monde/`, `assets/fetes/`) sont dessinés par programme (`outils/fabriquer-visuels-warcraft.mjs` :
+dégradés, silhouettes, motifs et quelques icônes de game-icons.net) : **aucune image du projet n'est générée par une IA**,
+et aucun art, texte ni logo de Blizzard n'est repris. Ils sont sous CC BY-NC-SA 4.0 ; les icônes qu'ils contiennent
+restent sous CC BY 3.0. Le code et les textes ont été écrits avec l'aide d'une IA (Claude, d'Anthropic), puis relus et
+corrigés par l'auteur, qui en est responsable. Le moteur `modules/lakour-mj-ia`
 (sous-module) a son propre dépôt et sa propre licence (MIT).
 
 Foundry VTT (Foundry Virtual Tabletop) est une marque de Foundry Gaming, LLC ; ce projet n'est ni affilié à Foundry
@@ -107,6 +109,7 @@ Attribution-NonCommercial-ShareAlike 4.0 International** (<https://creativecommo
 licence covers **only this project's original texts and images, not any third-party intellectual property** nor the SRD
 material (SRD 5.2.1 and SRD 5.1, CC BY 4.0, attribution notices above), and **no commercial use** is allowed. Credit
 **"LaKour — Hogun974"** with a link to the repository and to the licence, and indicate changes. The token silhouettes are
-game-icons.net icons under CC BY 3.0 (credits in `CREDITS.md`). The illustrations were generated locally with the
-non-commercial FLUX.2 klein 9B model. Foundry VTT is a trademark of Foundry Gaming, LLC; this project is not affiliated
+game-icons.net icons under CC BY 3.0 (credits in `CREDITS.md`). The images in `assets/monde/` and `assets/fetes/` are
+drawn programmatically (`outils/fabriquer-visuels-warcraft.mjs`): no image in this project is AI-generated. The code and
+texts were written with the help of an AI (Anthropic's Claude), then reviewed and corrected by the author. Foundry VTT is a trademark of Foundry Gaming, LLC; this project is not affiliated
 with or endorsed by it.

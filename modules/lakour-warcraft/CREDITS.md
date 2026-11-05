@@ -27,22 +27,25 @@ de Wizards of the Coast LLC, publié sous licence **Creative Commons Attribution
 available at https://dnd.wizards.com/resources/systems-reference-document. The SRD 5.1 is licensed under the Creative
 Commons Attribution 4.0 International License available at https://creativecommons.org/licenses/by/4.0/legalcode.*
 
-## Illustrations
+## Visuels
 
-Les illustrations de l'écran d'accueil (`assets/monde/fond.jpg`) et des fêtes de saison (`assets/fetes/*.jpg`) ont été
-générées localement avec ComfyStudio (FLUX.2 klein 9B), sans service distant, pour un usage non commercial.
+Le fond de l'écran d'accueil (`assets/monde/fond.jpg`) et les visuels des fêtes de saison (`assets/fetes/*.jpg`) sont
+**dessinés par programme** : dégradés, silhouettes et motifs calculés, et quelques icônes de game-icons.net (tableau
+ci-dessous), rendus en JPEG par `outils/fabriquer-visuels-warcraft.mjs`. Aucune image de ce module n'est générée par
+une IA, et aucun art, texte ni logo de Blizzard Entertainment n'y est repris.
 
-## Icônes des jetons
+## Icônes des jetons et des visuels
 
-Les silhouettes des jetons (`assets/jetons/`) sont des icônes de **[game-icons.net](https://game-icons.net)**,
+Les silhouettes des jetons (`assets/jetons/`) et les icônes des visuels sont des icônes de **[game-icons.net](https://game-icons.net)**,
 publiées sous licence **Creative Commons Attribution 3.0 (CC BY 3.0)** :
 <https://creativecommons.org/licenses/by/3.0/>. Source : <https://github.com/game-icons/icons>.
 
 Icons made by Carl Olsen, Caro Asercion, Cathelineau, DarkZaitzev, Delapouite, Kier Heyl, Lorc, Skoll, from game-icons.net (CC BY 3.0).
 
 Modifications : tracés recolorés et composés dans un médaillon (anneau de couleur selon l'attitude, bleu acier
-pour les jetons de personnage joueur, fond en dégradé, ombre, liseré, version en relief). Fichiers produits par
-`outils/fabriquer-jetons-warcraft.mjs` ; les correspondances PNJ → icône et peuple → icône sont dans
+pour les jetons de personnage joueur, fond en dégradé, ombre, liseré, version en relief) ; dans les visuels, icônes
+recolorées et posées dans une scène. Fichiers produits par `outils/fabriquer-jetons-warcraft.mjs` et
+`outils/fabriquer-visuels-warcraft.mjs` ; les correspondances PNJ → icône et peuple → icône sont dans
 `contenu/jetons.mjs`.
 
 | Icône | Auteur | Utilisée pour |
@@ -60,6 +63,7 @@ pour les jetons de personnage joueur, fond en dégradé, ombre, liseré, version
 | [baby-face](https://game-icons.net/1x1/delapouite/baby-face.html) | Delapouite | Figurant — Enfant |
 | [bandit](https://game-icons.net/1x1/delapouite/bandit.html) | Delapouite | Bandit défias |
 | [buffalo-head](https://game-icons.net/1x1/delapouite/buffalo-head.html) | Delapouite | Peuple — Tauren |
+| [carnival-mask](https://game-icons.net/1x1/delapouite/carnival-mask.html) | Delapouite | Visuel de fête — La Mascarade de Cabestan |
 | [centaur](https://game-icons.net/1x1/delapouite/centaur.html) | Delapouite | Centaure kolkar |
 | [devil-mask](https://game-icons.net/1x1/delapouite/devil-mask.html) | Delapouite | Vexxa la Rieuse, chasseresse de la Lame ardente |
 | [dwarf-face](https://game-icons.net/1x1/delapouite/dwarf-face.html) | Delapouite | Peuple — Nain |
@@ -103,7 +107,7 @@ pour les jetons de personnage joueur, fond en dégradé, ombre, liseré, version
 | [cultist](https://game-icons.net/1x1/lorc/cultist.html) | Lorc | Figurant — Cultiste |
 | [eagle-emblem](https://game-icons.net/1x1/lorc/eagle-emblem.html) | Lorc | Hippogriffe de Theramore |
 | [evil-bat](https://game-icons.net/1x1/lorc/evil-bat.html) | Lorc | Vieille Plume-Fiel, matriarche des harpies |
-| [fire-silhouette](https://game-icons.net/1x1/lorc/fire-silhouette.html) | Lorc | Drogha l'Embrasé, Voix de la Fournaise |
+| [fire-silhouette](https://game-icons.net/1x1/lorc/fire-silhouette.html) | Lorc | Drogha l'Embrasé, Voix de la Fournaise ; Visuel de fête — Les Tambours du Long Jour |
 | [frankenstein-creature](https://game-icons.net/1x1/lorc/frankenstein-creature.html) | Lorc | Abomination |
 | [gear-hammer](https://game-icons.net/1x1/lorc/gear-hammer.html) | Lorc | Vizzik Tirelire, patron de la fonderie |
 | [gooey-daemon](https://game-icons.net/1x1/lorc/gooey-daemon.html) | Lorc | Mère-Brasier, l'élémentaire enchaînée |
@@ -114,7 +118,7 @@ pour les jetons de personnage joueur, fond en dégradé, ombre, liseré, version
 | [hound](https://game-icons.net/1x1/lorc/hound.html) | Lorc | Chien corrompu |
 | [imp](https://game-icons.net/1x1/lorc/imp.html) | Lorc | Diablotin de la Légion |
 | [imp-laugh](https://game-icons.net/1x1/lorc/imp-laugh.html) | Lorc | Ezzavel le Rieur, satyre |
-| [lantern-flame](https://game-icons.net/1x1/lorc/lantern-flame.html) | Lorc | Hilde Brunval, hôtesse des Deux Lanternes |
+| [lantern-flame](https://game-icons.net/1x1/lorc/lantern-flame.html) | Lorc | Hilde Brunval, hôtesse des Deux Lanternes ; Visuel de fête — La Veille des Aïeux |
 | [lion](https://game-icons.net/1x1/lorc/lion.html) | Lorc | Peuple — Humain |
 | [minotaur](https://game-icons.net/1x1/lorc/minotaur.html) | Lorc | Hanuk Pas-de-Pluie, guide caravanier |
 | [paw-heart](https://game-icons.net/1x1/lorc/paw-heart.html) | Lorc | Familier du chasseur |

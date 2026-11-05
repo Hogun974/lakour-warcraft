@@ -12,9 +12,24 @@ Tout ce qui suit est à faire par Jordan ; rien n'est automatique avant le premi
       `outils/empaqueter-module.mjs` copie les deux fichiers à la racine des archives des deux modules (plutôt qu'une
       copie dans `modules/lakour-warcraft/`) ; les archives du monde ne les contiendront qu'une fois le sous-module `modules/lakour-mj-ia` mis à jour (`outils/empaqueter-monde.mjs` les copie désormais), et l'étape « Licences dans chaque archive » du workflow refuse la release sans eux. Licence rappelée dans
       `modules/lakour-warcraft/CREDITS.md`.
-- [ ] **Relire ce qui sort** : `README.md`, `README.en.md`, `CHANGELOG.md`, `module.json` (description), `CREDITS.md`.
-      Vérifier qu'aucun fichier du dépôt ne mentionne une adresse privée, un serveur, un identifiant ou un secret
-      (`git grep -nE "172\.|forgejo|\.identifiants|token|motdepasse"`), y compris dans `docs/` et `essais/`.
+- [x] **Images générées par IA retirées** (5 novembre 2026) : le fond d'accueil (`assets/monde/fond.jpg`) et les cinq
+      visuels de fêtes (`assets/fetes/*.jpg`) sont désormais **dessinés par programme** par
+      `outils/fabriquer-visuels-warcraft.mjs` (`npm run fabriquer-visuels-warcraft` : SVG calculé, rendu par resvg,
+      JPEG signé avec l'empreinte du SVG ; mêmes chemins, mêmes formats). `CREDITS.md` (et son générateur),
+      `LICENCE-CONTENU.md`, les deux README et les essais suivent ; `essais/warcraft-visuels.test.mjs` refuse toute
+      image matricielle de `assets/` qui ne sort pas de l'outil.
+- [x] **Transparence** : les deux README (et les tutoriels) disent que code et textes ont été écrits avec l'aide d'une
+      IA (Claude, d'Anthropic) et relus par l'auteur, et que les visuels sont produits par programme.
+- [x] **Tutoriels** : `TUTORIEL.md` et `TUTORIAL.md`, de zéro à la première séance (prérequis, manifestes, monde
+      vierge, édition anglaise, MJ IA, règles automatisées, dépannage), liés en tête des README.
+- [x] **Réglages du monde vierge** : MJ IA en personnalité « Le Conteur épique » (`conteur`), autonomie `validation`,
+      budget de séance `10` (`monde/src/settings/lakour-mj-ia.*.json`), repris tels quels par le monde anglais.
+- [x] **Adresses privées et secrets** (5 novembre 2026) : recherche `git grep` des adresses IP privées, des noms de
+      serveurs et de services internes et des préfixes de clés d'API : aucune occurrence réelle. Restent seulement des
+      faux positifs : coordonnées décimales des tracés SVG des jetons et noms d'icônes de Foundry en
+      « …mask-… », « …flask-… », « …cask-… ». Aucun lien vers les dépôts privés depuis les README.
+- [ ] **Relire ce qui sort** : `README.md`, `README.en.md`, `TUTORIEL.md`, `TUTORIAL.md`, `CHANGELOG.md`, `module.json`
+      (description), `CREDITS.md`.
 - [ ] **Historique git** : les 37 commits sont propres (messages de version). Vérifier qu'aucun commit ancien n'a
       embarqué un fichier sensible (`git log --all --stat | grep -iE "identifiant|secret|\.env"`).
 - [ ] **Sous-module** : `.gitmodules` pointe sur `../lakour-mj-ia`, soit `https://github.com/Hogun974/lakour-mj-ia` une
@@ -25,8 +40,8 @@ Tout ce qui suit est à faire par Jordan ; rien n'est automatique avant le premi
       `media`) et des README la nomment. Si GitHub attend `main`, soit renommer, soit garder `principale` en branche par
       défaut dans Settings › Branches.
 - [ ] **Captures** : fournir les PNG listés dans `docs/captures/LISEZ-MOI.md` (au moins `accueil.png`,
-      `carte-cabestan.png`, `sous-classe.png`, `etabli.png`, utilisés par le README et par `media` du manifeste). Pas de
-      données de joueurs ni de clé visible.
+      `carte-cabestan.png`, `sous-classe.png`, `etabli.png`, utilisés par le README et par `media` du manifeste, et les
+      douze captures `tuto-*.png` / `tuto-*-en.png` des tutoriels). Pas de données de joueurs ni de clé visible.
 - [ ] **Description et sujets du dépôt** sur GitHub : « Azeroth pour D&D 5e dans Foundry VTT v14 (module de contenu,
       français) », sujets `foundry-vtt`, `foundryvtt-module`, `dnd5e`, `warcraft`, `french`.
 - [ ] **Issues** activées (le manifeste pointe sur `…/issues`).
@@ -44,8 +59,10 @@ compendiums, lance les essais, empaquette le module (`outils/empaqueter-module.m
       puis installer `dist/lakour-warcraft.zip` dans un Foundry d'essai par « Installer un module » (chemin local ou
       zip) et parcourir les compendiums.
 - [ ] Commit, puis tag et poussée : `git tag v0.11.0 && git push github principale --tags` (adapter le numéro).
-- [ ] Suivre l'onglet **Actions** ; à la fin, la release doit porter les quatre fichiers. Si le monde manque, c'est que
-      le script `empaqueter-monde` n'existe pas encore ou n'écrit pas dans `dist/`.
+- [ ] Suivre l'onglet **Actions** ; à la fin, la release doit porter les huit fichiers (`module.json`,
+      `lakour-warcraft.zip`, `lakour-warcraft-en.json`, `lakour-warcraft-en.zip`, `world.json`, `la-kour-warcraft.zip`,
+      `world-en.json`, `la-kour-warcraft-en.zip`). Si le monde manque, c'est que le script `empaqueter-monde` n'écrit
+      pas dans `dist/`.
 - [ ] Tester l'installation **depuis GitHub** dans un Foundry vierge : URL du manifeste
       `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/module.json`, puis le monde avec
       `…/releases/latest/download/world.json`. Vérifier que Foundry voit la bonne version et propose la mise à jour à la
@@ -74,9 +91,10 @@ Le catalogue (<https://foundryvtt.com/packages/>) permet l'installation par simp
   (`https://github.com/Hogun974/lakour-warcraft/releases/download/vX.Y.Z/module.json`, jamais `/latest/`), la
   compatibilité (minimum 14, vérifiée 14.369), les images (`media` du manifeste : couverture, écran de configuration,
   captures), les catégories (contenu d'aventure, système dnd5e) ;
-- la politique de Foundry sur les contenus préparés attend des contenus **faits par des humains** ; les illustrations
-  générées par IA (écran d'accueil, fêtes) sont déclarées comme telles dans le README et `CREDITS.md`, à mentionner
-  honnêtement dans la description si la question est posée ;
+- la politique de Foundry sur les contenus préparés attend des contenus **faits par des humains** : plus aucune image
+  du module n'est générée par une IA (visuels dessinés par programme, voir `CREDITS.md`) ; le code et les textes ont été
+  écrits avec l'aide d'une IA (Claude) et relus par l'auteur, ce que disent les README : à mentionner honnêtement dans
+  la description si la question est posée ;
 - une fois le paquet accepté, chaque release suppose d'ajouter sa version sur foundryvtt.com (à la main, ou plus tard
   par l'API de release de Foundry avec un jeton de paquet dans le workflow).
 
@@ -88,6 +106,9 @@ Un module gratuit n'a pas besoin du catalogue : l'URL du manifeste suffit aux jo
 |---|---|
 | Module (manifeste, à coller dans « Installer un module ») | `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/module.json` |
 | Monde vierge (manifeste, « Installer un monde ») | `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/world.json` |
+| Module anglais (manifeste) | `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/lakour-warcraft-en.json` |
+| Monde vierge anglais (manifeste) | `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/world-en.json` |
+| Tutoriels | `https://github.com/Hogun974/lakour-warcraft/blob/principale/TUTORIEL.md` (français), `…/TUTORIAL.md` (anglais) |
 | Archive du module (installation manuelle) | `https://github.com/Hogun974/lakour-warcraft/releases/latest/download/lakour-warcraft.zip` |
 | Moteur MJ IA (facultatif) | `https://github.com/Hogun974/lakour-mj-ia` (manifeste : voir son README) |
 | Page du projet, README, journal des versions | `https://github.com/Hogun974/lakour-warcraft` |
@@ -132,10 +153,10 @@ Constats et corrections :
 - Liste de fichiers de la release : `lakour-warcraft.zip` nommé **et** couvert par `dist/*.zip` (double envoi) →
   `dist/*.json` + `dist/*.zip`, `fail_on_unmatched_files: true`.
 
-- [ ] **Bloquant, hors des fichiers touchés ici** : même garde cassée dans `outils/fabriquer-warcraft.mjs` :
+- [x] **Bloquant, hors des fichiers touchés ici** (corrigé depuis : la garde compare désormais `pathToFileURL(resolve(argv[1]))`) : même garde cassée dans `outils/fabriquer-warcraft.mjs` :
       `npm run fabriquer-warcraft(-en)` ne fabrique rien sous Linux, `modules/lakour-warcraft-en/` n'existe pas et
       l'empaquetage échoue (« Compendiums non compilés »). Remplacer la ligne par
       `if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {` (imports `node:path`,
       `node:url`).
-- [ ] `CHANGELOG.md` n'a pas de section `## 0.11.0` : texte de release générique.
+- [x] `CHANGELOG.md` n'a pas de section `## 0.11.0` : texte de release générique (section ajoutée depuis).
 - [ ] `lakour-mj-ia` public (ou secret `SOUS_MODULE_TOKEN`) avant de pousser le tag.

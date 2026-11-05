@@ -2,6 +2,9 @@
 
 *[Version française](README.md)*
 
+> **First time?** Follow the **[step-by-step tutorial](TUTORIAL.md)**: from installation to your first session
+> (requirements, module, blank world, English edition, AI GM, troubleshooting).
+
 <p align="center">
   <img src="docs/captures/accueil.png" alt="World login screen" width="49%">
   <img src="docs/captures/carte-cabestan.png" alt="Ratchet — Merchants' Quay, living map of the starter adventure" width="49%">
@@ -17,12 +20,17 @@ an armory, afflictions, professions with a crafting bench, a faction garrison, r
 importable in one click. House rules are **automated** in Foundry, and five **seasonal festivals** bring the Barrens
 to life when the companion [AI GM](https://github.com/Hogun974/lakour-mj-ia) module is present.
 
-**The content is written in French** (the module's user interface is bilingual, French and English; an English
-translation of the content is being considered, see [Languages](#languages)). All texts are original. This is an
-**unofficial fan work, not affiliated with Blizzard Entertainment** (see [Trademarks and licences](#trademarks-and-licences)).
+**The content is written in French**, and an **English edition**, the `lakour-warcraft-en` module, is built from the
+same sources (see [Languages](#languages)). All texts are original. This is an **unofficial fan work, not affiliated
+with Blizzard Entertainment** (see [Trademarks and licences](#trademarks-and-licences)).
+
+**Transparency.** This project's code and texts were written with the help of an AI (Anthropic's Claude), then
+reviewed and corrected by the author. The images (login screen, seasonal festivals, tokens, maps) are **produced
+programmatically**: no image in the repository is AI-generated, and no Blizzard art, text or logo is reused.
 
 ## Contents
 
+- [Tutorial: from zero to your first session](TUTORIAL.md)
 - [Who it is for](#who-it-is-for)
 - [Requirements](#requirements)
 - [Installation](#installation)
@@ -47,7 +55,8 @@ translation of the content is being considered, see [Languages](#languages)). Al
   maps are ready, and handouts (letters, contracts, house rules of an inn) are shown to players with one click.
 - **Players** who want a tauren totem shaman, a Forsaken SI:7 spy or a gnome Kirin Tor battle mage with complete
   dnd5e sheets (traits, advancements, spells, active effects).
-- **French-speaking tables** first: all content is in French.
+- **French-speaking tables** first: the content is written in French; the English edition `lakour-warcraft-en`
+  follows the same sources.
 - **No API key and no paid service** is needed to use the module. The AI GM is an optional companion which does
   require a key from a model provider.
 
@@ -79,6 +88,12 @@ https://github.com/Hogun974/lakour-warcraft/releases/latest/download/module.json
 Then enable `La Kour Warcraft` (and, if you wish, `La Kour – MJ IA`) in a dnd5e world. Updates come through
 Foundry's module screen.
 
+**English edition**: use this manifest instead (never enable both editions in the same world):
+
+```
+https://github.com/Hogun974/lakour-warcraft/releases/latest/download/lakour-warcraft-en.json
+```
+
 ### 2. A blank, ready-to-play world
 
 In Foundry: **Game Worlds › Install World**, manifest URL:
@@ -87,8 +102,10 @@ In Foundry: **Game Worlds › Install World**, manifest URL:
 https://github.com/Hogun974/lakour-warcraft/releases/latest/download/world.json
 ```
 
-The world comes configured (dnd5e system, module enabled, metric units, login screen). You still need to install the
-module (step 1): the world does not embed it.
+The world comes configured (dnd5e system, module enabled, metric units, login screen, content imported, AI GM set
+cautiously: "Le Conteur épique" personality, approval mode, $10 budget per session). It does not embed the module:
+Foundry offers to install its dependencies (`lakour-warcraft`, `lakour-mj-ia`) along with it. The English blank world:
+`https://github.com/Hogun974/lakour-warcraft/releases/latest/download/world-en.json`.
 
 ### 3. From source (to contribute or build yourself)
 
@@ -98,7 +115,7 @@ in `contenu/*.mjs`. You need Node.js 22 or later (developed with Node 25) and gi
 ```bash
 git clone --recurse-submodules https://github.com/Hogun974/lakour-warcraft.git
 cd lakour-warcraft
-npm install                     # @foundryvtt/foundryvtt-cli, pinned version
+npm install                     # pinned dependencies (@foundryvtt/foundryvtt-cli, @resvg/resvg-js)
 npm run fabriquer-warcraft      # checks the content, writes src/ then compiles packs/
 npm run essais                  # optional: 190 tests, two seconds
 node outils/empaqueter-module.mjs   # optional: dist/lakour-warcraft.zip and dist/module.json
@@ -277,8 +294,10 @@ reputations.
 
 - **User interface** of the module (installer, crafting bench, automation messages): French and English, following
   Foundry's language.
-- **Content** (compendiums, journals, maps): French. An English version of the content is being considered;
-  contributions are welcome (see [Contributing](#contributing)).
+- **Content** (compendiums, journals, maps): French. An **English edition**, the `lakour-warcraft-en` module, is built
+  from the same sources and the `contenu/en/` dictionaries (`npm run fabriquer-warcraft-en`) and published with every
+  release, with its own blank world; any text not yet translated appears in French. Never enable both modules in the
+  same world. Translation contributions are welcome (see [Contributing](#contributing)).
 
 ## Tests
 
@@ -298,13 +317,14 @@ modules/lakour-warcraft/        the Foundry module
   src/<pack>/*.json             generated, readable, versioned documents
   packs/                        compiled compendiums (LevelDB), not in git, built by npm run fabriquer-warcraft
   scripts/                      installer, automation, crafting bench, festivals
-  assets/                       tokens (SVG, two styles), map backgrounds, illustrations
+  assets/                       tokens (SVG, two styles), map backgrounds, programmatically drawn images
   lang/fr.json, lang/en.json    user interface
   CREDITS.md                    detailed credits (icons, SRD)
 modules/lakour-mj-ia/           submodule: the shared engine (AI GM, map and token tools, validator)
-outils/                         build tools (compendiums, tokens) and release packaging
+outils/                         build tools (compendiums, tokens, images) and release packaging
 essais/                         Node tests
 docs/                           data shapes, publication checklist, screenshots
+TUTORIEL.md, TUTORIAL.md        step-by-step tutorials (French, English)
 .github/workflows/release.yml   GitHub release on every v* tag
 ```
 
@@ -323,15 +343,17 @@ docs/                           data shapes, publication checklist, screenshots
 
 ## Credits
 
-- **Texts**: written by the module's author; adventures, NPCs, items, spells and guides are original.
+- **Texts and code**: written by the module's author with the help of an AI (Anthropic's Claude), then reviewed and
+  corrected by them; adventures, NPCs, items, spells and guides are original.
 - **Token icons**: silhouettes from [game-icons.net](https://game-icons.net) (Carl Olsen, Caro Asercion,
   Cathelineau, DarkZaitzev, Delapouite, Kier Heyl, Lorc, Skoll), licensed
   [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), recoloured and composed into medallions by the
   repository's build tools; the icon-by-icon list is in
   [`modules/lakour-warcraft/CREDITS.md`](modules/lakour-warcraft/CREDITS.md).
 - **Feature and item icons**: those shipped with Foundry VTT (`icons/`), used from the Foundry installation.
-- **Illustrations** (login screen, seasonal festivals): images generated locally by the author with an image model
-  running on their own machine, without any remote service.
+- **Images** (login screen, seasonal festivals): drawn programmatically (gradients, silhouettes, patterns and a few
+  game-icons.net icons) by `outils/fabriquer-visuels-warcraft.mjs` (`npm run fabriquer-visuels-warcraft`); no
+  AI-generated image.
 - **D&D rules**: SRD classes, feats, spells and equipment are referenced in the installed dnd5e system, never
   copied. The bestiary's numeric profiles are adapted and renamed from the SRD 5.2.1, and the Aspect of the Dragonflights
   subclass follows the draconic bloodline progression of the SRD 5.1; the attribution required by the licence is below.
@@ -365,7 +387,7 @@ the Coast. Foundry Virtual Tabletop is a trademark of Foundry Gaming, LLC.
 - **Code** (`modules/lakour-warcraft/scripts/`, `templates/`, `lang/`, `outils/`, `essais/`, `docs/`): **MIT** licence,
   see [`LICENSE`](LICENSE) (© 2026 Hogun974).
 - **Original texts, game data and images** (`contenu/` and its English dictionaries, the `src/` and `packs/`
-  compendiums, the English module `lakour-warcraft-en`, the blank world `monde/`, illustrations, maps and composed
+  compendiums, the English module `lakour-warcraft-en`, the blank world `monde/`, images, maps and composed
   tokens in `assets/`): [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/) (attribution,
   non-commercial, share-alike). Expected attribution: "LaKour — Hogun974", with a link to this repository and to the
   licence.

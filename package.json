@@ -6,6 +6,7 @@
   "scripts": {
     "essais": "node --test \"essais/**/*.test.mjs\"",
     "fabriquer-jetons-warcraft": "node outils/fabriquer-jetons-warcraft.mjs",
+    "fabriquer-visuels-warcraft": "node outils/fabriquer-visuels-warcraft.mjs",
     "fabriquer-warcraft": "node outils/fabriquer-warcraft.mjs",
     "fabriquer-warcraft-en": "node outils/fabriquer-warcraft.mjs --langue en",
     "contrat": "node modules/lakour-mj-ia/outils/contrat-contenu.mjs modules/lakour-warcraft",
@@ -13,6 +14,7 @@
     "empaqueter-monde": "node modules/lakour-mj-ia/outils/empaqueter-monde.mjs"
   },
   "devDependencies": {
-    "@foundryvtt/foundryvtt-cli": "3.0.5"
+    "@foundryvtt/foundryvtt-cli": "3.0.5",
+    "@resvg/resvg-js": "2.6.2"
   }
 }
