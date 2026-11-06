@@ -4,6 +4,15 @@ Les versions sont celles du module `lakour-warcraft` (`modules/lakour-warcraft/m
 `lakour-mj-ia` (sous-module) a son propre journal ; la version du moteur embarquée est rappelée quand elle change.
 Format : [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/), dates au format AAAA-MM-JJ.
 
+## 0.11.2 — 2026-11-06
+
+### Corrigé
+
+- **Mise à jour des journaux : pages intactes mieux reconnues** (`scripts/mise-a-jour.js`, commun aux quatre modules LaKour) :
+  à la création d'une page, le serveur Foundry pose sa date de modification quelques millisecondes après sa date de création
+  (1 à 59 ms relevés sur LaKour). Une page importée avant les empreintes passait donc pour retouchée et n'était plus remise à
+  jour. Elle compte maintenant comme intacte si elle n'a pas été modifiée plus de 5 secondes après sa création.
+
 ## 0.11.1 — 2026-11-05
 
 ### Modifié

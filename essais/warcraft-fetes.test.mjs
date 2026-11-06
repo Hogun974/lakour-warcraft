@@ -309,8 +309,8 @@ test("fêtes : enregistrement dans chaque navigateur, défensif sans moteur, hor
 test("version : module 0.11.0, contenu 0.11.0", () => {
   const module = JSON.parse(readFileSync(new URL(`modules/${M}/module.json`, RACINE), "utf8"));
   const main = readFileSync(new URL(`modules/${M}/scripts/main.js`, RACINE), "utf8");
-  assert.equal(module.version, "0.11.1");
-  assert.equal(/const VERSION_CONTENU = "([^"]+)"/.exec(main)?.[1], "0.11.1");
+  assert.equal(module.version, "0.11.2");
+  assert.equal(/const VERSION_CONTENU = "([^"]+)"/.exec(main)?.[1], "0.11.2");
 });
 
 test("fêtes : scripts/fetes.js est la source unique, contenu/fetes.mjs l'importe", () => {

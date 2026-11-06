@@ -64,7 +64,7 @@ test("journaux du module : un guide importé caché redevient visible comme au c
 });
 
 test("journaux du module : la mise à jour complète le journal sans écraser les retouches ni les pages du MJ IA", async () => {
-  const neuve = { createdTime: 1, modifiedTime: 1 }, retouchee = { createdTime: 1, modifiedTime: 2 };
+  const neuve = { createdTime: 1, modifiedTime: 1 }, retouchee = { createdTime: 1, modifiedTime: 3_600_001 };
   const page = (id, texte, extra = {}) => ({ id, toObject: () => ({ _id: id, name: id, type: "text", sort: 0, text: { content: texte }, flags: {}, ...extra }) });
   const ops = [];
   const existant = {

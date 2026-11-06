@@ -9,7 +9,7 @@ import { enregistrerFetes } from "./fetes.js";   // Fêtes de saison des Tarides
 
 import { ID, ANGLAIS } from "./identite.js";   // « lakour-warcraft » ou « lakour-warcraft-en » (version anglaise), selon le dossier du module
 import { avecEmpreintes, planMiseAJour } from "./mise-a-jour.js";
-const VERSION_CONTENU = "0.11.1";   // 0.4.0 : journaux liés (@UUID, jets), listes de sorts, cartes vivantes (sons, zones, épingles) ;
+const VERSION_CONTENU = "0.11.2";   // 0.4.0 : journaux liés (@UUID, jets), listes de sorts, cartes vivantes (sons, zones, épingles) ;
                                    // 0.4.2 : one-shot « Une nuit aux Deux Lanternes » (journaux, cartes et dossier proposés aux mondes déjà installés) ;
                                    // 0.5.0 : Tarides vivantes (contrats, donjon de Mèche-Noire, montures et routes aériennes, rares,
                                    //         consommables, réputation : journaux et horloges de réputation des factions) ;

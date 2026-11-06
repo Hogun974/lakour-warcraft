@@ -24682,7 +24682,7 @@
         "lakour-warcraft": {
           "cle": "guide-de-la-reputation",
           "collection": "reputation",
-          "version": "0.11.1"
+          "version": "0.11.2"
         }
       },
       "_stats": {
@@ -24922,7 +24922,7 @@
         "lakour-warcraft": {
           "cle": "routes-aeriennes-des-tarides",
           "collection": "montures",
-          "version": "0.11.1"
+          "version": "0.11.2"
         }
       },
       "_stats": {
@@ -25000,7 +25000,7 @@
         "lakour-warcraft": {
           "cle": "rares-et-elites-des-tarides",
           "collection": "rares",
-          "version": "0.11.1"
+          "version": "0.11.2"
         }
       },
       "_stats": {
@@ -25096,7 +25096,7 @@
         "lakour-warcraft": {
           "cle": "tableau-des-contrats",
           "collection": "contrats",
-          "version": "0.11.1"
+          "version": "0.11.2"
         }
       },
       "_stats": {
