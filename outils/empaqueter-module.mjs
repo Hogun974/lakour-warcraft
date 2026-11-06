@@ -52,12 +52,17 @@ export function options(argv) {
 // ---------------------------------------------------------------- Manifeste publié
 
 // Le manifeste publié pointe toujours vers la dernière release (manifest) et vers l'archive de SA version (download).
+// Lien stable vers un fichier de la dernière release : GitHub sert releases/latest/download/<fichier>, Forgejo (le dépôt
+// interne de LaKour, https://code.lan.egaonoinu.re) sert releases/download/latest/<fichier>.
+export const lienDerniere = (depot, fichier) => depot.startsWith("https://github.com/")
+  ? `${depot}/releases/latest/download/${fichier}` : `${depot}/releases/download/latest/${fichier}`;
+
 export function manifestePublie(manifeste, version, depot, module = manifeste.id ?? MODULE) {
   return {
     ...manifeste,
     version,
     url: depot,
-    manifest: `${depot}/releases/latest/download/${nomManifeste(module)}`,
+    manifest: lienDerniere(depot, nomManifeste(module)),
     download: `${depot}/releases/download/v${version}/${nomArchive(module)}`
   };
 }
