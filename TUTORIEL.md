@@ -30,7 +30,7 @@ Comptez une demi-heure, téléchargements compris.
 | **Foundry Virtual Tabletop** | **v14** (testé avec la 14.370 ; manifeste vérifié avec la 14.369) | Licence Foundry nécessaire. Le module ne fonctionne pas en v13. |
 | **Système `dnd5e`** | **6.0.6** conseillée | Le module accepte la 6.0.0 et plus ; le monde vierge exige **6.0.6 ou plus**. Gratuit, s'installe depuis Foundry (**Systèmes de jeu › Installer un système**, chercher « Dungeons & Dragons Fifth Edition »). |
 | **Module `lakour-warcraft`** | dernière version | Le contenu : peuples, sous-classes, objets, bestiaire, aventures, cartes. |
-| **Module `lakour-mj-ia`** (La Kour – MJ IA) | 0.40.1 ou plus | **Facultatif** pour le module seul, **requis** par le monde vierge (à installer avant lui, section 3). Fêtes de saison, horloges de réputation, style visuel plat ou relief, et le meneur de jeu IA s'il est configuré. |
+| **Module `lakour-mj-ia`** (La Kour – MJ IA) | **0.44.1** ou plus | **Facultatif** pour le module seul, **requis** par le monde vierge (à installer avant lui, section 3). Fêtes de saison, horloges de réputation, style visuel plat ou relief, et le meneur de jeu IA s'il est configuré. |
 
 **Pour jouer en français** (recommandé, rien n'est obligatoire) :
 
@@ -186,6 +186,35 @@ d'utilisation dans chaque monde (journaux *MJ IA — Guide du MJ* et *MJ IA — 
 Deux précautions : fixez un **plafond de dépense** sur la clé chez le fournisseur (le budget du module n'est qu'une
 estimation), et ne menez pas le MJ IA depuis un poste partagé (la clé est gardée dans le navigateur du MJ).
 
+### Caméras des joueurs
+
+Si vous jouez avec la voix et la vidéo intégrées de Foundry (A/V), ouvrez la console du MJ IA (chapeau de magicien) :
+son bloc **Caméras des joueurs** dit si elles sont permises ou coupées.
+
+1. Le monde est en audio seul ? **Ajouter la vidéo** le passe en « Audio et vidéo » (le serveur relais est gardé) ;
+   chacun recharge la page quand Foundry le propose, puis choisit sa caméra dans *Configurer l'audio et la vidéo ›
+   Client*.
+2. Des joueurs sont nommés « sans droit de caméra » ? **Donner la caméra aux joueurs** accorde le droit « Diffuser la
+   vidéo » au rôle Joueur.
+3. **Couper les caméras** et **Permettre les caméras** basculent le réglage *Caméras des joueurs permises* (aussi dans
+   *Réglages › MJ IA*, coché par défaut). Coupées, aucune caméra de joueur ne s'affiche chez personne, même si un joueur
+   rallume la sienne depuis la console de son navigateur ; la vôtre reste, et **les micros ne bougent pas**.
+
+### Compagnons IA, coût et pilote automatique
+
+- **Modèle des compagnons** : *Réglages › MJ IA › Modèle des compagnons IA* est une liste. *Par défaut* (vide) prend un
+  modèle économique du fournisseur actif (Claude Haiku 5.5, ou le moins cher d'OpenAI) ; un modèle de l'autre
+  fournisseur revient à ce défaut.
+- **Coût** : la console affiche le coût estimé de la séance en cours (narrateur, compagnons, voix, transcription) face
+  au budget ; rouvrez-la pour le voir à jour. Au budget atteint, le narrateur s'arrête et vous prévient, et les
+  compagnons passent en mode simple, sans IA.
+- **Pilote automatique** : quand plus aucun joueur connecté n'a le jeton de son personnage sur la scène active et que
+  des compagnons IA y sont, le MJ IA peut mener seul la suite. Il faut l'autonomie *Autonome* : en mode validation, celui
+  du monde vierge, vous recevez seulement un avis. Le pilote rend la main au retour d'un joueur, s'arrête au budget ou
+  après 60 étapes (réglable), et la console l'arrête ou le relance.
+
+Détails de ces quatre fonctions : [README, « Ce que le moteur 0.44.1 apporte à la table »](README.md#ce-que-le-moteur-0441-apporte-à-la-table).
+
 ## 8. Règles maison automatisées
 
 Le module applique ses règles d'Azeroth dans Foundry quand c'est possible ; seul le **MJ connecté** écrit dans le
@@ -228,6 +257,8 @@ Le détail est dans le [README](README.md#règles-maison-et-automatisations).
 | Pas de barre d'outils ni de console du MJ IA | aucune scène active | Activez une scène (clic droit sur la carte › *Activer*). |
 | Une aura, un totem ou un familier ne réagit pas | aucun MJ connecté, ou automatisme désactivé faute d'API | Un MJ doit être connecté ; relisez le texte de la capacité, qui dit ce qui reste à la main. |
 | Le MJ IA ne répond pas | pas de clé, budget atteint, ou mode validation en attente | Voir la console du MJ IA et le [tutoriel du moteur](https://github.com/Hogun974/lakour-mj-ia/blob/principale/TUTORIEL.md). |
+| Les caméras des joueurs ne s'affichent pas | monde en audio seul, caméras coupées par le réglage, ou joueurs sans droit « Diffuser la vidéo » | Console du MJ IA, bloc **Caméras des joueurs** : *Ajouter la vidéo*, *Permettre les caméras* ou *Donner la caméra aux joueurs* (section 7). |
+| Le pilote automatique ne démarre pas | autonomie en validation, réglage du pilote décoché, ou un joueur connecté a encore son jeton visible sur la scène active | Passez l'autonomie en *Autonome* ; un joueur hors ligne ne compte pas (section 7). |
 | Les illustrations des fêtes ou le fond d'accueil manquent | module ancien ou installation incomplète | Mettez à jour le module (les visuels sont dans `assets/`). |
 
 Un autre souci ? Ouvrez une [issue](https://github.com/Hogun974/lakour-warcraft/issues) avec les versions de Foundry,

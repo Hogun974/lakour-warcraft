@@ -4,7 +4,18 @@ Les versions sont celles du module `lakour-warcraft` (`modules/lakour-warcraft/m
 `lakour-mj-ia` (sous-module) a son propre journal ; la version du moteur embarquée est rappelée quand elle change.
 Format : [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/), dates au format AAAA-MM-JJ.
 
-## 0.11.2 — 2026-11-06
+## Non publié
+
+### Modifié
+
+- **Moteur MJ IA 0.44.1** (sous-module `modules/lakour-mj-ia`) : réglage « Caméras des joueurs permises » et bloc
+  « Caméras des joueurs » de la console (couper ou permettre, ajouter la vidéo au monde, donner la caméra aux joueurs ;
+  le micro n'est jamais touché), modèle des compagnons IA choisi dans une liste (vide : un modèle économique du
+  fournisseur actif), coût de la séance compté à chaque appel et budget respecté par le narrateur comme par les
+  compagnons, pilote automatique qui ne compte que les joueurs connectés.
+- README (français, anglais) : section « Ce que le moteur 0.44.1 apporte à la table » ; moteur requis 0.44.1 dans les
+  prérequis. Tutoriels : caméras, compagnons, coût et pilote automatique dans la section du MJ IA, deux lignes de
+  dépannage, moteur 0.44.1 au lieu de 0.40.1 ; le tutoriel anglais dit que le MJ IA raconte dans la langue du monde.
 
 ### Corrigé
 

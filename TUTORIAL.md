@@ -30,7 +30,7 @@ downloads included.
 | **Foundry Virtual Tabletop** | **v14** (tested with 14.370; manifest verified with 14.369) | A Foundry licence is required. The module does not work on v13. |
 | **`dnd5e` system** | **6.0.6** recommended | The module accepts 6.0.0 and later; the blank world requires **6.0.6 or later**. Free, installed from Foundry (**Game Systems › Install System**, search for "Dungeons & Dragons Fifth Edition"). |
 | **Module `lakour-warcraft-en`** (English) or `lakour-warcraft` (French) | latest | The content: species, subclasses, items, bestiary, adventures, maps. |
-| **Module `lakour-mj-ia`** (La Kour – MJ IA, the AI GM) | 0.40.1 or later | **Optional** for the module alone, **required** by the blank world (install it first, section 3). Seasonal festivals, reputation clocks, flat or relief visual style, and the AI game master once configured. |
+| **Module `lakour-mj-ia`** (La Kour – MJ IA, the AI GM) | **0.44.1** or later | **Optional** for the module alone, **required** by the blank world (install it first, section 3). Seasonal festivals, reputation clocks, flat or relief visual style, and the AI game master once configured. |
 
 **Optional modules** the blank world enables when present and the AI GM can use: Sequencer and JB2A (animations),
 Automated Animations, FXMaster (weather), Calendaria (date and daily weather), Item Piles (loot, chests, merchants),
@@ -174,8 +174,36 @@ explained in the engine's tutorial:
 guide in every world (journals *MJ IA — GM's Guide* and *MJ IA — Players' Guide*).
 
 Two precautions: set a **spending cap** on the key at the provider (the module's budget is only an estimate), and do
-not run the AI GM from a shared computer (the key is kept in the GM's browser). The AI GM's own prompts and narration
-are in French for now.
+not run the AI GM from a shared computer (the key is kept in the GM's browser). The AI GM narrates in the world's
+language (English with `lakour-warcraft-en`); its internal prompts stay in French.
+
+### Players' cameras
+
+If you play with Foundry's built-in audio and video (A/V), open the AI GM console (wizard hat): its **Players'
+cameras** block says whether they are allowed or cut.
+
+1. The world is audio only? **Add video** switches it to "Audio & Video" (the relay server is kept); everyone reloads
+   the page when Foundry offers it, then picks a camera in *Configure Audio/Video › Client*.
+2. Some players are listed under "No camera permission"? **Give players the camera** grants the "Broadcast Video"
+   permission to the Player role.
+3. **Cut the cameras** and **Allow the cameras** toggle the *Players' cameras allowed* setting (also in *Settings › MJ
+   IA*, checked by default). Once cut, no player's camera is shown to anyone, even if a player switches theirs back on
+   from their browser console; yours stays, and **microphones are left alone**.
+
+### AI companions, cost and autopilot
+
+- **Companions model**: *Settings › MJ IA › AI companions model* is a list. *Default* (empty) takes a cheap model from
+  the active provider (Claude Haiku 5.5, or OpenAI's cheapest); a model from the other provider falls back to that
+  default.
+- **Cost**: the console shows the current session's estimated cost (narrator, companions, voice, transcription)
+  against the budget; reopen it to see it up to date. Once the budget is reached, the narrator stops and warns you, and
+  the companions go on in simple mode, without AI.
+- **Autopilot**: when no connected player has their character's token on the active scene and AI companions are
+  there, the AI GM can carry on alone. It needs *Autonomous* autonomy: in approval mode, the blank world's, you only get
+  a notice. The autopilot hands control back when a player returns, stops at the budget or after 60 steps (adjustable),
+  and the console stops or restarts it.
+
+These four features in detail: [README, "What engine 0.44.1 brings to the table"](README.en.md#what-engine-0441-brings-to-the-table).
 
 ## 8. Automated house rules
 
@@ -219,6 +247,8 @@ Details are in the [README](README.en.md#house-rules-and-automation).
 | No toolbar and no AI GM console | no active scene | Activate a scene (right-click the map › *Activate*). |
 | An aura, totem or companion does not react | no GM connected, or automation off for lack of an API | A GM must be connected; the feature's text says what stays manual. |
 | The AI GM does not answer | no key, budget reached, or an approval pending | Check the AI GM console and the [engine tutorial](https://github.com/Hogun974/lakour-mj-ia/blob/principale/TUTORIAL.md). |
+| Players' cameras are not shown | world in audio only, cameras cut by the setting, or players without the "Broadcast Video" permission | AI GM console, **Players' cameras** block: *Add video*, *Allow the cameras* or *Give players the camera* (section 7). |
+| The autopilot does not start | autonomy set to approval, autopilot setting unchecked, or a connected player still has a visible token on the active scene | Set autonomy to *Autonomous*; an offline player does not count (section 7). |
 | Festival images or the login background are missing | old module or incomplete install | Update the module (the images are in `assets/`). |
 
 Another problem? Open an [issue](https://github.com/Hogun974/lakour-warcraft/issues) with your Foundry, dnd5e and

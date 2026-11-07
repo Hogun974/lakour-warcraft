@@ -66,7 +66,7 @@ programme** : aucune image du dépôt n'est générée par une IA, et aucun art,
 |---|---|---|
 | Foundry Virtual Tabletop | **v14** (vérifié avec la 14.369) | Licence Foundry nécessaire, comme pour tout module. Le module n'est pas compatible v13. |
 | Système `dnd5e` | **6.0.0 ou plus** (développé et éprouvé avec la 6.0.6) | Gratuit ; apporte les règles 2024 et le SRD 5.2.1 (classes, sorts, dons, équipement). Le module s'y réfère sans rien recopier. |
-| Module `lakour-mj-ia` (MJ IA) | facultatif | Fêtes de saison, horloges de réputation, style visuel plat ou relief, meneur de jeu IA. Sans lui, le reste du module fonctionne. |
+| Module `lakour-mj-ia` (MJ IA) | **0.44.1** ou plus, facultatif | Fêtes de saison, horloges de réputation, style visuel plat ou relief, meneur de jeu IA. Sans lui, le reste du module fonctionne. Le monde vierge l'exige ; ce dépôt embarque la 0.44.1 en sous-module. |
 
 Modules facultatifs que le code sait exploiter quand ils sont actifs (rien n'est exigé) :
 
@@ -318,6 +318,36 @@ compagnons IA pour compléter la table et anime les fêtes. Il apporte aussi des
 guidé, carnet de campagne, style visuel plat ou relief. Son guide d'utilisation est installé dans chaque monde et lisible
 dans son dépôt. Ce module de contenu lui fournit ce qu'il attend : figurants, index des jetons, plans des cartes,
 fêtes, réputations.
+
+### Ce que le moteur 0.44.1 apporte à la table
+
+Ces fonctions viennent du moteur commun et valent pour les quatre mondes de La Kour ; elles demandent `lakour-mj-ia`
+**0.44.1** ou plus.
+
+- **Caméras des joueurs.** Avec la voix et la vidéo intégrées de Foundry (A/V), le MJ permet ou coupe d'un geste les
+  caméras de tous les joueurs : réglage **Caméras des joueurs permises** (*Réglages › MJ IA*, coché par défaut), ou bloc
+  **Caméras des joueurs** de la console du MJ IA (chapeau de magicien), affiché dès que l'A/V du monde est actif. Ce bloc
+  coupe ou permet les caméras d'un clic, propose **Ajouter la vidéo** quand le monde est en audio seul (le monde passe en
+  « Audio et vidéo », serveur relais gardé, et chacun recharge la page) et **Donner la caméra aux joueurs** quand certains
+  n'ont pas le droit « Diffuser la vidéo » (accordé alors au rôle Joueur). Coupée, la caméra de chaque joueur est fermée
+  dans son navigateur et cachée dans tous les autres : un joueur qui la rallumerait depuis la console de son navigateur
+  n'est affiché chez personne. Le MJ garde la sienne, et **le micro n'est jamais touché**. Sans A/V, rien ne change.
+- **Modèle des compagnons IA, dans une liste.** Le réglage *Modèle des compagnons IA* propose *Par défaut* (vide : un
+  modèle économique du fournisseur actif, Claude Haiku 5.5 chez Anthropic ou le moins cher de la liste chez OpenAI), les
+  modèles Claude et les modèles OpenAI connus du moteur. Un modèle d'un autre fournisseur que celui du MJ revient au
+  défaut ; un nom tapé à la main avec une version plus ancienne est repris s'il est reconnu, sinon remplacé par le défaut.
+- **Coût de la séance, budget tenu.** Chaque appel est compté : narrateur, compagnons IA, voix et transcription. La
+  console du MJ IA affiche le coût estimé de la séance en cours face au *Budget par séance* (rouvrez-la pour le voir à
+  jour) ; au budget atteint, le narrateur s'arrête en prévenant le MJ, et les compagnons n'appellent plus de modèle (ils
+  continuent en mode simple, sans IA). L'estimation suit les prix relevés dans le moteur : la facture du fournisseur fait
+  foi, et un modèle OpenAI dont le prix est inconnu est signalé dans la console (le budget ne peut alors rien compter).
+- **Pilote automatique.** Quand plus aucun personnage d'un joueur **connecté** n'a de jeton visible sur la scène active,
+  mais que des compagnons IA y sont, le MJ IA mène seul la suite, étape par étape : les combats tour après tour et, hors
+  combat, au plus six échanges avec les compagnons avant une pause. Un joueur hors ligne ne compte pas. Il faut une
+  séance lancée, l'autonomie *Autonome* et le réglage *Pilote automatique (compagnons seuls)* coché (par défaut) ; en mode
+  validation, celui du monde vierge, le MJ reçoit seulement un avis. Le pilote rend la main dès qu'un joueur connecté
+  revient, et s'arrête au budget, au plafond d'étapes (60 par défaut) ou quand la partie n'avance plus ; la console du MJ
+  IA l'arrête ou le relance.
 
 ## Sécurité
 
